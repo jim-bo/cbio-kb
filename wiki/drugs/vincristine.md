@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [chemotherapy-backbone]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # vincristine
@@ -23,6 +23,9 @@ Vinca alkaloid microtubule inhibitor; the "O" (Oncovin) in CHOP.
 - Component of PCV (procarbazine/lomustine/vincristine) induction regimen used as the historical comparator arm in a phase II trial (NCT00588523) for 1p/19q-codeleted [anaplastic oligodendroglioma (ODG3)](../cancer_types/ODG3.md); in an exploratory cross-trial comparison, single-agent TMZ induction was non-inferior to PCV induction with the same HDC-ASCT backbone (HR 3.38 favoring TMZ for OS, P=0.005). [PMID:28472509](../papers/28472509.md)
 - Component of R-CHOP regimen; 85% of 304 DLBCL patients received R-CHOP-like therapy; C0/C1/C4 clusters had favorable PFS/OS while C2/C3/C5 had unfavorable outcomes on R-CHOP [PMID:29713087](../papers/29713087.md)
 - One patient (P19) in the Kothari et al. retinoblastoma cfDNA cohort had received 1 cycle of systemic carboplatin/etoposide/vincristine at an outside institution before plasma collection; this prior chemotherapy was associated with undetectable cfDNA RB1 signal despite 1596× coverage [PMID:32633890](../papers/32633890.md).
+- Vincristine is listed among the chemotherapy regimen components (with cyclophosphamide, doxorubicin, methotrexate, prednisone, etoposide, ifosfamide, cytarabine and rituximab) used across the Burkitt lymphoma/DLBCL genomic cohort. [PMID:36201743](../papers/36201743.md)
+- In a paraganglioma patient with lung and bone metastases, CVD chemotherapy (cyclophosphamide, vincristine, dacarbazine) preceded a post-treatment spinal metastasis with twice as many SNVs, including new TP53, RPL5 and POLE mutations. [PMID:40097403](../papers/40097403.md)
+- Patients with MYOD1-mutant spindle cell/sclerosing rhabdomyosarcoma most commonly received neoadjuvant vincristine, dactinomycin and cyclophosphamide (VAC) before delayed resection. [PMID:41758938](../papers/41758938.md)
 
 ## Resistance mechanisms
 
@@ -48,3 +51,12 @@ Vinca alkaloid microtubule inhibitor; the "O" (Oncovin) in CHOP.
 - [PMID:32633890](../papers/32633890.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:36201743](../papers/36201743.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40097403](../papers/40097403.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41758938](../papers/41758938.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

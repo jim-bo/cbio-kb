@@ -646,3 +646,68 @@
 - drug: pravastatin — observed in PMID:41118283 — note: hydrophilic HMG-CoA reductase (HMGCR) inhibitor / statin; phase 2/3 trials with sorafenib in HCC failed to improve survival; not in OncoKB as anti-cancer agent; unverified: true
 - drug: simvastatin — observed in PMID:41118283 — note: lipophilic HMG-CoA reductase (HMGCR) inhibitor / statin; epidemiologic HCC risk reduction stronger than hydrophilic statins; not in OncoKB as anti-cancer agent; unverified: true
 - drug: orlistat — observed in PMID:41118283 — note: FASN inhibitor (also pancreatic lipase inhibitor approved for obesity); preclinical HCC suppression; synergizes with sorafenib and anti-PD-L1; not in OncoKB as anti-cancer agent; unverified: true
+
+- drug: copanlisib — observed in PMID:41758938 — note: pan-class I PI3K inhibitor (PIK3CA/PIK3CD) tested in a rhabdomyosarcoma PDXO drug screen; not found in cBioPortal/OncoKB lookup
+- drug: dactinomycin — observed in PMID:41758938 — note: component of standard VAC neoadjuvant chemotherapy for rhabdomyosarcoma; not found in cBioPortal/OncoKB lookup
+- drug: dexamethasone — observed in PMID:30742122 — note: corticosteroid, trial-eligibility/confound factor in a neoadjuvant pembrolizumab GBM trial; not found in cBioPortal/OncoKB lookup
+- drug: fcn-159 — observed in PMID:37980418 — note: investigational MEK1/2 inhibitor matched to a single NRAS-mutant solitary fibrous tumor case; not found in OncoKB catalog lookup.
+- drug: iobenguane-i-131 — observed in PMID:40097403 — note: radiolabeled norepinephrine analog (131I-MIBG) targeted radiotherapy for pheochromocytoma/paraganglioma; not found in OncoKB catalog lookup.
+- drug: selitrectinib — observed in PMID:36044468 — note: next-generation selective TRK inhibitor, combined with a MET inhibitor in one acquired-resistance case
+- drug: sotigalimab — observed in PMID:35662283 — note: CD40 agonist antibody tested with chemo/nivolumab in the PRINCE trial for metastatic pancreatic cancer
+- drug: vorasidenib — observed in PMID:37980418 — note: dual IDH1/IDH2 inhibitor, proposed for IDH1 p.R132S-mutant solitary fibrous tumor
+- drug: zanidatamab — observed in PMID:42360806 — note: HER2 biparatopic bispecific antibody, partial responses in two ERBB2-amplified gallbladder cancer cases
+- drug: lirilumab — observed in PMID:27169994 — note: anti-KIR monoclonal antibody (NK-cell checkpoint inhibitor) proposed as a nivolumab combination partner in metastatic RCC; not in an OncoKB drug catalog synced to this repo.
+- drug: lutetium-lu-177-dotatate — observed in PMID:40097403 — note: 177Lu-DOTA-octreotate (Lutathera), SSTR2-targeted PRRT, used/discussed in SDHB-mutant pheochromocytoma/paraganglioma.
+- drug: pd0325901 — observed in PMID:37980418 — note: MEK1/2 inhibitor matched to an NRAS Q61K solitary fibrous tumor case as candidate targeted therapy.
+- drug: samotolisib — observed in PMID:41758938 — note: dual PI3K/mTOR inhibitor (LY3023414) with in vivo activity in MYOD1-mutant spindle cell/sclerosing rhabdomyosarcoma PDX models.
+- drug: sapanisertib — observed in PMID:41758938 — note: mTORC1/2 inhibitor (MLN0128/TAK-228) showing sensitivity in a PDX-organoid screen of MYOD1-mutant SCSRMS.
+
+- method: affymetrix-hg-u219 — observed in PMID:27169994 — note: Affymetrix HG-U219 expression microarray used for pharmacodynamic profiling in a nivolumab RCC trial
+- method: arriba — observed in PMID:40097403 — note: RNA-seq fusion caller used in SDHB-related PCPG multi-omic study
+- method: bcr-seq — observed in PMID:35121644 — note: B-cell receptor repertoire sequencing in a TNBC cyclophosphamide+pembrolizumab trial
+- method: bradley-terry-model — observed in PMID:24030381 — note: statistical model for inferring global mutation-order ranking in an MDS cohort
+- method: c-circle-assay — observed in PMID:40097403 — note: ALT-pathway biomarker assay used in SDHB-related PCPG
+- method: cancer-genome-interpreter — observed in PMID:40097403 — note: driver-annotation tool used in SDHB-related PCPG
+- method: ccrcc-12-gene-classifier — observed in PMID:36815791 — note: custom 12-gene ccRCC validation sequencing panel
+- method: cibersort — observed in PMID:36001024 — note: immune-cell deconvolution algorithm (LM22 reference, SVR-based), run in absolute mode alongside ESTIMATE and xCell
+- method: control-freec — observed in PMID:36201743 — note: copy-number/LOH caller normalized against matched-normal sequencing depth, used alongside Battenberg
+- method: crispr-cas9-knockout — observed in PMID:38347189 — note: CRISPR-Cas9 gene knockout in cell lines for functional validation of candidate driver genes
+- method: deseq2 — observed in PMID:35121644 — note: R/Bioconductor negative-binomial differential-expression tool for RNA-seq count data
+- method: dhitsig — observed in PMID:36201743 — note: gene-expression classifier for double-hit/molecular-high-grade DLBCL biology
+- method: disambiguate — observed in PMID:37990009 — note: classifies PDX sequencing reads as human tumor vs mouse host
+- method: e-driver — observed in PMID:35487942 — note: driver-discovery tool testing mutation clustering within protein functional domains
+- method: pairtree — observed in PMID:40097403 — note: Bayesian clone-tree/phylogeny reconstruction method from multi-sample VAF data
+- method: pd-l1-ihc-28-8 — observed in PMID:27169994 — note: BMS/Dako PD-L1 IHC companion diagnostic (28-8 antibody clone)
+- method: pd-l1-ihc-sp142 — observed in PMID:27939400 — note: VENTANA SP142 PD-L1 IHC companion diagnostic scored on tumor-infiltrating immune cells
+- method: propensity-score-matching — observed in PMID:40100215 — note: statistical covariate-matching method (MatchIt) for observational cohort comparison
+- method: ptm-sea — observed in PMID:36001024 — note: Post-Translational Modification Signature Enrichment Analysis for phosphoproteomic pathway/kinase-activity scoring
+- method: purecn — observed in PMID:37990009 — note: copy-number and tumor-purity/ploidy estimation tool for WES data
+- method: pvactools — observed in PMID:37990009 — note: neoantigen-prediction pipeline (pVACseq) combining variant calls, HLA typing and peptide-MHC binding prediction
+- method: salmon — observed in PMID:36201743 — note: alignment-free transcript-level RNA-seq quantification tool
+- method: snatac-seq — observed in PMID:40097403 — note: single-nucleus ATAC-seq chromatin accessibility profiling assay
+- method: ssgsea — observed in PMID:36001024 — note: single-sample GSEA pathway/immune scoring method
+- method: ipss — observed in PMID:24030381 — note: IPSS clinical risk score for myelodysplastic syndromes, integrated with driver-mutation data
+- method: lasso-regression — observed in PMID:24030381 — note: LASSO regression used for variable selection in an MDS prognostic model
+- method: leibovich-score — observed in PMID:36815791 — note: Leibovich clinical prognostic score for clear cell RCC used alongside genomic stratification
+- method: lofreq — observed in PMID:29867230 — note: low-frequency somatic variant caller used alongside Strelka in an RCC immunotherapy cohort
+- method: luminex-multiplex-immunoassay — observed in PMID:27169994 — note: bead-based multiplex cytokine immunoassay used in a nivolumab RCC trial
+- method: manta — observed in PMID:36201743 — note: structural-variant caller used across Burkitt lymphoma, pediatric PDX, and ILC breast cancer studies
+- method: mass-cytometry — observed in PMID:30742122 — note: CyTOF single-cell immunoprofiling used across glioblastoma, TNBC, and pancreatic cancer immunotherapy trials
+- method: methylation-specific-pcr — observed in PMID:38347189 — note: MSP used to assess CDH1 promoter methylation in invasive lobular breast carcinoma
+- method: microscaled-proteogenomics — observed in PMID:36001024 — note: low-input TMT proteogenomic workflow used in a TNBC chemoresistance study
+- method: mixcr — observed in PMID:35121644 — note: TCR/BCR repertoire extraction tool used in a TNBC immunotherapy trial
+- method: tempo — observed in PMID:40100215 — note: MSKCC WES analysis pipeline integrating FACETS, MSIsensor, OncoKB and mutational-signature calling, not yet in cBioPortal's canonical method/panel lists
+- method: whole-genome-amplification — observed in PMID:24030381 — note: WGA library-prep step used to amplify limited-input single-cell-colony DNA prior to whole-exome sequencing in a myelodysplastic syndrome clonal-evolution study
+- method: wound-healing-assay — observed in PMID:38347189 — note: scratch wound-healing assay used as an in vitro cell-migration readout after AXIN2/CDH1 CRISPR knockout or siRNA knockdown in MCF7 breast cancer cells
+- method: nanostring-pancancer-immune-profiling — observed in PMID:30742122 — note: 770-gene NanoString nCounter PanCancer Immune Profiling panel for direct digital mRNA quantification of immune genes
+- method: neopredpipe — observed in PMID:35487942 — note: neoantigen prediction pipeline run downstream of HLA typing and somatic variant calling
+- method: netmhccons — observed in PMID:29867230 — note: consensus MHC class I peptide-binding predictor (NetMHC/NetMHCpan/PickPocket) for neoepitope prediction
+- method: olink-proteomics — observed in PMID:35662283 — note: Olink proximity extension assay serum/plasma proteomics (Target96-style multiplex panels)
+- method: oncodrivefm — observed in PMID:35487942 — note: driver-gene discovery tool scoring functional mutation bias, distinct from OncodriveFML
+- method: optitype — observed in PMID:37990009 — note: HLA class I genotyping tool (integer linear programming over exome/RNA-seq reads) feeding neoantigen prediction pipelines
+- method: exomedepth — observed in PMID:35487942 — note: read-depth CNV tool used to estimate mitochondrial DNA copy number from WES reads
+- method: geneplus-1021-gene-panel — observed in PMID:37980418 — note: Geneplus-Beijing ~1021-gene hybrid-capture NGS panel used for a solitary fibrous tumor discovery cohort
+- method: ggnome — observed in PMID:38335254 — note: genome-graph R package (gWalk function) used to confirm chained/looped chromoplexy structures from SV calls
+- method: gsva — observed in PMID:30742122 — note: single-sample gene-set variation analysis used for pathway scoring of tumor RNA-seq
+- method: hotmaps — observed in PMID:36201743 — note: 3D mutation-clustering significantly-mutated-gene caller used as one of four consensus SMG tools
+- method: immotion150-gene-signatures — observed in PMID:29867230 — note: Angio/Teff/myeloid-inflammation RNA-seq gene-expression signatures defined in the IMmotion150 RCC trial

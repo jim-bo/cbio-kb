@@ -3,8 +3,8 @@ symbol: IDH1
 aliases: []
 cancer_types: [DIFG, AST, ODG, IHCH, GB]
 tags: [metabolic-driver, glioma, actionable, epigenetic-evolution]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # IDH1
@@ -73,6 +73,10 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - IDH1 and [IDH2](../genes/IDH2.md) together account for actionable alterations in 27% of chondrosarcomas ([CHS](../cancer_types/CHS.md)) in the MSK sarcoma clinical sequencing cohort ([sarcoma_mskcc_2022](../datasets/sarcoma_mskcc_2022.md), n=1,148; MSK-IMPACT) [PMID:35705560](../papers/35705560.md)
 - Discussed as target of ivosidenib in the AML therapeutic landscape (background context); IDH1 mutation is part of the Beat AML cohort genomic characterization across 942 specimens from 805 [AML](../cancer_types/AML.md) patients [PMID:35868306](../papers/35868306.md)
 - IDH1 R132 mutations identified in 6 CAC cases; enriched in Crohn's disease–associated CAC vs ulcerative colitis; associated with high global methylation; 2-HG production confirmed in PDX; pharmacologic IDH1 inhibition suppressed PDX growth; FDA-approved IDH1 inhibitor ivosidenib (cholangiocarcinoma) supports trial eligibility. [PMID:36611031](../papers/36611031.md)
+- IDH mutation status (isoform not specified; 5/32 patients IDH-mutant) was one of four variables an elastic-net model selected as associated with increased overall survival in glioblastoma treated with neoadjuvant vs adjuvant PD-1 blockade. [PMID:30742122](../papers/30742122.md)
+- IDH1 p.R132S mutated in 6.9% (9/131) of solitary fibrous tumors, enriched in malignant, high-pleomorphism, high-cellularity tumors, not prognostic for PFS, and proposed as an actionable target for IDH1 inhibitors (ivosidenib, vorasidenib). [PMID:37980418](../papers/37980418.md)
+- IDH1 mutations differentially enriched between HOXA and HOXB expression groups among epigenetic-modifier genes in pediatric AML. [PMID:38212634](../papers/38212634.md)
+- IDH1 alterations enriched in intrahepatic cholangiocarcinoma (IDH1/2 altered in 16% of MSS biliary tract tumors overall); median PFS 4.2 months on matched therapy (73/150 patients), co-occurring TP53 and RAS-RAF alterations linked to worse OS, driver retained at resistance with no isoform switching on ivosidenib. [PMID:42360806](../papers/42360806.md)
 
 ## Cancer types (linked)
 
@@ -208,5 +212,9 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - [PMID:35868306](../papers/35868306.md)
 
 - [PMID:36611031](../papers/36611031.md)
+- [PMID:30742122](../papers/30742122.md)
+- [PMID:37980418](../papers/37980418.md)
+- [PMID:38212634](../papers/38212634.md)
+- [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

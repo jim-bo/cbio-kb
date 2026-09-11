@@ -11,7 +11,7 @@ tags:
   - receptor-tyrosine-kinase
   - targeted-therapy
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # IGF1R
@@ -36,6 +36,7 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 - IGF1R variants identified in 7% of 28 recurrent Mayo GBM PDX at frequencies consistent with prior recurrent-glioblastoma reports; some variants also seen in primary PDX, raising the possibility of germline origin [PMID:31852831](../papers/31852831.md)
 - IGF1R is among the genes frequently copy-number altered in endometrial cancer, consistent with TCGA findings [PMID:32059776](../papers/32059776.md)
 - Amplification in 4/41 (9.8%) resistant vs 1/18 (5.6%) sensitive HR+/HER2- MBC biopsies; flagged as a candidate CDK4/6i resistance driver for future study [PMID:32404308](../papers/32404308.md)
+- Receptor expressed by transition/differentiated (not progenitor) MYOD1-mutant rhabdomyosarcoma cells and the top oncogenic master regulator by OncoTarget across single-cell, bulk, and PDX datasets; pharmacologically targeted by linsitinib and GSK1838705A with activity in ex vivo/organoid screens. [PMID:41758938](../papers/41758938.md)
 
 ## Cancer types (linked)
 
@@ -57,43 +58,31 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25369299](../papers/25369299.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29100075](../papers/29100075.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30687805](../papers/30687805.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32404308](../papers/32404308.md)
+- [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [immune-deconvolution, tumor-purity, stromal-scoring, expression-based]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # ESTIMATE
@@ -22,6 +22,8 @@ ESTIMATE (Estimation of STromal and Immune cells in MAlignant Tumor tissues usin
 - ESTIMATE and Bindea immune signatures applied to 206 TCGA sarcomas; NK-cell infiltration was the only immune signature correlated with disease-specific survival across multiple histologies [PMID:29100075](../papers/29100075.md)
 - Used to derive tumor-purity estimates from TCGA GBM data (n=172) for comparison with the recurrent GBM anti-PD-1 cohort; PTEN-mutant tumors had lower purity (p=0.028) [PMID:30742119](../papers/30742119.md)
 - Used in the Sherlock-Lung NS-LUAD study (n=684 tumors) to estimate tumor purity from RNA-seq data as part of the cell-composition deconvolution workflow [PMID:40970133](../papers/40970133.md).
+- Used alongside CIBERSORT (absolute mode) and xCell for immune/stromal deconvolution in a breast cancer proteogenomic cohort [PMID:36001024](../papers/36001024.md)
+- Used alongside ssGSEA, GSEA (GSEApy, MSigDB C2) and TIMER2.0 for expression-based immune/stromal scoring in pediatric solid-tumor PDX models [PMID:37990009](../papers/37990009.md)
 
 ## Notes
 
@@ -47,3 +49,9 @@ ESTIMATE (Estimation of STromal and Immune cells in MAlignant Tumor tissues usin
 - [PMID:40970133](../papers/40970133.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

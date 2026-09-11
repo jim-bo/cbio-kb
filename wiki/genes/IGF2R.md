@@ -6,8 +6,8 @@ aliases:
 cancer_types:
   - HCC
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # IGF2R
@@ -20,6 +20,7 @@ IGF2R (Insulin-like Growth Factor 2 Receptor; also mannose-6-phosphate receptor,
 
 - ~25% allelic loss of IGF2R in HCC; part of the IGF axis (with ~10% IGF2 overexpression and ~21% IGF1R activation) implicated as a therapeutic target in HCC [PMID:25369299](../papers/25369299.md)
 - IGF2R is listed among recurrently mutated genes in the HCC WES landscape (n=1,289), as part of the broader mutational characterization of the IGF signaling axis. [PMID:30061739](../papers/30061739.md)
+- Nonsignaling decoy receptor most abundant in transition/differentiated rhabdomyosarcoma cells, proposed to buffer IGF2 availability and modulate paracrine signal strength. [PMID:41758938](../papers/41758938.md)
 
 ## Cancer types (linked)
 
@@ -39,7 +40,7 @@ IGF2R (Insulin-like Growth Factor 2 Receptor; also mannose-6-phosphate receptor,
 
 - [PMID:25369299](../papers/25369299.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:30061739](../papers/30061739.md)
+- [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

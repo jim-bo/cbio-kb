@@ -5,7 +5,7 @@ main_type: Glioma
 parent: ADIFG
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # Glioblastoma, IDH-Wildtype (GB)
@@ -38,6 +38,9 @@ Glioblastoma, IDH-wildtype (GB) is the most common and aggressive primary brain 
 - IDH wild-type glioma (IDHwt, n=134) had the highest rate of subclonal selection at recurrence (64%, Fisher's P=0.01); subclonal selection in IDHwt associated with shorter overall survival (log-rank P=0.027); alkylating-agent-induced hypermutation rate 16% [PMID:31748746](../papers/31748746.md)
 - Glioblastoma (n=4, 5.3%) was among the TRK fusion-positive tumor types in the MSK prospective cohort; one case showed TPM3-NTRK1 fusion lost at progression on a brain-penetrant TRK inhibitor with concurrent acquisition of focal EGFR amplification (19.6-fold), representing a distinct off-target resistance mechanism [PMID:31871300](../papers/31871300.md)
 - In PCAWG, glioblastoma showed frequent chromothripsis with focal [EGFR](../genes/EGFR.md) amplification and co-deletion of [CDKN2A](../genes/CDKN2A.md); chromothripsis among the most frequent in sarcoma, glioblastoma, lung squamous, melanoma, and breast cancer [PMID:32025007](../papers/32025007.md).
+- In a pan-cancer MSK-IMPACT MET amplification landscape study, high-grade glioma had the second-highest MET amplification rate among cancer types (5.3%) [PMID:36044468](../papers/36044468.md).
+- In a pediatric patient-derived xenograft resource, a glioblastoma PDX and a germ cell tumor PDX both carried an LRPAP1::PDGFRA fusion that retained the PDGFRA kinase domain and drove high PDGFRA expression, confirmed by RT-PCR [PMID:37990009](../papers/37990009.md).
+- In the MSK-50K cohort, PIK3CA mutations in glioblastoma (11% altered) were non-canonical and more subclonal and later-arising than in canonical PIK3CA-driven cancers, and median age at diagnosis was 32 years with H3-3A alterations versus 39 years with ATRX alterations (28 years when both co-occurred) [PMID:41895280](../papers/41895280.md).
 
 ## Subtypes
 
@@ -51,6 +54,7 @@ Glioblastoma, IDH-wildtype (GB) is the most common and aggressive primary brain 
 - Effective GBM treatment likely requires combination therapies targeting multiple core pathways (RTK, p53, RB). [PMID:18772890](../papers/18772890.md)
 - Unlike IDH-mutant gliomas, IDH-wildtype GB does not show treatment-induced epigenetic evolution at recurrence; epigenomic stability means the tumor biology at recurrence resembles the primary tumor. [PMID:38117484](../papers/38117484.md)
 - EGFR-directed ADC radiosensitization (C-MMAE) requires sufficient receptor surface expression; LN229 (EGFR-low GB) xenografts showed no C-MMAE accumulation by Cy5 fluorescence imaging and no radiosensitization, highlighting that not all GB tumors will be susceptible to EGFR-directed ADC approaches. [PMID:27698471](../papers/27698471.md)
+- A randomized phase 2 trial of neoadjuvant pembrolizumab in resectable recurrent glioblastoma (n=32 evaluable) found neoadjuvant PD-1 blockade extended overall survival (13.7 vs 7.5 months; HR 0.39, P=0.04) and PFS versus adjuvant-only dosing, with an interferon-gamma transcriptional signature and lower tumor cell-cycle activity in neoadjuvant-treated tumors [PMID:30742122](../papers/30742122.md).
 
 ## Sources
 
@@ -79,3 +83,15 @@ Glioblastoma, IDH-wildtype (GB) is the most common and aggressive primary brain 
 - [PMID:32025007](../papers/32025007.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30742122](../papers/30742122.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36044468](../papers/36044468.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

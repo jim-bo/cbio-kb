@@ -10,7 +10,7 @@ tags:
   - clinical-sequencing
   - tumor-only
 processed_by: wiki-cli
-processed_at: 2026-05-21
+processed_at: 2026-09-10
 ---
 
 # FoundationOne
@@ -25,6 +25,7 @@ FoundationOne is a commercially available, FDA-approved comprehensive genomic pr
 - Applied to 730 R/M [ACC](../cancer_types/ACC.md) cases at median exon coverage >×500; constituted the largest single platform in the 1,045-case integrated [ACC](../cancer_types/ACC.md) genomic study, enabling discovery of [NOTCH1](../genes/NOTCH1.md) enrichment (26.3% R/M) and chromatin-remodeling alterations [PMID:31483290](../papers/31483290.md).
 - FoundationOne Heme hybrid-capture panel (465 genes, median 704× coverage, plus RNA-seq of 333 rearrangement genes) used for tumor-only profiling of 7,494 sarcoma samples across 44 histologies; reads aligned to hg19 via BWA v0.5.9 [PMID:35705558](../papers/35705558.md)
 - Used for targeted NGS of 34 of 166 colitis-associated cancer (CAC) tumors (315-gene panel); combined with MSK-IMPACT for the overall genomic landscape study of IBD-associated colorectal neoplasia [PMID:36611031](../papers/36611031.md)
+- Used (DNA panel) to determine somatic mutations, tumor mutation load and NGS-based microsatellite status in the IMvigor210 cisplatin-ineligible urothelial carcinoma trial [PMID:27939400](../papers/27939400.md).
 
 ## Notes
 
@@ -35,15 +36,11 @@ FoundationOne is a commercially available, FDA-approved comprehensive genomic pr
 
 ## Sources
 
+- [PMID:31483290](../papers/31483290.md)
+- [PMID:35705558](../papers/35705558.md)
+- [PMID:36611031](../papers/36611031.md)
+- [PMID:27939400](../papers/27939400.md)
+
 - [PMID:31263031](../papers/31263031.md) — Jonsson et al. used FoundationOne (tumor-only, n=167) alongside MSK-IMPACT (paired, n=837) in 923 adult glioma patients; FoundationOne samples excluded from germline analysis.
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:31483290](../papers/31483290.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:35705558](../papers/35705558.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:36611031](../papers/36611031.md)
-
-*This page was processed by **wiki-cli** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

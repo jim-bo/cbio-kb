@@ -3,8 +3,8 @@ symbol: RB1
 aliases: []
 cancer_types: [HCC, THPA]
 tags: [tumor-suppressor, thyroid-cancer]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # RB1
@@ -100,6 +100,12 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - RB1 significantly altered across multiple sarcoma subtypes; pathway-level events in WDLS/DDLS (99%) in combination with CDK4/MDM2 co-amplification [PMID:35705560](../papers/35705560.md)
 - RB1 pathway impairment is referenced in context of CDK4 amplification (10.9% of [STS](../cancer_types/STS.md)) as a target for abemaciclib/palbociclib (Level 4) in Chinese solid-tumor cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md)) [PMID:35871175](../papers/35871175.md)
 - Proficient (wild-type) RB1 + proficient TP53 defines atypical [SCLC](../cancer_types/SCLC.md) (aSCLC; 20/600 SCLC, 3%); acquired subclonal RB1 mutations seen in metastatic samples of 3 cases (A12, A16, A20) without overt proliferation escalation, suggesting a noncanonical role outside E2F-mediated cell cycle control [PMID:39185963](../papers/39185963.md)
+- RB1 alterations were mutually exclusive with CCND1 and CCNE1 in colorectal cancer; oncogenic cell-cycle alteration carried a multivariable OS HR of 2.26 [PMID:35487942](../papers/35487942.md)
+- High RB1 protein and Rb phosphorylation went with lower carboplatin response and higher CDK4/6-inhibitor response in triple-negative breast cancer DepMap lines [PMID:36001024](../papers/36001024.md)
+- RB1 p.S318Nfs*13 was a single case (0.8%) flagged as a CDK4/6-inhibitor target in solitary fibrous tumor [PMID:37980418](../papers/37980418.md)
+- RB1 focal deletions (13q14, 2.9%) were identified by GISTIC in a pediatric AML cohort [PMID:38212634](../papers/38212634.md)
+- RB1 was altered more often in the S1314 bladder cancer cohort than in TCGA (26% vs 18%); the RETAIN trial used a composite DDR/RB1 mutation biomarker [PMID:39499893](../papers/39499893.md)
+- RB1 Q217* is the most frequent RB1 SNV and is enriched in APOBEC3-dominant breast tumors; an engineered APOBEC3-context RB1 truncating mutation caused ~31-fold reduced abemaciclib sensitivity [PMID:40379787](../papers/40379787.md)
 
 ## Cancer types (linked)
 
@@ -191,7 +197,6 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - [PMID:34544752](../papers/34544752.md)
 - [PMID:34819508](../papers/34819508.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35078859](../papers/35078859.md)
 
 - [PMID:35120664](../papers/35120664.md)
@@ -200,31 +205,28 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 - [PMID:35440124](../papers/35440124.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35443055](../papers/35443055.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35670774](../papers/35670774.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39185963](../papers/39185963.md)
+- [PMID:35487942](../papers/35487942.md)
+- [PMID:36001024](../papers/36001024.md)
+- [PMID:37980418](../papers/37980418.md)
+- [PMID:38212634](../papers/38212634.md)
+- [PMID:39499893](../papers/39499893.md)
+- [PMID:40379787](../papers/40379787.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

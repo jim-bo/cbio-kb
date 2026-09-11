@@ -3,8 +3,8 @@ symbol: FGFR4
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # FGFR4
@@ -27,6 +27,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - Enriched in HR+ metastatic breast cancer specimens relative to paired primaries [PMID:30205045](../papers/30205045.md)
 - FGFR4 was among 27 FGFR1/2/3/4 events across HGG, rhabdomyosarcoma, and other sarcomas identified in the MAPPYACTS pediatric WES cohort (n=787 relapsed/refractory patients). [PMID:35292802](../papers/35292802.md)
 - FGFR4 is part of the 4q12 kinase amplicon (with [KIT](../genes/KIT.md) and [KDR](../genes/KDR.md)) seen in osteosarcoma (10.7%), liposarcoma NOS (8.0%), and UPS/MFH (7.3%) in soft tissue and bone sarcomas; no direct FGFR4-specific mutation rate is reported for this gene [PMID:35705560](../papers/35705560.md)
+- FGFR4 shows recurrent alterations (5-15%) upstream of PI3K/AKT/mTOR signaling in MYOD1 L122R-mutant rhabdomyosarcoma. [PMID:41758938](../papers/41758938.md)
 
 ## Cancer types (linked)
 
@@ -47,34 +48,25 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 ## Sources
 
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30061739](../papers/30061739.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27749842](../papers/27749842.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30205045](../papers/30205045.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
+- [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

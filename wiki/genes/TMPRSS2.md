@@ -3,8 +3,8 @@ symbol: TMPRSS2
 aliases: []
 cancer_types: [PRAD]
 tags: [fusion-partner, erg-fusion, prostate]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # TMPRSS2
@@ -35,6 +35,7 @@ TMPRSS2 is a serine protease gene that is the most common 5' fusion partner for 
 - TMPRSS2:[ERG](../genes/ERG.md) fusions intentionally excluded from race comparisons in MSK-IMPACT prostate cancer profiling (n=1,123) due to suboptimal panel sensitivity for fusions; fusions are known to be more common in European-ancestry men. [PMID:34667026](../papers/34667026.md)
 - TMPRSS2–[ERG](../genes/ERG.md) fusion detected by targeted RNA-seq in 13/51 (25%) prostate cancer brain metastasis (PCBM) patients; fusion status correlated with ERG IHC overexpression (Pearson r=0.70, P<2.2×10⁻¹⁶) [PMID:35504881](../papers/35504881.md)
 - TMPRSS2 shows a trend toward co-occurrence with [PIK3R1](../genes/PIK3R1.md) alterations (not statistically significant) in prostate cancer; [PIK3R1](../genes/PIK3R1.md) knockdown reduces TMPRSS2 expression as an [AR](../genes/AR.md) target gene, consistent with p85alpha's known AR-transactivating function, in an MSK-IMPACT cohort of 1,417 prostate cancers [PMID:35670774](../papers/35670774.md)
+- Non-canonical TMPRSS2 structural variants were found in 17 of 50 (34%) TMPRSS2::ERG prostate carcinomas, validating chromoplexy detection in a sarcoma-focused SV study [PMID:38335254](../papers/38335254.md).
 
 ## Cancer types (linked)
 
@@ -73,10 +74,9 @@ TMPRSS2 is a serine protease gene that is the most common 5' fusion partner for 
 - [PMID:32317181](../papers/32317181.md)
 - [PMID:34667026](../papers/34667026.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35670774](../papers/35670774.md)
+- [PMID:38335254](../papers/38335254.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

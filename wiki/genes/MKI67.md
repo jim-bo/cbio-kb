@@ -4,7 +4,7 @@ aliases: [Ki-67]
 cancer_types: [ODG, NBL, HNSC]
 tags: [proliferation-marker, immunohistochemistry, flow-cytometry, single-cell]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # MKI67
@@ -21,6 +21,8 @@ MKI67 (marker of proliferation Ki-67) is a nuclear protein expressed exclusively
 - MKI67 (Ki-67) expression was measured in breast cancer samples undergoing whole-exome and RNA-seq profiling in a study that identified [SF3B1](../genes/SF3B1.md) somatic mutations and splicing dysregulation [PMID:41055979](../papers/41055979.md)
 - Used as a cell-cycle (Ki67) marker by dual IHC in a mouse VHL-knockout model; VKO cells show increased Ki67 positivity vs ConKO (p=0.049), an effect absent when both HIFa isoforms are co-deleted [PMID:41102155](../papers/41102155.md)
 - MKI67 (Ki-67) expression is low in the steady NS-LUAD subtype and high in the proliferative subtype, anchoring the proliferation axis of the three-subtype NMF classification across 684 never-smoker lung adenocarcinomas [PMID:40970133](../papers/40970133.md)
+- Expressed more highly in group 2 hepatoblastoma PDXs than in matched primary tumors (proliferation marker), with the reverse pattern in group 1 [PMID:37990009](../papers/37990009.md).
+- Overexpressed in metastatic pheochromocytoma/paraganglioma as part of a proliferation gene programme [PMID:40097403](../papers/40097403.md).
 
 ## Cancer types (linked)
 
@@ -48,13 +50,12 @@ MKI67 (marker of proliferation Ki-67) is a nuclear protein expressed exclusively
 - [PMID:34493726](../papers/34493726.md)
 - [PMID:38780927](../papers/38780927.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:41055979](../papers/41055979.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:41102155](../papers/41102155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:40970133](../papers/40970133.md)
+- [PMID:37990009](../papers/37990009.md)
+- [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

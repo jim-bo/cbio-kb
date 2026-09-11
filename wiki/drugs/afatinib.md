@@ -5,8 +5,8 @@ drug_class: 2nd-generation EGFR TKI
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, egfr-tki]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # afatinib
@@ -21,6 +21,7 @@ Afatinib is an irreversible, pan-ErbB (EGFR/HER2/HER4) tyrosine kinase inhibitor
 - NCI-60 CellMiner pharmacogenomics analysis identified genomic determinants of afatinib (pan-EGFR TKI) sensitivity in colon cancer cell lines [PMID:22802077](../papers/22802077.md)
 - Clinical benefit in EGFR kinase domain duplication (EGFR-KDD) and L861Q EGFR alleles in 860-patient MSK-IMPACT [LUAD](../cancer_types/LUAD.md) cohort; allele-specific response data support afatinib/osimertinib over first-generation TKIs for atypical EGFR alleles including L861Q [PMID:28336552](../papers/28336552.md).
 - 2nd-generation EGFR TKI; indicated for EGFR G719 mutations found in 3% of [NSCLC](../cancer_types/NSCLC.md) in Chinese pan-cancer cohort (n=10,194) [PMID:35871175](../papers/35871175.md)
+- Combined with a MET inhibitor in 1 of 27 cases of acquired resistance to MET-targeted therapy, addressing a non-MET (EGFR) resistance driver. [PMID:36044468](../papers/36044468.md)
 
 ## Resistance mechanisms
 
@@ -44,3 +45,6 @@ Afatinib is an irreversible, pan-ErbB (EGFR/HER2/HER4) tyrosine kinase inhibitor
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36044468](../papers/36044468.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

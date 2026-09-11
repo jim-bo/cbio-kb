@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [cancer-gene-discovery, functional-impact, driver-detection]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # OncodriveFML
@@ -20,6 +20,8 @@ OncodriveFML is a computational method for identifying cancer driver genes by te
 - Applied as one of four cancer-gene discovery tools (alongside [MutSig](../methods/mutsig.md), [LOFsigrank](../methods/lofsigrank.md), and [dN/dS](../methods/dndscv.md)) in a cutaneous squamous cell carcinoma ([CSCC](../cancer_types/CSCC.md)) meta-analysis of 88 QC-passed tumors from 10 WES/WGS studies; collectively the four tools nominated 12 cancer genes, 7 of which were called by ≥2 tools; driver candidates were additionally supplemented by [3D Hotspots](../methods/3d-hotspots.md) and [cancer hotspots](../methods/cancer-hotspots.md) overlap and focal copy-number analysis [PMID:34272401](../papers/34272401.md)
 - Applied alongside MutSigCV to 122 [HCC](../cancer_types/HCC.md) biopsies ([hcc_meric_2021](../datasets/hcc_meric_2021.md)) to identify significantly mutated genes; confirmed the same 7 SMGs including newly nominated [GPAM](../genes/GPAM.md) (7/9 frameshift mutations) [PMID:35508466](../papers/35508466.md)
 - Part of three-tool consensus driver-calling pipeline for 25 metastatic [CSCC](../cancer_types/CSCC.md) WGS samples; identified 12 coding drivers (p<0.005) and non-coding 3'UTR drivers (Q<0.03) in [EVC](../genes/EVC.md) (48%), [PPP1R1A](../genes/PPP1R1A.md) (48%), [ABCA4](../genes/ABCA4.md) (20%), and lncRNA drivers including [LINC01003](../genes/LINC01003.md) (64%) [PMID:35982973](../papers/35982973.md)
+- OncodriveFML was one of four tools used to call significantly mutated genes in Burkitt lymphoma/DLBCL WGS [PMID:36201743](../papers/36201743.md).
+- OncodriveFML (with dNdScv and Cancer Genome Interpreter) called driver genes in a pheochromocytoma/paraganglioma cohort, flagging pTERT as significant [PMID:40097403](../papers/40097403.md).
 
 ## Notes
 
@@ -38,3 +40,9 @@ OncodriveFML is a computational method for identifying cancer driver genes by te
 - [PMID:35982973](../papers/35982973.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36201743](../papers/36201743.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40097403](../papers/40097403.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

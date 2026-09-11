@@ -3,8 +3,8 @@ symbol: ETV6
 aliases: [TEL]
 cancer_types: [IFS, SCSRMS]
 tags: [fusion, NTRK3, diagnostic-marker, sarcoma]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # ETV6
@@ -30,6 +30,7 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 - Fusion transcript in 27% of BCP-ALL PDX models (88% of those partnered with [RUNX1](../genes/RUNX1.md)); also oncogenic fusions involving ETV6 detected in ~48% of ETP-ALL/T-ALL models in the PPTC pediatric cancer PDX dataset [PMID:31693904](../papers/31693904.md)
 - ETV6 is the most common upstream NTRK fusion partner, exclusively paired with [NTRK3](../genes/NTRK3.md); near-pathognomonic ETV6-NTRK3 found in 11/12 salivary mammary analogue secretory carcinomas and in infantile fibrosarcoma; ETV6 break-apart FISH accepted as inferred evidence in classic secretory carcinoma morphology [PMID:31871300](../papers/31871300.md)
 - ETV6-NTRK3 fusion detected in sarcoma; [larotrectinib](../drugs/larotrectinib.md) achieved durable complete response in infantile myofibrosarcoma ([IMT](../cancer_types/IMT.md)) with this fusion; NTRK amplifications are not actionable (negative trial finding) [PMID:35705558](../papers/35705558.md)
+- ETV6 loss-of-function alterations, along with RUNX1, are enriched in the immature/Unclassified subset of a pediatric AML gene-expression classification cohort. [PMID:38212634](../papers/38212634.md)
 
 ## Cancer types (linked)
 
@@ -79,5 +80,6 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 - [PMID:31871300](../papers/31871300.md)
 
 - [PMID:35705558](../papers/35705558.md)
+- [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

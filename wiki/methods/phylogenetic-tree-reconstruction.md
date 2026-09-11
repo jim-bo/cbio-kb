@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [bioinformatics, evolution, intratumor-heterogeneity]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # Phylogenetic tree reconstruction
@@ -24,6 +24,7 @@ Computational method applied to multiregion tumor sequencing data to infer the e
 - Applied to WES data from serial-passage organoid lines to reconstruct linear and branched clonal evolution patterns; demonstrated both linear and branched evolution in patient-derived bladder cancer organoids [PMID:29625057](../papers/29625057.md).
 - Clonal phylogenetic trees reconstructed for cHCC-ICC cases (133 total) to infer monoclonal vs. multiclonal origin; 4/6 separate-type cases shared 46–67% of mutations (monoclonal origin); subsequent CCF analysis with [pyclone](../methods/pyclone.md) confirmed subclonal structure in mixed-type tumors [PMID:31130341](../papers/31130341.md)
 - MEDICC-based phylogenetic trees reconstructed from bulk WES allele-specific CNA profiles in synchronous DCIS/IDC-NST pairs; bulk phylogenies consistent with single-cell studies (Casasent 2018, Martelotto 2017) [PMID:32220886](../papers/32220886.md)
+- Used phylogenetic tree reconstruction (after Pearson goodness-of-fit tests on variant allele fractions) plus a Bradley-Terry model for global temporal ordering to infer clonal relationships and driver-mutation acquisition order in myelodysplastic syndromes [PMID:24030381](../papers/24030381.md).
 
 ## Notes
 
@@ -51,3 +52,6 @@ Computational method applied to multiregion tumor sequencing data to infer the e
 - [PMID:32220886](../papers/32220886.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:24030381](../papers/24030381.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

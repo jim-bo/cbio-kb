@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - MEL
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # CBL
@@ -17,6 +17,8 @@ CBL is an E3 ubiquitin ligase and adaptor protein that negatively regulates rece
 ## Alterations observed in the corpus
 
 - CBL is identified as a secondary "backseat" RTK-RAS regulator in melanoma; CBL alterations co-occur with NF1 loss-of-function and BRAF Class 3 mutations, contributing to co-alteration patterns in MSK-IMPACT–profiled melanoma (mel_mskimpact_2020) [PMID:33509808](../papers/33509808.md).
+- CBL mutations had a previously published survival effect in MDS; clonal and subclonal CBL mutations carried equivalent leukemia-free-survival risk [PMID:24030381](../papers/24030381.md).
+- CBL deep deletion was among the acquired copy-number alterations seen at metastasis in the MSK-BR-WGS-05 paired primary-to-metastasis breast cancer case [PMID:40379787](../papers/40379787.md).
 
 ## Cancer types (linked)
 
@@ -39,3 +41,9 @@ CBL is an E3 ubiquitin ligase and adaptor protein that negatively regulates rece
 - [PMID:33509808](../papers/33509808.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:24030381](../papers/24030381.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40379787](../papers/40379787.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

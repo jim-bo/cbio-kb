@@ -3,8 +3,8 @@ symbol: CXCL1
 aliases: ["GROa", "MGSA"]
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # CXCL1
@@ -16,6 +16,7 @@ CXCL1 (C-X-C Motif Chemokine Ligand 1) is a pro-inflammatory chemokine secreted 
 ## Alterations observed in the corpus
 
 - TLR4-driven hepatocyte chemokine that recruits PMN-MDSCs to accelerate cholangiocarcinoma progression; [neomycin](../drugs/neomycin.md) blocks the CXCL1-PMN-MDSC axis in preclinical models [PMID:41018102](../papers/41018102.md)
+- CXCL1 is part of a myeloid inflammation gene signature (with IL6, CXCL2, CXCL3, CXCL8, PTGS2); MyeloidHigh renal cell carcinoma tumors had worse PFS on atezolizumab monotherapy, proposed as innate resistance overcome by bevacizumab. [PMID:29867230](../papers/29867230.md)
 
 ## Cancer types (linked)
 
@@ -32,5 +33,6 @@ CXCL1 (C-X-C Motif Chemokine Ligand 1) is a pro-inflammatory chemokine secreted 
 ## Sources
 
 - [PMID:41018102](../papers/41018102.md)
+- [PMID:29867230](../papers/29867230.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

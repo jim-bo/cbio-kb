@@ -9,8 +9,8 @@ tags:
   - oncogene
   - transcription-factor
   - amplification
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # MECOM
@@ -26,6 +26,7 @@ MECOM (MDS1 and EVI1 Complex Locus) encodes a zinc finger transcription factor w
 - MECOM recurrent focal amplification identified as a significant GISTIC peak in [LUAD](../cancer_types/LUAD.md) (TCGA, n=230) [PMID:25079552](../papers/25079552.md)
 - inv(3)/MECOM rearrangement in 1% (n=20) of [AML](../cancer_types/AML.md); among the strongest adverse main effects for overall survival (HR 2.9 [1.8–4.7], P=9×10⁻⁶, q=0.0003) [PMID:27276561](../papers/27276561.md)
 - MECOM (including GATA2-MECOM fusion / inv(3)/t(3;3)) associated with elevated [PEAR1](../genes/PEAR1.md) expression in [AML](../cancer_types/AML.md); this poor-prognosis genetic subset shows higher [PEAR1](../genes/PEAR1.md) levels, linking MECOM-rearranged AML to PEAR1 biology [PMID:35868306](../papers/35868306.md)
+- Structural variants with outlier MECOM expression defined a distinct pediatric AML molecular category (10/887 cases) associated with poor outcome, consistent with prior adult-AML MECOM literature [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
@@ -47,16 +48,13 @@ MECOM (MDS1 and EVI1 Complex Locus) encodes a zinc finger transcription factor w
 
 - [PMID:21720365](../papers/21720365.md) — TCGA integrated genomic analysis of ovarian carcinoma (HGSOC)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27276561](../papers/27276561.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
+- [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

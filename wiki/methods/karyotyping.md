@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [cytogenetics, chromosome, copy-number, functional-genomics]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # Karyotyping
@@ -19,6 +19,7 @@ Karyotyping is a cytogenetic technique that visualizes the chromosomal complemen
 
 - Used to confirm arm-level hemizygosity of chr_3p in CRISPR-Cas9-engineered AALE cell clones, alongside Sanger sequencing, qPCR, and whole-genome sequencing; provided orthogonal cytogenetic verification of the chromosome arm deletion [PMID:29622463](../papers/29622463.md)
 - Conventional karyotyping identified isochromosome 12p [i(12p)] in both mediastinal GCTs and their associated hematologic malignancies; karyotype alone was insufficient to confirm clonal relatedness in at least one patient who lacked i(12p) [PMID:32897884](../papers/32897884.md)
+- Used cytogenetic karyotyping alongside targeted sequencing to characterize driver mutations and stratify risk in myelodysplastic syndromes [PMID:24030381](../papers/24030381.md).
 
 ## Notes
 
@@ -32,3 +33,6 @@ Karyotyping is a cytogenetic technique that visualizes the chromosomal complemen
 - [PMID:32897884](../papers/32897884.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:24030381](../papers/24030381.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

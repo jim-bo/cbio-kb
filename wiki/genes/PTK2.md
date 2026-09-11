@@ -4,7 +4,7 @@ aliases: [FAK, FAK1, FADK]
 cancer_types: [OCSC, HNSC]
 tags: [kinase, oncogene, copy-number-gain]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-09-10
 ---
 
 # PTK2
@@ -17,6 +17,7 @@ PTK2 (Protein Tyrosine Kinase 2), also known as Focal Adhesion Kinase (FAK), enc
 
 - Copy gain with high expression in 14% (5/35) of oral squamous cell carcinoma (OSCC) tumors; identified as a candidate therapeutic target in HNSCC [PMID:23619168](../papers/23619168.md)
 - Overexpressed in the immune-excluded HCC subclass; oncogenic PTK2 (FAK) pathway activity is associated with poor T-cell infiltration and immune exclusion in HCC [PMID:30061739](../papers/30061739.md)
+- PTK2 (FAK) was nominated as a progenitor-state-specific actionable master regulator alongside SYK, LYN and ALK, proposed as a combination target [PMID:41758938](../papers/41758938.md)
 
 ## Cancer types (linked)
 
@@ -38,7 +39,7 @@ PTK2 (Protein Tyrosine Kinase 2), also known as Focal Adhesion Kinase (FAK), enc
 
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:30061739](../papers/30061739.md)
+- [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

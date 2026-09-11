@@ -14,7 +14,7 @@ tags:
   - chemoradiation
   - tumor-microbiome
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # avelumab
@@ -31,6 +31,7 @@ Avelumab is a fully human IgG1 monoclonal antibody that targets PD-L1 ([CD274](.
 - Cited as an investigational anti-PD-L1 agent in the NPC therapeutic landscape review [PMID:41002550](../papers/41002550.md)
 - In a pan-cancer ICI cohort (n=1,662), avelumab was one of the anti-PD-L1 agents used; patients in the top-20% TMB stratum had HR 0.52 (p=1.6×10⁻⁶) for OS, establishing TMB as a candidate selection biomarker across histologies treated with anti-PD-L1 agents [PMID:30643254](../papers/30643254.md).
 - Avelumab (anti-PD-L1) was among the ICI agents used in the 45-patient recurrent HGSOC cohort; network curvature (Ollivier-Ricci) over gene-level CNAs predicted OS with log-rank p=0.00047, stratifying median OS 7.4 vs 20.3 months, outperforming TMB (p=0.032), LST (p=0.43), and FGA (p=0.20). [PMID:34819508](../papers/34819508.md)
+- Cited as an approved first-line option (switch-maintenance therapy after platinum induction, JAVELIN Bladder 100) in the evolving first-line treatment landscape for metastatic urothelial carcinoma. [PMID:39642637](../papers/39642637.md)
 
 ## Resistance mechanisms
 
@@ -59,3 +60,6 @@ Avelumab is a fully human IgG1 monoclonal antibody that targets PD-L1 ([CD274](.
 - [PMID:34819508](../papers/34819508.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:39642637](../papers/39642637.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

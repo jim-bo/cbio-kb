@@ -3,8 +3,8 @@ symbol: EBF1
 aliases: [OLF1, COE1]
 cancer_types: [DLBCLNOS]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # EBF1
@@ -16,6 +16,7 @@ EBF1 (Early B-Cell Factor 1) is a transcription factor essential for B-cell deve
 ## Alterations observed in the corpus
 
 - EBF1 demonstrates ABC-selective CRISPR essentiality in DLBCL, implicating it in B-cell-development and NF-κB signaling dependencies specific to the ABC subtype [PMID:28985567](../papers/28985567.md).
+- EBF1 is one of the aberrant somatic hypermutation (aSHM) sites mutated in Burkitt lymphomas that fell into the DLBCL-A (EZB-enriched) subgroup [PMID:36201743](../papers/36201743.md).
 
 ## Cancer types (linked)
 
@@ -36,5 +37,6 @@ EBF1 (Early B-Cell Factor 1) is a transcription factor essential for B-cell deve
 ## Sources
 
 - [PMID:28985567](../papers/28985567.md)
+- [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **crosslinker** on **2026-05-15**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

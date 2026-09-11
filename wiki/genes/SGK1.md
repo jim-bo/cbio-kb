@@ -3,8 +3,8 @@ symbol: SGK1
 aliases: []
 cancer_types: [DLBCL, FL]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # SGK1
@@ -20,6 +20,7 @@ SGK1 (Serum/Glucocorticoid Regulated Kinase 1) is a serine/threonine kinase regu
 - Preferentially mutated in GCB DLBCL; mutations associated with favorable survival across DLBCL subtypes [PMID:28985567](../papers/28985567.md)
 - BCR/PI3K signaling modifier in C3/C4 GCB-DLBCL; AID-target of aberrant somatic hypermutation (cAID signature); among 98 CCGs identified in 304 primary DLBCLs by MutSigCV [PMID:29713087](../papers/29713087.md)
 - SGK1 kinase activity was decreased in [HCC](../cancer_types/HCC.md) vs. normal liver by KSEA in a Chinese [HCC](../cancer_types/HCC.md) proteogenomic cohort (n=159); SGK1 is one of five kinases with globally reduced activity in [HCC](../cancer_types/HCC.md) [PMID:35508466](../papers/35508466.md)
+- SGK1 mutations, together with TET2, mark the DLBCL-C (ST2-enriched) subgroup in a genomic comparison of Burkitt lymphoma and DLBCL [PMID:36201743](../papers/36201743.md)
 
 ## Cancer types (linked)
 
@@ -42,16 +43,13 @@ SGK1 (Serum/Glucocorticoid Regulated Kinase 1) is a serine/threonine kinase regu
 
 - [PMID:21796119](../papers/21796119.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28985567](../papers/28985567.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
+- [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

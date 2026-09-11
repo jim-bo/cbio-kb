@@ -5,8 +5,8 @@ drug_class: MET inhibitor (tyrosine kinase inhibitor)
 canonical_source: corpus
 unverified: true
 tags: [nsclc, targeted-therapy, met]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # tepotinib
@@ -18,6 +18,7 @@ Tepotinib is a selective [MET](../genes/MET.md) tyrosine kinase inhibitor approv
 ## Evidence in the corpus
 
 - MET exon 14 skipping inhibitor; pivotal trial enrolled patients up to 74 years old; MET exon 14 skipping is rare in young-onset NSCLC (0.72% in patients ≤50 years vs 3.25% in patients >70 years), making tepotinib less relevant to the young-onset NSCLC population [PMID:40958859](../papers/40958859.md)
+- Tepotinib was 1 of 45 MET-inhibitor treatments given in a MET-amplification cohort alongside crizotinib, cabozantinib and capmatinib; tepotinib has FDA accelerated approval for MET exon 14 skipping NSCLC. [PMID:36044468](../papers/36044468.md)
 
 ## Resistance mechanisms
 
@@ -28,3 +29,6 @@ Tepotinib is a selective [MET](../genes/MET.md) tyrosine kinase inhibitor approv
 ## Sources
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:36044468](../papers/36044468.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

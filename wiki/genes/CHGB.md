@@ -4,8 +4,8 @@ aliases: [chromogranin B, secretogranin I]
 cancer_types:
   - NBL
 tags: [neuroendocrine-marker, neuroblastoma, noradrenergic, adrenergic]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # CHGB
@@ -17,6 +17,7 @@ CHGB (chromogranin B, also known as secretogranin I) is a neuroendocrine secreto
 ## Alterations observed in the corpus
 
 - CHGB is part of the noradrenergic/adrenergic panel alongside [PHOX2B](../genes/PHOX2B.md), [PHOX2A](../genes/PHOX2A.md), [TH](../genes/TH.md), [DBH](../genes/DBH.md), [CHGA](../genes/CHGA.md), [PNMT](../genes/PNMT.md), and [ISL1](../genes/ISL1.md); these genes mark the NOR (noradrenergic) tumor clusters and postnatal chromaffin cells identified by single-nuclei RNA-seq of 11 neuroblastoma tumors [PMID:34493726](../papers/34493726.md).
+- CHGB is part of the neuroendocrine-like gene module (with NEUROD1) marking the non-canonical cell state enriched in colorectal cancer metastases [PMID:39478232](../papers/39478232.md).
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ CHGB (chromogranin B, also known as secretogranin I) is a neuroendocrine secreto
 - [PMID:34493726](../papers/34493726.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:39478232](../papers/39478232.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - ESCC
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # IL7R
@@ -17,6 +17,7 @@ IL7R (Interleukin 7 Receptor) encodes the alpha chain of the IL-7 receptor, whic
 ## Alterations observed in the corpus
 
 - Amplification activating JAK-STAT3 signaling in ESCC (139 paired tumor/germline samples by whole-exome/targeted sequencing) [PMID:24686850](../papers/24686850.md)
+- IL7R (CD127) was gained on peripheral CD4+ T cells after neoadjuvant PD-1 blockade in recurrent glioblastoma, interpreted as a shift toward activation and memory phenotypes. [PMID:30742122](../papers/30742122.md)
 
 ## Cancer types (linked)
 
@@ -35,5 +36,6 @@ IL7R (Interleukin 7 Receptor) encodes the alpha chain of the IL-7 receptor, whic
 ## Sources
 
 - [PMID:24686850](../papers/24686850.md)
+- [PMID:30742122](../papers/30742122.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

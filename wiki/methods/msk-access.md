@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [ctdna, liquid-biopsy, targeted-sequencing, msk]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # MSK-ACCESS (liquid biopsy, generic)
@@ -24,6 +24,7 @@ MSK-ACCESS is a targeted next-generation sequencing panel for cell-free DNA from
 - Clinically deployed by MSK after NYS-DOH approval on 31 May 2019; prospectively profiled 681 plasma samples from 617 patients across 31 tumor types; 73% of samples had ≥1 detectable alteration, 41% had OncoKB level 1–3B actionable variants; ultra-deep sequencing (mean raw 18,264x plasma; mean duplex 1,497x) with matched WBC sequencing removed >10,000 germline/CH confounders [PMID:34145282](../papers/34145282.md)
 - Used alongside cf-IMPACT ([IMPACT410](../methods/IMPACT410.md)) and cf-WES in a tumor-fraction-guided cfDNA triage strategy for 118 metastatic solid tumor patients; MSK-ACCESS rescued mutations in 48% of cf-IMPACT-negative low-tumor-fraction samples [PMID:34059130](../papers/34059130.md)
 - MSK-ACCESS cfDNA panel used for pre-treatment plasma profiling in 68 selpercatinib-treated [RET](../genes/RET.md) fusion/mutation-positive cancer patients; detected qualifying [RET](../genes/RET.md) alteration in 95% of RET-mutant and 74% of fusion-positive cases; low cfDNA shedding correlated with superior PFS (HR=3.7, p=0.013) [PMID:35304457](../papers/35304457.md).
+- Used the MSK-ACCESS cfDNA assay as part of the molecular workup informing targeted-therapy decisions in biliary tract cancer [PMID:42360806](../papers/42360806.md).
 
 ## Notes
 
@@ -43,3 +44,6 @@ MSK-ACCESS is a targeted next-generation sequencing panel for cell-free DNA from
 - [PMID:35304457](../papers/35304457.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

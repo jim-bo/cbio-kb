@@ -7,8 +7,8 @@ tags:
   - tyrosine-kinase
   - b-cell-receptor-signaling
   - nhl-driver
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-09-10
 canonical_source: cbioportal
 unverified: false
 ---
@@ -23,6 +23,7 @@ SYK (Spleen Associated Tyrosine Kinase) encodes a non-receptor tyrosine kinase w
 
 - SYK was identified as a likely driver gene in DLBCL by mutation clustering and cross-species conservation analysis in WES of 55 DLBCL tumors; tyrosine kinase inhibitors targeting SYK have demonstrated clinical activity in NHL [PMID:22343534](../papers/22343534.md)
 - High RPPA expression in the Immune transcriptomic subclass of cutaneous melanoma but NOT prognostic — suggesting T-cell ([LCK](../genes/LCK.md)) rather than B-cell (SYK) signalling drives the survival benefit of the Immune subtype. [PMID:26091043](../papers/26091043.md)
+- SYK is a progenitor-state-specific actionable master regulator implicated in immune signaling and stemness in MYOD1-mutant rhabdomyosarcoma, nominated alongside PTK2, LYN, and ALK as an orthogonal combination target [PMID:41758938](../papers/41758938.md)
 
 ## Cancer types (linked)
 
@@ -44,7 +45,7 @@ SYK (Spleen Associated Tyrosine Kinase) encodes a non-receptor tyrosine kinase w
 
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
+- [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

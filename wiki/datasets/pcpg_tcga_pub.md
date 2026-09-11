@@ -21,8 +21,8 @@ tags:
   - pcpg
   - neuroendocrine
   - multi-platform
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # TCGA Pheochromocytoma and Paraganglioma (PCPG, Cancer Cell 2017)
@@ -54,6 +54,7 @@ The pcpg_tcga_pub dataset is the TCGA pheochromocytoma and paraganglioma (PCPG) 
 ## Papers using this cohort
 
 - [PMID:28162975](../papers/28162975.md) — TCGA PCPG Analysis Working Group 2017. Multi-platform characterization of 173 PCC/PGLs; identified [CSDE1](../genes/CSDE1.md) as a novel driver, discovered recurrent MAML3/BRAF/NGFR/NF1 fusions, defined four molecular subtypes, and established the Wnt-altered subtype ([MAML3](../genes/MAML3.md) fusions + CSDE1 mutations) as a marker of aggressive/metastatic disease.
+- [PMID:40097403](../papers/40097403.md) — A5 consortium germline [SDHB](../genes/SDHB.md) PCPG study (94 tumors, 79 patients): TCGA-PCPG RNA-seq, 450K methylation array, and small-RNA-seq data (via GDC) used as an external comparator cohort.
 
 ## Notable findings derived from this cohort
 
@@ -72,3 +73,6 @@ The pcpg_tcga_pub dataset is the TCGA pheochromocytoma and paraganglioma (PCPG) 
 - Published: TCGA PCPG Analysis Working Group, Cancer Cell 2017.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:40097403](../papers/40097403.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

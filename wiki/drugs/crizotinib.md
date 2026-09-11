@@ -5,8 +5,8 @@ drug_class: ALK/ROS1/MET tyrosine kinase inhibitor
 canonical_source: 
 unverified: true
 tags: [targeted-therapy, kinase-inhibitor, cns-resistance]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # crizotinib
@@ -29,6 +29,8 @@ Crizotinib is a first-generation multi-target tyrosine kinase inhibitor of [ALK]
 - Crizotinib (ALK/MET/ROS1 inhibitor) was used in the MAPPYACTS trial context for ALK-fusion and ROS1-fusion positive pediatric tumors within the AcSé-ESMART platform; 10 ALK fusions were classified ready-for-routine-use [PMID:35292802](../papers/35292802.md)
 - Crizotinib (MET/ALK inhibitor) was combined with [selpercatinib](../drugs/selpercatinib.md) in a patient with MET-amplified bypass resistance to [selpercatinib](../drugs/selpercatinib.md) monotherapy, achieving re-response; however, an emerging [BRAF](../genes/BRAF.md) D594N clone was detected under combination therapy [PMID:35304457](../papers/35304457.md)
 - 1st-generation ALK/ROS1/MET TKI; ALK fusions in 6.7% of [NSCLC](../cancer_types/NSCLC.md) in Chinese pan-cancer cohort (n=10,194) actionable with crizotinib/ceritinib/alectinib; [ROS1](../genes/ROS1.md) fusions detected in 51 samples [PMID:35871175](../papers/35871175.md)
+- Crizotinib was the most commonly used MET inhibitor (22 of 45 treated patients) in a cohort with acquired or de novo MET amplification/exon 14 alteration; crizotinib and capmatinib were noted as active in high-level MET amplification though this is not an approved indication. [PMID:36044468](../papers/36044468.md)
+- Case report: off-label crizotinib shrank a MET-amplified escape lesion in a gallbladder cancer patient who had lost HER2 expression after zanidatamab treatment. [PMID:42360806](../papers/42360806.md)
 
 ## Resistance mechanisms
 
@@ -72,3 +74,9 @@ Crizotinib is a first-generation multi-target tyrosine kinase inhibitor of [ALK]
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36044468](../papers/36044468.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

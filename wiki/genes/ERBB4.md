@@ -3,8 +3,8 @@ symbol: ERBB4
 aliases: [HER4]
 cancer_types: [PLLS, MFS]
 tags: [receptor-tyrosine-kinase, oncogene, sarcoma]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # ERBB4
@@ -29,6 +29,7 @@ ERBB4 (HER4) is a receptor tyrosine kinase of the ErbB/HER family. It has been i
 - ERBB4 is a [KIRC](../cancer_types/KIRC.md) SMG uniquely called by MuSiC2 (after long-gene filtering) in the TCGA MC3 MAF pan-cancer analysis; it was not recovered by MutSig2CV, illustrating caller-specific sensitivity differences in the multi-tool somatic variant calling framework [PMID:29596782](../papers/29596782.md).
 - Listed as a driver-panel RTK gene in a 28-gene MSK-IMPACT melanoma cohort (n=655 cutaneous/unknown-primary melanomas); observed more often as a co-alteration alongside [NF1](../genes/NF1.md) loss and [BRAF](../genes/BRAF.md) Class 3 mutations than as a sole driver [PMID:33509808](../papers/33509808.md)
 - ERBB4 alterations, together with [EGFR](../genes/EGFR.md), [ERBB2](../genes/ERBB2.md), and [ERBB3](../genes/ERBB3.md), accounted for ~5% of CNS-tumor oncomap findings in the MAPPYACTS pediatric WES cohort (n=787); investigational ERBB-inhibitor matches were generated for the group. [PMID:35292802](../papers/35292802.md)
+- ERBB4 amplification is enriched in descending colon and rectal tumors in colorectal cancer [PMID:35487942](../papers/35487942.md).
 
 ## Cancer types (linked)
 
@@ -51,43 +52,31 @@ ERBB4 (HER4) is a receptor tyrosine kinase of the ErbB/HER family. It has been i
 
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40830485](../papers/40830485.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25583476](../papers/25583476.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25589618](../papers/25589618.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28027327](../papers/28027327.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29596782](../papers/29596782.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33509808](../papers/33509808.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+- [PMID:35487942](../papers/35487942.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

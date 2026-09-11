@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [chemotherapy, platinum, sarcoma]
 processed_by: wiki-cli
-processed_at: 2026-05-21
+processed_at: 2026-09-10
 ---
 
 # carboplatin
@@ -34,6 +34,10 @@ Carboplatin is a second-generation platinum compound that, like [cisplatin](../d
 - Carboplatin (with cisplatin/etoposide) is noted as part of first-line platinum-based chemoimmunotherapy for extensive-stage [SCLC](../cancer_types/SCLC.md); the MSK773 SCLC-P patient received carboplatin + [etoposide](../drugs/etoposide.md), progressing within 6 months [PMID:35440124](../papers/35440124.md)
 - Platinum chemotherapy; serial ctDNA (MSK-ACCESS) tracked response to salvage paclitaxel/carboplatin in metastatic endometrial cancer patients in MSK cfDNA pilot study (n=44) [PMID:36007103](../papers/36007103.md)
 - Carboplatin plus [etoposide](../drugs/etoposide.md) yielded only 13% CR and 20% PR (33% total) in 15 evaluable atypical SCLC (aSCLC) patients — well below the ~70% benchmark for conventional SCLC; aSCLC is characterized by RB1+/TP53+ status and chromothripsis-driven [CCND1](../genes/CCND1.md)/[CDK4](../genes/CDK4.md) amplification [PMID:39185963](../papers/39185963.md).
+- Historical comparator: first-line gemcitabine-carboplatin gave a 9.3-month median OS with a 21% treatment-discontinuation rate in metastatic urothelial carcinoma, versus 15.9 months for atezolizumab in this cisplatin-ineligible cohort. [PMID:27939400](../papers/27939400.md)
+- In neoadjuvant carboplatin plus docetaxel-treated triple-negative breast cancer, a 19q13.31-33 deletion spanning LIG1/POLD1/XRCC1 was associated with resistance to pathologic complete response; PDX and PDX-derived explant screens showed LIG1 loss was selectively associated with carboplatin (not docetaxel) resistance. [PMID:36001024](../papers/36001024.md)
+- UTUC patient PT12 (TMB-high, microsatellite-stable, cluster C5) was treated with gemcitabine/carboplatin before an FGFR inhibitor, nivolumab, and later intravesical BCG. [PMID:39550333](../papers/39550333.md)
+- IMvigor210 cohort 2 (n=310) enrolled metastatic urothelial carcinoma patients who had progressed during or after platinum-based chemotherapy (cisplatin or carboplatin) before receiving atezolizumab monotherapy in this final analysis. [PMID:39642637](../papers/39642637.md)
 
 ## Resistance mechanisms
 
@@ -86,3 +90,15 @@ Carboplatin is a second-generation platinum compound that, like [cisplatin](../d
 - [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*
+- [PMID:27939400](../papers/27939400.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39550333](../papers/39550333.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39642637](../papers/39642637.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

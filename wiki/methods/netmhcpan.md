@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [neoantigen-prediction, mhc-binding, immunogenicity]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # NetMHCpan
@@ -22,6 +22,7 @@ NetMHCpan is a pan-allele MHC class I binding affinity prediction algorithm that
 - NetMHC v4.0 used for neoantigen prediction from 9-mer sliding windows of 17-mer mutated peptides (rank<2%) in 68 melanoma WES samples; identified neoantigens selectively depleted on nivolumab in responders [PMID:29033130](../papers/29033130.md)
 - Used to predict HLA-restricted neoantigen binding affinity from somatic mutations in the MSK IMPACT neoantigen cohort [PMID:29657128](../papers/29657128.md)
 - NetMHCpan v3.0 used for neoantigen prediction across 249 MSS ICB-treated tumors; on average 2.24 predicted neoantigens per nonsynonymous mutation (R²=0.99 with TMB); 871 neoantigens arose from driver mutations, 8 recurrent driver-neoantigen pairs found in CR/PR in an HLA-dependent manner [PMID:30150660](../papers/30150660.md)
+- NetMHCpan (with PickPocket, SMM, SMMPMBEC in pVACseq) predicted neoantigen MHC binding after OptiType HLA typing in a gastric cancer PDX/patient-tumor comparison [PMID:37990009](../papers/37990009.md).
 
 ## Notes
 
@@ -46,3 +47,6 @@ NetMHCpan is a pan-allele MHC class I binding affinity prediction algorithm that
 - [PMID:30150660](../papers/30150660.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

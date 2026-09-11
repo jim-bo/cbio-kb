@@ -3,8 +3,8 @@ symbol: PDCD1
 aliases: [PD-1, PD1]
 cancer_types: [COAD, HNSC]
 tags: [immune-checkpoint, icr-signature, pd-1, flow-cytometry]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # PDCD1
@@ -38,6 +38,11 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - PD-L1 / immune-infiltration scores co-vary with APOBEC3B/APOBEC3G protein levels in luminal breast cancer; APOBEC mutagenesis and SSBR defects identify immunotherapy-eligible ER+ [BRCA](../cancer_types/BRCA.md) subsets. [PMID:33212010](../papers/33212010.md)
 - PDCD1 (PD-1) expressed on dysfunctional [CD4](../genes/CD4.md)+ T cells in Apc-driven stem-cell mouse tumors, paralleling the immunosuppressive adenoma microenvironment in colorectal precancer [PMID:34910928](../papers/34910928.md)
 - PDCD1 (PD-1) overexpressed in IG3 immune-hot rectal tumors (pMMR/MSS LARC cohort, [rectal_msk_2022](../datasets/rectal_msk_2022.md), n=738); overexpression nominates this immune-hot subset for ICI trials [PMID:35970919](../papers/35970919.md)
+- PDCD1 (PD-1) is the target of nivolumab; on-treatment pharmacodynamic changes (increased tumor CXCL9/CXCL10, T-cell and NK-cell transcripts) were attributed to PD-1 blockade [PMID:27169994](../papers/27169994.md).
+- PDCD1 (PD-1) is one of the PD-L1 receptors whose engagement is blocked by atezolizumab; PDCD1 itself was not directly measured in this urothelial carcinoma cohort [PMID:27939400](../papers/27939400.md).
+- PDCD1 (PD-1), the target of pembrolizumab, showed decreased expression on peripheral CD4+ T cells from baseline to post-surgery only in the neoadjuvant arm of this glioblastoma trial (BH P=0.025) [PMID:30742122](../papers/30742122.md).
+- PDCD1 (PD-1), the target of pembrolizumab, was more highly expressed on peripheral CD8+ T cells of responders during cycles 1-2 in this TNBC trial [PMID:35121644](../papers/35121644.md).
+- PDCD1 (PD-1) is referenced as the target class of approved checkpoint inhibitors and an investigational anti-PD-1/LAG-3 bispecific in this urothelial carcinoma (IMvigor210) analysis; it was not directly measured [PMID:39642637](../papers/39642637.md).
 
 ## Cancer types (linked)
 
@@ -66,66 +71,50 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - [PMID:38780927](../papers/38780927.md)
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40834854](../papers/40834854.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40328872](../papers/40328872.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30061739](../papers/30061739.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41002550](../papers/41002550.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41018102](../papers/41018102.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26997480](../papers/26997480.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29033130](../papers/29033130.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40970133](../papers/40970133.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33212010](../papers/33212010.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34910928](../papers/34910928.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35970919](../papers/35970919.md)
+- [PMID:27169994](../papers/27169994.md)
+- [PMID:27939400](../papers/27939400.md)
+- [PMID:30742122](../papers/30742122.md)
+- [PMID:35121644](../papers/35121644.md)
+- [PMID:39642637](../papers/39642637.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

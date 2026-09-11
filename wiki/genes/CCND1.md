@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - EAC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # CCND1
@@ -24,6 +24,8 @@ CCND1 (Cyclin D1) is a key cell-cycle regulator that activates [CDK4](../genes/C
 - Amplification present in the pan-cancer OncoMark Chinese solid-tumor cohort (2,396 patients); structural gain catalogued across cancer types [PMID:35871175](../papers/35871175.md)
 - Focally amplified in 2/25 metastatic cSCC samples (WGS cohort); co-amplified with [FGF3](../genes/FGF3.md) in CSCC_0132 and CSCC_0134; structural gain also detected by LINX/PURPLE SV analysis [PMID:35982973](../papers/35982973.md)
 - Amplified in 30% of atypical [SCLC](../cancer_types/SCLC.md) (aSCLC) via chromosome 11 chromothripsis-derived ecDNA double-minutes; up to 125 copies; two cases showed CCND1 overexpression without amplification (one via SH3RF3-CCND1 enhancer hijacking) [PMID:39185963](../papers/39185963.md)
+- CCND1 is a cell-cycle pathway gene whose alterations were mutually exclusive with RB1 and CCNE1 alterations in this colorectal cancer cohort [PMID:35487942](../papers/35487942.md).
+- CCND1 was altered in 3 of 25 (12%) invasive lobular carcinoma cases in this cohort [PMID:38347189](../papers/38347189.md).
 
 ## Cancer types (linked)
 
@@ -67,3 +69,9 @@ CCND1 (Cyclin D1) is a key cell-cycle regulator that activates [CDK4](../genes/C
 - [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38347189](../papers/38347189.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

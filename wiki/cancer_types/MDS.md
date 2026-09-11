@@ -8,8 +8,8 @@ tags:
   - dysplasia
   - bone-marrow
   - cohesin
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Myelodysplastic Syndromes (MDS)
@@ -38,6 +38,7 @@ Myelodysplastic syndromes (MDS) are a heterogeneous group of clonal hematopoieti
 - MDS arose in PM NSGCT patients as a clonally related hematologic malignancy; a shared KRAS G12D precursor with identical chromosomes 13 and 17 CNAs was identified by WES in one patient, with each malignancy independently acquiring distinct TP53 hotspot mutations with CNLOH. [PMID:32897884](../papers/32897884.md)
 - In the 9,437-patient pooled tMN risk cohort, CH VAF >2% conferred HR=6.9 for therapy-related myeloid neoplasm (MDS/AML); spliceosome genes (SRSF2, U2AF1, SF3B1) and TP53 were the strongest gene-specific predictors. [PMID:33106634](../papers/33106634.md)
 - Serial BM sequencing of 52 high-risk neuroblastoma patients: MDS/AML developed in 17/52 (t-MDS/AL); oncogenic mutations (TP53, KMT2A) detectable median 15 months before overt disease; relative risk of t-MDS/AL given oncogenic BM mutation was 8.8 (95% CI 1.3–57.8) [PMID:35078859](../papers/35078859.md)
+- Targeted sequencing of 111 cancer genes in 738 patients with MDS and related neoplasms found at least one oncogenic mutation in 78% of cases, led by SF3B1 (24%), TET2 (22%) and SRSF2 (14%), with leukemia-free survival falling from a median of 49 months with 1 driver lesion to 4 months with 6 or more [PMID:24030381](../papers/24030381.md).
 
 ## Subtypes
 
@@ -64,3 +65,6 @@ No direct therapeutic implications were demonstrated in the corpus studies for M
 - [PMID:35078859](../papers/35078859.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:24030381](../papers/24030381.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

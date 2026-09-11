@@ -13,8 +13,8 @@ unverified: true
 tags:
   - targeted-therapy
   - anti-angiogenic
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # pazopanib
@@ -29,6 +29,7 @@ Pazopanib is an FDA-approved multi-target tyrosine kinase inhibitor targeting VE
 - Specimens from patients who had received ≥3 prior therapy lines showed a trend toward enhanced sensitivity to pazopanib (p=0.0062), consistent with a late-line activity profile in heavily pre-treated sarcomas. [PMID:39305899](../papers/39305899.md)
 - High [PIK3R2](../genes/PIK3R2.md) and [FGFR3](../genes/FGFR3.md) expression guided pazopanib recommendation in metastatic NEN patients (PN1, PN14, PN17, PN25) in the POG NEN WGTA cohort [PMID:40328872](../papers/40328872.md)
 - Nominated for Triple-WT melanoma subtype (14% of 318 TCGA cases) to target co-amplified PDGFRA/KDR at 4q12 alongside [imatinib](../drugs/imatinib.md), [dasatinib](../drugs/dasatinib.md), [sorafenib](../drugs/sorafenib.md), [crenolanib](../drugs/crenolanib.md), and [regorafenib](../drugs/regorafenib.md) [PMID:26091043](../papers/26091043.md)
+- Cited from prior phase II trials (about 50% ORR) as anti-angiogenic evidence supporting a proposed pazopanib-based combination strategy for solitary fibrous tumors. [PMID:37980418](../papers/37980418.md)
 
 ## Resistance mechanisms
 
@@ -49,3 +50,6 @@ Pazopanib is an FDA-approved multi-target tyrosine kinase inhibitor targeting VE
 - [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:37980418](../papers/37980418.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -4,7 +4,7 @@ aliases: [SHP2]
 cancer_types: [LCH, ECD]
 tags: [ras-pathway]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # PTPN11
@@ -34,6 +34,7 @@ PTPN11 (SHP2) is a tyrosine phosphatase that acts upstream of RAS/MAPK signaling
 - Secondary RTK-RAS regulator contributing to NF1/BRAF Class 3 co-alteration patterns in melanoma; listed among backseat co-alterations in driver-stratified immunotherapy outcomes study [PMID:33509808](../papers/33509808.md)
 - Y62 phosphorylation activated by EGFR; Y546/Y584 by PDGFRA; forms complex with GAB1/GRB2 to activate RAS; identified as a convergent RTK signaling hub in GBM multi-omic profiling [PMID:33577785](../papers/33577785.md)
 - RAS-pathway mutation identified among transformation drivers in pediatric therapy-related myeloid neoplasms arising from neuroblastoma; patient 118728 had multiple RAS-pathway hits including PTPN11 [PMID:35078859](../papers/35078859.md)
+- PTPN11 was among RAS-pathway cooperating mutations in a pediatric AML cohort [PMID:38212634](../papers/38212634.md)
 
 ## Cancer types (linked)
 
@@ -55,58 +56,41 @@ PTPN11 (SHP2) is a tyrosine phosphatase that acts upstream of RAS/MAPK signaling
 
 - [PMID:36862133](../papers/36862133.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26095796](../papers/26095796.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26466571](../papers/26466571.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27276561](../papers/27276561.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:30742119](../papers/30742119.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31068700](../papers/31068700.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33509808](../papers/33509808.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:35078859](../papers/35078859.md)
+- [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

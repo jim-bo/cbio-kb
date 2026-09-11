@@ -9,8 +9,8 @@ tags:
   - rhabdomyosarcoma
   - pediatric
   - rare
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Spindle Cell/Sclerosing Rhabdomyosarcoma (SCSRMS)
@@ -27,6 +27,7 @@ Spindle cell/sclerosing rhabdomyosarcoma is a rare subtype of rhabdomyosarcoma (
 
 - [ETV6](../genes/ETV6.md): FISH-negative in SARC0127, ruling out the [ETV6](../genes/ETV6.md)–[NTRK3](../genes/NTRK3.md) fusion characteristic of [IFS](../cancer_types/IFS.md) and confirming SCSRMS. [PMID:39305899](../papers/39305899.md)
 - [NTRK3](../genes/NTRK3.md): negative for [NTRK3](../genes/NTRK3.md) rearrangement by FISH in SARC0127. [PMID:39305899](../papers/39305899.md)
+- Single-nucleus RNA-seq of six chemotherapy-exposed MYOD1 L122R-mutant spindle cell/sclerosing rhabdomyosarcoma tumors (177,051 malignant nuclei) identified conserved progenitor, transition and differentiated cell states driven by an IGF2-IGF1R-PI3K/AKT/mTOR axis; ex vivo and in vivo testing showed broad chemoresistance but sensitivity to combined PI3K/mTOR and IGF1R inhibition. [PMID:41758938](../papers/41758938.md)
 
 ## Subtypes
 
@@ -43,3 +44,6 @@ Spindle cell/sclerosing rhabdomyosarcoma is a rare subtype of rhabdomyosarcoma (
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. *Cell Stem Cell* 2024. UCLA sarcoma PDTO drug-sensitivity landscape.
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:41758938](../papers/41758938.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

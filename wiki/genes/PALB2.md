@@ -11,8 +11,8 @@ tags:
   - HRD
   - PARPi
   - germline
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # PALB2
@@ -41,6 +41,7 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 - PALB2 cited as an established HR pathway gene and comparator context for [RAD51B](../genes/RAD51B.md) susceptibility; used in the clinical interpretation framework for germline panel recommendations in an MSK-IMPACT cohort of 18,087 cancer patients (including 2,265 breast and 1,157 ovarian cancers). [PMID:34635660](../papers/34635660.md)
 - PALB2 pathogenic alterations among 15 PROfound HRR genes; 10/51 (19.6%) prostate cancer brain metastasis (PCBM) patients met PROfound inclusion criteria with alterations in these genes, suggesting PARP inhibitor eligibility in PCBM patients excluded from the original PROfound trial [PMID:35504881](../papers/35504881.md)
 - DDR pathway gene with pathogenic alterations in sarcoma; collectively DDR genes ([ATM](../genes/ATM.md), [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md), PALB2, [RAD51B](../genes/RAD51B.md), [RAD51D](../genes/RAD51D.md), [RAD52](../genes/RAD52.md), [RAD54L](../genes/RAD54L.md)) carry pathogenic alterations in 2.5% of sarcomas, biallelic in 1.0% (72/7,494) [PMID:35705558](../papers/35705558.md)
+- Pathogenic germline PALB2 mutations (with BRCA1/BRCA2) were not associated with pathologic complete response to neoadjuvant chemotherapy in this TNBC cohort [PMID:36001024](../papers/36001024.md).
 
 ## Cancer types (linked)
 
@@ -90,13 +91,11 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 
 - [PMID:34405229](../papers/34405229.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34635660](../papers/34635660.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
+- [PMID:36001024](../papers/36001024.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

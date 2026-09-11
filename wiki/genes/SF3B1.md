@@ -3,8 +3,8 @@ symbol: SF3B1
 aliases: []
 cancer_types: [CLLSLL, PTAD, ACYC]
 tags: [splicing-factor, cll-driver]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # SF3B1
@@ -45,6 +45,7 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - SF3B1 listed among the 15 canonical clonal hematopoiesis (CH) genes used to classify WBC-matched variants in cfDNA sequencing, helping distinguish CH from tumor-derived signal [PMID:31768066](../papers/31768066.md)
 - Spliceosome CH gene; strongly age-associated clonal hematopoiesis not enriched by therapy exposure; collectively among the strongest therapy-related myeloid neoplasm (tMN) risk predictors alongside [SRSF2](../genes/SRSF2.md) and U2AF1 [PMID:33106634](../papers/33106634.md)
 - In [AML](../cancer_types/AML.md) cell-state RNA-seq analysis (n=68), SF3B1 mutations are enriched in the HSC-like cell state alongside [BCOR](../genes/BCOR.md) [PMID:35868306](../papers/35868306.md)
+- Most frequently mutated gene in this MDS cohort (24%), an early clonal event, and the only gene associated with better leukemia-free survival; mutually exclusive with SRSF2 and IDH2, and linked to ring sideroblasts and low marrow blast fraction. [PMID:24030381](../papers/24030381.md)
 
 ## Cancer types (linked)
 
@@ -120,10 +121,9 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 
 - [PMID:31768066](../papers/31768066.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33106634](../papers/33106634.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
+- [PMID:24030381](../papers/24030381.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

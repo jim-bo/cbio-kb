@@ -3,8 +3,8 @@ symbol: NRAS
 aliases: []
 cancer_types: [APAD, LCH, ECD, ATC, RMS, PRAD, LGSOC]
 tags: [ras-pathway, oncogene, hotspot]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # NRAS
@@ -84,6 +84,14 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - NRAS Q61R/Q61K hotspot mutations in 11% (13/119) of [LGSOC](../cancer_types/LGSOC.md) patients on MSK-IMPACT; mutually exclusive with [KRAS](../genes/KRAS.md) (p=0.004); not significantly associated with age or platinum sensitivity; part of the MAPK-altered group with improved [OS](../cancer_types/OS.md) (multivariate HR 2.5 for absence, p=0.019) [PMID:35443055](../papers/35443055.md)
 - Mutated in 4% of pMMR/MSS LARC tumors (Level 3B actionable in CRC) in a cohort of 692 rectal tumors sequenced by MSK-IMPACT [PMID:35970919](../papers/35970919.md)
 - NRAS (with KRAS, collectively 'RAS') correlated with Monocyte-like cell state in [AML](../cancer_types/AML.md); RAS-mutant AML shows greater sensitivity to STE7/MEK inhibitors (expected) and to CDK-family inhibitors (unexpected) in ex vivo drug profiling [PMID:35868306](../papers/35868306.md)
+- In myelodysplastic syndrome clonal-evolution profiling, NRAS mutations correlated strongly with marrow blast percentage and were co-mutated with ASXL1 [PMID:24030381](../papers/24030381.md).
+- In site-resolved colorectal cancer genomics, NRAS was mutated in 2% of the cohort and was a source of predicted neoantigens together with KRAS [PMID:35487942](../papers/35487942.md).
+- In a pan-cancer MET-amplification cohort, NRAS mutations were an infrequent co-driver (2 cases) in non-lung MET-amplified tumors [PMID:36044468](../papers/36044468.md).
+- In solitary fibrous tumor, an NRAS p.Q61K mutation was part of a 3-case (2.1%) RAS/MEK-pathway group proposed for MEK-inhibitor targeting [PMID:37980418](../papers/37980418.md).
+- In a pediatric AML transcriptomic classification, NRAS mutations (188 cases) were the dominant RAS-pathway alteration alongside KRAS (78 cases), with distinct enrichment across HOXA/HOXB molecular groups [PMID:38212634](../papers/38212634.md).
+- In metastatic pheochromocytoma/paraganglioma, an NRAS p.G12A mutation was acquired in a post-CVD-chemotherapy intracranial metastasis, with predicted MAPK activation [PMID:40097403](../papers/40097403.md).
+- In a MYOD1-driven tumor cohort, NRAS was among genes upstream of PI3K/AKT/mTOR signaling recurrently altered (5-15%), alongside NF1, NF2, BCOR, FGFR4 [PMID:41758938](../papers/41758938.md).
+- In a pan-cancer hotspot survey, NRAS was a rare but canonical driver in PAAD (0.3%) and LUAD (0.6%); its apparent late-onset association in melanoma disappeared once BRAF-mutant tumors were excluded [PMID:41895280](../papers/41895280.md).
 
 ## Cancer types (linked)
 
@@ -169,34 +177,32 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33509808](../papers/33509808.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33765338](../papers/33765338.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33863915](../papers/33863915.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35078859](../papers/35078859.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35235413](../papers/35235413.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35304457](../papers/35304457.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35443055](../papers/35443055.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35970919](../papers/35970919.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
+- [PMID:24030381](../papers/24030381.md)
+- [PMID:35487942](../papers/35487942.md)
+- [PMID:36044468](../papers/36044468.md)
+- [PMID:37980418](../papers/37980418.md)
+- [PMID:38212634](../papers/38212634.md)
+- [PMID:40097403](../papers/40097403.md)
+- [PMID:41758938](../papers/41758938.md)
+- [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -3,8 +3,8 @@ symbol: YAP1
 aliases: [YAP]
 cancer_types: [STAD]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # YAP1
@@ -28,6 +28,7 @@ YAP1 (Yes-associated protein 1) is a transcriptional co-activator and downstream
 - YAP1 protein expression was consistently absent or very low by IHC across 37 [SCLC](../cancer_types/SCLC.md) PDX/CDX models (MSK [lung_pdx_msk_2021](../datasets/lung_pdx_msk_2021.md) cohort), questioning YAP1 as a defining IHC subtype marker; however, YAP/TAZ downstream target genes ([NOTCH2](../genes/NOTCH2.md), [NOTCH3](../genes/NOTCH3.md)) were highly expressed in POU2F3-positive (SCLC-P) PDXs regardless of YAP1 protein level [PMID:35440124](../papers/35440124.md)
 - YAP1 was upregulated in the newly described CRPC-SCL subtype; double siRNA knockdown of YAP1/WWTR1 (TAZ) selectively suppressed growth of CRPC-SCL models (MSKPCa3, DU145; p<0.0001) but not CRPC-AR models; YAP1 co-binds FOSL1/TEAD at CRPC-SCL enhancers; [verteporfin](../drugs/verteporfin.md) (YAP/TAZ inhibitor) and T-5224 (AP-1 inhibitor) preferentially inhibited CRPC-SCL proliferation in preclinical models [PMID:35617398](../papers/35617398.md)
 - YAP1 entirely absent in aSCLC ([RB1](../genes/RB1.md)+/TP53+ atypical [SCLC](../cancer_types/SCLC.md)) but enriched in nsSCLC-RB1-/TP53-; may serve as a distinguishing molecular marker between the two never-smoker SCLC subtypes [PMID:39185963](../papers/39185963.md)
+- A chromothripsis event at the YAP1 locus drove elevated YAP1 and downstream CDK6 expression in abemaciclib-resistant MDA-MB-453 breast cancer cells, a known CDK4/6-inhibitor resistance mechanism [PMID:40379787](../papers/40379787.md).
 
 ## Cancer types (linked)
 
@@ -57,13 +58,11 @@ YAP1 (Yes-associated protein 1) is a transcriptional co-activator and downstream
 - [PMID:34272401](../papers/34272401.md)
 - [PMID:34544752](../papers/34544752.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39185963](../papers/39185963.md)
+- [PMID:40379787](../papers/40379787.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

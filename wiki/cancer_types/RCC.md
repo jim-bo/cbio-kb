@@ -8,7 +8,7 @@ tags:
   - renal
   - umbrella
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # Renal Cell Carcinoma (RCC)
@@ -34,6 +34,8 @@ Alterations vary substantially by RCC subtype. Cross-subtype observations from t
 See individual subtype pages for full alteration catalogs.
 - PIPseq cohort: VHL V166G mutation identified in a renal cell carcinoma patient as diagnostic of Von Hippel-Lindau syndrome [PMID:28007021](../papers/28007021.md)
 - RCC (renal cell carcinoma, n=151) was among the ICI-treated histologies in the MSK-IMPACT cohort; TMB-high RCC patients had improved overall survival, and PFS/clinical-benefit associations with TMB were specifically analyzed for renal cell carcinoma. [PMID:30643254](../papers/30643254.md)
+- In the phase 2 IMmotion150 trial (n=305) in treatment-naive advanced/metastatic renal cell carcinoma, atezolizumab plus bevacizumab did not significantly improve PFS over sunitinib in the intent-to-treat population (11.7 vs. 8.4 months, HR 1.00); VHL (62%) and PBRM1 (44%) were the most common drivers, and PBRM1-mutant tumors had better PFS on sunitinib (HR 0.38) but worse PFS on atezolizumab monotherapy (HR 2.49) than on sunitinib. [PMID:29867230](../papers/29867230.md)
+- In the MSK-IMPACT pan-cancer MET landscape, renal cell carcinoma made up 7% of the MET FISH validation cohort and 3 of 45 patients treated with a MET inhibitor. [PMID:36044468](../papers/36044468.md)
 
 ## Subtypes
 
@@ -62,3 +64,9 @@ See individual subtype pages. Notable pan-RCC observations from the corpus:
 - [PMID:30643254](../papers/30643254.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:29867230](../papers/29867230.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36044468](../papers/36044468.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [knowledge-base, variant-annotation, precision-oncology]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # OncoKB
@@ -36,6 +36,12 @@ Precision oncology knowledge base curating the oncogenic effect and clinical act
 - Applied to annotate clinical actionability in cfDNA mutations detected by cf-IMPACT ([IMPACT410](../methods/IMPACT410.md)) and [MSK-ACCESS](../methods/ACCESS129.md) across 118 metastatic solid tumor patients; 25% (30/118) had OncoKB level 1–4 actionable variants by cf-IMPACT [PMID:34059130](../papers/34059130.md)
 - Applied to annotate candidate driver mutations in the [CSCC](../cancer_types/CSCC.md) meta-analysis; OncoKB hotspot classification was used to exclude potential false-positive driver calls (e.g., [MAP2K4](../genes/MAP2K4.md) and [KDR](../genes/KDR.md) hotspots classified as unlikely oncogenic) [PMID:34272401](../papers/34272401.md)
 - OncoKB actionability levels applied to 7,494 sarcoma samples (data cutoff June 8, 2021); 31.7% harbored ≥1 actionable alteration, 5.9% at Level 1 (FDA-recognized for the given histology), predominantly [KIT](../genes/KIT.md) mutations in [GIST](../cancer_types/GIST.md) [PMID:35705558](../papers/35705558.md)
+- OncoKB-pathogenic classification identified 69 (2.6%) ERBB2-mutant endometrial carcinomas among 2,638 MSK-IMPACT-sequenced tumors [PMID:39031567](../papers/39031567.md).
+- Variants were annotated as oncogenic/likely oncogenic with OncoKB in a 99-tumor upper tract urothelial carcinoma cohort [PMID:39550333](../papers/39550333.md).
+- Used to classify oncogenic variants in a targeted-sequencing comparison of secondary versus primary rectal cancers [PMID:40100215](../papers/40100215.md).
+- Used to classify somatic variants as oncogenic in a 3,880-sample breast cancer clinicogenomic cohort studying APOBEC3-driven resistance mutations [PMID:40379787](../papers/40379787.md).
+- OncoKB (v3.9) oncogenic/likely-oncogenic calls, plus newly identified hotspots, defined driver alterations across 54,331 MSK-IMPACT tumors [PMID:41895280](../papers/41895280.md).
+- Compared OncoKB v1.8 (2017) versus v4.7 (2023) actionability annotations for 1,254 biliary tract cancers; the potentially actionable cohort (n=514) carried a level 1/2/3A alteration [PMID:42360806](../papers/42360806.md).
 
 ## Notes
 
@@ -84,3 +90,21 @@ Precision oncology knowledge base curating the oncogenic effect and clinical act
 - [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39031567](../papers/39031567.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39550333](../papers/39550333.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40100215](../papers/40100215.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40379787](../papers/40379787.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

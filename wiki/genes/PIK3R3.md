@@ -7,8 +7,8 @@ tags:
   - PI3K
   - regulatory_subunit
   - mTOR_pathway
-processed_by: crosslinker
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # PIK3R3
@@ -20,6 +20,7 @@ PIK3R3 encodes the p55-gamma regulatory subunit of class IA phosphatidylinositol
 ## Alterations observed in the corpus
 
 - PIK3R3 was profiled as part of the PI3K/mTOR pathway in metastatic pancreatic neuroendocrine tumors (80 patients, MSK-IMPACT panel, [panet_msk_2018](../datasets/panet_msk_2018.md)). mTOR-pathway alterations collectively occurred in 34/80 (43%) of patients across multiple PI3K-pathway genes. Individual PIK3R3 alteration counts are not separately enumerated in the published report. [PMID:30687805](../papers/30687805.md)
+- PIK3R3 had recurrent PI3K-pathway alterations in 5% of genomically profiled MYOD1 L122R-mutant rhabdomyosarcomas, mutually exclusive with other PI3K/AKT/mTOR pathway alterations [PMID:41758938](../papers/41758938.md).
 
 ## Cancer types (linked)
 
@@ -40,5 +41,6 @@ PIK3R3 encodes the p55-gamma regulatory subunit of class IA phosphatidylinositol
 ## Sources
 
 - [PMID:30687805](../papers/30687805.md)
+- [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

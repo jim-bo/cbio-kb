@@ -3,8 +3,8 @@ symbol: MAP2K4
 aliases: [MKK4, SEK1, JNKK1]
 cancer_types: [BRCA]
 tags: [deletion, tumor-suppressor, breast-cancer, MAPK-pathway]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # MAP2K4
@@ -27,6 +27,7 @@ MAP2K4 (Mitogen-Activated Protein Kinase Kinase 4) is a dual-specificity kinase 
 - MAP2K4 amplifications identified in 8% (6/80) of uterine leiomyosarcoma (uLMS) vs 19% (13/68) of non-uterine [LMS](../cancer_types/LMS.md) (p=0.06); amplifications were most common in uterine sarcomas relative to the pan-cancer MSK-IMPACT cohort, suggesting MAP2K4 copy gain may be a relatively uterine-sarcoma-enriched event [PMID:32299819](../papers/32299819.md)
 - Classified as 'possible false positive / additional evidence needed' driver candidate in cutaneous squamous cell carcinoma meta-analysis (88 QC-passed tumors); flagged based on gene structure, expression, and annotation correctness [PMID:34272401](../papers/34272401.md)
 - MAP2K4 is co-amplified with [NCOR1](../genes/NCOR1.md), [FLCN](../genes/FLCN.md), and [AURKB](../genes/AURKB.md) via the 17p12-p11.2 cytoband in 19% of uterine [LMS](../cancer_types/LMS.md) ([ULMS](../cancer_types/ULMS.md)), 10% of [LMS](../cancer_types/LMS.md), and 12% of osteosarcoma ([OS](../cancer_types/OS.md)) in the MSK sarcoma clinical sequencing cohort ([sarcoma_mskcc_2022](../datasets/sarcoma_mskcc_2022.md), n=1,148) [PMID:35705560](../papers/35705560.md)
+- Mutated in 3% of a 1015-patient colorectal cancer exome cohort (remaining high-confidence significantly mutated gene) [PMID:35487942](../papers/35487942.md).
 
 ## Cancer types (linked)
 
@@ -48,36 +49,27 @@ MAP2K4 (Mitogen-Activated Protein Kinase Kinase 4) is a dual-specificity kinase 
 
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23103869](../papers/23103869.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27161491](../papers/27161491.md)
 
 - [PMID:28027327](../papers/28027327.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29316426](../papers/29316426.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31552290](../papers/31552290.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
+- [PMID:35487942](../papers/35487942.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

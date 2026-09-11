@@ -5,8 +5,8 @@ kind: MUTATION_EXTENDED
 canonical_source: corpus
 unverified: true
 tags: [somatic-variant-calling, wgs, tumour-normal]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # TNscope
@@ -18,6 +18,7 @@ TNscope is a somatic variant caller developed by Sentieon that detects SNVs, ind
 ## Used by
 
 - Applied in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic SNV and indel detection in paired tumour-normal WGS (mean tumour coverage 85×, normal 31×) for the [lung_nci_2022](../datasets/lung_nci_2022.md) cohort [PMID:34493867](../papers/34493867.md)
+- One of three somatic callers (with Mutect2 and VarScan2) requiring agreement from at least 2 of 3 for SNV/indel calls, filtered to VAF at least 8%, depth at least 8, and at least 2 supporting reads [PMID:35487942](../papers/35487942.md)
 
 ## Notes
 
@@ -28,3 +29,6 @@ TNscope is a somatic variant caller developed by Sentieon that detects SNVs, ind
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

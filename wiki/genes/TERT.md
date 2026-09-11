@@ -3,8 +3,8 @@ symbol: TERT
 aliases: []
 cancer_types: [ESCC, GBM, RBL, IHCH]
 tags: [oncogene, somatic, amplification, telomerase]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # TERT
@@ -59,6 +59,11 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - C228T promoter mutation detected clonally in endometrial carcinoma patient [CD28](../genes/CD28.md) primary tumor; not detected at baseline cfDNA but emerged at 6-month follow-up, demonstrating serial ctDNA monitoring utility [PMID:36007103](../papers/36007103.md)
 - Listed among the few dominant HCC genomic drivers (TERT, [TP53](../genes/TP53.md), [CTNNB1](../genes/CTNNB1.md)) based on large-scale HCC genomic studies; no TERT overexpression detected in the atypical [SCLC](../cancer_types/SCLC.md) (aSCLC) cohort and alternative lengthening of telomeres [footprints](../methods/footprints.md) also absent [PMID:41118283](../papers/41118283.md)
 - No TERT overexpression detected in atypical SCLC (aSCLC, n=20); alternative lengthening of telomeres footprints also absent; chromothripsis trigger therefore not attributable to telomere dysfunction via TERT [PMID:39185963](../papers/39185963.md)
+- TERT promoter mutations occurred in 19.1% (25/131) of solitary fibrous tumors and were associated with malignant histology, necrosis, larger tumor size and older age, but not with PFS [PMID:37980418](../papers/37980418.md).
+- TERT promoter mutations were the most frequent alteration in a bladder cancer DDR-gene cohort, ahead of TP53, KMT2D, KDM6A and ARID1A (each altered in at least 10% of specimens) [PMID:39499893](../papers/39499893.md).
+- TERT was altered in 37.4% of upper tract urothelial carcinomas in the MSK100 cohort, the second most frequently altered gene after FGFR3 [PMID:39550333](../papers/39550333.md).
+- TERT promoter hotspot mutations occurred in 17.7% (14/79) of metastatic pheochromocytoma/paraganglioma cases, alongside an AFF4-TERT fusion, and were a significant driver by OncodriveFML [PMID:40097403](../papers/40097403.md).
+- In thyroid carcinoma, TERT alterations were linked to later age of onset, while RET alterations were linked to early onset only in TERT-wild-type tumors, in a pan-cancer hotspot discovery study [PMID:41895280](../papers/41895280.md).
 
 ## Cancer types (linked)
 
@@ -129,64 +134,49 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 
 - [PMID:31871300](../papers/31871300.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32332851](../papers/32332851.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32791233](../papers/32791233.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33029006](../papers/33029006.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33106634](../papers/33106634.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33466343](../papers/33466343.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33577785](../papers/33577785.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33765338](../papers/33765338.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33863915](../papers/33863915.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34290393](../papers/34290393.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34493867](../papers/34493867.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35120664](../papers/35120664.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36007103](../papers/36007103.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41118283](../papers/41118283.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39185963](../papers/39185963.md)
+- [PMID:37980418](../papers/37980418.md)
+- [PMID:39499893](../papers/39499893.md)
+- [PMID:39550333](../papers/39550333.md)
+- [PMID:40097403](../papers/40097403.md)
+- [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

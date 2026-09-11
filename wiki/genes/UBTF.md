@@ -9,8 +9,8 @@ tags:
   - wnt-signaling
   - pheochromocytoma
   - paraganglioma
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # UBTF
@@ -23,6 +23,7 @@ UBTF (Upstream Binding Transcription Factor) encodes a component of the RNA poly
 
 - Acts as the 5′ fusion partner in UBTF–MAML3 fusion genes in PCC/PGL; its promoter drives MAML3 overexpression (2.7-fold, p < 5e-6), defining the Wnt-altered subtype and serving as a clinical marker of metastasis and poor aggressive-disease-free survival [PMID:28162975](../papers/28162975.md)
 - UBTF–MAML3 fusions occurred in 7 of 10 MAML3 fusion-positive tumors, associated with co-amplification of chromosomes 4q31.1 and 17q21.31 (p < 2e-9) [PMID:28162975](../papers/28162975.md)
+- UBTF tandem duplications defined a distinct, cytogenetically cryptic AML subgroup in 50 of 887 pediatric/AYA AML cases (not represented in WHO5th), with a HOXB-superfamily expression pattern similar to NPM1 and DEK::NUP214 [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
@@ -44,5 +45,6 @@ UBTF (Upstream Binding Transcription Factor) encodes a component of the RNA poly
 ## Sources
 
 - [PMID:28162975](../papers/28162975.md)
+- [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

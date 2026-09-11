@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - HNSC
 tags: [t-cell, immune-biomarker, peripheral-blood, checkpoint-immunotherapy]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # CD4
@@ -18,6 +18,8 @@ CD4 is a co-receptor expressed on helper T cells that facilitates MHC class II a
 
 - Peripheral CD4+ T-cell compartment measured by flow cytometry in 51 recurrent/second-primary HNSCC patients treated with IMRT reirradiation + [nivolumab](../drugs/nivolumab.md); a ≥1.5-fold increase in PD-1+Ki-67+CD4+ T cells after cycle 1 defined a "proliferative responder" group that trended toward **worse** PFS and [OS](../cancer_types/OS.md) — opposite to the expected direction in lung cancer and melanoma [PMID:38780927](../papers/38780927.md).
 - CD4+ T cells detected as infiltrating immune cells in [HGSOC](../cancer_types/HGSOC.md) precursor lesions (p53 signatures, STICs, cancer) by GeoMx spatial profiling across 44 fallopian tube specimens; CD4 used as an immune-cell phenotype marker to define infiltrating populations and [APC](../genes/APC.md) chemoattraction [PMID:39386723](../papers/39386723.md).
+- CD4 transcripts did not change significantly (1.2-fold, P=0.175) on nivolumab, and most patients had very low or undetectable CD4+ infiltrates [PMID:27169994](../papers/27169994.md).
+- Peripheral CD4+ T cells gained IL7R (CD127) and CTLA4 and lost PD-1 expression in the neoadjuvant arm of this PD-1 blockade glioblastoma trial [PMID:30742122](../papers/30742122.md).
 
 ## Cancer types (linked)
 
@@ -41,3 +43,9 @@ CD4 is a co-receptor expressed on helper T cells that facilitates MHC class II a
 - [PMID:39386723](../papers/39386723.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:27169994](../papers/27169994.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:30742122](../papers/30742122.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

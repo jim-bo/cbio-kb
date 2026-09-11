@@ -4,8 +4,8 @@ oncotree_code: ERMS
 main_type: Soft Tissue Sarcoma
 parent: RMS
 tags: [sarcoma, pediatric, rhabdomyosarcoma]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Embryonal Rhabdomyosarcoma (ERMS)
@@ -17,6 +17,7 @@ Embryonal Rhabdomyosarcoma is a Soft Tissue Sarcoma subtype of [RMS](./RMS.md), 
 ## Cohorts in the corpus
 
 - [rms_msk_2023](../datasets/rms_msk_2023.md): 7 fusion-negative ERMS cases within the 61-patient extremity [RMS](../cancer_types/RMS.md) cohort at MSK [PMID:37315267](../papers/37315267.md).
+- Embryonal rhabdomyosarcoma is among 16 pediatric solid tumor types represented in a 68-model patient-derived xenograft resource, in which copy number, expression and driver mutation profiles were generally well conserved between patient tumors and their matched PDXs [PMID:37990009](../papers/37990009.md).
 
 ## Recurrent alterations
 
@@ -65,3 +66,6 @@ Embryonal Rhabdomyosarcoma is a Soft Tissue Sarcoma subtype of [RMS](./RMS.md), 
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

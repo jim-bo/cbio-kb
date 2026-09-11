@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [mutational-signatures, hrd, cosmic, targeted-sequencing, genomics]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # SigMA (Mutational Signatures)
@@ -23,6 +23,8 @@ SigMA is a computational tool for detecting mutational signatures — in particu
 - Used to infer mutational signatures in 3 juvenile papillomatosis (JP) lesions, detecting a shift from aging-related Signature 5 to APOBEC Signature 2 during JP-to-DCIS-to-IDC-NST progression [PMID:33263939](../papers/33263939.md)
 - Applied alongside [DeconstructSigs](../methods/deconstructsigs.md) for mutational signature analysis in 38 WES-profiled metaplastic breast cancers; dominant signatures were COSMIC 3/8 (HRD) in 60% and aging signatures 1/5 in 34% of cases; no significant signature differences between TERT-altered and TERT-WT MBCs [PMID:33863915](../papers/33863915.md)
 - SigMA (Signature Multivariate Analysis) used in [prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md) to detect HRD signature in PCBM; HRD signature significantly more represented in PCBM vs CRPC500 non-brain metastases (q=0.041) and in PCBM primaries vs TCGA (q=0.0003) [PMID:35504881](../papers/35504881.md)
+- Inferred dominant mutational signatures from targeted sequencing in 15 of 25 CDH1-wildtype invasive lobular carcinomas with at least 5 SBSs [PMID:38347189](../papers/38347189.md).
+- Deconvoluted dominant mutational signature (APOBEC3, HRD, Clock, Other) per sample across a 3,880-sample MSK-IMPACT breast cancer cohort, benchmarked against downsampled TCGA WES/WGS [PMID:40379787](../papers/40379787.md).
 
 ## Notes
 
@@ -46,3 +48,9 @@ SigMA is a computational tool for detecting mutational signatures — in particu
 - [PMID:35504881](../papers/35504881.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:38347189](../papers/38347189.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40379787](../papers/40379787.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

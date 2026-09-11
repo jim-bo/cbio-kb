@@ -5,8 +5,8 @@ drug_class: PARP inhibitor
 canonical_source: corpus
 unverified: true
 tags: [NPC, PARP, DNA-repair]
-processed_by: entity-page-writer
-processed_at: "2026-05-21"
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # niraparib
@@ -20,6 +20,7 @@ Niraparib is a PARP inhibitor targeting [PARP1](../genes/PARP1.md) and PARP2. It
 - Niraparib listed alongside fuzuloparib and olaparib as PARP inhibitors being tested in combination with immune checkpoint inhibitors to exploit DNA repair deficiencies in recurrent/metastatic NPC [PMID:41002550](../papers/41002550.md).
 - Niraparib directly targets PARP1/PARP2; in BRCA1/2-wild-type mCRPC, resistance to PARP inhibitors (including niraparib) may be driven by high TRMT10A expression, which supports BRCA1 recruitment to DNA double-strand breaks via ATM-mediated Ser28 phosphorylation [PMID:41071892](../papers/41071892.md)
 - Authors note that niraparib (alongside olaparib) has shown activity against brain metastases in HRD breast cancer and murine models, supporting the potential benefit of CNS-permeable PARPi in PCBM patients with HRR alterations [PMID:35504881](../papers/35504881.md)
+- Among 131 solitary fibrous tumors, PARP-pathway gene alterations (FANCF, RAD54L, FANCA, FANCC, ATM, RECQL4, NBN, CHEK2, WRN; 6.9%) were matched to PARP inhibitors including niraparib as candidate targeted therapy. [PMID:37980418](../papers/37980418.md)
 
 ## Resistance mechanisms
 
@@ -33,3 +34,6 @@ Niraparib is a PARP inhibitor targeting [PARP1](../genes/PARP1.md) and PARP2. It
 - [PMID:35504881](../papers/35504881.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-21**.*
+- [PMID:37980418](../papers/37980418.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

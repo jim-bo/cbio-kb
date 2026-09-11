@@ -10,7 +10,7 @@ tags:
   - ubiquitin-ligase
   - pancreatic-cystic-neoplasm
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 canonical_source: cbioportal
 unverified: false
 ---
@@ -37,6 +37,8 @@ VHL (Von Hippel-Lindau Tumor Suppressor) encodes an E3 ubiquitin ligase subunit 
 - Confirmed as a KIRC SMG called by both MutSig2CV and MuSiC2 on the TCGA MC3 open-access MAF; VHL is one of the canonical KIRC drivers consistently recovered across callers [PMID:29596782](../papers/29596782.md)
 - Germline pathogenic variant in 1/88 metastatic panNET patients (high-penetrance germline carrier); argues for universal germline testing in panNET (panet_msk_2018) [PMID:30687805](../papers/30687805.md)
 - Biallelic inactivation in renal clear cell carcinoma cell lines can include one deleted plus one methylated allele; 3 cell lines with this compound inactivation mechanism identified in the CCLE dataset (1,070+ lines) [PMID:31068700](../papers/31068700.md)
+- In metastatic RCC, VHL was somatically mutated in 62% of 201 tumors; mutation status was not associated with PFS in any treatment arm, though VHL mutants had higher Angio signature expression [PMID:29867230](../papers/29867230.md).
+- In a ccRCC outcome classifier, VHL was mutated in 76% of tumors and anchored the risk model; VHL-only-mutant tumors (VHL+0) had the best outcomes (~90% 5-year DFS overall, 96% in stage I), while VHL-wild-type tumors (23%) were excluded from classification [PMID:36815791](../papers/36815791.md).
 
 ## Cancer types (linked)
 
@@ -59,38 +61,29 @@ VHL (Von Hippel-Lindau Tumor Suppressor) encodes an E3 ubiquitin ligase subunit 
 
 - [PMID:22158988](../papers/22158988.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:41102155](../papers/41102155.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24487277](../papers/24487277.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27713405](../papers/27713405.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28007021](../papers/28007021.md)
 - [PMID:28162975](../papers/28162975.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29301960](../papers/29301960.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29596782](../papers/29596782.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30687805](../papers/30687805.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31068700](../papers/31068700.md)
+- [PMID:29867230](../papers/29867230.md)
+- [PMID:36815791](../papers/36815791.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

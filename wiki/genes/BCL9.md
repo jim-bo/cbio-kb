@@ -7,8 +7,8 @@ tags:
   - wnt-pathway
   - bcl-family
   - gene-fusion
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # BCL9
@@ -20,6 +20,7 @@ BCL9 (B-cell CLL/lymphoma 9) is a co-activator of beta-catenin-mediated transcri
 ## Alterations observed in the corpus
 
 - Recurrent translocation involving BCL9 detected by low-pass WGS in 5/106 endometrial carcinoma tumors ([ucec_tcga_pub](../datasets/ucec_tcga_pub.md)); predicted in-frame fusions with increased BCL family expression. [PMID:23636398](../papers/23636398.md)
+- A high-confidence significantly mutated gene (HC-SMG) in ~4% of colorectal tumors in a large pan-colon sequencing cohort [PMID:35487942](../papers/35487942.md).
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ BCL9 (B-cell CLL/lymphoma 9) is a co-activator of beta-catenin-mediated transcri
 - [PMID:23636398](../papers/23636398.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

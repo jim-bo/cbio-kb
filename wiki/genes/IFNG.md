@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [COAD]
 tags: [th1, icr, immune-signature]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # IFNG
@@ -19,6 +19,10 @@ IFNG encodes interferon gamma, the defining Th1 cytokine that drives anti-tumor 
 - Marker of the immune-related [ILC](../cancer_types/ILC.md) mRNA subtype identified in a comprehensive molecular portrait of invasive lobular breast cancer (n=127 [ILC](../cancer_types/ILC.md) TCGA + n=106 LumA [ILC](../cancer_types/ILC.md)) [PMID:26451490](../papers/26451490.md)
 - No significant differential expression between anti-PD-1 responders vs non-responders in whole-tumor transcriptome analysis of pretreatment melanoma biopsies; bulk RNA-seq may dilute immune-cell-specific interferon-gamma signal [PMID:26997480](../papers/26997480.md)
 - IFNG response genes (BST2, MX2, IRF9, GBP2) are concordantly downregulated in the T-cell-depleted cluster of upper tract urothelial carcinoma (UTUC, 87.5% of cases); FGFR3 signaling cell-autonomously suppresses this IFNG response [PMID:31278255](../papers/31278255.md).
+- Upregulated in tumor on nivolumab (anti-PD-1) treatment as part of a Th1/cytotoxic gene signature (with GZMA, GZMH, PRF1); not detected in blood. [PMID:27169994](../papers/27169994.md)
+- Part of a 5-gene T-effector signature (with CD8A, GZMA, GZMB, PRF1, TBX21) in urothelial carcinoma treated with atezolizumab; the signature did not differ significantly between upper- and lower-tract primary tumors. [PMID:27939400](../papers/27939400.md)
+- Part of the 5-gene Teff signature (with CD8A, EOMES, PRF1, CD274) in renal cell carcinoma; TeffHigh tumors had greater benefit from atezolizumab + bevacizumab both within-arm and versus sunitinib. [PMID:29867230](../papers/29867230.md)
+- Interferon-gamma expression signature was higher in the neoadjuvant PD-1 blockade arm of recurrent glioblastoma (P=0.03), proposed to drive downregulation of tumor cell-cycle genes. [PMID:30742122](../papers/30742122.md)
 
 ## Cancer types (linked)
 
@@ -40,13 +44,14 @@ IFNG encodes interferon gamma, the defining Th1 cytokine that drives anti-tumor 
 
 - [PMID:37202560](../papers/37202560.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26451490](../papers/26451490.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26997480](../papers/26997480.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:31278255](../papers/31278255.md)
+- [PMID:27169994](../papers/27169994.md)
+- [PMID:27939400](../papers/27939400.md)
+- [PMID:29867230](../papers/29867230.md)
+- [PMID:30742122](../papers/30742122.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

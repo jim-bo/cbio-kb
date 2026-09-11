@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [clonal-inference, bayesian, mutation-clustering]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # PyClone
@@ -25,6 +25,7 @@ PyClone is a Bayesian statistical method for inferring the clonal population str
 - NMF on PyClone cancer-cell fractions defined 3 mutation clusters in a multiregion salivary [ACC](../cancer_types/ACC.md) case; the most divergent metastatic cluster carried subclonal [SF3B1](../genes/SF3B1.md), [XDH](../genes/XDH.md), [LTF](../genes/LTF.md), and [TMEM2](../genes/TMEM2.md) mutations implicated in metastasis [PMID:31483290](../papers/31483290.md).
 - PyClone clonal decomposition revealed 7/25 (28%) synchronous [DCIS](../cancer_types/DCIS.md) had minor subclones that became dominant in matched IDC-NST; clonal-selection cases had significantly higher Shannon and Gini-Simpson diversity indices (both P<0.05) [PMID:32220886](../papers/32220886.md)
 - Used in [prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md) for clonal architecture inference from multi-region WES data of prostate cancer brain metastases; cancer cell fraction estimates helped identify subclonal primary clones that expanded to clonal dominance in brain metastases [PMID:35504881](../papers/35504881.md)
+- Used PyClone-VI as one of four clonality-consensus methods (with McGranahan CCF, CliP and Ccube) to call clonal populations in a pediatric solid-tumor PDX cohort [PMID:37990009](../papers/37990009.md).
 
 ## Notes
 
@@ -56,3 +57,6 @@ PyClone is a Bayesian statistical method for inferring the clonal population str
 - [PMID:35504881](../papers/35504881.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

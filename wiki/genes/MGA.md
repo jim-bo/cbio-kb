@@ -3,8 +3,8 @@ symbol: MGA
 aliases: []
 cancer_types: [LUAD]
 tags: [myc-pathway, metastasis]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # MGA
@@ -27,6 +27,7 @@ MGA is a MAX-interacting transcriptional repressor in the MYC/MAX/MXD network, f
 - Altered in 2.1% pN-negative vs 6.0% pN-positive [LUAD](../cancer_types/LUAD.md) tumors (asterisked as significant in OncoPrint); suggests enrichment in lymph-node metastatic disease [PMID:34290393](../papers/34290393.md).
 - CITED2-MGA fusion — undescribed fusion identified by cWGTS in a round-cell sarcoma NOS patient; not detected by MSK-IMPACT or MSK-Fusion panel assays [PMID:35585047](../papers/35585047.md).
 - Novel recurrent mutation in [GIST](../cancer_types/GIST.md) at 3% frequency alongside [SETD2](../genes/SETD2.md) (4%) and [MAX](../genes/MAX.md) (4%), identified by MSK-IMPACT sequencing of 2,138 sarcoma samples [PMID:35705560](../papers/35705560.md)
+- Recurrent (5–15%) inactivating mutation or copy-number deletion in MYOD1 L122R-mutant spindle cell/sclerosing rhabdomyosarcoma (SCSRMS), among genes upstream of PI3K/AKT/mTOR signaling [PMID:41758938](../papers/41758938.md).
 
 ## Cancer types (linked)
 
@@ -65,10 +66,9 @@ MGA is a MAX-interacting transcriptional repressor in the MYC/MAX/MXD network, f
 
 - [PMID:34290393](../papers/34290393.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
+- [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

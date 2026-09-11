@@ -6,8 +6,8 @@ cancer_types:
 tags:
   - gene-fusion
   - tyrosine-kinase
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # BCR
@@ -25,6 +25,8 @@ BCR (breakpoint cluster region) encodes a multi-domain signaling protein most no
 - BCR-ABL1 fusion detected across cancer cell lines in CCLE; ponatinib sensitivity in AML/CML lines correlates with phospho-SHP2 (pY542) and encompasses lines with BCR-ABL1 alterations [PMID:31068700](../papers/31068700.md)
 - BCR-ABL1 fusion detected in all three Ph+ ALL patient-derived xenograft models in the PPTC PDX cohort (261 models across 37 pediatric cancer subtypes) [PMID:31693904](../papers/31693904.md)
 - BCR is located on 22q11.21-q11.23 and is co-deleted in 77% of schwannomatosis SWNTS-SWN cases as part of coordinated arm-level deletion with NF2, SMARCB1, EWSR1, PATZ1, ZNRF3, and MYH9; proposed as a contributor to schwannomatosis pathogenesis [PMID:33025139](../papers/33025139.md)
+- Differentially mutated by EBV status in Burkitt lymphoma, one of two genes (with FOXO1) that is an exception to the general excess of mutations in EBV-negative BL [PMID:36201743](../papers/36201743.md).
+- BCR::ABL1 fusion identified in 1 case within a pediatric AML molecular classification cohort of 887 cases [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
@@ -67,3 +69,9 @@ BCR (breakpoint cluster region) encodes a multi-domain signaling protein most no
 - [PMID:33025139](../papers/33025139.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:36201743](../papers/36201743.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38212634](../papers/38212634.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

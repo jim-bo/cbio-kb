@@ -3,8 +3,8 @@ symbol: ARID1A
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC]
 tags: [swi-snf, chromatin-remodeling, driver]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # ARID1A
@@ -117,6 +117,15 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - Truncating mutations in 7.9% [LIHC](../cancer_types/LIHC.md), 9.9% [IHCH](../cancer_types/IHCH.md), 7.2% [STAD](../cancer_types/STAD.md) in the OncoMark Chinese solid-tumor cohort; actionable to PLX2853/tazemetostat (OncoKB Level 4) [PMID:35871175](../papers/35871175.md)
 - Mutated in 36% of primary endometrial carcinomas (EC pilot cfDNA cohort, n=44); truncating mutations recurrent in cfDNA-positive cases (CD20, CD22, CD37); detected by MSK-ACCESS liquid biopsy [PMID:36007103](../papers/36007103.md)
 - Carcinoid-characteristic SNV/deletion in 25% of atypical [SCLC](../cancer_types/SCLC.md) (aSCLC); ARID1A deletions co-localize with chromothriptic chromosome 1 in never/light-smoker SCLC [PMID:39185963](../papers/39185963.md)
+- Uncommon mutations observed in triple-negative breast cancer, alongside PIK3CA and BAP1; not associated with response to pembrolizumab-based therapy in this trial [PMID:35121644](../papers/35121644.md)
+- HC-SMG mutated in 7% of colorectal tumors [PMID:35487942](../papers/35487942.md)
+- Mutated more frequently in pediatric than adult Burkitt lymphoma (46% vs 26%) [PMID:36201743](../papers/36201743.md)
+- Alterations mutually exclusive with chromoplexy in EWSR1::WT1 desmoplastic small round cell tumor [PMID:38335254](../papers/38335254.md)
+- One of the most frequent co-mutations (65%) in ERBB2-mutated endometrial cancer, alongside PTEN and PIK3CA [PMID:39031567](../papers/39031567.md)
+- Altered in at least 10% of specimens in a bladder cancer DDR-panel cohort, among the most frequent alterations alongside TERT promoter, TP53, KMT2D and KDM6A [PMID:39499893](../papers/39499893.md)
+- Acquired APOBEC3-context alterations, along with ZFHX3, enriched in treatment-resistant, APOBEC3-dominant paired longitudinal breast cancer samples (q=0.08) [PMID:40379787](../papers/40379787.md)
+- Recurrent (5-15%) inactivating mutation or copy-number deletion in MYOD1 L122R-mutant tumors, alongside MGA, CDKN2A, CHEK2, SMARCB1 and NOTCH4 [PMID:41758938](../papers/41758938.md)
+- Altered in 18% of microsatellite-stable biliary tract cancers [PMID:42360806](../papers/42360806.md)
 
 ## Cancer types (linked)
 
@@ -414,3 +423,30 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35121644](../papers/35121644.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36201743](../papers/36201743.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38335254](../papers/38335254.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39031567](../papers/39031567.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39499893](../papers/39499893.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40379787](../papers/40379787.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41758938](../papers/41758938.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

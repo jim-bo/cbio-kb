@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [copy-number, targeted-sequencing, aneuploidy, arm-level, bioinformatics]
-processed_by: crosslinker
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # ASCETS (Arm-level Somatic Copy-number Events in Targeted Sequencing)
@@ -18,6 +18,7 @@ ASCETS is a computational tool that infers chromosome arm-level somatic copy-num
 ## Used by
 
 - Arm-level CNAs in 2,069 MSK-IMPACT-profiled prostate cancer patients (1,841 White, 165 Black, 63 Asian) were called with ASCETS; chr8q gain was enriched in Black men (49%) vs White men (37%, adjusted difference +11 pp, 95% CI 4–18) and was independently prognostic for [OS](../cancer_types/OS.md) (HR 2.00, 95% CI 1.00–4.01 in Black men) [PMID:34667026](../papers/34667026.md)
+- ASCETS called arm-level copy-number gains and losses (events present in at least 15% of samples) in EWSR1-rearranged Ewing sarcoma and DSRCT. [PMID:38335254](../papers/38335254.md)
 
 ## Notes
 
@@ -30,3 +31,6 @@ ASCETS is a computational tool that infers chromosome arm-level somatic copy-num
 - [PMID:34667026](../papers/34667026.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:38335254](../papers/38335254.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [driver-discovery, bioinformatics, mutation-clustering]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # OncodriveCLUST
@@ -18,6 +18,7 @@ OncodriveCLUST is a bioinformatics method for detecting cancer driver genes base
 ## Used by
 
 - Applied to identify recurrently mutated driver genes in endometrial polyps; nominated [UBE2A](../genes/UBE2A.md) as a novel candidate driver gene based on recurrent codon-6 hotspot mutations (score 0.83, q = 1.51 × 10⁻⁵) [PMID:41137179](../papers/41137179.md)
+- OncodriveCLUST was one of five driver-discovery tools run on nonhypermutated colorectal tumors to nominate high-confidence significantly mutated genes [PMID:35487942](../papers/35487942.md).
 
 ## Notes
 
@@ -30,3 +31,6 @@ OncodriveCLUST is a bioinformatics method for detecting cancer driver genes base
 - [PMID:41137179](../papers/41137179.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -3,8 +3,8 @@ symbol: ATF1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # ATF1
@@ -16,6 +16,7 @@ ATF1 (Activating Transcription Factor 1) is a member of the CREB/ATF family of b
 ## Alterations observed in the corpus
 
 - EWSR1-ATF1 fusion identified in a clear cell odontogenic carcinoma ([CCOC](../cancer_types/CCOC.md)); novel finding in odontogenic tumors enabling histologic reclassification [PMID:27442865](../papers/27442865.md)
+- EWSR1-ATF1 fusion identified in a clear cell sarcoma patient within a pediatric solid tumor PDX cohort [PMID:37990009](../papers/37990009.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ ATF1 (Activating Transcription Factor 1) is a member of the CREB/ATF family of b
 - [PMID:27442865](../papers/27442865.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

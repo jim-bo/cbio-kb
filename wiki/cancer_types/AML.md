@@ -4,8 +4,8 @@ oncotree_code: AML
 main_type: Leukemia
 parent: MNM
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Acute Myeloid Leukemia (AML)
@@ -36,6 +36,8 @@ Acute Myeloid Leukemia (AML) is a hematologic malignancy arising from myeloid pr
 - Serial bone-marrow sequencing of 52 high-risk [NBL](../cancer_types/NBL.md) patients (HemePACT + FusionPlex Pan-Heme): AML was an endpoint for therapy-related myeloid neoplasm development after neuroblastoma therapy; 17 transformation cases included AML/MDS outcomes [PMID:35078859](../papers/35078859.md)
 - AML was included in the MAPPYACTS pediatric precision-medicine trial (n=787); [IDH1](../genes/IDH1.md) R132L mutation (n=1) was identified as ready-for-routine-use in AML, targetable by [ivosidenib](../drugs/ivosidenib.md) [PMID:35292802](../papers/35292802.md)
 - Beat AML Waves 3+4 cohort (942 specimens, 805 patients) profiled with ex vivo drug sensitivity, RNA-Seq, and DNA sequencing; [PEAR1](../genes/PEAR1.md) expression nominated as single-gene [OS](../cancer_types/OS.md) predictor equivalent to LSC17, independent of ELN risk in young (<45 y) patients; cell-maturation state (HSC-like, Monocyte-like) broadly governs drug sensitivity and modifies mutation–drug associations [PMID:35868306](../papers/35868306.md)
+- In a 738-patient myelodysplastic syndrome (MDS) sequencing cohort, 35 patients (5%) had progressed to AML (MDS-AML) at enrollment, and an increasing number of driver mutations plus cytogenetic lesions predicted a higher rate of transformation to acute leukemia (P<0.0001) [PMID:24030381](../papers/24030381.md).
+- An 887-patient pediatric AML RNA-seq study built a molecular classification of 23 mutually exclusive categories covering 91.4% of the cohort, led by KMT2A rearrangements (20.3%) and RUNX1::RUNX1T1 (12.4%), and combined it with end-of-induction MRD status into a 6-tier risk-stratification framework validated in an independent cohort [PMID:38212634](../papers/38212634.md).
 
 ## Subtypes
 
@@ -87,3 +89,9 @@ Acute Myeloid Leukemia (AML) is a hematologic malignancy arising from myeloid pr
 - [PMID:35868306](../papers/35868306.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:24030381](../papers/24030381.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38212634](../papers/38212634.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

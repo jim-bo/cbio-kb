@@ -5,8 +5,8 @@ aliases:
 cancer_types:
   - GBM
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # CTNNB1
@@ -29,6 +29,8 @@ CTNNB1 (beta-catenin) is the central effector of the canonical Wnt signaling pat
 - Listed among hotspot-interrogated genes in EC cfDNA monitoring; CTNNB1 mutations are a known recurrent EC driver tracked in MSK-ACCESS-based liquid biopsy studies [PMID:36007103](../papers/36007103.md)
 - Beta-catenin activation defines a >25% subset of [HCC](../cancer_types/HCC.md) patients addicted to fatty acid oxidation via PPARalpha and CPT1A; etomoxir suppresses tumor development in this Wnt/beta-catenin-driven HCC context [PMID:41118283](../papers/41118283.md)
 - CTNNB1 mutation shared between adjacent intramucosal carcinoma and high-grade dysplasia in one AOM/DSS mouse model lesion; Wnt-pathway alterations infrequent in CAC (enriched only in subclonal-TP53 cases, P=0.017) [PMID:36611031](../papers/36611031.md)
+- CTNNB1 mutated in ~4% of colorectal tumors, ranked among the top known drivers. [PMID:35487942](../papers/35487942.md)
+- CTNNB1 mutated in 7 of 11 (64%) hepatoblastomas with exome data, one of only two significantly mutated genes by MutSigCV, and retained as the early driver in a branch-seeding case. [PMID:37990009](../papers/37990009.md)
 
 ## Cancer types (linked)
 
@@ -50,37 +52,28 @@ CTNNB1 (beta-catenin) is the central effector of the canonical Wnt signaling pat
 
 - [PMID:33577785](../papers/33577785.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34290393](../papers/34290393.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34819518](../papers/34819518.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35120664](../papers/35120664.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36007103](../papers/36007103.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41118283](../papers/41118283.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36611031](../papers/36611031.md)
+- [PMID:35487942](../papers/35487942.md)
+- [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

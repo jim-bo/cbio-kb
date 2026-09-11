@@ -5,8 +5,8 @@ aliases:
 cancer_types:
   - PRAD
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # RRAS2
@@ -20,6 +20,7 @@ RRAS2 (also known as TC21) encodes a member of the RAS superfamily of small GTPa
 - RRAS2 Q72L mutation in one primary prostate tumor; paralogous to RAS Q61 activating hotspot [PMID:26544944](../papers/26544944.md)
 - Activating mutation with CNLOH identified as a shared truncal alteration in a patient whose germ cell tumor, MDS, and post-transplant histiocytic sarcoma were all clonally related, supporting a common shared precursor origin [PMID:32897884](../papers/32897884.md)
 - Mutated in 1.2% of CSCC tumors; hotspot mutation observed in cutaneous squamous cell carcinoma meta-analysis [PMID:34272401](../papers/34272401.md)
+- New oncogenic hotspots G23 (n=65) and G24 (n=33), paralogous to RAS G12/G13, identified alongside the known Q72 (n=49); concentrated in endometrial and germ cell tumors and mutually exclusive with K/H/NRAS drivers. [PMID:41895280](../papers/41895280.md)
 
 ## Cancer types (linked)
 
@@ -41,10 +42,9 @@ RRAS2 (also known as TC21) encodes a member of the RAS superfamily of small GTPa
 
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
 - [PMID:32897884](../papers/32897884.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34272401](../papers/34272401.md)
+- [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

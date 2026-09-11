@@ -3,8 +3,8 @@ symbol: KRAS
 aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS, COAD, CSCC, CHOL]
 tags: [oncogene, mapk, driver, allele-specific]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # KRAS
@@ -173,6 +173,13 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Hotspot mutations subclonal in the primary endometrial carcinoma of patient CD20 but clonal in the sentinel lymph node; detected by MSK-ACCESS ctDNA monitoring, demonstrating clonal expansion of KRAS-mutant cells in nodal compartment [PMID:36007103](../papers/36007103.md)
 - KRAS mutated in 31% of colitis-associated cancers (CAC); enriched in more-differentiated histology; less frequent in CAC than sporadic CRC; also mutated in dysplasia preceding CAC. [PMID:36611031](../papers/36611031.md)
 - KRAS amplification co-localized to chromothriptic chromosome 12q12 in a subset of atypical [SCLC](../cancer_types/SCLC.md) (aSCLC); KRAS canonical driver mutations found in 6% of never-smoker [RB1](../genes/RB1.md)−/TP53− SCLC, anchoring the adenocarcinoma-to-SCLC plasticity pathway — absent in aSCLC. [PMID:39185963](../papers/39185963.md)
+- KRAS was mutated in 24% of colorectal tumors and correlated with hypermutation; KRAS/NRAS variant peptides were among the 10 most frequent predicted neoantigens [PMID:35487942](../papers/35487942.md).
+- In a pancreatic cancer nivolumab/chemotherapy trial, KRAS mutation frequency was balanced across treatment arms and did not explain the nivolumab plus chemotherapy survival benefit [PMID:35662283](../papers/35662283.md).
+- KRAS was a de novo co-driver in 6 NSCLC and 9 non-lung MET-amplified tumors, and one NSCLC acquired MET amplification while on therapy for KRAS G12C [PMID:36044468](../papers/36044468.md).
+- KRAS (78 cases) and NRAS (188 cases) were the dominant RAS-pathway mutations in pediatric AML, with distinct enrichment across HOXA/HOXB expression groups [PMID:38212634](../papers/38212634.md).
+- KRAS was the most frequently detected ctDNA alteration in pancreatic cancer (68% of ctDNA-positive patients, 41% of the whole cohort), with allele mix G12D 47%, G12V 31%, G12R 15% [PMID:40511613](../papers/40511613.md).
+- A new KRAS V14 hotspot was identified, co-occurring in cis with common KRAS hotspots; G12D and G12V are targets of HLA-restricted TCR therapy [PMID:41895280](../papers/41895280.md).
+- In biliary tract cancer, KRAS was altered in 17% of tumors (most frequent in eCCA), with G12D in 5.4% and G12C in 1.1% named as emerging targets [PMID:42360806](../papers/42360806.md).
 
 ## Cancer types (linked)
 
@@ -505,5 +512,12 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:36611031](../papers/36611031.md)
 
 - [PMID:39185963](../papers/39185963.md)
+- [PMID:35487942](../papers/35487942.md)
+- [PMID:35662283](../papers/35662283.md)
+- [PMID:36044468](../papers/36044468.md)
+- [PMID:38212634](../papers/38212634.md)
+- [PMID:40511613](../papers/40511613.md)
+- [PMID:41895280](../papers/41895280.md)
+- [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

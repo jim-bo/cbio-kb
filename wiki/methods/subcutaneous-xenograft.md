@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: false
 tags: [in-vivo, mouse-model, tumor-model, xenograft]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # Subcutaneous Xenograft
@@ -26,6 +26,7 @@ Subcutaneous xenograft models involve injecting human cancer cells into the flan
 - DU145 and PC3 cells with NOL10 knockdown or USF1 knockdown grown as subcutaneous xenografts in male nude mice; NOL10-knockdown xenografts were significantly smaller by volume and weight, with lower Ki67, lower Vimentin, and higher E-cadherin by IHC [PMID:41062477](../papers/41062477.md)
 - Used subcutaneous MCF7 CDK6-overexpressing and shPTEN xenografts in nude mice to demonstrate that PROTAC degraders BSJ-05-017 and BSJ-03-096 suppress tumor volume by 47–69% vs ribociclib failure in CDK4/6i-resistant ER+ breast cancer [PMID:34544752](../papers/34544752.md)
 - Used BT-474 shNF1 subcutaneous xenografts to show 37% growth inhibition with trametinib 1 mg/kg (p=0.0059), demonstrating MEK dependency in MAPK-altered HER2+ breast cancer resistant to anti-HER2 therapy [PMID:34795269](../papers/34795269.md)
+- Used to generate 90 subcutaneous PDX models from 194 pediatric solid tumor samples in NSG mice, yielding a 68-PDX analyzed cohort across 16 cancer types [PMID:37990009](../papers/37990009.md).
 
 ## Notes
 
@@ -61,3 +62,6 @@ Subcutaneous xenograft models involve injecting human cancer cells into the flan
 - [PMID:34795269](../papers/34795269.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

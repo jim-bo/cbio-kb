@@ -10,7 +10,7 @@ tags:
   - ultra-deep
   - validation
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # Targeted Deep Amplicon Sequencing
@@ -25,6 +25,7 @@ Targeted deep amplicon sequencing applies PCR amplification followed by massivel
 - Used as an 8-sample addendum with a 71-gene targeted exome panel to supplement whole-exome sequencing of periampullary tumors in the Australian Pancreatic Cancer Genome Initiative cohort [PMID:26804919](../papers/26804919.md)
 - Bespoke patient-specific multiplex-PCR NGS panels targeting clonal and subclonal SNVs identified by multi-region exome sequencing, sequenced at ~40,000x depth, used in TRACERx for ctDNA monitoring with ≥2-SNV positivity threshold [PMID:28445469](../papers/28445469.md)
 - Custom 165-amplicon Ion AmpliSeq panel at mean coverage ×5,406 used for multiregion sequencing of one heavily sampled salivary ACC across 6 primary subregions and 8 lung metastases, revealing 36 unique mutations with 70% of metastatic mutations present in only 1–3 primary subregions [PMID:31483290](../papers/31483290.md).
+- Used to validate pTERT and other somatic variants in a 94-tumor SDHB-mutant pheochromocytoma/paraganglioma cohort [PMID:40097403](../papers/40097403.md).
 
 ## Notes
 
@@ -44,3 +45,6 @@ Targeted deep amplicon sequencing applies PCR amplification followed by massivel
 - [PMID:31483290](../papers/31483290.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:40097403](../papers/40097403.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

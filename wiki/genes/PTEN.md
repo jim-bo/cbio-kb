@@ -3,8 +3,8 @@ symbol: PTEN
 aliases: []
 cancer_types: [LUAD, NSCLC, OS, MNG, CESC, UCEC, STLMS, ULMS, PRAD, THPA, IHCH]
 tags: [tumor-suppressor, pi3k-pathway, thyroid-cancer, cholangiocarcinoma]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # PTEN
@@ -167,6 +167,14 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - PTEN frequency is similar across MMR-D endometrial cancer subgroups (MLH1ph, germline, somatic), representing a background EC alteration not specific to any MMR mechanism [PMID:35849120](../papers/35849120.md)
 - Mutated in 50% of primary endometrial cancers in ctDNA pilot ([ucec_ccr_cfdna_msk_2022](../datasets/ucec_ccr_cfdna_msk_2022.md), n=44); clonal PTEN shared between primary EC and one SLN in CD20 (heterogeneity); pathogenic PTEN detected in CD37 adenosarcoma cfDNA [PMID:36007103](../papers/36007103.md)
 - PTEN-loss combined with cMet overexpression activates AKT/mTOR and de novo lipogenesis in [HCC](../cancer_types/HCC.md) mouse models; [FASN](../genes/FASN.md) ablation only delays (does not prevent) tumor development in PTEN-loss/cMet-overexpression context; loss of both FASN and [SREBF2](../genes/SREBF2.md) abolishes tumor growth [PMID:41118283](../papers/41118283.md)
+- PTEN mutations were rare (<2%) in MDS but showed the nonsense/splice-site/frameshift pattern typical of other cancers, not previously implicated in MDS [PMID:24030381](../papers/24030381.md)
+- PTEN (7%) deletion frequency rose from ascending colon to rectum in colorectal cancer [PMID:35487942](../papers/35487942.md)
+- PTEN was more often mutated in EBV-negative Burkitt lymphoma [PMID:36201743](../papers/36201743.md)
+- PTEN fell within a TP53/PTEN GISTIC2 deletion peak in hepatoblastoma PDX models [PMID:37990009](../papers/37990009.md)
+- PTEN was altered in 3/25 (12%) invasive lobular breast carcinomas [PMID:38347189](../papers/38347189.md)
+- PTEN (57%) was among the most frequent co-mutations in ERBB2-mutated endometrial cancers [PMID:39031567](../papers/39031567.md)
+- PTEN alterations were numerically (though not significantly) higher in APOBEC3-dominant treatment-resistant HR+/HER2- breast tumors [PMID:40379787](../papers/40379787.md)
+- PTEN was recurrently altered (10%) in the PI3K/AKT/mTOR pathway, mutually exclusive with PIK3CA/AKT/PIK3R3/PIK3C2G alterations [PMID:41758938](../papers/41758938.md)
 
 ## Cancer types (linked)
 
@@ -332,43 +340,38 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - [PMID:34667026](../papers/34667026.md)
 - [PMID:34795269](../papers/34795269.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35120664](../papers/35120664.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35235413](../papers/35235413.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35304457](../papers/35304457.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35670774](../papers/35670774.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35849120](../papers/35849120.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36007103](../papers/36007103.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41118283](../papers/41118283.md)
+- [PMID:24030381](../papers/24030381.md)
+- [PMID:35487942](../papers/35487942.md)
+- [PMID:36201743](../papers/36201743.md)
+- [PMID:37990009](../papers/37990009.md)
+- [PMID:38347189](../papers/38347189.md)
+- [PMID:39031567](../papers/39031567.md)
+- [PMID:40379787](../papers/40379787.md)
+- [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

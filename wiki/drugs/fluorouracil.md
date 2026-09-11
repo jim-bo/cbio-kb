@@ -5,8 +5,8 @@ drug_class: fluoropyrimidine antimetabolite
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # fluorouracil
@@ -33,6 +33,8 @@ processed_at: 2026-05-21
 - In metastatic MSS CRC, fluoropyrimidine (fluorouracil) + [oxaliplatin](../drugs/oxaliplatin.md) ± [bevacizumab](../drugs/bevacizumab.md) was the standard first-line regimen; radiographic response (71.9% vs 61.8% vs 66.5%) and median [OS](../cancer_types/OS.md) (46.9 vs 56.4 vs 54.5 months) did not differ between early-onset (≤35, 36-49 years) and adult-onset patients [PMID:34405229](../papers/34405229.md)
 - In Nigerian colorectal cancer (28.1% MSI-H), authors note that the MSI-H subset may derive only marginal benefit from fluorouracil-based chemotherapy, supporting earlier consideration of PD-1 blockade in this population [PMID:34819518](../papers/34819518.md)
 - 5-Fluorouracil (5-FU) is part of FOLFOX and FLOT neoadjuvant regimens used in 32% of 237 esophageal/GEJ adenocarcinoma patients; FOLFOX was significantly associated with better pathologic response vs carboplatin/paclitaxel (OR 2.38, p=0.013) [PMID:35377946](../papers/35377946.md)
+- 22 of 31 patients in a colorectal cancer primary-metastasis cohort received pre-operative 5-fluorouracil-based chemotherapy before synchronous hemicolectomy/metastasectomy; irinotecan and 5-fluorouracil-based regimens were associated with increased non-canonical/fetal transcriptional module expression in patient-derived organoids [PMID:39478232](../papers/39478232.md).
+- Component of FOLFOX, the first-line regimen a HER2-amplified gallbladder cancer patient progressed on before gemcitabine/cisplatin and then the HER2 bispecific antibody zanidatamab [PMID:42360806](../papers/42360806.md).
 
 ## Resistance mechanisms
 
@@ -85,3 +87,9 @@ processed_at: 2026-05-21
 - [PMID:35377946](../papers/35377946.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39478232](../papers/39478232.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

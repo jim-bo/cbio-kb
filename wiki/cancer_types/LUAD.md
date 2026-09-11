@@ -4,8 +4,8 @@ oncotree_code: LUAD
 main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Lung Adenocarcinoma (LUAD)
@@ -77,6 +77,8 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - [SCLC](../cancer_types/SCLC.md) PDX resource from 33 patients included 4 never-smoker samples with oncogenic EGFR mutations consistent with histologic LUAD-to-SCLC transformation as a resistance mechanism [PMID:35440124](../papers/35440124.md)
 - Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): EGFR elevated in LUAD vs MSK-IMPACT and TCGA (L858R 20%, exon 19 del 19%, G719 3% within [NSCLC](../cancer_types/NSCLC.md)); [KEAP1](../genes/KEAP1.md) significantly lower in LUAD vs MSK and TCGA; EGFR/KRAS co-occurrence noted (atypical for Western cohorts); 6.7% [ALK](../genes/ALK.md) fusion rate in [NSCLC](../cancer_types/NSCLC.md); TMB-H negatively associated with fusions in [NSCLC](../cancer_types/NSCLC.md) (3% vs 13%, P=1.31×10⁻¹¹) [PMID:35871175](../papers/35871175.md)
 - Rekhtman et al. define adenocarcinoma-to-SCLC histologic transformation in never-smoker [SCLC](../cancer_types/SCLC.md) (nsSCLC-RB1−/TP53−, n=18) as a distinct plasticity pathway driven by EGFR mutations (39%) or [KRAS](../genes/KRAS.md) mutations (6%) plus APOBEC mutagenesis, contrasting with the carcinoid-origin atypical [SCLC](../cancer_types/SCLC.md) pathway that lacks EGFR/KRAS and operates in an [RB1](../genes/RB1.md)+/TP53+ background [PMID:39185963](../papers/39185963.md)
+- A pan-cancer MET copy-number survey of 66,285 MSK-IMPACT tumor samples broke NSCLC MET amplification data down by histologic subtype, including lung adenocarcinoma (LUAD), lung squamous cell carcinoma (LUSC) and large cell neuroendocrine carcinoma (LUNE) [PMID:36044468](../papers/36044468.md).
+- In the MSK-50K cohort, RRAS was a rare (about 0.05% overall) but canonical driver in lung adenocarcinoma (0.2% of LUAD), and all 43 LUAD tumors with a novel EGFR hotspot also carried an initiating EGFR mutation (L858R or an exon 19/20 indel) [PMID:41895280](../papers/41895280.md).
 
 ## Subtypes
 
@@ -177,3 +179,9 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36044468](../papers/36044468.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

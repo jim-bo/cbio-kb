@@ -4,8 +4,8 @@ aliases: [chromogranin A]
 cancer_types:
   - NBL
 tags: [neuroendocrine-marker, neuroblastoma, noradrenergic, adrenergic]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # CHGA
@@ -21,6 +21,7 @@ CHGA (chromogranin A) is a neuroendocrine secretory protein widely used as a mar
 - CHGA (chromogranin A) shows highest expression in the Wnt-altered PCC/PGL subtype (p<0.002), consistent with its role as a clinical neuroendocrine tumor marker; expression-based subtype classification in 173-patient TCGA PCC/PGL cohort [PMID:28162975](../papers/28162975.md)
 - CHGA (chromogranin A) is an NE marker expressed at high levels in SCLC-A and SCLC-N subtypes and low levels in SCLC-P (POU2F3-driven) subtype, as shown in an MSK PDX/CDX [SCLC](../cancer_types/SCLC.md) biobank of 26 clinical specimens and 30 models. [PMID:35440124](../papers/35440124.md)
 - High neuroendocrine marker expression in CRPC-NE subtype in a transcriptomic CRPC subtyping study; co-elevated with [SYP](../genes/SYP.md) and [DLL3](../genes/DLL3.md) as defining NE markers [PMID:35617398](../papers/35617398.md)
+- CHGA is a validated protein marker of the neuroendocrine-like non-canonical cell state enriched in colorectal cancer metastases [PMID:39478232](../papers/39478232.md).
 
 ## Cancer types (linked)
 
@@ -57,3 +58,6 @@ CHGA (chromogranin A) is a neuroendocrine secretory protein widely used as a mar
 - [PMID:35617398](../papers/35617398.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39478232](../papers/39478232.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

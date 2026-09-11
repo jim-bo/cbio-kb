@@ -5,8 +5,8 @@ drug_class: multi-kinase inhibitor
 canonical_source: corpus
 unverified: true
 tags: [TKI, GIST, second-line]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # sunitinib
@@ -27,6 +27,8 @@ Sunitinib is an oral multi-targeted receptor tyrosine kinase inhibitor (TKI) tha
 - Sunitinib was noted among the targeted therapy options available for secondary MIBC given the 42% RTK/MAPK pathway alteration rate and [FGFR3](../genes/FGFR3.md) (18%) / [ERBB2](../genes/ERBB2.md) (15%) actionable alterations in this subgroup, which was considered chemo-refractory and candidate for targeted-therapy trials [PMID:30290956](../papers/30290956.md).
 - Sunitinib was among the systemic therapies used in the 80-patient metastatic panNET cohort profiled by [MSK-IMPACT](../methods/msk-impact-panel.md); genomic characterization of the cohort focused on [MEN1](../genes/MEN1.md), [DAXX](../genes/DAXX.md), [ATRX](../genes/ATRX.md), and mTOR-pathway alterations rather than drug-specific response rates [PMID:30687805](../papers/30687805.md)
 - In PDAC proteogenomic subtyping (n=140, paad_cptac_2021), DSigDB GSEA associated sunitinib (PDGFR/VEGFR inhibitor) drug signatures with the C2 (basal-like) subtype alongside PP-242/mTOR inhibitors, nominating sunitinib as a subtype-directed strategy for C2 PDAC [PMID:34534465](../papers/34534465.md)
+- In first-line PD-L1+ metastatic renal cell carcinoma, sunitinib was the comparator arm against atezolizumab plus bevacizumab, which showed encouraging PFS; highly angiogenic and PBRM1-mutant tumors were proposed to benefit most from sunitinib. [PMID:29867230](../papers/29867230.md)
+- A published nivolumab-sunitinib combination trial in other soft-tissue sarcomas was cited as precedent for proposing anti-angiogenic plus immunotherapy combinations in solitary fibrous tumor. [PMID:37980418](../papers/37980418.md)
 
 ## Resistance mechanisms
 
@@ -66,3 +68,9 @@ Sunitinib is an oral multi-targeted receptor tyrosine kinase inhibitor (TKI) tha
 - [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:29867230](../papers/29867230.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37980418](../papers/37980418.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

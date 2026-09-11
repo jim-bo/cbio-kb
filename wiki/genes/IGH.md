@@ -8,8 +8,8 @@ tags:
   - gene-fusion
   - tcga-pancan
   - lymphoma
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # IGH
@@ -21,6 +21,7 @@ IGH (Immunoglobulin Heavy locus) encodes the immunoglobulin heavy chain gene clu
 ## Alterations observed in the corpus
 
 - IGH catalogued as a gene entity in the TCGA pan-cancer fusion atlas (9,624 samples, 33 cancer types including DLBCL), which systematically surveyed gene fusions across RNA-seq data from all major TCGA cancer types. [PMID:29617662](../papers/29617662.md)
+- MYC translocation partner in 79% of MYC-translocated Burkitt lymphomas; IGH breakpoints were CSR-type in EBV-negative BL and SHM-type in EBV-positive BL. [PMID:36201743](../papers/36201743.md)
 
 ## Cancer types (linked)
 
@@ -41,5 +42,6 @@ IGH (Immunoglobulin Heavy locus) encodes the immunoglobulin heavy chain gene clu
 ## Sources
 
 - [PMID:29617662](../papers/29617662.md)
+- [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **crosslinker** on **2026-05-15**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [pathway-analysis, gene-sets, transcriptomics, enrichment]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # GSEA
@@ -38,6 +38,11 @@ Gene Set Enrichment Analysis (GSEA) is a computational method for determining wh
 - GSEA pathway analysis identified cell-cycle/DNA-replication pathways (SMC1, MCM5, MCM7) enriched in PDX-engrafting [UTUC](../cancer_types/UTUC.md) tumors and ECM/focal-adhesion pathways in non-engrafters [PMID:32332851](../papers/32332851.md)
 - Used in [prad_organoids_msk_2022](../datasets/prad_organoids_msk_2022.md) to characterize the four CRPC chromatin subtypes; CRPC-SCL was enriched for mammary stem cell signature, cancer stem cell markers, FGFR signaling, TGF-β/EMT/TNF-α/IFN response pathways [PMID:35617398](../papers/35617398.md)
 - ssGSEA used to score six single-cell [AML](../cancer_types/AML.md) maturation-state signatures (HSC-like, Progenitor-like, GMP-like, Promonocyte-like, Monocyte-like, cDC-like) across 942 [AML](../cancer_types/AML.md) specimens; 73 drugs showed response significantly correlated with at least one cell-type signature [PMID:35868306](../papers/35868306.md)
+- Used (KEGG gene sets, hypergeometric test) for pathway enrichment analysis of tumor RNA-seq in a neoadjuvant pembrolizumab glioblastoma trial [PMID:30742122](../papers/30742122.md).
+- Used alongside immune gene signatures for pathway analysis of tumor RNA-seq in a cyclophosphamide + pembrolizumab metastatic TNBC trial [PMID:35121644](../papers/35121644.md).
+- Used (WebGestaltR) for pathway analysis of RNA-seq/proteomics data in a neoadjuvant chemotherapy TNBC proteogenomics cohort [PMID:36001024](../papers/36001024.md).
+- Used (GSEApy, MSigDB C2) for expression pathway analysis across 68 pediatric solid-tumor PDX models [PMID:37990009](../papers/37990009.md).
+- Used alongside ssGSEA immune signatures for pathway analysis of UTUC tumor RNA-seq to characterize expression clusters [PMID:39550333](../papers/39550333.md).
 
 ## Notes
 
@@ -48,65 +53,30 @@ Gene Set Enrichment Analysis (GSEA) is a computational method for determining wh
 ## Sources
 
 - [PMID:41000773](../papers/41000773.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26631609](../papers/26631609.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26997480](../papers/26997480.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27713405](../papers/27713405.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27749842](../papers/27749842.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28667006](../papers/28667006.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41062477](../papers/41062477.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29033130](../papers/29033130.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29301960](../papers/29301960.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29622463](../papers/29622463.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625049](../papers/29625049.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713003](../papers/29713003.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30742119](../papers/30742119.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31278255](../papers/31278255.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40970133](../papers/40970133.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31978347](../papers/31978347.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32332851](../papers/32332851.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
+- [PMID:30742122](../papers/30742122.md)
+- [PMID:35121644](../papers/35121644.md)
+- [PMID:36001024](../papers/36001024.md)
+- [PMID:37990009](../papers/37990009.md)
+- [PMID:39550333](../papers/39550333.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

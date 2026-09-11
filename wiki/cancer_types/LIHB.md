@@ -4,8 +4,8 @@ oncotree_code: LIHB
 main_type: Hepatobiliary Cancer
 parent: LIVER
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Hepatoblastoma (LIHB)
@@ -17,6 +17,7 @@ Hepatoblastoma is the most common primary liver tumor in children, with peak inc
 ## Cohorts in the corpus
 
 - [mixed_pipseq_2017](../datasets/mixed_pipseq_2017.md) — PIPseq pediatric pan-cancer cohort (Columbia University Medical Center), which includes hepatoblastoma cases among 101 high-risk pediatric patients [PMID:28007021](../papers/28007021.md).
+- A pediatric solid-tumor PDX resource included 13 hepatoblastoma models among 68 PDXs from 65 patients across 16 cancer types, with a mean time from implantation to harvest of about 13 weeks, the shortest of the surveyed histologies [PMID:37990009](../papers/37990009.md).
 
 ## Recurrent alterations
 
@@ -45,3 +46,6 @@ Hepatoblastoma is the most common primary liver tumor in children, with peak inc
 - [PMID:35292802](../papers/35292802.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

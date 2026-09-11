@@ -3,8 +3,8 @@ symbol: PBRM1
 aliases: []
 cancer_types: [UCEC, OVT]
 tags: [chromatin-remodeling, swi-snf, tumor-suppressor]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 canonical_source: cbioportal
 unverified: false
 ---
@@ -46,6 +46,10 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 - Mutated in 12% of cutaneous squamous cell carcinomas ([CSCC](../cancer_types/CSCC.md)); SWI/SNF chromatin-remodeling subunit; nominated as novel [CSCC](../cancer_types/CSCC.md) driver in this meta-analysis of 88 tumors [PMID:34272401](../papers/34272401.md)
 - Inactivating alterations in 15.8% of chordomas; identified in clinical genomic profiling of 7,494 soft tissue and bone sarcoma samples [PMID:35705558](../papers/35705558.md)
 - Predominant SWI/SNF alteration alongside [ARID1A](../genes/ARID1A.md) in 43% of uterine adenosarcoma ([UAS](../cancer_types/UAS.md)) [PMID:35705560](../papers/35705560.md)
+- PBRM1 was mutated in 44% of metastatic RCC tumors in the IMmotion150 trial; mutants had higher Angio-signature expression and better PFS on sunitinib (HR 0.38), while atezolizumab monotherapy performed worse than sunitinib in the PBRM1-mutant subgroup (HR 2.49) [PMID:29867230](../papers/29867230.md).
+- PBRM1 was a high-confidence significantly mutated gene in 3% of colorectal tumors in this cohort [PMID:35487942](../papers/35487942.md).
+- PBRM1 was mutated in 39% of clear cell RCC tumors; among VHL-mutant tumors, PBRM1 mutation was linked to worse disease-free survival (HR 1.72), with the worst outcomes in PBRM1/BAP1 co-mutant tumors (HR 7.29) [PMID:36815791](../papers/36815791.md).
+- PBRM1 alterations were enriched in intrahepatic cholangiocarcinoma among biliary tract cancers [PMID:42360806](../papers/42360806.md).
 
 ## Cancer types (linked)
 
@@ -99,40 +103,32 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 
 - [PMID:28472509](../papers/28472509.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29301960](../papers/29301960.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29596782](../papers/29596782.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30150660](../papers/30150660.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30687805](../papers/30687805.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33466343](../papers/33466343.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33765338](../papers/33765338.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
+- [PMID:29867230](../papers/29867230.md)
+- [PMID:35487942](../papers/35487942.md)
+- [PMID:36815791](../papers/36815791.md)
+- [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

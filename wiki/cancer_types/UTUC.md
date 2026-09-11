@@ -4,8 +4,8 @@ oncotree_code: UTUC
 main_type: Bladder Cancer
 parent: BLADDER
 tags: [urothelial, upper-tract, fgfr3]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Upper Tract Urothelial Carcinoma (UTUC)
@@ -29,6 +29,9 @@ Urothelial carcinoma arising in the renal pelvis or ureter; OncoTree code `UTUC`
 - Integrated WES and RNA-seq of 37 high-grade UTUC tumors showed: FGFR3 activating mutations in 29.7% (vs 13.7% TCGA UCB, P=0.04); 84.3% luminal-papillary subtype; 87.5% T-cell depleted; lower TMB (2.91 vs 5.46 mut/Mb, P=1.9×10⁻⁵); FGFR3 cell-autonomously suppresses IFNG response, supporting FGFR3 inhibitor + ICI combination [PMID:31278255](../papers/31278255.md).
 - MSK-IMPACT sequencing of 119 UTUC patients showed recurrent drivers FGFR3 (47-48%), KDM6A (38%), KMT2D (26%), TERT (26%), TP53 (25%), ERBB2 (8-9%); RNA-seq on 80 tumors: 87.5% luminal, 12.5% basal; 17 PDX (50% take rate) and 6 PDC models released as utuc_msk_2019 and utuc_pdx_msk_2019 on cBioPortal; MSI-H UTUC associated with chemotherapy resistance (0/2 pathologic responses vs 10/17 in MSS) [PMID:32332851](../papers/32332851.md)
 - [FGFR3](../genes/FGFR3.md) mutations in 50%, [KDM6A](../genes/KDM6A.md) in 27%, and novel tumor suppressor [ZFP36L1](../genes/ZFP36L1.md) in 20% (by MutSigCV FDR<0.05) in 30 WES UTUC cases; EpiC-high methylation subtype = hypermethylated, immune-infiltrated, SWI/SNF-mutant, MI-enriched, OS HR=6.57 vs EpiC-low (FGFR3-mut, immune-cold, NMI-enriched) [PMID:33397444](../papers/33397444.md)
+- In IMvigor210 cohort 1, upper-tract urothelial carcinoma (UTUC) primaries (33/119, 28%) had a higher objective response rate to atezolizumab than bladder/urethra primaries (39% vs 17%), with median overall survival not reached in the upper-tract group. [PMID:27939400](../papers/27939400.md)
+- In a 99-tumor MSK-IMPACT cohort of upper tract urothelial carcinoma (UTUC), the most frequently altered genes were FGFR3 (48.5%), TERT (37.4%), KMT2D (30.3%), KDM6A (23.2%) and TP53 (23.2%), and RNA-seq identified five expression clusters with distinct recurrence risk and immune-checkpoint-blockade response. [PMID:39550333](../papers/39550333.md)
+- Final long-term analysis of IMvigor210 (median follow-up 96.4 months in cohort 1, which included upper-tract urothelial carcinoma, UTUC) confirmed durable atezolizumab responses in cisplatin-ineligible urothelial carcinoma, with cohort 1 ORR 23.5% and median duration of response 59.1 months. [PMID:39642637](../papers/39642637.md)
 
 ## Subtypes
 
@@ -58,3 +61,12 @@ Urothelial carcinoma arising in the renal pelvis or ureter; OncoTree code `UTUC`
 - [PMID:33397444](../papers/33397444.md) — Su et al. integrative genomic/methylation profiling of 40 UTUC cases.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:27939400](../papers/27939400.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39550333](../papers/39550333.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39642637](../papers/39642637.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

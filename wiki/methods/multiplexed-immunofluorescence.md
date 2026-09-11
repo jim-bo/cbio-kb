@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [imaging, immunofluorescence, tme, spatial, multiplex]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Multiplexed immunofluorescence
@@ -24,6 +24,10 @@ Multiplexed immunofluorescence (mIF) enables simultaneous detection of multiple 
 - Used in [GBM](../cancer_types/GBM.md) anti-PD-1 immunotherapy study (n=17 paired pre/post samples) via Opal/Vectra platform staining for CD3, CD8, [CD68](../genes/CD68.md), HLA-DR, PD-L1, and [SOX2](../genes/SOX2.md) on FFPE specimens; revealed PTEN-mutant tumors had significantly more [CD68](../genes/CD68.md)+HLA-DR- macrophages (p=0.011) [PMID:30742119](../papers/30742119.md)
 - Used as Cell DIVE multiplexed immunofluorescence (MxIF) in the COLON MAP polyp atlas to map [MUC5AC](../genes/MUC5AC.md), [OLFM4](../genes/OLFM4.md), [SOX9](../genes/SOX9.md), [CDX2](../genes/CDX2.md), and immune markers spatially; showed [MUC5AC](../genes/MUC5AC.md)+ in 13/14 MSI-H CRCs vs. 0/17 MSS CRCs [PMID:34910928](../papers/34910928.md)
 - Whole-slide multiplex immunofluorescence with H&E histo-cytometry used to validate cell-state changes ([SOX2](../genes/SOX2.md)+/Ki67+ proliferating stem-like cells, [OSM](../genes/OSM.md)+/CD14+ myeloid co-localization with [CD44](../genes/CD44.md)+/SOX2+ mesenchymal neoplastic cells) in GLASS longitudinal glioma samples [PMID:35649412](../papers/35649412.md)
+- Opal multiplex fluorescent IHC stained CD8, PD-1, CD45, GFAP and PD-L1 in a recurrent glioblastoma neoadjuvant PD-1 blockade trial [PMID:30742122](../papers/30742122.md).
+- Seven-color multiplexed immunofluorescence of tumor tissue was one arm of a multi-omic biospecimen panel in a pancreatic cancer immunotherapy trial [PMID:35662283](../papers/35662283.md).
+- Used on 3 representative solitary fibrous tumor cases to co-localize PD-L1 with macrophage/T-cell markers alongside HALO-quantified multiplex IHC [PMID:37980418](../papers/37980418.md).
+- 7-colour Vectra and 12-colour Lunaphore COMET panels profiled 72 colorectal cancer samples from 21 patients across primary tumor, normal colon and metastasis [PMID:39478232](../papers/39478232.md).
 
 ## Notes
 
@@ -51,3 +55,15 @@ Multiplexed immunofluorescence (mIF) enables simultaneous detection of multiple 
 - [PMID:35649412](../papers/35649412.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:30742122](../papers/30742122.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:35662283](../papers/35662283.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37980418](../papers/37980418.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39478232](../papers/39478232.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

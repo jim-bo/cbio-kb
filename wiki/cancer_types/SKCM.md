@@ -7,8 +7,8 @@ tags:
   - melanoma
   - skin-cancer
   - UV-mutagenesis
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Cutaneous Melanoma (SKCM)
@@ -52,6 +52,7 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 - MSK-IMPACT profiling of 696 cutaneous melanoma tumors identified MAPK-pathway oncogenic drivers in 96%, with BRAF V600E/K/R (31%), NRAS (29%), [NF1](../genes/NF1.md) loss-of-function (23%), and MAP2K1/2 (7%) as the leading classes; NF1-altered tumors had the highest median TMB (43 mut/Mb) and longest TTF on PD-1 monotherapy (22 mo), while TMB was an independent predictor of TTF and OS across both PD-1 monotherapy and [nivolumab](../drugs/nivolumab.md)+[ipilimumab](../drugs/ipilimumab.md) cohorts [PMID:33509808](../papers/33509808.md)
 - MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; SKCM is among tumor types analyzed for [FGA](../genes/FGA.md), TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 - A multi-omics review (Babu & Snyder 2023) cites integrated analysis of TCGA cutaneous melanoma data (Jiang et al. 2016) combining CNVs, DNA methylation, gene expression, and clinical variables to yield prognostic models with mean C-statistic 0.724, as an example of multi-omics improving cancer prognostication [PMID:37119971](../papers/37119971.md)
+- In the MSK-IMPACT pan-cancer cohort (n=881 cutaneous melanomas), no MSI-high tumors were observed despite melanoma having one of the highest TMB-H rates (≥20%); BRAF fusions in melanoma presented at a younger age than other BRAF alteration types, and ARAF was a rare (0.5%) but canonical driver specific to melanoma. [PMID:41895280](../papers/41895280.md)
 
 ## Subtypes
 
@@ -128,3 +129,6 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 - [PMID:37119971](../papers/37119971.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

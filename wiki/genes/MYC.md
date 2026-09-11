@@ -3,8 +3,8 @@ symbol: MYC
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC, ANGS, MNM, CESC, DLBCL, EGC, CSCC, HNSC, OS]
 tags: [oncogene, amplification, brain-metastasis, translocation]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # MYC
@@ -117,6 +117,9 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - MYC amplification identified as one of the high-frequency CNV peaks in pan-cancer analysis of ~8,900 Chinese solid-tumor patients (OncoMark/aOM cohort) alongside [CDKN2A](../genes/CDKN2A.md) deletion, [ERBB2](../genes/ERBB2.md) amplification, and chr 11q13.3 amplification [PMID:35871175](../papers/35871175.md)
 - MYC amplified in 20% of colitis-associated cancer (CAC; MSK cohort, MSK-IMPACT); focal amplifications enriched vs sporadic CRC; MYC also amplified in AOM/DSS mouse model CAC lesions [PMID:36611031](../papers/36611031.md)
 - MYC amplified in [HCC](../cancer_types/HCC.md); transcriptionally drives SREBP1 ([SREBF1](../genes/SREBF1.md)) and de novo lipogenesis; defines a FASN-dependent HCC subset; MYC-driven hepatocarcinogenesis requires [FASN](../genes/FASN.md) activity [PMID:41118283](../papers/41118283.md)
+- IG-MYC translocation in 93% of Burkitt lymphomas; IGH-MYC breakpoints lie upstream of MYC in EBV-positive BL and intragenic (intron 1) in EBV-negative BL, with nonsynonymous MYC mutations least common in the Q53-BL subgroup (11%) [PMID:36201743](../papers/36201743.md).
+- Amplification peak (GISTIC2) identified in hepatoblastoma alongside cell-cycle genes CCND3/CCNE1 and chromatin regulators SETDB1/EZH2 [PMID:37990009](../papers/37990009.md).
+- Amplification appeared at progression on HER2-targeted therapy in biliary tract cancer, both in tumors that lost and that retained ERBB2 [PMID:42360806](../papers/42360806.md).
 
 ## Cancer types (linked)
 
@@ -306,43 +309,33 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 - [PMID:34493867](../papers/34493867.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34819508](../papers/34819508.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34667026](../papers/34667026.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34910928](../papers/34910928.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35120664](../papers/35120664.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36611031](../papers/36611031.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41118283](../papers/41118283.md)
+- [PMID:36201743](../papers/36201743.md)
+- [PMID:37990009](../papers/37990009.md)
+- [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -11,8 +11,8 @@ tags:
   - deep-learning
   - multiple-instance-learning
   - targeted-sequencing
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # MiMSI
@@ -26,6 +26,7 @@ MiMSI (Multiple Instance learning for MicroSatellite Instability) is a deep lear
 - Developed, trained, and validated at Memorial Sloan Kettering Cancer Center (MSK) using [MSK-IMPACT](../methods/msk-impact-panel.md) ([IMPACT468](../methods/IMPACT468.md)) targeted panel sequencing data across training (n=741), held-out test (n=317), prospective validation (n=5,037 with MMR IHC), and global comparison (n=45,112) cohorts [PMID:39746944](../papers/39746944.md).
 - Used alongside [MSIsensor](../methods/msisensor.md) to orthogonally confirm microsatellite stability in 1,045 adenoid cystic carcinomas; all cases MSS, including 15/90 MSKCC R/M cases with germline MLH1/MSH6 variants [PMID:31483290](../papers/31483290.md).
 - Applied for MSI classification in aSCLC; the single MSI-H case (A20) harbored somatic [MLH1](../genes/MLH1.md) homozygous deletion with dual MLH1/PMS2 IHC loss; MiMSI used alongside MSIsensor as orthogonal MSI calling methods [PMID:39185963](../papers/39185963.md)
+- Used MiMSI to call microsatellite instability status in a biliary tract cancer targeted-therapy cohort [PMID:42360806](../papers/42360806.md).
 
 ## Notes
 
@@ -49,3 +50,6 @@ MiMSI (Multiple Instance learning for MicroSatellite Instability) is a deep lear
 - [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

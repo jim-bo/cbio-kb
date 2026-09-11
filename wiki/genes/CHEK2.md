@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - RBL
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # CHEK2
@@ -24,6 +24,9 @@ CHEK2 (Checkpoint Kinase 2) is a serine/threonine kinase that functions as a tum
 - Pathogenic germline variant identified in a low-grade serous ovarian carcinoma (LGSC) patient; germline pathogenic mutation rate was 9% across an 88-gene panel in 119 LGSC patients [PMID:35443055](../papers/35443055.md)
 - Part of the 15 PROfound HRR genes assessed in prostate cancer brain metastases (PCBM); 10/51 (19.6%) PCBM patients qualified by alteration in any PROfound HRR gene including CHEK2 [PMID:35504881](../papers/35504881.md)
 - CHEK2 altered as part of the DDR pathway in 9.6% of all sarcoma samples; highest DDR burden seen in [ULMS](../cancer_types/ULMS.md) (24%), [MPNST](../cancer_types/MPNST.md) (16%), [PLLS](../cancer_types/PLLS.md) (13%), [PECOMA](../cancer_types/PECOMA.md) (13%), and [ANGS](../cancer_types/ANGS.md) (13%) [PMID:35705560](../papers/35705560.md)
+- CHEK2 was among DNA-repair/PARP-pathway genes (with FANCF, RAD54L, FANCA, FANCC, ATM, RECQL4, NBN, WRN) altered in 6.9% (9/131) of solitary fibrous tumors, proposed as PARP-inhibitor targets [PMID:37980418](../papers/37980418.md).
+- CHEK2 (22q12, 5 cases) lay in a deletion bridge next to chromoplectic breakpoints in Ewing sarcoma, suggested to cause loss of tumor-suppressor function [PMID:38335254](../papers/38335254.md).
+- CHEK2 recurrent (5-15%) inactivating mutations or deletions were found in MYOD1-mutant rhabdomyosarcoma, alongside MGA, CDKN2A, SMARCB1, ARID1A and NOTCH4 [PMID:41758938](../papers/41758938.md).
 
 ## Cancer types (linked)
 
@@ -60,3 +63,12 @@ CHEK2 (Checkpoint Kinase 2) is a serine/threonine kinase that functions as a tum
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:37980418](../papers/37980418.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38335254](../papers/38335254.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41758938](../papers/41758938.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

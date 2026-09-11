@@ -3,8 +3,8 @@ symbol: USP7
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # USP7
@@ -16,6 +16,7 @@ USP7 (ubiquitin-specific peptidase 7, also known as HAUSP) is a deubiquitinase t
 ## Alterations observed in the corpus
 
 - Identified as a ubiquitin-pathway SMG in a 1,013-sample prostate cancer cohort (discovery + MSK-IMPACT validation); co-nominated with USP28 as a novel driver in the ubiquitin pathway [PMID:29610475](../papers/29610475.md)
+- USP7 is a Burkitt lymphoma significantly mutated gene (SMG) whose role this study further supports, alongside SIN3A, H1-4, CHD8 and RFX7 [PMID:36201743](../papers/36201743.md).
 
 ## Cancer types (linked)
 
@@ -34,5 +35,6 @@ USP7 (ubiquitin-specific peptidase 7, also known as HAUSP) is a deubiquitinase t
 ## Sources
 
 - [PMID:29610475](../papers/29610475.md)
+- [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **crosslinker** on **2026-05-15**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CHL]
 tags: [immune-escape, mhc-class-i, early-event]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # B2M
@@ -35,6 +35,7 @@ B2M encodes beta-2-microglobulin, an essential component of MHC class I; loss-of
 - Immune-escape gene mutated and copy-lost in DLBCL (dlbcl_dfci_2018); collectively with CD58, CD70, and CIITA, immune-escape genes are altered in 74% of DLBCLs [PMID:29713087](../papers/29713087.md)
 - Loss-of-function alterations (antigen-presentation pathway) were rare pre-treatment in a pan-cancer ICB cohort, suggesting a role in acquired rather than intrinsic resistance to immune checkpoint blockade [PMID:30150660](../papers/30150660.md)
 - LOH observed in 9/55 (16%) anti-PD1 responders versus 16/65 (25%) progressors in melanoma (OR=0.6, Fisher's P=0.37); not significantly associated with response to anti-PD1 ICB, only rare point mutations observed [PMID:31792460](../papers/31792460.md)
+- A high-confidence significantly mutated gene (HC-SMG) in ~3% of colorectal tumors in a large pan-colon sequencing cohort [PMID:35487942](../papers/35487942.md).
 
 ## Cancer types (linked)
 
@@ -109,3 +110,6 @@ B2M encodes beta-2-microglobulin, an essential component of MHC class I; loss-of
 - [PMID:31792460](../papers/31792460.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

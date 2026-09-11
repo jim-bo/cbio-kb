@@ -8,7 +8,7 @@ tags:
   - SWI-SNF
   - tumor-suppressor
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # ARID1B
@@ -35,6 +35,7 @@ ARID1B encodes a subunit of the SWI/SNF chromatin-remodeling complex, serving as
 - ARID1B identified as a somatic alteration in metastatic panNET (80-patient MSK-IMPACT cohort); SWI/SNF chromatin-remodeling complex member [PMID:30687805](../papers/30687805.md)
 - Enriched in recurrent/metastatic adenoid cystic carcinoma vs. primary tumors (OR 4.00); SWI/SNF complex member in the acc_2019 cohort (n=1,045) [PMID:31483290](../papers/31483290.md)
 - ARID1B was observed at low frequency, enriched in metastatic vs. primary TNBC samples; functional significance in the metastatic context is not yet established. [PMID:32719455](../papers/32719455.md)
+- Among the most frequently altered genes in solitary fibrous tumor (14%), alongside ZFHX3, KMT2C, TERT, SLX4, FAT1, KMT2D, CDH23 and NOTCH1 [PMID:37980418](../papers/37980418.md)
 
 ## Cancer types (linked)
 
@@ -103,3 +104,6 @@ ARID1B encodes a subunit of the SWI/SNF chromatin-remodeling complex, serving as
 - [PMID:32719455](../papers/32719455.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:37980418](../papers/37980418.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -3,8 +3,8 @@ symbol: RET
 aliases: []
 cancer_types: [NPC, THPA]
 tags: [fusion, thyroid-cancer]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # RET
@@ -35,6 +35,9 @@ RET encodes a receptor tyrosine kinase involved in cell growth, differentiation,
 - RET activating fusions (KIF5B-RET, CCDC6-RET, NCOA4-RET, TAF3-RET, ERC1-RET, RBPMS-RET, CLIP1-RET, EML4-RET, KIF13A-RET, KIAA1468-RET, RUFY3-RET) and kinase-domain mutations (including germline/somatic M918T) define trial-qualifying drivers for [selpercatinib](../drugs/selpercatinib.md); acquired on-target resistance mutations include solvent-front G810C/G810S, gatekeeper V804M, Y806C, and compound cis mutants [PMID:35304457](../papers/35304457.md).
 - RET kinase fusions detected in 2.6% of sarcomas as part of a kinase-fusion gene panel ([ALK](../genes/ALK.md), [ROS1](../genes/ROS1.md), RET, [FGFR1](../genes/FGFR1.md), NTRK1/2/3, [BRAF](../genes/BRAF.md)); novel TNS1-ALK fusion also identified in [LMS](../cancer_types/LMS.md) (16 cases) [PMID:35705558](../papers/35705558.md)
 - Pan-cancer fusion driver with multiple novel partner genes catalogued in Chinese solid-tumor cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=1015) [PMID:35871175](../papers/35871175.md)
+- Located in the 10q11.21 amplicon (with NOTCH4) that marks the chromosomal-instability-high/hypermutation-recurrent (CIN-HR) subgroup of colorectal cancer. [PMID:35487942](../papers/35487942.md)
+- RET fusions co-occurred as drivers with acquired MET amplification in 2/56 NSCLC cases and with de novo MET amplification in 1 NSCLC and 1 non-lung case. [PMID:36044468](../papers/36044468.md)
+- In thyroid papillary carcinoma (THPA), RET alterations were linked to earlier age of onset only when TERT was wild-type; RET fusions were also linked to earlier onset in LUAD. [PMID:41895280](../papers/41895280.md)
 
 ## Cancer types (linked)
 
@@ -70,36 +73,31 @@ RET encodes a receptor tyrosine kinase involved in cell growth, differentiation,
 
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29316426](../papers/29316426.md)
 
 - [PMID:29337640](../papers/29337640.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29617662](../papers/29617662.md)
 
 - [PMID:40970133](../papers/40970133.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32649874](../papers/32649874.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34493867](../papers/34493867.md)
 
 - [PMID:35292802](../papers/35292802.md)
 
 - [PMID:35304457](../papers/35304457.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
+- [PMID:35487942](../papers/35487942.md)
+- [PMID:36044468](../papers/36044468.md)
+- [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

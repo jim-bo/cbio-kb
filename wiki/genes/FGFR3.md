@@ -3,8 +3,8 @@ symbol: FGFR3
 aliases: []
 cancer_types: [BLCA, UTUC, EGC]
 tags: [oncogene, receptor-tyrosine-kinase, targeted-therapy, resistance, fusion]
-processed_by: entity-page-writer
-processed_at: "2026-05-21"
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # FGFR3
@@ -63,6 +63,10 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - Mutations more frequent in bladder urothelial lung metastases (11% primary vs 39% lung met, q=0.005), identifying FGFR3-mutant urothelial tumors as having enhanced lung-tropic dissemination potential [PMID:35120664](../papers/35120664.md)
 - FGFR3 was among 27 FGFR1/2/3/4 events across HGG, rhabdomyosarcoma, and other sarcomas identified in the MAPPYACTS pediatric WES cohort (n=787 relapsed/refractory patients). [PMID:35292802](../papers/35292802.md)
 - Pan-cancer fusion driver across 10,194 Asian solid-tumor patients; FGFR3 fusions grouped with FGFR2 (~50 total events); multiple novel partner genes catalogued by the OrigiMed panel [PMID:35871175](../papers/35871175.md)
+- An FGFR3 mutation was found as a rare co-driver in a non-lung MET-amplified tumor in a pan-cancer MET amplification cohort. [PMID:36044468](../papers/36044468.md)
+- FGFR3 was the most frequently altered gene in an upper tract urothelial carcinoma cohort (48.5% MSK100), with oncogenic alterations in 93% of the C3 RNA cluster and association with better cancer-specific survival (p<0.05) but not OS. [PMID:39550333](../papers/39550333.md)
+- In bladder cancer, FGFR3 fusions (but not hotspot mutations) are linked to early age of onset. [PMID:41895280](../papers/41895280.md)
+- FGFR3 is counted among selected level 3B actionable genes in a biliary tract cancer genomic cohort. [PMID:42360806](../papers/42360806.md)
 
 ## Cancer types (linked)
 
@@ -175,5 +179,9 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - [PMID:35292802](../papers/35292802.md)
 
 - [PMID:35871175](../papers/35871175.md)
+- [PMID:36044468](../papers/36044468.md)
+- [PMID:39550333](../papers/39550333.md)
+- [PMID:41895280](../papers/41895280.md)
+- [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -4,8 +4,8 @@ oncotree_code: HNSC
 main_type: Head and Neck Cancer
 parent: HEAD_NECK
 tags: [head-neck, squamous, hpv, immunotherapy, radiation]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Head and Neck Squamous Cell Carcinoma (HNSC)
@@ -56,6 +56,7 @@ No gene-level variant frequencies are reported in the corpus for HNSC; studies f
 - HNSC (n=138) was among the histologies in the ICI-treated MSK-IMPACT cohort; PFS and clinical-benefit associations with TMB were specifically analyzed for head & neck cancer. [PMID:30643254](../papers/30643254.md)
 - Included in PCAWG pan-cancer WGS cohort (n=2,658 tumors, 38 types); head and neck squamous cell carcinoma analyzed for somatic driver landscape and mutational processes [PMID:32025007](../papers/32025007.md).
 - MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; HNSC is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
+- In a TCGA pan-cancer validation of a triple-negative breast cancer proteogenomic cohort, LIG1 heterozygous loss was associated with worse progression-free survival in head and neck squamous cell carcinoma (HR 1.46, P=0.03) [PMID:36001024](../papers/36001024.md).
 
 ## Subtypes
 
@@ -125,3 +126,6 @@ No molecular subtype breakdown in the corpus for HNSC beyond HPV context implied
 - [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

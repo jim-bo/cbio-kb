@@ -11,8 +11,8 @@ tags:
   - parp-inhibitor
   - brca
   - homologous-recombination-deficiency
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # talazoparib
@@ -24,6 +24,7 @@ Talazoparib is a potent PARP1/PARP2 inhibitor with among the highest PARP-trappi
 ## Evidence in the corpus
 
 - Talazoparib is named alongside [olaparib](../drugs/olaparib.md), [rucaparib](../drugs/rucaparib.md), [niraparib](../drugs/niraparib.md), and [veliparib](../drugs/veliparib.md) as a class member of PARP inhibitors whose efficacy in BRCA1/2-wild-type mCRPC may be extended by targeting the USP10-TRMT10A axis; high [TRMT10A](../genes/TRMT10A.md) expression tracks with PARPi resistance across the class in prostate cancer cell lines [PMID:41071892](../papers/41071892.md).
+- PARP-pathway gene alterations in 6.9% (9/131) of solitary fibrous tumors were proposed as candidates for PARP inhibitors including talazoparib. [PMID:37980418](../papers/37980418.md)
 
 ## Resistance mechanisms
 
@@ -38,3 +39,6 @@ Talazoparib is a potent PARP1/PARP2 inhibitor with among the highest PARP-trappi
 - [PMID:41071892](../papers/41071892.md) — Yang et al., TRMT10A/USP10 axis in mCRPC; talazoparib named as PARPi class member.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:37980418](../papers/37980418.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

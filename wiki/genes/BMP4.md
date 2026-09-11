@@ -8,8 +8,8 @@ tags:
   - BMP-signaling
   - developmental
   - rhabdoid-tumor
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # BMP4
@@ -21,6 +21,7 @@ BMP4 (Bone Morphogenetic Protein 4) is a secreted ligand of the TGF-beta superfa
 ## Alterations observed in the corpus
 
 - BMP4 is among the most over-expressed genes in mRNA sub-group 1 (alongside [DLK1](../genes/DLK1.md) and [MEOX2](../genes/MEOX2.md)) of extra-cranial malignant rhabdoid tumors (MRT); sub-group 1 (BMP-signaling/differentiation-enriched) was enriched for extra-renal sites and was more AT/RT-like (10/11 AT/RT-up genes shared) in an NMF analysis of 40 MRT RNA-Seq cases [PMID:26977886](../papers/26977886.md)
+- In a clone-sweeping hepatoblastoma case, a BMP4 mutation rose from VAF 0.12 in the primary tumor to 0.37-0.38 in two derived PDX models [PMID:37990009](../papers/37990009.md).
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ BMP4 (Bone Morphogenetic Protein 4) is a secreted ligand of the TGF-beta superfa
 - [PMID:26977886](../papers/26977886.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

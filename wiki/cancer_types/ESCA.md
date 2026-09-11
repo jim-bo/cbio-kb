@@ -4,8 +4,8 @@ oncotree_code: ESCA
 main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Esophageal Adenocarcinoma (ESCA)
@@ -44,6 +44,8 @@ Esophageal adenocarcinoma (ESCA) is a subtype of esophagogastric adenocarcinoma 
 - In a prospective MSK-IMPACT cohort of 487 lower esophageal/EGJ adenocarcinomas (ESCA subset), 10 of 16 recurrent drivers (≥5%) were amplifications; Cell Cycle and TGFβ pathways were independently prognostic; genomic-instability metrics (fraction of genome altered 0.50 vs. 0.40, whole-genome doubling 46% vs. 29%) were higher in palliative-intent (advanced-stage) vs. curative-intent patients [PMID:33795256](../papers/33795256.md)
 - In 237 locally advanced esophageal/GEJ adenocarcinoma patients sequenced with MSK-IMPACT, [MDM2](../genes/MDM2.md) amplification (~9%) was independently associated with poor neoadjuvant response (OR 0.10, 95% CI 0.01–0.55, p=0.032); recurrent drivers included [TP53](../genes/TP53.md) (79%), [CDKN2A](../genes/CDKN2A.md) (22%), [KRAS](../genes/KRAS.md) (19%), [ERBB2](../genes/ERBB2.md) (16%) [PMID:35377946](../papers/35377946.md)
 - Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): ESCA comprised 6% of cohort; 11q13.3 (CCND1/FGF3/FGF4/FGF19) amplification in 43% of ESCA vs 4% in other types (FDR=3.553×10⁻³⁰¹); IO biomarker positivity (MSI-H/TMB-H/PD-L1+) 34% (80/235), third-highest among tumor types [PMID:35871175](../papers/35871175.md)
+- In a pan-cancer MSK-IMPACT MET amplification landscape study, gastroesophageal junction adenocarcinoma, a subtype of esophageal adenocarcinoma, had one of the highest MET amplification rates among cancer types (5.0%) [PMID:36044468](../papers/36044468.md).
+- In the MSK-50K cohort, PIK3CA mutations in esophageal adenocarcinoma (8% altered) were non-canonical and more subclonal and later-arising than in canonical PIK3CA-driven cancer types [PMID:41895280](../papers/41895280.md).
 
 ## Subtypes
 
@@ -112,3 +114,9 @@ Esophageal adenocarcinoma (ESCA) is a subtype of esophagogastric adenocarcinoma 
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36044468](../papers/36044468.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -4,8 +4,8 @@ oncotree_code: UCS
 main_type: Endometrial Cancer
 parent: UCEC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Uterine Carcinosarcoma (UCS)
@@ -32,6 +32,7 @@ Uterine carcinosarcoma (UCS), also known as malignant mixed Mullerian tumor (MMM
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); standardized [OS](../cancer_types/OS.md), PFI, DFI, and DSS endpoints derived for UCS [PMID:29625055](../papers/29625055.md)
 - 35/189 advanced endometrial tumors were uterine carcinosarcoma; [FGFR1](../genes/FGFR1.md) amplification enriched in carcinosarcoma (p=0.007); two pathogenic germline [BRCA2](../genes/BRCA2.md) mutations identified in carcinosarcoma patients (founder c.5946delT and c.5799_5802delCCAA frameshift) [PMID:30068706](../papers/30068706.md)
 - MSK cfDNA pilot ([ucec_ccr_cfdna_msk_2022](../datasets/ucec_ccr_cfdna_msk_2022.md)): carcinosarcoma (6/44, 14% of cohort); cfDNA concentration numerically higher in UCS vs low-grade endometrioid; CD23 (stage IVB UCS, 2,608 cm³ tumor burden) had 74.6% baseline ctDNA fraction; baseline ctDNA significantly associated with shorter PFS (p<0.001, HR 11.14) [PMID:36007103](../papers/36007103.md)
+- In the MSK endometrial carcinoma cohort, carcinosarcoma (UCS) histology made up 6.9% of ERBB2-mutated/non-amplified cases and 1 of 11 ERBB2-mutated/amplified cases, the latter enriched for the CN-H/TP53abn molecular subtype. [PMID:39031567](../papers/39031567.md)
 
 ## Subtypes
 
@@ -72,3 +73,6 @@ Uterine carcinosarcoma (UCS), also known as malignant mixed Mullerian tumor (MMM
 - [PMID:36007103](../papers/36007103.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39031567](../papers/39031567.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

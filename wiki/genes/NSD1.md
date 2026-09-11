@@ -3,8 +3,8 @@ symbol: NSD1
 aliases: []
 cancer_types: [AML, HNSC]
 tags: [fusion, NUP98-partner, histone-methyltransferase, leukemia, pediatric-AML]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # NSD1
@@ -20,6 +20,7 @@ NSD1 (Nuclear Receptor Binding SET Domain Protein 1) is a histone H3K36 methyltr
 - DUX4 binding at the NSD1 locus induces transcription from a non-canonical first exon in the DUX4/ERG ALL subtype, expanding the transcriptional landscape driven by the IGH–DUX4 rearrangement [PMID:27776115](../papers/27776115.md)
 - NUP98–NSD1 fusion in pediatric AML; DOT1L-inhibitor target identified in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 - Partner gene in the NUP98-NSD1 fusion, a classic leukemic fusion recovered in LAML fusion-only tumors in pan-cancer RNA-seq fusion analysis across 9,624 TCGA samples. [PMID:29617662](../papers/29617662.md)
+- In a pediatric AML transcriptomic classification, NSD1 is the fusion partner in frequently cryptic NUP98::NSD1 rearrangements, part of the HOXB expression superfamily with strong FLT3-ITD and WT1 co-occurrence [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
@@ -44,5 +45,6 @@ NSD1 (Nuclear Receptor Binding SET Domain Protein 1) is a histone H3K36 methyltr
 - [PMID:27776115](../papers/27776115.md)
 - [PMID:28007021](../papers/28007021.md)
 - [PMID:29617662](../papers/29617662.md)
+- [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

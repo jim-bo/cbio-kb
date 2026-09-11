@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [COAD, HNSC]
 tags: [t-cell, icr-signature, immune-infiltration]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # CD8A
@@ -22,6 +22,10 @@ CD8A encodes the alpha chain of the CD8 co-receptor that defines cytotoxic T lym
 - CD8A is over-expressed in younger Korean (SMC) breast tumors vs. TCGA, marking elevated cytotoxic-T-cell infiltration (TIL NMF factor F9); CD8A and CD274 over-expression support an immune-active microenvironment in younger Asian breast cancer [PMID:29713003](../papers/29713003.md)
 - CD8A used as marker for CD8 T-cell infiltration in proteogenomic colon cancer cohort (n=110); CD8 infiltration reduced in MSI-H tumors with high glycolytic activity (inverse correlation with SLC2A3/PKM2 expression) [PMID:31031003](../papers/31031003.md)
 - Concordantly downregulated in T-cell-depleted UTUC cluster (28/32, 87.5% of UTUC tumors); used as a key marker in the 170-immune-gene classifier distinguishing T-cell-inflamed vs T-cell-depleted tumors; depletion linked to FGFR3 activation suppressing IFNG response genes [PMID:31278255](../papers/31278255.md)
+- CD8A T-cell transcripts increased ~1.7-fold in tumor on nivolumab, matching the IHC increase in CD8+ infiltrates [PMID:27169994](../papers/27169994.md).
+- CD8A anchors the 5-gene T-effector signature (with GZMA, GZMB, PRF1, IFNG, TBX21) in urothelial carcinoma on atezolizumab; the signature did not differ significantly between upper- and lower-tract primaries [PMID:27939400](../papers/27939400.md).
+- CD8A anchors the Teff gene signature (with EOMES, PRF1, IFNG, CD274) in metastatic RCC; TeffHigh tracked CD8 IHC and predicted benefit from atezolizumab+bevacizumab [PMID:29867230](../papers/29867230.md).
+- CD8A (CD8) tumor-infiltrating lymphocyte density by multiplex IF did not differ between neoadjuvant and adjuvant-only pembrolizumab arms in glioblastoma but varied more in the neoadjuvant arm [PMID:30742122](../papers/30742122.md).
 
 ## Cancer types (linked)
 
@@ -59,3 +63,15 @@ CD8A encodes the alpha chain of the CD8 co-receptor that defines cytotoxic T lym
 - [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:27169994](../papers/27169994.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:27939400](../papers/27939400.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:29867230](../papers/29867230.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:30742122](../papers/30742122.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

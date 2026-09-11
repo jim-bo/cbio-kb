@@ -10,7 +10,7 @@ tags:
   - subclonal-mutation
   - raf-kinase
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # ARAF
@@ -25,6 +25,7 @@ ARAF (A-Raf proto-oncogene, serine/threonine kinase) is a member of the RAF kina
 - 2 hotspot S214Y/S214P missense mutations in [LUAD](../cancer_types/LUAD.md) (MSK-IMPACT cohort, n=860); S214 alleles are sorafenib-sensitive in prior preclinical work [PMID:28336552](../papers/28336552.md)
 - ARAF S225V and P216A mutations identified in histiocytic neoplasm patients; both responded to cobimetinib (MEK1/2 inhibitor); ARAF mutations are rare outside histiocytoses [PMID:30867592](../papers/30867592.md)
 - In 696 melanomas profiled by MSK-IMPACT, ARAF was identified among secondary RTK-RAS regulators contributing to co-alteration patterns in NF1-deficient and Class 3 BRAF-mutant tumors. [PMID:33509808](../papers/33509808.md)
+- Rare (~0.05%) but canonical driver in SKCM (0.5%) and IHCH (0.8%), with depletion of other drivers in these tumor types [PMID:41895280](../papers/41895280.md)
 
 ## Cancer types (linked)
 
@@ -56,3 +57,6 @@ ARAF (A-Raf proto-oncogene, serine/threonine kinase) is a member of the RAF kina
 - [PMID:33509808](../papers/33509808.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

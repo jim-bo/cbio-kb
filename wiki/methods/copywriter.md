@@ -9,8 +9,8 @@ tags:
   - bioinformatics
   - cnv
   - off-target-reads
-processed_by: crosslinker
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # CopywriteR
@@ -22,6 +22,7 @@ CopywriteR is an R package for DNA copy-number inference from off-target reads i
 ## Used by
 
 - Applied to off-target reads from 105 CPTAC colon cancer tumor/normal-blood WXS pairs ([coad_cptac_2019](../datasets/coad_cptac_2019.md)) for somatic copy-number alteration analysis; outputs fed to GISTIC2; arm-level SCNAs recapitulated TCGA colorectal findings; 59% of focal driver candidates were confirmed by protein-level evidence [PMID:31031003](../papers/31031003.md)
+- Used with circular binary segmentation for genome-wide copy-number calls, paired with GISTIC2 gene-level CNAs, to compute a chromosomal-instability index in a breast cancer proteogenomic cohort [PMID:36001024](../papers/36001024.md)
 
 ## Notes
 
@@ -32,3 +33,6 @@ CopywriteR is an R package for DNA copy-number inference from off-target reads i
 ## Sources
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

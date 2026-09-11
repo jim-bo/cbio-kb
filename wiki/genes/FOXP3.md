@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [COAD, HNSC, HGSOC]
 tags: [treg, immune-signature, icr, immunotherapy, biomarker]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # FOXP3
@@ -22,6 +22,8 @@ FOXP3 is the master transcription factor of regulatory T cells (Tregs), and is u
 - Used as an IHC marker for Treg quantification (clone 236A/E7) in the nivolumab-treated melanoma cohort; contributed to immune-cell-population analyses of the tumor microenvironment [PMID:29033130](../papers/29033130.md)
 - Pre-treatment regulatory-T-cell (Treg) signature enriched in anti-PD-1 non-responders in recurrent GBM (p=0.037); post-treatment FOXP3 signature active in responders; IHC ruled out CD4+FOXP3+ Tregs as the source — signature traced to CD44+ tumor cells expressing a FOXP3-like immunosuppressive program [PMID:30742119](../papers/30742119.md)
 - Regulon activity elevated in adenoma-derived vs. normal colon CD4+ T cells, supporting Treg-dependent immunosuppression as a feature of the adenoma microenvironment during colorectal carcinogenesis [PMID:34910928](../papers/34910928.md)
+- Included in a triple-stain IHC panel for Treg assessment during nivolumab therapy, though no separate FOXP3-specific result was reported [PMID:27169994](../papers/27169994.md).
+- Used as the Treg marker (CD45+/FOXP3+/CD4+/CD127-/lo) for peripheral Treg counts in a TNBC immunotherapy trial; low-dose cyclophosphamide did not significantly deplete FOXP3+ Tregs [PMID:35121644](../papers/35121644.md).
 
 ## Cancer types (linked)
 
@@ -48,16 +50,14 @@ FOXP3 is the master transcription factor of regulatory T cells (Tregs), and is u
 - [PMID:38780927](../papers/38780927.md)
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:41002550](../papers/41002550.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:29033130](../papers/29033130.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30742119](../papers/30742119.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34910928](../papers/34910928.md)
+- [PMID:27169994](../papers/27169994.md)
+- [PMID:35121644](../papers/35121644.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

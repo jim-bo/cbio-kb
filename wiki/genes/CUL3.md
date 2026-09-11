@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUSC]
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # CUL3
@@ -22,6 +22,7 @@ CUL3 (Cullin 3) encodes a scaffold protein of the Cullin-RING E3 ubiquitin ligas
 - CUL3 harbors a recurrent missense hotspot p.Met299Arg in 1.3% of primary prostate cancers and 1.3% of MSK-IMPACT validation samples; mutations are mutually exclusive with SPOP and show a SPOP-like copy-number profile (losses on 5q, 6q, 13); CUL3 encodes part of the BTB-CUL3-RBX1 E3 ubiquitin ligase complex with SPOP [PMID:29610475](../papers/29610475.md).
 - CUL3 loss-of-function is a NRF2-pathway driver (along with NFE2L2 gain-of-function and KEAP1 loss), concentrated in squamous lung/esophagus, head and neck, and uterine cancers pan-cancer [PMID:29625050](../papers/29625050.md)
 - NRF2 pathway component; mutations in CUL3 (along with NFE2L2/KEAP1) found in 33/101 evaluable LSCC tumors; two-hit cases showed dose-dependent up/down-regulation of NRF2-pathway genes; KEAP1 mutations did not reduce KEAP1 protein in LSCC (unlike LUAD) [PMID:34358469](../papers/34358469.md)
+- CUL3 is an extremely rare (~0.05% overall) but canonical driver in prostate adenocarcinoma (0.6%), associated with depletion of other drivers in mutant tumors. [PMID:41895280](../papers/41895280.md)
 
 ## Cancer types (linked)
 
@@ -43,24 +44,18 @@ CUL3 (Cullin 3) encodes a scaffold protein of the Cullin-RING E3 ubiquitin ligas
 
 - [PMID:22960745](../papers/22960745.md) — TCGA comprehensive genomic characterization of lung squamous cell carcinoma (178 tumors)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29610475](../papers/29610475.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34358469](../papers/34358469.md)
+- [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -8,8 +8,8 @@ tags:
   - transcription-factor
   - oncogene
   - hotspot
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # IRF4
@@ -22,6 +22,7 @@ IRF4 (Interferon Regulatory Factor 4) is a transcription factor critical for lym
 
 - IRF4 harbors recurrent K123R hotspot mutation in 3 of 4 IRF4-mutant multiple myeloma patients; IRF4 is a known MM survival factor [PMID:24434212](../papers/24434212.md)
 - Oncogenic missense mutations; CRISPR-essential selectively in ABC DLBCL; used in Hans IHC algorithm for cell-of-origin classification; reinforces NF-κB pathway targeting for ABC DLBCL. [PMID:28985567](../papers/28985567.md)
+- Expression was bimodal between IC-BL and DGG-BL Burkitt lymphoma subgroups, echoing ABC cell-of-origin; only one IC-BL cell line tested was IRF4-dependent in vitro [PMID:36201743](../papers/36201743.md).
 
 ## Cancer types (linked)
 
@@ -43,7 +44,7 @@ IRF4 (Interferon Regulatory Factor 4) is a transcription factor critical for lym
 
 - [PMID:24434212](../papers/24434212.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:28985567](../papers/28985567.md)
+- [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

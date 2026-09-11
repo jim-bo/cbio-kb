@@ -3,8 +3,8 @@ symbol: CDK4
 aliases: []
 cancer_types: [RMS, ARMS, ERMS, ACRM]
 tags: [cell-cycle, amplification, actionable]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # CDK4
@@ -67,6 +67,8 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - CDK4 co-amplified with MDM2 in >97% of [WDLS](../cancer_types/WDLS.md) and [DDLS](../cancer_types/DDLS.md) (diagnostic and Level 3A actionable); CDK4 amplification is also among recurrent hits in the broader 2,138-patient MSK sarcoma cohort [PMID:35705560](../papers/35705560.md)
 - Amplification in 10.9% of soft tissue sarcoma ([STS](../cancer_types/STS.md)) in the OncoMark Chinese solid-tumor cohort; actionable with abemaciclib/palbociclib (OncoKB Level 4) [PMID:35871175](../papers/35871175.md)
 - Co-amplified with [CCND2](../genes/CCND2.md) and MDM2 via chromosome 12 chromothripsis in 15% of atypical [SCLC](../cancer_types/SCLC.md) (aSCLC); CDK4 amplification found in 0% of conventional SCLC (P=0.0006) and 1% of carcinoids (P=0.01); ecDNA-amplified CDK4 creates pRb-null-like state [PMID:39185963](../papers/39185963.md)
+- High RB1 protein and CDK4 activity co-occurred in some non-pCR triple-negative breast tumors; DepMap TNBC lines with high Rb protein showed lower carboplatin response and higher CDK4/6-inhibitor response [PMID:36001024](../papers/36001024.md).
+- CDK4 was recurrently co-amplified with MDM2 (10-15%) in MYOD1-mutant rhabdomyosarcoma [PMID:41758938](../papers/41758938.md).
 
 ## Cancer types (linked)
 
@@ -227,3 +229,9 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41758938](../papers/41758938.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -3,8 +3,8 @@ symbol: MLLT10
 aliases: [AF10]
 cancer_types: [AML]
 tags: [fusion, KMT2A-partner, leukemia, transcription-factor]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # MLLT10
@@ -17,6 +17,7 @@ MLLT10 (MLLT10 Histone Lysine Methyltransferase DOT1L Cofactor), also known as A
 
 - KMT2A (MLL)–MLLT10 fusion identified as one of the recurrent KMT2A fusion partners in 200 adult de novo AML cases; KMT2A-fused samples carried the fewest cooperating tier-1 mutations (mean 2.09 vs 5.24 overall; P=0.002), suggesting fusion sufficiency [PMID:23634996](../papers/23634996.md)
 - PICALM–MLLT10 (PICALM–AF10) detected as a recurrent in-frame fusion by RNA-seq in the TCGA AML cohort (200 cases) [PMID:23634996](../papers/23634996.md)
+- PICALM::MLLT10 fusion in 8 of 887 pediatric AML cases, associated with poor outcome and frequent complex karyotype [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
@@ -38,5 +39,6 @@ MLLT10 (MLLT10 Histone Lysine Methyltransferase DOT1L Cofactor), also known as A
 ## Sources
 
 - [PMID:23634996](../papers/23634996.md)
+- [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

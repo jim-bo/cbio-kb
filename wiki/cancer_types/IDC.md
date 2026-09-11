@@ -7,8 +7,8 @@ tags:
   - breast
   - invasive
   - ductal
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Breast Invasive Ductal Carcinoma (IDC)
@@ -40,6 +40,7 @@ Breast Invasive Ductal Carcinoma (IDC) is the most common histologic subtype of 
 - IDC-NST component of a juvenile papillomatosis case shared clonal [PIK3CA](../genes/PIK3CA.md) E542K with JP and DCIS; acquired 1q gain/16q loss hallmark CNA of ER-positive breast cancer; APOBEC Signature 2 dominant at 64% in IDC-NST vs 20% in JP [PMID:33263939](../papers/33263939.md)
 - Case example from the [brca_mapk_hp_msk_2021](../datasets/brca_mapk_hp_msk_2021.md) HER2+ cohort: a de novo metastatic HER2+ IDC patient acquired an [NF1](../genes/NF1.md) intragenic inversion (bisecting the RAS-GTPase domain) at lymph-node progression after 31.5 months of THP/HP, illustrating MAPK-pathway acquisition as an IDC anti-HER2 resistance mechanism; MAPK-altered IDC cases had ~2-fold worse PFS on first-line trastuzumab/pertuzumab-based therapy [PMID:34795269](../papers/34795269.md)
 - MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; IDC is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
+- Among 3,880 MSK-IMPACT-sequenced breast cancers, invasive ductal carcinoma was less frequently APOBEC3-dominant than invasive lobular carcinoma (ILC, n=489), a pattern held in both primary and metastatic samples [PMID:40379787](../papers/40379787.md).
 
 ## Subtypes
 
@@ -67,3 +68,6 @@ Breast Invasive Ductal Carcinoma (IDC) is the most common histologic subtype of 
 - [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:40379787](../papers/40379787.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

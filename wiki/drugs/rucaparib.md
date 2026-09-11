@@ -10,8 +10,8 @@ tags:
   - targeted-therapy
   - parp-inhibitor
   - brca
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # rucaparib
@@ -27,6 +27,7 @@ Rucaparib is an oral PARP1/2 inhibitor with FDA approval for germline BRCA1/2-mu
 - Rucaparib directly targets PARP1/PARP2; in BRCA1/2-wild-type mCRPC, resistance to PARP inhibitors (including rucaparib) may be driven by high [TRMT10A](../genes/TRMT10A.md) expression, which supports [BRCA1](../genes/BRCA1.md) recruitment to DNA double-strand breaks via ATM-mediated Ser28 phosphorylation [PMID:41071892](../papers/41071892.md)
 - Among uLMS patients with somatic [BRCA2](../genes/BRCA2.md) alterations, PARP-inhibitor-containing therapy (including rucaparib) produced sustained partial responses; no significant CDK12/DDR co-occurrence was detected in the CDK12-altered mCRPC cohort, consistent with limited PARP inhibitor efficacy in CDK12-altered disease reported by TRITON2 and TOPARP-B [PMID:32299819](../papers/32299819.md)
 - Authors invoke the ARIEL3 precedent (rucaparib benefit in BRCA-wildtype, high-gLOH ovarian cancer) to motivate genome-wide LOH (gLOH ≥19.3%) as a candidate biomarker for PARP-inhibitor benefit in sarcoma; 15% of 4,619 evaluable sarcomas had high gLOH, largely unexplained by canonical HRD-gene alterations [PMID:35705558](../papers/35705558.md).
+- Matched to PARP-pathway gene alterations (6.9% of solitary fibrous tumors) as a candidate PARP inhibitor therapy alongside niraparib and olaparib. [PMID:37980418](../papers/37980418.md)
 
 ## Resistance mechanisms
 
@@ -49,3 +50,6 @@ Rucaparib is an oral PARP1/2 inhibitor with FDA approval for germline BRCA1/2-mu
 - [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:37980418](../papers/37980418.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

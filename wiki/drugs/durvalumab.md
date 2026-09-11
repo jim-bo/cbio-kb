@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
 processed_by: wiki-cli
-processed_at: 2026-05-21
+processed_at: 2026-09-10
 ---
 
 # durvalumab
@@ -26,6 +26,7 @@ Durvalumab is an anti-PD-L1 monoclonal antibody immune checkpoint inhibitor with
 - Durvalumab (anti-PD-L1) was among the ICI agents used in the 45-patient recurrent [HGSOC](../cancer_types/HGSOC.md) cohort studied by Elkin et al.; network curvature (Ollivier-Ricci) over CNAs predicted [OS](../cancer_types/OS.md) (log-rank p=0.00047, median 7.4 vs 20.3 months) — an ICI-specific biomarker not prognostic in non-ICI [HGSOC](../cancer_types/HGSOC.md) patients. [PMID:34819508](../papers/34819508.md)
 - Durvalumab (with cisplatin/carboplatin + [etoposide](../drugs/etoposide.md)) is one of two PD-L1 inhibitors constituting current first-line chemoimmunotherapy standard for extensive-stage [SCLC](../cancer_types/SCLC.md), as noted in the MSK [SCLC](../cancer_types/SCLC.md) PDX/CDX resource paper [PMID:35440124](../papers/35440124.md)
 - Durvalumab plus [tremelimumab](../drugs/tremelimumab.md) (CTLA-4) is a second-line ICI combination for advanced [HCC](../cancer_types/HCC.md); lipid-metabolism reprogramming (DNL, FAO, cholesterol biosynthesis) is proposed as a driver of resistance to this regimen, providing rationale for combining lipid inhibitors with ICI [PMID:41118283](../papers/41118283.md).
+- Cited as context: in the NIAGARA trial, perioperative cisplatin/gemcitabine ± durvalumab met its event-free survival primary endpoint and its overall survival secondary endpoint in muscle-invasive urothelial carcinoma [PMID:39642637](../papers/39642637.md).
 
 ## Resistance mechanisms
 
@@ -64,3 +65,6 @@ Durvalumab is an anti-PD-L1 monoclonal antibody immune checkpoint inhibitor with
 - [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*
+- [PMID:39642637](../papers/39642637.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

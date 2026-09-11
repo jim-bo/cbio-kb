@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [ODG, DIFG]
 tags: [transcriptional-repressor, oligodendroglioma]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # CIC
@@ -25,6 +25,7 @@ CIC (capicua) is a transcriptional repressor downstream of RTK/RAS/MAPK signalin
 - CIC promoter mutations are canonical glioma subtype-defining lesions with frequencies stable across primary vs. recurrent specimens in a 931-tumor MSK-IMPACT longitudinal cohort [PMID:31263031](../papers/31263031.md)
 - CIC-DUX4 fusion detected in a CNS Ewing-like PDX model (ICb-9850PNET) in the PPTC cohort; an additional CIC C102Y missense variant was found as an RNA-derived variant in the DIPG model IBs-W0128DIPG [PMID:31693904](../papers/31693904.md)
 - Present in the original oligodendroglioma that gave rise to recurrent GBM154; CIC was lost during high-grade recurrence (only CHEK2, TERT promoter mutation, and 1p/19q co-deletion retained in the recurrent PDX) [PMID:31852831](../papers/31852831.md)
+- CIC underwent deep deletion co-located with a chromosome-19 kataegis region present at both primary and metastatic timepoints in an APOBEC3-dominant HR+/HER2- breast cancer case [PMID:40379787](../papers/40379787.md).
 
 ## Cancer types (linked)
 
@@ -70,3 +71,6 @@ CIC (capicua) is a transcriptional repressor downstream of RTK/RAS/MAPK signalin
 - [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:40379787](../papers/40379787.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

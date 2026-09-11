@@ -3,8 +3,8 @@ symbol: TCF7
 aliases: [TCF-1]
 cancer_types: [COAD]
 tags: [WNT-pathway, transcription-factor]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # TCF7
@@ -17,6 +17,7 @@ TCF7 (Transcription Factor 7), also known as TCF-1, encodes a T-cell-specific tr
 
 - Newly significant colorectal cancer (CRC) driver in the WNT pathway, identified in a large CRC exome-sequencing and neoantigen analysis of 619 cases [PMID:27149842](../papers/27149842.md).
 - TCF7 is a top transcription factor in the CRPC-WNT subtype, identified alongside [TCF7L2](../genes/TCF7L2.md), [LEF1](../genes/LEF1.md), and [TCF7L1](../genes/TCF7L1.md) as a key WNT pathway driver in a multi-omics CRPC classification study [PMID:35617398](../papers/35617398.md)
+- TCF7 is a WNT-signaling gene within the 14-gene core fetal progenitor signature conserved across colorectal cancer patients, upregulated along the canonical-to-non-canonical tumor cell-state trajectory [PMID:39478232](../papers/39478232.md).
 
 ## Cancer types (linked)
 
@@ -38,7 +39,7 @@ TCF7 (Transcription Factor 7), also known as TCF-1, encodes a T-cell-specific tr
 
 - [PMID:27149842](../papers/27149842.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
+- [PMID:39478232](../papers/39478232.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -4,8 +4,8 @@ oncotree_code: LUSC
 main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc, squamous]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Lung Squamous Cell Carcinoma (LUSC)
@@ -40,6 +40,7 @@ Lung Squamous Cell Carcinoma is a Non-Small Cell Lung Cancer histology (parent [
 - In PCAWG, lung squamous cell carcinoma showed high chromothripsis frequency; [SOX2](../genes/SOX2.md) amplification via chromothripsis was identified as a late event (many SNVs predated the amplification); chromothripsis was clonal and early in lung squamous [PMID:32025007](../papers/32025007.md).
 - CPTAC proteogenomic study of 108 treatment-naive LUSC tumors identified five NMF subtypes (Basal-Inclusive, EMT-Enriched, Classical, Inflamed-Secretory, Proliferative-Primitive); [NSD3](../genes/NSD3.md) proteomically nominated over [FGFR1](../genes/FGFR1.md) as the 8p11.23 amplicon driver; CDK4/6-pathway loss ([CDKN2A](../genes/CDKN2A.md) or [RB1](../genes/RB1.md)) was universal; TP63-low tumors overexpressed survivin ([BIRC5](../genes/BIRC5.md)); dataset [lusc_cptac_2021](../datasets/lusc_cptac_2021.md) [PMID:34358469](../papers/34358469.md)
 - Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): LUSC included within the [NSCLC](../cancer_types/NSCLC.md) umbrella (20% of cohort); [TP53](../genes/TP53.md) (58% pan-cohort) and [PIK3CA](../genes/PIK3CA.md) (11%) dominant across lung squamous histology; 11q13.3 amplification relevant to squamous subtypes [PMID:35871175](../papers/35871175.md)
+- In a pan-cancer MET copy-number survey of 66,285 MSK-IMPACT tumor samples, lung squamous cell carcinoma (LUSC) was one of the NSCLC histologic subtypes broken out for MET amplification frequency, alongside LUAD, LUNE and pleomorphic/sarcomatoid NSCLC (8.5%) [PMID:36044468](../papers/36044468.md).
 
 ## Subtypes
 
@@ -101,3 +102,6 @@ Lung Squamous Cell Carcinoma is a Non-Small Cell Lung Cancer histology (parent [
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36044468](../papers/36044468.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

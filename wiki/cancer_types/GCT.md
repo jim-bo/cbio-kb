@@ -4,8 +4,8 @@ oncotree_code: GCT
 main_type: Germ Cell Tumor
 parent: TESTIS
 tags: [germ-cell, cisplatin, rare-cancers]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Germ Cell Tumor (GCT)
@@ -30,6 +30,7 @@ Germ Cell Tumor is an umbrella OncoTree designation for testicular and extragona
 - **PI3K pathway** — alterations in 13.3% ([PIK3CA](../genes/PIK3CA.md) E542K ×4, [PTEN](../genes/PTEN.md) LOF ×5, [AKT1](../genes/AKT1.md) amplification, [MTOR](../genes/MTOR.md), [TSC1](../genes/TSC1.md), [TSC2](../genes/TSC2.md)) [PMID:27646943](../papers/27646943.md).
 - **Mean MSK-IMPACT mutation rate of 0.9/Mb** — very low compared with other adult solid tumors [PMID:27646943](../papers/27646943.md).
 - Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
+- A pediatric solid-tumor PDX resource included 10 germ cell tumors among 68 models from 65 patients across 16 cancer types, with an LRPAP1-PDGFRA fusion reported in one germ cell tumor case [PMID:37990009](../papers/37990009.md).
 
 ## Subtypes
 
@@ -53,3 +54,6 @@ Germ Cell Tumor is an umbrella OncoTree designation for testicular and extragona
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

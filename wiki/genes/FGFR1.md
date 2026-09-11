@@ -3,8 +3,8 @@ symbol: FGFR1
 aliases: []
 cancer_types: [OS, RMS, PRAD]
 tags: [amplification, sarcoma, radiation-associated]
-processed_by: entity-page-writer
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # FGFR1
@@ -54,6 +54,9 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - FGFR1 focal amplification was identified as an acquired resistance mechanism mediating MAPK reactivation in an oligo-progressing site in a RET-fusion-positive lung cancer patient treated with [selpercatinib](../drugs/selpercatinib.md). [PMID:35304457](../papers/35304457.md)
 - FGFR1 mutations were identified as clonal alterations shared between the [LUAD](../cancer_types/LUAD.md) and [SCLC](../cancer_types/SCLC.md) components of an admixed SCLC/adenocarcinoma tumor (MSK773) in an MSK [SCLC](../cancer_types/SCLC.md) PDX/CDX biobank study. [PMID:35440124](../papers/35440124.md)
 - FGFR1 detected as a kinase-fusion partner gene in sarcoma (2.6% prevalence of kinase fusions overall); actionable in larotrectinib/entrectinib-eligible settings [PMID:35705558](../papers/35705558.md)
+- An FGFR1 fusion was found as a rare co-driver in a non-lung MET-amplified tumor in a pan-cancer MET amplification cohort. [PMID:36044468](../papers/36044468.md)
+- FGFR1 amplification, tracked in the MSK-BR-WGS-05 primary-to-metastasis case, was maintained from primary breast tumor to metastasis. [PMID:40379787](../papers/40379787.md)
+- FGFR1 is counted among selected level 3B actionable genes in a biliary tract cancer genomic cohort. [PMID:42360806](../papers/42360806.md)
 
 ## Cancer types (linked)
 
@@ -151,5 +154,8 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - [PMID:35440124](../papers/35440124.md)
 
 - [PMID:35705558](../papers/35705558.md)
+- [PMID:36044468](../papers/36044468.md)
+- [PMID:40379787](../papers/40379787.md)
+- [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -3,8 +3,8 @@ symbol: MSH2
 aliases: []
 cancer_types: [UCEC, PRAD, PITU, GYNEC, GB, NSCLC]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # MSH2
@@ -54,6 +54,9 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - MMR gene altered in 2.1% of sarcomas (n=7,494) alongside [MLH1](../genes/MLH1.md), MSH6, and [PMS2](../genes/PMS2.md), tightly correlated with MSI-H status [PMID:35705558](../papers/35705558.md)
 - MMR gene altered in sarcoma clinical sequencing cohort (n=2,138); collectively MLH1, MSH2, MSH6, [PMS2](../genes/PMS2.md) altered in sarcomas [PMID:35705560](../papers/35705560.md)
 - Accounts for 8 (32%) germline and 19 (49%) somatic MMR-mutant endometrial cancers in MSI-H EC cohort (n=161 MMR-D); Lynch-associated MSH2-mutant ECs harbor [ERBB2](../genes/ERBB2.md) hotspot mutations in 29% vs 3% in MLH1ph [PMID:35849120](../papers/35849120.md)
+- Lynch-syndrome germline mutation (n=4 of 21) and somatic mutation implicated in mismatch repair deficiency among MSI-H ERBB2-mutated endometrial cancers; one case had MSH2/MSH6 IHC loss with somatic MSH2 mutations [PMID:39031567](../papers/39031567.md).
+- Somatic MSH2 mutation found in 1 of 5 MSI-H upper tract urothelial carcinomas (cluster C3) [PMID:39550333](../papers/39550333.md).
+- Case report of germline pathogenic MSH2 variant (Lynch syndrome) in microsatellite-instable pancreatic cancer; ctDNA became and stayed undetectable after 5 months of immune checkpoint blockade [PMID:40511613](../papers/40511613.md).
 
 ## Cancer types (linked)
 
@@ -123,25 +126,21 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 
 - [PMID:34405229](../papers/34405229.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34667026](../papers/34667026.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34819518](../papers/34819518.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35849120](../papers/35849120.md)
+- [PMID:39031567](../papers/39031567.md)
+- [PMID:39550333](../papers/39550333.md)
+- [PMID:40511613](../papers/40511613.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

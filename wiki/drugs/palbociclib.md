@@ -9,8 +9,8 @@ unverified: true
 tags:
   - targeted-therapy
   - cdk-inhibitor
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # palbociclib
@@ -35,6 +35,8 @@ Palbociclib is an oral CDK4/6 inhibitor that blocks G1-to-S-phase cell-cycle pro
 - RB1 deletion was identified as a resistance marker to palbociclib (CDK4/6 inhibition) in sarcomas; [CDK4](../genes/CDK4.md) amplification (10.6% of sarcomas, predominantly complex subtype) was flagged as a CDK4/6 inhibitor target, but co-occurring RB1 deletions predict non-response [PMID:35705558](../papers/35705558.md).
 - CDK4/6 inhibitor; CDKN2A loss-of-function in 20% of [PAAD](../cancer_types/PAAD.md) and [CDK4](../genes/CDK4.md) amplification in 10.9% of [STS](../cancer_types/STS.md) in Chinese pan-cancer cohort (n=10,194) provide Level 4 rationale for CDK4/6 inhibitors [PMID:35871175](../papers/35871175.md)
 - CDK4/6 inhibitor; CDKN2A loss (disabling p16INK4a-mediated CDK control) in metastatic [CSCC](../cancer_types/CSCC.md) WGS cohort (n=25) supports CDK4/6 inhibitors such as palbociclib as candidate therapy [PMID:35982973](../papers/35982973.md)
+- A3A-WT T47D cells with APOBEC3 activity gained a growth advantage under palbociclib, alongside abemaciclib, consistent with APOBEC3-driven acquired resistance to CDK4/6 inhibition. [PMID:40379787](../papers/40379787.md)
+- In a PDX-organoid drug screen of MYOD1-mutant spindle cell/sclerosing rhabdomyosarcoma, the combination of linsitinib (IGF1R) plus palbociclib (CDK4/6) showed relative sensitivity against a background of broad chemotherapy resistance. [PMID:41758938](../papers/41758938.md)
 
 ## Resistance mechanisms
 
@@ -76,3 +78,9 @@ Palbociclib is an oral CDK4/6 inhibitor that blocks G1-to-S-phase cell-cycle pro
 - [PMID:35982973](../papers/35982973.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:40379787](../papers/40379787.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41758938](../papers/41758938.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

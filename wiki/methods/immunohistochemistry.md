@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [ihc, pathology, protein-expression, diagnostic]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Immunohistochemistry (IHC)
@@ -69,6 +69,16 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - IHC for [ASCL1](../genes/ASCL1.md), [NEUROD1](../genes/NEUROD1.md), [POU2F3](../genes/POU2F3.md), and [YAP1](../genes/YAP1.md) subtype markers performed on 37 [SCLC](../cancer_types/SCLC.md) PDX and 19 clinical samples; [YAP1](../genes/YAP1.md) protein was consistently absent or very low across all models [PMID:35440124](../papers/35440124.md).
 - Used in [prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md) for [ERG](../genes/ERG.md), p53, [PTEN](../genes/PTEN.md), Chromogranin-A, Synaptophysin, PSA, CK5/6, and p63 protein assessment in 168 prostate cancer brain metastasis samples; [ERG](../genes/ERG.md) IHC correlated with TMPRSS2-ERG fusions (Pearson r=0.70, P<2.2×10⁻¹⁶) [PMID:35504881](../papers/35504881.md)
 - Multiplex IHC applied across 49 aSCLC specimens for pRb, p53, [ASCL1](../genes/ASCL1.md), [NEUROD1](../genes/NEUROD1.md), [POU2F3](../genes/POU2F3.md), [YAP1](../genes/YAP1.md), [DLL3](../genes/DLL3.md), [SEZ6](../genes/SEZ6.md), [OTP](../genes/OTP.md), p16 ([CDKN2A](../genes/CDKN2A.md)), and MLH1/PMS2; cell-cycle pathway deregulation confirmed at protein level in 75% of samples; paradoxical p16 overexpression identified in chr 12 chromothripsis cases [PMID:39185963](../papers/39185963.md)
+- Used (multiplex CD3/CD8 and CD3/CD4/FOXP3 stains) to quantify on-treatment immune infiltrate changes in paired nivolumab-treated metastatic RCC biopsies [PMID:27169994](../papers/27169994.md).
+- Used (VENTANA SP142 assay) to score PD-L1 on tumor-infiltrating immune cells in an atezolizumab cisplatin-ineligible urothelial carcinoma trial (IMvigor210 cohort 1) [PMID:27939400](../papers/27939400.md).
+- Used (beyond PD-L1 SP142) to assess CD31 vascular density and CD8 T-cell infiltration in IMmotion150 renal cell carcinoma tumors [PMID:29867230](../papers/29867230.md).
+- Used for CD3 and PD-L1 IHC scoring alongside proteogenomic and PAM50 subtyping in a neoadjuvant chemotherapy TNBC cohort [PMID:36001024](../papers/36001024.md).
+- Used for STAT6 IHC as a diagnostic surrogate for NAB2-STAT6 fusion, plus multiplex immune-marker staining, across four solitary fibrous tumor cohorts [PMID:37980418](../papers/37980418.md).
+- Used (E-cadherin and p120 staining) to confirm loss of E-cadherin protein expression in CDH1-wild-type invasive lobular carcinomas [PMID:38347189](../papers/38347189.md).
+- Used (HER2 clone 4B5) to score HER2 protein expression in ERBB2-mutant endometrial carcinomas on the same tissue block used for sequencing [PMID:39031567](../papers/39031567.md).
+- Used (VENTANA SP142 assay) to score PD-L1 on tumor-infiltrating immune cells in the long-term IMvigor210 follow-up analysis of atezolizumab-treated urothelial carcinoma [PMID:39642637](../papers/39642637.md).
+- Used (SDHB staining) to confirm SDH-deficiency status in SDHB-related paraganglioma/pheochromocytoma tumors [PMID:40097403](../papers/40097403.md).
+- Used (HER2 IHC) to track ERBB2 amplification status in matched pre-/post-treatment biliary tract cancer biopsies, including a case showing HER2 IHC 2+/no-amplification escape after response to zanidatamab [PMID:42360806](../papers/42360806.md).
 
 ## Notes
 
@@ -77,151 +87,64 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 
 ## Sources
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30061739](../papers/30061739.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41097736](../papers/41097736.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41002550](../papers/41002550.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40830485](../papers/40830485.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41136396](../papers/41136396.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25201530](../papers/25201530.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25223734](../papers/25223734.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26168399](../papers/26168399.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40694421](../papers/40694421.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41000773](../papers/41000773.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26631609](../papers/26631609.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26829750](../papers/26829750.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26855148](../papers/26855148.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26928463](../papers/26928463.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27149842](../papers/27149842.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27713405](../papers/27713405.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41071892](../papers/41071892.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28162975](../papers/28162975.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28196596](../papers/28196596.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41102727](../papers/41102727.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41137179](../papers/41137179.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28445469](../papers/28445469.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41062477](../papers/41062477.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28985567](../papers/28985567.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29033130](../papers/29033130.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29122777](../papers/29122777.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29301960](../papers/29301960.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29316426](../papers/29316426.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625057](../papers/29625057.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29848569](../papers/29848569.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30052636](../papers/30052636.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30068706](../papers/30068706.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30537516](../papers/30537516.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31061129](../papers/31061129.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31278255](../papers/31278255.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31564440](../papers/31564440.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31591597](../papers/31591597.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32332851](../papers/32332851.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32719455](../papers/32719455.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41125935](../papers/41125935.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33577785](../papers/33577785.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34819518](../papers/34819518.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34910928](../papers/34910928.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39185963](../papers/39185963.md)
+- [PMID:27169994](../papers/27169994.md)
+- [PMID:27939400](../papers/27939400.md)
+- [PMID:29867230](../papers/29867230.md)
+- [PMID:36001024](../papers/36001024.md)
+- [PMID:37980418](../papers/37980418.md)
+- [PMID:38347189](../papers/38347189.md)
+- [PMID:39031567](../papers/39031567.md)
+- [PMID:39642637](../papers/39642637.md)
+- [PMID:40097403](../papers/40097403.md)
+- [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

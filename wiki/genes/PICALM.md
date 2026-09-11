@@ -3,8 +3,8 @@ symbol: PICALM
 aliases: [CALM, CLTH]
 cancer_types: [AML]
 tags: [fusion-gene, clathrin-assembly]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # PICALM
@@ -16,6 +16,7 @@ PICALM (Phosphatidylinositol Binding Clathrin Assembly Protein) encodes a clathr
 ## Alterations observed in the corpus
 
 - Involved in recurrent in-frame PICALM–MLLT10 fusion detected by RNA-seq in AML; associated with the favorable-risk fusion landscape [PMID:23634996](../papers/23634996.md)
+- PICALM::MLLT10 fusion defined a pediatric AML category in 8 cases, associated with poor outcome and frequent complex karyotype [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
@@ -36,5 +37,6 @@ PICALM (Phosphatidylinositol Binding Clathrin Assembly Protein) encodes a clathr
 ## Sources
 
 - [PMID:23634996](../papers/23634996.md)
+- [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

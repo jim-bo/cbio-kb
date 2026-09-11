@@ -9,7 +9,7 @@ tags:
   - hormonal therapy
   - endocrine therapy
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # tamoxifen
@@ -24,6 +24,7 @@ Tamoxifen is a selective estrogen receptor modulator (SERM) used as adjuvant and
 - Lower ESR1 expression and weaker ER signaling in younger Asian ER+ tumors, combined with co-occurring TP53/HER2 alterations, cited as partial molecular explanation for worse outcomes of younger ER+ patients on tamoxifen reported in Korean Breast Cancer Society cohorts [PMID:29713003](../papers/29713003.md)
 - In prospective MSK-IMPACT sequencing of 1,918 breast tumors, 12 patients had focal [EGFR](../genes/EGFR.md) amplifications in post-endocrine-therapy metastases, all of whom had received prior tamoxifen (8 also prior aromatase inhibitor), implicating tamoxifen as part of the selective pressure enriching for EGFR-amplified endocrine-resistant clones [PMID:30205045](../papers/30205045.md).
 - Selective estrogen receptor modulator (SERM) used as anti-estrogen backbone combined with CDK4/6 inhibitors in HR+/HER2- metastatic breast cancer; included as an endocrine therapy option alongside aromatase inhibitors and fulvestrant in the Wander et al. CDK4/6i resistance cohort [PMID:32404308](../papers/32404308.md).
+- In a deep case study of patient MSK-BR-WGS-05 treated with endocrine therapy including tamoxifen and letrozole, 95% of acquired mutations in the metastasis were assigned to the APOBEC3 signature. [PMID:40379787](../papers/40379787.md)
 
 ## Resistance mechanisms
 
@@ -47,3 +48,6 @@ Tamoxifen is a selective estrogen receptor modulator (SERM) used as adjuvant and
 - [PMID:32404308](../papers/32404308.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:40379787](../papers/40379787.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

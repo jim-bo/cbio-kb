@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [statistics, survival-analysis, visualization]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Kaplan-Meier
@@ -41,6 +41,22 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 - Kaplan-Meier survival analysis applied for progression-free and overall survival in MSK-IMPACT prostate cancer cohorts and in KM-plotter pan-cancer datasets (gastric, liver, [NSCLC](../cancer_types/NSCLC.md)) for [PIK3R1](../genes/PIK3R1.md) mRNA associations [PMID:35670774](../papers/35670774.md)
 - Kaplan-Meier analysis used to compare progression-free survival among 119 MSI-H/MMR-D endometrial cancer patients stratified by MMR-deficiency mechanism (germline, somatic, MLH1-promoter-hypermethylation); MLH1ph associated with inferior PFS (p=0.005) [PMID:35849120](../papers/35849120.md)
 - Used for overall survival analysis in the Beat [AML](../cancer_types/AML.md) Waves 1–4 cohort (n=805 [AML](../cancer_types/AML.md) patients); [PEAR1](../genes/PEAR1.md) expression stratified OS with hazard ratios comparable to the LSC17 leukemic stem-cell signature across age strata [PMID:35868306](../papers/35868306.md)
+- Used Kaplan-Meier survival analysis to characterize outcomes among nivolumab-treated metastatic renal cell carcinoma patients [PMID:27169994](../papers/27169994.md).
+- Used Kaplan-Meier to estimate progression-free and overall survival in cisplatin-ineligible urothelial carcinoma patients treated with first-line atezolizumab [PMID:27939400](../papers/27939400.md).
+- Used Kaplan-Meier survival analysis to compare progression-free survival across atezolizumab, atezolizumab+bevacizumab, and sunitinib arms in renal cell carcinoma [PMID:29867230](../papers/29867230.md).
+- Used Kaplan-Meier to demonstrate a survival benefit associated with neoadjuvant anti-PD-1 therapy in recurrent glioblastoma [PMID:30742122](../papers/30742122.md).
+- Used Kaplan-Meier survival analysis to assess outcomes in metastatic triple-negative breast cancer patients receiving cyclophosphamide-primed pembrolizumab [PMID:35121644](../papers/35121644.md).
+- Used Kaplan-Meier to analyze survival associations of genomic-clinical features across 1015 colorectal cancer exomes [PMID:35487942](../papers/35487942.md).
+- Used Kaplan-Meier to evaluate survival outcomes associated with proteogenomic markers of chemotherapy response in triple-negative breast cancer [PMID:36001024](../papers/36001024.md).
+- Used Kaplan-Meier to compare survival across genetic subgroups in adult and pediatric Burkitt lymphoma [PMID:36201743](../papers/36201743.md).
+- Used Kaplan-Meier to evaluate recurrence-free survival for adjuvant-therapy patient stratification in renal cell carcinoma [PMID:36815791](../papers/36815791.md).
+- Used Kaplan-Meier to assess survival outcomes in EWSR1-rearranged round cell sarcomas [PMID:38335254](../papers/38335254.md).
+- Used Kaplan-Meier to compare survival between ERBB2-mutant and MSI-high molecular subtypes of endometrial carcinoma [PMID:39031567](../papers/39031567.md).
+- Used Kaplan-Meier to link molecular subtypes and immune infiltration with clinical outcomes in upper tract urothelial carcinoma [PMID:39550333](../papers/39550333.md).
+- Used Kaplan-Meier for the final overall survival analysis of atezolizumab monotherapy in metastatic urothelial carcinoma (IMvigor210) [PMID:39642637](../papers/39642637.md).
+- Used Kaplan-Meier to characterize survival outcomes in secondary rectal cancer arising after prostate radiotherapy [PMID:40100215](../papers/40100215.md).
+- Used Kaplan-Meier to relate circulating tumor DNA detection to survival outcomes in pancreatic ductal adenocarcinoma [PMID:40511613](../papers/40511613.md).
+- Used Kaplan-Meier to evaluate survival outcomes associated with targeted-therapy use in biliary tract cancer [PMID:42360806](../papers/42360806.md).
 
 ## Notes
 
@@ -119,3 +135,51 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 - [PMID:35868306](../papers/35868306.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:27169994](../papers/27169994.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:27939400](../papers/27939400.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:29867230](../papers/29867230.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:30742122](../papers/30742122.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:35121644](../papers/35121644.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36201743](../papers/36201743.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36815791](../papers/36815791.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38335254](../papers/38335254.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39031567](../papers/39031567.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39550333](../papers/39550333.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39642637](../papers/39642637.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40100215](../papers/40100215.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40511613](../papers/40511613.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

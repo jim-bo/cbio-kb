@@ -3,8 +3,8 @@ symbol: AXIN2
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # AXIN2
@@ -19,6 +19,8 @@ AXIN2 (Axis Inhibition Protein 2; also Conductin) is a scaffold protein in the b
 - AXIN2 alterations reported at 0.05% in 344-patient [HCC](../cancer_types/HCC.md) MSK-IMPACT cohort [PMID:30373752](../papers/30373752.md)
 - Wnt target gene showing differential mRNA expression (but not protein) in CTNNB1-mutant HCCs; KSEA showed decreased CK II / [CDK5](../genes/CDK5.md) activity in CTNNB1-mutant context (n=122 [HCC](../cancer_types/HCC.md), [hcc_meric_2021](../datasets/hcc_meric_2021.md)) [PMID:35508466](../papers/35508466.md)
 - Elevated in CRPC-WNT patient tumors as a canonical Wnt-pathway target gene; used as a marker distinguishing the CRPC-WNT subtype ([prad_organoids_msk_2022](../datasets/prad_organoids_msk_2022.md)) [PMID:35617398](../papers/35617398.md)
+- A high-confidence significantly mutated gene (HC-SMG) in ~5% of colorectal tumors in a large pan-colon sequencing cohort [PMID:35487942](../papers/35487942.md).
+- Inactivated in 3 of 25 CDH1-genetically-wild-type invasive lobular breast carcinomas (W78* truncating mutation, a PLXDC1-AXIN2 fusion, and a 17q inversion); CRISPR knockout in MCF7 cells produced lobular-like phenotypes (anoikis resistance, increased migration, reduced E-cadherin) [PMID:38347189](../papers/38347189.md).
 
 ## Cancer types (linked)
 
@@ -50,3 +52,9 @@ AXIN2 (Axis Inhibition Protein 2; also Conductin) is a scaffold protein in the b
 - [PMID:35617398](../papers/35617398.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38347189](../papers/38347189.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

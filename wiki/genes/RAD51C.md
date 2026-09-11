@@ -3,8 +3,8 @@ symbol: RAD51C
 aliases: []
 cancer_types: [OV]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # RAD51C
@@ -21,6 +21,8 @@ RAD51C encodes a member of the [RAD51](../genes/RAD51.md) family of proteins inv
 - F8L variant in osteosarcoma ([OS](../cancer_types/OS.md)); identified as a PARP-inhibitor target in a pediatric precision-oncology program (n=101 high-risk patients) [PMID:28007021](../papers/28007021.md)
 - Established cancer predisposition gene; combined carrier frequency with [RAD51D](../genes/RAD51D.md) was 16/3,422 in a breast/ovarian cancer cohort, comparable to the 9/3,422 observed for [RAD51B](../genes/RAD51B.md). Associated with triple-negative breast cancer (in contrast to RAD51B-associated ER+ tumors). [PMID:34635660](../papers/34635660.md)
 - Part of the 15 PROfound HRR genes assessed in 51 prostate cancer brain metastases (PCBM); 10/51 (19.6%) patients qualified by alteration in any HRR gene, 8/51 (15.7%) had biallelic loss in at least one [PMID:35504881](../papers/35504881.md)
+- RAD51C was one of 9 DDR panel genes in bladder cancer; only truncating alterations counted as deleterious, with results reported for the pooled DDR category [PMID:39499893](../papers/39499893.md)
+- RAD51C P21S was newly acquired at metastasis in a primary-to-metastasis breast cancer case (MSK-BR-WGS-05) [PMID:40379787](../papers/40379787.md)
 
 ## Cancer types (linked)
 
@@ -46,7 +48,8 @@ RAD51C encodes a member of the [RAD51](../genes/RAD51.md) family of proteins inv
 - [PMID:28007021](../papers/28007021.md)
 - [PMID:34635660](../papers/34635660.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
+- [PMID:39499893](../papers/39499893.md)
+- [PMID:40379787](../papers/40379787.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

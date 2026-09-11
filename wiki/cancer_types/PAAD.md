@@ -4,8 +4,8 @@ oncotree_code: PAAD
 main_type: Pancreatic Cancer
 parent: PANCREAS
 tags: [pancreas, kras-driven]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Pancreatic Adenocarcinoma (PAAD)
@@ -45,6 +45,9 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 - CPTAC proteogenomic study of 140 treatment-naive pancreatic tumors (135 PDAC + 5 adenosquamous) found KRAS alterations in 97%, [TP53](../genes/TP53.md) in 83%, [CDKN2A](../genes/CDKN2A.md) in 48%, and [SMAD4](../genes/SMAD4.md) in 29%; two proteogenomic subtypes (C1 classical, C2 basal-like) showed stronger prognostic separation than Moffitt RNA-only subtypes (HR 3.4 vs 2.3); only ~6% of tumors were immune-hot; dataset [paad_cptac_2021](../datasets/paad_cptac_2021.md) [PMID:34534465](../papers/34534465.md)
 - MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; PAAD is among tumor types analyzed for [FGA](../genes/FGA.md), TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 - Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): PAAD comprised 5% of cohort; KRAS GoF in 74% (MEKi Level 3B/4); [CDKN2A](../genes/CDKN2A.md) LoF in 20% (CDK4/6 inhibitor candidate per OncoKB Level 4); abemaciclib/palbociclib/ribociclib actionable strategy proposed [PMID:35871175](../papers/35871175.md)
+- In the PRINCE phase 1b/2 trial (n=105 efficacy population) in treatment-naive metastatic pancreatic adenocarcinoma, adding nivolumab to gemcitabine/nab-paclitaxel met the 1-year OS primary endpoint (57.7% vs. 35% historical control, P=0.006; median OS 16.7 months), while sotigalimab (CD40 agonist)-containing arms did not. [PMID:35662283](../papers/35662283.md)
+- In 414 pancreatic adenocarcinoma patients with serial MSK-ACCESS ctDNA testing, detection rose from 34% at stage I-II/III to 75% at stage IV and tracked with liver involvement and disease burden, while tissue-ctDNA concordance for KRAS/TP53/CDKN2A/SMAD4 was far lower in untreated stage I-III (12.5-39.3%) than untreated stage IV (63.6-93.1%). [PMID:40511613](../papers/40511613.md)
+- In the MSK-IMPACT pan-cancer cohort, pancreatic adenocarcinoma had one of the lowest TMB-H rates (≤3%), and rare ERBB2 (1.6%) and NRAS (0.3%) alterations in PAAD were each mutually exclusive with the cancer type's other canonical drivers despite their low frequency. [PMID:41895280](../papers/41895280.md)
 
 ## Subtypes
 
@@ -110,3 +113,12 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35662283](../papers/35662283.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40511613](../papers/40511613.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -3,8 +3,8 @@ symbol: ATM
 aliases: []
 cancer_types: [CLLSLL, ANGS]
 tags: [dna-damage-response, driver]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # ATM
@@ -88,6 +88,12 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - Mutated in 2% of pMMR/MSS rectal tumors (LARC cohort); OncoKB Level 3B actionable alteration in CRC [PMID:35970919](../papers/35970919.md)
 - Somatic ATM mutations in 30% of atypical [SCLC](../cancer_types/SCLC.md) (aSCLC), enriched vs carcinoids (8%, P=0.008) and conventional SCLC (3%, P=0.0003); authors hypothesize ATM disabling permits chromothripsis via micronucleus formation [PMID:39185963](../papers/39185963.md)
 - Germline ATM pathogenic variant identified in 1 of 73 consented colitis-associated cancer (CAC) patients; overall germline alteration frequency in CAC similar to sporadic CRC (14%) [PMID:36611031](../papers/36611031.md)
+- Target phosphorylation increased on treatment in triple-negative breast cancer tumors with LIG1 loss [PMID:36001024](../papers/36001024.md)
+- Lower-frequency gene added to a VHL-anchored ccRCC outcome classifier based on preliminary links to recurrence, though its individual significance could not be robustly established [PMID:36815791](../papers/36815791.md)
+- One of the DNA-repair/PARP-pathway genes (with FANCF, RAD54L, FANCA, FANCC, RECQL4, NBN, CHEK2, WRN) altered in 6.9% of solitary fibrous tumors, proposed as PARP-inhibitor targets [PMID:37980418](../papers/37980418.md)
+- Located in a GISTIC2 deletion peak alongside RAD51, FANCA, CHEK1 and POLD1 in a pediatric solid tumor PDX cohort [PMID:37990009](../papers/37990009.md)
+- Lies in a deletion bridge (11q22, 8 cases) adjacent to chromoplectic breakpoints in Ewing sarcoma, suggesting possible loss of tumor-suppressor function [PMID:38335254](../papers/38335254.md)
+- Most frequently altered DNA-damage-response gene overall (17%, n=31) in a bladder cancer cohort; only truncating variants counted as deleterious [PMID:39499893](../papers/39499893.md)
 
 ## Cancer types (linked)
 
@@ -315,3 +321,21 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:36611031](../papers/36611031.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36815791](../papers/36815791.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37980418](../papers/37980418.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38335254](../papers/38335254.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39499893](../papers/39499893.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

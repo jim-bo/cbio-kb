@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [machine-learning, classification, ensemble, random-forest]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # Random Forest Classifier
@@ -23,6 +23,8 @@ Random forest is an ensemble machine learning algorithm that constructs multiple
 - Applied in pediatric cancer classification to predict tumor type or subgroup from genomic features [PMID:29670109](../papers/29670109.md)
 - Alternating random forest (ARF) with joint-information-gain splitting and auto-context model iteratively refines CBCT-to-CT regression; achieves brain MAE 12.81 HU vs 20.89 HU for dictionary-learning baseline (p < 0.001) in a 12-patient brain and 14-patient pelvis radiotherapy cohort [PMID:30471129](../papers/30471129.md)
 - Evaluated as a baseline comparator in the OncoMark hallmark-activity study; collapsed to near-zero cancer hallmark probabilities on bulk cancer samples, failing to discriminate malignant from normal tissue [PMID:41057477](../papers/41057477.md)
+- Trained an exome-compatible random forest classifier (93.3% accuracy, 94.1% sensitivity, 92.7% specificity separating Burkitt lymphoma from DLBCL) and applied it to 3 external cohorts to validate genetic subgroups in Burkitt lymphoma [PMID:36201743](../papers/36201743.md).
+- Applied a cross-validated random-forest classifier to project MSK100 UTUC transcriptional clusters onto an independent Japanese validation cohort (Fujii158), where cluster-level immune patterns held up [PMID:39550333](../papers/39550333.md).
 
 ## Notes
 
@@ -50,3 +52,9 @@ Random forest is an ensemble machine learning algorithm that constructs multiple
 - [PMID:41057477](../papers/41057477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:36201743](../papers/36201743.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39550333](../papers/39550333.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

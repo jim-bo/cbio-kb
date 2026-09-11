@@ -4,8 +4,8 @@ oncotree_code: USC
 main_type: Endometrial Cancer
 parent: UCEC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Uterine Serous Carcinoma (USC)
@@ -29,6 +29,7 @@ Uterine serous carcinoma (USC), also known as uterine papillary serous carcinoma
 - 46/189 advanced endometrial tumors were uterine serous carcinoma; [ERBB2](../genes/ERBB2.md) amplification enriched in serous histology (p=0.018); one heavily pretreated serous patient achieved 14-month ongoing complete response to [ado-trastuzumab-emtansine](../drugs/ado-trastuzumab-emtansine.md) (T-DM1) [PMID:30068706](../papers/30068706.md)
 - CPTAC proteogenomic cohort (n=95 EC) included 12 serous tumors; all 12 serous cases harbored [TP53](../genes/TP53.md) mutations; serous tumors showed elevated [TP53BP1](../genes/TP53BP1.md)-S1763 and [CHEK2](../genes/CHEK2.md)-S163 phosphorylation correlated with [PLK1](../genes/PLK1.md) and G2M checkpoint score (R=0.67, p=7.9×10⁻¹⁴) [PMID:32059776](../papers/32059776.md).
 - MSK cfDNA pilot ([ucec_ccr_cfdna_msk_2022](../datasets/ucec_ccr_cfdna_msk_2022.md)): serous carcinoma comprised 7/44 (16%) of cohort; baseline ctDNA detected in advanced/high-risk cases including USC; CD22 (stage IVB USC) had 5.8% baseline ctDNA fraction and died of disease at 30 months; ctDNA rise preceded elevated serum CA125 by 5.8 months [PMID:36007103](../papers/36007103.md)
+- Serous carcinoma (USC) made up 6.9% of ERBB2-mutated/non-amplified endometrial carcinomas but was disproportionately represented among ERBB2-amplified tumors, which were predominantly high-grade and CN-H/TP53abn. [PMID:39031567](../papers/39031567.md)
 
 ## Subtypes
 
@@ -58,3 +59,6 @@ Uterine serous carcinoma (USC), also known as uterine papillary serous carcinoma
 - [PMID:36007103](../papers/36007103.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39031567](../papers/39031567.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

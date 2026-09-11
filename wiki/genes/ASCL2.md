@@ -3,8 +3,8 @@ symbol: ASCL2
 aliases: []
 cancer_types: [COADREAD]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # ASCL2
@@ -16,6 +16,7 @@ ASCL2 (Achaete-Scute Family BHLH Transcription Factor 2) is a WNT target gene an
 ## Alterations observed in the corpus
 
 - Over-expressed as part of the WNT/stem-cell transcriptional program in aberrant stem cells (ASCs) and MSS CRC cells in the COLON MAP / HTAN pre-cancer atlas ([crc_hta11_htan_2021](../datasets/crc_hta11_htan_2021.md)); co-expressed with LGR5, [OLFM4](../genes/OLFM4.md), [EPHB2](../genes/EPHB2.md), and [MYC](../genes/MYC.md) [PMID:34910928](../papers/34910928.md)
+- Co-defines the ISC-like canonical 'Hotspot' transcriptional module with LGR5 in a colorectal cancer organoid cell-state study [PMID:39478232](../papers/39478232.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ ASCL2 (Achaete-Scute Family BHLH Transcription Factor 2) is a WNT target gene an
 - [PMID:34910928](../papers/34910928.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:39478232](../papers/39478232.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

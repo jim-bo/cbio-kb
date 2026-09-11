@@ -3,8 +3,8 @@ symbol: NOTCH1
 aliases: []
 cancer_types: [CLLSLL, ATC, CSCC, HNSC]
 tags: [cll-driver, tumor-suppressor, skin-cancer, loss-of-function]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # NOTCH1
@@ -57,6 +57,7 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - NOTCH1 downstream YAP/TAZ pathway is upregulated in POU2F3-positive SCLC-P PDX models; NOTCH1/2/3 signaling implicated in the non-NE subtype biology across 42 [SCLC](../cancer_types/SCLC.md) PDX/CDX models [PMID:35440124](../papers/35440124.md)
 - Notably absent from significant or recurrent SNVs in metastatic [CSCC](../cancer_types/CSCC.md) (n=25), in contrast to the NOTCH-prominent landscape reported in primary [CSCC](../cancer_types/CSCC.md) by Inman et al.; suggests NOTCH1 alterations are not a dominant driver in the metastatic setting [PMID:35982973](../papers/35982973.md)
 - NOTCH1 enriched in older gastric cancer ([STAD](../cancer_types/STAD.md)) patients (vs [CDH1](../genes/CDH1.md) in younger) in the aOM Chinese pan-cancer cohort; age-differential gene alteration pattern observed across 9 tumor types [PMID:35871175](../papers/35871175.md)
+- In solitary fibrous tumor, NOTCH1 (with NOTCH2, NOTCH3, CREBBP) NOTCH-pathway alterations were related to progression-free survival, and NOTCH1 was among the most frequently altered genes (9%) [PMID:37980418](../papers/37980418.md).
 
 ## Cancer types (linked)
 
@@ -150,13 +151,11 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 
 - [PMID:34358469](../papers/34358469.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
+- [PMID:37980418](../papers/37980418.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

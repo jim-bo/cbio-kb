@@ -4,8 +4,8 @@ oncotree_code: BRCA
 main_type: Breast Cancer
 parent: BREAST
 tags: [breast]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Invasive Breast Carcinoma (BRCA)
@@ -73,6 +73,9 @@ OncoTree code for invasive breast carcinoma.
 - In 733 ERBB2-amplified breast tumors (664 patients, HER2+ metastatic BRCA, [brca_mapk_hp_msk_2021](../datasets/brca_mapk_hp_msk_2021.md)), MAPK pathway alterations were enriched in metastatic disease — [NF1](../genes/NF1.md) loss 8% vs 4% primary, [ERBB2](../genes/ERBB2.md) activating mutations 7% vs 3%; in 145 first-line THP-treated patients, MAPK-altered tumors had median PFS 9.9 vs 21 months (HR 2.03, p=0.011 multivariate) [PMID:34795269](../papers/34795269.md)
 - In 1,261 metastatic breast tumors profiled by MSK-IMPACT, [PIK3R1](../genes/PIK3R1.md) driver alterations (2.3%) were mutually exclusive with PIK3CA mutations (p<0.001) and associated with shorter [OS](../cancer_types/OS.md) than PIK3CA-altered disease (HR 2.82, 95% CI 1.56–5.12, p<0.001); [PIK3R1](../genes/PIK3R1.md) alteration rate was highest in TNBC (9.1%) [PMID:35670774](../papers/35670774.md).
 - Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): ERBB2 amplification in 24% of BRCA (vs 2% in other types, FDR=7.645×10⁻¹⁰⁵); PIK3CA hotspot mutations actionable to [alpelisib](../drugs/alpelisib.md) in 31% of BRCA; HER2-amp BRCA actionable with [trastuzumab](../drugs/trastuzumab.md)+[pertuzumab](../drugs/pertuzumab.md), [lapatinib](../drugs/lapatinib.md), [neratinib](../drugs/neratinib.md), [tucatinib](../drugs/tucatinib.md); BRCA comprised 3% of the cohort [PMID:35871175](../papers/35871175.md)
+- Proteogenomic profiling of 59 triple-negative breast cancer pretreatment biopsies found that 19q13.31-33 hemizygous deletion and low expression of LIG1 (with co-deleted POLD1 and XRCC1) was associated with resistance to neoadjuvant carboplatin/docetaxel, validated as a candidate carboplatin-selective resistance biomarker across the BrighTNess trial, patient-derived xenografts, and pan-cancer TCGA data [PMID:36001024](../papers/36001024.md).
+- In a 3,880-sample MSK-IMPACT breast cancer cohort, APOBEC3 mutational signature dominance was the most prevalent signature and its enrichment from primary to metastatic disease tracked shorter PFS on first-line endocrine therapy plus a CDK4/6 inhibitor (HR 1.5, P=2.4e-4), with APOBEC3-context PIK3CA and ESR1 hotspots enriched in post-treatment resistant tumors [PMID:40379787](../papers/40379787.md).
+- In the MSK-50K pan-cancer cohort, ERBB2 alterations were canonical and common in breast cancer (15%), and PIK3CA mutations in breast cancer were canonical and predominantly clonal, unlike in several non-canonical PIK3CA contexts [PMID:41895280](../papers/41895280.md).
 
 ## Subtypes
 
@@ -84,6 +87,7 @@ OncoTree code for invasive breast carcinoma.
 - APOBEC mutational signatures identified in CSF ctDNA from breast cancer samples, aiding in determining the primary tumor site [PMID:39289779](../papers/39289779.md).
 - CSF ctDNA positivity was associated with a three-fold increased risk of death across all tumor types (HR 3.23, 95% CI 2.58-4.05, p < 0.001) [PMID:39289779](../papers/39289779.md).
 - [ado-trastuzumab emtansine](../drugs/ado-trastuzumab-emtansine.md) (T-DM1) + IR proposed as a radiosensitization strategy for HER2+ locally advanced breast cancer given T-DM1's existing FDA approval and preclinical tumor-control data in HER2+ xenografts; no breast-specific clinical data reported. [PMID:27698471](../papers/27698471.md)
+- A phase 2 trial of low-dose cyclophosphamide priming plus pembrolizumab in pretreated metastatic triple-negative breast cancer (n=40) did not deplete regulatory T cells or improve PFS (1.8 months) over historical controls; ORR was 21%, and no genomic alteration or PD-L1 status predicted response [PMID:35121644](../papers/35121644.md).
 
 ## Sources
 
@@ -203,3 +207,15 @@ OncoTree code for invasive breast carcinoma.
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35121644](../papers/35121644.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40379787](../papers/40379787.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

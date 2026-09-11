@@ -13,7 +13,7 @@ tags:
   - chemoradiation
   - radioimmunotherapy
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # folfox
@@ -29,6 +29,7 @@ FOLFOX is a multi-drug chemotherapy regimen combining [oxaliplatin](../drugs/oxa
 - FOLFOX is listed as a standard backbone for PDAC; the MSK 2,336-patient clinicogenomic study notes FOLFIRINOX (which incorporates FOLFOX components [fluorouracil](../drugs/fluorouracil.md), [leucovorin](../drugs/leucovorin.md), and [oxaliplatin](../drugs/oxaliplatin.md) plus [irinotecan](../drugs/irinotecan.md)) was used in 38% of curated first-line PDAC patients. Chemotherapy backbone choice (FOLFIRINOX vs gemcitabine/nab-paclitaxel) was not significantly associated with [OS](../cancer_types/OS.md) in 304 metastatic PDAC patients [PMID:39753968](../papers/39753968.md).
 - Used as an alternative first-line chemotherapy regimen in advanced cholangiocarcinoma patients (n=195 cohort); primary regimen was gemcitabine/platinum (80% of 158 first-line patients) [PMID:29848569](../papers/29848569.md)
 - Ex vivo AUC for FOLFOX in patient-derived rectal cancer tumoroids correlated with patient PFS (Spearman r=0.86, p=0.024, n=7 patients); in vivo xenograft studies showed FOLFOX resistance in RC-MSK-023 (PFS=3.4 mo) and sensitivity in RC-MSK-001 (PFS=14.2 mo), mirroring clinical outcomes [PMID:31591597](../papers/31591597.md)
+- A HER2-amplified (19.3-fold) gallbladder cancer patient progressed on FOLFOX, then gemcitabine/cisplatin, before a 100% RECIST response to the HER2 bispecific antibody zanidatamab [PMID:42360806](../papers/42360806.md).
 
 ## Resistance mechanisms
 
@@ -51,3 +52,6 @@ No resistance mechanisms reported in the corpus at this time.
 - [PMID:31591597](../papers/31591597.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

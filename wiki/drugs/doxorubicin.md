@@ -5,8 +5,8 @@ drug_class: anthracycline
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # doxorubicin
@@ -29,6 +29,9 @@ Anthracycline topoisomerase II inhibitor; backbone of CHOP-based lymphoma regime
 - In a 3D cell culture review, doxorubicin delivered via GelMA microneedles in a skin/skin-cancer-on-a-chip platform achieved uniform 600 µm penetration to melanoma cells beneath the epidermis, with significantly higher efficiency than diffusion through media, modeling transdermal melanoma therapy [PMID:41103502](../papers/41103502.md).
 - Liposomal doxorubicin combined with mTOR inhibition ([temsirolimus](../drugs/temsirolimus.md) or [everolimus](../drugs/everolimus.md)) and [bevacizumab](../drugs/bevacizumab.md) showed higher response rates in PI3K-pathway-altered advanced triple-negative [metaplastic breast cancer (MBC)](../cancer_types/MBC.md); cited as therapeutic rationale for [PIK3CA](../genes/PIK3CA.md) enrichment observed in non-chondroid MBCs [PMID:33863915](../papers/33863915.md).
 - Prior doxorubicin/cisplatin therapy preceded enrollment of an ATM-truncated osteosarcoma patient in a PARP + ATR-inhibitor combination trial (>1-year stable disease); doxorubicin functions as standard backbone chemotherapy in the heavily pre-treated MSK sarcoma cohort (median 4 prior therapies) [PMID:35705558](../papers/35705558.md).
+- Doxorubicin/cyclophosphamide (AC) followed paclitaxel/carboplatin ± veliparib in the 359-patient BrighTNess validation cohort used to test the LIG1-loss/carboplatin-resistance association [PMID:36001024](../papers/36001024.md).
+- Listed as a component of first-line regimens (e.g. CODOX/IVAC±R, COM, DA-EPOCH±R) in a 297-sample mature B-cell neoplasm genomics cohort; treatment was reported as cohort context only, not analyzed for outcome [PMID:36201743](../papers/36201743.md).
+- One neoadjuvant arm of SWOG S1314 (muscle-invasive bladder cancer, NCT02177695) was dose-dense MVAC (methotrexate, vinblastine, doxorubicin, cisplatin), compared against gemcitabine-cisplatin, in a trial testing DDR alterations as predictors of pathologic response [PMID:39499893](../papers/39499893.md).
 
 ## Resistance mechanisms
 
@@ -70,3 +73,12 @@ Anthracycline topoisomerase II inhibitor; backbone of CHOP-based lymphoma regime
 - [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36201743](../papers/36201743.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39499893](../papers/39499893.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -5,8 +5,8 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [copy-number, bioinformatics]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # GISTIC
@@ -67,6 +67,11 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the [lung_nci_2022](../datasets/lung_nci_2022.md) cohort [PMID:34493867](../papers/34493867.md)
 - GISTIC 2.0 applied to 122 [HCC](../cancer_types/HCC.md) biopsies ([hcc_meric_2021](../datasets/hcc_meric_2021.md)) to identify five recurrent focal CNA peaks (1p36.23 del, 1q21.3 amp, 6p21.2 amp, 8q22.2 amp, 8q24.13 amp) containing 19 cis-regulated dysregulated genes [PMID:35508466](../papers/35508466.md)
 - GISTIC used to identify recurrent copy-number alterations in MSK-IMPACT prostate cancer samples, confirming focal 5q13.1/PIK3R1 loss (q<0.001) enriched in metastatic disease [PMID:35670774](../papers/35670774.md)
+- Used (GISTIC2.0) to call recurrent somatic copy-number alterations in 1,015 whole-exome-sequenced colorectal cancers [PMID:35487942](../papers/35487942.md).
+- Used (GISTIC2, +/-0.3 log2 threshold) for gene-level copy-number calls in a neoadjuvant chemotherapy TNBC proteogenomics cohort [PMID:36001024](../papers/36001024.md).
+- Used (GISTIC2.0) to call recurrent copy-number alterations in whole-genome-sequenced Burkitt lymphoma and DLBCL genomes [PMID:36201743](../papers/36201743.md).
+- Used (GISTIC2) alongside CNVkit, PureCN and Sequenza for copy-number calling across 68 pediatric solid-tumor PDX models [PMID:37990009](../papers/37990009.md).
+- Used (GISTIC 2.0) to call recurrent copy-number alterations in whole-genome-sequenced SDHB-related paraganglioma/pheochromocytoma tumors [PMID:40097403](../papers/40097403.md).
 
 ## Notes
 
@@ -77,149 +82,58 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 
 - [PMID:18772890](../papers/18772890.md)
 - [PMID:20601955](../papers/20601955.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21720365](../papers/21720365.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22610119](../papers/22610119.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22810696](../papers/22810696.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22817889](../papers/22817889.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22941189](../papers/22941189.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22960745](../papers/22960745.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23415222](../papers/23415222.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23619168](../papers/23619168.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23622249](../papers/23622249.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23636398](../papers/23636398.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23685749](../papers/23685749.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24120142](../papers/24120142.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24121792](../papers/24121792.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24434212](../papers/24434212.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24476821](../papers/24476821.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24974848](../papers/24974848.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079317](../papers/25079317.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079552](../papers/25079552.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25155756](../papers/25155756.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25417114](../papers/25417114.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25589618](../papers/25589618.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25631445](../papers/25631445.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26095796](../papers/26095796.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26451490](../papers/26451490.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26544944](../papers/26544944.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26804919](../papers/26804919.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26824661](../papers/26824661.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26928463](../papers/26928463.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27161491](../papers/27161491.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28027327](../papers/28027327.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28052061](../papers/28052061.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29033130](../papers/29033130.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29610475](../papers/29610475.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29622463](../papers/29622463.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625050](../papers/29625050.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625048](../papers/29625048.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29713087](../papers/29713087.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31031003](../papers/31031003.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31130341](../papers/31130341.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32025007](../papers/32025007.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32791233](../papers/32791233.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34493867](../papers/34493867.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35670774](../papers/35670774.md)
+- [PMID:35487942](../papers/35487942.md)
+- [PMID:36001024](../papers/36001024.md)
+- [PMID:36201743](../papers/36201743.md)
+- [PMID:37990009](../papers/37990009.md)
+- [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -3,8 +3,8 @@ symbol: VEGFA
 aliases: []
 cancer_types: [HCC, NPC, SKCM, EGC, ESCA]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # VEGFA
@@ -26,6 +26,7 @@ VEGFA encodes vascular endothelial growth factor A, the principal driver of tumo
 - Recurrent amplification driver (≥5% prevalence) in esophageal/esophagogastric junction adenocarcinomas ([EGC](../cancer_types/EGC.md)/[ESCA](../cancer_types/ESCA.md)) by MSK-IMPACT (N=487); one of 10 amplification-driven recurrent drivers; no independent [OS](../cancer_types/OS.md) association demonstrated in this cohort. [PMID:33795256](../papers/33795256.md)
 - VEGFA amplifications were observed co-occurring with chromothripsis-mediated [TP53](../genes/TP53.md) loss in 10/29 osteosarcoma patients profiled by comprehensive whole-genome + transcriptome sequencing (cWGTS) [PMID:35585047](../papers/35585047.md)
 - Enriched in younger bone sarcoma ([STS](../cancer_types/STS.md)) patients vs older counterparts in the Asian pan-cancer (aOM) cohort (n=10,194; FDR<0.05 clinical-feature association); amplification detected by the CSYS 450-gene panel [PMID:35871175](../papers/35871175.md)
+- VEGFA anchors a 6-gene angiogenesis (Angio) signature (with KDR, ESM1, PECAM1, ANGPTL4, CD34) in metastatic RCC; AngioHigh tumors predicted greater sunitinib benefit and tracked CD31 IHC vascular density [PMID:29867230](../papers/29867230.md).
 
 ## Cancer types (linked)
 
@@ -59,10 +60,9 @@ VEGFA encodes vascular endothelial growth factor A, the principal driver of tumo
 - [PMID:30373752](../papers/30373752.md)
 - [PMID:33795256](../papers/33795256.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
+- [PMID:29867230](../papers/29867230.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

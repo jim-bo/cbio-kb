@@ -3,8 +3,8 @@ symbol: NTRK2
 aliases: [TRKB]
 cancer_types: [NBL]
 tags: [neurotrophin-receptor, neuroblastoma, poor-prognosis, cell-of-origin, progenitor]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # NTRK2
@@ -30,6 +30,7 @@ NTRK2 (neurotrophic receptor tyrosine kinase 2, also known as TRKB) encodes the 
 - NTRK2 fusions (e.g., NTRK2-TLE4, NTRK2-SPECC1L) among the n=9 NTRK fusions classified ready-for-routine-use; resistance mutations identified after prior TRK inhibitor in the MAPPYACTS pediatric cohort (n=787) [PMID:35292802](../papers/35292802.md)
 - Kinase-fusion gene present in 2.6% of sarcomas; NTRK amplifications (distinct from fusions) are not actionable per cited negative trial data [PMID:35705558](../papers/35705558.md)
 - [HEBP2](../genes/HEBP2.md)–NTRK2 fusion detected in CSCC_0011 (unbalanced translocation) in metastatic cutaneous squamous cell carcinoma WGS cohort (n=25) [PMID:35982973](../papers/35982973.md)
+- In a pan-cancer hotspot survey, NTRK2 fusions (with ALK, ROS1, NTRK1, NTRK3, FGFR2) were linked to strikingly early age at diagnosis [PMID:41895280](../papers/41895280.md).
 
 ## Cancer types (linked)
 
@@ -55,34 +56,25 @@ NTRK2 (neurotrophic receptor tyrosine kinase 2, also known as TRKB) encodes the 
 - [PMID:34493726](../papers/34493726.md)
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41008893](../papers/41008893.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40958859](../papers/40958859.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31871300](../papers/31871300.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35982973](../papers/35982973.md)
+- [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

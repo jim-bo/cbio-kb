@@ -4,8 +4,8 @@ oncotree_code: GBC
 main_type: Hepatobiliary Cancer
 parent: BILIARY_TRACT
 tags: [biliary, hepatobiliary]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Gallbladder Cancer (GBC)
@@ -27,6 +27,7 @@ Gallbladder carcinoma; in the corpus it is grouped with extrahepatic cholangioca
 - Review includes gallbladder cancer (GBC) in its scope of hepatobiliary malignancies affected by gut-liver axis dysregulation; bile acid metabolic reprogramming and gut microbiota changes described for the broader biliary tract cancer spectrum that encompasses GBC. [PMID:41018102](../papers/41018102.md)
 - MSK-IMPACT sequencing of 81 primary GBC tumors from three international centers (US, Chile, Japan) found [TP53](../genes/TP53.md) mutated in 58%, [SMAD4](../genes/SMAD4.md) in 31% (independently associated with worse [OS](../cancer_types/OS.md); HR 2.01, p=0.043), [ARID1A](../genes/ARID1A.md) in 25% (absent in Japanese patients), and [PIK3CA](../genes/PIK3CA.md) in 12% (absent in Japanese patients); 80% of tumors harbored ≥1 actionable alteration; dataset [gbc_msk_2018](../datasets/gbc_msk_2018.md) [PMID:30427539](../papers/30427539.md)
 - Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): GBC included among 25 principal tumor types profiled with the OrigiMed CSYS 450-gene panel; biliary-tract cancers collectively showed [ARID1A](../genes/ARID1A.md) truncating mutations and [KRAS](../genes/KRAS.md) GoF actionable targets [PMID:35871175](../papers/35871175.md)
+- Among 1,254 MSK-IMPACT-sequenced biliary tract cancers, 277 (22.1%) were gallbladder cancer, with higher median TMB (4.1 vs 2.6 mut/Mb) and more whole-genome doubling (32% vs 20.7%) than intrahepatic cholangiocarcinoma, and enrichment of KRAS G13D and ERBB2 alterations relative to IHCH [PMID:42360806](../papers/42360806.md).
 
 ## Subtypes
 
@@ -56,3 +57,6 @@ Gallbladder carcinoma; in the corpus it is grouped with extrahepatic cholangioca
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

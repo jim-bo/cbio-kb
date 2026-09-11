@@ -3,8 +3,8 @@ symbol: MET
 aliases: []
 cancer_types: [LUAD, NSCLC, ATC, EGC, HNSC]
 tags: [rtk, metastasis, resistance, amplification]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # MET
@@ -69,6 +69,8 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - MET focal amplifications mediated bypass resistance to [selpercatinib](../drugs/selpercatinib.md) in RET-fusion [NSCLC](../cancer_types/NSCLC.md); one patient with subclonal pre-treatment MET amplification re-responded to [selpercatinib](../drugs/selpercatinib.md) + [crizotinib](../drugs/crizotinib.md) combination, demonstrating MET-mediated bypass as an actionable mechanism [PMID:35304457](../papers/35304457.md).
 - MET catalogued as a pan-cancer fusion driver with multiple novel partner genes in the OncoMark pan-cancer dataset of ~8,900 Chinese solid-tumor patients [PMID:35871175](../papers/35871175.md)
 - Pten-loss combined with cMet overexpression activates AKT/mTOR and de novo lipogenesis in [HCC](../cancer_types/HCC.md) mouse models; [FASN](../genes/FASN.md) ablation only delays (does not prevent) tumor development in this context; loss of both FASN and [SREBF2](../genes/SREBF2.md) is required to fully abolish tumor growth [PMID:41118283](../papers/41118283.md)
+- Amplification (FACETS copy number >=6) found in ~0.7% of 50,748 pan-cancer tumors profiled by NGS, most frequent in papillary RCC (8.4%), high-grade glioma (5.3%) and pleomorphic/sarcomatoid NSCLC (8.5%); EGFR was the dominant driver of acquired MET amplification in NSCLC (89% of cases) [PMID:36044468](../papers/36044468.md).
+- Amplified in 1.5% of biliary tract cancers, a level 3B actionable target; MET amplification recurred at progression on HER2- and TRK-targeted therapy [PMID:42360806](../papers/42360806.md).
 
 ## Cancer types (linked)
 
@@ -189,13 +191,12 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 
 - [PMID:34534465](../papers/34534465.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35304457](../papers/35304457.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41118283](../papers/41118283.md)
+- [PMID:36044468](../papers/36044468.md)
+- [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

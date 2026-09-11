@@ -3,8 +3,8 @@ symbol: MSH6
 aliases: []
 cancer_types: [BRAIN, PRAD, PITU, GYNEC, UCEC, GB]
 tags: [mismatch-repair, MMR, MSI, hypermutation, immunotherapy, alkylator-resistance]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # MSH6
@@ -64,6 +64,8 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - MMR gene altered in 2.1% of sarcomas (n=7,494) alongside MLH1, MSH2, and [PMS2](../genes/PMS2.md), tightly correlated with MSI-H status [PMID:35705558](../papers/35705558.md)
 - MMR gene altered in sarcoma clinical sequencing cohort (n=2,138); collectively MLH1, MSH2, MSH6, [PMS2](../genes/PMS2.md) altered in sarcomas [PMID:35705560](../papers/35705560.md)
 - Accounts for 12 (48%) germline and 7 (18%) somatic MMR-mutant endometrial cancers; 83% of MSH6-germline ECs are MSS or MSI-indeterminate by MSIsensor, suggesting reduced sensitivity of molecular MSI assays for MSH6-driven Lynch syndrome [PMID:35849120](../papers/35849120.md)
+- Mechanism of mismatch repair deficiency in ERBB2-mutated endometrial cancer: Lynch germline mutations (n=4 of 21); one case had isolated MSH6 loss by IHC [PMID:39031567](../papers/39031567.md).
+- p.G162E (predicted driver) found in a hypermutated pheochromocytoma/paraganglioma from GENIE [PMID:40097403](../papers/40097403.md).
 
 ## Cancer types (linked)
 
@@ -135,22 +137,18 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 
 - [PMID:34493867](../papers/34493867.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34667026](../papers/34667026.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34819518](../papers/34819518.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35849120](../papers/35849120.md)
+- [PMID:39031567](../papers/39031567.md)
+- [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

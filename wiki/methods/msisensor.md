@@ -9,8 +9,8 @@ tags:
   - msi
   - msi-calling
   - targeted-sequencing
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # MSIsensor
@@ -46,6 +46,14 @@ MSIsensor is a computational tool for detecting microsatellite instability (MSI)
 - MSIsensor with threshold ≥10 used to classify MSI status in 2,138 sarcomas; only 5/1,893 evaluable samples were MSI-high, confirming MSI rarity in mesenchymal tumors [PMID:35705560](../papers/35705560.md)
 - MSIsensor (threshold ≥10 = MSI-H; 3–<10 = indeterminate; <3 = MSS) applied to 184 endometrial cancers; all MLH1ph and somatic MMR-D cases were MSI-H, but 83% of MSH6-germline and 31% of MLH1/PMS2/MSH2-germline cases scored MSS/indeterminate — revealing a sensitivity floor for Lynch syndrome EC [PMID:35849120](../papers/35849120.md)
 - Used for MSI status determination in aSCLC samples; confirmed one MSI-H case (A20) with somatic [MLH1](../genes/MLH1.md) homozygous deletion; applied alongside MiMSI as complementary MSI calling tool [PMID:39185963](../papers/39185963.md)
+- Used MSIsensor to call microsatellite instability status across 1015 colorectal cancer exomes [PMID:35487942](../papers/35487942.md).
+- Used MSIsensor to assess microsatellite status in a triple-negative breast cancer proteogenomic cohort [PMID:36001024](../papers/36001024.md).
+- Used MSIsensor to assess microsatellite instability in patient-derived xenografts of childhood solid cancers [PMID:37990009](../papers/37990009.md).
+- Used MSIsensor to define the MSI-high molecular subtype among ERBB2-mutant endometrial carcinomas [PMID:39031567](../papers/39031567.md).
+- Used MSIsensor to assess microsatellite instability status in upper tract urothelial carcinoma [PMID:39550333](../papers/39550333.md).
+- Used MSIsensor to characterize microsatellite instability in secondary rectal cancer after prostate radiotherapy [PMID:40100215](../papers/40100215.md).
+- Used MSIsensor to profile microsatellite instability alongside driver-alteration patterns in a pan-cancer cohort of ~50,000 tumors [PMID:41895280](../papers/41895280.md).
+- Used MSIsensor alongside MiMSI to call microsatellite instability in biliary tract cancer [PMID:42360806](../papers/42360806.md).
 
 ## Notes
 
@@ -130,3 +138,27 @@ MSIsensor is a computational tool for detecting microsatellite instability (MSI)
 - [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39031567](../papers/39031567.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39550333](../papers/39550333.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40100215](../papers/40100215.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

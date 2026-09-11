@@ -7,8 +7,8 @@ cancer_types:
 tags:
   - subclonal-mutation
   - IDC-private
-processed_by: crosslinker
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # EZR
@@ -20,6 +20,7 @@ EZR (Ezrin) encodes a membrane-cytoskeleton linker protein belonging to the ERM 
 ## Alterations observed in the corpus
 
 - Case-specific private mutation defining an individual IDC-NST subclone in Case 2 multifocal BRCA1-mutant synchronous DCIS/IDC-NST, identified by WES (n=25 patients, MSKCC) [PMID:32220886](../papers/32220886.md)
+- EZR is among the cancer-related genes found as non-canonical EWSR1 fusion partners in chromoplectic structural variants in Ewing sarcoma/DSRCT, though none of these rearrangements were expressed by RNA sequencing. [PMID:38335254](../papers/38335254.md)
 
 ## Cancer types (linked)
 
@@ -40,5 +41,6 @@ EZR (Ezrin) encodes a membrane-cytoskeleton linker protein belonging to the ERM 
 ## Sources
 
 - [PMID:32220886](../papers/32220886.md)
+- [PMID:38335254](../papers/38335254.md)
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

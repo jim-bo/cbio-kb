@@ -5,8 +5,8 @@ drug_class: mTOR inhibitor (rapalogue)
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, mtor-inhibitor]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # everolimus
@@ -39,6 +39,10 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 - [PIK3CA](../genes/PIK3CA.md) hotspot mutation enrichment in non-chondroid [metaplastic breast cancers (MBC)](../cancer_types/MBC.md) supports prior phase 1 data showing higher response rates to mTOR inhibition (everolimus or [temsirolimus](../drugs/temsirolimus.md)) combined with liposomal [doxorubicin](../drugs/doxorubicin.md) and [bevacizumab](../drugs/bevacizumab.md) in PI3K-pathway-altered advanced triple-negative [MBC](../cancer_types/MBC.md) [PMID:33863915](../papers/33863915.md).
 - Everolimus (mTOR inhibitor) was used in AcSé-ESMART platform arms E/F in MAPPYACTS to target PIK3CA/PIK3R1 alterations (n=23) and [PTEN](../genes/PTEN.md) losses (n=25) in pediatric recurrent malignancies; mTOR inhibitors received 123 recommendations across the cohort [PMID:35292802](../papers/35292802.md)
 - mTOR inhibitor; [TSC2](../genes/TSC2.md) loss-of-function in 4.9% of [LIHC](../cancer_types/LIHC.md) in Chinese pan-cancer cohort (n=10,194) provides Level 4 rationale for everolimus [PMID:35871175](../papers/35871175.md)
+- OS with nivolumab (16.4-25.2 months) in previously treated RCC patients is compared to the phase III nivolumab-vs-everolimus trial result (25.0 vs 19.6 months, HR 0.73, P=0.002) [PMID:27169994](../papers/27169994.md).
+- Nominated (with sirolimus/temsirolimus) as a matched mTOR inhibitor for the 3.1% (4/131) of solitary fibrous tumors carrying mTOR-pathway alterations (PIK3CA, NF2, NF1) [PMID:37980418](../papers/37980418.md).
+- One endometrial cancer patient and one cervical cancer patient with ERBB2 S310Y had partial responses to paclitaxel + trastuzumab + everolimus [PMID:39031567](../papers/39031567.md).
+- In ex vivo drug-sensitivity screening of MYOD1L122R-mutant SCSRMS PDX-derived cells, everolimus (mTOR inhibitor) showed IC50 4.4-9.6 uM across two PDX lines, weaker than AZD8055 or the dual PI3K/mTOR inhibitor samotolisib [PMID:41758938](../papers/41758938.md).
 
 ## Resistance mechanisms
 
@@ -103,3 +107,15 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:27169994](../papers/27169994.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37980418](../papers/37980418.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39031567](../papers/39031567.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41758938](../papers/41758938.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

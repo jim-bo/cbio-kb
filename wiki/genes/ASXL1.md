@@ -3,8 +3,8 @@ symbol: ASXL1
 aliases: []
 cancer_types: [CLLSLL]
 tags: [epigenetic, prognostic, u-cll]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # ASXL1
@@ -31,6 +31,8 @@ ASXL1 is an epigenetic regulator recurrently mutated at low frequency across mye
 - One of 15 canonical clonal hematopoiesis (CH) driver genes used to classify WBC-matched cfDNA variants in a multi-cancer liquid biopsy cohort; majority of cfDNA mutations in cancer patients and controls arose from CH [PMID:31768066](../papers/31768066.md)
 - ASXL1 clonal hematopoiesis significantly enriched in current/former smokers (OR=2.5, q=1x10^-4); stronger signal in current smokers (OR=3.1) vs. former (OR=2.4); identified across 9,437 cancer patients with MSK-IMPACT sequencing [PMID:33106634](../papers/33106634.md)
 - Elevated [PEAR1](../genes/PEAR1.md) expression observed in ASXL1-mutant AML, paralleling ASXL1's role in clonal hematopoiesis and potentially linking [PEAR1](../genes/PEAR1.md) biology to cardiovascular comorbidity in aging hematopoiesis (AML cell-state study, n=805) [PMID:35868306](../papers/35868306.md)
+- Reference point for a temporal-ordering model in MDS; 10 variants at previously uncharacterized residues (classified VUS) marked significantly worse leukemia-free survival than ASXL1-wild-type cases (P=0.03), tracking known oncogenic ASXL1 mutations [PMID:24030381](../papers/24030381.md)
+- Epigenetic modifier differentially enriched between HOXA and HOXB expression groups in a pediatric AML transcriptomic classification cohort [PMID:38212634](../papers/38212634.md)
 
 ## Cancer types (linked)
 
@@ -92,3 +94,9 @@ ASXL1 is an epigenetic regulator recurrently mutated at low frequency across mye
 - [PMID:35868306](../papers/35868306.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:24030381](../papers/24030381.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38212634](../papers/38212634.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [transcriptomics, microarray, gene-expression]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-09-10
 ---
 
 # Microarray gene expression profiling
@@ -22,6 +22,7 @@ Hybridization-based platform for simultaneous measurement of mRNA abundance acro
 - Agilent 44K expression microarray applied to 171 tumors from 63 men with metastatic CRPC; expression clustering grouped tumors by patient, revealing high intra-individual concordance for AR activity and cell-cycle progression (CCP) scores. Data deposited at GEO accession GSE74685. [PMID:26928463](../papers/26928463.md)
 - All 1,913 B-ALL cases profiled by microarray gene expression to identify the DUX4/ERG subtype cluster (141/1,913, 7.6%) as a distinct expression signature. [PMID:27776115](../papers/27776115.md)
 - HumanHT-12 Expression BeadChip (Illumina platform) applied to 118 CCA cases; transcript-level data contributed to the four-cluster integrative iCluster analysis and GSEA of PRC2-pathway dysregulation [PMID:28667006](../papers/28667006.md)
+- Used Affymetrix HG-U219 microarray gene expression profiling to assess immunomodulatory transcriptional changes with nivolumab in metastatic renal cell carcinoma [PMID:27169994](../papers/27169994.md).
 
 ## Notes
 
@@ -43,3 +44,6 @@ Hybridization-based platform for simultaneous measurement of mRNA abundance acro
 - [PMID:28667006](../papers/28667006.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:27169994](../papers/27169994.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

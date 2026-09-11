@@ -5,8 +5,8 @@ kind: MUTATION_EXTENDED
 canonical_source: corpus
 unverified: true
 tags: [telomere-length, wgs, computational]
-processed_by: crosslinker
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # TelomereHunter
@@ -18,6 +18,7 @@ TelomereHunter is a tool for estimating telomere content and length from whole-g
 ## Used by
 
 - Applied alongside TelSeq in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) to confirm telomere length differences across SCNA subtypes; LCINS [LUAD](../cancer_types/LUAD.md) tumours had significantly longer telomeres than LUAD-smoker tumours (P=7.1e-11) [PMID:34493867](../papers/34493867.md)
+- Used to measure telomere content and TERRA from whole-genome sequencing in a 94-tumor SDHB-mutant pheochromocytoma/paraganglioma cohort [PMID:40097403](../papers/40097403.md).
 
 ## Notes
 
@@ -28,3 +29,6 @@ TelomereHunter is a tool for estimating telomere content and length from whole-g
 ## Sources
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:40097403](../papers/40097403.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

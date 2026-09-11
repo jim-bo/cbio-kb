@@ -5,8 +5,8 @@ drug_class: anti-HER2 antibody-drug conjugate
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, adc, erbb2-inhibitor]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # trastuzumab-deruxtecan
@@ -23,6 +23,9 @@ Trastuzumab deruxtecan (T-DXd) is an anti-HER2 antibody-drug conjugate (ADC) com
 - HER2-positive CCA: basket phase II across 7 cohorts ORR 37.1% overall, 22.0% in 41 CCA patients; mPFS 4.6 mo, mOS 7.0 mo in CCA; risk of interstitial pneumonitis noted [PMID:41008893](../papers/41008893.md)
 - In a HER2 S310F [UTUC](../cancer_types/UTUC.md) PDX model (UCC14), [trastuzumab](../drugs/trastuzumab.md) deruxtecan (DS-8201a) strongly inhibited tumor growth (p<0.0001) and significantly outperformed [neratinib](../drugs/neratinib.md) (p<0.0001); authors conclude that ADCs should be prioritized over HER kinase inhibitors in HER2-mutant urothelial cancer [PMID:32332851](../papers/32332851.md)
 - Anti-HER2 ADC (T-DXd); [ERBB2](../genes/ERBB2.md) GoF mutations in 3% of [NSCLC](../cancer_types/NSCLC.md) in Chinese pan-cancer cohort (n=10,194) are actionable with trastuzumab deruxtecan per OncoKB [PMID:35871175](../papers/35871175.md)
+- Trastuzumab deruxtecan (T-DXd) is proposed as promising for ERBB2-mutated endometrial cancer because it is active in HER2-low/negative tumors across extracellular- and kinase-domain mutations; a 55% objective response rate is cited for T-DXd in ERBB2-mutant NSCLC. [PMID:39031567](../papers/39031567.md)
+- In BT-474 breast cancer cells, endogenous APOBEC3 activity conferred a selective growth advantage under trastuzumab deruxtecan exposure, similar to the advantage seen under lapatinib, neratinib and the AKT inhibitor MK2206. [PMID:40379787](../papers/40379787.md)
+- In a metastatic gallbladder cancer case with retained ERBB2 amplification (10-fold) and HER2 IHC 3+ after progression on zanidatamab, trastuzumab deruxtecan gave sustained tumor shrinkage ongoing at 16+ months. [PMID:42360806](../papers/42360806.md)
 
 ## Resistance mechanisms
 
@@ -50,3 +53,12 @@ Trastuzumab deruxtecan (T-DXd) is an anti-HER2 antibody-drug conjugate (ADC) com
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39031567](../papers/39031567.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40379787](../papers/40379787.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

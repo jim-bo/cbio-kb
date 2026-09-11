@@ -8,8 +8,8 @@ tags:
   - kinase
   - cell-cycle
   - therapeutic-target
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # CDK1
@@ -24,6 +24,7 @@ CDK1 (Cyclin-Dependent Kinase 1) is a master cell-cycle regulator that drives mi
 - Identified downstream of [TP53](../genes/TP53.md) / [CTNNB1](../genes/CTNNB1.md) / [ARID1A](../genes/ARID1A.md) mutations in trans in a multi-omic proteogenomic study of endometrial carcinoma (n=95 tumors) [PMID:32059776](../papers/32059776.md)
 - CDK1 kinase activity elevated in [ATRT](../cancer_types/ATRT.md), MB, HGG, and ependymoma in the CPTAC pediatric brain tumor proteogenomics study (n=218 samples); CDK1/CDK2 protein abundance are mutually exclusive within HGG, implying two distinct HGG signaling programs confirmed in an independent 23-patient HGG validation cohort [PMID:33242424](../papers/33242424.md)
 - Elevated kinase activity by KSEA in [HCC](../cancer_types/HCC.md) vs normal liver and in TP53-mutant HCCs; CDK1/2/5 highlighted as targetable kinases; CDK1/2/6 activity characterizes the poor-prognosis iCluster-3 subtype (n=51 phosphoproteome, [hcc_meric_2021](../datasets/hcc_meric_2021.md)) [PMID:35508466](../papers/35508466.md)
+- CDK1 target phosphosites were higher in pCR triple-negative breast tumors, and CDK1/2 activity was also elevated in LIG1-loss tumors and after treatment [PMID:36001024](../papers/36001024.md).
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ CDK1 (Cyclin-Dependent Kinase 1) is a master cell-cycle regulator that drives mi
 - [PMID:35508466](../papers/35508466.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [chemotherapy]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # irinotecan
@@ -29,6 +29,8 @@ Camptothecin-derivative topoisomerase I inhibitor; component of FOLFIRI/FOLFIRIN
 - In a 3D cell culture review, gelatin-foam glioblastoma tumoroids were resistant to irinotecan and fluorouracil but more sensitive to the hypoxia-activated agent tirapazamine, coincident with HIF-1α upregulation, illustrating how 3D hypoxic cores alter drug sensitivity rankings relative to monolayers [PMID:41103502](../papers/41103502.md).
 - Irinotecan-containing regimens (e.g., FOLFIRI) were used as systemic chemotherapy in the 140-patient systemic-chemotherapy-alone arm of a single-institution MSKCC retrospective study of 573 liver-limited [IHCH](../cancer_types/IHCH.md) patients (2000–2018); systemic chemotherapy alone produced median OS 11.2 months in N1 patients vs 18–20 months with locoregional treatment [PMID:33963001](../papers/33963001.md).
 - OncoMark hallmark-survival analysis (TCGA logistic regression) associated irinotecan with the Genome Instability and Mutation (GIM) and Inducing Angiogenesis (IA) hallmarks for overall survival [PMID:41057477](../papers/41057477.md)
+- Irinotecan chemotherapy increased non-canonical/fetal transcriptional module expression in patient-derived colorectal cancer organoids, raising the possibility that cytotoxic therapy promotes entry into therapy-evasive plastic cell states [PMID:39478232](../papers/39478232.md).
+- Combined with the dual PI3K/mTOR inhibitor samotolisib ± temozolomide in ex vivo and in vivo (PDX) testing against MYOD1L122R-mutant SCSRMS; the triple combination produced objective tumor regression, outperforming irinotecan/temozolomide chemotherapy alone (P=0.005) [PMID:41758938](../papers/41758938.md).
 
 ## Resistance mechanisms
 
@@ -67,3 +69,9 @@ Camptothecin-derivative topoisomerase I inhibitor; component of FOLFIRI/FOLFIRIN
 - [PMID:41057477](../papers/41057477.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:39478232](../papers/39478232.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41758938](../papers/41758938.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

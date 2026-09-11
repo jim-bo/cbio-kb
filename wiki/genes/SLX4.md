@@ -3,8 +3,8 @@ symbol: SLX4
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # SLX4
@@ -16,6 +16,7 @@ SLX4 (SLX4 structure-specific endonuclease subunit) is a scaffolding protein of 
 ## Alterations observed in the corpus
 
 - FA pathway member; homozygous deleterious events used as a DNA-repair-defect classifier in mCRPC; siRNA knockdown reduced proliferation in prostate cancer cell lines [PMID:26928463](../papers/26928463.md)
+- SLX4 was among the most frequently altered genes in solitary fibrous tumor, mutated in 17% (22/131) of the SYSUCC cohort [PMID:37980418](../papers/37980418.md)
 
 ## Cancer types (linked)
 
@@ -36,5 +37,6 @@ SLX4 (SLX4 structure-specific endonuclease subunit) is a scaffolding protein of 
 ## Sources
 
 - [PMID:26928463](../papers/26928463.md)
+- [PMID:37980418](../papers/37980418.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

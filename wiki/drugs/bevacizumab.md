@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [antiangiogenic]
 processed_by: wiki-cli
-processed_at: 2026-05-21
+processed_at: 2026-09-10
 ---
 
 # bevacizumab
@@ -32,6 +32,8 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 - In metastatic MSS CRC, fluorouracil + oxaliplatin ± bevacizumab was the standard first-line regimen; radiographic response and median OS were equivalent across early-onset (≤35, 36-49 years) and adult-onset cohorts at MSK (n=759 EO-CRC, n=687 AO-CRC) [PMID:34405229](../papers/34405229.md)
 - Bevacizumab maintenance was used heterogeneously in LGSOC patients in this MSK cohort (n=119); no maintenance regimen including bevacizumab reached statistical significance for PFS in either NED (p=0.11) or evidence-of-disease (p=0.17) groups [PMID:35443055](../papers/35443055.md)
 - Atezolizumab plus bevacizumab is a first-line standard-of-care regimen for advanced [HCC](../cancer_types/HCC.md), achieving a real-world ORR of 26–28%; lipid-metabolism reprogramming (enhanced DNL, FAO, cholesterol biosynthesis) is proposed as a primary driver of resistance to this combination [PMID:41118283](../papers/41118283.md).
+- Combined with atezolizumab (anti-VEGF + anti-PD-L1) in the IMmotion150 trial; the combination showed a favorable PFS trend over sunitinib in PD-L1+ metastatic RCC (HR 0.64) and outperformed atezolizumab monotherapy in TeffHigh/myeloid-inflammation-high tumors. [PMID:29867230](../papers/29867230.md)
+- In a neoadjuvant pembrolizumab glioblastoma trial, 24 of 27 patients who progressed went on to a bevacizumab-containing regimen post-progression; the authors describe its role in this setting as unclear. [PMID:30742122](../papers/30742122.md)
 
 ## Resistance mechanisms
 
@@ -63,3 +65,9 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 - [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*
+- [PMID:29867230](../papers/29867230.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:30742122](../papers/30742122.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

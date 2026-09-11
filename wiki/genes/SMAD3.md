@@ -3,8 +3,8 @@ symbol: SMAD3
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # SMAD3
@@ -17,6 +17,7 @@ SMAD3 is a transcriptional mediator of TGF-beta signaling. Upon TGF-beta recepto
 
 - Missense mutation in the SMAD3 transcriptional-regulation domain identified as a metastasis-private (branch evolution) event in patient 3 of a primary-metastasis matched CRC cohort; co-occurred with a metastasis-specific [SMAD4](../genes/SMAD4.md) event, suggesting convergent TGF-beta pathway disruption at the metastatic site [PMID:25164765](../papers/25164765.md)
 - TGF-β-axis alteration in pancreatic ductal adenocarcinoma, augmenting [SMAD4](../genes/SMAD4.md) loss as part of broader TGF-β pathway disruption (alongside [TGFBR1](../genes/TGFBR1.md), [TGFBR2](../genes/TGFBR2.md), [TGFB1](../genes/TGFB1.md), [ACVR1B](../genes/ACVR1B.md), [ACVR1C](../genes/ACVR1C.md), [SMAD6](../genes/SMAD6.md)). [PMID:25855536](../papers/25855536.md)
+- SMAD3 carries new TGF-beta-pathway hotspot mutations (12 new hotspots across SMAD2/SMAD3/SMAD4/TCF7L2, 87% in GI cancers, 212 tumors) [PMID:41895280](../papers/41895280.md)
 
 ## Cancer types (linked)
 
@@ -38,7 +39,7 @@ SMAD3 is a transcriptional mediator of TGF-beta signaling. Upon TGF-beta recepto
 
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
+- [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

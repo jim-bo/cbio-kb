@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CSCC]
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # NOTCH4
@@ -20,6 +20,8 @@ NOTCH4 is one of four mammalian NOTCH receptors, members of the evolutionarily c
 - Inactivating mutations (often in the extracellular domain) observed as part of pan-NOTCH inactivation in 25% of human [SCLC](../cancer_types/SCLC.md); mouse models confirm Notch activation suppresses [SCLC](../cancer_types/SCLC.md) initiation and prolongs survival. [PMID:26168399](../papers/26168399.md)
 - NOTCH4 was mutated in ATC as part of a finding that all four NOTCH family members (NOTCH1–NOTCH4) were mutated; part of low-frequency hits in a 341-gene panel sequencing study of thyroid cancers [PMID:26878173](../papers/26878173.md)
 - Lower-prevalence NOTCH-family mutations numerically enriched in R/M ACC; NOTCH4 enrichment OR 6.59 (P=0.067) vs. primary ACC [PMID:31483290](../papers/31483290.md).
+- In site-resolved colorectal cancer genomics, NOTCH4 (with RET) lies in the 10q11.21 amplicon that marks the CIN-HR (high chromosomal instability) subgroup [PMID:35487942](../papers/35487942.md).
+- In a MYOD1-driven tumor cohort, NOTCH4 was among genes with recurrent (5-15%) inactivating mutations or copy-number deletions, alongside MGA, CDKN2A, CHEK2, SMARCB1, ARID1A [PMID:41758938](../papers/41758938.md).
 
 ## Cancer types (linked)
 
@@ -41,16 +43,14 @@ NOTCH4 is one of four mammalian NOTCH receptors, members of the evolutionarily c
 
 - [PMID:25589618](../papers/25589618.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26168399](../papers/26168399.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:31483290](../papers/31483290.md)
+- [PMID:35487942](../papers/35487942.md)
+- [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

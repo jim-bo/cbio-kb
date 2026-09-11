@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wes]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Whole-exome sequencing (WES)
@@ -196,6 +196,18 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 97 rectal adenocarcinoma tumors for mutational-signature analysis alongside MSK-IMPACT panel sequencing in the 738-patient LARC cohort [PMID:35970919](../papers/35970919.md)
 - Applied at 150× depth to 13 CAC + 20 dysplasia samples and 13 paired normal mucosa; identified shared vs private alterations across multifocal lesions, confirmed no [TP53](../genes/TP53.md) in adjacent normal mucosa, and characterized cell-cycle CNA events as late carcinoma-specific events [PMID:36611031](../papers/36611031.md)
 - Cited as a core genomic profiling modality within CPTAC multi-omics studies; highlighted alongside WGS as the genomic layer integrated with proteome, phosphoproteome, acetylome, ubiquitinome, and methylation data [PMID:37119971](../papers/37119971.md)
+- Matched tumor/constitutional WES on 10 single-cell-derived colonies after whole-genome amplification, in a myelodysplastic syndrome clonal-evolution study [PMID:24030381](../papers/24030381.md)
+- Tumor/PBMC WES (Agilent SureSelect v5) for 208 renal cell carcinoma patients, with somatic calls from the union of LoFreq and Strelka [PMID:29867230](../papers/29867230.md)
+- Correlative WES (with RNA-seq, TCR/BCR-seq and mass cytometry) in a phase 2 trial of cyclophosphamide priming plus pembrolizumab in metastatic triple-negative breast cancer [PMID:35121644](../papers/35121644.md)
+- Paired tumor-normal WES (150bp Illumina NovaSeq, hg19) at median 219x tumor / 223x normal depth for somatic variant and TMB calling [PMID:35487942](../papers/35487942.md)
+- Confirmed KRAS/SMAD4/TP53 mutation frequencies were balanced across treatment arms in a randomized pancreatic cancer immunotherapy trial (PRINCE, NCT03214250) [PMID:35662283](../papers/35662283.md)
+- Paired tumor/normal WES at 100x for 59 baseline DNA samples in a triple-negative breast cancer proteogenomics study [PMID:36001024](../papers/36001024.md)
+- Part of a GenPipes DNA-Seq high-coverage pipeline (bwa-mem to GRCh37, GATK/Picard refinement) for somatic calling in a clear cell renal cell carcinoma cohort [PMID:36815791](../papers/36815791.md)
+- WES on paired and tumor-only pediatric solid-tumor patient-derived xenograft samples for multi-caller somatic variant calling [PMID:37990009](../papers/37990009.md)
+- Orthogonal WES validated 44.0% of RNA-seq-derived fusion/SNV/indel/CNV calls in 665 of 887 pediatric acute myeloid leukemia cases [PMID:38212634](../papers/38212634.md)
+- External validation cohort of 26 Ewing sarcoma patients profiled by WES (NCI_EwingSarcoma, dbGaP phs000804), with structural variants re-called by Delly v2 [PMID:38335254](../papers/38335254.md)
+- TCGA endometrial cancer cohort of 529 whole-exome-sequenced cases used as external validation for ERBB2 mutation frequency [PMID:39031567](../papers/39031567.md)
+- WES processed with the MSKCC TEMPO pipeline (FACETS, MSIsensor, OncoKB, mutational signatures) in a secondary rectal cancer cohort [PMID:40100215](../papers/40100215.md)
 
 ## Notes
 
@@ -699,3 +711,39 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:37119971](../papers/37119971.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:24030381](../papers/24030381.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:29867230](../papers/29867230.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:35121644](../papers/35121644.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:35662283](../papers/35662283.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36815791](../papers/36815791.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38212634](../papers/38212634.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38335254](../papers/38335254.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39031567](../papers/39031567.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40100215](../papers/40100215.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

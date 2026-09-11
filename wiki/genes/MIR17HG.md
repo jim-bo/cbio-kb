@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - RMS
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # MIR17HG
@@ -17,6 +17,7 @@ MIR17HG (miR-17-92 host gene, also known as C13orf25) encodes the miR-17~92 poly
 ## Alterations observed in the corpus
 
 - 13q31-32 amplification detected exclusively in fusion-positive (PFP) [ARMS](../cancer_types/ARMS.md) rhabdomyosarcoma (4.5% of PFP tumors); also recurrently SV-affected in the same subset, suggesting a PAX7-FOXO1-associated oncogenic role [PMID:24436047](../papers/24436047.md)
+- More often mutated in EBV-negative Burkitt lymphoma than EBV-positive Burkitt lymphoma [PMID:36201743](../papers/36201743.md).
 
 ## Cancer types (linked)
 
@@ -37,5 +38,6 @@ MIR17HG (miR-17-92 host gene, also known as C13orf25) encodes the miR-17~92 poly
 ## Sources
 
 - [PMID:24436047](../papers/24436047.md)
+- [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

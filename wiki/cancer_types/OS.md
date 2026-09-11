@@ -4,8 +4,8 @@ oncotree_code: OS
 main_type: Bone Cancer
 parent: BONE
 tags: [radiation-associated-sarcoma, bone-tumor]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 canonical_source: oncotree
 unverified: false
 ---
@@ -37,6 +37,7 @@ Osteosarcoma is a primary malignant bone tumor classified under [BONE](../cancer
 - Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
 - In a 7,494-sarcoma cohort, osteosarcoma showed 4q12 amplicon (KDR/PDGFRA/KIT) in 10.7%, [MYC](../genes/MYC.md) amplification in 15.0%, gLOH ≥19.3% in 30.6% (with only 1.7% HRD-gene alteration); P-AYA osteosarcoma had higher gLOH (16.8% vs 12.2%; FDR<0.001) and enrichment of CCND3/AURKB/CCNE1/GID4/MYC CNVs vs adult MDM2/CDKN2A/B/FRS2 [PMID:35705558](../papers/35705558.md).
 - In the 2,138-sarcoma MSK-IMPACT cohort (n=129 OS), WGD occurred in ~50% of osteosarcomas; epigenetic pathway altered in 32%; unsupervised clustering placed OS in high-entropy group (multiple distinct genetic variants per histotype); [NCOR1](../genes/NCOR1.md) amplified in ~12% via 17p12-p11.2 co-amplification [PMID:35705560](../papers/35705560.md).
+- In the same PDX cohort, osteosarcoma had the highest engraftment rate (67% vs. 48% in a prior orthotopic cohort), the highest somatic mutation rate (median 0.56 mutations/Mb) and the highest genomic instability score among profiled pediatric solid tumors; osteosarcoma and clear cell sarcoma together accounted for 78% of the 161 high-confidence fusions detected. [PMID:37990009](../papers/37990009.md)
 
 ## Subtypes
 
@@ -76,3 +77,6 @@ Osteosarcoma is a primary malignant bone tumor classified under [BONE](../cancer
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

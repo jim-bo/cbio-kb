@@ -3,8 +3,8 @@ symbol: STK11
 aliases: [LKB1]
 cancer_types: [STAD]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # STK11
@@ -34,6 +34,7 @@ STK11 (LKB1) encodes a serine/threonine kinase that acts as a tumor suppressor r
 - Enriched in pN+ [LUAD](../cancer_types/LUAD.md) tumors (22% vs 12%, p=0.024); entered multivariable selection for lymph node metastasis association but did not retain independence in the final model [PMID:34290393](../papers/34290393.md)
 - Among long-latency driver groups in LCINS (MRCA > a decade pre-diagnosis), representing an early genomic event in lung cancer development in never smokers [PMID:34493867](../papers/34493867.md)
 - NSCLC-typical STK11 mutations observed in [SCLC](../cancer_types/SCLC.md) PDX subsets MSK1053, MSK511c, and MSK773D/E/G/I, co-occurring with [SMARCA4](../genes/SMARCA4.md), [KEAP1](../genes/KEAP1.md), and [PTPRS](../genes/PTPRS.md) alterations in the MSK [SCLC](../cancer_types/SCLC.md) PDX/CDX cohort [PMID:35440124](../papers/35440124.md).
+- STK11 has new mutational hotspots found mainly in lung cancer that co-occur with new KEAP1 hotspots and vice versa [PMID:41895280](../papers/41895280.md)
 
 ## Cancer types (linked)
 
@@ -55,13 +56,10 @@ STK11 (LKB1) encodes a serine/threonine kinase that acts as a tumor suppressor r
 
 - [PMID:41097736](../papers/41097736.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25589618](../papers/25589618.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25855536](../papers/25855536.md)
 
 - [PMID:26878173](../papers/26878173.md)
@@ -76,28 +74,23 @@ STK11 (LKB1) encodes a serine/threonine kinase that acts as a tumor suppressor r
 
 - [PMID:29337640](../papers/29337640.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40857049](../papers/40857049.md)
 
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29657128](../papers/29657128.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32649874](../papers/32649874.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34290393](../papers/34290393.md)
 
 - [PMID:34493867](../papers/34493867.md)
 
 - [PMID:35440124](../papers/35440124.md)
+- [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

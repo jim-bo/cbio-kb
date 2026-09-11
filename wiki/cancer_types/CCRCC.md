@@ -10,8 +10,8 @@ tags:
   - immunotherapy
   - tki
   - tumor-microenvironment
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Renal Clear Cell Carcinoma (CCRCC)
@@ -42,6 +42,8 @@ Clear cell renal cell carcinoma (ccRCC) is the most common histologic subtype of
 - [PBRM1](../genes/PBRM1.md) loss-of-function was associated with clinical benefit from anti-PD-(L)1 therapy in metastatic CCRCC (9/11 CB vs 3/13 NCB, Fisher p=0.012; validated in 63-patient cohort, p=0.0071); PBRM1-LOF tumors showed upregulated JAK/STAT3 and hypoxia transcriptional programs [PMID:29301960](../papers/29301960.md)
 - MC3 pan-cancer mutation-calling project used [KIRC](../cancer_types/KIRC.md) (clear cell [RCC](../cancer_types/RCC.md)) as a benchmark: running MutSig2CV and MuSiC2 on PASS variants yielded 10 SMGs each ([TP53](../genes/TP53.md), [PTEN](../genes/PTEN.md), VHL, [SETD2](../genes/SETD2.md), [PBRM1](../genes/PBRM1.md), [BAP1](../genes/BAP1.md), [MTOR](../genes/MTOR.md), and others); the unfiltered controlled MAF inflated these to 1,203 and 321 respectively, demonstrating the critical importance of the MC3 filtering strategy [PMID:29596782](../papers/29596782.md)
 - Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
+- The IMmotion150 phase 2 trial in treatment-naive metastatic clear cell RCC (n=305) found VHL mutation (62%) and PBRM1 mutation (44%) tracked with a higher tumor angiogenesis expression signature; PBRM1-mutant tumors had better PFS on sunitinib (HR 0.38) but worse PFS on atezolizumab monotherapy versus sunitinib (HR 2.49) [PMID:29867230](../papers/29867230.md).
+- A 943-patient clear cell RCC targeted-panel study built a VHL co-mutation classifier (VHL plus 0 to 3+ of 11 other genes) that stratified 5-year disease-free survival from 90% (VHL alone) to 51-61% (VHL plus 3 or more genes), adding prognostic information beyond stage, grade, age, TMB and the Leibovich score to help select patients for adjuvant immunotherapy [PMID:36815791](../papers/36815791.md).
 
 ## Subtypes
 
@@ -60,6 +62,7 @@ Five harmonized immune tumor microenvironment (HiTME) subtypes were defined by d
 - MTOR-activating mutations and antigen presentation gene mutations may serve as molecular exclusion criteria for ICI therapy. [PMID:40834854](../papers/40834854.md)
 - ICI response model achieved ROC-AUC=0.77 (training) and ROC-AUC=0.78 (JAVELIN validation), outperforming all published single-biomarker signatures. [PMID:40834854](../papers/40834854.md)
 - TKI response model achieved ROC-AUC=0.74 on validation (n=822), outperforming JAVELIN Angio, IMmotion150 Angio, proliferation, and macrophage signatures. [PMID:40834854](../papers/40834854.md)
+- A phase 1b trial of nivolumab in metastatic clear cell renal cell carcinoma (n=91) found on-treatment tumor biopsies had increased CD3+/CD8+ T-cell infiltration and upregulated IFN-gamma-regulated chemokines CXCL9/CXCL10 in both tumor and serum, independent of dose; ORR was 15% (14/91) with no clear dose-response relationship [PMID:27169994](../papers/27169994.md).
 
 ## Sources
 
@@ -85,3 +88,12 @@ Five harmonized immune tumor microenvironment (HiTME) subtypes were defined by d
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:27169994](../papers/27169994.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:29867230](../papers/29867230.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36815791](../papers/36815791.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

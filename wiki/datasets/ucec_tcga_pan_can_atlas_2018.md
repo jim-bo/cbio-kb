@@ -18,8 +18,8 @@ tags:
   - TCGA
   - pan-cancer
   - pan-can-atlas
-processed_by: crosslinker
-processed_at: 2026-05-16
+processed_by: entity-page-writer
+processed_at: 2026-09-10
 ---
 
 # Uterine Corpus Endometrial Carcinoma (TCGA, PanCancer Atlas 2018)
@@ -47,6 +47,7 @@ The TCGA Uterine Corpus Endometrial Carcinoma PanCancer Atlas 2018 cohort is the
 - [PMID:29625048](../papers/29625048.md) — TCGA PanCancer Atlas integrative molecular analysis (Hoadley et al., 2018)
 - [PMID:29625049](../papers/29625049.md) — TCGA PanCancer Atlas pan-cancer driver and germline analysis (Ding et al., 2018)
 - [PMID:29625055](../papers/29625055.md) — TCGA Pan-Cancer Clinical Data Resource (Liu et al., 2018)
+- [PMID:39031567](../papers/39031567.md) — used 529 whole-exome-sequenced TCGA ECs as an external validation cohort, finding ERBB2 mutation prevalence of 15/529 (2.8%) (Brodeur et al., Mol Oncol 2024)
 
 ## Notable findings derived from this cohort
 
@@ -62,5 +63,6 @@ The TCGA Uterine Corpus Endometrial Carcinoma PanCancer Atlas 2018 cohort is the
 - [PMID:29625048](../papers/29625048.md)
 - [PMID:29625049](../papers/29625049.md)
 - [PMID:29625055](../papers/29625055.md)
+- [PMID:39031567](../papers/39031567.md)
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-09-10**.*

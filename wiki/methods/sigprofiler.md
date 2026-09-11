@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [mutational-signatures, bioinformatics, sbs]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # SigProfiler
@@ -21,6 +21,7 @@ SigProfiler is a suite of computational tools for mutational signature analysis.
 - Used for de novo mutational signature extraction in the pan-Asia cHCC-ICC cohort (133 cases, 173 WES tumors); identified three signatures matching COSMIC 22 (aristolochic acid, prevalent in 63.5%), COSMIC 5 (clock-like), and COSMIC 24 (aflatoxin B1, prevalent in 38.8%) [PMID:31130341](../papers/31130341.md)
 - Applied in the PCAWG pan-cancer WGS flagship study (n=2,658 tumors) to identify mutational signatures; APOBEC3B-like signatures dominated kataegis foci (81.7%), with a distinct alternative GpC/CpC deaminase signature in sarcomas [PMID:32025007](../papers/32025007.md).
 - Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the lung_nci_2022 cohort [PMID:34493867](../papers/34493867.md)
+- Called COSMIC v3.1 mutational signatures from whole-genome sequencing of 3 invasive lobular carcinoma cases [PMID:38347189](../papers/38347189.md).
 
 ## Notes
 
@@ -42,3 +43,6 @@ SigProfiler is a suite of computational tools for mutational signature analysis.
 - [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:38347189](../papers/38347189.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

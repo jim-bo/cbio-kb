@@ -14,8 +14,8 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # BRCA1
@@ -93,6 +93,9 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - Explicitly no pathogenic germline BRCA1 mutations identified in 119 LGSC cases, contrasting with the 3.5–5.7% reported in prior LGSC literature and 20% in HGSC ([lgsoc_mapk_msk_2022](../datasets/lgsoc_mapk_msk_2022.md)) [PMID:35443055](../papers/35443055.md)
 - Pathogenic alterations meeting PROfound criteria in 5/51 (9.8%) prostate cancer bone metastases; BRCA1/2 together are part of the 15 PROfound HRR genes evaluated for [olaparib](../drugs/olaparib.md) eligibility ([prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md)) [PMID:35504881](../papers/35504881.md)
 - BRCA1 is among the HR-pathway genes with pathogenic alterations in 2.5% (184/7,494) of sarcomas; biallelic losses most frequent in uterine [LMS](../cancer_types/LMS.md) (4.8%) and chordoma (5.3%); gLOH >=19.3% occurred in 15% of sarcomas largely independent of canonical HRD genes [PMID:35705558](../papers/35705558.md)
+- Pathogenic germline BRCA1 mutations were not associated with pathologic complete response in this TNBC neoadjuvant cohort [PMID:36001024](../papers/36001024.md).
+- BRCA1 was one of nine DDR panel genes profiled; only truncating alterations counted as deleterious, with results reported for the pooled DDR category rather than per gene [PMID:39499893](../papers/39499893.md).
+- BRCA1 was counted among selected level 3B actionable genes in this pan-biliary-tract cancer cohort; 2 of 4 BRCA1-mutant patients received matched therapy [PMID:42360806](../papers/42360806.md).
 
 ## Cancer types (linked)
 
@@ -304,3 +307,12 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39499893](../papers/39499893.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

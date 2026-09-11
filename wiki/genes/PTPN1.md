@@ -3,8 +3,8 @@ symbol: PTPN1
 aliases: [PTP1B]
 cancer_types: [CHL]
 tags: [chl-driver, early-event]
-processed_by: crosslinker
-processed_at: 2026-04-08
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # PTPN1
@@ -17,6 +17,7 @@ PTPN1 (PTP1B) is a tyrosine phosphatase and negative regulator of JAK/STAT signa
 
 - Mutated in 8% of classic Hodgkin lymphoma cases across 61 WGS/WES-profiled patients [PMID:36723991](../papers/36723991.md).
 - Evolutionary timing analysis placed PTPN1 driver mutations (together with [B2M](../genes/B2M.md), [BCL7A](../genes/BCL7A.md), [GNA13](../genes/GNA13.md)) before large chromosomal gains and whole-genome duplication, making it an early event in cHL pathogenesis [PMID:36723991](../papers/36723991.md).
+- PTPN1 was among the aSHM sites mutated in Burkitt lymphomas that fell within the DLBCL-A subgroup [PMID:36201743](../papers/36201743.md)
 
 ## Cancer types (linked)
 
@@ -37,5 +38,6 @@ PTPN1 (PTP1B) is a tyrosine phosphatase and negative regulator of JAK/STAT signa
 ## Sources
 
 - [PMID:36723991](../papers/36723991.md)
+- [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

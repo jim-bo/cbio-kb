@@ -3,8 +3,8 @@ symbol: FOXO1
 aliases: []
 cancer_types: [RMS, ARMS]
 tags: [fusion, pediatric]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # FOXO1
@@ -25,6 +25,7 @@ FOXO1 is a forkhead transcription factor whose PAX3/PAX7 fusions define alveolar
 - [PAX7](../genes/PAX7.md)–FOXO1 fusion detected in alveolar rhabdomyosarcoma ([ARMS](../cancer_types/ARMS.md)) by RNA-seq in the PIPseq pediatric cohort; fusion was diagnostic and high-risk-group prognostic despite repeatedly negative FOXO1 break-apart FISH, demonstrating the added value of RNA-seq over FISH alone [PMID:28007021](../papers/28007021.md).
 - PAX3-FOXO1 fusion present in all Fusion+ [ARMS](../cancer_types/ARMS.md) PDX models in the PPTC pediatric cancer PDX dataset; median patient age for Fusion+ models was 16y vs 5y for Fusion- [ERMS](../cancer_types/ERMS.md) [PMID:31693904](../papers/31693904.md)
 - FOXO1 is a known fusion partner in rhabdomyosarcoma; referenced in the context of pediatric solid tumor cWGTS profiling (n=114 patients) by MSK [PMID:35585047](../papers/35585047.md)
+- Hotspot mutations enriched in the DGG-BL molecular subgroup of Burkitt lymphoma, with a mutation pattern that differs by EBV status [PMID:36201743](../papers/36201743.md).
 
 ## Cancer types (linked)
 
@@ -47,22 +48,17 @@ FOXO1 is a forkhead transcription factor whose PAX3/PAX7 fusions define alveolar
 - [PMID:37315267](../papers/37315267.md)
 - [PMID:37730754](../papers/37730754.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:21796119](../papers/21796119.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
+- [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

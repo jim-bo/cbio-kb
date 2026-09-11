@@ -3,8 +3,8 @@ symbol: CHEK1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # CHEK1
@@ -20,6 +20,7 @@ CHEK1 (Checkpoint Kinase 1) is a central regulator of the DNA damage response (D
 - Upregulated in basal-like IntClust 10 as part of a chromosome 5q deletion-associated trans-acting mitotic network in the METABRIC breast cancer cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
 - Identified downstream of [TP53](../genes/TP53.md) / [CTNNB1](../genes/CTNNB1.md) / [ARID1A](../genes/ARID1A.md) mutations in trans in a proteogenomic study of endometrial carcinoma (n=95 tumors); PLK1-driven DDR and G2M-checkpoint progression context [PMID:32059776](../papers/32059776.md)
 - Part of the 15 PROfound HRR genes assessed in prostate cancer brain metastases (PCBM); 10/51 (19.6%) PCBM patients qualified by alteration in any PROfound HRR gene including CHEK1 [PMID:35504881](../papers/35504881.md)
+- CHEK1 sat in a GISTIC2 deletion peak in hepatoblastoma, alongside RAD51, FANCA, ATM and POLD1 [PMID:37990009](../papers/37990009.md).
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ CHEK1 (Checkpoint Kinase 1) is a central regulator of the DNA damage response (D
 - [PMID:35504881](../papers/35504881.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

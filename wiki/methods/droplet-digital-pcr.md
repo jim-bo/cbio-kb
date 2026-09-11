@@ -10,7 +10,7 @@ tags:
   - validation
   - subclonal
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # Droplet Digital PCR (ddPCR)
@@ -26,6 +26,7 @@ Droplet digital PCR (ddPCR) is an [absolute](../methods/absolute.md) quantificat
 - ddPCR on a QX200 system used to validate selected variants from a multi-site breast cancer autopsy case; confirmed mutual exclusivity of ESR1 Y537 and ERBB2 driver mutations across metastatic sites at ~0.03% sensitivity [PMID:30205045](../papers/30205045.md)
 - Used for orthogonal validation of PIK3CA hotspot mutations (H1047R/L/Y, E545K, E542K, C420R, N345K) across 90 plasma specimens in the breast_alpelisib_2020 ctDNA cohort [PMID:32864625](../papers/32864625.md)
 - Used for TP53 hotspot backtracking (C135S, V172F, R175H, R213P, R249S, L257Q, G266R) across 28 additional bone marrow time points in the neuroblastoma t-MDS/AL surveillance cohort [PMID:35078859](../papers/35078859.md)
+- Used to test CDH1 promoter methylation across two CpG islands (methylation frequency above 2.25 called positive) in hereditary diffuse gastric cancer FFPE cases [PMID:38347189](../papers/38347189.md)
 
 ## Notes
 
@@ -48,3 +49,6 @@ Droplet digital PCR (ddPCR) is an [absolute](../methods/absolute.md) quantificat
 - [PMID:35078859](../papers/35078859.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:38347189](../papers/38347189.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

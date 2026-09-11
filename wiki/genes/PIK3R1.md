@@ -3,8 +3,8 @@ symbol: PIK3R1
 aliases: []
 cancer_types: [ODG, DIFG, UCEC, GBM]
 tags: [pi3k-pathway]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # PIK3R1
@@ -52,6 +52,8 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - PIK3R1 events counted within the 23 combined PIK3CA/PIK3R1 alterations in the MAPPYACTS pediatric relapsed cohort (n=787); pathway matched to mTOR inhibitors in AcSé-ESMART arms E/F [PMID:35292802](../papers/35292802.md)
 - Driver alterations (mutations and fusions) in 3.6% of 1,417 prostate cancers; copy-number losses in 36% of metastases vs 24% of primaries; truncating mutations cluster in c-SH2 domain; loss activates AKT, drives glycolysis, and sensitizes to AKT inhibitors [PMID:35670774](../papers/35670774.md)
 - Among 5 primary-tumor mutations in EC patient CD36 (stage IIIA grade 1 endometrioid), all detected in baseline cfDNA by MSK-ACCESS ([ucec_ccr_cfdna_msk_2022](../datasets/ucec_ccr_cfdna_msk_2022.md)) [PMID:36007103](../papers/36007103.md)
+- PIK3R1 was a high-confidence significantly mutated gene in 4% of colorectal tumors in this cohort [PMID:35487942](../papers/35487942.md).
+- PIK3R1 deep deletion was maintained from primary tumor to metastasis in a longitudinally profiled APOBEC3-dominant HR+/HER2- breast cancer case (MSK-BR-WGS-05) [PMID:40379787](../papers/40379787.md).
 
 ## Cancer types (linked)
 
@@ -107,16 +109,14 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - [PMID:33863915](../papers/33863915.md)
 - [PMID:34819508](../papers/34819508.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34819518](../papers/34819518.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35670774](../papers/35670774.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36007103](../papers/36007103.md)
+- [PMID:35487942](../papers/35487942.md)
+- [PMID:40379787](../papers/40379787.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

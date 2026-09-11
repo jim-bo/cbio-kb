@@ -3,8 +3,8 @@ symbol: KDM6A
 aliases: [UTX]
 cancer_types: [BLCA, UTUC, MNG, PRAD]
 tags: [tumor-suppressor, chromatin, histone-demethylase, meningioma, prostate]
-processed_by: entity-page-writer
-processed_at: "2026-05-21"
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # KDM6A
@@ -54,6 +54,9 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - Mutated in 27% of WES UTUC cases (FDR=1.03×10⁻³); co-occurs with ZFP36L1 (LOR=3.1, P=0.03) in upper tract urothelial carcinoma. [PMID:33397444](../papers/33397444.md)
 - Mutations identified only in TERT-WT metaplastic breast cancers (not statistically significant after multiple-testing correction) in a 60-case multi-institutional cohort [PMID:33863915](../papers/33863915.md)
 - Structural deletion (DEL) detected by LINX/PURPLE SV analysis in the WGS cohort of 25 regional metastatic [CSCC](../cancer_types/CSCC.md) samples [PMID:35982973](../papers/35982973.md)
+- One of several epigenetic modifiers (with IDH1, IDH2, ASXL1, BCOR, PHF6) differentially enriched between HOXA and HOXB expression groups in pediatric AML [PMID:38212634](../papers/38212634.md).
+- KDM6A was altered in at least 10% of bladder cancer specimens (S1314 cohort), among the genes most frequently mutated after TERT promoter and TP53 [PMID:39499893](../papers/39499893.md).
+- KDM6A was altered in 23.2% of upper tract urothelial carcinomas in the MSK100 cohort, the fourth most frequently altered gene after FGFR3, TERT and KMT2D [PMID:39550333](../papers/39550333.md).
 
 ## Cancer types (linked)
 
@@ -149,5 +152,8 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - [PMID:33863915](../papers/33863915.md)
 
 - [PMID:35982973](../papers/35982973.md)
+- [PMID:38212634](../papers/38212634.md)
+- [PMID:39499893](../papers/39499893.md)
+- [PMID:39550333](../papers/39550333.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

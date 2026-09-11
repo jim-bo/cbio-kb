@@ -10,7 +10,7 @@ tags:
   - whole-exome-seq
   - whole-genome-seq
 processed_by: wiki-cli
-processed_at: 2026-05-21
+processed_at: 2026-09-10
 ---
 
 # MuTect
@@ -80,6 +80,15 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - Used in [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md) cWGTS pipeline for somatic SNV detection from whole-genome sequencing in 114 pediatric/AYA solid tumor patients (Illumina NovaSeq 6000, PE150, median 95× tumor depth) [PMID:35585047](../papers/35585047.md)
 - MuTect2 used for somatic variant calling on b37-aligned whole-exome and whole-genome sequencing data in the GLASS longitudinal diffuse glioma expansion cohort (304 patients, 37 hospitals) [PMID:35649412](../papers/35649412.md)
 - Used for SNV/InDel calling in the OrigiMed CSYS 450-gene NGS panel pipeline across 10,194 Chinese solid-tumor patients; identified 80,703 SNVs/InDels and 19,192 truncations from tumor + matched-blood pairs [PMID:35871175](../papers/35871175.md)
+- Mutect2 (GATK v4.1.4.0) called somatic variants from whole-exome sequencing of 26 metastatic TNBC patients, alongside Strelka2 and Cadabra [PMID:35121644](../papers/35121644.md).
+- Mutect2 was one of three callers (with TNscope and VarScan2) requiring ≥2-caller concordance for somatic SNV/indel calls in a colorectal cancer WES cohort [PMID:35487942](../papers/35487942.md).
+- MuTect2 (with Strelka2, CARNAC and Pindel) called somatic variants in a neoadjuvant TNBC chemotherapy cohort [PMID:36001024](../papers/36001024.md).
+- Mutect2 was part of the SLMS-3 ensemble caller (with Sage, LoFreq and Strelka2) for somatic SNVs in Burkitt lymphoma/DLBCL WGS [PMID:36201743](../papers/36201743.md).
+- MuTect called SNVs/indels from a 1021-gene targeted NGS panel in a solitary fibrous tumor cohort, annotated with ANNOVAR [PMID:37980418](../papers/37980418.md).
+- MuTect2 was one of four somatic callers (with VarScan, Strelka and Pindel) requiring multi-caller concordance in a gastric cancer PDX/patient-tumor comparison [PMID:37990009](../papers/37990009.md).
+- MuTect (with VarDict) called SNVs/indels from MSK-IMPACT hybridization-capture sequencing of EWSR1-rearranged round cell sarcomas [PMID:38335254](../papers/38335254.md).
+- MuTect v1.0 called SNVs from MSK-IMPACT and whole-genome sequencing in a breast invasive lobular carcinoma reanalysis [PMID:38347189](../papers/38347189.md).
+- Underpinned somatic variant calls from the MSK-IMPACT pipeline feeding an APOBEC mutagenesis and longitudinal analysis of a breast cancer clinicogenomic cohort [PMID:40379787](../papers/40379787.md).
 
 ## Notes
 
@@ -261,3 +270,30 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*
+- [PMID:35121644](../papers/35121644.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36201743](../papers/36201743.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37980418](../papers/37980418.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38335254](../papers/38335254.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38347189](../papers/38347189.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40379787](../papers/40379787.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -4,8 +4,8 @@ oncotree_code: BILIARY_TRACT
 main_type: Biliary Tract Cancer
 parent: TISSUE
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Biliary Tract (BILIARY_TRACT)
@@ -29,9 +29,13 @@ Biliary Tract (OncoTree: BILIARY_TRACT) is a level-1 OncoTree grouping encompass
 ## Therapeutic landscape
 
 - TRK inhibitors ([larotrectinib](../drugs/larotrectinib.md)) are active in TRK fusion-positive biliary tract cancers as part of the tumor-agnostic TRK-fusion indication [PMID:31871300](../papers/31871300.md)
+- A prospective MSK-IMPACT cohort of 1,254 biliary tract cancers (61% intrahepatic cholangiocarcinoma, 17% extrahepatic cholangiocarcinoma, 22% gallbladder cancer) found 59% of patients had at least one OncoKB-actionable alteration, and matched targeted therapy gave longer second-line PFS than chemotherapy (6.6 vs 3.3 months, P=.005) though no significant overall survival benefit [PMID:42360806](../papers/42360806.md).
 
 ## Sources
 
 - [PMID:31871300](../papers/31871300.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -4,8 +4,8 @@ oncotree_code: PRAD
 main_type: Prostate Cancer
 parent: PROSTATE
 tags: [prostate]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Prostate Adenocarcinoma (PRAD)
@@ -67,6 +67,10 @@ OncoTree code for prostate adenocarcinoma.
 - Prostate cancer brain metastases (PCBM) from 51 Swiss patients profiled by multi-region whole-exome sequencing (168 samples; [prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md)); PCBM showed elevated mutation burden vs matched primaries and non-brain mCRPC; 10/51 (19.6%) met PROfound HRR criteria, 5/51 (9.8%) had pathogenic BRCA1/2 alterations [PMID:35504881](../papers/35504881.md)
 - ATAC-seq + RNA-seq of 40 metastatic CRPC models (organoids, PDXs, cell lines) defined four chromatin subtypes: CRPC-AR, CRPC-NE, CRPC-WNT, and novel CRPC-SCL (AP-1/YAP/TAZ-driven, ~28% of 366 patients in SU2C/WCM cohorts); CRPC-SCL associated with shorter time on enzalutamide/abiraterone [PMID:35617398](../papers/35617398.md)
 - In 1,417 prostate cancers profiled by MSK-IMPACT, [PIK3R1](../genes/PIK3R1.md) was the second most altered PI3K-pathway gene after [PTEN](../genes/PTEN.md) in metastatic disease; driver alterations (3.6% overall) were enriched in mets vs primary (5.0% vs 2.7%, p=0.030), and copy-number loss in 36% vs 24% (p<0.001) [PMID:35670774](../papers/35670774.md).
+- In a pan-cancer TCGA analysis of the DNA-repair gene LIG1, heterozygous LIG1 loss was associated with worse progression-free survival in prostate adenocarcinoma (HR 2.07, P=0.02), one of five cancer types with a significant association. [PMID:36001024](../papers/36001024.md)
+- As a chromoplexy method-control cohort, 50 TMPRSS2::ERG-fused prostate adenocarcinomas showed non-canonical TMPRSS2 translocations/inversions in 17 (34%) of cases, reproducing a previously described chained-rearrangement pattern in prostate cancer. [PMID:38335254](../papers/38335254.md)
+- Among 64 men who developed secondary rectal adenocarcinoma at least 5 years after radiotherapy for prostate cancer (external beam and/or brachytherapy, median latency 11.5 years), the resulting tumors had lower APC inactivation, higher SMAD4 inactivation, lower TMB, and excess frameshift deletions attributed to radiation-induced double-strand-break misrepair, compared with primary rectal cancer. [PMID:40100215](../papers/40100215.md)
+- In the MSK-IMPACT pan-cancer driver analysis, CUL3 alterations, though rare overall (~0.05% of the cohort), were a canonical driver specifically in prostate adenocarcinoma (0.6% altered). [PMID:41895280](../papers/41895280.md)
 
 ## Subtypes
 
@@ -141,3 +145,15 @@ OncoTree code for prostate adenocarcinoma.
 - [PMID:35670774](../papers/35670774.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38335254](../papers/38335254.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40100215](../papers/40100215.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

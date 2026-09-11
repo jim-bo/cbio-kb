@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [copy-number, clonality, computational]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # FACETS
@@ -65,6 +65,14 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - FACETS used for copy-number and loss-of-heterozygosity analysis in 184 MSI-H/MMR-D endometrial cancers sequenced by MSK-IMPACT [PMID:35849120](../papers/35849120.md)
 - Used for copy-number analysis of 166 CAC tumors; demonstrated clonal [TP53](../genes/TP53.md) alterations in majority of CAC, subclonal TP53 in 14%, and identified WGD accumulation in carcinoma vs paired dysplasia; FACETS CN profiles allowed detection of oscillating copy-number patterns consistent with chromothripsis [PMID:36611031](../papers/36611031.md)
 - Used for copy-number calling in aSCLC WGS (100× tumor / 80× normal); FACETS hisens plots enabled manual detection of oscillating CNA patterns diagnostic of chromothripsis, achieving 100% specificity and 77% sensitivity vs WGS gold standard [PMID:39185963](../papers/39185963.md)
+- Re-analyzed 408 MSK-IMPACT cases with elevated MET copy-number-gain calls, using allele-specific integer copy number (gain 3-5, amplification >=6) and 7q segment length to judge focality, validated against MET FISH [PMID:36044468](../papers/36044468.md).
+- Used for allele-specific copy number and LOH calling in whole-genome sequencing of 3 CDH1-wild-type invasive lobular breast carcinomas [PMID:38347189](../papers/38347189.md).
+- Used for copy-number/LOH calling and cancer-cell-fraction clonality analysis from MSK-IMPACT sequencing of ERBB2-mutant and wild-type endometrial carcinomas [PMID:39031567](../papers/39031567.md).
+- Used for allele-specific copy-number estimation from MSK-IMPACT targeted sequencing of a colorectal cancer primary-metastasis trio cohort, cross-validated against single-cell InferCNV calls [PMID:39478232](../papers/39478232.md).
+- Used for allele-specific copy-number calling from MSK-IMPACT data to compute fraction of genome altered in radiation-associated secondary rectal cancers versus primary rectal cancer controls [PMID:40100215](../papers/40100215.md).
+- Used for copy-number calling from MSK-IMPACT targeted sequencing in a 3,880-sample breast cancer APOBEC3 mutational-signature study [PMID:40379787](../papers/40379787.md).
+- Used (v0.5.14, two-pass with QC/refit) for allele-specific copy number, purity, whole-genome doubling and fraction of genome altered across 54,331 MSK-IMPACT tumors, with clonality called from cancer cell fraction [PMID:41895280](../papers/41895280.md).
+- Used (facets-suite) for purity-corrected copy number and cancer cell fraction to call subclonal mutations in a 1,254-patient biliary tract cancer cohort [PMID:42360806](../papers/42360806.md).
 
 ## Notes
 
@@ -79,128 +87,54 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - [PMID:38758238](../papers/38758238.md)
 - [PMID:38949888](../papers/38949888.md)
 - [PMID:39753968](../papers/39753968.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36543146](../papers/36543146.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27442865](../papers/27442865.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28825054](../papers/28825054.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29033130](../papers/29033130.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29122777](../papers/29122777.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29420467](../papers/29420467.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29610475](../papers/29610475.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30068706](../papers/30068706.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30205045](../papers/30205045.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30675060](../papers/30675060.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30687805](../papers/30687805.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31263031](../papers/31263031.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31483290](../papers/31483290.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31564440](../papers/31564440.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32220886](../papers/32220886.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32220891](../papers/32220891.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32317181](../papers/32317181.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32730818](../papers/32730818.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32791233](../papers/32791233.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32864625](../papers/32864625.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33466343](../papers/33466343.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33509808](../papers/33509808.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33795256](../papers/33795256.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33863915](../papers/33863915.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34059130](../papers/34059130.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34145282](../papers/34145282.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34493867](../papers/34493867.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35120664](../papers/35120664.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35377946](../papers/35377946.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35235413](../papers/35235413.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35443055](../papers/35443055.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35670774](../papers/35670774.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35849120](../papers/35849120.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36611031](../papers/36611031.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39185963](../papers/39185963.md)
+- [PMID:36044468](../papers/36044468.md)
+- [PMID:38347189](../papers/38347189.md)
+- [PMID:39031567](../papers/39031567.md)
+- [PMID:39478232](../papers/39478232.md)
+- [PMID:40100215](../papers/40100215.md)
+- [PMID:40379787](../papers/40379787.md)
+- [PMID:41895280](../papers/41895280.md)
+- [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

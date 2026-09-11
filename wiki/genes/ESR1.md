@@ -3,8 +3,8 @@ symbol: ESR1
 aliases: [ER]
 cancer_types: [BRCA]
 tags: [endocrine-resistance, post-treatment-enrichment, breast-cancer, hormone-receptor]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # ESR1
@@ -42,6 +42,7 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 - ESR1 ranks among the high positive Δκ<sub>risk</sub> genes in a 45-patient [HGSOC](../cancer_types/HGSOC.md) ICI cohort analyzed by geometric network curvature on MSK-IMPACT copy-number data, identifying it as a putative network driver of ICI-modulated robustness. [PMID:34819508](../papers/34819508.md)
 - Mutations enriched in HR+/HER2- ductal breast (2% vs 19%, q<0.001), lobular breast (2% vs 13%, q<0.001), and endometrioid uterine (3% vs 10%, q=0.002) metastases; correlate with metastatic burden; enriched in HR+/HER2- ductal breast liver metastases (79% vs 58% organ-specific, q=0.003), attributed to aromatase-inhibitor selection pressure [PMID:35120664](../papers/35120664.md)
 - ESR1 mutations potentially predict anti-estrogen resistance in endometrial stromal sarcoma, analogous to their role in breast cancer; [RB1](../genes/RB1.md) deletion confers resistance to [palbociclib](../drugs/palbociclib.md) in sarcoma [PMID:35705558](../papers/35705558.md)
+- The APOBEC3-context E380Q mutation in ESR1 is strongly enriched in APOBEC3-dominant, post-treatment HR+/HER2- breast tumors (q=7.8e-12), while classic ligand-binding-domain hotspots L536X/Y537X/D538X are comparatively rare in these APOBEC3-dominant tumors. [PMID:40379787](../papers/40379787.md)
 
 ## Cancer types (linked)
 
@@ -114,5 +115,6 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 - [PMID:35120664](../papers/35120664.md)
 
 - [PMID:35705558](../papers/35705558.md)
+- [PMID:40379787](../papers/40379787.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

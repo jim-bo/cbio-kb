@@ -7,8 +7,8 @@ tags:
   - sarcoma
   - bone-cancer
   - pediatric
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Ewing Sarcoma (ES)
@@ -37,6 +37,7 @@ Ewing sarcoma is an aggressive small-round-cell sarcoma of bone and soft tissue,
 - Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
 - In a 7,494-sarcoma cohort, Ewing sarcoma was among the translocation-associated histologies; EWSR1-FLI1 fusions were characteristic; [TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), and [STAG2](../genes/STAG2.md) alterations carry prognostic weight [PMID:35705558](../papers/35705558.md).
 - In the 2,138-sarcoma MSK-IMPACT cohort (n=99 ES), 10% harbored [STAG2](../genes/STAG2.md) mutations co-occurring with [TP53](../genes/TP53.md) alterations; [DSRCT](../cancer_types/DSRCT.md) and ES had the lowest intra-subtype genomic entropy [PMID:35705560](../papers/35705560.md).
+- In 173 EWSR1-rearranged Ewing sarcomas (147 EWSR1::FLI1, 26 EWSR1::ERG) profiled by MSK-IMPACT, chromoplexy occurred in 31% of cases (42% for EWSR1::ERG vs 24% for EWSR1::FLI1, P=0.03), was significantly enriched among tumors metastatic at presentation (31% vs 10%, P=0.004), and chromosome 8 gain independently predicted worse OS in localized disease (P=0.034) [PMID:38335254](../papers/38335254.md).
 
 ## Subtypes
 
@@ -90,3 +91,6 @@ Ewing sarcoma is an aggressive small-round-cell sarcoma of bone and soft tissue,
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:38335254](../papers/38335254.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

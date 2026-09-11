@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CCRCC]
 tags: [transcription-factor, hypoxia, VHL-pathway]
 processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_at: 2026-09-10
 ---
 
 # HIF1A
@@ -18,6 +18,7 @@ HIF1A (Hypoxia-Inducible Factor 1-Alpha) encodes the alpha subunit of the HIF-1 
 - Frequently lost via 14q deletion in 45% of clear cell renal cell carcinoma (ccRCC) samples; predicted to drive aggressive disease through HIF pathway dysregulation [PMID:23792563](../papers/23792563.md)
 - In a mouse VHL-knockout model, HIF1A stabilization drives anti-survival effects in the renal papilla but is required for early proliferation in cortical/outer-medullary proximal tubule cells; HIF1A-specific upregulated targets are dominated by glycolytic genes [PMID:41102155](../papers/41102155.md)
 - Referenced among COSMIC hotspot mutation genes identified as potential drug targets across non-clear cell RCC; upregulated as a downstream target of the ACTG1-MITF fusion in pRCC [PMID:25401301](../papers/25401301.md)
+- Hypoxia regulator gene found within a GISTIC2 deletion peak in a pediatric solid tumor PDX cohort [PMID:37990009](../papers/37990009.md).
 
 ## Cancer types (linked)
 
@@ -41,7 +42,7 @@ HIF1A (Hypoxia-Inducible Factor 1-Alpha) encodes the alpha subunit of the HIF-1 
 - [PMID:23792563](../papers/23792563.md)
 - [PMID:41102155](../papers/41102155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:25401301](../papers/25401301.md)
+- [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -3,8 +3,8 @@ symbol: FAT1
 aliases: []
 cancer_types: [PTCL, THAP, CSCC]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # FAT1
@@ -35,6 +35,7 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 - FAT1 loss-of-function alterations found in 1.6% of 1,115 HR+/HER2- metastatic breast cancer patients profiled by MSK-IMPACT ([breast_ink4_msk_2021](../datasets/breast_ink4_msk_2021.md)); FAT1 loss drives [CDK6](../genes/CDK6.md) upregulation via Hippo-pathway derepression, conferring CDK4/6i resistance in an isogenic MCF7 FAT1CR CRISPR model. [PMID:34544752](../papers/34544752.md)
 - Mutated in 33% of MSI-H colorectal cancers (atypical-cadherin WNT-related mutations); part of a cluster of cadherin-family WNT-modulating genes altered in the MSI-H CRC subtype [PMID:34910928](../papers/34910928.md)
 - Mentioned as part of pan-cancer driver landscape in a pan-Asian solid-tumor cohort (450-gene panel, n=1,015 Chinese patients) [PMID:35871175](../papers/35871175.md)
+- FAT1 is among the most frequently altered genes in solitary fibrous tumor, mutated in 16% of the SYSUCC cohort. [PMID:37980418](../papers/37980418.md)
 
 ## Cancer types (linked)
 
@@ -60,55 +61,39 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 - [PMID:38412093](../papers/38412093.md)
 - [PMID:39091884](../papers/39091884.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39760648](../papers/39760648.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27646943](../papers/27646943.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28472509](../papers/28472509.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29422544](../papers/29422544.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30052636](../papers/30052636.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32404308](../papers/32404308.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33466343](../papers/33466343.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34544752](../papers/34544752.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34910928](../papers/34910928.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
+- [PMID:37980418](../papers/37980418.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

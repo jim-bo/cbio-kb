@@ -4,8 +4,8 @@ oncotree_code: READ
 main_type: Colorectal Cancer
 parent: COADREAD
 tags: [rectal, colorectal, immunotherapy]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Rectal Adenocarcinoma (READ)
@@ -42,6 +42,9 @@ No gene-level variant claims are made in the corpus for READ specifically; studi
 - Rectal adenocarcinoma (READ) was included in the MSK-IMPACT 4,561-patient CRC cohort; dual RAS/BRAF V600E driver mutations occurred in 1.03% of CRC; multiregional sequencing showed 2/7 discordant CRC-DD cases both involved MSI-H tumors [PMID:35235413](../papers/35235413.md)
 - MSK multi-cohort study of 738 rectal adenocarcinoma patients ([rectal_msk_2022](../datasets/rectal_msk_2022.md)): [APC](../genes/APC.md) altered in 81% of pMMR/MSS tumors with frequency decreasing toward anal verge (UR 92% / MR 90% / LR 77%, p<0.001); [KRAS](../genes/KRAS.md) mutations (42%) predict shorter DFS specifically in CRT-CNCT–treated LARC (p=0.004); ~8% of pMMR/MSS tumors are immune-hot (IG3) with checkpoint-target overexpression, nominating this subset for ICI trials [PMID:35970919](../papers/35970919.md)
 - In the colitis-associated cancer cohort (n=174), 31.3% of tumors arose from the rectum; rectal tumors shared the CAC-wide molecular profile of clonal [TP53](../genes/TP53.md) alteration, low [APC](../genes/APC.md), Wnt-independence, and functionally independent multifocal lesions; multifocal CACs across COAD/READ had no shared driver alterations [PMID:36611031](../papers/36611031.md)
+- In a 1,015-patient Chinese colorectal cancer cohort, rectal adenocarcinoma made up 28.2% (286/1,015) of cases; across the cohort, eight novel high-confidence significantly mutated genes (LYST, DAPK1, CR2, KIF16B, NPIPB15, SYTL2, ZNF91, KIAA0586) were identified beyond the known CRC drivers TP53, APC, KRAS, FBXW7 and CTNNB1. [PMID:35487942](../papers/35487942.md)
+- Among 843 primary rectal adenocarcinoma controls (604 men) compared with 64 men who developed secondary rectal cancer after prior prostate radiotherapy, secondary tumors presented at a later median age (78 vs. 55 years) and earlier stage, but had significantly worse 5-year disease-free survival (40.3% vs. 71.2%) and distant recurrence-free survival (60.8% vs. 89.8%) despite similar local recurrence-free survival. [PMID:40100215](../papers/40100215.md)
+- In the MSK-IMPACT pan-cancer driver analysis, rectal adenocarcinoma was a canonical context for PIK3CA alterations (14% altered), though PIK3CA mutations in colon and rectal cancer were more subclonal than in other canonical PIK3CA-driven cancers, consistent with treatment-associated emergence. [PMID:41895280](../papers/41895280.md)
 
 ## Subtypes
 
@@ -103,3 +106,12 @@ No molecular subtyping data from the corpus specific to READ yet.
 *This page was processed by **crosslinker** on **2026-05-21**.*
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40100215](../papers/40100215.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

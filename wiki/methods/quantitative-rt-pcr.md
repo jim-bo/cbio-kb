@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [pcr, transcriptomics, gene-expression, validation]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # Quantitative RT-PCR (qRT-PCR)
@@ -29,6 +29,9 @@ Reverse-transcription quantitative PCR for measuring mRNA expression levels. Use
 - RT-qPCR used to validate RNA-seq-derived NOL10 cell-cycle signature gene set (DLGAP5, MCM4, KIF20B, DIAPH3, SUV39H1, CENPE, GINS2, HMGB3, CDC6) and to measure NOL10 and USF1 expression changes after CRISPR perturbations and knockdown experiments across DU145, 22Rv1, LNCaP, and PC3 cells [PMID:41062477](../papers/41062477.md)
 - Used to confirm MAP3K1 shRNA knockdown efficiency (~70% mRNA reduction) in T47D cells before functional assessment of PI3K-inhibitor sensitization; knockdown abolished buparlisib-induced p-cJUN induction without affecting p-AKT suppression [PMID:31552290](../papers/31552290.md).
 - qRT-PCR normalized to GAPDH validated CGREF1 mRNA overexpression in 15/19 (78.9%) CRC paired tumor/normal specimens; confirmed TIMER 2.0 and GEPIA2 bioinformatic findings [PMID:41125935](../papers/41125935.md)
+- Validated mtDNA copy-number calls (from ExomeDepth) by D-loop/B2M qRT-PCR in a 1015-exome colorectal cancer cohort [PMID:35487942](../papers/35487942.md).
+- Validated the PRADA/STAR-Fusion-detected LRPAP1-PDGFRA fusion by RT-PCR in a pediatric solid-tumor PDX study [PMID:37990009](../papers/37990009.md).
+- Used TaqMan qRT-PCR (normalized to GAPDH) to validate AXIN2/CDH1 siRNA-knockdown effects in CDH1-intact invasive lobular breast carcinoma [PMID:38347189](../papers/38347189.md).
 
 ## Notes
 
@@ -71,3 +74,12 @@ Reverse-transcription quantitative PCR for measuring mRNA expression levels. Use
 - [PMID:41125935](../papers/41125935.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38347189](../papers/38347189.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

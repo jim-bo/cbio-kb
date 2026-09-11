@@ -4,8 +4,8 @@ oncotree_code: SEM
 main_type: Germ Cell Tumor
 parent: TESTIS
 tags: [germ-cell, testicular, seminoma]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Seminoma (SEM)
@@ -25,6 +25,7 @@ Seminoma is a histologically pure testicular germ cell tumor composed of primord
 - **[TP53](../genes/TP53.md)** — exclusively absent in seminoma in this cohort; none of the 4 primary mediastinal seminomas harbored TP53 mutations [PMID:27646943](../papers/27646943.md).
 - **12p gain** — present in 74% of discovery GCT tumors overall; characteristic of both seminoma and nonseminoma [PMID:27646943](../papers/27646943.md).
 - **Very low somatic mutation rate** — mean 0.9 mutations/Mb in the combined cohort [PMID:27646943](../papers/27646943.md).
+- In the pan-cancer LIG1 analysis, testicular germ cell tumors had only a marginal PFS association with LIG1 loss, and the carboplatin-sensitive seminoma subtype had no cases of LIG1 loss at all. [PMID:36001024](../papers/36001024.md)
 
 ## Subtypes
 
@@ -40,3 +41,6 @@ Seminoma is a histologically pure testicular germ cell tumor composed of primord
 - [PMID:27646943](../papers/27646943.md) — Bagrodia et al. 2016 (JCO). 54 seminomas in MSK GCT cohort; KIT mutations 29.6%, KRAS enriched; no TP53 alterations in seminoma consistent with cisplatin sensitivity.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [variant-calling, snv, indel, somatic, bioinformatics]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Strelka
@@ -33,6 +33,12 @@ Strelka (and its successor Strelka2) is a somatic small-variant caller for match
 - Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the [lung_nci_2022](../datasets/lung_nci_2022.md) cohort [PMID:34493867](../papers/34493867.md)
 - Used in [prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md) for somatic indel calling from WES of 168 prostate cancer brain metastasis samples alongside MuTect for SNVs [PMID:35504881](../papers/35504881.md)
 - Used for somatic variant calling in the [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md) cWGTS pipeline from whole-genome sequencing of 114 pediatric/AYA solid tumor patients (Illumina NovaSeq 6000, PE150) [PMID:35585047](../papers/35585047.md)
+- Used (unioned with LoFreq) for somatic variant calling from tumor/PBMC WES in the IMmotion150 phase 2 renal cell carcinoma trial (201 evaluable tumors) [PMID:29867230](../papers/29867230.md).
+- Used (Strelka2 v2.9.10) for somatic variant calling from whole-exome sequencing of 26 metastatic TNBC patients in a phase II pembrolizumab + cyclophosphamide trial [PMID:35121644](../papers/35121644.md).
+- Used (Strelka2) for somatic variant calling from paired tumor/normal whole-exome sequencing in a TNBC neoadjuvant chemotherapy proteogenomics cohort [PMID:36001024](../papers/36001024.md).
+- Part of the SLMS-3 ensemble somatic variant caller (with Sage, LoFreq, Mutect2) for whole-genome sequencing of Burkitt lymphoma and DLBCL genomes [PMID:36201743](../papers/36201743.md).
+- Used for somatic mutation calling (with MuTect2, VarScan, Pindel) across 68 pediatric solid tumor PDX models [PMID:37990009](../papers/37990009.md).
+- Used for indel calling (with VarScan2, Platypus, Scalpel) from whole-genome sequencing of 3 invasive lobular carcinoma cases [PMID:38347189](../papers/38347189.md).
 
 ## Notes
 
@@ -89,3 +95,21 @@ Strelka (and its successor Strelka2) is a somatic small-variant caller for match
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:29867230](../papers/29867230.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:35121644](../papers/35121644.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36201743](../papers/36201743.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38347189](../papers/38347189.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

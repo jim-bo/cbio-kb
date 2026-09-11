@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [structural-variant, wgs, bioinformatics, annotation]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # LINX (structural variant annotation tool)
@@ -18,6 +18,7 @@ LINX is an open-source structural variant (SV) annotation and interpretation too
 ## Used by
 
 - Used for structural variant annotation in WGS of 25 metastatic [CSCC](../cancer_types/CSCC.md) lymph node specimens; together with PURPLE, produced a catalogued SV gene list including [SMAD4](../genes/SMAD4.md) (DEL), [CDKN2A](../genes/CDKN2A.md) (DEL), [MYC](../genes/MYC.md) (GAIN), [PTPRD](../genes/PTPRD.md) (DEL/LOH), [CALR](../genes/CALR.md) (GAIN), [EGFR](../genes/EGFR.md) (GAIN), [APC](../genes/APC.md) (DEL), [CREBBP](../genes/CREBBP.md) (DEL), [RAF1](../genes/RAF1.md), [CCND1](../genes/CCND1.md), [FGF3](../genes/FGF3.md), [MCL1](../genes/MCL1.md), [KDM6A](../genes/KDM6A.md) (DEL), and others [PMID:35982973](../papers/35982973.md)
+- Used LINX for structural variant annotation and fusion detection in SDHB-deficient pheochromocytoma/paraganglioma genomes [PMID:40097403](../papers/40097403.md).
 
 ## Notes
 
@@ -30,3 +31,6 @@ LINX is an open-source structural variant (SV) annotation and interpretation too
 - [PMID:35982973](../papers/35982973.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:40097403](../papers/40097403.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

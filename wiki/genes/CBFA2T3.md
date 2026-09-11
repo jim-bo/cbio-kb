@@ -3,8 +3,8 @@ symbol: CBFA2T3
 aliases: []
 cancer_types: [AMKL]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # CBFA2T3
@@ -16,6 +16,7 @@ CBFA2T3 (Core-Binding Factor Subunit Alpha-2 Translocated To 3, also known as ET
 ## Alterations observed in the corpus
 
 - CBFA2T3-GLIS2 fusion in acute megakaryoblastic leukemia (AMKL); identified as a diagnostic marker and poor-prognosis indicator; supported recommendation for bone-marrow transplant in the PIPseq pediatric precision-oncology cohort (Table 3) [PMID:28007021](../papers/28007021.md)
+- CBFA2T3::GLIS2 was the primary GLIS-family rearrangement (28 of 887 cases) in pediatric AML and was associated with poor outcome [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ CBFA2T3 (Core-Binding Factor Subunit Alpha-2 Translocated To 3, also known as ET
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:38212634](../papers/38212634.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

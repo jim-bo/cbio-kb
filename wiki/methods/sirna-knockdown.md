@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [functional-assay, gene-silencing, rnai, cell-biology]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # siRNA Knockdown
@@ -20,6 +20,7 @@ siRNA (small interfering RNA) knockdown is an RNA interference (RNAi) technique 
 - Used to silence [ZFP36L1](../genes/ZFP36L1.md) in the TCCSUP bladder cancer cell line; knockdown caused loss of E-cadherin, EMT-consistent spindle-shaped morphology, and significantly increased migration on transwell assay with no effect on proliferation or apoptosis, supporting [ZFP36L1](../genes/ZFP36L1.md) as a tumor suppressor driving invasion in urothelial carcinoma [PMID:33397444](../papers/33397444.md)
 - siRNA double-knockdown of YAP/TAZ in CRPC-SCL models MSKPCa3 and DU145 significantly decreased cell growth (two-tailed unpaired t-test P < 0.0001) but not in CRPC-AR models MSKPCa2 and 22Rv1; also depleted [FOSL1](../genes/FOSL1.md) at RNA and protein levels [PMID:35617398](../papers/35617398.md)
 - siRNA knockdown of [PIK3R1](../genes/PIK3R1.md) in prostate cancer cell lines (LAPC4, 22RV1) and MDA-MB-231 TNBC cells demonstrated increased AKT S473 phosphorylation, elevated proliferation, reduced [AR](../genes/AR.md) target gene expression, [enzalutamide](../drugs/enzalutamide.md) resistance, and enhanced sensitivity to MK-2206 and [ipatasertib](../drugs/ipatasertib.md) [PMID:35670774](../papers/35670774.md)
+- Used transient siRNA silencing of AXIN2 and CDH1 in MCF7 cells to study invasive lobular carcinoma functional consequences [PMID:38347189](../papers/38347189.md).
 
 ## Notes
 
@@ -37,3 +38,6 @@ siRNA (small interfering RNA) knockdown is an RNA interference (RNAi) technique 
 - [PMID:35670774](../papers/35670774.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:38347189](../papers/38347189.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

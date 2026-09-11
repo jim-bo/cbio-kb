@@ -5,8 +5,8 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [sequencing]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Sanger Sequencing
@@ -64,6 +64,9 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Used to validate the [FGFR3](../genes/FGFR3.md)–[TACC3](../genes/TACC3.md) fusion (exon 17–exon 11 junction) detected in organoid line SCBO-10 and its matched parental bladder tumor [PMID:29625057](../papers/29625057.md).
 - Applied to 16 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) for targeted validation sequencing of [TERT](../genes/TERT.md) promoter hotspot, [TP53](../genes/TP53.md), and selected exons of [PIK3CA](../genes/PIK3CA.md), [HRAS](../genes/HRAS.md), and [BRAF](../genes/BRAF.md) where WES/IMPACT data were unavailable [PMID:33863915](../papers/33863915.md)
 - Sanger sequencing used for technical and biological validation of single-cell genotyping (SCG) calls in dual-driver CRC study [PMID:35235413](../papers/35235413.md).
+- Validated MTOR mutations across 277 solitary fibrous tumor specimens and confirmed IDH1 p.R132S in 7 SYSUCC cases [PMID:37980418](../papers/37980418.md).
+- Confirmed CRISPR-Cas9 AXIN2 knockout edits in MCF7 invasive lobular carcinoma functional models [PMID:38347189](../papers/38347189.md).
+- Used alongside MSK-IMPACT profiling to confirm MYOD1 mutation status in the MYOD1 L122R-mutant SCSRMS tumor and PDX cohort [PMID:41758938](../papers/41758938.md).
 
 ## Notes
 
@@ -211,3 +214,12 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - [PMID:35235413](../papers/35235413.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:37980418](../papers/37980418.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38347189](../papers/38347189.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41758938](../papers/41758938.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

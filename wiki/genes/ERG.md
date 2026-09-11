@@ -3,8 +3,8 @@ symbol: ERG
 aliases: []
 cancer_types: [PRAD]
 tags: [fusion, oncogene, prostate]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # ERG
@@ -40,6 +40,8 @@ ERG (ETS-Related Gene) is a transcription factor of the ETS family. In prostate 
 - [TMPRSS2](../genes/TMPRSS2.md):ERG fusions intentionally excluded from racial alteration-prevalence comparisons in an MSK-IMPACT prostate cancer cohort (n=2,069) due to suboptimal panel sensitivity for fusions; known to be more common in European-ancestry men. [PMID:34667026](../papers/34667026.md)
 - Fusions less frequent in [PRAD](../cancer_types/PRAD.md) bone metastases (30% primary vs 15% bone met, q=0.002; secondary analysis 29% vs 24%, q=0.04), indicating negative selection for ERG fusions at the bone metastatic site in prostate cancer [PMID:35120664](../papers/35120664.md)
 - [TMPRSS2](../genes/TMPRSS2.md)–ERG fusions detected by targeted RNA-seq in 13/51 (25%) prostate cancer brain metastases (PCBM), highly correlated with ERG IHC (r=0.70, P<2.2×10⁻¹⁶) [PMID:35504881](../papers/35504881.md)
+- ERG is the ETS-family fusion partner in a FUS::ERG rearrangement, one of 16 FET-ETS fusions identified in a pediatric AML molecular classification cohort. [PMID:38212634](../papers/38212634.md)
+- ERG is the fusion partner in EWSR1::ERG Ewing sarcoma (n=26, unbalanced fusion); chromoplexy occurred in 42% of these cases versus 24% for EWSR1::FLI1 (P=0.03), and ERG accounted for 7% of chromoplectic events; ERG is also the partner in TMPRSS2::ERG prostate cancer. [PMID:38335254](../papers/38335254.md)
 
 ## Cancer types (linked)
 
@@ -77,52 +79,38 @@ ERG (ETS-Related Gene) is a transcription factor of the ETS family. In prostate 
 
 - [PMID:26000489](../papers/26000489.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26855148](../papers/26855148.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26928463](../papers/26928463.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27776115](../papers/27776115.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41062477](../papers/41062477.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29610475](../papers/29610475.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29617662](../papers/29617662.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30537516](../papers/30537516.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31061129](../papers/31061129.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31564440](../papers/31564440.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32220886](../papers/32220886.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32317181](../papers/32317181.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34667026](../papers/34667026.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35120664](../papers/35120664.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
+- [PMID:38212634](../papers/38212634.md)
+- [PMID:38335254](../papers/38335254.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

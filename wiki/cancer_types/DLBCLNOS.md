@@ -4,8 +4,8 @@ oncotree_code: DLBCLNOS
 main_type: Mature B-Cell Neoplasms
 parent: BLL
 tags: [b-cell-lymphoma]
-processed_by: entity-page-writer
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Diffuse Large B-Cell Lymphoma NOS (DLBCLNOS)
@@ -39,6 +39,7 @@ Diffuse large B-cell lymphoma, not otherwise specified — the parent OncoTree c
 
 - [PCNSL](PCNSL.md) — primary CNS lymphoma, predominantly non-germinal-center [PMID:38995739](../papers/38995739.md).
 - Secondary CNS lymphoma (SCNSL) — systemic DLBCL with CNS involvement; 15 patients in the MSK [ibrutinib](../drugs/ibrutinib.md) cohort with 60% ORR (7 CR) [PMID:38995739](../papers/38995739.md).
+- In a joint Burkitt/DLBCL genomic classifier trained on whole-genome sequencing, 25 of 295 diffuse large B-cell lymphomas NOS (9%) clustered into Burkitt-lymphoma-like genetic subgroups and had shorter PFS than DLBCLs classified as DLBCL (P=.006), a finding replicated (P=.006) in an independent 470-patient DLBCL cohort [PMID:36201743](../papers/36201743.md).
 
 ## Therapeutic landscape
 
@@ -84,3 +85,6 @@ Diffuse large B-cell lymphoma, not otherwise specified — the parent OncoTree c
 - [PMID:35292802](../papers/35292802.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-21**.*
+- [PMID:36201743](../papers/36201743.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

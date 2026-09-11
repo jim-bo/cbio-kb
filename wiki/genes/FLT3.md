@@ -3,8 +3,8 @@ symbol: FLT3
 aliases: []
 cancer_types: [BLLKMT2A, THAP]
 tags: [kinase, signaling, sub-clonal]
-processed_by: entity-page-writer
-processed_at: "2026-05-21"
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # FLT3
@@ -28,6 +28,7 @@ FLT3 is a receptor tyrosine kinase whose activating mutations drive proliferatio
 - In 7/9 ponatinib-sensitive AML lines, alterations in FLT3 (alongside PDGFRA, FGFR1, or KIT) co-occur with high phospho-SHP2 (Y542); FLT3-ITD AML primagrafts with high pSHP2 showed extended survival on ponatinib in vivo [PMID:31068700](../papers/31068700.md).
 - FLT3 — identified as a late-progression driver acquired between clonal hematopoiesis and therapy-related myeloid neoplasm (tMN) diagnosis in cancer patients with CH [PMID:33106634](../papers/33106634.md)
 - FLT3-ITD detected via PCR amplicon sizing in the Beat AML cohort (n=942); confers sensitivity to sorafenib, but sensitivity is conditional — high Progenitor-like cell-state score predicts strongest sensitivity while high Monocyte-like score confers resistance in FLT3-ITD-positive [AML](../cancer_types/AML.md) [PMID:35868306](../papers/35868306.md)
+- FLT3 cooperating mutations (FLT3-ITD in 151 cases, FLT3-TKD in 53, FLT3-non-TKD in 29) were identified in a pediatric AML molecular classification cohort. [PMID:38212634](../papers/38212634.md)
 
 ## Cancer types (linked)
 
@@ -70,5 +71,6 @@ FLT3 is a receptor tyrosine kinase whose activating mutations drive proliferatio
 - [PMID:33106634](../papers/33106634.md)
 
 - [PMID:35868306](../papers/35868306.md)
+- [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

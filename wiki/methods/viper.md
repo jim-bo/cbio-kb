@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [master-regulator, transcription-factor, proteomics, bioinformatics]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # VIPER (Virtual Inference of Protein-activity by Enriched Regulon analysis)
@@ -19,6 +19,7 @@ VIPER infers the activity of transcription factors and other signaling proteins 
 
 - Applied to RNA-seq profiles of 28 metastatic neuroendocrine neoplasms ([pog570_bcgsc_2020](../datasets/pog570_bcgsc_2020.md)) to perform master-regulator inference; Cluster B NENs showed [MYC](../genes/MYC.md) family activation, and Cluster A showed relative inhibition of [MEN1](../genes/MEN1.md) and [DAXX](../genes/DAXX.md) compared with other clusters [PMID:40328872](../papers/40328872.md).
 - VIPER-style regulon analysis applied to 23 candidate transcription factor regulators in 408 BLCA RNA-seq samples; identified GATA3, FOXA1, PPARG as luminal drivers and TP63, EGFR as basal-squamous discriminators; validated in independent Sjödahl 308-sample cohort [PMID:28988769](../papers/28988769.md)
+- Used with ARACNe (metaVIPER) for protein-activity inference from snRNA-seq of MYOD1-mutant spindle cell/sclerosing rhabdomyosarcoma, identifying three conserved tumor cell states [PMID:41758938](../papers/41758938.md)
 
 ## Notes
 
@@ -32,3 +33,6 @@ VIPER infers the activity of transcription factors and other signaling proteins 
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:41758938](../papers/41758938.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

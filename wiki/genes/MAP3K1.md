@@ -3,8 +3,8 @@ symbol: MAP3K1
 aliases: [MEKK1]
 cancer_types: []
 tags: [mapk, sarcoma, clonal-evolution, intra-tumoral-heterogeneity]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # MAP3K1
@@ -28,6 +28,7 @@ MAP3K1 (Mitogen-Activated Protein Kinase Kinase Kinase 1, also MEKK1) is an upst
 - Loss-of-function mutations in luminal breast cancer ([BRCA](../cancer_types/BRCA.md)) associate with elevated phospho-RIPK3, suggesting a necroptosis-related signaling vulnerability; nominated as a therapeutic target axis. [PMID:33212010](../papers/33212010.md)
 - MAP3K1 mutations less frequent in HR+/HER2- ductal breast brain-metastasis patients vs. non-brain-metastasis (9% vs 3%, q=0.02) in the MSK-MET pan-cancer cohort (25,775 patients); proposed as surrogate for less-aggressive luminal A subtype [PMID:35120664](../papers/35120664.md)
 - Singleton/rare event in low-grade serous ovarian carcinoma ([LGSOC](../cancer_types/LGSOC.md), n=119); contributing to the broader MAPK pathway-altered group which is associated with improved [OS](../cancer_types/OS.md) in multivariate analysis [PMID:35443055](../papers/35443055.md).
+- Alterations numerically (though not significantly) higher in APOBEC3-dominant, treatment-resistant HR+/HER2- breast cancer samples [PMID:40379787](../papers/40379787.md).
 
 ## Cancer types (linked)
 
@@ -49,39 +50,29 @@ MAP3K1 (Mitogen-Activated Protein Kinase Kinase Kinase 1, also MEKK1) is an upst
 
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722202](../papers/22722202.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27161491](../papers/27161491.md)
 
 - [PMID:28027327](../papers/28027327.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31263031](../papers/31263031.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31552290](../papers/31552290.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33212010](../papers/33212010.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35120664](../papers/35120664.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35443055](../papers/35443055.md)
+- [PMID:40379787](../papers/40379787.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -5,7 +5,7 @@ main_type: Mature B-Cell Neoplasms
 parent: MBN
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-09-10
 ---
 
 # Burkitt Lymphoma (BL)
@@ -22,6 +22,7 @@ Burkitt lymphoma (BL) is a highly aggressive mature B-cell malignancy typically 
 
 - RHOA R5Q (attenuated-output loss-of-function) is recurrent in Burkitt lymphoma (BL) and diffuse-type gastric carcinoma; in yeast modelling it complements RHO1 loss and clusters morphologically near wild-type, indicating a modest perturbation relative to stronger GOF/LOF RHOA alleles [PMID:41002403](../papers/41002403.md).
 - A Burkitt lymphoma cell line (BJAB) was included in the six-cell-line genome-wide CRISPR screen (GeCKO v2, ~120k sgRNAs) alongside DLBCL lines to identify essential oncogenic dependencies across B-cell lymphoma types [PMID:28985567](../papers/28985567.md)
+- A whole-genome/RNA-seq study of 230 Burkitt lymphomas found MYC translocations in 93% of cases (79% to IGH), 57 significantly mutated genes, and three Burkitt-predominant genetic subgroups defined mainly by FOXO1/HNRNPU, ID3/CCND3, and TP53 mutations, with subgroup-outcome associations differing between pediatric and adult cases [PMID:36201743](../papers/36201743.md).
 
 ## Subtypes
 
@@ -39,3 +40,6 @@ Burkitt lymphoma (BL) is a highly aggressive mature B-cell malignancy typically 
 - [PMID:28985567](../papers/28985567.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:36201743](../papers/36201743.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

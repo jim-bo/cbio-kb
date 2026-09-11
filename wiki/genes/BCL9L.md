@@ -8,8 +8,8 @@ tags:
   - wnt-pathway
   - co-factor
   - driver
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # BCL9L
@@ -21,6 +21,7 @@ BCL9L encodes a WNT signaling co-factor that promotes beta-catenin-mediated tran
 ## Alterations observed in the corpus
 
 - Newly significant CRC driver; WNT co-factor; overexpression promotes intestinal tumor progression in mouse models (Brembeck et al. 2011); identified as significantly mutated in the DFCI CRC cohort (n=619) [PMID:27149842](../papers/27149842.md)
+- A high-confidence significantly mutated gene (HC-SMG) in ~5% of colorectal tumors in a large pan-colon sequencing cohort [PMID:35487942](../papers/35487942.md).
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ BCL9L encodes a WNT signaling co-factor that promotes beta-catenin-mediated tran
 - [PMID:27149842](../papers/27149842.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

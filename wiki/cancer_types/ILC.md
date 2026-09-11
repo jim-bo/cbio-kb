@@ -9,8 +9,8 @@ tags:
   - lobular
   - e-cadherin-loss
   - pi3k-akt
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Breast Invasive Lobular Carcinoma (ILC)
@@ -40,6 +40,9 @@ Breast Invasive Lobular Carcinoma (ILC) is the second most common histologic sub
 - In 1,918 prospectively sequenced breast tumors, ILC-specific alterations included TBX3 N297 hotspot exclusive to lobular carcinomas and FOXA1 Forkhead-domain hotspots on wing 2 (lobular-specific); CDH1 mutations were associated with ovarian metastasis, reflecting lobular predisposition to ovarian spread; dataset [breast_msk_2018](../datasets/breast_msk_2018.md) [PMID:30205045](../papers/30205045.md)
 - ILC included in 122-sample primary invasive [BRCA](../cancer_types/BRCA.md) cohort profiled by integrated multi-omics (WES, RNA-seq, proteomics, phosphoproteomics); NMF subtypes and ERBB2 protein heterogeneity findings apply across IDC/ILC histologies [PMID:33212010](../papers/33212010.md)
 - MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; ILC is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
+- Reanalysis of 364 MSK-IMPACT-sequenced primary invasive lobular carcinomas found 25 (6.9%) with no CDH1 inactivating genetic alteration; 10 of 16 evaluable cases had CDH1 promoter methylation and 3 had inactivating AXIN2 alterations instead [PMID:38347189](../papers/38347189.md).
+- Among 3,880 MSK-IMPACT breast cancers, invasive lobular carcinoma (n=489) was associated more frequently with a dominant APOBEC3 mutational signature than invasive ductal carcinoma, in both primary and metastatic samples [PMID:40379787](../papers/40379787.md).
+- In the MSK-50K cohort, no MSI-high tumors were observed among 606 invasive lobular carcinomas, despite an overall cohort MSI rate of 2.7% [PMID:41895280](../papers/41895280.md).
 
 ## Subtypes
 
@@ -71,3 +74,12 @@ Breast Invasive Lobular Carcinoma (ILC) is the second most common histologic sub
 - [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:38347189](../papers/38347189.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40379787](../papers/40379787.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

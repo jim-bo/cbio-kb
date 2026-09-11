@@ -4,8 +4,8 @@ oncotree_code: NBL
 main_type: Peripheral Nervous System
 parent: PNS
 tags: [pediatric, neuroblastoma, radiation, intra-tumoral-heterogeneity, mibg]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Neuroblastoma (NBL)
@@ -38,6 +38,7 @@ No corpus-specific gene-level variant frequencies are reported; the focus is on 
 - Primary disease context: 52 high-risk NBL patients at MSKCC were monitored with serial BM sequencing; only 1.05% of 657 pediatric solid-tumor patients had clonal hematopoiesis in myeloid genes (CH-PD), supporting longitudinal over single-timepoint surveillance for pediatric survivors [PMID:35078859](../papers/35078859.md)
 - Neuroblastoma (NBL) enrolled in MAPPYACTS showed highest cfDNA quantity among cancer types (median ctDNA fraction 35% vs 16% in others, P=1.4×10⁻⁸); [ALK](../genes/ALK.md) activating mutations (n=15) were investigational, MYCN/MYC amplifications (n=43 total across NBL/MBL) matched to BET inhibitors [PMID:35292802](../papers/35292802.md)
 - Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
+- In a 68-PDX pediatric solid tumor cohort, neuroblastoma models had the lowest engraftment rate (26%) and among the lowest genomic instability scores of the tumor types profiled. [PMID:37990009](../papers/37990009.md)
 
 ## Subtypes
 
@@ -83,3 +84,6 @@ High-risk NBL is the focus of KIDSROBIN; no further subtype stratification in th
 - [PMID:35585047](../papers/35585047.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

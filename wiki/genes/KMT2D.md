@@ -3,8 +3,8 @@ symbol: KMT2D
 aliases: []
 cancer_types: [CLLSLL, ANGS, MFH, CESC, PRAD, CSCC, HNSC, DLBCLNOS, BLCA]
 tags: [epigenetic-regulator, m-cll, cervical-cancer, prostate, BRAF-fusion-co-alteration]
-processed_by: entity-page-writer
-processed_at: "2026-05-21"
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # KMT2D
@@ -82,6 +82,10 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - KMT2D alterations were identified in the MSK [SCLC](../cancer_types/SCLC.md) PDX/CDX multi-omic profiling study as part of the broader genomic landscape characterization of [SCLC](../cancer_types/SCLC.md) xenograft models [PMID:35440124](../papers/35440124.md).
 - KMT2D (MLL4) is altered in 16% of myxofibrosarcoma ([MFS](../cancer_types/MFS.md)) versus 6% of undifferentiated pleomorphic sarcoma (UPS), suggesting a histotype-specific role despite their close molecular relationship in the MSK sarcoma clinical sequencing cohort ([sarcoma_mskcc_2022](../datasets/sarcoma_mskcc_2022.md), n=1,148) [PMID:35705560](../papers/35705560.md)
 - Listed among recurrently altered genes in a pan-cancer cohort of 10,194 Asian solid-tumor patients; associated with breast cancer ([BRCA](../cancer_types/BRCA.md)) in the pan-OrigiMed frequency landscape (OrigiMed CSYS 450-gene panel) [PMID:35871175](../papers/35871175.md)
+- KMT2D hotspot mutations, uncharacteristic of Burkitt lymphoma, drove DLBCL-like calls in a comparator Burkitt lymphoma cohort [PMID:36201743](../papers/36201743.md).
+- KMT2D was altered in 16% of solitary fibrous tumors profiled with a 1021-gene panel (SYSUCC discovery cohort) [PMID:37980418](../papers/37980418.md).
+- KMT2D was altered in at least 10% of bladder cancer specimens (S1314 cohort), among the most frequently altered genes after TERT promoter and TP53 [PMID:39499893](../papers/39499893.md).
+- KMT2D was the third most frequently altered gene (30.3%) in upper tract urothelial carcinoma (MSK100 cohort), after FGFR3 and TERT [PMID:39550333](../papers/39550333.md).
 
 ## Cancer types (linked)
 
@@ -236,5 +240,9 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - [PMID:35705560](../papers/35705560.md)
 
 - [PMID:35871175](../papers/35871175.md)
+- [PMID:36201743](../papers/36201743.md)
+- [PMID:37980418](../papers/37980418.md)
+- [PMID:39499893](../papers/39499893.md)
+- [PMID:39550333](../papers/39550333.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

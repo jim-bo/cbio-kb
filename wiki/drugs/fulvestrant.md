@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [endocrine-therapy, breast-cancer, serd]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # fulvestrant
@@ -27,6 +27,7 @@ Fulvestrant is a selective estrogen receptor degrader (SERD) that binds [ESR1](.
 - In an ESR1 Y537S-mutant LG-ESS patient on long-term aromatase inhibitor therapy, switching to fulvestrant produced tumor regression, demonstrating that acquired ESR1 ligand-binding domain mutations should prompt SERD therapy in endometrial stromal sarcoma [PMID:32299819](../papers/32299819.md)
 - Used in 55/58 (94.8%) HR+/HER2- metastatic breast cancer patients combined with a CDK4/6 inhibitor; ESR1 mutations (enriched in resistant tumors, 34.1% vs 16.7%) occurred exclusively in fulvestrant-treated patients in the sensitive subgroup [PMID:32404308](../papers/32404308.md).
 - Fulvestrant (SERD) is mentioned in the context of the SOLAR-1 phase III trial, where alpelisib + fulvestrant showed pervasive resistance despite PIK3CA selection; the NCT01870505 alpelisib + AI resistance data (PTEN loss, ESR1 mutations) provides genomic context for SOLAR-1 failures [PMID:32864625](../papers/32864625.md).
+- Fulvestrant-treated APOBEC3A-wild-type T47D cells acquired resistance significantly faster than catalytically-dead A3A-E72Q controls (P=1.44x10^-9), and APOBEC3B-wild-type MCF7 cells acquired fulvestrant resistance more often than A3B-E255Q controls (2/3 vs 0/3, P=9.13x10^-10) [PMID:40379787](../papers/40379787.md).
 
 ## Resistance mechanisms
 
@@ -62,3 +63,6 @@ Fulvestrant is a selective estrogen receptor degrader (SERD) that binds [ESR1](.
 - [PMID:32864625](../papers/32864625.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:40379787](../papers/40379787.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

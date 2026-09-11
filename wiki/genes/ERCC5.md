@@ -5,8 +5,8 @@ aliases:
 cancer_types:
   - PRAD
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # ERCC5
@@ -18,6 +18,8 @@ ERCC5 (excision repair cross-complementation group 5), also known as XPG, encode
 ## Alterations observed in the corpus
 
 - ERCC5 (DNA-repair gene) showed no significant alteration-prevalence difference by self-reported race (Black, White, or Asian) in an MSK-IMPACT prostate cancer cohort of 2,069 tumors, contrasting with a prior Project GENIE-based analysis by Mahal et al. (NEJM 2020); MSI prevalence and TMB also did not differ by race. [PMID:34667026](../papers/34667026.md)
+- ERCC5 mutations occur in 4% of solitary fibrous tumors and are associated with shorter PFS (p=0.0024) [PMID:37980418](../papers/37980418.md).
+- ERCC5 is one of seven additional DDR panel genes (with ATR, BRCA1, BRCA2, FANCC, RECQL4, RAD51C) assessed in bladder cancer, with only truncating alterations counted as deleterious and results reported as a pooled category [PMID:39499893](../papers/39499893.md).
 
 ## Cancer types (linked)
 
@@ -38,5 +40,7 @@ ERCC5 (excision repair cross-complementation group 5), also known as XPG, encode
 ## Sources
 
 - [PMID:34667026](../papers/34667026.md) — Differences in Prostate Cancer Genomes by Self-Reported Race: Contributions of Genetic Ancestry, Modifiable Cancer Risk Factors, and Clinical Factors.
+- [PMID:37980418](../papers/37980418.md)
+- [PMID:39499893](../papers/39499893.md)
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

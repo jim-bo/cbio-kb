@@ -11,7 +11,7 @@ tags:
   - pdac
   - first-line
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # nab-paclitaxel
@@ -27,6 +27,7 @@ Nab-paclitaxel (Abraxane; nanoparticle albumin-bound [paclitaxel](../drugs/pacli
 - Cited as an ongoing investigational concurrent regimen combined with SBRT in unresectable locally advanced [PAAD](../cancer_types/PAAD.md) (NCT02318095); no efficacy data available in this review [PMID:27826200](../papers/27826200.md)
 - Used in gemcitabine/nab-paclitaxel combination as an alternative first-line chemotherapy regimen in advanced cholangiocarcinoma; primary standard was gemcitabine/platinum [PMID:29848569](../papers/29848569.md)
 - In the FUTURE umbrella trial (arm C, IM-subtype TNBC), nab-paclitaxel combined with camrelizumab (anti-PD-1) achieved ITT ORR 52.6% in heavily pretreated refractory metastatic TNBC; also used in arm G (MES + PI3K-AKT mutation) with everolimus (ORR 50%, n=2) [PMID:32719455](../papers/32719455.md).
+- Backbone chemotherapy (with gemcitabine, 125 mg/m2 IV days 1/8/15 of a 28-day cycle) in the PRINCE trial testing addition of nivolumab and/or sotigalimab in first-line metastatic pancreatic ductal adenocarcinoma. [PMID:35662283](../papers/35662283.md)
 
 ## Resistance mechanisms
 
@@ -49,3 +50,6 @@ Nab-paclitaxel (Abraxane; nanoparticle albumin-bound [paclitaxel](../drugs/pacli
 - [PMID:32719455](../papers/32719455.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35662283](../papers/35662283.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

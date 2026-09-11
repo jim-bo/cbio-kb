@@ -9,8 +9,8 @@ tags:
   - somatic-mutation
   - bioinformatics
   - cancer-genomics
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # MutSigCV
@@ -28,6 +28,9 @@ MutSigCV is a statistical method for identifying significantly mutated genes (SM
 - Applied to 122 [HCC](../cancer_types/HCC.md) biopsies ([hcc_meric_2021](../datasets/hcc_meric_2021.md)) to identify significantly mutated genes: 7 SMGs identified including [GPAM](../genes/GPAM.md) (newly nominated), [CTNNB1](../genes/CTNNB1.md), [TP53](../genes/TP53.md), [ARID1A](../genes/ARID1A.md), [AXIN1](../genes/AXIN1.md), [CDKN1A](../genes/CDKN1A.md), and [ALB](../genes/ALB.md) [PMID:35508466](../papers/35508466.md)
 - MutSigCV 1.4 applied alongside MuSiC for recurrent somatic mutation discovery (significance threshold q<0.1) across 2,138 MSK-IMPACT sarcomas [PMID:35705560](../papers/35705560.md)
 - Part of three-tool consensus driver-calling pipeline applied to 25 metastatic [CSCC](../cancer_types/CSCC.md) WGS samples; called [TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), and [C9](../genes/C9.md) as significant coding drivers at p<0.005; also used in cross-cohort driver comparison against cBioPortal [CSCC](../cancer_types/CSCC.md) samples [PMID:35982973](../papers/35982973.md)
+- MutSig2CV was one of five driver-discovery tools run on nonhypermutated colorectal tumors, contributing to a 46-gene high-confidence significantly mutated gene set [PMID:35487942](../papers/35487942.md).
+- MutSig2CV was one of four tools (with dNdScv, HOTMAPS and OncodriveFML) used to call significantly mutated genes in Burkitt lymphoma/DLBCL [PMID:36201743](../papers/36201743.md).
+- Used for driver-gene analysis in a gastric/hepatoblastoma PDX cohort; CTNNB1 was one of only two genes it called significant (FDR<0.1) [PMID:37990009](../papers/37990009.md).
 
 ## Notes
 
@@ -56,3 +59,12 @@ MutSigCV is a statistical method for identifying significantly mutated genes (SM
 - [PMID:35982973](../papers/35982973.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36201743](../papers/36201743.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -5,8 +5,8 @@ drug_class: dual EGFR/HER2 tyrosine kinase inhibitor
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, tki, egfr, her2]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # lapatinib
@@ -25,6 +25,8 @@ Lapatinib (Tykerb) is an oral small-molecule reversible inhibitor of both [EGFR]
 - Candidate therapy for ERBB4-mutated (6.8%) and NRG1-mutated (7.1%) gastric adenocarcinoma ([STAD](../cancer_types/STAD.md)): dual TKI inhibits [ERBB4](../genes/ERBB4.md) and PI3K-AKT signaling; NRG1/ERBB4 mutations occur in 11.6% of GC (34/294), defining a candidate biomarker-selected population; in phase III trial NCT01264081 in ERBB4-mutated melanoma at time of publication [PMID:25583476](../papers/25583476.md)
 - NF1-null and ERBB2-mutant (L755S) HER2+ breast cancer cells are resistant to lapatinib (500 nM); [NF1](../genes/NF1.md) re-expression restores lapatinib sensitivity. MAPK-pathway alterations (NF1 loss 8%, [ERBB2](../genes/ERBB2.md) mutations 7%) correlate with shorter PFS (9.9 vs 21 months) on first-line anti-HER2 therapy in 145 patients. [PMID:34795269](../papers/34795269.md)
 - HER2/EGFR TKI; ERBB2 amplification in 24% of [BRCA](../cancer_types/BRCA.md) in Chinese pan-cancer cohort (n=10,194) actionable with lapatinib, [trastuzumab](../drugs/trastuzumab.md)+[pertuzumab](../drugs/pertuzumab.md), [neratinib](../drugs/neratinib.md), and [tucatinib](../drugs/tucatinib.md) [PMID:35871175](../papers/35871175.md)
+- ERBB2 V842I confers in vitro resistance to trastuzumab and lapatinib (neratinib data conflict), while R678Q is associated with sensitivity to trastuzumab, lapatinib and neratinib [PMID:39031567](../papers/39031567.md).
+- BT-474 cells with endogenous APOBEC3 activity acquired lapatinib resistance faster than APOBEC3A-knockout cells (P=6.78x10^-10) [PMID:40379787](../papers/40379787.md).
 
 ## Resistance mechanisms
 
@@ -52,3 +54,9 @@ Lapatinib (Tykerb) is an oral small-molecule reversible inhibitor of both [EGFR]
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39031567](../papers/39031567.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40379787](../papers/40379787.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

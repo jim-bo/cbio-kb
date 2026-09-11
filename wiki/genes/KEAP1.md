@@ -3,8 +3,8 @@ symbol: KEAP1
 aliases: []
 cancer_types: [LUAD, HNSC, NSCLC]
 tags: [co-mutation, metastasis]
-processed_by: entity-page-writer
-processed_at: "2026-05-21"
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # KEAP1
@@ -39,6 +39,7 @@ KEAP1 is a substrate adaptor for NRF2 ubiquitination; loss of function drives NR
 - KEAP1 mutations were detected in a subset of [SCLC](../cancer_types/SCLC.md) PDX models (MSK1053, MSK511c, MSK773D/E/G/I) along with [SMARCA4](../genes/SMARCA4.md) and [STK11](../genes/STK11.md), representing NSCLC-typical co-occurring mutations in a minority of [SCLC](../cancer_types/SCLC.md) xenograft models [PMID:35440124](../papers/35440124.md).
 - Mutated in ≥3 HCCs in a European multi-etiology proteogenomic cohort (n=122 tumors); classified as a non-SMG cancer gene; associated with poor overall survival independent of BCLC staging in multivariate Cox analysis [PMID:35508466](../papers/35508466.md).
 - Significantly lower mutation frequency in Asian [LUAD](../cancer_types/LUAD.md) patients vs MSK and TCGA cohorts (aOM vs MSK: one of only 12 tumor-type:gene pairs with FDR<0.05 difference); raises the open question of whether lower KEAP1 frequency in Chinese LUAD translates to differential sensitivity to checkpoint blockade [PMID:35871175](../papers/35871175.md)
+- New KEAP1 hotspots, found mainly in lung cancer, co-occur with STK11 driver hotspots and vice versa [PMID:41895280](../papers/41895280.md).
 
 ## Cancer types (linked)
 
@@ -104,5 +105,6 @@ KEAP1 is a substrate adaptor for NRF2 ubiquitination; loss of function drives NR
 - [PMID:35508466](../papers/35508466.md)
 
 - [PMID:35871175](../papers/35871175.md)
+- [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

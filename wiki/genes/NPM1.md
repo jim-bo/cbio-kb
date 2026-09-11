@@ -3,8 +3,8 @@ symbol: NPM1
 aliases: []
 cancer_types: [AML]
 tags: [AML-driver, co-mutation, epigenetic-subtype, intermediate-risk]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # NPM1
@@ -22,6 +22,7 @@ NPM1 (Nucleophosmin 1) is a multifunctional nucleocytoplasmic shuttling protein 
 - Phospho-NPM1 S70/S214 levels elevated in [PAAD](../cancer_types/PAAD.md) tumors harboring [CDKN2A](../genes/CDKN2A.md) deletions (altered in 48%), suggesting a downstream phosphoproteomic consequence of [CDKN2A](../genes/CDKN2A.md) loss [PMID:34534465](../papers/34534465.md).
 - NPM1 clonal hotspot mutation detected 36 months before therapy-related leukemia transformation in neuroblastoma patient 118725 (followed by [IDH1](../genes/IDH1.md) R132H acquisition 12 months later), demonstrating that serial bone marrow surveillance can detect pre-leukemic clones years before overt t-MDS/AL [PMID:35078859](../papers/35078859.md)
 - NPM1 4-bp insertion (detected via PCR) enriched for Promonocyte-like cell state in AML; NPM1-mutant cases show lower [PEAR1](../genes/PEAR1.md) expression; PIK-family inhibitor response in NPM1-mutant AML is conditional on cell-state context [PMID:35868306](../papers/35868306.md)
+- In a pediatric AML transcriptomic classification, NPM1 mutation or in-frame fusion defined 76 cases (7.6% of mutation-positive cases), with low GMP score and mid-high stemness score despite an otherwise favorable-prognosis expression pattern [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
@@ -50,10 +51,9 @@ NPM1 (Nucleophosmin 1) is a multifunctional nucleocytoplasmic shuttling protein 
 
 - [PMID:34534465](../papers/34534465.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35078859](../papers/35078859.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
+- [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -3,8 +3,8 @@ symbol: MYCN
 aliases: []
 cancer_types: [AST, DIFG, RMS, PRAD, NBL]
 tags: [oncogene, amplification, neuroendocrine, neuroblastoma, risk-stratification]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # MYCN
@@ -38,6 +38,7 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - Approximately 1% of retinoblastomas are driven by MYCN amplification without [RB1](../genes/RB1.md) loss-of-function; the RB1-only cfDNA assay does not cover this subset; incorporation of copy-number analysis flagged as future extension [PMID:32633890](../papers/32633890.md)
 - Amplified in 3/83 retinoblastoma specimens in [rbl_mskcc_2020](../datasets/rbl_mskcc_2020.md), all co-occurring with [RB1](../genes/RB1.md) mutation; also recurrently mutated (somatic) at ~3.6%; no MYCN-only (RB1-wildtype + MYCN-amplified) tumors observed in this enucleation cohort, contrasting with ~2% frequency reported elsewhere [PMID:33466343](../papers/33466343.md)
 - MYCN/MYC amplifications/fusions/activating mutations (n=43) recurrent in neuroblastoma (with 11q deletion and [ALK](../genes/ALK.md) co-occurrence) and medulloblastoma; matched to BET inhibitors in the MAPPYACTS pediatric precision-oncology cohort [PMID:35292802](../papers/35292802.md)
+- Hotspot p.Pro44Leu mutation found in a pheochromocytoma/paraganglioma tumor and as a truncal cfDNA variant in a temozolomide-treated patient [PMID:40097403](../papers/40097403.md).
 
 ## Cancer types (linked)
 
@@ -69,58 +70,41 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:34493726](../papers/34493726.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41063451](../papers/41063451.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40328872](../papers/40328872.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26168399](../papers/26168399.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26466568](../papers/26466568.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26855148](../papers/26855148.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27646943](../papers/27646943.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31852831](../papers/31852831.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32633890](../papers/32633890.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33466343](../papers/33466343.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
+- [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

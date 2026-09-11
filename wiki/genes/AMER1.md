@@ -3,8 +3,8 @@ symbol: AMER1
 aliases: [FAM123B, WTX]
 cancer_types: [COAD]
 tags: [tumor-suppressor, WNT-pathway, X-linked]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # AMER1
@@ -21,6 +21,8 @@ AMER1 (also known as FAM123B and WTX) is an X-linked negative regulator of the W
 - [CTNNB1](../genes/CTNNB1.md) mutations in Wilms tumor PDX models are mutually exclusive with AMER1/WTX alterations in the PPTC cohort [PMID:31693904](../papers/31693904.md)
 - AMER1 was included as a Wnt pathway gene in a multivariate prognostic model for MSS metastatic colorectal cancer. [PMID:32730818](../papers/32730818.md)
 - Co-occurs significantly with [KRAS](../genes/KRAS.md) and C-terminal [APC](../genes/APC.md) mutations in pMMR/MSS rectal tumors (LARC cohort, q<0.05); WNT-pathway context [PMID:35970919](../papers/35970919.md)
+- WNT-pathway HC-SMG mutated in 5% of colorectal tumors [PMID:35487942](../papers/35487942.md)
+- WNT gene depleted, along with APC, in BRAF Class I colorectal cancer [PMID:41895280](../papers/41895280.md)
 
 ## Cancer types (linked)
 
@@ -58,3 +60,9 @@ AMER1 (also known as FAM123B and WTX) is an X-linked negative regulator of the W
 - [PMID:35970919](../papers/35970919.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -11,7 +11,7 @@ tags:
   - parp-inhibitor
   - brca
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # veliparib
@@ -26,6 +26,7 @@ Veliparib is an oral PARP1/2 inhibitor investigated in clinical trials for BRCA-
 - One [PALB2](../genes/PALB2.md) germline-pathogenic variant patient in the cohort received durable PARPi benefit, expanding the actionable HRD context beyond BRCA1/2. [PMID:39753968](../papers/39753968.md)
 - Veliparib directly targets PARP1/PARP2; in BRCA1/2-wild-type mCRPC, resistance to PARP inhibitors (including veliparib) may be driven by high TRMT10A expression, which supports BRCA1 recruitment to DNA double-strand breaks via ATM-mediated Ser28 phosphorylation [PMID:41071892](../papers/41071892.md)
 - Veliparib + temozolomide efficacy across 28 GBM patient-derived xenografts from the Mayo PDX panel was limited to MGMT-methylated tumors; this preclinical biomarker-enrichment finding was cited as rationale for the Alliance clinical trial of veliparib in MGMT-methylated GBM [PMID:31852831](../papers/31852831.md).
+- In the BrighTNess trial (arms A+B, N=359), paclitaxel/carboplatin with or without veliparib followed by doxorubicin/cyclophosphamide served as a validation-cohort regimen for a LIG1-loss carboplatin-response biomarker analysis. [PMID:36001024](../papers/36001024.md)
 
 ## Resistance mechanisms
 
@@ -46,3 +47,6 @@ Veliparib is an oral PARP1/2 inhibitor investigated in clinical trials for BRCA-
 - [PMID:31852831](../papers/31852831.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

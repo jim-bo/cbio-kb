@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # CTCF
@@ -22,6 +22,7 @@ CTCF (CCCTC-Binding Factor) encodes an 11-zinc-finger transcriptional regulator 
 - CTCF mutations partition UCEC into TP53-PPP2R1A vs CTNNB1-PTEN-CTCF mutually-exclusive networks; CTCF-mutant tumors cluster with the ARID1A/PTEN/CTNNB1/PIK3CA-enriched, copy-number-low endometrial subtype [PMID:29625049](../papers/29625049.md)
 - CTCF binding sites (CBSs) are the site of recurrent non-coding SNV hotspots in gastric adenocarcinoma; 11 of 34 significant hotspots overlap CBSs, CBS hotspot mutations are enriched in 25% of gastric and 19% of colorectal tumors, and 71% occur in CIN-subtype tumors (Fisher P=0.012) [PMID:29670109](../papers/29670109.md)
 - CTCF H284 and Y226 hotspot mutations arise exclusively in invasive ductal carcinomas (histology-specific); enriched post-hormonal-therapy; associated with shorter PFS on aromatase inhibitors in HR+HER2- breast cancer [PMID:30205045](../papers/30205045.md)
+- CTCF binding motifs were enriched in the open chromatin of ATRX- or TERT-altered pheochromocytoma/paraganglioma tumor cells. [PMID:40097403](../papers/40097403.md)
 
 ## Cancer types (linked)
 
@@ -43,22 +44,17 @@ CTCF (CCCTC-Binding Factor) encodes an 11-zinc-finger transcriptional regulator 
 
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-09**.*
 - [PMID:25223734](../papers/25223734.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
 - [PMID:27149842](../papers/27149842.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29670109](../papers/29670109.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30205045](../papers/30205045.md)
+- [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

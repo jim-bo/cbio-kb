@@ -12,8 +12,8 @@ tags:
   - pancreatic-cancer
   - sarcoma
   - functional-precision-medicine
-processed_by: entity-page-writer
-processed_at: "2026-05-21"
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # olaparib
@@ -47,6 +47,7 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 - In a 45-patient [HGSOC](../cancer_types/HGSOC.md) cohort treated with ICIs, olaparib was part of combination ICI regimens studied alongside [durvalumab](../drugs/durvalumab.md); network curvature (Ollivier-Ricci) over CNA profiles outperformed TMB as an [OS](../cancer_types/OS.md) biomarker (log-rank p=0.00047 vs p=0.032) in this ICI-treated cohort. [PMID:34819508](../papers/34819508.md)
 - Olaparib (PARP inhibitor) received 64 treatment recommendations in MAPPYACTS for alterations in homologous recombination genes (BRCA1/2, ATM, MRE11A) in pediatric/young-adult recurrent malignancies; PARP inhibitor arms were explored in the AcSé-ESMART platform [PMID:35292802](../papers/35292802.md)
 - 10/51 (19.6%) prostate cancer brain metastasis (PCBM) patients met PROfound inclusion criteria (pathogenic HRR gene alterations) but were excluded from the PROfound olaparib trial; authors argue PCBM patients with HRR alterations could benefit from olaparib, citing prior data of PARPi CNS penetrance [PMID:35504881](../papers/35504881.md)
+- Matched to PARP-pathway gene alterations (6.9% of solitary fibrous tumors) as a candidate PARP inhibitor therapy alongside niraparib and rucaparib. [PMID:37980418](../papers/37980418.md)
 
 ## Resistance mechanisms
 
@@ -85,3 +86,6 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 - [PMID:35504881](../papers/35504881.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-21**.*
+- [PMID:37980418](../papers/37980418.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

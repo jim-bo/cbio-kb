@@ -3,8 +3,8 @@ symbol: PDGFRA
 aliases: []
 cancer_types: [AST, DIFG, GIST, ANGS, NBL]
 tags: [receptor-tyrosine-kinase, amplification, gist, mesenchymal-marker]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # PDGFRA
@@ -50,6 +50,7 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - Loss of PDGFRA amplification at recurrence (n=4) associates with increased non-neoplastic cell content and mesenchymal transition in IDHwt glioma [PMID:35649412](../papers/35649412.md)
 - KIT/PDGFRA co-amplified at 4q12 in osteosarcoma (10.7%), liposarcoma NOS (8.0%), and UPS/MFH (7.3%); PDGFRA D842V is an imatinib-resistance marker in [GIST](../cancer_types/GIST.md) [PMID:35705558](../papers/35705558.md)
 - PDGFRA mutated in 7% of [GIST](../cancer_types/GIST.md) samples (Level 1 actionable); mutually exclusive with [KIT](../genes/KIT.md); PDGFRA D842V and [KIT](../genes/KIT.md) exon 13 substitutions indicate [imatinib](../drugs/imatinib.md) resistance [PMID:35705560](../papers/35705560.md)
+- An LRPAP1-PDGFRA fusion retaining the kinase domain and driving high PDGFRA expression was found in glioblastoma and germ cell tumor PDX models, validated by RT-PCR [PMID:37990009](../papers/37990009.md).
 
 ## Cancer types (linked)
 
@@ -79,94 +80,65 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - [PMID:34493726](../papers/34493726.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40328872](../papers/40328872.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:39760648](../papers/39760648.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30061739](../papers/30061739.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:40830485](../papers/40830485.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26451490](../papers/26451490.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27442865](../papers/27442865.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28336552](../papers/28336552.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30675060](../papers/30675060.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31068700](../papers/31068700.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31263031](../papers/31263031.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31748746](../papers/31748746.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31852831](../papers/31852831.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33242424](../papers/33242424.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33509808](../papers/33509808.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33577785](../papers/33577785.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35649412](../papers/35649412.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
+- [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

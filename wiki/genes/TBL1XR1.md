@@ -7,7 +7,7 @@ tags:
   - wd40-domain
   - btk-inhibitor-biomarker
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # TBL1XR1
@@ -24,6 +24,7 @@ TBL1XR1 encodes a WD40-repeat protein that is part of the NCoR/SMRT corepressor 
 - Identified as a chromatin-function Mut-driver in breast cancer; part of the set of seven chromatin-function Mut-drivers mutated in 22.6% of all tumours in the 2,433-tumour METABRIC cohort [PMID:27161491](../papers/27161491.md).
 - Preferentially mutated in ABC DLBCL [PMID:28985567](../papers/28985567.md)
 - Recurrent in DLBCL genetic cluster C5 (ABC-like, MYD88/CD79B-enriched); clonal TBL1XR1 mutations observed alongside subclonal BTG1/ETV6; TBL1XR1/TP63 gene fusion identified in ~3% of cohort [PMID:29713087](../papers/29713087.md)
+- A TBL1XR1::RARB fusion was identified in one pediatric AML case, assigned by expression similarity to the canonical PML::RARA acute promyelocytic leukemia group [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
@@ -46,19 +47,15 @@ TBL1XR1 encodes a WD40-repeat protein that is part of the NCoR/SMRT corepressor 
 
 - [PMID:38995739](../papers/38995739.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25991819](../papers/25991819.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28985567](../papers/28985567.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
+- [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

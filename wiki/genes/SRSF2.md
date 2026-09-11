@@ -7,8 +7,8 @@ tags:
   - splicing-factor
   - mds-driver
   - megakaryocyte-dysplasia
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 canonical_source: cbioportal
 unverified: false
 ---
@@ -31,6 +31,7 @@ SRSF2 encodes a serine/arginine-rich splicing factor that regulates pre-mRNA spl
 - SRSF2 listed among the 15 canonical clonal hematopoiesis (CH) genes used to classify WBC-matched variants in cfDNA sequencing, helping distinguish CH from tumor-derived signal [PMID:31768066](../papers/31768066.md)
 - Spliceosome CH gene; strongly age-associated clonal hematopoiesis not enriched by therapy exposure; collectively among the strongest tMN risk predictors alongside [SF3B1](../genes/SF3B1.md) and [U2AF1](../genes/U2AF1.md); was not on the IMPACT-341 panel and so under-ascertained in earlier sub-cohorts [PMID:33106634](../papers/33106634.md)
 - In AML cell-state analysis (n=68), SRSF2 mutations are associated with elevated [PEAR1](../genes/PEAR1.md) expression and poor-prognosis genetic subsets; enriched in GATA2/MECOM co-mutated cases [PMID:35868306](../papers/35868306.md)
+- SRSF2 was mutated in 14% of this MDS cohort, an early splicing driver enriched in CMML, strongly co-mutated with IDH2 (OR 6.7), and mutually exclusive with SF3B1 and EZH2 [PMID:24030381](../papers/24030381.md)
 
 ## Cancer types (linked)
 
@@ -66,10 +67,9 @@ SRSF2 encodes a serine/arginine-rich splicing factor that regulates pre-mRNA spl
 
 - [PMID:31768066](../papers/31768066.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33106634](../papers/33106634.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
+- [PMID:24030381](../papers/24030381.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

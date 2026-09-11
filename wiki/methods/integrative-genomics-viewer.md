@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [visualization, variant-review, genomics, BAM, VCF]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # Integrative Genomics Viewer (IGV)
@@ -24,6 +24,7 @@ The Integrative Genomics Viewer (IGV) is a high-performance visualization tool d
 - Used to visually inspect sequencing alignments and verify CRISPR base-editing outcomes (T→A and A→T conversions at rs4519489) and allele-specific read distributions in the NOL10/USF1 prostate cancer study [PMID:41062477](../papers/41062477.md)
 - IGV used for visual review of variant calls from MSK-IMPACT sequencing of 127 advanced HCC tumors [PMID:30373752](../papers/30373752.md)
 - IGV used for manual structural variant review in CSF ctDNA and tumor tissue sequencing from 85 glioma patients; supported detection of EGFRvIII in-frame deletion and other structural rearrangements tracked through tumor evolution [PMID:30675060](../papers/30675060.md)
+- Used for manual review/confirmation of variant calls in a 943-patient clear cell RCC genomic cohort [PMID:36815791](../papers/36815791.md).
 
 ## Notes
 
@@ -34,24 +35,14 @@ The Integrative Genomics Viewer (IGV) is a high-performance visualization tool d
 
 ## Sources
 
+- [PMID:26878173](../papers/26878173.md)
+- [PMID:26928463](../papers/26928463.md)
+- [PMID:28481359](../papers/28481359.md)
+- [PMID:41062477](../papers/41062477.md)
+- [PMID:30373752](../papers/30373752.md)
+- [PMID:30675060](../papers/30675060.md)
+- [PMID:36815791](../papers/36815791.md)
+
 - [PMID:25583493](../papers/25583493.md) — Guda et al. 2015, WES of African American MSS CRC
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:26928463](../papers/26928463.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:28481359](../papers/28481359.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:41062477](../papers/41062477.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:30373752](../papers/30373752.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:30675060](../papers/30675060.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

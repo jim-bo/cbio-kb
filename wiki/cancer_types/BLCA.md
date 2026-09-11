@@ -4,8 +4,8 @@ oncotree_code: BLCA
 main_type: Bladder Cancer
 parent: BLADDER
 tags: [urothelial, fgfr3]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Bladder Urothelial Carcinoma (BLCA)
@@ -59,11 +59,14 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - MSK-ACCESS (129-gene cfDNA assay) prospectively profiled 617 patients; bladder cancer was among the top tumor types (part of the 28% NSCLC/PRAD/BLCA/PAAD/biliary group); OncoKB level 1 actionable alterations detected in 48% of BLCA samples — the highest rate among all tumor types; acquired [FGFR3](../genes/FGFR3.md) point mutations conferring FGFR-inhibitor resistance detected in BLCA patients with FGFR3-TACC3 fusions; [FGFR3](../genes/FGFR3.md) recurrently altered in bladder cancer [PMID:34145282](../papers/34145282.md).
 - MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; BLCA is among tumor types analyzed for [FGA](../genes/FGA.md), TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 - Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): BLCA included among 25 principal tumor types profiled with the OrigiMed CSYS 450-gene panel; [TP53](../genes/TP53.md) (58% pan-cohort), combined IO biomarker positivity (MSI-H/TMB-H/PD-L1+) evaluated across tumor types [PMID:35871175](../papers/35871175.md)
+- In SWOG S1314 (184 sequenced muscle-invasive bladder cancers), deleterious DNA-damage-repair gene alterations (23% of patients) and ERCC2 alterations specifically (15%) were associated with pathologic complete response to cisplatin-based neoadjuvant chemotherapy (OR 3.24 and 3.33), and RB1 was altered more often than in TCGA MIBC (26% vs 18%) [PMID:39499893](../papers/39499893.md).
+- In the MSK-50K pan-cancer cohort (54,331 tumors), PIK3CA mutations were canonical and mostly clonal in bladder cancer, and FGFR3 fusions, but not FGFR3 hotspot mutations, were associated with earlier age at diagnosis in bladder cancer [PMID:41895280](../papers/41895280.md).
 
 ## Subtypes
 
 - NMIBC vs MIBC disease states show markedly different [FGFR3](../genes/FGFR3.md) alteration frequencies (39% vs 14%), supporting distinct molecular biology ([PMID:37682528](../papers/37682528.md)).
 - FGFR3-fusion tumors carry lower TMB than FGFR3-mutant tumors (median 5 vs 9 mut/Mb, p=0.0006) ([PMID:37682528](../papers/37682528.md)).
+- RNA-seq clustering of 100 upper-tract urothelial carcinomas identified five expression subtypes with distinct clinical outcomes; the standard MIBC consensus classifier labeled 89% of upper-tract tumors luminal-papillary but did not predict recurrence, and the immune-inflamed high-risk clusters showed the best immune checkpoint blockade responses [PMID:39550333](../papers/39550333.md).
 
 ## Therapeutic landscape
 
@@ -73,6 +76,8 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - ctDNA detection (MSK-ACCESS) was associated with higher VTE risk in BLCA patients, though the association was not significant for BLCA specifically [PMID:39147831](../papers/39147831.md).
 - [enfortumab-vedotin](../drugs/enfortumab-vedotin.md) and next-generation FGFR3-selective inhibitors (e.g., TYRA300, LOXO435) cited as alternative options given [erdafitinib](../drugs/erdafitinib.md)'s modest durability ([PMID:37682528](../papers/37682528.md)).
 - ROBIN GenRad center (U54 CA274513; Cleveland Clinic and Emory University) RAD-SG trial (NCT05833867) evaluates RT + [sacituzumab-govitecan](../drugs/sacituzumab-govitecan.md) for bladder preservation in locally advanced muscle-invasive BLCA (MIBC); preliminary results show feasibility with only grade-1 toxicities. Flow cytometry-based immune profiling demonstrates extensive myeloid-lineage accumulation during RT+ADC treatment, with distinct profiles from ICI-treated patients. Comprehensive genomics, serum proteomics, imaging, and ctDNA analyses are underway. [PMID:41941260](../papers/41941260.md)
+- In the IMvigor210 phase 2 trial of first-line atezolizumab in cisplatin-ineligible metastatic urothelial carcinoma (n=119), ORR was 23% (27/119); higher tumor mutation load was associated with response (Wilcoxon P=0.018) and with longer OS in the top TML quartile (log-rank P=0.0041), while PD-L1 immune-cell status did not significantly enrich response [PMID:27939400](../papers/27939400.md).
+- Final analysis of IMvigor210 (median follow-up 96 months in cohort 1) confirmed durable atezolizumab responses in metastatic urothelial carcinoma, with cohort 1 ORR 23.5% and 5-year OS 21.6%, and found that higher PD-L1 immune-cell expression tracked with better long-term landmark OS despite no clear PD-L1 gradient in early follow-up [PMID:39642637](../papers/39642637.md).
 
 ## Sources
 
@@ -141,3 +146,18 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:27939400](../papers/27939400.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39642637](../papers/39642637.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39499893](../papers/39499893.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39550333](../papers/39550333.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

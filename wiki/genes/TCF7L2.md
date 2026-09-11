@@ -9,8 +9,8 @@ tags:
   - wnt-pathway
   - transcription-factor
   - colorectal-cancer
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # TCF7L2
@@ -28,6 +28,8 @@ TCF7L2 (Transcription Factor 7 Like 2, also known as [TCF4](../genes/TCF4.md)) e
 - Mutated in 53% of MSI-H CRCs in the COLON MAP/HTAN colorectal polyp atlas; identifies a WNT-pathway activation mechanism in MSI-H CRCs distinct from [APC](../genes/APC.md) truncation [PMID:34910928](../papers/34910928.md)
 - TCF7L2 and [CTNNB1](../genes/CTNNB1.md) were enriched in FAT10 signaling among metastatic-clonal genes in prostate cancer brain metastases (PCBM), implicating WNT pathway activation in brain-tropism [PMID:35504881](../papers/35504881.md)
 - TCF7L2 is a top transcription factor in CRPC-WNT subtype alongside [LEF1](../genes/LEF1.md), [TCF7](../genes/TCF7.md), and [TCF7L1](../genes/TCF7L1.md); [CTNNB1](../genes/CTNNB1.md) hotspot mutations found in 3/4 CRPC-WNT models, underscoring TCF7L2-mediated WNT transcriptional output [PMID:35617398](../papers/35617398.md)
+- TCF7L2 was a high-confidence significantly mutated gene (HC-SMG) in about 9% of tumors in a colorectal cancer cohort [PMID:35487942](../papers/35487942.md).
+- Six new TCF7L2 hotspot mutations were identified among 212 pan-cancer TGF-beta pathway hotspot tumors (87% gastrointestinal) in a pan-cancer hotspot discovery study [PMID:41895280](../papers/41895280.md).
 
 ## Cancer types (linked)
 
@@ -52,22 +54,18 @@ TCF7L2 (Transcription Factor 7 Like 2, also known as [TCF4](../genes/TCF4.md)) e
 
 - [PMID:22810696](../papers/22810696.md) — TCGA colorectal cancer, 276 tumors
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34405229](../papers/34405229.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34819518](../papers/34819518.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34910928](../papers/34910928.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35504881](../papers/35504881.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
+- [PMID:35487942](../papers/35487942.md)
+- [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

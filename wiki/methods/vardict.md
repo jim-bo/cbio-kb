@@ -10,8 +10,8 @@ tags:
   - snv
   - indel
   - ctdna
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # VarDict
@@ -26,6 +26,8 @@ VarDict is an open-source somatic variant caller designed for targeted sequencin
 - Used alongside [MuTect](../methods/mutect.md) for SNV/indel calling in cfDNA from 681 plasma samples in the MSK-ACCESS pipeline; variant calls from both callers integrated into the MSK-ACCESS bioinformatics workflow [PMID:34145282](../papers/34145282.md)
 - Part of the MSK-ACCESS bioinformatics pipeline applied to cfDNA from metastatic solid tumor patients in the tumor-fraction-guided cfDNA triage study [PMID:34059130](../papers/34059130.md)
 - VarDict variant caller applied in the MSK-IMPACT analysis pipeline for 46 [SCLC](../cancer_types/SCLC.md) PDX/CDX models [PMID:35440124](../papers/35440124.md).
+- Re-called indels and complex variants after VarScan2 somatic/germline calling in a GenPipes DNA-Seq high-coverage pipeline [PMID:36815791](../papers/36815791.md)
+- Called SNVs/indels (with MuTect) from MSK-IMPACT tumor-normal panel data, requiring tumor VAF at least 1% and more than 5x the matched-normal frequency [PMID:38335254](../papers/38335254.md)
 
 ## Notes
 
@@ -46,3 +48,9 @@ VarDict is an open-source somatic variant caller designed for targeted sequencin
 - [PMID:35440124](../papers/35440124.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36815791](../papers/36815791.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38335254](../papers/38335254.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

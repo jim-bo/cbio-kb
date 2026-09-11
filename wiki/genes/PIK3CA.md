@@ -3,8 +3,8 @@ symbol: PIK3CA
 aliases: []
 cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, HCC, THAP, THPA, IHCH, EHCH, STAD, RMS, ERMS, GBM]
 tags: [pi3k-pathway, actionable, thyroid-cancer, cholangiocarcinoma, gastric-cancer]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # PIK3CA
@@ -179,6 +179,14 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Mutated in 50% of primary endometrial cancers in ctDNA pilot ([ucec_ccr_cfdna_msk_2022](../datasets/ucec_ccr_cfdna_msk_2022.md), n=44); hotspot PIK3CA subclonal in CD20 primary became clonal in sentinel lymph nodes; serial MAF tracking demonstrated treatment response monitoring utility [PMID:36007103](../papers/36007103.md)
 - Altered in 12% of pMMR/MSS rectal tumors ([rectal_msk_2022](../datasets/rectal_msk_2022.md), n=692); mutually exclusive with [TP53](../genes/TP53.md); subclonal in ~1/3 of co-occurrent cases with APC/TP53; co-mutation with [KRAS](../genes/KRAS.md) associated with elevated [CA9](../genes/CA9.md) expression (p<0.001) [PMID:35970919](../papers/35970919.md)
 - PIK3CA enriched in Crohn's disease-associated colitis-associated cancer (CAC) vs ulcerative colitis-associated CAC (MSK cohort, MSK-IMPACT panel sequencing) [PMID:36611031](../papers/36611031.md)
+- PIK3CA was among the uncommon mutations carried in this TNBC pembrolizumab trial cohort; it was not associated with response [PMID:35121644](../papers/35121644.md).
+- PIK3CA was mutated in 13% of colorectal tumors in this cohort and enriched in hypermutated tumors, with frequency varying by tumor site [PMID:35487942](../papers/35487942.md).
+- PIK3CA was one of the mTOR-pathway genes (with NF2, NF1) mutated in 3.1% of solitary fibrous tumors combined, proposed as an mTOR-inhibitor target [PMID:37980418](../papers/37980418.md).
+- PIK3CA was the most frequently altered gene in CDH1 genetically wild-type invasive lobular carcinoma (10/25, 40%), dominated by H1047R and E542K hotspots [PMID:38347189](../papers/38347189.md).
+- PIK3CA was co-mutated in 54% of ERBB2-mutated endometrial carcinomas, among the most frequent co-mutations alongside ARID1A and PTEN [PMID:39031567](../papers/39031567.md).
+- APOBEC3-context PIK3CA helical-domain hotspots E545K/E542K, and double (cis) PIK3CA mutations, are enriched in APOBEC3-dominant post-treatment HR+/HER2- breast tumors, suggesting increased sensitivity to PI3K-alpha-selective inhibitors [PMID:40379787](../papers/40379787.md).
+- PIK3CA was the most frequent co-occurring pathogenic alteration in MYOD1 L122R-mutant rhabdomyosarcoma (20% of 20 genomically profiled patients), mutually exclusive with other PI3K/AKT/mTOR pathway alterations [PMID:41758938](../papers/41758938.md).
+- New PIK3CA hotspots usually appear as second hits alongside a common PIK3CA hotspot (51% vs 9%) and are more subclonal; mutations are clonal in canonical BRCA, uterine and bladder cancer but subclonal in non-canonical LUAD, ESCA and glioblastoma [PMID:41895280](../papers/41895280.md).
 
 ## Cancer types (linked)
 
@@ -350,76 +358,60 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33263939](../papers/33263939.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33397444](../papers/33397444.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33212010](../papers/33212010.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33863915](../papers/33863915.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34059130](../papers/34059130.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34290393](../papers/34290393.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34405229](../papers/34405229.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34493867](../papers/34493867.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34795269](../papers/34795269.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35120664](../papers/35120664.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35235413](../papers/35235413.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35304457](../papers/35304457.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35670774](../papers/35670774.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35849120](../papers/35849120.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36007103](../papers/36007103.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35970919](../papers/35970919.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36611031](../papers/36611031.md)
+- [PMID:35121644](../papers/35121644.md)
+- [PMID:35487942](../papers/35487942.md)
+- [PMID:37980418](../papers/37980418.md)
+- [PMID:38347189](../papers/38347189.md)
+- [PMID:39031567](../papers/39031567.md)
+- [PMID:40379787](../papers/40379787.md)
+- [PMID:41758938](../papers/41758938.md)
+- [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -10,8 +10,8 @@ tags:
   - hif2a-inhibitor
   - vhl-disease
   - renal-cell-carcinoma
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # belzutifan
@@ -23,6 +23,7 @@ Belzutifan (PT2977/MK-6482) is a small-molecule inhibitor of hypoxia-inducible f
 ## Evidence in the corpus
 
 - scRNA-seq of 147,045 mouse renal tubular cells across *Vhl*-knockout genotypes showed that [EPAS1](../genes/EPAS1.md) (HIF2A) drives a late, time-dependent dedifferentiation of proximal tubular cells that is distinct from the early glycolytic program controlled by [HIF1A](../genes/HIF1A.md); these findings support early therapeutic use of belzutifan in [VHL](../genes/VHL.md) disease to prevent expansion of *Vhl*-null cancer precursor cells before morphological transformation [PMID:41102155](../papers/41102155.md).
+- Whether the HIF-2α inhibitor belzutifan is active in SDHB-mutant pheochromocytoma/paraganglioma is unknown; the authors propose screening SDHB carriers for cooperative somatic EPAS1 mutations in future belzutifan trials. [PMID:40097403](../papers/40097403.md)
 
 ## Resistance mechanisms
 
@@ -37,3 +38,6 @@ Belzutifan (PT2977/MK-6482) is a small-molecule inhibitor of hypoxia-inducible f
 - [PMID:41102155](../papers/41102155.md) — Lima et al.; mouse scRNA-seq isoform dissection of [HIF1A](../genes/HIF1A.md) vs HIF2A in *Vhl*-null renal tubular epithelium; provides mechanistic rationale for early belzutifan use in VHL disease.
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:40097403](../papers/40097403.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -4,8 +4,8 @@ oncotree_code: SCLC
 main_type: Small Cell Lung Cancer
 parent: LNET
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Small Cell Lung Cancer (SCLC)
@@ -31,6 +31,7 @@ Small cell lung cancer (SCLC) is a neuroendocrine carcinoma of the lung characte
 - 46 SCLC PDX/CDX models from 33 patients showed retention of canonical [TP53](../genes/TP53.md) (90%) and [RB1](../genes/RB1.md) (76%) alterations; transcriptional subtypes [ASCL1](../genes/ASCL1.md), [NEUROD1](../genes/NEUROD1.md), [POU2F3](../genes/POU2F3.md) (SCLC-P) recapitulated in xenografts; 10 POU2F3-driven PDXs from one never-smoker patient constitute first SCLC-P in-vivo model resource [PMID:35440124](../papers/35440124.md)
 - Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): SCLC included among 25 principal tumor types; IO biomarker positivity (MSI-H/TMB-H/PD-L1+) 48% (24/50), highest of all tumor types; [RB1](../genes/RB1.md) mutated in 84.2% of SCLC in aOM vs 71.1% in MSK-IMPACT (FDR=1, not significantly different) [PMID:35871175](../papers/35871175.md)
 - Rekhtman et al. identified atypical SCLC (aSCLC) in 3% (20/600) of consecutive SCLC patients at MSKCC — all never/light smokers with retained [RB1](../genes/RB1.md) and [TP53](../genes/TP53.md); aSCLC features chromothripsis (84%), ecDNA amplification of [CCND1](../genes/CCND1.md) (30%) or CCND2/CDK4/MDM2 (15%), carcinoid-characteristic mutations ([ATM](../genes/ATM.md) 30%, [ARID1A](../genes/ARID1A.md) 25%), histogenetic link to pulmonary carcinoids, median [OS](../cancer_types/OS.md) 58 months (vs 16 months in smoking-related SCLC), and reduced platinum sensitivity (33% response vs ~70% conventional) [PMID:39185963](../papers/39185963.md)
+- Small cell lung cancer contributed to the 59% lung-carcinoma share of a 70-case MET FISH validation cohort drawn from a 66,285-tumor MSK-IMPACT pan-cancer MET-amplification screen. [PMID:36044468](../papers/36044468.md)
 
 ## Subtypes
 
@@ -66,3 +67,6 @@ Small cell lung cancer (SCLC) is a neuroendocrine carcinoma of the lung characte
 - [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36044468](../papers/36044468.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

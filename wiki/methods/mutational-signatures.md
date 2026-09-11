@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [mutational-signatures, cosmic, somatic-mutation, snv, indel]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Mutational Signatures Analysis (COSMIC)
@@ -55,6 +55,14 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - Applied genome-wide in [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md) cWGTS pipeline: mutational signature analysis identified signatures inaccessible to panel/exome assays as a key value-add of WGS in 114 pediatric/AYA solid tumor patients [PMID:35585047](../papers/35585047.md)
 - Mutational signatures decomposed against COSMIC v2 (30 signatures) in 7,494 sarcomas and aggregated into APOBEC, aging, [BRCA](../cancer_types/BRCA.md), MMR, smoking, UV, [POLE](../genes/POLE.md), and alkylating signature classes (dominance threshold ≥0.4); UV signature dominated cutaneous angiosarcoma and ultra-high-TMB cases [PMID:35705558](../papers/35705558.md)
 - COSMIC v3 mutational signature extraction applied to MSK-IMPACT sarcoma samples with ≥15 SNVs from 2,138 tumors spanning 45 histological entities [PMID:35705560](../papers/35705560.md)
+- COSMIC v2 signatures were fit with a LASSO-based approach as part of the copy-number/signature/subtyping pipeline in a colorectal cancer cohort [PMID:35487942](../papers/35487942.md).
+- COSMIC signature 3 (HRD) and signature 6 (mismatch-repair defect) scores were tested against pathologic complete response in a neoadjuvant TNBC cohort [PMID:36001024](../papers/36001024.md).
+- SBS1, SBS5 and SBS9 were the dominant signatures in Burkitt lymphoma; SBS9 exposure tracked with EBV positivity and AICDA activity [PMID:36201743](../papers/36201743.md).
+- COSMIC v3.2 signatures were called with deconstructSigs as part of the somatic variant and driver-analysis pipeline in a PDX/patient-tumor comparison [PMID:37990009](../papers/37990009.md).
+- SigMA-inferred signatures and HRDetect flagged an AXIN2-mutant, BRCA2-biallelic-inactivated lobular carcinoma case with an HRDetect score of 0.99 [PMID:38347189](../papers/38347189.md).
+- COSMIC v3 signatures (via MutationalPatterns) were mostly clock-like (SBS1/SBS5) in treatment-naive pheochromocytoma/paraganglioma, with chemotherapy-related SBS11 in pretreated tumors [PMID:40097403](../papers/40097403.md).
+- COSMIC v3 signatures were compared between whole-exome-sequenced secondary and primary rectal cancers, finding no significant signature differences [PMID:40100215](../papers/40100215.md).
+- COSMIC v2 signature decomposition of TMB-≥10 tumors found dominant etiologies of MMR deficiency (25%), APOBEC (22%), smoking (17%) and UV (12%) among TMB-H cases [PMID:41895280](../papers/41895280.md).
 
 ## Notes
 
@@ -177,3 +185,27 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36201743](../papers/36201743.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38347189](../papers/38347189.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40097403](../papers/40097403.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40100215](../papers/40100215.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

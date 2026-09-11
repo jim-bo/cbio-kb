@@ -9,8 +9,8 @@ tags:
   - tumor-purity
   - clonality
   - somatic-copy-number
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # ABSOLUTE
@@ -49,6 +49,9 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - Used to compute cancer cell fractions (CCFs) for somatic mutations in 44 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) sequenced by WES or MSK-IMPACT; CCF estimates informed clonality classifications (e.g., distinguishing clonal [PIK3CA](../genes/PIK3CA.md) H1047R co-occurring with [TERT](../genes/TERT.md) mutations from subclonal Ras pathway mutations) [PMID:33863915](../papers/33863915.md)
 - ABSOLUTE used for re-estimation of cancer cell fraction (CCF) on single-cell genotyping (SCG)-called mutations in 4 CRC dual-driver cases [PMID:35235413](../papers/35235413.md).
 - Used in [prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md): whole-exome sequencing of 168 prostate cancer brain metastasis samples processed with ABSOLUTE for tumor purity and ploidy estimation [PMID:35504881](../papers/35504881.md)
+- ABSOLUTE estimated tumor purity and ploidy from whole-exome sequencing in 1,015 Chinese colorectal cancer patients. [PMID:35487942](../papers/35487942.md)
+- ABSOLUTE estimated cancer cell fraction from WGS in 3 invasive lobular carcinoma cases to infer clonality of somatic alterations. [PMID:38347189](../papers/38347189.md)
+- ABSOLUTE v1.0.6 estimated cancer cell fraction to call clonal ERBB2 mutations in endometrial carcinoma; a mutation was called clonal if P(clonal) > 50% or the CCF 95% CI lower bound exceeded 90%. [PMID:39031567](../papers/39031567.md)
 
 ## Notes
 
@@ -139,3 +142,12 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - [PMID:35504881](../papers/35504881.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38347189](../papers/38347189.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39031567](../papers/39031567.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -7,8 +7,8 @@ tags:
   - kinase
   - neuroendocrine
   - mycn-axis
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # AURKA
@@ -28,6 +28,7 @@ AURKA (Aurora Kinase A) is a serine/threonine kinase that regulates mitotic entr
 - [TP53](../genes/TP53.md) hotspot missense (gain-of-function) mutations in uterine corpus endometrial carcinoma upregulate AURKA expression and dysregulate XRN2; elevated AURKA is a candidate therapeutic target in TP53-hotspot-mutant EC amenable to AURKA inhibitors [PMID:32059776](../papers/32059776.md)
 - Amplification in 11/41 (26.8%) CDK4/6i-resistant HR+/HER2- breast cancer biopsies vs 0/18 sensitive (p=0.0081); spontaneous AURKA up-regulation in resistant cell lines; sensitive to selective AURKA inhibitor LY3295668; first in-patient evidence for AURKA in CDK4/6i resistance [PMID:32404308](../papers/32404308.md)
 - AURKA kinase activity elevated in [HCC](../cancer_types/HCC.md) vs normal liver by KSEA in Chinese proteogenomics cohort (n=159); flagged as targetable alongside CDK1/2/5 in TP53-mutant [HCC](../cancer_types/HCC.md); AURKA inhibition proposed as a therapeutic strategy [PMID:35508466](../papers/35508466.md)
+- AURKA amplification was newly acquired at metastasis (alongside RAD51C P21S) in a primary-to-metastasis HR+/HER2- breast cancer case tracked by whole-genome sequencing [PMID:40379787](../papers/40379787.md).
 
 ## Cancer types (linked)
 
@@ -74,3 +75,6 @@ AURKA (Aurora Kinase A) is a serine/threonine kinase that regulates mitotic entr
 - [PMID:35508466](../papers/35508466.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:40379787](../papers/40379787.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

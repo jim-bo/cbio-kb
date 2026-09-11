@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Patient-Derived Xenograft
@@ -28,6 +28,9 @@ Patient-derived xenograft (PDX) models are established by directly implanting tu
 - 46 [SCLC](../cancer_types/SCLC.md) PDX/CDX models from 33 patients established at MSK; 40 tissue PDXs with 23.81% engraftment rate, mean engraftment time 110 days; 18 cases had paired clinical specimens; multi-omic profiling retained canonical TP53/RB1 landscape in 89% of paired pairs [PMID:35440124](../papers/35440124.md).
 - Six patient-derived xenografts (PDXs) from metastatic CRPC patients were profiled by ATAC-seq and RNA-seq in [prad_organoids_msk_2022](../datasets/prad_organoids_msk_2022.md), contributing to the 35-model epigenomic atlas used to define four chromatin subtypes [PMID:35617398](../papers/35617398.md)
 - CAC PDXs (two Wnt wild-type, one APC-mutant) were treated with porcupine inhibitor LGK-974 and tankyrase inhibitor G007-LK — neither suppressed tumor growth, arguing against Wnt-axis therapies for CAC; IDH1-mutant CAC PDX validated [ivosidenib](../drugs/ivosidenib.md) sensitivity via 2-HG production [PMID:36611031](../papers/36611031.md)
+- Used three longitudinal orthotopic PDX models (WHIM68/74/75) plus the NCI PDXNet TNBC PDX cohort and BCaPE PDX drug-screen database to study chemotherapy resistance biology in triple-negative breast cancer [PMID:36001024](../papers/36001024.md).
+- Built a resource of 68 early-passage subcutaneous PDXs from 65 pediatric solid-tumor patients across 16 cancer types to study genomic conservation between patient tumors and PDXs and immune constraints on PDX-engrafting subclones [PMID:37990009](../papers/37990009.md).
+- Profiled two MYOD1-mutant rhabdomyosarcoma PDX models (MSKRMS-93202, MSKRMS-74711) by snRNA-seq and bulk RNA-seq to study aberrant myogenesis and IGF2-PI3K pathway dependencies [PMID:41758938](../papers/41758938.md).
 
 ## Notes
 
@@ -68,3 +71,12 @@ Patient-derived xenograft (PDX) models are established by directly implanting tu
 - [PMID:36611031](../papers/36611031.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41758938](../papers/41758938.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

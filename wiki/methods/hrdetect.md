@@ -5,8 +5,8 @@ kind: MUTATION_EXTENDED
 canonical_source: corpus
 unverified: true
 tags: [homologous-recombination, mutational-signatures, wgs, brca-deficiency]
-processed_by: crosslinker
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # HRDetect
@@ -18,6 +18,7 @@ HRDetect is a machine-learning classifier that combines six mutational-signature
 ## Used by
 
 - Applied in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS); approximately 16% of tumours (n=37) scored >0.7 (HRD-positive), concentrated in the forte and mezzo-forte SCNA subtypes (P=1.4e-3 vs piano) [PMID:34493867](../papers/34493867.md)
+- Used (with COSMIC v3.1 signatures) to call homologous-recombination deficiency in whole-genome-sequenced CDH1-wild-type invasive lobular carcinomas [PMID:38347189](../papers/38347189.md).
 
 ## Notes
 
@@ -27,4 +28,6 @@ HRDetect is a machine-learning classifier that combines six mutational-signature
 
 ## Sources
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:38347189](../papers/38347189.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

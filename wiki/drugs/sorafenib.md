@@ -16,7 +16,7 @@ tags:
   - anti-angiogenic
   - braf-inhibitor
 processed_by: wiki-cli
-processed_at: 2026-05-21
+processed_at: 2026-09-10
 ---
 
 # sorafenib
@@ -42,6 +42,7 @@ Sorafenib is an oral multi-kinase inhibitor with FDA approvals in hepatocellular
 - In a phosphoproteogenomic HCC dataset (n=122 biopsies), sorafenib is cited alongside [regorafenib](../drugs/regorafenib.md) as a current standard agent; authors note preclinical evidence of synergy between AURKA/CDK inhibitors (elevated by KSEA) and sorafenib as motivation for targeted combination strategies in HCC [PMID:35508466](../papers/35508466.md)
 - Multi-kinase/FLT3 inhibitor; in Beat [AML](../cancer_types/AML.md) Waves 3+4 (n=805), sorafenib sensitivity in FLT3-ITD AML is conditional on maturation state: Progenitor-like scores predict sensitivity, Monocyte-like scores confer resistance [PMID:35868306](../papers/35868306.md)
 - Sorafenib is a first-line TKI for advanced [HCC](../cancer_types/HCC.md) with ORR of ~26%; resistance mechanisms catalogued in this review include [SLC27A4](../genes/SLC27A4.md)-mediated MUFA import suppressing ferroptosis, [SCD](../genes/SCD.md)-driven PUFA:MUFA lowering, phosphatidic acid/RTK upregulation, [ACSL4](../genes/ACSL4.md) loss, 27-hydroxycholesterol-driven [GPX4](../genes/GPX4.md) upregulation, and [FASN](../genes/FASN.md)-stabilized HIF1α/SLC7A11 axis — multiple combinations (FASN inhibitors, SCD inhibitors, ND-654) sensitize HCC to sorafenib preclinically [PMID:41118283](../papers/41118283.md).
+- Sorafenib, given per the AAML1031 protocol to pediatric AML patients with high-allelic-ratio FLT3-ITD, is cited as a likely confounder that attenuated the prognostic significance of age and FLT3-ITD status in AAML1031's univariate survival analysis. [PMID:38212634](../papers/38212634.md)
 
 ## Resistance mechanisms
 
@@ -73,3 +74,6 @@ Sorafenib is an oral multi-kinase inhibitor with FDA approvals in hepatocellular
 - [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*
+- [PMID:38212634](../papers/38212634.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

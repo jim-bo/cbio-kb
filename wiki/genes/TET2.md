@@ -3,8 +3,8 @@ symbol: TET2
 aliases: []
 cancer_types: [AML]
 tags: [somatic, epigenetic, dna-methylation, myeloid]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # TET2
@@ -24,6 +24,8 @@ TET2 (Tet Methylcytosine Dioxygenase 2) encodes an enzyme that catalyzes the con
 - Transcriptionally upregulated in LZTR1-mutant schwannomatosis (SWNTS-SWN) tumors alongside [TET1](../genes/TET1.md) as part of an active demethylation program; [DNMT1](../genes/DNMT1.md) and [DNMT3A](../genes/DNMT3A.md) expression unchanged [PMID:33025139](../papers/33025139.md)
 - Identified as an independent clone with [IDH1](../genes/IDH1.md) in patient 118725 (parallel evolution); also among transient-clone genes in pediatric therapy-related myeloid neoplasm surveillance [PMID:35078859](../papers/35078859.md)
 - TET2 alteration shared as a clonal event between the [SCLC](../cancer_types/SCLC.md) and lung adenocarcinoma components of MSK773 admixed tumor, supporting clonal origin from a common precursor; co-occurring with [CDKN1B](../genes/CDKN1B.md), [PTEN](../genes/PTEN.md), [TCF3](../genes/TCF3.md), [MDM2](../genes/MDM2.md), [FGFR1](../genes/FGFR1.md), and [KRAS](../genes/KRAS.md) in the shared founding clone [PMID:35440124](../papers/35440124.md).
+- TET2 was mutated in 22% of MDS cases as an early DNA-methylation-pathway driver, mutually exclusive with IDH2 and the strongest positive genetic predictor of hemoglobin level [PMID:24030381](../papers/24030381.md).
+- TET2 was mutated more often in adult Burkitt lymphoma than pediatric BL (10% vs 1.5%) and marked the DLBCL-C (ST2-like) subgroup [PMID:36201743](../papers/36201743.md).
 
 ## Cancer types (linked)
 
@@ -51,10 +53,8 @@ TET2 (Tet Methylcytosine Dioxygenase 2) encodes an enzyme that catalyzes the con
 
 - [PMID:31768066](../papers/31768066.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32220886](../papers/32220886.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33106634](../papers/33106634.md)
 
 - [PMID:33025139](../papers/33025139.md)
@@ -62,5 +62,7 @@ TET2 (Tet Methylcytosine Dioxygenase 2) encodes an enzyme that catalyzes the con
 - [PMID:35078859](../papers/35078859.md)
 
 - [PMID:35440124](../papers/35440124.md)
+- [PMID:24030381](../papers/24030381.md)
+- [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

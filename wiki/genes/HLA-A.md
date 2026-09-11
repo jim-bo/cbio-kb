@@ -3,8 +3,8 @@ symbol: HLA-A
 aliases: []
 cancer_types: [HGSOC]
 tags: [immune-evasion, antigen-presentation, MHC-I, interferon-signaling, ovarian-cancer]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # HLA-A
@@ -28,6 +28,7 @@ HLA-A encodes a classical MHC class I molecule critical for antigen presentation
 - HLA-A focal amplification (chr 6p21 MHC-I region, ~1.5 Mb) found exclusively in anti-PD1 responders among 144 advanced melanoma patients (n=6; Fisher's P=0.008); HLA-A LOH was not associated with response (Fisher's P=0.52) [PMID:31792460](../papers/31792460.md)
 - Recurrently altered at ~3.6% in MSK-IMPACT retinoblastoma cohort (n=83); listed among the top ten non-RB1 recurrently altered genes with putative-driver variants [PMID:33466343](../papers/33466343.md)
 - HLA-A referenced in the context of immune-related germline findings in pediatric solid tumor cWGTS profiling (n=114 patients) at MSK [PMID:35585047](../papers/35585047.md)
+- HLA-A*11:01 and A*02:01 are among the neoantigen-restricting alleles whose frequencies vary by ancestry; HLA class I LOH occurs in 25.4% of pan-cancer patients, with preferential loss of A*02:01 seen with TP53 R175H in CRC and with KRAS G12V. [PMID:41895280](../papers/41895280.md)
 
 ## Cancer types (linked)
 
@@ -49,37 +50,27 @@ HLA-A encodes a classical MHC class I molecule critical for antigen presentation
 
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26997480](../papers/26997480.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29337640](../papers/29337640.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31792460](../papers/31792460.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33466343](../papers/33466343.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
+- [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

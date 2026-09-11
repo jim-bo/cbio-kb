@@ -5,8 +5,8 @@ kind: gene-panel
 canonical_source: msk
 unverified: false
 tags: [panel, msk-impact, targeted-sequencing]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 genePanelId: IMPACT410
 ---
 
@@ -57,6 +57,10 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Used to sequence a subset of 1,417 prostate cancer patients (410 genes) in a study of [PIK3R1](../genes/PIK3R1.md) alterations and FDG-PET avidity; one of three IMPACT panel versions applied across the MSK cohort [PMID:35670774](../papers/35670774.md)
 - Applied to 573 of 2,138 sarcomas (26.8%) in the MSK sarcoma genomic landscape study using paired tumor-normal capture at ≥500× median coverage on Illumina HiSeq 2500 [PMID:35705560](../papers/35705560.md)
 - Applied to 13 of 184 MSI-H/MMR-D endometrial cancers in a study comparing MMR-deficiency mechanisms and ICI outcomes [PMID:35849120](../papers/35849120.md)
+- One of the four MSK-IMPACT panel versions (341-505 genes) used to screen 66,285 tumor samples for MET copy-number gain. [PMID:36044468](../papers/36044468.md)
+- One of the MSK-IMPACT panel versions used to sequence 2,638 endometrial carcinomas screened for pathogenic ERBB2 mutations. [PMID:39031567](../papers/39031567.md)
+- IMPACT410 sequenced 9,674 of the 54,331 tumors in the 50k-sample MSK-IMPACT pan-cancer hotspot-discovery cohort. [PMID:41895280](../papers/41895280.md)
+- IMPACT410 sequenced 200 of the 1,254 biliary tract cancer samples in this MSK cohort. [PMID:42360806](../papers/42360806.md)
 
 ## Notes
 
@@ -174,3 +178,15 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - [PMID:35849120](../papers/35849120.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36044468](../papers/36044468.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39031567](../papers/39031567.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

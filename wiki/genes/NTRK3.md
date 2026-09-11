@@ -13,8 +13,8 @@ tags:
   - ETV6
   - larotrectinib
   - NTRK-inhibitor
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # NTRK3
@@ -46,6 +46,8 @@ NTRK3 (Neurotrophic Receptor Tyrosine Kinase 3, also TRKC) is a member of the ne
 - ETV6-NTRK3 fusion drives actionable oncogenesis in inflammatory myofibroblastic tumor ([IMT](../cancer_types/IMT.md)); [larotrectinib](../drugs/larotrectinib.md) produced durable complete response; NTRK amplifications are not actionable [PMID:35705558](../papers/35705558.md)
 - Pan-cancer fusion driver with novel partner genes catalogued in Chinese solid-tumor cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md)); pathogenic NTRK3 mutation also in CD26 carcinosarcoma tracked by cfDNA [PMID:35871175](../papers/35871175.md)
 - Pathogenic NTRK3 mutation detected in CD26 carcinosarcoma ctDNA monitored by MSK-ACCESS in EC cfDNA pilot study ([ucec_ccr_cfdna_msk_2022](../datasets/ucec_ccr_cfdna_msk_2022.md), n=44) [PMID:36007103](../papers/36007103.md)
+- In a pediatric solid-tumor PDX cohort, a TAOK1-NTRK3 fusion was identified as a clinically actionable kinase fusion [PMID:37990009](../papers/37990009.md).
+- In a pan-cancer hotspot survey, NTRK3 fusions (with ALK, ROS1, NTRK1, NTRK2, FGFR2) were linked to strikingly early age at diagnosis [PMID:41895280](../papers/41895280.md).
 
 ## Cancer types (linked)
 
@@ -81,31 +83,24 @@ NTRK3 (Neurotrophic Receptor Tyrosine Kinase 3, also TRKC) is a member of the ne
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31871300](../papers/31871300.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33509808](../papers/33509808.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35585047](../papers/35585047.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35871175](../papers/35871175.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36007103](../papers/36007103.md)
+- [PMID:37990009](../papers/37990009.md)
+- [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

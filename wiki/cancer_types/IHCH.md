@@ -4,8 +4,8 @@ oncotree_code: IHCH
 main_type: Hepatobiliary Cancer
 parent: CHOL
 tags: [biliary, hepatobiliary]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Intrahepatic Cholangiocarcinoma (IHCH)
@@ -33,6 +33,9 @@ Intrahepatic cholangiocarcinoma, a primary liver cancer arising from intrahepati
 - Retrospective MSKCC study of 573 liver-limited IHCH patients (resection N=237, HAIC N=196, systemic N=140): for node-positive (N1) patients, resection and HAIC produced equivalent [OS](../cancer_types/OS.md) (19.7 vs 18.1 months, P=0.560), both superior to SYS (11.2 months, P=0.024); MSK-IMPACT sequencing of 219 patients showed the five most prevalent genes were [IDH1](../genes/IDH1.md) (18.7%), [ARID1A](../genes/ARID1A.md) (15.5%), [FGFR2](../genes/FGFR2.md) (15.5%), [TP53](../genes/TP53.md) (14.6%), [BAP1](../genes/BAP1.md) (13.2%); composite high-risk alteration (TP53 mut / KRAS mut / CDKN2A/B del) stratified N1 patients: median OS 12.1 vs 30.9 months (P=0.002) [PMID:33963001](../papers/33963001.md).
 - MSK-ACCESS cfDNA panel prospectively profiled biliary cancer patients (part of 31 tumor types, n=617); [FGFR2](../genes/FGFR2.md) mutations and fusions (most commonly FGFR2-BICC1) detected in 8/24 IHCH patients with detectable ctDNA, including kinase-domain missense mutations conferring FGFR-inhibitor resistance; [IDH1](../genes/IDH1.md) and [PIK3CA](../genes/PIK3CA.md) also recurrently detected [PMID:34145282](../papers/34145282.md).
 - Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): IHCH comprised 5% of cohort; KRAS significantly elevated vs MSK-IMPACT (key ethnic difference); TP53 R249S enriched in IHCH (3%, aflatoxin signature); [ARID1A](../genes/ARID1A.md) truncating mutations in 9.9%; MSI-H in 7% of IHCH; FGFR2/FGFR3 fusions catalogued [PMID:35871175](../papers/35871175.md)
+- Among 45 MSK patients treated with MET inhibitors after a pan-cancer MET copy-number survey of 66,285 tumor samples, one had intrahepatic cholangiocarcinoma [PMID:36044468](../papers/36044468.md).
+- In the MSK-50K cohort (54,331 tumors), ARAF was a rare (about 0.05% overall) but cancer type-canonical driver in intrahepatic cholangiocarcinoma (0.8% of IHCH), alongside melanoma (0.5%), with depletion of other canonical drivers in these types [PMID:41895280](../papers/41895280.md).
+- Intrahepatic cholangiocarcinoma made up 767 of 1,254 (61.2%) biliary tract cancers sequenced by MSK-IMPACT, with the highest OncoKB level 1/2 actionability (40%) of the three anatomic subtypes and enrichment for IDH1, FGFR2, BAP1 and PBRM1 alterations relative to extrahepatic cholangiocarcinoma and gallbladder cancer [PMID:42360806](../papers/42360806.md).
 
 ## Subtypes
 
@@ -62,3 +65,12 @@ Intrahepatic cholangiocarcinoma, a primary liver cancer arising from intrahepati
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36044468](../papers/36044468.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

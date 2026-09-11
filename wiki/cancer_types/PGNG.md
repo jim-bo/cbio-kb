@@ -4,8 +4,8 @@ oncotree_code: PGNG
 main_type: Miscellaneous Neuroepithelial Tumor
 parent: SOFT_TISSUE
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Paraganglioma (PGNG)
@@ -22,6 +22,7 @@ Paraganglioma (PGL) is a neuroendocrine tumor arising from extra-adrenal paragan
 
 - TCGA PCPG cohort (n=173 total; mixed PCC/PGL, 57% female, 43% male, mean age 47): 95% of tumors had a driver identified; [SDHB](../genes/SDHB.md) germline mutations most common single driver (9%); [EPAS1](../genes/EPAS1.md) somatic hotspot mutations specific to pseudohypoxia PGLs; [MAML3](../genes/MAML3.md) fusions and [CSDE1](../genes/CSDE1.md) mutations define the Wnt-altered subtype (predominantly adrenal PCCs, but methodology applies to PGLs); [ATRX](../genes/ATRX.md) somatic mutations co-occurring with SDHB germline in 3 tumors linked to alternative lengthening of telomeres [PMID:28162975](../papers/28162975.md).
 - 11/173 (6%) had distant metastases; 16/173 (9%) had aggressive disease (distant metastases, positive regional nodes, or local recurrence) at study enrollment [PMID:28162975](../papers/28162975.md).
+- In a WGS/multi-omic study of 94 SDHB germline-mutant phaeochromocytoma/paraganglioma tumors (88 extra-adrenal paragangliomas, including bladder, carotid body and head-and-neck sites), tumor mutation burden was low (median 0.32 mut/Mb) and TERT or ATRX alterations, which were mutually exclusive, were present in 61% of metastatic cases and linked to poorer outcome. [PMID:40097403](../papers/40097403.md)
 
 ## Subtypes
 
@@ -41,3 +42,6 @@ Paraganglioma (PGL) is a neuroendocrine tumor arising from extra-adrenal paragan
 - [PMID:28162975](../papers/28162975.md) — TCGA PCPG Analysis Working Group, multi-platform profiling of 173 PCC/PGL tumors.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:40097403](../papers/40097403.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

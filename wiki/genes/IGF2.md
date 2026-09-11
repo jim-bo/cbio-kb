@@ -3,8 +3,8 @@ symbol: IGF2
 aliases: []
 cancer_types: [RMS]
 tags: [growth-factor, fusion-associated, rhabdomyosarcoma]
-processed_by: entity-page-writer
-processed_at: "2026-05-21"
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # IGF2
@@ -24,6 +24,7 @@ IGF2 (Insulin-like Growth Factor 2) is an imprinted growth factor with roles in 
 - PRC2-repressed imprinted gene aberrantly upregulated in PRC2-loss MPNSTs; promoter H3K27me3 restored after SUZ12 reintroduction in ST88-14 cells with reciprocal reduction of transcript levels [PMID:25240281](../papers/25240281.md)
 - G226S variant lost in one panNET patient on everolimus treatment, suggesting clonal replacement rather than direct mTOR-pathway resistance; observed in MSK-IMPACT metastatic panNET cohort (n=80) [PMID:30687805](../papers/30687805.md)
 - Overexpressed in incomplete-responder (iCR) rectal cancer patients after neoadjuvant treatment; strong overexpression mutually exclusive with PI3K-pathway alterations; validated in the Kamran et al. independent cohort; associated with lower complete-response rate in pMMR/MSS rectal tumors (n=652) [PMID:35970919](../papers/35970919.md)
+- Top activated master regulator of the progenitor cell state in fusion-negative, MYOD1 L122R-driven rhabdomyosarcoma; recurrently amplified in the 20-patient genomic cohort and functions as the paracrine ligand driving progenitor-to-differentiated signaling. [PMID:41758938](../papers/41758938.md)
 
 ## Cancer types (linked)
 
@@ -60,5 +61,6 @@ IGF2 (Insulin-like Growth Factor 2) is an imprinted growth factor with roles in 
 - [PMID:30687805](../papers/30687805.md)
 
 - [PMID:35970919](../papers/35970919.md)
+- [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

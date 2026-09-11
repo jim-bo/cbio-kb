@@ -3,8 +3,8 @@ symbol: OLFM4
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # OLFM4
@@ -16,6 +16,7 @@ OLFM4 (olfactomedin 4) is a secreted glycoprotein highly expressed in intestinal
 ## Alterations observed in the corpus
 
 - OLFM4 over-expressed as part of the WNT/stem-cell program (alongside LGR5, [ASCL2](../genes/ASCL2.md), [EPHB2](../genes/EPHB2.md), and [MYC](../genes/MYC.md)) in adenoma stem cells (ASCs) and MSS CRC cells in the COLON MAP/HTAN multi-omic colorectal polyp atlas (128 scRNA-seq datasets, 142,065 cells) [PMID:34910928](../papers/34910928.md)
+- OLFM4, an intestinal stem-cell protein marker, is downregulated by multiplex immunofluorescence in CRC metastases relative to matched primary tumors [PMID:39478232](../papers/39478232.md).
 
 ## Cancer types (linked)
 
@@ -36,5 +37,6 @@ OLFM4 (olfactomedin 4) is a secreted glycoprotein highly expressed in intestinal
 ## Sources
 
 - [PMID:34910928](../papers/34910928.md)
+- [PMID:39478232](../papers/39478232.md)
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

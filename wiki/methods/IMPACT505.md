@@ -5,8 +5,8 @@ kind: gene-panel
 canonical_source: msk
 unverified: false
 tags: [panel, msk-impact, targeted-sequencing]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 genePanelId: IMPACT505
 ---
 
@@ -27,6 +27,13 @@ Targeted (505 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - [PMID:37769223](../papers/37769223.md) — IMPACT505 used in 37 (72.5%) of 51 [HCC](../cancer_types/HCC.md) patients for matched tumor tissue profiling, complementing MSK-ACCESS cfDNA profiling; 92.5% of tissue alterations were detected in matched cfDNA [PMID:37769223](../papers/37769223.md).
 - [PMID:38630790](../papers/38630790.md) — IMPACT505 used in an additional 105-patient validation cohort for the GNH subset of diffuse pleural mesothelioma; 4 GNH cases identified [PMID:38630790](../papers/38630790.md).
 - Applied in [lgsoc_mapk_msk_2022](../datasets/lgsoc_mapk_msk_2022.md) study: IMPACT505 panel (n=5 patients) used as part of MSK-IMPACT targeted sequencing across 119 LGSC patients [PMID:35443055](../papers/35443055.md)
+- One of the four MSK-IMPACT panel versions (341-505 genes) used to screen 66,285 tumor samples for MET copy-number gain. [PMID:36044468](../papers/36044468.md)
+- One of the MSK-IMPACT panel versions used to sequence 2,638 endometrial carcinomas screened for pathogenic ERBB2 mutations. [PMID:39031567](../papers/39031567.md)
+- IMPACT505 (505-gene MSK-IMPACT panel) was run on paired tumor/germline DNA from 184 muscle-invasive bladder cancers in the SWOG S1314 trial to test DDR-gene alterations against cisplatin response. [PMID:39499893](../papers/39499893.md)
+- One of the MSK-IMPACT panel versions (341-505 genes) used for targeted sequencing of secondary rectal cancers arising after prostate radiotherapy and primary rectal cancer controls. [PMID:40100215](../papers/40100215.md)
+- IMPACT505 (v7, 505 genes) was one of two MSK-IMPACT panel versions used for tissue sequencing of pancreatic ductal adenocarcinoma compared against ctDNA. [PMID:40511613](../papers/40511613.md)
+- IMPACT505 sequenced 8,143 of the 54,331 tumors in the 50k-sample MSK-IMPACT pan-cancer hotspot-discovery cohort. [PMID:41895280](../papers/41895280.md)
+- IMPACT505 sequenced 336 of the 1,254 biliary tract cancer samples in this MSK cohort. [PMID:42360806](../papers/42360806.md)
 
 ## Notes
 
@@ -48,3 +55,24 @@ Targeted (505 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - [PMID:35443055](../papers/35443055.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36044468](../papers/36044468.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39031567](../papers/39031567.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39499893](../papers/39499893.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40100215](../papers/40100215.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40511613](../papers/40511613.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

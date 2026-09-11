@@ -8,8 +8,8 @@ cancer_types:
   - MEL
   - IHCH
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # ERBB2
@@ -35,6 +35,13 @@ ERBB2 (HER2/NEU) is a receptor tyrosine kinase of the ERBB family that lacks a k
 - Amplification in 24% of [BRCA](../cancer_types/BRCA.md) (vs 2% in other types) in pan-Asian solid-tumor cohort; actionable with [lapatinib](../drugs/lapatinib.md), [trastuzumab](../drugs/trastuzumab.md)+[pertuzumab](../drugs/pertuzumab.md), [neratinib](../drugs/neratinib.md), margetuximab, and trastuzumab+[tucatinib](../drugs/tucatinib.md) (OncoKB Level 1); GoF mutations in 3% of [NSCLC](../cancer_types/NSCLC.md) actionable with T-DM1 and [trastuzumab-deruxtecan](../drugs/trastuzumab-deruxtecan.md) [PMID:35871175](../papers/35871175.md)
 - Amplification in 3% of pMMR/MSS rectal tumors (Level 2 actionable); one of only two Level 1-2 actionable findings in LARC genomic landscape study [PMID:35970919](../papers/35970919.md)
 - Recurrent ERBB2 alterations observed among multi-primary metachronous CAC (colitis-associated cancer) samples in an IBD-associated colorectal cancer cohort (n=174 patients). [PMID:36611031](../papers/36611031.md)
+- ERBB2 alterations (7%) correlated with hypermutation in colorectal cancer [PMID:35487942](../papers/35487942.md).
+- ERBB2 amplification co-occurred with MET amplification as a co-driver in 2 NSCLC and in 10 de novo/3 acquired-resistance non-lung MET-amplified tumors [PMID:36044468](../papers/36044468.md).
+- ERBB2 was altered in 4/25 (16%) of CDH1-wild-type invasive lobular breast carcinomas, with 3/25 clinically ER+/HER2+ [PMID:38347189](../papers/38347189.md).
+- ERBB2 pathogenic mutations occur in 2.6% of endometrial cancers (hotspots V842I, R678Q, S310F/Y), are clonal in 87% of cases, and co-occur with ERBB2 amplification in 16% of mutated cases; mutation and amplification define distinct molecular EC subgroups [PMID:39031567](../papers/39031567.md).
+- ERBB2 (HER2) amplification defines the HER2+ receptor subtypes studied for APOBEC3-driven endocrine-therapy/CDK4-6-inhibitor resistance in breast cancer [PMID:40379787](../papers/40379787.md).
+- ERBB2 is a rare but canonical pan-cancer driver in melanoma (0.8%) and pancreatic adenocarcinoma (1.6%), mutually exclusive with other canonical drivers there [PMID:41895280](../papers/41895280.md).
+- ERBB2 alterations are more frequent in gallbladder cancer within biliary tract cancers; amplifications (mostly clonal) had median PFS 8.2 months on matched HER2-targeted therapy, and ERBB2 was the only RTK driver lost at progression in 4/8 paired resistance cases [PMID:42360806](../papers/42360806.md).
 
 ## Cancer types (linked)
 
@@ -86,5 +93,12 @@ ERBB2 (HER2/NEU) is a receptor tyrosine kinase of the ERBB family that lacks a k
 - [PMID:35970919](../papers/35970919.md)
 
 - [PMID:36611031](../papers/36611031.md)
+- [PMID:35487942](../papers/35487942.md)
+- [PMID:36044468](../papers/36044468.md)
+- [PMID:38347189](../papers/38347189.md)
+- [PMID:39031567](../papers/39031567.md)
+- [PMID:40379787](../papers/40379787.md)
+- [PMID:41895280](../papers/41895280.md)
+- [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

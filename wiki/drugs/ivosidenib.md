@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: false
 tags: [targeted_therapy, IDH1, cholangiocarcinoma]
 processed_by: wiki-cli
-processed_at: 2026-05-21
+processed_at: 2026-09-10
 ---
 
 # ivosidenib
@@ -28,6 +28,8 @@ Ivosidenib is a selective inhibitor of mutant [IDH1](../genes/IDH1.md), targetin
 - Ivosidenib (IDH1 inhibitor) targets IDH1 R132L mutation (n=1 in AML) classified ready-for-routine-use in MAPPYACTS pediatric precision-oncology trial [PMID:35292802](../papers/35292802.md)
 - IDH1 inhibitor; IDH1 mutations discussed as targets in AML context in Beat AML Waves 3+4 (n=805 patients) ex vivo functional-genomic study [PMID:35868306](../papers/35868306.md)
 - Ivosidenib (IDH1 inhibitor) is identified as an FDA-approved targeted therapy applicable to colitis-associated cancer (CAC): IDH1 R132 mutations, enriched in Crohn's disease–associated CAC, produce 2-HG and were functionally validated by pharmacologic IDH1 inhibition suppressing PDX growth [PMID:36611031](../papers/36611031.md).
+- Proposed as an actionable IDH1 inhibitor for the 6.9% (9/131) of solitary fibrous tumors carrying IDH1 p.R132S, extrapolating from its approved use in IDH1-mutant cholangiocarcinoma and AML [PMID:37980418](../papers/37980418.md).
+- In IDH1-mutant tumors treated with ivosidenib, no IDH isoform switching was observed at resistance in this cohort, aside from one previously reported case [PMID:42360806](../papers/42360806.md).
 
 ## Resistance mechanisms
 
@@ -67,3 +69,9 @@ Ivosidenib is a selective inhibitor of mutant [IDH1](../genes/IDH1.md), targetin
 - [PMID:36611031](../papers/36611031.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*
+- [PMID:37980418](../papers/37980418.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

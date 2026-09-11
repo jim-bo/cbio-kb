@@ -3,8 +3,8 @@ symbol: KDR
 aliases: [VEGFR2]
 cancer_types: [ANGS]
 tags: [amplification, gain-of-function, VEGF-signaling, sarcoma, radiation-associated]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # KDR
@@ -31,6 +31,7 @@ KDR (also known as VEGFR2) encodes vascular endothelial growth factor receptor 2
 - In the MAPPYACTS pediatric precision oncology cohort, KDR was listed among the recurrently altered genes in the CNS oncomap subset, classified at the investigational actionability tier [PMID:35292802](../papers/35292802.md).
 - KDR is co-amplified with [KIT](../genes/KIT.md) and [FGFR4](../genes/FGFR4.md) at the 4q12 kinase amplicon in osteosarcoma (10.7%), liposarcoma NOS (8.0%), and UPS/MFH (7.3%) in the MSK sarcoma genomic profiling cohort (n=7,494, FoundationOne CDx) [PMID:35705558](../papers/35705558.md)
 - KDR is recurrently altered in angiosarcoma ([ANGS](../cancer_types/ANGS.md)) at 19% frequency in the MSK sarcoma clinical sequencing cohort ([sarcoma_mskcc_2022](../datasets/sarcoma_mskcc_2022.md), n=1,148); co-occurs with [FLT4](../genes/FLT4.md) (9%) and [EPHA5](../genes/EPHA5.md) (9%) as a receptor tyrosine kinase cluster in [ANGS](../cancer_types/ANGS.md) [PMID:35705560](../papers/35705560.md)
+- KDR (VEGFR2) is part of the 6-gene Angio expression signature (with VEGFA, ESM1, PECAM1, ANGPTL4, CD34); an AngioHigh score predicted sunitinib benefit in metastatic RCC and tracked CD31 IHC vascular density [PMID:29867230](../papers/29867230.md).
 
 ## Cancer types (linked)
 
@@ -52,49 +53,35 @@ KDR (also known as VEGFR2) encodes vascular endothelial growth factor receptor 2
 
 - [PMID:37350195](../papers/37350195.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41002550](../papers/41002550.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25822088](../papers/25822088.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27442865](../papers/27442865.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27646943](../papers/27646943.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31978347](../papers/31978347.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32913971](../papers/32913971.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34272401](../papers/34272401.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
+- [PMID:29867230](../papers/29867230.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

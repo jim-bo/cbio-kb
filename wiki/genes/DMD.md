@@ -7,8 +7,8 @@ cancer_types:
   - ARMS
   - ERMS
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # DMD
@@ -21,6 +21,7 @@ DMD encodes dystrophin, a large structural protein linking the intracellular act
 
 - Known meningioma driver gene assessed in the mutational analysis of an integrative molecular classification of 565 meningiomas; DMD mutations noted alongside [SMARCB1](../genes/SMARCB1.md) in the classification framework [PMID:34433969](../papers/34433969.md).
 - 30 kb deletion acquired at relapse in one fusion-negative rhabdomyosarcoma (FN-RMS) patient; identified as an acquired somatic event in the ctDNA-based sequential genomic analysis of rhabdomyosarcoma progression [PMID:37730754](../papers/37730754.md).
+- DMD is among the lower-frequency genes (with ATM, ATP9B, COL11A1, PTK7, TRRAP) added to a ccRCC prognostic classifier for preliminary links to outcome/clinical features, though individual significance could not be robustly established [PMID:36815791](../papers/36815791.md).
 
 ## Cancer types (linked)
 
@@ -44,5 +45,6 @@ DMD encodes dystrophin, a large structural protein linking the intracellular act
 
 - [PMID:34433969](../papers/34433969.md)
 - [PMID:37730754](../papers/37730754.md)
+- [PMID:36815791](../papers/36815791.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

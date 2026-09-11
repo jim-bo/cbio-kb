@@ -5,8 +5,8 @@ drug_class: second-generation ALK tyrosine kinase inhibitor
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, alk-inhibitor, kinase-inhibitor]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # ceritinib
@@ -20,6 +20,7 @@ Ceritinib is a second-generation, irreversible [ALK](../genes/ALK.md) tyrosine k
 - In uterine sarcoma genomic profiling, an ALK-fusion patient (initially classified as uLMS, reclassified as inflammatory myofibroblastic tumor) had a brief response to [crizotinib](../drugs/crizotinib.md), progressed, then progressed again on ceritinib, illustrating sequential [ALK](../genes/ALK.md) inhibitor resistance in an [IMT](../cancer_types/IMT.md) reclassified from sarcoma [PMID:32299819](../papers/32299819.md)
 - Ceritinib ([ALK](../genes/ALK.md) inhibitor) is among the targeted therapies used in MAPPYACTS precision-oncology trial; [ALK](../genes/ALK.md) fusions (n=10) were classified ready-for-routine-use and [ALK](../genes/ALK.md) inhibitors were administered within the AcSé-ESMART platform [PMID:35292802](../papers/35292802.md)
 - 2nd-generation [ALK](../genes/ALK.md) TKI; ALK fusions present in 6.7% of [NSCLC](../cancer_types/NSCLC.md) in Chinese pan-cancer cohort (n=10,194), actionable with crizotinib/ceritinib/alectinib [PMID:35871175](../papers/35871175.md)
+- In a rhabdomyosarcoma patient-derived tumor organoid drug screen (42 single-agent/combination regimens), organoids showed relative sensitivity to the ALK inhibitor ceritinib despite broad chemotherapy resistance. [PMID:41758938](../papers/41758938.md)
 
 ## Resistance mechanisms
 
@@ -40,3 +41,6 @@ Ceritinib is a second-generation, irreversible [ALK](../genes/ALK.md) tyrosine k
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:41758938](../papers/41758938.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

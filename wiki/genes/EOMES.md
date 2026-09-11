@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - MB
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # EOMES
@@ -17,6 +17,7 @@ EOMES (Eomesodermin) encodes a T-box transcription factor involved in brain deve
 ## Alterations observed in the corpus
 
 - Inversely expressed with [TBR1](../genes/TBR1.md) in Group 4 medulloblastoma; methylation-dependent differential expression across subgroups identified by WGS/WES (ICGC, 76 tumors) [PMID:22832583](../papers/22832583.md)
+- EOMES is one of five genes (with CD8A, PRF1, IFNG, CD274) composing the Teff (effector T-cell) signature in renal cell carcinoma; TeffHigh tumors showed benefit from atezolizumab + bevacizumab and tracked CD8 IHC [PMID:29867230](../papers/29867230.md).
 
 ## Cancer types (linked)
 
@@ -38,5 +39,6 @@ EOMES (Eomesodermin) encodes a T-box transcription factor involved in brain deve
 ## Sources
 
 - [PMID:22832583](../papers/22832583.md)
+- [PMID:29867230](../papers/29867230.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -4,8 +4,8 @@ oncotree_code: UEC
 main_type: Endometrial Cancer
 parent: UCEC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Uterine Endometrioid Carcinoma (UEC)
@@ -32,6 +32,7 @@ Uterine Endometrioid Carcinoma (UEC) is the most common histologic subtype of en
 - MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; UEC is among tumor types analyzed for [FGA](../genes/FGA.md), TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 - In 184 MSI-H endometrial carcinomas, [MLH1](../genes/MLH1.md) promoter hypermethylation (65% of cohort) defined a clinically distinct subgroup: older patients (median 64 vs 54 years, p<0.001), more obese, higher FIGO stage, more LVSI, [JAK1](../genes/JAK1.md) frameshift indels enriched (45%), lower TIL scores, and inferior exploratory ICI response (25% progression on [pembrolizumab](../drugs/pembrolizumab.md) vs 0% in germline/somatic) [PMID:35849120](../papers/35849120.md).
 - MSK cfDNA pilot ([ucec_ccr_cfdna_msk_2022](../datasets/ucec_ccr_cfdna_msk_2022.md)): endometrioid cases comprised 24/44 (55%) of cohort; no low-grade stage I UEC patient had detectable baseline ctDNA with MSK-ACCESS, consistent with favorable prognosis and supporting de-escalation study design [PMID:36007103](../papers/36007103.md)
+- Endometrioid histology (UEC) accounted for 66% of ERBB2-mutated/non-amplified endometrial carcinomas in an MSK-IMPACT cohort, of which 79% were FIGO grade 1-2, the most common histology in this molecular subgroup. [PMID:39031567](../papers/39031567.md)
 
 ## Subtypes
 
@@ -66,3 +67,6 @@ Uterine Endometrioid Carcinoma (UEC) is the most common histologic subtype of en
 - [PMID:36007103](../papers/36007103.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39031567](../papers/39031567.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

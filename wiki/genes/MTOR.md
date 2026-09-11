@@ -9,8 +9,8 @@ tags:
   - kinase
   - PI3K_pathway
   - drug_target
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # MTOR
@@ -51,6 +51,8 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - In the MAPPYACTS pediatric precision oncology trial, mTOR pathway alterations (PIK3CA/PIK3R1 n=23 events, [PTEN](../genes/PTEN.md) losses n=25) were matched to mTOR inhibitors ([vistusertib](../drugs/vistusertib.md), [everolimus](../drugs/everolimus.md)) explored in AcSé-ESMART arms E/F; mTOR inhibitor recommendations totaled n=123 across the 624-patient cohort [PMID:35292802](../papers/35292802.md).
 - Component of the PI3K-pathway targetable hits in myxoid liposarcoma ([MRLS](../cancer_types/MRLS.md)); collectively 31% of [MRLS](../cancer_types/MRLS.md) carry actionable PI3K-pathway alterations ([PIK3CA](../genes/PIK3CA.md), [AKT1](../genes/AKT1.md), MTOR, [TSC1](../genes/TSC1.md)) [PMID:35705560](../papers/35705560.md)
 - AKT/mTOR signaling integrates lipid metabolism with proliferation in [HCC](../cancer_types/HCC.md); mTOR is part of the RTK/PI3K/AKT/mTOR axis where cholesterol-remodeled lipid rafts activate upstream signaling; PI3K/AKT/mTOR regulates SREBP1 ([SREBF1](../genes/SREBF1.md)) and de novo lipogenesis [PMID:41118283](../papers/41118283.md)
+- Mutated in 3.05–8.70% of solitary fibrous tumors across four cohorts; associated with shorter PFS (p=3.00E-05) and the sole molecular variable in the integrated risk model [PMID:37980418](../papers/37980418.md).
+- Enriched alongside SETD2 in 47% of BRAF V600-mutant lung adenocarcinoma and with AKT1 in BRAF Class I-altered tumors pan-cancer [PMID:41895280](../papers/41895280.md).
 
 ## Cancer types (linked)
 
@@ -100,13 +102,12 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 
 - [PMID:34534465](../papers/34534465.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35292802](../papers/35292802.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41118283](../papers/41118283.md)
+- [PMID:37980418](../papers/37980418.md)
+- [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

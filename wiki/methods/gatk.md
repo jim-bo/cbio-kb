@@ -10,8 +10,8 @@ tags:
   - bioinformatics
   - somatic
   - germline
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # GATK (Genome Analysis Toolkit)
@@ -29,6 +29,8 @@ GATK (Genome Analysis Toolkit) is a software suite developed at the Broad Instit
 - Used in [prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md) for somatic variant calling pipeline in 168 prostate cancer brain metastasis WES samples; part of the standard somatic SNV/indel calling workflow [PMID:35504881](../papers/35504881.md)
 - GATK (MuTect2) used for somatic variant calling in the GLASS longitudinal diffuse glioma cohort with b37-aligned whole-exome and whole-genome sequencing data [PMID:35649412](../papers/35649412.md)
 - GATK 4.1.2.0 HaplotypeCaller used for germline variant calling and Mutect2 for somatic short-variant calling in WGS of 25 metastatic [CSCC](../cancer_types/CSCC.md) lymph node specimens aligned to GRCh38 [PMID:35982973](../papers/35982973.md)
+- Used for indel realignment ahead of Strelka/LoFreq somatic variant calling in exome-sequenced IMmotion150 renal cell carcinoma tumors [PMID:29867230](../papers/29867230.md).
+- Used (with Picard) for post-alignment read refinement in the GenPipes variant-calling pipeline for a 943-patient clear cell RCC cohort [PMID:36815791](../papers/36815791.md).
 
 ## Notes
 
@@ -39,24 +41,15 @@ GATK (Genome Analysis Toolkit) is a software suite developed at the Broad Instit
 
 ## Sources
 
+- [PMID:34272401](../papers/34272401.md)
+- [PMID:34145282](../papers/34145282.md)
+- [PMID:34493867](../papers/34493867.md)
+- [PMID:35504881](../papers/35504881.md)
+- [PMID:35649412](../papers/35649412.md)
+- [PMID:35982973](../papers/35982973.md)
+- [PMID:29867230](../papers/29867230.md)
+- [PMID:36815791](../papers/36815791.md)
+
 - [PMID:33106634](../papers/33106634.md) — Bolton et al., clonal hematopoiesis in 24,146 cancer patients; GATK v3.3-0 used for base-quality recalibration in MSK-IMPACT CH calling pipeline.
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:34272401](../papers/34272401.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:34145282](../papers/34145282.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:34493867](../papers/34493867.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:35504881](../papers/35504881.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:35649412](../papers/35649412.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
-- [PMID:35982973](../papers/35982973.md)
-
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

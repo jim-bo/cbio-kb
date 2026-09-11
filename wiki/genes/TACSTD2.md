@@ -5,8 +5,8 @@ aliases:
 cancer_types:
   - COAD
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # TACSTD2
@@ -19,6 +19,7 @@ TACSTD2 (Tumor-Associated Calcium Signal Transducer 2), also known as TROP2, enc
 
 - Co-expressed as part of the gastric/endodermal program (alongside [AQP5](../genes/AQP5.md), [TFF2](../genes/TFF2.md), [MSLN](../genes/MSLN.md)) in sessile serrated cells (SSCs) in the COLON MAP/HTAN colorectal polyp atlas; TACSTD2 (TROP2) marks the metaplastic serrated lineage [PMID:34910928](../papers/34910928.md)
 - TACSTD2 (TROP2A) is a stem cell marker elevated in CRPC-SCL subtype, alongside [CD44](../genes/CD44.md); defined as a key surface marker for this castration-resistant prostate cancer lineage in a multi-omics classification study [PMID:35617398](../papers/35617398.md)
+- TROP2 (TACSTD2) is an injury-repair-module gene co-expressed with L1CAM/EMP1 and upregulated at the protein level in colorectal cancer metastases relative to matched primary tumors [PMID:39478232](../papers/39478232.md).
 
 ## Cancer types (linked)
 
@@ -40,7 +41,7 @@ TACSTD2 (Tumor-Associated Calcium Signal Transducer 2), also known as TROP2, enc
 
 - [PMID:34910928](../papers/34910928.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35617398](../papers/35617398.md)
+- [PMID:39478232](../papers/39478232.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

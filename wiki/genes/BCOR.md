@@ -7,8 +7,8 @@ tags:
   - tumor-suppressor
   - chromatin-remodeling
   - rhabdomyosarcoma
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # BCOR
@@ -44,6 +44,10 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 - Transient clonal oncogenic mutation detected 2 years before transformation in pediatric neuroblastoma patient 118731 developing t-MDS (fell below detection at t-MDS diagnosis); also found in one control-cohort patient (who died of neuroblastoma) [PMID:35078859](../papers/35078859.md)
 - BCOR oncogenic alterations occur in 16% of embryonal rhabdomyosarcoma ([ERMS](../cancer_types/ERMS.md)), mutually exclusive with [DICER1](../genes/DICER1.md) alterations (12% [ERMS](../cancer_types/ERMS.md)); BCOR and [DICER1](../genes/DICER1.md) define genomically distinct [ERMS](../cancer_types/ERMS.md) subsets [PMID:35705560](../papers/35705560.md)
 - Enriched in the HSC-like cell state in AML (ex vivo drug sensitivity study, n=805 patients); BCOR-mutant AML shows cell-state biased drug response patterns [PMID:35868306](../papers/35868306.md)
+- BCOR-CCNB3 fusion identified in a Ewing-like sarcoma case within a pediatric solid tumor PDX genomics cohort [PMID:37990009](../papers/37990009.md).
+- One of several epigenetic-modifier genes (with IDH1, IDH2, ASXL1, KDM6A, PHF6) differentially enriched between HOXA- and HOXB-superfamily expression groups in a pediatric AML molecular classification [PMID:38212634](../papers/38212634.md).
+- Recurrently mutated (n=2) in metastatic pheochromocytoma/paraganglioma; the BCOR mutation was truncal in one case (E169) [PMID:40097403](../papers/40097403.md).
+- Recurrent alteration (5-15% of cases) in genes upstream of PI3K/AKT/mTOR signaling in MYOD1 L122R-driven soft tissue tumors [PMID:41758938](../papers/41758938.md).
 
 ## Cancer types (linked)
 
@@ -138,3 +142,15 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 - [PMID:35868306](../papers/35868306.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38212634](../papers/38212634.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40097403](../papers/40097403.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41758938](../papers/41758938.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

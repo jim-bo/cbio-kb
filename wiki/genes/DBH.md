@@ -3,8 +3,8 @@ symbol: DBH
 aliases: []
 cancer_types: [NBL]
 tags: [noradrenergic-marker, neuroblastoma, adrenal-gland, differentiation]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # DBH
@@ -18,6 +18,7 @@ DBH (dopamine beta-hydroxylase) encodes the enzyme that converts dopamine to nor
 - DBH marks the noradrenergic (NOR) tumor clusters (nC5/nC7/nC8/nC9) in neuroblastoma snRNA-seq and is part of the noradrenergic/adrenergic panel ([PHOX2B](../genes/PHOX2B.md), [PHOX2A](../genes/PHOX2A.md), [TH](../genes/TH.md), DBH, [CHGA](../genes/CHGA.md), [CHGB](../genes/CHGB.md), [PNMT](../genes/PNMT.md), [ISL1](../genes/ISL1.md)) enriched in low-risk tumors and postnatal chromaffin cells [PMID:34493726](../papers/34493726.md).
 - RNA velocity and pseudotime analyses identify a differentiation trajectory from a [MKI67](../genes/MKI67.md)+ progenitor (hC1) through a DBH+ noradrenergic intermediate stage to a [PNMT](../genes/PNMT.md)+ adrenergic state within the normal postnatal adrenal gland [PMID:34493726](../papers/34493726.md).
 - NOR clusters over-express DBH (alongside [NTRK1](../genes/NTRK1.md), [TH](../genes/TH.md), [PHOX2A](../genes/PHOX2A.md), [PHOX2B](../genes/PHOX2B.md), and [ISL1](../genes/ISL1.md); all FDR <0.01, Welch's t-test), in contrast to the undifferentiated high-risk nC3 cluster which lacks DBH expression [PMID:34493726](../papers/34493726.md).
+- DBH expression was silenced by promoter methylation in biochemically silent, dopaminergic, or NET-low pheochromocytoma/paraganglioma tumors. [PMID:40097403](../papers/40097403.md)
 
 ## Cancer types (linked)
 
@@ -38,5 +39,6 @@ DBH (dopamine beta-hydroxylase) encodes the enzyme that converts dopamine to nor
 ## Sources
 
 - [PMID:34493726](../papers/34493726.md)
+- [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

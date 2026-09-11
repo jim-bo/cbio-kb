@@ -4,7 +4,7 @@ aliases: [MLL, MLL1, ALL-1, HRX, TRX1]
 cancer_types: [BLLKMT2A, BLCA]
 tags: [epigenetic-regulator, histone-methyltransferase, fusion-gene]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # KMT2A
@@ -35,6 +35,7 @@ processed_at: 2026-05-16
 - An AFF1-KMT2A fusion confers dependence on AFF1 in cancer cell lines, identified via cross-referencing with RNAi loss-of-function data in the CCLE cancer cell line encyclopedia [PMID:31068700](../papers/31068700.md).
 - Fusions detected in all MLL-ALL PDX models in the PPTC pediatric cancer PDX panel (261 models across 37 pediatric cancer types) [PMID:31693904](../papers/31693904.md).
 - Canonical breakpoint-region rearrangements in 6/17 pediatric neuroblastoma transformation patients; partners include ELL, AFF1, FRYL, GAS7, and novel PRDM10 and DDX6; associated with topoisomerase-II exposure and earlier transformation (median detection 15 months before clinical diagnosis) [PMID:35078859](../papers/35078859.md)
+- KMT2A rearrangements (KMT2Ar, 20.3% of 887 AML cases) and KMT2A partial tandem duplications formed the largest single class-defining molecular category, clustering in the HOXA superfamily with KAT6Ar [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
@@ -57,58 +58,41 @@ processed_at: 2026-05-16
 
 - [PMID:25730765](../papers/25730765.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:30061739](../papers/30061739.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25417114](../papers/25417114.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26278805](../papers/26278805.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27276561](../papers/27276561.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27713405](../papers/27713405.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30333627](../papers/30333627.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30687805](../papers/30687805.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31068700](../papers/31068700.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:35078859](../papers/35078859.md)
+- [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

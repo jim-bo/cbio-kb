@@ -9,8 +9,8 @@ tags:
   - signature-deconvolution
   - somatic-mutation
   - cosmic
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # deconstructSigs
@@ -26,6 +26,8 @@ deconstructSigs is an R package for decomposing the mutational spectrum of a tum
 - Applied to compute mutational signature decomposition in 38 [MBC](../cancer_types/MBC.md) WES samples; 60% displayed dominant COSMIC signatures 3/8 (HRD-associated), 34% signatures 1/5 (aging); used alongside [SigMA](../methods/sigma-mutational-signatures.md) for cross-validation [PMID:33863915](../papers/33863915.md)
 - Used in [prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md) to decompose mutational signatures in 168 prostate cancer brain metastasis samples, identifying enrichment of SBS3 (HRD), SBS1, SBS5, SBS16, and SBS44 (MMR-deficiency) signatures [PMID:35504881](../papers/35504881.md)
 - deconstructSigs applied with COSMIC v3.1 reference to decompose mutational signatures in 184 MSI-H/MMR-D endometrial cancers; aging-related signature 1 dominated germline/somatic cases while MMR-D signatures 6/15/20/26 dominated MLH1-promoter-hypermethylated cases [PMID:35849120](../papers/35849120.md)
+- Used to derive COSMIC mutational signatures as part of the genomic pipeline in a breast cancer proteogenomic cohort [PMID:36001024](../papers/36001024.md)
+- Used with COSMIC v3.2 signatures to characterize mutational processes in pediatric solid-tumor PDX models [PMID:37990009](../papers/37990009.md)
 
 ## Notes
 
@@ -51,3 +53,9 @@ deconstructSigs is an R package for decomposing the mutational spectrum of a tum
 - [PMID:35849120](../papers/35849120.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

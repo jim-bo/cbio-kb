@@ -7,8 +7,8 @@ tags:
   - tumor-suppressor
   - hypermutated
   - TGF-beta-pathway
-processed_by: crosslinker
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # BMPR2
@@ -20,6 +20,7 @@ BMPR2 (Bone Morphogenetic Protein Receptor Type 2) is a TGF-beta superfamily rec
 ## Alterations observed in the corpus
 
 - BMPR2 identified as a newly discovered SMG in the hypermutated (MSI-H) subgroup of a prospective proteogenomic colon cancer cohort (n=110); mutated in >50% of hypermutated samples; not reported as an SMG in the prior TCGA colorectal study [PMID:31031003](../papers/31031003.md)
+- A high-confidence significantly mutated gene (HC-SMG) in ~6% of colorectal tumors in a large pan-colon sequencing cohort [PMID:35487942](../papers/35487942.md).
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ BMPR2 (Bone Morphogenetic Protein Receptor Type 2) is a TGF-beta superfamily rec
 - [PMID:31031003](../papers/31031003.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

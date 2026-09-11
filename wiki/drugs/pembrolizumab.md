@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
 processed_by: wiki-cli
-processed_at: 2026-05-21
+processed_at: 2026-09-10
 ---
 
 # pembrolizumab
@@ -62,6 +62,13 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - In 18 recurrent MSI-H endometrial carcinoma patients treated with on-label pembrolizumab, 4/16 (25%) MLH1-promoter-hypermethylated (MLH1ph) patients had disease progression vs 0/2 germline/somatic patients; overall response rate was 63% and clinical-benefit rate 75% in the MLH1ph group; authors note FDA approval of pembrolizumab for all MMR-D ECs regardless of mechanism may warrant refinement given this heterogeneity [PMID:35849120](../papers/35849120.md).
 - Anti-PD-1 antibody; indicated for TMB-H (Level 1) and MSI-H (Level 1) in Chinese pan-cancer cohort (n=10,194); 64% of patients have OncoKB Level 1–4 actionable variant; 30.3% IO-biomarker positive (MSI-H or TMB-H or PD-L1+) [PMID:35871175](../papers/35871175.md)
 - Pembrolizumab is cited in the context of an active clinical trial (NCT06636734) combining lovastatin with pembrolizumab in HNSCC; the review frames statin co-administration with ICI as a promising strategy given HMGCR inhibition's preclinical anti-tumor activity in [HCC](../cancer_types/HCC.md) [PMID:41118283](../papers/41118283.md).
+- Randomized pilot trial (n=35 recurrent glioblastoma): adding one neoadjuvant pembrolizumab dose before resection extended OS (417 vs 228 days, HR 0.39, P=0.04) and PFS (99.5 vs 72.5 days, HR 0.43, P=0.03) versus adjuvant-only dosing. [PMID:30742122](../papers/30742122.md)
+- Phase II trial (NCT02768701, n=40 mTNBC): a single priming dose of cyclophosphamide before pembrolizumab did not deplete peripheral Tregs or improve PFS versus historical controls; ORR was 21%. [PMID:35121644](../papers/35121644.md)
+- Authors note FDA approval of pembrolizumab for TMB-high solid tumors relied on limited gene panels, and argue WES-derived TMB (benchmarked here in about 1,000 Asian CRCs) is the gold standard for this indication. [PMID:35487942](../papers/35487942.md)
+- Authors propose multiplexed targeted proteomic assays alongside PD-L1 IHC to better characterize the immune microenvironment in pembrolizumab-era neoadjuvant TNBC. [PMID:36001024](../papers/36001024.md)
+- Authors cite the KEYNOTE-564 adjuvant approval of pembrolizumab (68% of placebo patients recurrence-free at 2 years) as evidence current risk models over-treat resected RCC; a VHL-mutation-count classifier is proposed to identify patients who could be spared adjuvant pembrolizumab. [PMID:36815791](../papers/36815791.md)
+- One MSI-H/Lynch-syndrome UTUC patient (PT23, TMB 27.5) had a durable response to pembrolizumab after gemcitabine/cisplatin and radiotherapy. [PMID:39550333](../papers/39550333.md)
+- Cited as part of the approved first-line metastatic urothelial carcinoma landscape: enfortumab vedotin plus pembrolizumab (EV-302/KN-A39, NCT04223856). [PMID:39642637](../papers/39642637.md)
 
 ## Resistance mechanisms
 
@@ -134,3 +141,24 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*
+- [PMID:30742122](../papers/30742122.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:35121644](../papers/35121644.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36815791](../papers/36815791.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39550333](../papers/39550333.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39642637](../papers/39642637.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

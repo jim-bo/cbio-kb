@@ -3,8 +3,8 @@ symbol: TRRAP
 aliases: []
 cancer_types: [MBL]
 tags: [histone-acetyltransferase, WNT-pathway, chromatin-remodeling, medulloblastoma]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # TRRAP
@@ -18,6 +18,7 @@ TRRAP (Transformation/Transcription domain-Associated Protein) is a non-catalyti
 - Missense mutations in TRRAP identified in the WNT subgroup of medulloblastoma WGS (PCGP cohort, 37 tumors); TRRAP is recruited to WNT-responsive gene targets by [CTNNB1](../genes/CTNNB1.md) as part of a histone acetyltransferase complex [PMID:22722829](../papers/22722829.md)
 - TRRAP identified as a newly mutated gene in TCC bladder cancer [PMID:24121792](../papers/24121792.md)
 - TRRAP mutation present in the untreated TURBT primary (WCM117 rapid-autopsy case) but absent from post-chemotherapy metastases, indicating elimination of the TRRAP-mutant clone under platinum-based chemotherapy selection pressure. [PMID:27749842](../papers/27749842.md)
+- TRRAP was included as a lower-frequency gene in a ccRCC prognostic classifier because of preliminary links to outcome, though its individual significance could not be robustly established [PMID:36815791](../papers/36815791.md).
 
 ## Cancer types (linked)
 
@@ -40,10 +41,9 @@ TRRAP (Transformation/Transcription domain-Associated Protein) is a non-catalyti
 
 - [PMID:22722829](../papers/22722829.md) — Medulloblastoma WGS, 37 tumors, PCGP cohort
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27749842](../papers/27749842.md)
+- [PMID:36815791](../papers/36815791.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

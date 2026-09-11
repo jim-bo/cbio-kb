@@ -3,8 +3,8 @@ symbol: PCNA
 aliases: []
 cancer_types: [DIFG, ASTR]
 tags: [dna-replication, prognostic, glioma]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-09-10
 canonical_source: cbioportal
 unverified: false
 ---
@@ -19,6 +19,7 @@ PCNA (Proliferating Cell Nuclear Antigen) is an essential sliding clamp for DNA 
 
 - PCNA is a target gene of [HOXD13](../genes/HOXD13.md) in IDH-mutant astrocytoma progression; PCNA upregulation is associated with treatment-related epigenetic demethylation and the transition to an aggressive, IDH-wildtype-like phenotype at recurrence [PMID:38117484](../papers/38117484.md).
 - PCNA is cited as a prognostic indicator in gliomas and a potential therapeutic target within the [HOXD13](../genes/HOXD13.md) transcriptional network [PMID:38117484](../papers/38117484.md).
+- PCNA, a proliferation marker, was more highly expressed in group 2 pediatric solid tumor PDXs than their matched primary tumors, with the reverse pattern in group 1 [PMID:37990009](../papers/37990009.md).
 
 ## Cancer types (linked)
 
@@ -39,5 +40,6 @@ PCNA (Proliferating Cell Nuclear Antigen) is an essential sliding clamp for DNA 
 ## Sources
 
 - [PMID:38117484](../papers/38117484.md)
+- [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

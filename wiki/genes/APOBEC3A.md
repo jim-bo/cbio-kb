@@ -8,8 +8,8 @@ tags:
   - cytidine-deaminase
   - apobec
   - chemotherapy-resistance
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # APOBEC3A
@@ -28,6 +28,7 @@ APOBEC3A (Apolipoprotein B mRNA Editing Catalytic Polypeptide-Like 3A) is a memb
 - Germline ~30-kb APOBEC3A–APOBEC3B fusion deletion (rs12628403) and independent rs2142833 cis-eQTL modulate APOBEC mutagenesis pan-cancer across 2,658 whole-genome-sequenced PCAWG tumors [PMID:32025007](../papers/32025007.md)
 - APOBEC3A is implicated as an enzymatic source of SBS2 and SBS13 mutational signatures in resected lung adenocarcinoma; these signatures were independently associated with postresection recurrence (~2-fold elevated risk), particularly in acinar/papillary tumors. [PMID:32791233](../papers/32791233.md)
 - Kataegis events in LCINS WGS cohort show APOBEC3A-like mutational signatures; enriched in tumors co-occurring with MDM2 amplification (kataegis hotspot P=1.3e-15). [PMID:34493867](../papers/34493867.md)
+- Catalytically active (not catalytically dead) overexpression, together with APOBEC3B, reproduces the APOBEC3 mutational signature, kataegis and structural instability in ER+/HER2+ breast cancer cell lines and accelerates resistance to fulvestrant, CDK4/6 inhibitors and HER2-targeted therapy [PMID:40379787](../papers/40379787.md)
 
 ## Cancer types (linked)
 
@@ -67,3 +68,6 @@ APOBEC3A (Apolipoprotein B mRNA Editing Catalytic Polypeptide-Like 3A) is a memb
 - [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:40379787](../papers/40379787.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

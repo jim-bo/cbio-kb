@@ -8,7 +8,7 @@ tags:
   - hepatobiliary
   - cholangiocarcinoma
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # Cholangiocarcinoma (CHOL)
@@ -33,6 +33,7 @@ Cholangiocarcinoma (CCA) is a malignancy arising from the biliary epithelium. In
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); CHOL standardized OS, PFI, DFI, and DSS endpoints derived [PMID:29625055](../papers/29625055.md)
 - MSK-IMPACT prospective profiling of 195 cholangiocarcinoma patients (158 IHCH, 37 EHCH): most common alterations were IDH1 (25%), TP53 (24%), ARID1A (21%), BAP1 (15%), KRAS (13%); 47.6% had an OncoKB level 3B+ actionable alteration; CDKN2A/B and ERBB2 alterations associated with shorter OS (p=0.0015 for both) [PMID:29848569](../papers/29848569.md)
 - MSK-ACCESS cfDNA panel (129 genes) was prospectively applied to 617 patients including biliary cancer patients (part of the combined 28% PRAD/BLCA/PAAD/biliary group); FGFR2 mutations and fusions (most commonly FGFR2-BICC1) identified in 8/24 intrahepatic cholangiocarcinomas with detectable ctDNA, including missense mutations conferring FGFR-inhibitor resistance; IDH1 and PIK3CA were also recurrently detected [PMID:34145282](../papers/34145282.md).
+- Among MSK-IMPACT-profiled biliary tract cancers, intrahepatic cholangiocarcinoma was enriched for IDH1, FGFR2, BAP1 and PBRM1 alterations relative to extrahepatic cholangiocarcinoma and gallbladder cancer, while KRAS alterations were most frequent in extrahepatic cholangiocarcinoma [PMID:42360806](../papers/42360806.md).
 
 ## Subtypes
 
@@ -75,3 +76,6 @@ Cholangiocarcinoma (CCA) is a malignancy arising from the biliary epithelium. In
 - [PMID:29848569](../papers/29848569.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

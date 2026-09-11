@@ -9,7 +9,7 @@ tags:
   - somatic
   - bioinformatics
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # VarScan
@@ -35,6 +35,10 @@ VarScan is a platform-independent variant detection tool for next-generation seq
 - Used for somatic variant calling in pediatric cancer WGS samples [PMID:29670109](../papers/29670109.md)
 - VarScan 2 v2.4.1 used for somatic indel calling from whole-exome sequencing of 622 AML specimens in the Beat AML study (aml_ohsu_2018) [PMID:30333627](../papers/30333627.md)
 - Part of the consensus SNV/indel calling pipeline in the high-grade UTUC WES study (37 tumor-normal pairs), used together with [mutect](../methods/mutect.md) and [strelka](../methods/strelka.md); consensus calls annotated by [oncotator](../methods/oncotator.md) [PMID:31278255](../papers/31278255.md)
+- One of three somatic callers (with Mutect2 and TNscope) requiring agreement from at least 2 of 3 for SNV/indel calls in a paired tumor-normal WES cohort [PMID:35487942](../papers/35487942.md)
+- Called somatic and germline variants (VarDict re-called indels/complex variants) in a GenPipes DNA-Seq high-coverage pipeline [PMID:36815791](../papers/36815791.md)
+- One of four callers (with MuTect2, Strelka, Pindel) requiring calls from at least 2 callers (paired) or all three non-Pindel callers (tumor-only) in a pediatric solid-tumor PDX cohort [PMID:37990009](../papers/37990009.md)
+- Used (with Strelka, Platypus and Scalpel) for indel calling in three whole-genome-sequenced breast cancer cases [PMID:38347189](../papers/38347189.md)
 
 ## Notes
 
@@ -86,3 +90,15 @@ VarScan is a platform-independent variant detection tool for next-generation seq
 - [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36815791](../papers/36815791.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38347189](../papers/38347189.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

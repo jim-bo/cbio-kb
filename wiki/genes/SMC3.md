@@ -3,8 +3,8 @@ symbol: SMC3
 aliases: []
 cancer_types: [AML]
 tags: [cohesin, chromatin, AML]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # SMC3
@@ -17,6 +17,7 @@ SMC3 encodes structural maintenance of chromosomes protein 3, a core ATPase subu
 
 - SMC3 is a recurrent cohesin-complex gene mutated in [AML](../cancer_types/AML.md) (13% combined cohesin prevalence alongside [SMC1A](../genes/SMC1A.md), [RAD21](../genes/RAD21.md), and [STAG2](../genes/STAG2.md)) [PMID:23634996](../papers/23634996.md)
 - Cohesin subunit altered in 2% of transitional cell carcinoma; part of the 32% SCCS-pathway alteration burden defining bladder cancer as the first solid tumor with predominant cohesin lesions [PMID:24121792](../papers/24121792.md)
+- SMC3 was not on the 111-gene bait set used in this MDS cohort (described after panel design) and may help explain part of the 22% of driver-negative patients, alongside SETBP1 and SMC1A [PMID:24030381](../papers/24030381.md)
 
 ## Cancer types (linked)
 
@@ -38,7 +39,7 @@ SMC3 encodes structural maintenance of chromosomes protein 3, a core ATPase subu
 
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24121792](../papers/24121792.md)
+- [PMID:24030381](../papers/24030381.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

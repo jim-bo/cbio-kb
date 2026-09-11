@@ -3,8 +3,8 @@ symbol: USP9X
 aliases: []
 cancer_types: [BRCA]
 tags: [ubiquitin-protease, tumor-suppressor, breast-cancer]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # USP9X
@@ -17,6 +17,7 @@ USP9X (Ubiquitin Specific Peptidase 9 X-Linked) is a deubiquitinase that regulat
 
 - Inactivating mutations in USP9X associated with worse breast-cancer-specific survival in ER+ tumors (HR=3.0); identified as a Mut-driver candidate in breast cancer via 2,433-sample targeted-panel WES (METABRIC/ICGC) [PMID:27161491](../papers/27161491.md).
 - USP9X was not covered by MSK-IMPACT and could not be evaluated in 119 [LGSOC](../cancer_types/LGSOC.md) patients; prior whole-exome studies had reported USP9X alterations in up to 27% of LGSCs, which may account for some of the 18% of cases with no detectable driver on panel testing [PMID:35443055](../papers/35443055.md)
+- USP9X was a significantly mutated gene (HC-SMG) in 3% of a colorectal cancer cohort [PMID:35487942](../papers/35487942.md).
 
 ## Cancer types (linked)
 
@@ -38,7 +39,7 @@ USP9X (Ubiquitin Specific Peptidase 9 X-Linked) is a deubiquitinase that regulat
 
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35443055](../papers/35443055.md)
+- [PMID:35487942](../papers/35487942.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

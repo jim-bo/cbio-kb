@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [copy-number, bioinformatics, cnv]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # CNVkit
@@ -21,6 +21,7 @@ CNVkit is an open-source toolkit for copy-number variant (CNV) detection from ta
 - Applied for somatic copy-number inference from whole-exome sequencing data (58 matched tumor/blood pairs) in the GBM anti-PD-1 immunotherapy cohort (gbm_columbia_2019) [PMID:30742119](../papers/30742119.md)
 - Used for copy-number variation calling from WES data in the pan-Asia cHCC-ICC study (133 cases); identified focal amplifications in [MYC](../genes/MYC.md) (73%), [MET](../genes/MET.md) (24%), and [CCNE1](../genes/CCNE1.md) (24%), and deletions in [CDKN2A](../genes/CDKN2A.md) (37%) [PMID:31130341](../papers/31130341.md)
 - Used in reference mode (using per-study panels of normals) to call somatic copy-number alterations in 88 CSCC tumors from 10 reprocessed WES/WGS studies; identified focal homozygous deletions of CDKN2A and PTEN and focal amplifications of CCND1, MDM2, YAP1, and RAP1B [PMID:34272401](../papers/34272401.md)
+- Used alongside PureCN, Sequenza and GISTIC2 for copy-number calling in a pediatric solid-tumor PDX genomic landscape study [PMID:37990009](../papers/37990009.md)
 
 ## Notes
 
@@ -43,3 +44,6 @@ CNVkit is an open-source toolkit for copy-number variant (CNV) detection from ta
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [fgfr-inhibitor, targeted-therapy]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # infigratinib
@@ -21,6 +21,7 @@ Selective FGFR1/2/3 tyrosine kinase inhibitor referenced as a comparator FGFR-ta
 - In a PDTO functional screen of 92 sarcoma specimens, SARC0133 ([RMS](../cancer_types/RMS.md)) was the top responder to infigratinib; WGS revealed an [FGFR1](../genes/FGFR1.md) gain on chromosome 8, but PDTOs were not sensitive to [dovitinib](../drugs/dovitinib.md), demonstrating intra-class drug differentiation among FGFR inhibitors [PMID:39305899](../papers/39305899.md).
 - [FGFR2](../genes/FGFR2.md) fusion/rearrangement-positive iCCA: phase III trial was negative vs. [gemcitabine](../drugs/gemcitabine.md) + [cisplatin](../drugs/cisplatin.md) but showed consistent 37.9% ORR; secondary on-target [FGFR2](../genes/FGFR2.md) kinase-domain resistance mutations (N550, V565) emerge in ~60% of patients on reversible inhibitors [PMID:41008893](../papers/41008893.md)
 - Pan-FGFR inhibitor (BGJ398) used as matched targeted therapy in 6 of 25 cholangiocarcinoma patients with FGFR2 fusions (14% of intrahepatic cholangiocarcinoma); 64% of biomarker-directed patients had response or clinical benefit [PMID:29848569](../papers/29848569.md)
+- Used (as BGJ398) in an exceptional immune-checkpoint-blockade responder in a UTUC cohort after gemcitabine/carboplatin, but stopped for renal toxicity before subsequent nivolumab [PMID:39550333](../papers/39550333.md).
 
 ## Resistance mechanisms
 
@@ -44,3 +45,6 @@ Selective FGFR1/2/3 tyrosine kinase inhibitor referenced as a comparator FGFR-ta
 - [PMID:29848569](../papers/29848569.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:39550333](../papers/39550333.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

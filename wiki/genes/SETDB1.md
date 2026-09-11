@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PLMESO]
 tags: [histone-methyltransferase, tumor-suppressor, mesothelioma, genomic-near-haploidization]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # SETDB1
@@ -20,6 +20,7 @@ SETDB1 encodes a histone H3K9 methyltransferase involved in transcriptional repr
 - Chromatin-modifier mutation identified in MSK prostate cancer cell lines, consistent with Grasso 2012 CRPC findings of frequent epigenetic gene alterations in castration-resistant prostate cancer [PMID:25201530](../papers/25201530.md)
 - 1q21.1 SETDB1/MLLT11 co-amplification (P=0.0002) defines CN Cluster B in urothelial carcinoma, enriched for TP53 mutations (P=0.0001), in a cohort of 72 tumours from 32 patients undergoing WES pre/post platinum-based chemotherapy. [PMID:27749842](../papers/27749842.md)
 - 1q-encoded histone modifier in endometrial cancer; anticorrelated with p53-pathway target proteins (CDKN1A, TNFRSF10B); MDM4 mRNA increases with 1q copy number in MSI tumors [PMID:32059776](../papers/32059776.md)
+- Located in a GISTIC2 amplification peak (with EZH2) in hepatoblastoma PDX/primary tumor pairs. [PMID:37990009](../papers/37990009.md)
 
 ## Cancer types (linked)
 
@@ -41,13 +42,11 @@ SETDB1 encodes a histone H3K9 methyltransferase involved in transcriptional repr
 
 - [PMID:38630790](../papers/38630790.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27749842](../papers/27749842.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:32059776](../papers/32059776.md)
+- [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

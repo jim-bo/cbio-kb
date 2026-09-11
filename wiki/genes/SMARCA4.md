@@ -3,8 +3,8 @@ symbol: SMARCA4
 aliases: [BRG1]
 cancer_types: [MRTL, ESCA, ESCC, EAC]
 tags: [tumor-suppressor, somatic, swi-snf, chromatin-remodeling, ezh2-target]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # SMARCA4
@@ -32,6 +32,7 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 - SMARCA4 and [SMARCB1](../genes/SMARCB1.md) inactivating events (combined n=27) recurrent in rhabdoid tumor (MRT/ATRT) and other CNS tumors in the AcSé-MAPPYACTS pediatric cohort; matched to [EZH2](../genes/EZH2.md) inhibitors as investigational therapy [PMID:35292802](../papers/35292802.md).
 - NSCLC-typical SMARCA4 mutations observed in [SCLC](../cancer_types/SCLC.md) PDX subsets MSK1053, MSK511c, and MSK773D/E/G/I, co-occurring with [STK11](../genes/STK11.md), [KEAP1](../genes/KEAP1.md), and [PTPRS](../genes/PTPRS.md) alterations in the MSK [SCLC](../cancer_types/SCLC.md) PDX/CDX cohort [PMID:35440124](../papers/35440124.md).
 - Frameshift mutation co-occurring with [PTEN](../genes/PTEN.md) in endometrial carcinoma (EC) patient CD20; detected in primary tumor and one of two sentinel lymph nodes; tracked by MSK-ACCESS cfDNA panel [PMID:36007103](../papers/36007103.md)
+- SMARCA4 was more often mutated in EBV-negative Burkitt lymphoma [PMID:36201743](../papers/36201743.md)
 
 ## Cancer types (linked)
 
@@ -59,7 +60,6 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 - [PMID:28007021](../papers/28007021.md)
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41102727](../papers/41102727.md)
 
 - [PMID:28472509](../papers/28472509.md)
@@ -68,7 +68,6 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 
 - [PMID:29301960](../papers/29301960.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
 
 - [PMID:32059776](../papers/32059776.md)
@@ -87,7 +86,7 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 
 - [PMID:35440124](../papers/35440124.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36007103](../papers/36007103.md)
+- [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

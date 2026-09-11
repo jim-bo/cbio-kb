@@ -3,8 +3,8 @@ symbol: KRT20
 aliases: []
 cancer_types: [BLCA]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # KRT20
@@ -16,6 +16,7 @@ KRT20 (Keratin 20) encodes a type I intermediate filament protein expressed in m
 ## Alterations observed in the corpus
 
 - Highest expression in the new **luminal** MIBC subtype (6% of 412 tumors, TCGA [BLCA](../cancer_types/BLCA.md) 2017), alongside [UPK1A](../genes/UPK1A.md), [UPK2](../genes/UPK2.md), and [SNX31](../genes/SNX31.md), suggesting umbrella-cell-like differentiation. [PMID:28988769](../papers/28988769.md)
+- Differentiated-intestine marker (CK20) downregulated by multiplex immunofluorescence in colorectal cancer metastases relative to matched primary tumors [PMID:39478232](../papers/39478232.md).
 
 ## Cancer types (linked)
 
@@ -36,5 +37,6 @@ KRT20 (Keratin 20) encodes a type I intermediate filament protein expressed in m
 ## Sources
 
 - [PMID:28988769](../papers/28988769.md)
+- [PMID:39478232](../papers/39478232.md)
 
-*This page was processed by **crosslinker** on **2026-05-15**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

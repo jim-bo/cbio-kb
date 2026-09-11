@@ -3,8 +3,8 @@ symbol: ATRX
 aliases: []
 cancer_types: [AST, DIFG, ANGS, LMS]
 tags: [chromatin-remodeler, alt, astrocytoma]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # ATRX
@@ -48,6 +48,8 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 - ATRX listed among other recurrent CNS oncomap alterations in the MAPPYACTS pediatric precision-oncology trial across sarcomas, CNS tumors, and leukemia (n=624 patients with successful tumor sequencing) [PMID:35292802](../papers/35292802.md)
 - ATRX structural variants detected in 5/29 (17%) neuroblastoma patients by cWGTS; only ¼ of ATRX deletions were reported by MSK-IMPACT panel; also observed in 8 osteosarcomas with association to telomere length; therapy-defining risk-stratification biomarker [PMID:35585047](../papers/35585047.md)
 - ATRX loss-of-function (mutations, deletions, intra/intergenic fusions) occurs in >=10% of [ULMS](../cancer_types/ULMS.md), [PLLS](../cancer_types/PLLS.md), [UPS](../cancer_types/UPS.md), [MFS](../cancer_types/MFS.md), [PECOMA](../cancer_types/PECOMA.md), [LMS](../cancer_types/LMS.md), and [ANGS](../cancer_types/ANGS.md); [ULMS](../cancer_types/ULMS.md) rate ~33%; ATRX alterations are cluster-defining and nominate ATRX-deficient sarcomas for ATR-inhibitor basket trials [PMID:35705560](../papers/35705560.md)
+- Recurrently altered by truncating/splice variants and a large deletion in SDHB-mutant pheochromocytoma/paraganglioma; a significant driver by dN/dS, with altered tumors showing an ALT phenotype (C-circles, longer telomeres) and RPRM/DRG2 repression [PMID:40097403](../papers/40097403.md).
+- Co-alteration with H3-3A (H3F3A) is linked to early-onset brain tumors (median age 28 years vs 32/39 years for each gene alone) in a pan-cancer hotspot analysis [PMID:41895280](../papers/41895280.md).
 
 ## Cancer types (linked)
 
@@ -161,3 +163,9 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:40097403](../papers/40097403.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

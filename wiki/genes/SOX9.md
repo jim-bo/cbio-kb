@@ -9,7 +9,7 @@ tags:
   - glioma
   - differentiation-marker
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # SOX9
@@ -28,6 +28,7 @@ SOX9 (SRY-Box Transcription Factor 9) is a master transcription factor in chondr
 - Altered in 7-10% of MSS EO-CRC and AO-CRC; no statistically significant age-cohort difference in early-onset vs average-onset colorectal cancer cohort [PMID:34405229](../papers/34405229.md)
 - SOX9 expression is a component of the RNA-seq development score elevated in the piano (stem-cell-like) subtype of LCINS, supporting a developmental regulatory role in this lung cancer subgroup [PMID:34493867](../papers/34493867.md)
 - Stem marker protein reduced in hyperplastic polyps/SSLs by MxIF; broadly over-expressed in MSI-H CRC by whole-slide staining, reflecting contrasting differentiation states between serrated precursors and MSI-H CRCs [PMID:34910928](../papers/34910928.md)
+- SOX9 is a high-confidence significantly mutated gene (HC-SMG) in colorectal cancer, mutated in 7% of the cohort [PMID:35487942](../papers/35487942.md)
 
 ## Cancer types (linked)
 
@@ -49,25 +50,19 @@ SOX9 (SRY-Box Transcription Factor 9) is a master transcription factor in chondr
 
 - [PMID:27806376](../papers/27806376.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:26804919](../papers/26804919.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:31031003](../papers/31031003.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34405229](../papers/34405229.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34493867](../papers/34493867.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34910928](../papers/34910928.md)
+- [PMID:35487942](../papers/35487942.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

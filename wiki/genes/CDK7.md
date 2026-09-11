@@ -5,8 +5,8 @@ cancer_types:
   - THAP
   - THPA
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # CDK7
@@ -21,6 +21,7 @@ CDK7 is a cyclin-dependent kinase that functions both as a component of the CDK-
 - Elevated kinase activity in colon cancer tumors ([COAD](../cancer_types/COAD.md)); identified among druggable kinase candidates in CPTAC colorectal proteogenomics; CDK7 inhibitors are in clinical development [PMID:31031003](../papers/31031003.md)
 - Identified as a kinase in a phospho-substrate axis (CDK7-MCM2) with FDA-approved or investigational inhibitors, upregulated in PDAC tumors vs NAT [PMID:34534465](../papers/34534465.md)
 - Kinase with increased activity by KSEA in [HCC](../cancer_types/HCC.md) vs normal liver in a European multi-omic cohort (n=122 WES, n=51 proteome/phosphoproteome); CDK1/2/5/7 collectively highlighted as candidate [HCC](../cancer_types/HCC.md) therapeutic targets alongside [AURKA](../genes/AURKA.md) [PMID:35508466](../papers/35508466.md)
+- CDK7 target phosphosites were higher in pCR triple-negative breast tumors, alongside CDK1/CDK2/CDC7 [PMID:36001024](../papers/36001024.md).
 
 ## Cancer types (linked)
 
@@ -52,3 +53,6 @@ CDK7 is a cyclin-dependent kinase that functions both as a component of the CDK-
 - [PMID:35508466](../papers/35508466.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

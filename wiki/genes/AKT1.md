@@ -3,8 +3,8 @@ symbol: AKT1
 aliases: []
 cancer_types: [BLCA, UTUC, BRCA, LGG]
 tags: [pi3k-pathway, oncogene, resistance]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # AKT1
@@ -64,6 +64,7 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - AKT1 E17K enriched in myxoid liposarcoma (3.7%) alongside PIK3CA and [PTEN](../genes/PTEN.md) alterations in the FoundationOne Heme sarcoma cohort (n=7,494) [PMID:35705558](../papers/35705558.md)
 - AKT1 targetable in myxoid retroperitoneal liposarcoma ([MRLS](../cancer_types/MRLS.md)) with collective 31% PI3K-pathway hits including PIK3CA, AKT1, [MTOR](../genes/MTOR.md), and [TSC1](../genes/TSC1.md) at Level 3B; [MRLS](../cancer_types/MRLS.md) PI3K-pathway rate is 41% across the MSK sarcoma cohort [PMID:35705560](../papers/35705560.md)
 - PI3K/AKT/mTOR signaling integrates lipid metabolism with proliferation in [HCC](../cancer_types/HCC.md); cholesterol-remodeled lipid rafts activate EGFR-AKT axis driving TKI resistance [PMID:41118283](../papers/41118283.md)
+- Enriched alongside MTOR in BRAF Class I-mutant tumors across a pan-cancer hotspot cohort [PMID:41895280](../papers/41895280.md)
 
 ## Cancer types (linked)
 
@@ -217,3 +218,6 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

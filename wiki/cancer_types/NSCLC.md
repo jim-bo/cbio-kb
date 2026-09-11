@@ -4,8 +4,8 @@ oncotree_code: NSCLC
 main_type: Non-Small Cell Lung Cancer
 parent: LUNG
 tags: [lung, nsclc]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Non-Small Cell Lung Cancer (NSCLC)
@@ -57,6 +57,7 @@ Non-Small Cell Lung Cancer (parent [LUNG](../cancer_types/LUNG.md)); encompasses
 - Sherlock-Lung WGS study (n=232 never-smoker lung cancers, dataset [lung_nci_2022](../datasets/lung_nci_2022.md)) found no SBS4 tobacco signature even in 62 passive-smoker cases; 54.3% of tumors harbored at least one RTK-RAS pathway alteration ([EGFR](../genes/EGFR.md) 30.6%, [KRAS](../genes/KRAS.md) 7.3%, [ALK](../genes/ALK.md) 6.0%); five-feature genomic risk score predicted ~2× mortality per alteration [PMID:34493867](../papers/34493867.md)
 - In the LIBRETTO-001 trial (72 patients with RET-altered lung and thyroid cancers), [selpercatinib](../drugs/selpercatinib.md) was active independent of tissue of origin; acquired resistance in NSCLC was driven by on-target [RET](../genes/RET.md) solvent-front mutations (G810C/G810S) or off-target MAPK reactivation ([KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md), [BRAF](../genes/BRAF.md), [MET](../genes/MET.md) amplification, [FGFR1](../genes/FGFR1.md) amplification) [PMID:35304457](../papers/35304457.md)
 - Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): NSCLC comprised 20% of cohort; IO biomarker positivity (MSI-H/TMB-H/PD-L1+) 46% (298/648), second-highest; EGFR elevated vs Western cohorts; [ALK](../genes/ALK.md) fusions 6.7%; [KRAS](../genes/KRAS.md) G12C in 2.7% ([sotorasib](../drugs/sotorasib.md) Level 1); TMB-H negatively associated with fusions (P=1.31×10⁻¹¹); female nonsmokers/early-stage enriched for EGFR; male smokers/advanced enriched for TP53/CDKN2A/PIK3CA/KRAS [PMID:35871175](../papers/35871175.md)
+- Among 66,285 MSK-IMPACT-sequenced tumors, MET amplification recurred in NSCLC at 1.9% overall and was enriched to 8.5% in pleomorphic/sarcomatoid NSCLC; in 140 MET-amplified NSCLC, 40% were acquired after targeted therapy, mostly with a co-occurring EGFR driver (89%). [PMID:36044468](../papers/36044468.md)
 
 ## Subtypes
 
@@ -132,3 +133,6 @@ Non-Small Cell Lung Cancer (parent [LUNG](../cancer_types/LUNG.md)); encompasses
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36044468](../papers/36044468.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

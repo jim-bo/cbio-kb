@@ -10,8 +10,8 @@ tags:
   - crpc
 canonical_source: cbioportal
 unverified: false
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # FOSB
@@ -23,6 +23,7 @@ FOSB ([FOS](../genes/FOS.md) Proto-Oncogene, AP-1 Transcription Factor Subunit) 
 ## Alterations observed in the corpus
 
 - AP-1 family member including FOSB identified as part of the transcription factor network enriched in CRPC-SCL chromatin-accessible peaks; CRPC-SCL is the second-most-common CRPC subtype (~28%) among 366 patients across SU2C and WCM cohorts, associated with shorter time on next-generation ARSI [PMID:35617398](../papers/35617398.md)
+- Identified among non-canonical EWSR1 fusion partners in chromoplectic structural variants in Ewing sarcoma, though the rearrangement was not expressed by RNA-seq [PMID:38335254](../papers/38335254.md).
 
 ## Cancer types (linked)
 
@@ -43,5 +44,6 @@ FOSB ([FOS](../genes/FOS.md) Proto-Oncogene, AP-1 Transcription Factor Subunit) 
 ## Sources
 
 - [PMID:35617398](../papers/35617398.md)
+- [PMID:38335254](../papers/38335254.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # Sequenza
@@ -19,6 +19,7 @@ Sequenza is an R/Bioconductor tool for allele-specific copy-number analysis and 
 
 - Applied to 15 Korean vulvar SCC paired tumor/normal WES samples to infer LOH events including copy-neutral LOH (4 tumors: 1 HPV(+), 3 HPV(−)); results were manually curated using depth ratio and B-allele frequency in conjunction with [nexus-copy-number](../methods/nexus-copy-number.md) [PMID:29422544](../papers/29422544.md)
 - Used for allele-specific copy-number estimation and tumor purity/ploidy inference in the pan-Asia cHCC-ICC WES/WGS study (173 tumor samples); supported identification of focal CNAs including [MYC](../genes/MYC.md) amplification (73%) and [CDKN2A](../genes/CDKN2A.md) deletion (37%) [PMID:31130341](../papers/31130341.md)
+- Used for copy-number calling (with CNVkit and PureCN) across a 68-PDX pediatric solid tumor cohort [PMID:37990009](../papers/37990009.md).
 
 ## Notes
 
@@ -34,3 +35,6 @@ Sequenza is an R/Bioconductor tool for allele-specific copy-number analysis and 
 - [PMID:31130341](../papers/31130341.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

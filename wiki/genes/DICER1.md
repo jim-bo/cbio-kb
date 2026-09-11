@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL]
 tags: [mirna-biogenesis, novel-driver, u-cll]
 processed_by: wiki-cli
-processed_at: 2026-05-21
+processed_at: 2026-09-10
 ---
 
 # DICER1
@@ -22,6 +22,7 @@ DICER1 encodes the endoribonuclease essential for miRNA biogenesis; rare somatic
 - DICER1 oncogenic in 12% of [ERMS](../cancer_types/ERMS.md); mutually exclusive with [BCOR](../genes/BCOR.md) (16%) in embryonal rhabdomyosarcoma [PMID:35705560](../papers/35705560.md)
 - Pathogenic DICER1 mutation detected in cfDNA of a uterine adenosarcoma patient (CD37) monitored by MSK-ACCESS; supports cfDNA utility in uterine sarcomas [PMID:36007103](../papers/36007103.md)
 - Pathogenic germline DICER1 alteration identified in one CAC patient (IBD-associated colorectal cancer cohort, n=73 consented for germline analysis); overall germline pathogenic variant frequency in CAC was 14%, similar to sporadic CRC. [PMID:36611031](../papers/36611031.md)
+- DICER1 is a high-confidence significantly mutated gene in colorectal cancer (4%), mutated less often in mScore-high tumors [PMID:35487942](../papers/35487942.md).
 
 ## Cancer types (linked)
 
@@ -52,5 +53,6 @@ DICER1 encodes the endoribonuclease essential for miRNA biogenesis; rare somatic
 - [PMID:36007103](../papers/36007103.md)
 
 - [PMID:36611031](../papers/36611031.md)
+- [PMID:35487942](../papers/35487942.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

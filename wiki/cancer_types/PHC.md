@@ -4,8 +4,8 @@ oncotree_code: PHC
 main_type: Pheochromocytoma
 parent: ADRENAL_GLAND
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Pheochromocytoma (PHC)
@@ -23,6 +23,7 @@ Pheochromocytoma (PHC) is a neuroendocrine tumor arising from chromaffin cells o
 - TCGA PCPG cohort (n=173 total PCC/PGL): 95% of tumors had a driver identified; 46/173 (27%) had pathogenic germline mutations in 8 susceptibility genes — highest rates: SDHB (9%), RET (6%), VHL (4%), NF1 (3%); somatic drivers: [HRAS](../genes/HRAS.md) Q61 hotspot (kinase signaling subtype), [EPAS1](../genes/EPAS1.md) hotspots A530/P531/Y532 (pseudohypoxia subtype), RET M918 somatic (vs germline C634), [CSDE1](../genes/CSDE1.md) truncating/splice-site mutations (novel driver, Wnt-altered subtype); recurrent fusions: UBTF-MAML3 and TCF4-MAML3 (10 tumors, all Wnt-altered subtype), RUNDC1-BRAF (5.2-fold [BRAF](../genes/BRAF.md) overexpression) [PMID:28162975](../papers/28162975.md).
 - Mean somatic mutation rate 0.67/Mb — among the lowest of TCGA tumor types [PMID:28162975](../papers/28162975.md).
 - [MAML3](../genes/MAML3.md) fusions, SDHB germline mutations, SETD2/ATRX somatic mutations, Wnt-altered and pseudohypoxia subtypes, and hypermethylated DNA-methylation subtype all independently associated with poor aggressive-disease-free survival [PMID:28162975](../papers/28162975.md).
+- In the same SDHB-mutant phaeochromocytoma/paraganglioma cohort, only 6 of 94 tumors arose in the adrenal gland (pheochromocytoma); as in the paraganglioma majority, mutually exclusive somatic TERT or ATRX alterations marked metastatic potential and were linked to poorer outcome. [PMID:40097403](../papers/40097403.md)
 
 ## Subtypes
 
@@ -43,3 +44,6 @@ Pheochromocytoma (PHC) is a neuroendocrine tumor arising from chromaffin cells o
 - [PMID:28162975](../papers/28162975.md) — TCGA PCPG Analysis Working Group, multi-platform profiling of 173 PCC/PGL tumors.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:40097403](../papers/40097403.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

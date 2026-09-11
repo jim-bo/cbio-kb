@@ -9,8 +9,8 @@ tags:
   - actionability
   - oncokb
   - clinical-interpretation
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # OncoKB Annotation
@@ -47,6 +47,10 @@ A bioinformatics annotation step in which somatic variants identified by tumor s
 - OncoKB oncogenicity and actionability annotation applied to the 2,138-sarcoma MSK-IMPACT dataset to classify driver alterations and assign treatment-actionability levels [PMID:35705560](../papers/35705560.md)
 - Applied to annotate oncogenic driver alterations in colitis-associated cancer (CAC); identified [IDH1](../genes/IDH1.md) R132 mutations and [FGFR2](../genes/FGFR2.md) amplification/fusion as actionable findings with FDA-approved therapies ([ivosidenib](../drugs/ivosidenib.md), FGFR inhibitors) applicable from other GI cancers [PMID:36611031](../papers/36611031.md)
 - Used for driver annotation in aSCLC; identified [ALDH1L2](../genes/ALDH1L2.md) as the sole in-frame fusion involving a likely-oncogenic gene across all RNA-seq cases; annotated [CCND1](../genes/CCND1.md), [CDK4](../genes/CDK4.md), [MDM2](../genes/MDM2.md), [MYCL](../genes/MYCL.md) amplifications and MEN1/EIF1AX/ARID1A/ATM alterations as the dominant driver landscape [PMID:39185963](../papers/39185963.md)
+- OncoKB Annotator classified oncogenic versus VUS calls in the driver-gene pipeline for a colorectal cancer genomic landscape study [PMID:35487942](../papers/35487942.md).
+- OncoKB annotator supported driver analysis alongside MutSigCV in a gastric cancer PDX/patient-tumor comparison [PMID:37990009](../papers/37990009.md).
+- Classified somatic variants from 27/31 colorectal cancer patients as oncogenic/likely oncogenic/predicted oncogenic [PMID:39478232](../papers/39478232.md).
+- OncoKB Annotator classified oncogenicity/actionability for the biliary tract cancer cohort, comparing 2017 versus 2023 annotation releases [PMID:42360806](../papers/42360806.md).
 
 ## Notes
 
@@ -134,3 +138,15 @@ A bioinformatics annotation step in which somatic variants identified by tumor s
 - [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39478232](../papers/39478232.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -3,8 +3,8 @@ symbol: PTK7
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # PTK7
@@ -16,6 +16,7 @@ PTK7 (Protein Tyrosine Kinase 7) encodes a catalytically inactive receptor tyros
 ## Alterations observed in the corpus
 
 - Novel metastasis-specific Q304* nonsense mutation in patient 3 of a paired primary/metastasis CRC cohort; functional relevance speculative (Wnt inhibition via frizzled); no other CRC nonsense mutations reported in TCGA [PMID:25164765](../papers/25164765.md)
+- PTK7 was among lower-frequency genes added to a renal cell carcinoma prognostic classifier for preliminary outcome links, though its individual significance could not be robustly established [PMID:36815791](../papers/36815791.md)
 
 ## Cancer types (linked)
 
@@ -32,5 +33,6 @@ PTK7 (Protein Tyrosine Kinase 7) encodes a catalytically inactive receptor tyros
 ## Sources
 
 - [PMID:25164765](../papers/25164765.md)
+- [PMID:36815791](../papers/36815791.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

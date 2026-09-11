@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PAAD]
 tags: [transcription-factor, forkhead, molecular-subtype]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # FOXP1
@@ -31,6 +31,7 @@ FOXP1 is a forkhead box transcription factor with roles in B-cell development an
 - A cluster of events in the 5-prime end of FOXP1 was excluded by the Broad capture-BED (bitgt) filter in the MC3 pan-cancer mutation calling pipeline, illustrating how capture-kit masking discards biologically meaningful variants outside target regions. [PMID:29596782](../papers/29596782.md)
 - FOXP1 profiled in 304-patient DLBCL WES cohort (Chapuy et al.); context of DLBCL genetic subtype classification (C1–C5) and driver gene identification. [PMID:29713087](../papers/29713087.md)
 - Recurrent 3p14 SV involving FOXP1 in 30% of EOPC; rarely biallelically inactivated, consistent with a haploinsufficient tumor-suppressor role; among the most likely second events after ERG in the PRESCIENT model; APOBEC kataegis co-localizes with FOXP1 SV breakpoints [PMID:30537516](../papers/30537516.md)
+- One of a small set of aberrant somatic hypermutation (aSHM) target genes mutated in Burkitt lymphomas that clustered with the DLBCL-A expression subgroup [PMID:36201743](../papers/36201743.md).
 
 ## Cancer types (linked)
 
@@ -66,28 +67,21 @@ FOXP1 is a forkhead box transcription factor with roles in B-cell development an
 
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27749842](../papers/27749842.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29316426](../papers/29316426.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29596782](../papers/29596782.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30537516](../papers/30537516.md)
+- [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -8,8 +8,8 @@ tags:
   - mds-driver
   - megakaryocyte-dysplasia
   - morphologic-biomarker
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 canonical_source: cbioportal
 unverified: false
 ---
@@ -48,6 +48,8 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 - Noted as a prognostic marker in pediatric Ewing sarcoma in a pan-sarcoma genomic profiling study of 7,494 cases (FoundationOne CDx); [TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), and STAG2 alterations carry prognostic weight in Ewing sarcoma [PMID:35705558](../papers/35705558.md)
 - Mutated in ~10% of Ewing sarcoma ([ES](../cancer_types/ES.md); n=99), co-occurring with [TP53](../genes/TP53.md) alterations, in a 2,138-sample MSK-IMPACT sarcoma cohort [PMID:35705560](../papers/35705560.md)
 - In [AML](../cancer_types/AML.md) cell-state analysis (n=68), STAG2 mutations confer greater ex vivo sensitivity to PIK-family inhibitors — a potentially actionable finding in typically chemotherapy-refractory AML [PMID:35868306](../papers/35868306.md)
+- STAG2 mutations correlated strongly with marrow blast percentage in this MDS cohort, alongside WT1 and NRAS [PMID:24030381](../papers/24030381.md)
+- STAG2 mutations were mutually exclusive with chromoplexy in EWSR1::ERG Ewing sarcoma and were not associated with metastatic presentation [PMID:38335254](../papers/38335254.md)
 
 ## Cancer types (linked)
 
@@ -70,77 +72,55 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 
 - [PMID:40720765](../papers/40720765.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25092538](../papers/25092538.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25223734](../papers/25223734.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26278805](../papers/26278805.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27276561](../papers/27276561.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28583311](../papers/28583311.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29625057](../papers/29625057.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30290956](../papers/30290956.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31263031](../papers/31263031.md)
 - [PMID:31278255](../papers/31278255.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32299819](../papers/32299819.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32332851](../papers/32332851.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33106634](../papers/33106634.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33263939](../papers/33263939.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33397444](../papers/33397444.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35078859](../papers/35078859.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705558](../papers/35705558.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35705560](../papers/35705560.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
+- [PMID:24030381](../papers/24030381.md)
+- [PMID:38335254](../papers/38335254.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -8,8 +8,8 @@ tags:
   - chemotherapy
   - cytotoxic
   - pyrimidine-antimetabolite
-processed_by: entity-page-writer
-processed_at: "2026-05-21"
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # gemcitabine
@@ -40,6 +40,12 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - In a single-institution MSKCC retrospective study of 573 liver-limited [IHCH](../cancer_types/IHCH.md) patients (2000–2018), systemic chemotherapy alone (N=140) produced median OS of 11.2 months in node-positive disease vs 18–20 months for locoregional approaches; the authors note a high proportion of SYS patients did not receive gemcitabine-plus-platinum first-line (the current standard), which may further depress the SYS arm's survival [PMID:33963001](../papers/33963001.md).
 - In PDAC, CEACAM6 overexpression (enriched in KRAS G12D/G12V/Q61H tumors) has been linked to gemcitabine resistance and reduced cytolytic T-cell activity; this CPTAC proteogenomic study (n=140, paad_cptac_2021) corroborates CEACAM6 upregulation in specific KRAS hotspot contexts [PMID:34534465](../papers/34534465.md)
 - RRM2B (p53R2, ribonucleotide reductase subunit) is nominated as a candidate gemcitabine target in the HCC phosphoproteogenomic dataset; authors cite reports that RRM2B may be preferentially targeted by gemcitabine in hypoxic tumor conditions [PMID:35508466](../papers/35508466.md)
+- Post-protocol, gemcitabine-carboplatin was the most common subsequent therapy (14/25 patients) after progression on atezolizumab; historical first-line gemcitabine-carboplatin OS (9.3 months) is contrasted with 15.9 months for atezolizumab in this cisplatin-ineligible mUC cohort [PMID:27939400](../papers/27939400.md).
+- Backbone chemotherapy (1,000 mg/m² IV days 1/8/15) with nab-paclitaxel in the PRINCE trial (NCT03214250), combined with nivolumab, sotigalimab, or both in first-line metastatic pancreatic ductal adenocarcinoma; the nivolumab/chemo arm met the primary 1-year OS endpoint (57.7%, P=0.006) [PMID:35662283](../papers/35662283.md).
+- Gemcitabine-cisplatin (GC) was the comparator neoadjuvant arm to dose-dense MVAC in SWOG S1314 (muscle-invasive bladder cancer), in a trial testing DDR alterations as predictors of pathologic response [PMID:39499893](../papers/39499893.md).
+- Used in two exceptional immune-checkpoint-blockade responders in a UTUC cohort: one (TMB-high, MSS) received gemcitabine/carboplatin then infigratinib (BGJ398) then nivolumab; another (TMB-high, MSI-H, Lynch syndrome) received gemcitabine/cisplatin then pembrolizumab [PMID:39550333](../papers/39550333.md).
+- Backbone of the NIAGARA trial regimen (cisplatin/gemcitabine ± durvalumab) and of nivolumab plus cisplatin/gemcitabine (CheckMate 901), cited as context for the evolving first-line urothelial carcinoma landscape [PMID:39642637](../papers/39642637.md).
+- A HER2-amplified gallbladder cancer patient progressed on FOLFOX then gemcitabine/cisplatin before responding to the HER2 bispecific antibody zanidatamab [PMID:42360806](../papers/42360806.md).
 
 ## Resistance mechanisms
 
@@ -75,3 +81,21 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-21**.*
+- [PMID:27939400](../papers/27939400.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:35662283](../papers/35662283.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39499893](../papers/39499893.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39550333](../papers/39550333.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39642637](../papers/39642637.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

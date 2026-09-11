@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [transcriptomics, clustering, subtype-discovery, dimensionality-reduction]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # NMF Clustering
@@ -21,6 +21,9 @@ Non-negative matrix factorization (NMF) clustering is an unsupervised machine-le
 - Multi-omics NMF clustering across 10 data platforms in 99 treatment-naive GBMs recapitulated TCGA expression subtypes (proneural-like nmf1, mesenchymal-like nmf2, classical-like nmf3) but reclassified 29% of tumors; mixed-subtype tumors (n=12) had significantly worse survival (log-rank p=1.7e-4) [PMID:33577785](../papers/33577785.md)
 - Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the [lung_nci_2022](../datasets/lung_nci_2022.md) cohort [PMID:34493867](../papers/34493867.md)
 - Applied in [hcc_meric_2021](../datasets/hcc_meric_2021.md) to define single-omics subtypes from transcriptome, proteome, and phosphoproteome data independently in 122 [HCC](../cancer_types/HCC.md) biopsies; results integrated via iCluster to define three consensus molecular subtypes [PMID:35508466](../papers/35508466.md)
+- Consensus NMF clustering was used for molecular subtyping in a colorectal cancer genomic landscape study [PMID:35487942](../papers/35487942.md).
+- Consensus NMF clustering of Burkitt lymphoma, DLBCL and pathology-rejected genomes produced 6 genetic subgroups (DGG-BL, IC-BL, Q53-BL and others) [PMID:36201743](../papers/36201743.md).
+- Consensus NMF clustering of the top 10% most variable genes split 100 upper tract urothelial carcinomas into five transcriptional clusters with distinct outcomes and checkpoint-blockade response [PMID:39550333](../papers/39550333.md).
 
 ## Notes
 
@@ -43,3 +46,12 @@ Non-negative matrix factorization (NMF) clustering is an unsupervised machine-le
 - [PMID:35508466](../papers/35508466.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36201743](../papers/36201743.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39550333](../papers/39550333.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

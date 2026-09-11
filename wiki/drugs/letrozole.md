@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [endocrine-therapy, breast-cancer, aromatase-inhibitor]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # letrozole
@@ -23,6 +23,7 @@ Letrozole is a third-generation non-steroidal aromatase inhibitor that blocks CY
 - Used as the endocrine backbone in a phase Ib trial of buparlisib + letrozole in 33 ER+/HER2- metastatic breast cancer patients refractory to ≥1 prior endocrine therapy; PIK3CA+MAP3K1 co-alteration and luminal A PAM50 subtype identified as candidate biomarkers for PI3K inhibitor + letrozole combination benefit [PMID:31552290](../papers/31552290.md)
 - Used as an aromatase inhibitor backbone combined with CDK4/6 inhibitors in HR+/HER2- metastatic breast cancer; a single patient achieving ~11 months of disease control on the AURKA inhibitor LY3295668 had previously progressed on first-line palbociclib + letrozole [PMID:32404308](../papers/32404308.md).
 - In NCT01870505 (alpelisib + AI trial, n=51 HR+ MBC), letrozole was the aromatase inhibitor partner in Arms A (continuous) and C (intermittent 7-on/7-off); overall CBR 52%; letrozole continuous arm (A, n=7) had median TTF 21 weeks vs 12 weeks for intermittent arm C [PMID:32864625](../papers/32864625.md).
+- Part of the endocrine-therapy history (with tamoxifen) of a deeply profiled APOBEC3-dominant metastatic breast cancer case whose metastasis acquired PIK3CA E545K, RAD51C P21S and an AURKA amplification [PMID:40379787](../papers/40379787.md).
 
 ## Resistance mechanisms
 
@@ -52,3 +53,6 @@ Letrozole is a third-generation non-steroidal aromatase inhibitor that blocks CY
 - [PMID:32864625](../papers/32864625.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:40379787](../papers/40379787.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

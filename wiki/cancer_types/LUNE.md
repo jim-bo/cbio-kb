@@ -4,8 +4,8 @@ oncotree_code: LUNE
 main_type: Non-Small Cell Lung Cancer
 parent: LNET
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Large Cell Neuroendocrine Carcinoma (LUNE)
@@ -21,6 +21,7 @@ Large Cell Neuroendocrine Carcinoma (LUNE) is a high-grade, poorly differentiate
 ## Recurrent alterations
 
 - Metastatic pulmonary NENs including high-grade cases (LUNE) in the POG cohort showed recurrent [MEN1](../genes/MEN1.md), [RB1](../genes/RB1.md), and [TP53](../genes/TP53.md) alterations on whole-genome and transcriptome analysis; high-grade cases potentially contributed to transcriptome Cluster B (MYC-enriched, high-grade). Median TMB 2.19 mut/Mb across the 28-patient NEN cohort. [PMID:40328872](../papers/40328872.md)
+- In a pan-cancer MET copy-number survey of 66,285 MSK-IMPACT tumor samples, large cell neuroendocrine carcinoma (LUNE) was one of the NSCLC histologic subtypes broken out for MET amplification, which occurred in 1.9% of NSCLC overall and up to 8.5% in pleomorphic/sarcomatoid NSCLC [PMID:36044468](../papers/36044468.md).
 
 ## Subtypes
 
@@ -35,3 +36,6 @@ Large Cell Neuroendocrine Carcinoma (LUNE) is a high-grade, poorly differentiate
 - [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:36044468](../papers/36044468.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

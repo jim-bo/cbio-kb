@@ -4,8 +4,8 @@ oncotree_code: PRCC
 main_type: Renal Cell Carcinoma
 parent: NCCRCC
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Papillary Renal Cell Carcinoma (PRCC)
@@ -23,6 +23,8 @@ Papillary Renal Cell Carcinoma (PRCC) is a subtype of non-clear cell renal cell 
 - Integrated exome/RNA-seq/CNV profiling of 67 pRCCs identified ten significantly mutated genes: MET (15%, including novel activating kinase-domain mutations), NF2, SLC5A3, PNKD, CPQ, LRP2, CHD3, NHERF1, SETD2, and CRTC1; ~70% of pRCCs harbour chr7 amplification encompassing MET; mutational burden in pRCC exceeded ccRCC (mean 61 vs 45 protein-coding alterations, P=3.6×10⁻⁷) [PMID:25401301](../papers/25401301.md).
 - A novel transforming ACTG1-MITF gene fusion was identified in one pRCC sample, activating HIF1A, MET, and APEX1 targets [PMID:25401301](../papers/25401301.md).
 - URCC (n=62, MSKCC) harbors MET H1094Y (T62) and BAP1/SETD2 chromatin alterations overlapping [PRCC](../cancer_types/PRCC.md) biology; NF2/SETD2-mutant cases are noted to be histologically near the type 2 pRCC boundary [PMID:27713405](../papers/27713405.md).
+- In the TCGA pan-cancer LIG1 analysis, papillary renal cell carcinoma (TCGA KIRP) showed the strongest association between LIG1 heterozygous loss and worse progression-free survival of any cancer type tested (HR 4, P=0.0001). [PMID:36001024](../papers/36001024.md)
+- Among 66,285 MSK-IMPACT-sequenced tumors, papillary renal cell carcinoma had the highest rate of MET amplification of any cancer type screened, at 8.4%. [PMID:36044468](../papers/36044468.md)
 
 ## Subtypes
 
@@ -41,3 +43,9 @@ Papillary Renal Cell Carcinoma (PRCC) is a subtype of non-clear cell renal cell 
 - [PMID:27713405](../papers/27713405.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36044468](../papers/36044468.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

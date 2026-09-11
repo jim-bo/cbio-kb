@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [single-cell, transcriptomics, sequencing]
 processed_by: wiki-cli
-processed_at: 2026-05-21
+processed_at: 2026-09-10
 ---
 
 # Single-cell RNA sequencing (scRNA-seq)
@@ -31,6 +31,7 @@ Single-cell RNA sequencing (scRNA-seq) enables transcriptome-wide gene expressio
 - Training data for OncoMark derived from 3.1 million single-cell transcriptomes (941 patients, 14 tumor sites, Weizmann 3CA repository); pseudo-bulk profiles generated from scRNA-seq to train the hallmark-activity MTL classifier [PMID:41057477](../papers/41057477.md)
 - Single-cell RNA-seq (including SMART-seq2 reference from 11 patients) used alongside bulk deconvolution to map neoplastic and non-neoplastic cell states in longitudinal diffuse glioma, defining stem-like, proliferating stem-like, and mesenchymal-like populations [PMID:35649412](../papers/35649412.md)
 - Cited as a single-cell transcriptomics modality advancing precision health through cell-type-resolved expression profiling; positioned within the multi-omics integration framework alongside bulk RNA-seq, ATAC-seq, and proteomics [PMID:37119971](../papers/37119971.md)
+- Profiled 83 primary tumor/metastasis/normal-colon samples from 31 MSS/pMMR colorectal cancer patients (10x Genomics 3' v3.1), yielding 47,437 epithelial cell profiles [PMID:39478232](../papers/39478232.md).
 
 ## Notes
 
@@ -77,3 +78,6 @@ Single-cell RNA sequencing (scRNA-seq) enables transcriptome-wide gene expressio
 - [PMID:37119971](../papers/37119971.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*
+- [PMID:39478232](../papers/39478232.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -3,8 +3,8 @@ symbol: ERCC2
 aliases: [XPD]
 cancer_types: [BLCA]
 tags: [DNA-damage-response, DDR, cisplatin, urothelial, prognostic-biomarker]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # ERCC2
@@ -32,6 +32,8 @@ ERCC2 (excision repair cross-complementation group 2), also known as XPD, encode
 - Included in the recurrent-mutation panel (4% of [UTUC](../cancer_types/UTUC.md)) and cited as a platinum-response biomarker per prior advanced-UC literature in a [UTUC](../cancer_types/UTUC.md) PDX cohort (N=119 MSK-IMPACT) [PMID:32332851](../papers/32332851.md)
 - Mutations negatively correlated with metastatic burden in urothelial bladder cancer, suggesting that ERCC2-mutant tumors may have attenuated metastatic potential in this histology [PMID:35120664](../papers/35120664.md)
 - ERCC2 was among the genes sequenced by MSK-IMPACT in an MSK [SCLC](../cancer_types/SCLC.md) PDX/CDX biobank characterizing 26 clinical specimens and 30 patient-derived models across molecular subtypes. [PMID:35440124](../papers/35440124.md)
+- ERCC2, located in the 19q13.31-33 DNA-repair gene cluster, showed lower expression in non-pCR triple-negative breast cancer but was less consistent than LIG1 in validation [PMID:36001024](../papers/36001024.md).
+- ERCC2 is the most frequently altered DDR gene in a 9-gene panel in bladder cancer (15%); alterations were associated with pT0 response (OR 3.33, p=0.009) and higher TMB (23.1 vs 10.7 mut/Mb), though not all mutations conferred response [PMID:39499893](../papers/39499893.md).
 
 ## Cancer types (linked)
 
@@ -54,49 +56,36 @@ ERCC2 (excision repair cross-complementation group 2), also known as XPD, encode
 
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25096233](../papers/25096233.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27749842](../papers/27749842.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28583311](../papers/28583311.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:30290956](../papers/30290956.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31263031](../papers/31263031.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31278255](../papers/31278255.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32332851](../papers/32332851.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35120664](../papers/35120664.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35440124](../papers/35440124.md)
+- [PMID:36001024](../papers/36001024.md)
+- [PMID:39499893](../papers/39499893.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [sequencing, non-coding-rna, expression]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # miRNA-seq
@@ -36,6 +36,7 @@ Small RNA (microRNA) sequencing by next-generation sequencing platforms; quantif
 - Nanostring miRNA profiling of 734 miRNAs applied across 954 of the 1,072 CCLE cancer cell lines; generated in the expanded multi-omic CCLE characterization alongside WES, WGS, RNA-seq, RRBS, RPPA, and H3 mass-spec [PMID:31068700](../papers/31068700.md)
 - Integrated alongside total RNA-seq in the CPTAC endometrial carcinoma proteogenomics study (n=95 tumors) to identify miRNA binding sites on circRNAs; 234 recurrent circRNAs found with QKI-correlated circRNAs harboring predicted sites for 36 miRNAs including miR-200c [PMID:32059776](../papers/32059776.md).
 - miRNA-seq (≥10M reads per sample) performed on all 99 treatment-naive GBM tumors as part of 10-platform CPTAC proteogenomic profiling study [PMID:33577785](../papers/33577785.md)
+- Used miRNA-seq as part of multi-omic profiling of SDHB-deficient pheochromocytoma and paraganglioma [PMID:40097403](../papers/40097403.md).
 
 ## Notes
 
@@ -98,3 +99,6 @@ Small RNA (microRNA) sequencing by next-generation sequencing platforms; quantif
 - [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:40097403](../papers/40097403.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

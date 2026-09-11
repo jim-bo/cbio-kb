@@ -3,8 +3,8 @@ symbol: KMT2C
 aliases: []
 cancer_types: [CLLSLL, CESC, BLCA, EGC]
 tags: [epigenetic-regulator, m-cll, cervical-cancer]
-processed_by: entity-page-writer
-processed_at: "2026-05-21"
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # KMT2C
@@ -61,6 +61,10 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - Significantly mutated gene (SMG) altered in ≥5% of treatment-naive PDACs in the CPTAC proteogenomic cohort (n=140). [PMID:34534465](../papers/34534465.md)
 - Truncating mutation identified as a truncal alteration in matched primary/metastasis lineage (patient P4/P8) in prostate cancer brain metastases (PCBM; n=51), illustrating early clonal selection during progression to brain-metastatic [PRAD](../cancer_types/PRAD.md) [PMID:35504881](../papers/35504881.md).
 - Listed among recurrently altered genes in a pan-cancer cohort of 10,194 Asian solid-tumor patients; associated with pancreatic adenocarcinoma ([PAAD](../cancer_types/PAAD.md)) in the pan-OrigiMed frequency landscape (OrigiMed CSYS 450-gene panel) [PMID:35871175](../papers/35871175.md)
+- KMT2C was among the most frequently altered genes (21%) in solitary fibrous tumors profiled with a 1021-gene panel (SYSUCC discovery cohort) [PMID:37980418](../papers/37980418.md).
+- KMT2C was altered in 3 of 25 (12%) CDH1 wild-type invasive lobular breast carcinomas [PMID:38347189](../papers/38347189.md).
+- KMT2C was recurrently mutated (2 cases) in metastatic SDHB-mutant pheochromocytoma/paraganglioma [PMID:40097403](../papers/40097403.md).
+- KMT2C oncogenic mutations, along with NF1 and CDH1, were enriched by permutation testing in metastatic/post-treatment APOBEC3-dominant HR+/HER2- breast tumors [PMID:40379787](../papers/40379787.md).
 
 ## Cancer types (linked)
 
@@ -172,5 +176,9 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - [PMID:35504881](../papers/35504881.md)
 
 - [PMID:35871175](../papers/35871175.md)
+- [PMID:37980418](../papers/37980418.md)
+- [PMID:38347189](../papers/38347189.md)
+- [PMID:40097403](../papers/40097403.md)
+- [PMID:40379787](../papers/40379787.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

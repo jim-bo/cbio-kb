@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [THAP]
 tags: [dna-repair, helicase, cancer-predisposition, thyroid]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 canonical_source: cbioportal
 unverified: false
 ---
@@ -22,6 +22,8 @@ RECQL4 encodes a RecQ-family DNA helicase involved in DNA replication initiation
 - RECQL4 observed as a low-frequency hit (>=2 ATC or >=3 PDTC) in a targeted-sequencing study of advanced thyroid cancers (PDTC and ATC). [PMID:26878173](../papers/26878173.md)
 - RECQL4 germline recessive pathogenic/likely-pathogenic allele identified in metastatic panNET (MSK-IMPACT panet_msk_2018); part of the 16% germline carrier rate; classified as a recessive allele (biallelic requirement for full penetrance) [PMID:30687805](../papers/30687805.md)
 - Truncating F987* mutation in UTUC patient UCC19 and matched PDX; offered as candidate explanation for durable platinum/gemcitabine response (DNA-repair / homologous recombination role); single-case hypothesis consistent with DDR-alteration/platinum-sensitivity associations [PMID:32332851](../papers/32332851.md)
+- One of nine DNA-repair/PARP-pathway genes (with FANCF, RAD54L, FANCA, FANCC, ATM, NBN, CHEK2, WRN) altered in a combined 6.9% (9/131) of solitary fibrous tumors, proposed as PARP-inhibitor targets. [PMID:37980418](../papers/37980418.md)
+- One of a 9-gene DDR panel (with ERCC5, ATR, BRCA1, BRCA2, FANCC, RAD51C) assessed for truncating alterations as part of a deleterious-DDR category in bladder cancer. [PMID:39499893](../papers/39499893.md)
 
 ## Cancer types (linked)
 
@@ -44,16 +46,14 @@ RECQL4 encodes a RecQ-family DNA helicase involved in DNA replication initiation
 
 - [PMID:38412093](../papers/38412093.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
 - [PMID:26804919](../papers/26804919.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:30687805](../papers/30687805.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
+- [PMID:37980418](../papers/37980418.md)
+- [PMID:39499893](../papers/39499893.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

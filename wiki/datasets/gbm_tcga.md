@@ -17,8 +17,8 @@ tags:
   - TCGA
   - wes
   - rna-seq
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # TCGA Glioblastoma Multiforme
@@ -43,6 +43,7 @@ The TCGA [GBM](../cancer_types/GBM.md) study is the canonical genomic and transc
 - [PMID:28872634](../papers/28872634.md) — Bakas et al. 2017, *Scientific Data*: Expert-revised MRI segmentation labels and >700 radiomic features released for 135 TCGA-GBM cases, complementing the genomic data in gbm_tcga to enable radiogenomic studies.
 - [PMID:26824661](../papers/26824661.md) — Ceccarelli et al. 2016, *Cell*: TCGA pan-glioma integrated analysis using 606 [GBM](../cancer_types/GBM.md) samples from this cohort combined with 516 [LGG](../cancer_types/LGG.md) samples into [lgggbm_tcga_pub](../datasets/lgggbm_tcga_pub.md).
 - [PMID:30742119](../papers/30742119.md) — Zhao et al. 2019, *Nature Medicine*: [PTEN](../genes/PTEN.md) mutations and MAPK alterations predict anti-PD-1 response in recurrent [GBM](../cancer_types/GBM.md); TCGA IDH1-wildtype [GBM](../cancer_types/GBM.md) used as background reference cohort.
+- [PMID:30742122](../papers/30742122.md) — Neoadjuvant/adjuvant [pembrolizumab](../drugs/pembrolizumab.md) randomized GBM trial: TCGA-GBM RNA-seq (HTSeq counts from GDC, n=166) used as an external comparator cohort, batch-corrected with limma `removeBatchEffect` against the trial's own transcriptomic data.
 
 ## Notable findings derived from this cohort
 
@@ -70,3 +71,6 @@ The TCGA [GBM](../cancer_types/GBM.md) study is the canonical genomic and transc
 - [PMID:35649412](../papers/35649412.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:30742122](../papers/30742122.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

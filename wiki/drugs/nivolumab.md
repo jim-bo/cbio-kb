@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
 processed_by: wiki-cli
-processed_at: 2026-05-21
+processed_at: 2026-09-10
 ---
 
 # nivolumab
@@ -51,6 +51,11 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - Complete response to nivolumab + ipilimumab was observed in a malignant PEComa patient with subclonal [TSC1](../genes/TSC1.md) and TMB 7 mut/Mb in the MSK sarcoma cohort anecdotal response series; MSI-H was rare (<0.3%) across 7,494 sarcomas, limiting the biomarker-evaluable pool for PD-1 blockade [PMID:35705558](../papers/35705558.md).
 - Anti-PD-1 antibody; nivolumab±ipilimumab indicated for MSI-H CRC (~8.3% of CRC, n=1,224) in Chinese pan-cancer cohort (n=10,194) [PMID:35871175](../papers/35871175.md)
 - Nivolumab (anti-PD-1) is mentioned among ICI agents evaluated in [HCC](../cancer_types/HCC.md); the review identifies CTNNB1-mutant / FAO-high HCC tumors as less responsive to anti-PD-1, and [FABP1](../genes/FABP1.md)-mediated linoleic acid sequestration in the TME as a resistance mechanism [PMID:41118283](../papers/41118283.md).
+- Phase Ib trial (NCT01358721) of nivolumab monotherapy in 91 metastatic clear-cell RCC patients (0.3, 2, 10 mg/kg) showed 15% ORR and pharmacodynamic increases in intratumoral CD3+/CD8+ T cells and interferon-gamma-driven transcripts (CXCL9, CXCL10, CD274, CTLA4, ICOS). [PMID:27169994](../papers/27169994.md)
+- In the PRINCE trial, nivolumab plus gemcitabine/nab-paclitaxel (n=34) met the primary 1-year OS endpoint (57.7% vs 35% historical control, P=0.006) in first-line metastatic PDAC; ORR and PFS did not clearly separate treatment arms. [PMID:35662283](../papers/35662283.md)
+- Authors propose biomarker-guided combination of nivolumab with anti-angiogenic or anti-macrophage therapy for solitary fibrous tumors, citing a prior nivolumab-sunitinib combination trial in other soft-tissue sarcomas. [PMID:37980418](../papers/37980418.md)
+- One TMB-high UTUC patient (PT12) was treated with nivolumab after prior gemcitabine/carboplatin and infigratinib. [PMID:39550333](../papers/39550333.md)
+- Cited as part of the approved first-line metastatic urothelial carcinoma landscape: nivolumab plus cisplatin/gemcitabine (CheckMate 901, NCT03036098). [PMID:39642637](../papers/39642637.md)
 
 ## Resistance mechanisms
 
@@ -107,3 +112,18 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - [PMID:41118283](../papers/41118283.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*
+- [PMID:27169994](../papers/27169994.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:35662283](../papers/35662283.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37980418](../papers/37980418.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39550333](../papers/39550333.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39642637](../papers/39642637.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

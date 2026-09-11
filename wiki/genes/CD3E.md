@@ -3,8 +3,8 @@ symbol: CD3E
 aliases: []
 cancer_types: [SKCM]
 tags: [TCR-complex, T-cell, immune-checkpoint, co-stimulation]
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # CD3E
@@ -16,6 +16,7 @@ CD3E encodes the CD3 epsilon chain, an essential signaling component of the T-ce
 ## Alterations observed in the corpus
 
 - CD3E was identified as a component of the TCR/co-stimulatory immunological synapse upregulated on-therapy (cycle 1 day 29) in melanoma patients receiving [nivolumab](../drugs/nivolumab.md) (anti-PD-1), as part of a 695-gene DEG set enriched in the genomic-contraction phenotype (q < 0.10) and a broader 475-DEG pharmacologic on-therapy response (q < 0.20). [PMID:29033130](../papers/29033130.md)
+- CD3E transcripts increased in tumor on nivolumab treatment, matching the IHC increase in CD3+ T-cell infiltrates [PMID:27169994](../papers/27169994.md).
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ CD3E encodes the CD3 epsilon chain, an essential signaling component of the T-ce
 - [PMID:29033130](../papers/29033130.md)
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:27169994](../papers/27169994.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

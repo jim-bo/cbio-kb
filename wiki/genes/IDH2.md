@@ -3,8 +3,8 @@ symbol: IDH2
 aliases: []
 cancer_types: [PTCL, AITL, DIFG, AST, ODG, GB]
 tags: [metabolic-driver, glioma]
-processed_by: entity-page-writer
-processed_at: "2026-05-21"
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # IDH2
@@ -51,6 +51,10 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - IDH2 mutation defines the IDHmut glioma subgroup used as the primary stratification axis in the GLASS longitudinal glioma progression cohort (n=304 patients with paired samples) [PMID:35649412](../papers/35649412.md)
 - IDH1/IDH2 together are actionable in 27% of chondrosarcomas ([CHS](../cancer_types/CHS.md)) in the MSK sarcoma clinical sequencing cohort ([sarcoma_mskcc_2022](../datasets/sarcoma_mskcc_2022.md), n=1,148; MSK-IMPACT) [PMID:35705560](../papers/35705560.md)
 - Discussed as target of enasidenib in the AML therapeutic landscape (background context); IDH2 mutation is part of the Beat AML cohort genomic characterization across 942 specimens from 805 [AML](../cancer_types/AML.md) patients [PMID:35868306](../papers/35868306.md)
+- Co-mutated with SRSF2 (OR 6.7), mutually exclusive with TET2 and SF3B1, and correlated with higher marrow blast percentage in myelodysplastic syndrome. [PMID:24030381](../papers/24030381.md)
+- IDH mutation status (isoform not specified; 5/32 patients IDH-mutant) was one of four variables an elastic-net model selected as associated with increased overall survival in glioblastoma treated with neoadjuvant vs adjuvant PD-1 blockade. [PMID:30742122](../papers/30742122.md)
+- IDH2 mutations differentially enriched between HOXA and HOXB expression groups among epigenetic-modifier genes in pediatric AML. [PMID:38212634](../papers/38212634.md)
+- IDH2 counted as a level 3B actionable alteration in biliary tract cancer, within the broader IDH1/2-altered subgroup enriched in intrahepatic cholangiocarcinoma. [PMID:42360806](../papers/42360806.md)
 
 ## Cancer types (linked)
 
@@ -139,5 +143,9 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - [PMID:35705560](../papers/35705560.md)
 
 - [PMID:35868306](../papers/35868306.md)
+- [PMID:24030381](../papers/24030381.md)
+- [PMID:30742122](../papers/30742122.md)
+- [PMID:38212634](../papers/38212634.md)
+- [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

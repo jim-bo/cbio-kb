@@ -8,7 +8,7 @@ tags:
   - transcription-factor
   - lymphoma
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # BCL6
@@ -25,6 +25,7 @@ BCL6 is a transcriptional repressor and proto-oncogene that plays a central role
 - BCL6 identified as an epigenetic regulator mutated in the advanced thyroid cancer cohort (n=117 PDTC/ATC); reported alongside CREBBP, EP300, and BCOR as low-frequency epigenetic regulator alterations [PMID:26878173](../papers/26878173.md)
 - placeholder
 - Structural variants in 19% of DLBCL cohort (dlbcl_dfci_2018); clonal-to-subclonal timing analysis supports BCL6 rearrangement as a late event in the C1 cluster [PMID:29713087](../papers/29713087.md)
+- BCL6-MYC translocation found in 2 Burkitt lymphomas; BCL6 hotspot mutations helped reclassify cases as DLBCL-like in a comparator Burkitt lymphoma cohort [PMID:36201743](../papers/36201743.md).
 
 ## Cancer types (linked)
 
@@ -59,3 +60,6 @@ BCL6 is a transcriptional repressor and proto-oncogene that plays a central role
 - [PMID:29713087](../papers/29713087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:36201743](../papers/36201743.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

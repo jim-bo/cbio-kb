@@ -11,7 +11,7 @@ tags:
 unverified: true
 canonical_source: corpus
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # Testicular Germ Cell Tumor / TGCT (TCGA)
@@ -32,6 +32,7 @@ TGCT is the TCGA cohort identifier for testicular germ cell tumor. Note: in Onco
 - Cell-cycle pathway rarely altered in TGCT; testicular non-seminoma has 8.5% actionable alteration frequency; included in pan-cancer pathway analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); standardized OS, PFI, DFI, and DSS endpoints derived for TGCT [PMID:29625055](../papers/29625055.md)
 - cf-IMPACT targeted cfDNA panel (410 genes) was applied to metastatic solid tumors including testicular cancer patients at MSKCC (n=118 metastatic pan-cancer cohort); tumor-fraction-guided multi-assay strategy detected somatic mutations in 76% of patients overall [PMID:34059130](../papers/34059130.md).
+- In the pan-cancer TCGA LIG1 analysis, testicular germ cell tumors showed only a marginal association between LIG1 heterozygous loss and progression-free survival. [PMID:36001024](../papers/36001024.md)
 
 ## Subtypes
 
@@ -58,3 +59,6 @@ TGCT is the TCGA cohort identifier for testicular germ cell tumor. Note: in Onco
 - [PMID:29625055](../papers/29625055.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

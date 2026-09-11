@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [cnv, purity-ploidy, wgs, bioinformatics]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # PURPLE (purity and ploidy estimator)
@@ -18,6 +18,7 @@ PURPLE is an open-source tumor purity and ploidy estimation tool developed by th
 ## Used by
 
 - Used for purity/ploidy estimation and CNV profiling in WGS of 25 metastatic [CSCC](../cancer_types/CSCC.md) lymph node specimens alongside GRIDSS and LINX; produced the allele-specific CN landscape including focal [PTPRD](../genes/PTPRD.md) deletion (24% of samples), [CDKN2A](../genes/CDKN2A.md) deletion, [MYC](../genes/MYC.md) amplification, and co-amplification of CCND1/FGF3 in two cases [PMID:35982973](../papers/35982973.md)
+- Called somatic copy number with PURPLE (alongside GRIDSS for structural variants and LINX) in a multi-omic WGS study of SDHB-deficient pheochromocytoma/paraganglioma [PMID:40097403](../papers/40097403.md).
 
 ## Notes
 
@@ -30,3 +31,6 @@ PURPLE is an open-source tumor purity and ploidy estimation tool developed by th
 - [PMID:35982973](../papers/35982973.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:40097403](../papers/40097403.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

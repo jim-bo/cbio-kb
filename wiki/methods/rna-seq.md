@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [transcriptomics, sequencing]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # RNA sequencing
@@ -140,6 +140,16 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Applied to CAC samples to assess Wnt-pathway ssGSEA scores (lower in CAC than sporadic CRC, P=0.13 in 11 patients), confirm Wnt-independence in pathway-wild-type CAC, and characterize dominant SBS1 mutational signature in the WES subset [PMID:36611031](../papers/36611031.md)
 - Reviewed as a core transcriptomics modality in multi-omics integration; CPTAC cited as incorporating RNA-seq data across 32+ cancer types alongside proteomics, CNV, and methylation for comprehensive molecular cancer characterization [PMID:37119971](../papers/37119971.md)
 - Applied to 7 of 49 aSCLC specimens; confirmed ASCL1-dominant subtype, absent [YAP1](../genes/YAP1.md), uniformly high [DLL3](../genes/DLL3.md) and [SEZ6](../genes/SEZ6.md) expression (mean H scores 278 and 240 by IHC); identified SH3RF3-CCND1 enhancer-hijacking mechanism in case A17 with [CCND1](../genes/CCND1.md) overexpression without amplification [PMID:39185963](../papers/39185963.md)
+- Ran whole-transcriptome RNA-seq (Illumina TruSeq RNA Access, GSNAP-aligned, edgeR/voom-normalized) on 263 pretreatment tumors in a phase 2 atezolizumab ± bevacizumab vs. sunitinib renal cell carcinoma trial [PMID:29867230](../papers/29867230.md).
+- Used paired-end RNA-seq (HISAT2-aligned) alongside NanoString immune profiling to study cell-cycle signature suppression in a neoadjuvant anti-PD-1 recurrent glioblastoma trial [PMID:30742122](../papers/30742122.md).
+- Ran RNA-seq (Illumina TruSeq RNA Access, STAR-aligned, Salmon-quantified, DESeq2 differential expression) alongside WES to characterize a priming-cyclophosphamide + pembrolizumab trial in metastatic triple-negative breast cancer [PMID:35121644](../papers/35121644.md).
+- Ran bulk tumor RNA-seq (liver-metastasis biopsies only, to avoid tissue-of-origin confounding) as part of multi-omic profiling in the PRINCE phase 2 sotigalimab/nivolumab + chemotherapy pancreatic cancer trial [PMID:35662283](../papers/35662283.md).
+- Used RNA-seq alongside proteomics/phosphoproteomics for proliferation scoring and immune deconvolution (ESTIMATE, CIBERSORT, xCell) in a proteogenomic chemoresistance study of triple-negative breast cancer [PMID:36001024](../papers/36001024.md).
+- Used RNA-seq alongside whole-genome sequencing (EBV status from EBER1/EBER2 reads) to define genetic subgroups in Burkitt lymphoma vs. DLBCL [PMID:36201743](../papers/36201743.md).
+- Ran RNA-seq (TruSeq stranded mRNA, ~80M reads) on 68 pediatric solid-tumor PDXs and matched patient tumors for fusion calling and expression-conservation analysis; 92% of WES point mutations were validated in RNA-seq or low-pass WGS [PMID:37990009](../papers/37990009.md).
+- Used RNA-seq as the primary discovery assay (fusion, ITD/PTD, CNV, SNV/indel calling) across 887 pediatric AML cases, validating 97.3% of RNA-seq-derived calls against orthogonal WGS/WES [PMID:38212634](../papers/38212634.md).
+- Ran whole-transcriptome RNA-seq on 100 nephroureterectomy tumors (MSK100 cohort) to define five transcriptional clusters with distinct outcomes and immune-checkpoint-blockade response in upper tract urothelial carcinoma [PMID:39550333](../papers/39550333.md).
+- Ran whole-transcriptome RNA-seq on 91 of 94 tumors as part of a seven-assay multi-omic profiling of SDHB-deficient pheochromocytoma/paraganglioma [PMID:40097403](../papers/40097403.md).
 
 ## Notes
 
@@ -494,3 +504,33 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:29867230](../papers/29867230.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:30742122](../papers/30742122.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:35121644](../papers/35121644.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:35662283](../papers/35662283.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36201743](../papers/36201743.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38212634](../papers/38212634.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39550333](../papers/39550333.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40097403](../papers/40097403.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

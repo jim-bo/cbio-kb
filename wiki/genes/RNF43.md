@@ -3,8 +3,8 @@ symbol: RNF43
 aliases: []
 cancer_types: [COAD, PRAD, CESC, PAAD]
 tags: [wnt-pathway, ubiquitin-ligase, tumor-suppressor]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 canonical_source: cbioportal
 unverified: false
 ---
@@ -39,6 +39,8 @@ RNF43 is an E3 ubiquitin ligase that negatively regulates Wnt signaling by promo
 - Frameshift mutation co-occurring with [PTEN](../genes/PTEN.md) in EC patient CD20; present in primary tumor and one of two sentinel lymph nodes, demonstrating intratumoral heterogeneity tracked by MSK-ACCESS cfDNA ([ucec_ccr_cfdna_msk_2022](../datasets/ucec_ccr_cfdna_msk_2022.md)) [PMID:36007103](../papers/36007103.md)
 - Wnt-pathway alteration in a subset of CAC dysplasia and carcinoma; not selectively enriched in APC-wild-type tumors; Wnt alterations overall enriched only in subclonal-TP53 CAC (Fisher's exact P=0.017) [PMID:36611031](../papers/36611031.md)
 - Loss-of-function activates Wnt/beta-catenin signaling and de novo lipogenesis (DNL) to drive hepatocellular carcinoma ([HCC](../cancer_types/HCC.md)) [PMID:41118283](../papers/41118283.md)
+- Significantly mutated gene (HC-SMG) in 6% of colorectal cancers in this cohort. [PMID:35487942](../papers/35487942.md)
+- The gene most enriched in BRAF Class I tumors (adj. p=1e-34; 98% in CRC); RNF43 status did not predict PFS or OS on anti-EGFR/anti-BRAF therapy (n=73). [PMID:41895280](../papers/41895280.md)
 
 ## Cancer types (linked)
 
@@ -68,58 +70,42 @@ RNF43 is an E3 ubiquitin ligase that negatively regulates Wnt signaling by promo
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22158988](../papers/22158988.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:22802077](../papers/22802077.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:26000489](../papers/26000489.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:27149842](../papers/27149842.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:28825054](../papers/28825054.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:29316426](../papers/29316426.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31031003](../papers/31031003.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:31061129](../papers/31061129.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:32730818](../papers/32730818.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34534465](../papers/34534465.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:34910928](../papers/34910928.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35508466](../papers/35508466.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36007103](../papers/36007103.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:36611031](../papers/36611031.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:41118283](../papers/41118283.md)
+- [PMID:35487942](../papers/35487942.md)
+- [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

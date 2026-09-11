@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - EAC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # CCNE1
@@ -22,6 +22,8 @@ CCNE1 (Cyclin E1) is a regulator of G1/S cell cycle transition that partners wit
 - CCNE1 amplification in 8% of MSI-stable locally advanced esophageal/GEJ adenocarcinoma (n=237); not significantly associated with pathologic response to neoadjuvant chemoradiotherapy in multivariable analysis [PMID:35377946](../papers/35377946.md)
 - CCNE1 amplification detected in cfDNA WGS from a pediatric solid-tumor patient (H135967, ~20% ctDNA) alongside [MYC](../genes/MYC.md) amplification and SVs in [ARID1A](../genes/ARID1A.md) and [ATRX](../genes/ATRX.md), demonstrating that cWGTS plasma cfDNA captures known oncogenic events in pediatric cancers ([mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)) [PMID:35585047](../papers/35585047.md)
 - CCNE1 amplified in 2.6% of 7,494 sarcomas; higher CNV frequency in P-AYA osteosarcoma; part of the Rb pathway that is altered in 46.8% of sarcomas overall (co-occurring with p53 pathway OR=4.2, p<1.3e-196) [PMID:35705558](../papers/35705558.md)
+- CCNE1 is a cell-cycle pathway gene whose alterations were mutually exclusive with RB1 and CCND1 alterations in this colorectal cancer cohort [PMID:35487942](../papers/35487942.md).
+- CCNE1 was among the GISTIC2 amplification peaks identified in this pediatric solid tumor PDX cohort [PMID:37990009](../papers/37990009.md).
 
 ## Cancer types (linked)
 
@@ -59,3 +61,9 @@ CCNE1 (Cyclin E1) is a regulator of G1/S cell cycle transition that partners wit
 - [PMID:35705558](../papers/35705558.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

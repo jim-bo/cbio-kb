@@ -4,8 +4,8 @@ oncotree_code: COAD
 main_type: Colorectal Cancer
 parent: COADREAD
 tags: [colorectal, gi-oncology]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Colon Adenocarcinoma (COAD)
@@ -53,6 +53,9 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - COLON MAP / HTAN pre-cancer atlas (scRNA-seq, 62 polyps/tumors): conventional adenomas arise from APC-driven WNT expansion of [LGR5](../genes/LGR5.md)+ stem cells; MSS CRCs carry [APC](../genes/APC.md) (100%), KRAS (35%), [TP53](../genes/TP53.md) (71%); MSI-H CRCs have fewer classical drivers but enrich non-APC WNT events ([RNF43](../genes/RNF43.md), [TCF7L2](../genes/TCF7L2.md)) and [BRAF](../genes/BRAF.md) V600E (53%) [PMID:34910928](../papers/34910928.md)
 - In 4,561 CRC patients sequenced with MSK-IMPACT, 47 (1.03%) harbored dual RAS hotspot/BRAF V600E driver mutations (CRC-DD); CRC-DD showed MSI-H enrichment (27% vs 8.7% in single-driver CRC, P=.0004) and lower fraction of genome altered (P=7.99×10⁻⁹) [PMID:35235413](../papers/35235413.md)
 - In a 174-patient IBD-associated colorectal cancer cohort (56% UC, 44% CD), COAD samples showed [TP53](../genes/TP53.md) alteration in 90%, KRAS in 31%, APC in only 20% (vs ~80% in sporadic CRC), with copy-number alterations more enriched than in sporadic CRC and multifocal lesions developing independently [PMID:36611031](../papers/36611031.md)
+- A 1,015-patient Asian colorectal cancer whole-exome cohort found low median TMB (1.74 mut/Mb), 46 high-confidence significantly mutated genes led by TP53 (45%), APC (47%) and KRAS (24%), eight novel driver genes absent from clinical gene panels, and a genomic subtyping scheme in which 10q11.21 amplification (containing RET) marked a poor-prognosis subgroup [PMID:35487942](../papers/35487942.md).
+- In a pan-cancer TCGA analysis, LIG1 heterozygous deletion was associated with worse progression-free survival in colon adenocarcinoma (HR 1.75, P=0.03), consistent with a carboplatin-resistance biomarker role first identified in triple-negative breast cancer [PMID:36001024](../papers/36001024.md).
+- PIK3CA mutations are a canonical driver in colon cancer (21% altered) in the MSK-50K cohort, but were nonetheless more subclonal than expected for a canonical context, which the authors attribute to PIK3CA mutations often emerging during treatment [PMID:41895280](../papers/41895280.md).
 
 ## Subtypes
 
@@ -133,3 +136,12 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 *This page was processed by **crosslinker** on **2026-05-21**.*
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35487942](../papers/35487942.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41895280](../papers/41895280.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

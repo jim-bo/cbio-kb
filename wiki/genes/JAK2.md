@@ -3,8 +3,8 @@ symbol: JAK2
 aliases: []
 cancer_types: [DLBCLNOS, SKCM]
 tags: [kinase, clonal-hematopoiesis, hematologic-malignancy-risk]
-processed_by: entity-page-writer
-processed_at: "2026-05-21"
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # JAK2
@@ -35,6 +35,8 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 - JAK2 V617F driver mutation was missed in 35 MPNs in the PCAWG analysis because panels-of-normals derived from blood samples filtered the mutation, illustrating a systematic bioinformatic failure mode in WGS pipelines [PMID:32025007](../papers/32025007.md)
 - JAK2 — classified as a CH-myeloid putative driver gene; hotspot or in-frame variants classed as drivers per CH-myeloid-PD annotation rules in a large cancer-patient CH cohort (n=24,146) [PMID:33106634](../papers/33106634.md)
 - Co-amplified with [CD274](CD274.md) and [PDCD1LG2](PDCD1LG2.md) at 9p24.3–9p22.2 in 82% of CD274-amplified tumors (85/10,194 total, ~1%); this 9p24 amplicon correlates with 70% PD-L1 IHC positivity across 10,194 Asian solid-tumor patients [PMID:35871175](../papers/35871175.md)
+- A single AML case carried a high-allelic-burden JAK2 p.V617F mutation, proposed as a candidate driver pending confirmation in a larger cohort [PMID:38212634](../papers/38212634.md).
+- JAK2 amplification (with CBL deep deletion) was an acquired copy-number alteration at metastasis in a HER2+ breast cancer case with APOBEC3-driven treatment resistance [PMID:40379787](../papers/40379787.md).
 
 ## Cancer types (linked)
 
@@ -91,5 +93,7 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 - [PMID:33106634](../papers/33106634.md)
 
 - [PMID:35871175](../papers/35871175.md)
+- [PMID:38212634](../papers/38212634.md)
+- [PMID:40379787](../papers/40379787.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

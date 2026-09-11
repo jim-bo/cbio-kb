@@ -3,8 +3,8 @@ symbol: RUNX1
 aliases: []
 cancer_types: []
 tags: [transcription-factor, clonal-hematopoiesis, hematologic-malignancy-risk]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # RUNX1
@@ -33,6 +33,9 @@ RUNX1 encodes a master hematopoietic transcription factor; germline and somatic 
 - Classified as a CH-myeloid-PD gene in therapy-shaped clonal hematopoiesis; truncating, hotspot, or in-frame variants were classed as putative CH drivers in cancer patients with prior therapy exposure [PMID:33106634](../papers/33106634.md)
 - Observed as a transient molecular abnormality in the transformation cohort of pediatric neuroblastoma patients who developed therapy-related myeloid neoplasms [PMID:35078859](../papers/35078859.md)
 - In AML cell-state analysis (n=68), RUNX1 mutations correlate with both HSC-like and cDC-like maturation states and confer ex vivo sensitivity to PIK-family inhibitors; associated with elevated [PEAR1](../genes/PEAR1.md) expression [PMID:35868306](../papers/35868306.md)
+- In MDS, clonal and subclonal RUNX1 mutations carried equivalent leukemia-free-survival risk, consistent with its previously published survival effect. [PMID:24030381](../papers/24030381.md)
+- RUNX1::RUNX1T1 fusion defines a favorable-outcome core-binding-factor AML category (110 cases, 12.4%) with high granulocyte-monocyte progenitor scores; RUNX1 loss-of-function alterations (with ETV6) were separately enriched in the immature/Unclassified AML subset. [PMID:38212634](../papers/38212634.md)
+- Altered in 3 of 25 (12%) invasive lobular breast carcinomas, alongside CCND1, PAK1, PTEN and KMT2C. [PMID:38347189](../papers/38347189.md)
 
 ## Cancer types (linked)
 
@@ -82,13 +85,13 @@ RUNX1 encodes a master hematopoietic transcription factor; germline and somatic 
 
 - [PMID:31768066](../papers/31768066.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:33106634](../papers/33106634.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35078859](../papers/35078859.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
 - [PMID:35868306](../papers/35868306.md)
+- [PMID:24030381](../papers/24030381.md)
+- [PMID:38212634](../papers/38212634.md)
+- [PMID:38347189](../papers/38347189.md)
 
-*This page was processed by **crosslinker** on **2026-05-21**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

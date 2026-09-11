@@ -6,7 +6,7 @@ canonical_source:
 unverified: 
 tags: [chemotherapy, cns-lymphoma, glioblastoma]
 processed_by: wiki-cli
-processed_at: 2026-05-21
+processed_at: 2026-09-10
 ---
 
 # temozolomide
@@ -40,6 +40,8 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - In 45/114 pediatric/AYA solid tumor patients profiled by cWGTS, treatment-related somatic mutation signatures included temozolomide signatures; TMB was significantly higher in therapy-exposed versus treatment-naive samples (Mann-Whitney p=1.892e-04), confirming persistent clones surviving prior therapy [PMID:35585047](../papers/35585047.md)
 - Temozolomide-induced hypermutation (>10 mutations/Mb at recurrence) was associated with increased proliferating stem-like cells in both IDH-wild-type (n=13) and IDH-mutant (n=7) diffuse glioma, confirmed by [SOX2](../genes/SOX2.md)+/Ki67+ multiplex IF; hypermutation is a shared route to the proliferative recurrence phenotype independent of CDKN2A/CCND2 events, motivating monitoring of mutation burden as a longitudinal biomarker [PMID:35649412](../papers/35649412.md).
 - 4/6 atypical SCLC (aSCLC) patients treated with temozolomide remained on therapy >10 months (up to 2 years); long responders had lowest MGMT expression by RNA-seq; the mutational signature of TMZ was detected in treated case A07, confirming drug exposure [PMID:39185963](../papers/39185963.md).
+- Alkylating chemotherapy with temozolomide (or dacarbazine) has no validated response biomarker in SDHB-mutant pheochromocytoma/paraganglioma; the authors suggest monitoring for MMR-gene mutations, SBS11, or MGMT overexpression to flag emerging resistant cells. [PMID:40097403](../papers/40097403.md)
+- The dual PI3K/mTOR inhibitor samotolisib combined with irinotecan/temozolomide was validated in vivo as a translational strategy for MYOD1 L122R-mutant spindle cell/sclerosing rhabdomyosarcoma. [PMID:41758938](../papers/41758938.md)
 
 ## Resistance mechanisms
 
@@ -86,3 +88,9 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **wiki-cli** on **2026-05-21**.*
+- [PMID:40097403](../papers/40097403.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:41758938](../papers/41758938.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

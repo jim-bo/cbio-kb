@@ -15,8 +15,8 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # BRCA2
@@ -106,6 +106,12 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - BRCA2 and [RB1](../genes/RB1.md) are co-located on 13q, which shows higher deletion frequency in metastatic versus primary prostate cancer in the MSK-IMPACT cohort (n=1,417) [PMID:35670774](../papers/35670774.md)
 - BRCA2 rearrangements observed in 0.3% of 7,494 sarcomas; BRCA2 is among the HR-pathway genes with pathogenic alterations in 2.5% of sarcomas; biallelic losses most frequent in uterine [LMS](../cancer_types/LMS.md) (4.8%) and chordoma (5.3%) [PMID:35705558](../papers/35705558.md)
 - BRCA2 mutated in 7% of [ULMS](../cancer_types/ULMS.md); nearly half (41%) of corpus-wide BRCA2 alterations occurred in uterine sarcomas in the MSK sarcoma cohort (n=2,138) [PMID:35705560](../papers/35705560.md)
+- All three patients with BRCA2 mutations had progressive disease as best response to pembrolizumab plus low-dose cyclophosphamide in this TNBC trial [PMID:35121644](../papers/35121644.md).
+- One pathogenic somatic BRCA2 indel (c.5946delT) was identified in a patient on sotigalimab/nivolumab/chemotherapy who had a partial response but withdrew consent [PMID:35662283](../papers/35662283.md).
+- Pathogenic germline BRCA2 mutations were not associated with pathologic complete response; a somatic BRCA2 frameshift present in the pretreatment PDX was lost in post-treatment PDXs [PMID:36001024](../papers/36001024.md).
+- Somatic BRCA2 Q2506Sfs*21 with LOH gave biallelic inactivation and an HRDetect score of 0.99 in a CDH1 genetically wild-type invasive lobular carcinoma case [PMID:38347189](../papers/38347189.md).
+- BRCA2 was one of nine DDR panel genes profiled; only truncating alterations counted as deleterious, with results reported for the pooled DDR category rather than per gene [PMID:39499893](../papers/39499893.md).
+- BRCA2 was counted among selected level 3B actionable genes in this pan-biliary-tract cancer cohort [PMID:42360806](../papers/42360806.md).
 
 ## Cancer types (linked)
 
@@ -352,3 +358,21 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:35705560](../papers/35705560.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:35121644](../papers/35121644.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:35662283](../papers/35662283.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36001024](../papers/36001024.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38347189](../papers/38347189.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:39499893](../papers/39499893.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:42360806](../papers/42360806.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -4,8 +4,8 @@ oncotree_code: GEJ
 main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Adenocarcinoma of the Gastroesophageal Junction (GEJ)
@@ -30,6 +30,7 @@ Adenocarcinoma of the gastroesophageal junction (GEJ) arises at the junction of 
 - Gastroesophageal junction tumors were included in the 295-patient MSK-IMPACT [EGC](../cancer_types/EGC.md) cohort; CIN subtype dominated (63%) across [EGC](../cancer_types/EGC.md) including GEJ; [ERBB2](../genes/ERBB2.md) amplification (25% of CIN tumors) was the most frequent actionable alteration and predicted [trastuzumab](../drugs/trastuzumab.md) PFS dose-dependently by NGS [PMID:29122777](../papers/29122777.md)
 - 12/37 (32%) patients in a HER2-positive mEGC phase 2 [pembrolizumab](../drugs/pembrolizumab.md) + [trastuzumab](../drugs/trastuzumab.md) + chemotherapy trial had GEJ primary; KRAS/RTK-RAS co-alterations predicted shorter PFS (5.9 vs 14.6 months, p=0.011) [PMID:32437664](../papers/32437664.md)
 - In 237 locally advanced lower esophageal/GEJ adenocarcinoma patients, [MDM2](../genes/MDM2.md) amplification was independently associated with poor neoadjuvant chemoradiotherapy response (OR 0.10, p=0.032); [TP53](../genes/TP53.md) pathway severity stratified responders (p=0.004, q=0.07) [PMID:35377946](../papers/35377946.md)
+- In a 50,748-patient pan-cancer MET copy-number survey, MET amplification was found in 5.0% of gastroesophageal junction adenocarcinomas, the third-highest rate among the surveyed histologies after papillary renal cell carcinoma (8.4%) and pleomorphic/sarcomatoid NSCLC (8.5%) [PMID:36044468](../papers/36044468.md).
 
 ## Subtypes
 
@@ -60,3 +61,6 @@ Adenocarcinoma of the gastroesophageal junction (GEJ) arises at the junction of 
 - [PMID:35377946](../papers/35377946.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36044468](../papers/36044468.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

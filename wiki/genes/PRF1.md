@@ -3,8 +3,8 @@ symbol: PRF1
 aliases: [perforin]
 cancer_types: [COAD]
 tags: [cytotoxic, icr-signature]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # PRF1
@@ -21,6 +21,10 @@ PRF1 encodes perforin, a cytotoxic effector molecule. In the corpus it is part o
 - PRF1 (perforin) geometric mean with GZMA defines the cytolytic activity score; on-therapy increases in PRF1 associated with benefit in both Ipi-N (p=0.005) and Ipi-P (p=0.043) patients treated with nivolumab for melanoma [PMID:29033130](../papers/29033130.md)
 - PRF1 (perforin-1) is among the immune effector genes (alongside GZMA, GZMK, GZMH) over-expressed in MSI-high tumors across COADREAD, STAD, and UCEC (Kolmogorov–Smirnov P < 0.01), consistent with heightened immune surveillance in mismatch-repair-deficient tumors [PMID:29625049](../papers/29625049.md)
 - Used (with GZMA) to define the CYT cytolytic score that correlates with the TIL NMF factor F9 (Spearman R=0.86); elevated in SMC vs. TCGA consistent with higher cytotoxic-T-cell infiltrate in younger Asian breast cancers [PMID:29713003](../papers/29713003.md)
+- PRF1 (perforin) was among the Th1/cytotoxic hallmark genes upregulated in tumor under nivolumab (PD-1 blockade) [PMID:27169994](../papers/27169994.md)
+- PRF1 is part of the CD8A/GZMA/GZMB/PRF1/IFNG/TBX21 T-effector gene signature; it did not differ significantly between upper- and lower-tract urothelial primaries treated with atezolizumab [PMID:27939400](../papers/27939400.md)
+- PRF1 is part of the Teff signature (CD8A, EOMES, PRF1, IFNG, CD274); TeffHigh renal cell carcinoma predicted benefit from atezolizumab plus bevacizumab [PMID:29867230](../papers/29867230.md)
+- The CYT cytolytic score in upper tract urothelial carcinoma combines GZMA and PRF1 expression [PMID:39550333](../papers/39550333.md)
 
 ## Cancer types (linked)
 
@@ -42,19 +46,18 @@ PRF1 encodes perforin, a cytotoxic effector molecule. In the corpus it is part o
 
 - [PMID:37202560](../papers/37202560.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26359337](../papers/26359337.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26997480](../papers/26997480.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29033130](../papers/29033130.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29713003](../papers/29713003.md)
+- [PMID:27169994](../papers/27169994.md)
+- [PMID:27939400](../papers/27939400.md)
+- [PMID:29867230](../papers/29867230.md)
+- [PMID:39550333](../papers/39550333.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

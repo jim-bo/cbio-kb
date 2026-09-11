@@ -3,8 +3,8 @@ symbol: APOBEC3B
 aliases: []
 cancer_types: [BLCA]
 tags: [mutational-signature, cytidine-deaminase]
-processed_by: entity-page-writer
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # APOBEC3B
@@ -27,6 +27,7 @@ APOBEC3B (Apolipoprotein B mRNA Editing Enzyme Catalytic Subunit 3B) encodes a c
 - APOBEC3B is implicated alongside APOBEC3A as an enzymatic source of SBS2 and SBS13 mutational signatures in resected lung adenocarcinoma; these signatures were independently associated with postresection recurrence (~2-fold elevated risk), particularly in acinar/papillary tumors. [PMID:32791233](../papers/32791233.md)
 - APOBEC3B protein levels track APOBEC mutagenesis signatures (COSMIC SBS2/SBS13) in luminal breast cancer (CPTAC proteogenomics, n=122); 6 APOBEC-enriched BRCA cases had higher mutation loads (Wilcoxon p=0.008) and elevated APOBEC3B protein [PMID:33212010](../papers/33212010.md)
 - Kataegis events in LCINS WGS cohort show APOBEC3B-like mutational signatures; APOBEC3B-associated kataegis identified alongside APOBEC3A-like events in the MDM2 locus and elsewhere. [PMID:34493867](../papers/34493867.md)
+- Catalytically active (not catalytically dead) overexpression, together with APOBEC3A, reproduces the APOBEC3 mutational signature, kataegis and structural instability in ER+/HER2+ breast cancer cell lines and accelerates resistance to fulvestrant, CDK4/6 inhibitors and HER2-targeted therapy [PMID:40379787](../papers/40379787.md)
 
 ## Cancer types (linked)
 
@@ -74,3 +75,6 @@ APOBEC3B (Apolipoprotein B mRNA Editing Enzyme Catalytic Subunit 3B) encodes a c
 - [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:40379787](../papers/40379787.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

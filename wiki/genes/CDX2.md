@@ -3,8 +3,8 @@ symbol: CDX2
 aliases: []
 cancer_types: [COADREAD]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-16
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # CDX2
@@ -16,6 +16,7 @@ CDX2 (Caudal Type Homeobox 2) is a hindgut-specific homeobox transcription facto
 ## Alterations observed in the corpus
 
 - Transcriptional and protein loss (by IHC) in sessile serrated colonocytes (SSCs) and SSLs in the COLON MAP / HTAN pre-cancer atlas ([crc_hta11_htan_2021](../datasets/crc_hta11_htan_2021.md)); variably reduced in MSI-H CRCs; CDX2-low combined with [MUC5AC](../genes/MUC5AC.md)+ is proposed as the diagnostic biomarker pair for SSL classification [PMID:34910928](../papers/34910928.md)
+- CDX2, the intestinal lineage-defining transcription factor, is retained in dysplastic primary colorectal tumor epithelium but lost in PROX1-high, poorly differentiated invasion-front cells and in non-canonical metastatic states [PMID:39478232](../papers/39478232.md).
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ CDX2 (Caudal Type Homeobox 2) is a hindgut-specific homeobox transcription facto
 - [PMID:34910928](../papers/34910928.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:39478232](../papers/39478232.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

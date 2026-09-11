@@ -5,8 +5,8 @@ drug_class: anti-HER2 antibody-drug conjugate (maytansinoid)
 canonical_source: oncokb
 unverified: false
 tags: [adc, targeted-therapy, her2, radiosensitizer]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # ado-trastuzumab emtansine
@@ -26,6 +26,7 @@ Trastuzumab emtansine (T-DM1; ado-trastuzumab emtansine; brand name Kadcyla) is 
 - ERBB2-amplified serous endometrial cancer: one heavily pretreated patient achieved a 14-month ongoing complete response; supports ERBB2-targeted therapy in this histology [PMID:30068706](../papers/30068706.md)
 - HER2-targeted ADCs (including ado-trastuzumab emtansine) should be prioritized over HER kinase inhibitors such as [neratinib](../drugs/neratinib.md) for HER2-mutant urothelial cancer; in a HER2 S310F [UTUC](../cancer_types/UTUC.md) PDX model (UCC14), trastuzumab deruxtecan (DS-8201a) strongly suppressed tumor growth (p<0.0001) whereas neratinib was largely refractory [PMID:32332851](../papers/32332851.md)
 - Anti-HER2 antibody-drug conjugate (T-DM1); ERBB2 gain-of-function mutations in 3% of [NSCLC](../cancer_types/NSCLC.md) in Chinese pan-cancer cohort (n=10,194) are actionable with T-DM1 per OncoKB [PMID:35871175](../papers/35871175.md)
+- Proposed as a HER2 antibody-drug conjugate option for ERBB2-mutant endometrial cancer because ADCs are active in HER2-low/negative tumors across extracellular- and kinase-domain ERBB2 mutations. [PMID:39031567](../papers/39031567.md)
 
 ## Resistance mechanisms
 
@@ -54,3 +55,6 @@ Trastuzumab emtansine (T-DM1; ado-trastuzumab emtansine; brand name Kadcyla) is 
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39031567](../papers/39031567.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

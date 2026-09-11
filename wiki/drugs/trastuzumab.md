@@ -5,8 +5,8 @@ drug_class: anti-HER2 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [targeted-therapy]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # trastuzumab
@@ -44,6 +44,7 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - OncoMark hallmark-survival analysis (TCGA logistic regression) associated trastuzumab with the Resisting Cell Death (RCD) hallmark for both disease-free and overall survival [PMID:41057477](../papers/41057477.md)
 - Trastuzumab was administered neoadjuvantly to 10 HER2+ esophageal/GEJ adenocarcinoma patients (of 237 total); ERBB2 amplification was present in 16% of the cohort but was not significantly associated with pathologic response in this analysis [PMID:35377946](../papers/35377946.md)
 - Anti-HER2 antibody; trastuzumab+[pertuzumab](../drugs/pertuzumab.md) dual HER2 blockade for ERBB2-amplified [BRCA](../cancer_types/BRCA.md) (24% of BRCA in Chinese pan-cancer cohort n=10,194) [PMID:35871175](../papers/35871175.md)
+- Current NCCN guidance restricts trastuzumab to advanced/recurrent serous endometrial cancer with HER2 overexpression/ERBB2 amplification; the ERBB2 V842I mutation conferred in vitro trastuzumab resistance, while R678Q and S310Y were associated with trastuzumab sensitivity. [PMID:39031567](../papers/39031567.md)
 
 ## Resistance mechanisms
 
@@ -97,3 +98,6 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - [PMID:35871175](../papers/35871175.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:39031567](../papers/39031567.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

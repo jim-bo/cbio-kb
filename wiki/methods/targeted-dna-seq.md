@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [dna-seq, targeted]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # Targeted DNA sequencing
@@ -49,6 +49,9 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - Used for retrospective discovery genomic analysis of 569 MSKCC MIBC tumors via WES or targeted exon capture, enabling comparison of primary vs secondary MIBC mutation profiles [PMID:30290956](../papers/30290956.md)
 - FUSCC 484-gene targeted NGS panel applied to tumor biopsies of 69 refractory metastatic TNBC patients for somatic and germline calling in the FUTURE umbrella trial [PMID:32719455](../papers/32719455.md)
 - Custom literature-derived targeted DNA sequencing panel at 500x coverage applied to 281 colorectal polyps in the Tennessee Colorectal Polyp Study; confirmed APC, KRAS, and BRAF mutation frequencies across adenoma and serrated polyp subtypes [PMID:34910928](../papers/34910928.md)
+- Used with an RNA-bait capture panel of 111 myeloid genes to profile 738 MDS/MDS-MPN patients, yielding 2,260 high-confidence variants [PMID:24030381](../papers/24030381.md).
+- Used for a 42-gene panel (C2, n=352) and a 12-gene RCC-focused panel (C3, n=474) in a 943-patient clear cell renal cell carcinoma cohort [PMID:36815791](../papers/36815791.md).
+- Used for Twist custom-capture deep sequencing (5,000-7,000x) to validate a pediatric solid tumor PDX pair [PMID:37990009](../papers/37990009.md).
 
 ## Notes
 
@@ -147,3 +150,12 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - [PMID:34910928](../papers/34910928.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:24030381](../papers/24030381.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36815791](../papers/36815791.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

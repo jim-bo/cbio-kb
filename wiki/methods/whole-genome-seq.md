@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wgs]
-processed_by: crosslinker
-processed_at: 2026-05-21
+processed_by: wiki-cli
+processed_at: 2026-09-10
 ---
 
 # Whole-genome sequencing (WGS)
@@ -109,6 +109,12 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Applied to 25 metastatic [CSCC](../cancer_types/CSCC.md) lymph node specimens and matched blood (mean tumor coverage 94.56x, blood 41.08x); enabled discovery of non-coding 3'UTR and lncRNA drivers invisible to WES/targeted panels, and novel indel signatures ID8/ID9/ID13 [PMID:35982973](../papers/35982973.md)
 - Cited as enabling ultra-rapid clinical genomes in as few as 5 hours via nanopore sequencing; positioned as a key genomic modality within multi-omics integration alongside WES, RNA-seq, DNA methylation, and proteomics [PMID:37119971](../papers/37119971.md)
 - Applied at ~100× tumor / ~80× normal depth (NovaSeq 6000) to 12 aSCLC specimens (11 patients); gold standard for chromothripsis detection via ShatterSeek; MutationTimeR analysis placed all chromothripsis-associated amplifications early in tumorigenesis; demonstrated average 565 SVs per case [PMID:39185963](../papers/39185963.md)
+- Whole-genome sequencing used alongside RNA-seq and FISH in a Burkitt lymphoma genetic-subgroup study [PMID:36201743](../papers/36201743.md)
+- Cohort C1 (n=93, CAGEKID) profiled by tumor-germline WGS in a 943-sample clear cell renal cell carcinoma study [PMID:36815791](../papers/36815791.md)
+- WGS performed on two low-mouse-contamination pediatric solid-tumor PDX samples for multi-caller somatic variant calling [PMID:37990009](../papers/37990009.md)
+- Orthogonal WGS validated 59.2% of RNA-seq-derived fusion/SNV/indel/CNV calls in 665 of 887 pediatric acute myeloid leukemia cases [PMID:38212634](../papers/38212634.md)
+- WGS (mean 63x tumor / 37x normal, GRCh37/hg19) performed for three breast cancer cases (CDW19-21) [PMID:38347189](../papers/38347189.md)
+- Tumor/blood WGS (Illumina NovaSeq 6000) performed for 94 hereditary SDHB-mutant pheochromocytoma/paraganglioma tumours in the A5 consortium cohort [PMID:40097403](../papers/40097403.md)
 
 ## Notes
 
@@ -379,3 +385,21 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:39185963](../papers/39185963.md)
 
 *This page was processed by **crosslinker** on **2026-05-21**.*
+- [PMID:36201743](../papers/36201743.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:36815791](../papers/36815791.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:37990009](../papers/37990009.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38212634](../papers/38212634.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:38347189](../papers/38347189.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*
+- [PMID:40097403](../papers/40097403.md)
+
+*This page was processed by **wiki-cli** on **2026-09-10**.*

@@ -4,7 +4,7 @@ aliases: [MIG]
 cancer_types: [COAD]
 tags: [chemokine, icr-signature, immune-infiltration]
 processed_by: wiki-cli
-processed_at: 2026-05-16
+processed_at: 2026-09-10
 ---
 
 # CXCL9
@@ -19,6 +19,7 @@ CXCL9 is an IFN-gamma-induced CXCR3 ligand that directs CD8 T cell and NK cell r
 - CXCL9 was identified as an [APC](../genes/APC.md) chemoattraction marker in spatial transcriptomic profiling (GeoMx WTA) of fallopian tube [HGSOC](../cancer_types/HGSOC.md) precursor lesions; CXCL9 expression used to define infiltrating immune-cell populations and their spatial relationship to [HLA-E](../genes/HLA-E.md)+ epithelium across the p53-signature → STIC.I → STIC.C → invasive cancer axis [PMID:39386723](../papers/39386723.md).
 - CXCL9 is concordantly downregulated in the T-cell-depleted UTUC cluster, linking FGFR3-driven suppression of IFNG response genes to immune exclusion in 37 upper-tract urothelial carcinoma cases [PMID:31278255](../papers/31278255.md)
 - Higher CXCL9 expression in ipilimumab-treated melanoma responders to subsequent anti-PD1 ICB (MWW P=0.05); part of the CXCL9/CXCL10/CXCR3 chemokine axis elevated in responders in the ipilimumab-treated subgroup but not ipilimumab-naive tumors [PMID:31792460](../papers/31792460.md)
+- CXCL9 increased 2.4-fold in tumor and a median +101% in serum on nivolumab treatment, proposed to be induced by myeloid cells to recruit T cells. [PMID:27169994](../papers/27169994.md)
 
 ## Cancer types (linked)
 
@@ -42,10 +43,9 @@ CXCL9 is an IFN-gamma-induced CXCR3 ligand that directs CD8 T cell and NK cell r
 - [PMID:37202560](../papers/37202560.md)
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:31278255](../papers/31278255.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31792460](../papers/31792460.md)
+- [PMID:27169994](../papers/27169994.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **wiki-cli** on **2026-09-10**.*

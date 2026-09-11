@@ -55,3 +55,17 @@ def test_family_completion_bug_regression(tmp_path: Path) -> None:
     assert "FGFR2.md" not in new
     assert "FGFR4.md" not in new
     assert n == 1
+
+
+def test_abbreviation_collisions_not_linked(tmp_path: Path) -> None:
+    # "OS" in a paper is overall survival and "FGA" is fraction of genome
+    # altered; linking them to the osteosarcoma / fibrinogen pages is wrong.
+    _build_wiki(tmp_path)
+    (tmp_path / "cancer_types" / "OS.md").write_text("---\nname: Osteosarcoma\n---\n# OS\n")
+    (tmp_path / "genes" / "FGA.md").write_text("---\nsymbol: FGA\n---\n# FGA\n")
+    paper = tmp_path / "papers" / "2.md"
+    paper.write_text("---\n---\n\nTP53 loss predicted shorter OS and higher FGA.\n")
+    n, new = crosslink_file(paper, _load_entities(tmp_path))
+    assert n == 1
+    assert "[TP53](../genes/TP53.md)" in new
+    assert "OS.md" not in new and "FGA.md" not in new

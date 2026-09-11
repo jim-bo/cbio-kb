@@ -30,6 +30,12 @@ KINDS = ["genes", "cancer_types", "datasets", "drugs", "methods"]
 # Only link them if they're clearly the gene (we keep them — but flag here if needed later).
 STOPWORDS = {"A", "I", "IT", "OR", "AS", "IS", "BE", "AN", "TO", "OF", "ON", "IN", "BY"}
 
+# Page names that papers almost always use as a different abbreviation:
+# OS is overall survival far more often than osteosarcoma, and FGA is
+# fraction of genome altered, not the fibrinogen gene. Pages that mean the
+# entity link it explicitly.
+ABBREVIATIONS = {"OS", "FGA"}
+
 
 def _load_entities(wiki: Path) -> dict[str, dict[str, Path]]:
     out: dict[str, dict[str, Path]] = {k: {} for k in KINDS}
@@ -103,7 +109,7 @@ def crosslink_file(path: Path, entities: dict[str, dict[str, Path]]) -> tuple[in
         for name, p in d.items():
             if p == path:
                 continue  # never self-link
-            if name in STOPWORDS:
+            if name in STOPWORDS or name in ABBREVIATIONS:
                 continue
             flat.append((name, kind, p))
     flat.sort(key=lambda x: -len(x[0]))

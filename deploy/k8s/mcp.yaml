@@ -1,0 +1,148 @@
+# cbio-kb MCP server on Kubernetes: Deployment + Service + Ingress.
+#
+# Serves streamable-HTTP MCP at https://mcp.example.org/lit/mcp, next to
+# cBioPortal's own server at /db/mcp. The server mounts its endpoint at
+# CBIO_KB_MCP_HTTP_PATH itself, so the Ingress forwards the path unchanged
+# (no rewrite). GET /health stays at the pod root and is used by the probes.
+#
+# Before applying, edit: the image (OWNER, and pin a :sha-<short> or
+# :<version> tag), the Ingress host/class/TLS, and how the passage index
+# arrives (below). Then:
+#
+#   kubectl apply -n <namespace> -f deploy/k8s/mcp.yaml
+#   curl -i https://mcp.example.org/lit/mcp   # a plain GET gets 405/406; 404 = not routed
+#
+# Passage index (data/paper_index, needed by the search tools only):
+#   a) Baked into the image: set PAPER_INDEX_URL/PAPER_INDEX_SHA256 when
+#      building (repository variables in CI). Nothing to change here.
+#   b) Fetched at pod start: uncomment the initContainer, volumeMounts and
+#      volumes blocks. They reuse this image's fetch script to download a
+#      scripts/package_index.sh tarball into an emptyDir. Use this only
+#      with an image that does NOT bake the index; the mount hides it.
+#   c) A PersistentVolumeClaim holding an unpacked paper_index/, mounted
+#      the same way as (b) without the initContainer.
+# With none of these the wiki tools work and search tools say the index is
+# missing. docs/hosting.md has the full picture.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cbio-kb-mcp
+  labels:
+    app: cbio-kb-mcp
+spec:
+  # Stateless (read-only wiki + index, FASTMCP_STATELESS_HTTP below), so
+  # more replicas behind the Service are fine.
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cbio-kb-mcp
+  template:
+    metadata:
+      labels:
+        app: cbio-kb-mcp
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1001  # the image's `app` user
+        runAsGroup: 1001
+        fsGroup: 1001
+      containers:
+        - name: mcp
+          image: ghcr.io/OWNER/cbio-kb-mcp:main
+          ports:
+            - name: http
+              containerPort: 8124
+          env:
+            - name: CBIO_KB_MCP_HTTP_PATH
+              value: /lit/mcp
+            # No per-client session state, so any replica can answer any
+            # request (FastMCP otherwise pins sessions to the pod that
+            # created them).
+            - name: FASTMCP_STATELESS_HTTP
+              value: "true"
+            # Trust X-Forwarded-* from the ingress controller, which reaches
+            # the pod over the cluster network, so redirects (/lit/mcp/ ->
+            # /lit/mcp) keep the https scheme.
+            - name: CBIO_KB_MCP_FORWARDED_ALLOW_IPS
+              value: "*"
+            # Optional: registers search_agentic, which spends tokens on your
+            # Anthropic account.
+            # - name: ANTHROPIC_API_KEY
+            #   valueFrom:
+            #     secretKeyRef: {name: cbio-kb, key: anthropic-api-key, optional: true}
+          readinessProbe:
+            httpGet: {path: /health, port: http}
+            periodSeconds: 10
+          livenessProbe:
+            httpGet: {path: /health, port: http}
+            initialDelaySeconds: 30
+            periodSeconds: 30
+          resources:
+            # ~1.2 GiB after a BM25 + graph search; the dense leg adds the
+            # embedding model and FAISS index.
+            requests: {cpu: 500m, memory: 2Gi}
+            limits: {memory: 4Gi}
+          securityContext:
+            allowPrivilegeEscalation: false
+          # (b) index fetched at pod start:
+          # volumeMounts:
+          #   - name: paper-index
+          #     mountPath: /app/data/paper_index
+          #     subPath: paper_index
+          #     readOnly: true
+      # initContainers:
+      #   - name: fetch-paper-index
+      #     image: ghcr.io/OWNER/cbio-kb-mcp:main  # same image: it ships the fetch script
+      #     command:
+      #       - python
+      #       - /app/docker/fetch_paper_index.py
+      #       - /work
+      #       - https://github.com/OWNER/REPO/releases/download/index-YYYYMMDD/paper-index-YYYYMMDD.tar.gz
+      #       - "<sha256 from the .sha256 file>"
+      #     volumeMounts:
+      #       - name: paper-index
+      #         mountPath: /work
+      # volumes:
+      #   - name: paper-index
+      #     emptyDir:
+      #       sizeLimit: 2Gi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: cbio-kb-mcp
+  labels:
+    app: cbio-kb-mcp
+spec:
+  selector:
+    app: cbio-kb-mcp
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: cbio-kb-mcp
+  annotations:
+    # ingress-nginx: MCP responses can stream (SSE) on long-lived requests.
+    nginx.ingress.kubernetes.io/proxy-buffering: "off"
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "3600"
+    nginx.ingress.kubernetes.io/proxy-send-timeout: "3600"
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts: [mcp.example.org]
+      secretName: mcp-example-org-tls
+  rules:
+    - host: mcp.example.org
+      http:
+        paths:
+          - path: /lit/mcp
+            pathType: Prefix
+            backend:
+              service:
+                name: cbio-kb-mcp
+                port:
+                  name: http

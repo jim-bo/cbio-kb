@@ -1,0 +1,107 @@
+# cbio-kb chat API on Kubernetes: Deployment + Service + Ingress.
+#
+# The FastAPI service the website's /ask page posts to (POST /api/chat,
+# streamed back as SSE). This example exposes it at
+# https://kb.example.org/api/chat. Build the site with CHAT_API_URL set to
+# that URL (a repository variable read by .github/workflows/website.yml) and
+# list the site's origin in CHAT_CORS_ORIGINS below.
+#
+#   kubectl create secret generic cbio-kb -n <namespace> \
+#     --from-literal=anthropic-api-key=sk-ant-...
+#   kubectl apply -n <namespace> -f deploy/k8s/chat.yaml
+#
+# Sessions: SESSION_STORE=memory keeps chat history inside the pod, so
+# keep replicas at 1. With more replicas a follow-up question can land on a
+# pod that has never seen the conversation. (The Firestore store in
+# ai_search/sessions.py is the only shared option today.)
+#
+# Passage index: the RAG and Hybrid modes need it. Deliver it as for the MCP
+# server (see deploy/k8s/mcp.yaml): bake it into the image or mount it at
+# /app/data/paper_index. Agentic mode needs only the wiki inside the image.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cbio-kb-chat
+  labels:
+    app: cbio-kb-chat
+spec:
+  replicas: 1  # in-memory sessions; see above
+  selector:
+    matchLabels:
+      app: cbio-kb-chat
+  template:
+    metadata:
+      labels:
+        app: cbio-kb-chat
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1001  # the image's `app` user
+        runAsGroup: 1001
+      containers:
+        - name: chat
+          image: ghcr.io/OWNER/cbio-kb-chat:main  # pin :sha-<short> or :<version>
+          ports:
+            - name: http
+              containerPort: 8080
+          env:
+            - name: ANTHROPIC_API_KEY
+              valueFrom:
+                secretKeyRef: {name: cbio-kb, key: anthropic-api-key}
+            - name: SESSION_STORE
+              value: memory
+            # Origin(s) of the page hosting /ask, comma-separated.
+            - name: CHAT_CORS_ORIGINS
+              value: https://kb.example.org
+          # The app has no health route; the port answering is enough.
+          readinessProbe:
+            tcpSocket: {port: http}
+            periodSeconds: 10
+          livenessProbe:
+            tcpSocket: {port: http}
+            initialDelaySeconds: 30
+            periodSeconds: 30
+          resources:
+            requests: {cpu: 500m, memory: 2Gi}
+            limits: {memory: 4Gi}
+          securityContext:
+            allowPrivilegeEscalation: false
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: cbio-kb-chat
+  labels:
+    app: cbio-kb-chat
+spec:
+  selector:
+    app: cbio-kb-chat
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: cbio-kb-chat
+  annotations:
+    # ingress-nginx: answers stream as SSE and can take minutes.
+    nginx.ingress.kubernetes.io/proxy-buffering: "off"
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "600"
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts: [kb.example.org]
+      secretName: kb-example-org-tls
+  rules:
+    - host: kb.example.org
+      http:
+        paths:
+          - path: /api/chat
+            pathType: Exact
+            backend:
+              service:
+                name: cbio-kb-chat
+                port:
+                  name: http

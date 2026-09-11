@@ -93,10 +93,14 @@ COPY --chown=app:app wiki/ /app/wiki/
 
 # ai_search isn't pip-installed (only src/cbio_kb is in the wheel), so we
 # put /app on PYTHONPATH so `import ai_search` resolves.
+#
+# SESSION_STORE=memory keeps chat history in the process, which is right for
+# one replica. The Cloud Run deploy sets SESSION_STORE=firestore itself
+# (Firestore via Application Default Credentials; see ai_search/sessions.py).
 ENV PYTHONPATH=/app \
     PATH="/app/.venv/bin:$PATH" \
     PYTHONUNBUFFERED=1 \
-    SESSION_STORE=firestore \
+    SESSION_STORE=memory \
     HF_HOME=/app/hf-cache \
     HF_HUB_OFFLINE=1 \
     CBIO_RERANKER_MODEL=cross-encoder/ms-marco-MiniLM-L-6-v2

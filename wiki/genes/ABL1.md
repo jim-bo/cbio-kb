@@ -6,26 +6,26 @@ cancer_types:
 tags:
   - gene-fusion
   - tyrosine-kinase
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ABL1
 
 ## Overview
 
-ABL1 (ABL proto-oncogene 1, non-receptor tyrosine kinase) is best known as the partner gene in the [BCR](../genes/BCR.md)–ABL1 fusion arising from the Philadelphia chromosome t(9;22), a hallmark of chronic myeloid leukemia (CML). In acute myeloid leukemia ([AML](../cancer_types/AML.md)), BCR–ABL1 fusions are a rare but recurrent event detected by RNA-seq and represent an activated-signaling driver.
+ABL1 (ABL proto-oncogene 1, non-receptor tyrosine kinase) is best known as the partner gene in the [BCR](../genes/BCR.md)–ABL1 fusion arising from the Philadelphia chromosome t(9;22), a hallmark of chronic myeloid leukemia ([CML](../cancer_types/CML.md)). In acute myeloid leukemia ([AML](../cancer_types/AML.md)), [BCR](../genes/BCR.md)–ABL1 fusions are a rare but recurrent event detected by RNA-seq and represent an activated-signaling driver.
 
 ## Alterations observed in the corpus
 
-- BCR–ABL1 — recurrent in-frame fusion detected by RNA-seq in the TCGA AML cohort (200 adult de novo AML cases); classified among additional recurrent fusions alongside [NUP98](../genes/NUP98.md)–[NSD1](../genes/NSD1.md) and [PICALM](../genes/PICALM.md)–[MLLT10](../genes/MLLT10.md). [PMID:23634996](../papers/23634996.md)
-- Mentioned in a 2014 HCC genomics review as a resistance analogy: ABL1-targeting tyrosine kinase inhibitor resistance patterns inform rational combination therapy design for HCC [PMID:25369299](../papers/25369299.md)
-- BCR-ABL1 fusion diagnostic of CML; NUP214-ABL1 and FOXP1-ABL1 fusions identified in B-cell ALL (BLL) — ABL1 rearrangements are TKI targets (dasatinib used to achieve remission enabling curative bone-marrow transplant) [PMID:28007021](../papers/28007021.md)
+- BCR–ABL1 — recurrent in-frame fusion detected by RNA-seq in the TCGA [AML](../cancer_types/AML.md) cohort (200 adult de novo AML cases); classified among additional recurrent fusions alongside [NUP98](../genes/NUP98.md)–[NSD1](../genes/NSD1.md) and [PICALM](../genes/PICALM.md)–[MLLT10](../genes/MLLT10.md). [PMID:23634996](../papers/23634996.md)
+- Mentioned in a 2014 [HCC](../cancer_types/HCC.md) genomics review as a resistance analogy: ABL1-targeting tyrosine kinase inhibitor resistance patterns inform rational combination therapy design for HCC [PMID:25369299](../papers/25369299.md)
+- BCR-ABL1 fusion diagnostic of CML; NUP214-ABL1 and FOXP1-ABL1 fusions identified in B-cell ALL ([BLL](../cancer_types/BLL.md)) — ABL1 rearrangements are TKI targets ([dasatinib](../drugs/dasatinib.md) used to achieve remission enabling curative bone-marrow transplant) [PMID:28007021](../papers/28007021.md)
 - The [BCR](../genes/BCR.md)–[ABL1](../genes/ABL1.md) fusion is a classic leukemic fusion recovered in [LAML](../cancer_types/LAML.md) 'fusion-only' tumors in a pan-cancer RNA-seq fusion analysis across TCGA. [PMID:29617662](../papers/29617662.md)
 - Cited as a cancer-driving target motivating tissue-agnostic basket/umbrella trials (e.g. NCI-MATCH); the authors caution that the same alteration class yields unpredictable clinical responses across diverse malignancies, illustrating why tissue-of-origin context still matters [PMID:29625048](../papers/29625048.md)
-- BCR-ABL1 fusion detected in cancer cell lines; ponatinib sensitivity correlates with phospho-SHP2 (pY542) levels in AML/CML lines carrying BCR-ABL1 alterations [PMID:31068700](../papers/31068700.md)
+- BCR-ABL1 fusion detected in cancer cell lines; [ponatinib](../drugs/ponatinib.md) sensitivity correlates with phospho-SHP2 (pY542) levels in AML/CML lines carrying BCR-ABL1 alterations [PMID:31068700](../papers/31068700.md)
 - BCR-ABL1 fusion detected in all three Ph+ ALL patient-derived xenograft models in the PPTC PDX cohort (261 models across 37 pediatric cancer subtypes) [PMID:31693904](../papers/31693904.md)
-- In a proteogenomic analysis of 99 treatment-naive GBMs, ABL1 was identified as an inferred kinase-deacetylase interaction partner of HDAC2 (~5% phospho-outlier tumors); HDAC2 S422 phosphorylation tracks ABL1 activity, suggesting ABL1-mediated chromatin regulation in a GBM subset. [PMID:33577785](../papers/33577785.md)
+- In a proteogenomic analysis of 99 treatment-naive GBMs, ABL1 was identified as an inferred kinase-deacetylase interaction partner of [HDAC2](../genes/HDAC2.md) (~5% phospho-outlier tumors); HDAC2 S422 phosphorylation tracks ABL1 activity, suggesting ABL1-mediated chromatin regulation in a [GBM](../cancer_types/GBM.md) subset. [PMID:33577785](../papers/33577785.md)
 - BCR::ABL1 fusion identified in 1 case within a pediatric AML transcriptomic classification cohort [PMID:38212634](../papers/38212634.md)
 
 ## Cancer types (linked)
@@ -56,4 +56,4 @@ ABL1 (ABL proto-oncogene 1, non-receptor tyrosine kinase) is best known as the p
 - [PMID:33577785](../papers/33577785.md)
 - [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

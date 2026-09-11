@@ -5,8 +5,8 @@ aliases:
 cancer_types:
   - GBM
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CTNNB1
@@ -27,7 +27,7 @@ CTNNB1 (beta-catenin) is the central effector of the canonical Wnt signaling pat
 - Hotspot mutations in 3/4 CRPC-WNT models in a transcriptomic CRPC subtyping study defining four subtypes (CRPC-AR, CRPC-NE, CRPC-SCL, CRPC-WNT); CTNNB1 mutations are a defining genomic feature of the CRPC-WNT subtype [PMID:35617398](../papers/35617398.md)
 - Beta-catenin (CTNNB1) alterations part of the Wnt/APC pathway landscape in pan-Asian solid-tumor cohort; [APC](../genes/APC.md) altered in 72% of [COADREAD](../cancer_types/COADREAD.md) in this cohort [PMID:35871175](../papers/35871175.md)
 - Listed among hotspot-interrogated genes in EC cfDNA monitoring; CTNNB1 mutations are a known recurrent EC driver tracked in MSK-ACCESS-based liquid biopsy studies [PMID:36007103](../papers/36007103.md)
-- Beta-catenin activation defines a >25% subset of [HCC](../cancer_types/HCC.md) patients addicted to fatty acid oxidation via PPARalpha and CPT1A; etomoxir suppresses tumor development in this Wnt/beta-catenin-driven HCC context [PMID:41118283](../papers/41118283.md)
+- Beta-catenin activation defines a >25% subset of [HCC](../cancer_types/HCC.md) patients addicted to fatty acid oxidation via PPARalpha and CPT1A; etomoxir suppresses tumor development in this Wnt/beta-catenin-driven [HCC](../cancer_types/HCC.md) context [PMID:41118283](../papers/41118283.md)
 - CTNNB1 mutation shared between adjacent intramucosal carcinoma and high-grade dysplasia in one AOM/DSS mouse model lesion; Wnt-pathway alterations infrequent in CAC (enriched only in subclonal-TP53 cases, P=0.017) [PMID:36611031](../papers/36611031.md)
 - CTNNB1 mutated in ~4% of colorectal tumors, ranked among the top known drivers. [PMID:35487942](../papers/35487942.md)
 - CTNNB1 mutated in 7 of 11 (64%) hepatoblastomas with exome data, one of only two significantly mutated genes by MutSigCV, and retained as the early driver in a branch-seeding case. [PMID:37990009](../papers/37990009.md)
@@ -46,7 +46,7 @@ CTNNB1 (beta-catenin) is the central effector of the canonical Wnt signaling pat
 
 ## Open questions
 
-- Whether [EGFR](../genes/EGFR.md) phosphorylation of CTNNB1 at S33 is a bona fide mechanism of beta-catenin stabilization in GBM (rather than an incidental phospho-outlier) requires functional validation [PMID:33577785](../papers/33577785.md).
+- Whether [EGFR](../genes/EGFR.md) phosphorylation of CTNNB1 at S33 is a bona fide mechanism of beta-catenin stabilization in [GBM](../cancer_types/GBM.md) (rather than an incidental phospho-outlier) requires functional validation [PMID:33577785](../papers/33577785.md).
 
 ## Sources
 
@@ -76,4 +76,4 @@ CTNNB1 (beta-catenin) is the central effector of the canonical Wnt signaling pat
 - [PMID:35487942](../papers/35487942.md)
 - [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -23,8 +23,8 @@ tags:
   - molecular-subtypes
   - chromatin-remodeling
   - multi-platform
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # TCGA Bladder Urothelial Carcinoma (2017, 412-tumor)
@@ -72,7 +72,7 @@ Robertson et al. (TCGA bladder analysis working group) report the comprehensive 
 - Neoantigen load predicts survival independently of age, AJCC stage, and squamous differentiation (p = 8×10⁻⁴). [PMID:28988769](../papers/28988769.md)
 - [PPARG](../genes/PPARG.md) recurrently fused (6 fusions; 4 *TSEN2-PPARG*, 2 *MKRN2-PPARG*), implicated as a luminal driver alongside [GATA3](../genes/GATA3.md) and [FOXA1](../genes/FOXA1.md). [PMID:28988769](../papers/28988769.md)
 - RPPA proteomic clusters 1 and 2 (HER2-high) are candidates for [trastuzumab](../drugs/trastuzumab.md) or [ado-trastuzumab-emtansine](../drugs/ado-trastuzumab-emtansine.md); cluster 3 (EGFR-high proliferative) for [EGFR](../genes/EGFR.md) inhibitors. [PMID:28988769](../papers/28988769.md)
-- Served as the TCGA muscle-invasive bladder cancer comparator cohort (n=124 WES / n=128 RNA-seq) in the UTUC genomic study; UTUC showed significantly higher FGFR3 mutation frequency (29.7% vs 13.7%, P=0.04), lower TMB (2.91 vs 5.46 mutations/Mb, P=1.9×10⁻⁵), and predominant luminal-papillary (T-cell-depleted) immune subtype relative to this TCGA UCB reference [PMID:31278255](../papers/31278255.md)
+- Served as the TCGA muscle-invasive bladder cancer comparator cohort (n=124 WES / n=128 RNA-seq) in the [UTUC](../cancer_types/UTUC.md) genomic study; UTUC showed significantly higher [FGFR3](../genes/FGFR3.md) mutation frequency (29.7% vs 13.7%, P=0.04), lower TMB (2.91 vs 5.46 mutations/Mb, P=1.9×10⁻⁵), and predominant luminal-papillary (T-cell-depleted) immune subtype relative to this TCGA UCB reference [PMID:31278255](../papers/31278255.md)
 - Cross-validation cohort for UTUC EpiC methylation signature: projected EpiC clusters onto 412 MI-BLCA samples, recovering BLCA-C1 (hypermethylated, immune-inflamed, poor OS) vs BLCA-C2 (FGFR3-enriched, neutrophil-enriched, better OS; HR=1.38, 95% CI 1.03–1.85, P=0.035); also confirmed ZFP36-family mutations at ~9–10% of bladder cohort [PMID:33397444](../papers/33397444.md)
 - Used as the external TCGA comparator cohort (412 MIBC specimens) for genomic-alteration frequencies in the SWOG S1314 trial cohort [PMID:39499893](../papers/39499893.md).
 - Used as the TCGA MIBC reference cohort for MIBC consensus molecular subtype classifier calls in a comparative UTUC/bladder-cancer study [PMID:39550333](../papers/39550333.md).
@@ -87,4 +87,4 @@ Robertson et al. (TCGA bladder analysis working group) report the comprehensive 
 - [PMID:39499893](../papers/39499893.md)
 - [PMID:39550333](../papers/39550333.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -3,8 +3,8 @@ symbol: MGMT
 aliases: []
 cancer_types: [BRAIN, DIFG, AST, GB]
 tags: [epigenetic, methylation, chemotherapy-response, glioma]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MGMT
@@ -21,9 +21,9 @@ MGMT (O6-methylguanine-DNA methyltransferase) is a DNA repair enzyme that remove
 - Low expression and/or VUS used to support [temozolomide](../drugs/temozolomide.md) selection in PanNET patients PN26 and PN28 in a WGTA study of rare metastatic neuroendocrine neoplasms [PMID:40328872](../papers/40328872.md)
 - Aberrant promoter DNA methylation observed in hypermutated low-grade glioma recurrences after [temozolomide](../drugs/temozolomide.md) (TMZ) treatment, consistent with reduced MGMT-mediated repair of TMZ-induced O6-methylguanine adducts driving the hypermutator phenotype [PMID:24336570](../papers/24336570.md)
 - MGMT epigenetic silencing enriched in the proximal hypermethylated GEA-CIN cluster 1 (oesophagus/proximal-stomach); raises the prospect of differential alkylating-agent response in esophageal/gastroesophageal adenocarcinoma [PMID:28052061](../papers/28052061.md)
-- Promoter methylation associated with higher rate of alkylator-induced hypermutation at recurrence in glioma (30% vs. 10% in unmethylated, P=0.006); relevant to temozolomide treatment sequencing decisions. [PMID:31263031](../papers/31263031.md)
+- Promoter methylation associated with higher rate of alkylator-induced hypermutation at recurrence in glioma (30% vs. 10% in unmethylated, P=0.006); relevant to [temozolomide](../drugs/temozolomide.md) treatment sequencing decisions. [PMID:31263031](../papers/31263031.md)
 - Methylation status used as covariate in hypermutator survival analyses in diffuse glioma (GLASS cohort); not the focus of evolutionary modeling but confirms role as a treatment-stratification marker [PMID:31748746](../papers/31748746.md)
-- Promoter hypermethylation in 38/90 GBM tumors (42%) in [gbm_cptac_2021](../datasets/gbm_cptac_2021.md) with concordant MGMT RNA (Welch's t-test p=4.9e-11) and protein (p=2.6e-6) downregulation; reinforces the rationale for temozolomide response stratification by MGMT methylation [PMID:33577785](../papers/33577785.md)
+- Promoter hypermethylation in 38/90 [GBM](../cancer_types/GBM.md) tumors (42%) in [gbm_cptac_2021](../datasets/gbm_cptac_2021.md) with concordant MGMT RNA (Welch's t-test p=4.9e-11) and protein (p=2.6e-6) downregulation; reinforces the rationale for temozolomide response stratification by MGMT methylation [PMID:33577785](../papers/33577785.md)
 - Promoter methylation was 6/16 (38%) in the neoadjuvant PD-1 blockade arm vs 11/16 (69%) in the adjuvant-only arm in recurrent glioblastoma, not statistically significant [PMID:30742122](../papers/30742122.md).
 - Overexpressed in a pheochromocytoma/paraganglioma metastasis after 23 cycles of CVD chemotherapy, proposed as an acquired alkylator-resistance mechanism [PMID:40097403](../papers/40097403.md).
 
@@ -66,4 +66,4 @@ MGMT (O6-methylguanine-DNA methyltransferase) is a DNA repair enzyme that remove
 - [PMID:30742122](../papers/30742122.md)
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

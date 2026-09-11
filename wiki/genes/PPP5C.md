@@ -3,19 +3,19 @@ symbol: PPP5C
 aliases: []
 cancer_types: [BRCA]
 tags: [19q13-deletion, dna-repair]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # PPP5C
 
 ## Overview
 
-PPP5C (protein phosphatase 5 catalytic subunit) sits within the 19q13.31–33 locus alongside DNA-repair genes LIG1, POLD1 and XRCC1. Hemizygous deletion or reduced expression of this locus has been linked to chemotherapy response in triple-negative breast cancer.
+PPP5C (protein phosphatase 5 catalytic subunit) sits within the 19q13.31–33 locus alongside DNA-repair genes [LIG1](../genes/LIG1.md), [POLD1](../genes/POLD1.md) and [XRCC1](../genes/XRCC1.md). Hemizygous deletion or reduced expression of this locus has been linked to chemotherapy response in triple-negative breast cancer.
 
 ## Alterations observed in the corpus
 
-- PPP5C, along with BCL3 and NOSIP on 19q13.31–33, showed lower mRNA and protein in triple-negative breast tumors that did not achieve pathologic complete response (non-pCR) to neoadjuvant chemotherapy [PMID:36001024](../papers/36001024.md).
+- PPP5C, along with [BCL3](../genes/BCL3.md) and [NOSIP](../genes/NOSIP.md) on 19q13.31–33, showed lower mRNA and protein in triple-negative breast tumors that did not achieve pathologic complete response (non-pCR) to neoadjuvant chemotherapy [PMID:36001024](../papers/36001024.md).
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ PPP5C (protein phosphatase 5 catalytic subunit) sits within the 19q13.31–33 lo
 
 - [PMID:36001024](../papers/36001024.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

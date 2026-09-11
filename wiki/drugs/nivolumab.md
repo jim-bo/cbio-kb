@@ -5,8 +5,8 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # nivolumab
@@ -41,7 +41,7 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - In 66 recurrent [GBM](../cancer_types/GBM.md) patients treated with PD-1 inhibitors (nivolumab or [pembrolizumab](../drugs/pembrolizumab.md)), responders had median post-treatment survival of 14.3 vs 10.1 months for non-responders (p=0.0081); [PTEN](../genes/PTEN.md) mutations (OR=8.5, p=0.0063) predicted non-response and MAPK-pathway alterations ([BRAF](../genes/BRAF.md)/[PTPN11](../genes/PTPN11.md)) predicted response; TMB was not predictive [PMID:30742119](../papers/30742119.md)
 - The T-cell-depleted, luminal-papillary contexture of [UTUC](../cancer_types/UTUC.md) is mechanistically consistent with low response rates of luminal-papillary urothelial carcinoma to nivolumab observed in CheckMate 275 (cluster I tumors with low [IFNG](../genes/IFNG.md) signature were less responsive), implicating FGFR3-driven immune exclusion as a driver of ICI resistance. [PMID:31278255](../papers/31278255.md)
 - Prior [ipilimumab](../drugs/ipilimumab.md) exposure stratifies predictors of anti-PD1 response in melanoma; post-ipilimumab patients with low MHC-II HLA expression are very likely resistant to subsequent nivolumab monotherapy — sequence [ipilimumab](../drugs/ipilimumab.md) → nivolumab should shift to alternative regimens in this subgroup [PMID:31792460](../papers/31792460.md).
-- CDK12-biallelic prostate cancers may be enriched for fusion neoantigens and respond to immune checkpoint blockade; a multi-institutional phase 2 trial (NCT03570619) combines nivolumab with ipilimumab in CDK12-altered mCRPC [PMID:32317181](../papers/32317181.md)
+- CDK12-biallelic prostate cancers may be enriched for fusion neoantigens and respond to immune checkpoint blockade; a multi-institutional phase 2 trial (NCT03570619) combines nivolumab with [ipilimumab](../drugs/ipilimumab.md) in CDK12-altered mCRPC [PMID:32317181](../papers/32317181.md)
 - Listed among prior/comparator therapies in 66 patients with [BRAF](../genes/BRAF.md) V600E/K-mutant metastatic [melanoma](../cancer_types/SKCM.md) who subsequently received BRAFi-based treatment; the study characterised pretreatment molecular features (including [PTEN](../genes/PTEN.md) loss) that predict intrinsic BRAFi resistance, providing context for sequencing of targeted therapy versus checkpoint immunotherapy [PMID:32913971](../papers/32913971.md).
 - Frontline PD-1 monotherapy in cutaneous/unknown-primary melanoma (N=181 with pre-treatment samples); TTF varied sharply by MAPK driver group ([BRAF](../genes/BRAF.md) V600 7.5 mo, [NRAS](../genes/NRAS.md) Q61 4.2 mo, [NF1](../genes/NF1.md) 22 mo, Other not reached; p<0.0001); TMB independently predicted TTF (HR 0.43 per 10-fold increase, p<0.0001); combination with ipilimumab (N=141) abolished driver-class differences in TTF [PMID:33509808](../papers/33509808.md)
 - Nivolumab (anti-PD-1) was among the ICI agents used in the 45-patient recurrent [HGSOC](../cancer_types/HGSOC.md) cohort; 25 patients received PD-1/PD-L1 monotherapy. Network curvature over CNA profiles stratified OS (median 7.4 vs 20.3 months, log-rank p=0.00047), with curvature not prognostic in a matched non-ICI [HGSOC](../cancer_types/HGSOC.md) cohort, suggesting ICI-predictive specificity. [PMID:34819508](../papers/34819508.md)
@@ -50,11 +50,11 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - In a pediatric/AYA solid tumor cWGTS study (n=114), high fusion/SV burden identified by WGS (not by MSK-IMPACT) in a metastatic adrenocortical carcinoma patient (H135022) informed nivolumab + ipilimumab treatment, resulting in complete response lasting 26 months post-cessation [PMID:35585047](../papers/35585047.md)
 - Complete response to nivolumab + ipilimumab was observed in a malignant PEComa patient with subclonal [TSC1](../genes/TSC1.md) and TMB 7 mut/Mb in the MSK sarcoma cohort anecdotal response series; MSI-H was rare (<0.3%) across 7,494 sarcomas, limiting the biomarker-evaluable pool for PD-1 blockade [PMID:35705558](../papers/35705558.md).
 - Anti-PD-1 antibody; nivolumab±ipilimumab indicated for MSI-H CRC (~8.3% of CRC, n=1,224) in Chinese pan-cancer cohort (n=10,194) [PMID:35871175](../papers/35871175.md)
-- Nivolumab (anti-PD-1) is mentioned among ICI agents evaluated in [HCC](../cancer_types/HCC.md); the review identifies CTNNB1-mutant / FAO-high HCC tumors as less responsive to anti-PD-1, and [FABP1](../genes/FABP1.md)-mediated linoleic acid sequestration in the TME as a resistance mechanism [PMID:41118283](../papers/41118283.md).
-- Phase Ib trial (NCT01358721) of nivolumab monotherapy in 91 metastatic clear-cell RCC patients (0.3, 2, 10 mg/kg) showed 15% ORR and pharmacodynamic increases in intratumoral CD3+/CD8+ T cells and interferon-gamma-driven transcripts (CXCL9, CXCL10, CD274, CTLA4, ICOS). [PMID:27169994](../papers/27169994.md)
+- Nivolumab (anti-PD-1) is mentioned among ICI agents evaluated in [HCC](../cancer_types/HCC.md); the review identifies CTNNB1-mutant / FAO-high [HCC](../cancer_types/HCC.md) tumors as less responsive to anti-PD-1, and [FABP1](../genes/FABP1.md)-mediated linoleic acid sequestration in the TME as a resistance mechanism [PMID:41118283](../papers/41118283.md).
+- Phase Ib trial (NCT01358721) of nivolumab monotherapy in 91 metastatic clear-cell [RCC](../cancer_types/RCC.md) patients (0.3, 2, 10 mg/kg) showed 15% ORR and pharmacodynamic increases in intratumoral CD3+/CD8+ T cells and interferon-gamma-driven transcripts ([CXCL9](../genes/CXCL9.md), [CXCL10](../genes/CXCL10.md), [CD274](../genes/CD274.md), [CTLA4](../genes/CTLA4.md), [ICOS](../genes/ICOS.md)). [PMID:27169994](../papers/27169994.md)
 - In the PRINCE trial, nivolumab plus gemcitabine/nab-paclitaxel (n=34) met the primary 1-year OS endpoint (57.7% vs 35% historical control, P=0.006) in first-line metastatic PDAC; ORR and PFS did not clearly separate treatment arms. [PMID:35662283](../papers/35662283.md)
 - Authors propose biomarker-guided combination of nivolumab with anti-angiogenic or anti-macrophage therapy for solitary fibrous tumors, citing a prior nivolumab-sunitinib combination trial in other soft-tissue sarcomas. [PMID:37980418](../papers/37980418.md)
-- One TMB-high UTUC patient (PT12) was treated with nivolumab after prior gemcitabine/carboplatin and infigratinib. [PMID:39550333](../papers/39550333.md)
+- One TMB-high [UTUC](../cancer_types/UTUC.md) patient (PT12) was treated with nivolumab after prior gemcitabine/carboplatin and [infigratinib](../drugs/infigratinib.md). [PMID:39550333](../papers/39550333.md)
 - Cited as part of the approved first-line metastatic urothelial carcinoma landscape: nivolumab plus cisplatin/gemcitabine (CheckMate 901, NCT03036098). [PMID:39642637](../papers/39642637.md)
 
 ## Resistance mechanisms
@@ -112,4 +112,4 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - [PMID:39550333](../papers/39550333.md)
 - [PMID:39642637](../papers/39642637.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

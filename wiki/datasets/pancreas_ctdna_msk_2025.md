@@ -16,8 +16,8 @@ tags:
   - PAAD
   - ctDNA
   - liquid-biopsy
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Pancreatic Cancer cfDNA (MSK, J Natl Cancer Inst 2025)
@@ -44,11 +44,11 @@ processed_at: 2026-09-10
 ## Notable findings derived from this cohort
 
 - ctDNA was detected in 56% of patients overall, rising with stage (34% stage I–II, 38% stage III, 75% stage IV); in stage IV, detection was higher with liver metastases (82% vs 52%, P<.001) and ≥2 organs involved (76% vs 38%, P=.025) [PMID:40511613](../papers/40511613.md).
-- In untreated stage IV patients with matched tissue (n=62), ctDNA–tissue critical success index was 93.1% for *[KRAS](../genes/KRAS.md)*, 84.3% for *[TP53](../genes/TP53.md)*, 89.5% for *[CDKN2A](../genes/CDKN2A.md)* and 63.6% for *[SMAD4](../genes/SMAD4.md)*, but agreement was much lower in untreated stage I–III disease (KRAS CSI 39.3%, n=29) [PMID:40511613](../papers/40511613.md).
+- In untreated stage IV patients with matched tissue (n=62), ctDNA–tissue critical success index was 93.1% for *[KRAS](../genes/KRAS.md)*, 84.3% for *[TP53](../genes/TP53.md)*, 89.5% for *[CDKN2A](../genes/CDKN2A.md)* and 63.6% for *[SMAD4](../genes/SMAD4.md)*, but agreement was much lower in untreated stage I–III disease ([KRAS](../genes/KRAS.md) CSI 39.3%, n=29) [PMID:40511613](../papers/40511613.md).
 
 ## Sources
 
 - cBioPortal study record: `pancreas_ctdna_msk_2025` (name, institution, size, reference_genome taken from `schema/ontology/studies.json`).
 - [PMID:40511613](../papers/40511613.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

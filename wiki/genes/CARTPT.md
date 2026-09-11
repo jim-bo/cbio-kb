@@ -3,8 +3,8 @@ symbol: CARTPT
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CARTPT
@@ -15,7 +15,7 @@ CART prepropeptide (CARTPT), the precursor of the cocaine- and amphetamine-regul
 
 ## Alterations observed in the corpus
 
-- CARTPT is one of a small set of cell-of-origin markers (with TPH1 and HOX/HOTAIR) used to characterize pheochromocytoma/paraganglioma (PCPG) tumors: TPH1 is high in non-chromaffin tumors, while CARTPT and HOX/HOTAIR are low in them [PMID:40097403](../papers/40097403.md).
+- CARTPT is one of a small set of cell-of-origin markers (with [TPH1](../genes/TPH1.md) and HOX/HOTAIR) used to characterize pheochromocytoma/paraganglioma ([PCPG](../cancer_types/PCPG.md)) tumors: TPH1 is high in non-chromaffin tumors, while CARTPT and HOX/HOTAIR are low in them [PMID:40097403](../papers/40097403.md).
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ CART prepropeptide (CARTPT), the precursor of the cocaine- and amphetamine-regul
 
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

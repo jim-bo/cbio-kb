@@ -3,8 +3,8 @@ symbol: FANCF
 aliases: []
 cancer_types: [THAP]
 tags: [DNA-repair, Fanconi-anemia, germline]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # FANCF
@@ -17,8 +17,8 @@ FANCF (Fanconi Anemia Complementation Group F) encodes a core component of the F
 
 - Germline FANCF pathogenic variants detected in 3 patients among a WES/WGS cohort of anaplastic thyroid carcinoma (ATC) as cancer predisposition gene alterations [PMID:38412093](../papers/38412093.md).
 - Fanconi-anaemia pathway lesion enriched in high-CNV PDAC clusters; nominates PARP inhibitor and cross-linking agent therapy [PMID:25855536](../papers/25855536.md)
-- FANCF is part of the FA gene classifier used to identify mCRPC patients with DNA-repair defects; homozygous deleterious FANCF events are associated with significantly longer time on carboplatin chemotherapy (log-rank P = 0.02) [PMID:26928463](../papers/26928463.md)
-- FANCF is one of nine DNA-repair/PARP-pathway genes (with FANCA, FANCC, RAD54L, ATM, RECQL4, NBN, CHEK2, WRN) altered in 6.9% (9/131) of solitary fibrous tumors, proposed as PARP-inhibitor targets. [PMID:37980418](../papers/37980418.md)
+- FANCF is part of the FA gene classifier used to identify mCRPC patients with DNA-repair defects; homozygous deleterious FANCF events are associated with significantly longer time on [carboplatin](../drugs/carboplatin.md) chemotherapy (log-rank P = 0.02) [PMID:26928463](../papers/26928463.md)
+- FANCF is one of nine DNA-repair/PARP-pathway genes (with [FANCA](../genes/FANCA.md), [FANCC](../genes/FANCC.md), [RAD54L](../genes/RAD54L.md), [ATM](../genes/ATM.md), [RECQL4](../genes/RECQL4.md), [NBN](../genes/NBN.md), [CHEK2](../genes/CHEK2.md), [WRN](../genes/WRN.md)) altered in 6.9% (9/131) of solitary fibrous tumors, proposed as PARP-inhibitor targets. [PMID:37980418](../papers/37980418.md)
 
 ## Cancer types (linked)
 
@@ -45,4 +45,4 @@ FANCF (Fanconi Anemia Complementation Group F) encodes a core component of the F
 - [PMID:26928463](../papers/26928463.md)
 - [PMID:37980418](../papers/37980418.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

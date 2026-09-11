@@ -3,8 +3,8 @@ symbol: PROX1
 aliases: []
 cancer_types: [COADREAD]
 tags: [transcription-factor, lineage-plasticity, fetal-reprogramming]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # PROX1
@@ -15,7 +15,7 @@ PROX1 is a homeobox transcription factor identified as a central regulator of fe
 
 ## Alterations observed in the corpus
 
-- Gene-expression finding (not somatic mutation): PROX1 was the transcription factor most tightly co-induced with the fetal progenitor state and most strongly induced by irinotecan in colorectal cancer organoids; it was expressed in poorly differentiated CDX2-low cells at the primary-tumor invasion front and acts as a context-dependent repressor of non-canonical (squamous/neuroendocrine) differentiation [PMID:39478232](../papers/39478232.md).
+- Gene-expression finding (not somatic mutation): PROX1 was the transcription factor most tightly co-induced with the fetal progenitor state and most strongly induced by [irinotecan](../drugs/irinotecan.md) in colorectal cancer organoids; it was expressed in poorly differentiated CDX2-low cells at the primary-tumor invasion front and acts as a context-dependent repressor of non-canonical (squamous/neuroendocrine) differentiation [PMID:39478232](../papers/39478232.md).
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ PROX1 is a homeobox transcription factor identified as a central regulator of fe
 
 - [PMID:39478232](../papers/39478232.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

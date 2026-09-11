@@ -10,8 +10,8 @@ tags:
   - histone-reader
   - leukemia
   - breast-cancer
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MLLT1
@@ -23,11 +23,11 @@ MLLT1 (MLLT1 Super Elongation Complex Subunit, also known as ENL) encodes a chro
 ## Alterations observed in the corpus
 
 - MLLT1 detected among the genes altered in whole-exome sequencing of synchronous ductal carcinoma in situ ([DCIS](../cancer_types/DCIS.md)) and invasive ductal carcinomas of no special type (IDC-NST) from 25 patients at MSKCC; found in the somatic alteration repertoire of this cohort [PMID:32220886](../papers/32220886.md)
-- MLLT1 p.C119SPAR found as a rare single-case candidate driver in an Unclassified pediatric AML, resembling the recurrent MLLT1 hotspot reported in Wilms tumor [PMID:38212634](../papers/38212634.md).
+- MLLT1 p.C119SPAR found as a rare single-case candidate driver in an Unclassified pediatric [AML](../cancer_types/AML.md), resembling the recurrent MLLT1 hotspot reported in Wilms tumor [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
-- [BRCA](../cancer_types/BRCA.md) — identified among the genes altered in synchronous DCIS and IDC-NST WES profiling [PMID:32220886](../papers/32220886.md)
+- [BRCA](../cancer_types/BRCA.md) — identified among the genes altered in synchronous [DCIS](../cancer_types/DCIS.md) and IDC-NST WES profiling [PMID:32220886](../papers/32220886.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -46,4 +46,4 @@ MLLT1 (MLLT1 Super Elongation Complex Subunit, also known as ENL) encodes a chro
 - [PMID:32220886](../papers/32220886.md)
 - [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

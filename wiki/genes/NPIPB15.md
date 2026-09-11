@@ -9,8 +9,8 @@ tags:
   - novel-driver-candidate
   - significantly-mutated-gene
   - colorectal-cancer
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # NPIPB15
@@ -21,7 +21,7 @@ NPIPB15 was identified as a novel highly-confident significantly mutated gene (H
 
 ## Alterations observed in the corpus
 
-- Mutated in 3% of the cohort, one of eight novel HC-SMGs (with LYST, DAPK1, CR2, KIF16B, SYTL2, ZNF91, KIAA0586) collectively mutated in 14.9% of the discovery cohort and 19.55% of TCGA [PMID:35487942](../papers/35487942.md).
+- Mutated in 3% of the cohort, one of eight novel HC-SMGs (with [LYST](../genes/LYST.md), [DAPK1](../genes/DAPK1.md), [CR2](../genes/CR2.md), [KIF16B](../genes/KIF16B.md), [SYTL2](../genes/SYTL2.md), [ZNF91](../genes/ZNF91.md), [KIAA0586](../genes/KIAA0586.md)) collectively mutated in 14.9% of the discovery cohort and 19.55% of TCGA [PMID:35487942](../papers/35487942.md).
 
 ## Cancer types (linked)
 
@@ -43,4 +43,4 @@ NPIPB15 was identified as a novel highly-confident significantly mutated gene (H
 
 - [PMID:35487942](../papers/35487942.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

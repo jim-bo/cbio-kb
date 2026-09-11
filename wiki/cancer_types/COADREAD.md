@@ -4,8 +4,8 @@ oncotree_code: COADREAD
 main_type: Colorectal Cancer
 parent: BOWEL
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 mainType: Colorectal Cancer
 ---
 
@@ -42,10 +42,10 @@ this stub exists so child pages can resolve their `parent:` link.
 - ARGO Nigerian colorectal cohort (380 patients): Nigerian patients younger (median 55.8 vs. 60.0y), more likely rectal (50.8% vs. 33.7%) and stage IV (53.8% vs. 36.2%); MSI-H rate 28.1% vs. 14.2% TCGA; MSS tumors had depleted [APC](../genes/APC.md) and WNT signaling but enriched RAS-pathway [PMID:34819518](../papers/34819518.md)
 - COLON MAP / HTAN multi-omic polyp atlas (142,065 cells, 62 participants): defines adenoma vs. serrated polyp cell-of-origin (stem vs. differentiated lineage); CRC molecular subtypes retain precursor transcriptomic signatures; MSI-H CRCs gain stemness on metaplastic background [PMID:34910928](../papers/34910928.md)
 - MSK-IMPACT sequencing of 4,561 colorectal cancer patients identified 47 cases (1.03%) with dual RAS/BRAF V600E driver mutations; single-cell genotyping confirmed same-cell co-occurrence (14%–95% of tumor cells) in 4 cases [PMID:35235413](../papers/35235413.md)
-- Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): COADREAD comprised 12% of cohort; APC altered in 72% (indistinguishable from MSK-IMPACT); 55% of MSI-H cases in cohort were CRC; [TP53](../genes/TP53.md) R175H/L most common in COADREAD (8%); younger/early-stage CRC enriched for MSI-H and POLE-associated hypermutation; [BRAF](../genes/BRAF.md) V600E in 4.4% ([encorafenib](../drugs/encorafenib.md)+[cetuximab](../drugs/cetuximab.md) Level 1) [PMID:35871175](../papers/35871175.md)
+- Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): COADREAD comprised 12% of cohort; [APC](../genes/APC.md) altered in 72% (indistinguishable from MSK-IMPACT); 55% of MSI-H cases in cohort were CRC; [TP53](../genes/TP53.md) R175H/L most common in COADREAD (8%); younger/early-stage CRC enriched for MSI-H and POLE-associated hypermutation; [BRAF](../genes/BRAF.md) V600E in 4.4% ([encorafenib](../drugs/encorafenib.md)+[cetuximab](../drugs/cetuximab.md) Level 1) [PMID:35871175](../papers/35871175.md)
 - Chatila et al. assembled 174 IBD patients with colitis-associated cancer ([COAD](../cancer_types/COAD.md), [READ](../cancer_types/READ.md), [SBC](../cancer_types/SBC.md)) from MSK/WCM/Sheba; the overall COADREAD landscape is dominated by clonal [TP53](../genes/TP53.md) alterations (90%), low APC (~20%), Wnt-independence, and multifocal lesions that develop from independent clones rather than a genomic field effect [PMID:36611031](../papers/36611031.md)
 - A 1,015-patient Chinese colorectal cancer cohort (72% colon, 28% rectal) found 7.1% of tumors were hypermutated (TMB>=10), and oncogenic (but not variant-of-unknown-significance) alterations in the cell-cycle and TGF-beta pathways independently predicted worse overall survival (multivariable HR 2.26 and 1.56) [PMID:35487942](../papers/35487942.md).
-- In the MSK-50K pan-cancer cohort, colorectal cancer had the second-highest microsatellite instability rate (10%, 508/4,950) among 448 detailed cancer subtypes, and 12 new SMAD2/SMAD3/SMAD4 hotspots plus 6 new TCF7L2 hotspots were found in 212 tumors, 87% of gastrointestinal origin [PMID:41895280](../papers/41895280.md).
+- In the MSK-50K pan-cancer cohort, colorectal cancer had the second-highest microsatellite instability rate (10%, 508/4,950) among 448 detailed cancer subtypes, and 12 new SMAD2/SMAD3/SMAD4 hotspots plus 6 new [TCF7L2](../genes/TCF7L2.md) hotspots were found in 212 tumors, 87% of gastrointestinal origin [PMID:41895280](../papers/41895280.md).
 - Single-cell RNA-seq of 31 matched primary-metastasis trios of microsatellite-stable colorectal cancer found metastases were enriched for non-canonical squamous-like and neuroendocrine-like epithelial cell states relative to primaries, and a fetal intestinal progenitor signature predicted worse disease-free survival in independent TCGA colon cancer and rectal cancer cohorts [PMID:39478232](../papers/39478232.md).
 
 ## Therapeutic landscape
@@ -103,4 +103,4 @@ this stub exists so child pages can resolve their `parent:` link.
 - [PMID:41895280](../papers/41895280.md)
 - [PMID:39478232](../papers/39478232.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

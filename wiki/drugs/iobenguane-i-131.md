@@ -5,8 +5,8 @@ drug_class: radiolabeled norepinephrine analog (targeted radiotherapy, ¹³¹I-M
 canonical_source: corpus
 unverified: true
 tags: [radiopharmaceutical, pheochromocytoma, paraganglioma]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # iobenguane-i-131
@@ -18,7 +18,7 @@ Iobenguane I-131 (¹³¹I-MIBG) is a radiolabeled analog of norepinephrine taken
 ## Evidence in the corpus
 
 - Patient E167, with a left adrenal pheochromocytoma followed by a head-and-neck paraganglioma and hip metastasis 14 years later, progressed after ¹³¹I-MIBG therapy and was then treated with 22 cycles of CVD chemotherapy [PMID:40097403](../papers/40097403.md).
-- Proposed (alongside ¹⁷⁷Lu-DOTA-octreotate) as a candidate radiosensitizer platform for combination with DNA-damage-response inhibitors (ATM, WEE1, ATR, PARP) in ATRX-altered pheochromocytoma/paraganglioma [PMID:40097403](../papers/40097403.md).
+- Proposed (alongside ¹⁷⁷Lu-DOTA-octreotate) as a candidate radiosensitizer platform for combination with DNA-damage-response inhibitors ([ATM](../genes/ATM.md), [WEE1](../genes/WEE1.md), [ATR](../genes/ATR.md), PARP) in ATRX-altered pheochromocytoma/paraganglioma [PMID:40097403](../papers/40097403.md).
 
 ## Resistance mechanisms
 
@@ -31,4 +31,4 @@ Iobenguane I-131 (¹³¹I-MIBG) is a radiolabeled analog of norepinephrine taken
 
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

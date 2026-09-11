@@ -5,8 +5,8 @@ drug_class: 3rd-generation EGFR TKI
 canonical_source: 
 unverified: true
 tags: [targeted-therapy, egfr-tki]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # osimertinib
@@ -23,9 +23,9 @@ Third-generation [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor active again
 - LMD patients had more [EGFR](../genes/EGFR.md) alterations than non-progressors (45% vs 21%, p=0.044) [PMID:37591896](../papers/37591896.md).
 - In MSK-CHORD (n=29 [NSCLC](../cancer_types/NSCLC.md) on immunotherapy with PDL1 testing), [EGFR](../genes/EGFR.md) T790M and concomitant [MET](../genes/MET.md) amplifications were enriched after prior targeted therapy (including osimertinib) in EGFR-mutant [NSCLC](../cancer_types/NSCLC.md). The survival advantage seen in EGFR-mutant [LUAD](../cancer_types/LUAD.md) was attributed to receipt of targeted therapy rather than [EGFR](../genes/EGFR.md) mutation status itself. [PMID:39506116](../papers/39506116.md)
 - [SETD2](../genes/SETD2.md)-mutant [LUAD](../cancer_types/LUAD.md) patients on immunotherapy showed longer time-to-next-treatment-or-death (HR 0.5, 95% CI 0.36–0.72) but not after targeted therapy (HR 0.8, 95% CI 0.58–1.15), suggesting [SETD2](../genes/SETD2.md) is a biomarker for immunotherapy rather than osimertinib/targeted-therapy benefit in [LUAD](../cancer_types/LUAD.md). [PMID:39506116](../papers/39506116.md)
-- Third-generation EGFR TKI used in FLAURA and AURA3 trials; review reports consistent outcomes across age subgroups in young-onset NSCLC (YLC); only 1/63 Indian YLC patients on TKIs received osimertinib (1.5%) due to access disparities [PMID:40958859](../papers/40958859.md)
-- Cited as preferred agent for atypical EGFR alleles (L861Q, exon 18 del) alongside afatinib and dacomitinib based on allele-specific response data from 860-patient MSK-IMPACT LUAD cohort; EGFR T790M present in 5.5% (47/860) of cases, all post-EGFR-TKI, identifying a population for osimertinib [PMID:28336552](../papers/28336552.md).
-- Most common MET-inhibitor combination partner for acquired MET amplification: 24 of 27 combination-treated patients (mostly EGFR-driven NSCLC resistance) received osimertinib plus a MET inhibitor. [PMID:36044468](../papers/36044468.md)
+- Third-generation [EGFR](../genes/EGFR.md) TKI used in FLAURA and AURA3 trials; review reports consistent outcomes across age subgroups in young-onset [NSCLC](../cancer_types/NSCLC.md) (YLC); only 1/63 Indian YLC patients on TKIs received osimertinib (1.5%) due to access disparities [PMID:40958859](../papers/40958859.md)
+- Cited as preferred agent for atypical EGFR alleles (L861Q, exon 18 del) alongside [afatinib](../drugs/afatinib.md) and [dacomitinib](../drugs/dacomitinib.md) based on allele-specific response data from 860-patient MSK-IMPACT [LUAD](../cancer_types/LUAD.md) cohort; EGFR T790M present in 5.5% (47/860) of cases, all post-EGFR-TKI, identifying a population for osimertinib [PMID:28336552](../papers/28336552.md).
+- Most common MET-inhibitor combination partner for acquired [MET](../genes/MET.md) amplification: 24 of 27 combination-treated patients (mostly EGFR-driven NSCLC resistance) received osimertinib plus a MET inhibitor. [PMID:36044468](../papers/36044468.md)
 
 ## Resistance mechanisms
 
@@ -45,4 +45,4 @@ Third-generation [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor active again
 - [PMID:28336552](../papers/28336552.md)
 - [PMID:36044468](../papers/36044468.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

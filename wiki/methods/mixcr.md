@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [immune-repertoire, tcr-seq, computational]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MiXCR
@@ -17,7 +17,7 @@ MiXCR is a computational tool for extracting and assembling T-cell and B-cell re
 
 ## Used by
 
-- Used to profile T-cell receptor repertoires as part of immune-monitoring in a trial evaluating cyclophosphamide priming prior to pembrolizumab in metastatic triple-negative breast cancer [PMID:35121644](../papers/35121644.md).
+- Used to profile T-cell receptor repertoires as part of immune-monitoring in a trial evaluating [cyclophosphamide](../drugs/cyclophosphamide.md) priming prior to [pembrolizumab](../drugs/pembrolizumab.md) in metastatic triple-negative breast cancer [PMID:35121644](../papers/35121644.md).
 
 ## Notes
 
@@ -28,4 +28,4 @@ MiXCR is a computational tool for extracting and assembling T-cell and B-cell re
 
 - [PMID:35121644](../papers/35121644.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

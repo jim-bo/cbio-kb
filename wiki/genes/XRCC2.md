@@ -3,8 +3,8 @@ symbol: XRCC2
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # XRCC2
@@ -15,8 +15,8 @@ XRCC2 (X-Ray Repair Cross Complementing 2) is a classical [RAD51](../genes/RAD51
 
 ## Alterations observed in the corpus
 
-- Classical RAD51 paralog cited as biological context for [RAD51B](../genes/RAD51B.md) loss-of-function analysis in a cohort of 3,422 breast/ovarian cancer patients. [PMID:34635660](../papers/34635660.md)
-- XRCC2, a DNA-repair gene, was located within a GISTIC2 amplification peak (with MYC, CCND3, CCNE1, SETDB1, EZH2) in a pediatric solid-tumor PDX cohort [PMID:37990009](../papers/37990009.md).
+- Classical [RAD51](../genes/RAD51.md) paralog cited as biological context for [RAD51B](../genes/RAD51B.md) loss-of-function analysis in a cohort of 3,422 breast/ovarian cancer patients. [PMID:34635660](../papers/34635660.md)
+- XRCC2, a DNA-repair gene, was located within a GISTIC2 amplification peak (with [MYC](../genes/MYC.md), [CCND3](../genes/CCND3.md), [CCNE1](../genes/CCNE1.md), [SETDB1](../genes/SETDB1.md), [EZH2](../genes/EZH2.md)) in a pediatric solid-tumor PDX cohort [PMID:37990009](../papers/37990009.md).
 
 ## Cancer types (linked)
 
@@ -31,4 +31,4 @@ XRCC2 (X-Ray Repair Cross Complementing 2) is a classical [RAD51](../genes/RAD51
 - [PMID:34635660](../papers/34635660.md)
 - [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

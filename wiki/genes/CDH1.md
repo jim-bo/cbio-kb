@@ -7,8 +7,8 @@ cancer_types:
   - ESCA
   - GEJ
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CDH1
@@ -47,7 +47,7 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 - Epithelial marker E-cadherin protein reduced in CTNNB1-mutant HCCs (n=51 proteome samples), consistent with loss of epithelial polarity driven by Wnt-mediated actin-cytoskeletal remodeling [PMID:35508466](../papers/35508466.md)
 - CDH1 listed among recurrently altered genes in the OncoMark Chinese solid-tumor cohort (n=2,396 patients); altered in [BRCA](../cancer_types/BRCA.md) and gastric cancer contexts [PMID:35871175](../papers/35871175.md)
 - CDH1 is the hallmark invasive lobular carcinoma gene: in a 364-case screen, 86.3% had bi-allelic, 6.9% mono-allelic and 6.9% no genetic CDH1 inactivation; 10/16 genetically wild-type cases had promoter methylation, and CDH1 knockdown in MCF7 caused anoikis resistance and increased migration [PMID:38347189](../papers/38347189.md).
-- CDH1 oncogenic mutations were enriched (alongside NF1 and KMT2C) in metastatic/post-treatment HR+/HER2- APOBEC3-dominant breast tumors [PMID:40379787](../papers/40379787.md).
+- CDH1 oncogenic mutations were enriched (alongside [NF1](../genes/NF1.md) and [KMT2C](../genes/KMT2C.md)) in metastatic/post-treatment HR+/HER2- APOBEC3-dominant breast tumors [PMID:40379787](../papers/40379787.md).
 
 ## Cancer types (linked)
 
@@ -97,4 +97,4 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 - [PMID:38347189](../papers/38347189.md)
 - [PMID:40379787](../papers/40379787.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -8,8 +8,8 @@ tags:
   - soft-tissue
   - pediatric
   - EWSR1-ATF1
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Clear Cell Sarcoma (CCS)
@@ -24,12 +24,12 @@ Clear cell sarcoma is a rare, aggressive soft-tissue sarcoma typically driven by
 
 ## Recurrent alterations
 
-- Clear cell sarcoma PDXs had the highest engraftment rate (100%) of any histology in a 16-cancer-type pediatric PDX cohort; one clear cell sarcoma PDX (patient 529) carried the disease-defining EWSR1::ATF1 fusion, confirmed by RNA-seq fusion calling [PMID:37990009](../papers/37990009.md).
+- Clear cell sarcoma PDXs had the highest engraftment rate (100%) of any histology in a 16-cancer-type pediatric PDX cohort; one clear cell sarcoma PDX (patient 529) carried the disease-defining [EWSR1](../genes/EWSR1.md)::[ATF1](../genes/ATF1.md) fusion, confirmed by RNA-seq fusion calling [PMID:37990009](../papers/37990009.md).
 - Transcriptomic clustering of the PDX cohort grouped samples largely by tissue of origin, except clear cell sarcoma: kidney-derived cases separated from the bone-derived case, an exception the authors note is also seen in adult cancers [PMID:37990009](../papers/37990009.md).
 
 ## Subtypes
 
-- Defined by the EWSR1::ATF1 (or EWSR1::CREB1) fusion; no molecular subtypes are described in the current corpus.
+- Defined by the EWSR1::ATF1 (or EWSR1::[CREB1](../genes/CREB1.md)) fusion; no molecular subtypes are described in the current corpus.
 
 ## Therapeutic landscape
 
@@ -39,4 +39,4 @@ Clear cell sarcoma is a rare, aggressive soft-tissue sarcoma typically driven by
 
 - [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

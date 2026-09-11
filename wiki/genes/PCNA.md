@@ -3,8 +3,8 @@ symbol: PCNA
 aliases: []
 cancer_types: [DIFG, ASTR]
 tags: [dna-replication, prognostic, glioma]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 canonical_source: cbioportal
 unverified: false
 ---
@@ -23,7 +23,7 @@ PCNA (Proliferating Cell Nuclear Antigen) is an essential sliding clamp for DNA 
 
 ## Cancer types (linked)
 
-- IDH-mutant astrocytoma ([DIFG](../cancer_types/DIFG.md), [ASTR](../cancer_types/ASTR.md)) — PCNA upregulated downstream of HOXD13 activation at recurrence, particularly in treatment-exposed tumors [PMID:38117484](../papers/38117484.md).
+- IDH-mutant astrocytoma ([DIFG](../cancer_types/DIFG.md), [ASTR](../cancer_types/ASTR.md)) — PCNA upregulated downstream of [HOXD13](../genes/HOXD13.md) activation at recurrence, particularly in treatment-exposed tumors [PMID:38117484](../papers/38117484.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -42,4 +42,4 @@ PCNA (Proliferating Cell Nuclear Antigen) is an essential sliding clamp for DNA 
 - [PMID:38117484](../papers/38117484.md)
 - [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

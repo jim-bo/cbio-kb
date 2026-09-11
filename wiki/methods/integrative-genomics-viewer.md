@@ -5,8 +5,8 @@ kind: visualization
 canonical_source: corpus
 unverified: true
 tags: [visualization, variant-review, genomics, BAM, VCF]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Integrative Genomics Viewer (IGV)
@@ -22,9 +22,9 @@ The Integrative Genomics Viewer (IGV) is a high-performance visualization tool d
 - Used for visual inspection and validation of somatic mutations and CNAs in WES and array-CGH data from 176 tumors of 63 men with metastatic CRPC. [PMID:26928463](../papers/26928463.md)
 - Every alteration called in the MSK-IMPACT pipeline was manually reviewed in IGV as a quality control step across 10,945 tumors [PMID:28481359](../papers/28481359.md)
 - Used to visually inspect sequencing alignments and verify CRISPR base-editing outcomes (T→A and A→T conversions at rs4519489) and allele-specific read distributions in the NOL10/USF1 prostate cancer study [PMID:41062477](../papers/41062477.md)
-- IGV used for visual review of variant calls from MSK-IMPACT sequencing of 127 advanced HCC tumors [PMID:30373752](../papers/30373752.md)
+- IGV used for visual review of variant calls from MSK-IMPACT sequencing of 127 advanced [HCC](../cancer_types/HCC.md) tumors [PMID:30373752](../papers/30373752.md)
 - IGV used for manual structural variant review in CSF ctDNA and tumor tissue sequencing from 85 glioma patients; supported detection of EGFRvIII in-frame deletion and other structural rearrangements tracked through tumor evolution [PMID:30675060](../papers/30675060.md)
-- Used for manual review/confirmation of variant calls in a 943-patient clear cell RCC genomic cohort [PMID:36815791](../papers/36815791.md).
+- Used for manual review/confirmation of variant calls in a 943-patient clear cell [RCC](../cancer_types/RCC.md) genomic cohort [PMID:36815791](../papers/36815791.md).
 
 ## Notes
 
@@ -45,4 +45,4 @@ The Integrative Genomics Viewer (IGV) is a high-performance visualization tool d
 
 - [PMID:25583493](../papers/25583493.md) — Guda et al. 2015, WES of African American MSS CRC
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

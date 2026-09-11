@@ -7,8 +7,8 @@ tags:
   - wnt-pathway
   - bcl-family
   - gene-fusion
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # BCL9
@@ -28,7 +28,7 @@ BCL9 (B-cell CLL/lymphoma 9) is a co-activator of beta-catenin-mediated transcri
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with BCL2, BCL7A, and BCL2L11 in the BCL-family translocation group detected in endometrial carcinoma. [PMID:23636398](../papers/23636398.md)
+- Co-occurs with [BCL2](../genes/BCL2.md), [BCL7A](../genes/BCL7A.md), and [BCL2L11](../genes/BCL2L11.md) in the BCL-family translocation group detected in endometrial carcinoma. [PMID:23636398](../papers/23636398.md)
 
 ## Therapeutic relevance
 
@@ -43,4 +43,4 @@ BCL9 (B-cell CLL/lymphoma 9) is a co-activator of beta-catenin-mediated transcri
 - [PMID:23636398](../papers/23636398.md)
 - [PMID:35487942](../papers/35487942.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

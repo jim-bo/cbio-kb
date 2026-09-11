@@ -4,8 +4,8 @@ oncotree_code: HNSC
 main_type: Head and Neck Cancer
 parent: HEAD_NECK
 tags: [head-neck, squamous, hpv, immunotherapy, radiation]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Head and Neck Squamous Cell Carcinoma (HNSC)
@@ -41,22 +41,22 @@ No gene-level variant frequencies are reported in the corpus for HNSC; studies f
 - [RHOA](../genes/RHOA.md) E40Q fails to complement yeast RHO1 (no viable colonies on 5-FOA) and recurs in solid tumours including head-and-neck squamous cell carcinoma [PMID:41002403](../papers/41002403.md)
 - Narrative review of R/M [NPC](../cancer_types/NPC.md) therapeutics notes [EGFR](../genes/EGFR.md) overexpression in a substantial fraction of [NPC](../cancer_types/NPC.md) (a head-and-neck malignancy); NPC-specific agents are catalogued but HNSC more broadly is referenced in the EBV-negative squamous carcinoma context [PMID:41002550](../papers/41002550.md)
 - TCGA multi-platform profiling of 279 HNSC defined two non-overlapping biologies: HPV(+) tumours with [TRAF3](../genes/TRAF3.md) loss (14%), [PIK3CA](../genes/PIK3CA.md) helical-domain mutations (56%), and [E2F1](../genes/E2F1.md) amplification; HPV(−) tumours with [TP53](../genes/TP53.md) mutation (86%), [CDKN2A](../genes/CDKN2A.md) loss, and 11q13/22 co-amplification. Eleven significantly mutated genes identified (MutSigCV q<0.1); candidate therapeutic alterations present in most tumours. [PMID:25631445](../papers/25631445.md)
-- Morris et al. (MSK, N=151 advanced/recurrent head and neck tumors, MSK-IMPACT 410-gene panel) found that NGS guided therapy in 13/53 (25%) of HNSC patients; TERT promoter mutations in 16/30 (53%) HPV-negative recurrent/metastatic HNSC versus 12/70 (17%) primary HPV-negative tumors (OR 5.5, P<.001); 43% of advanced HPV-positive tumors acquired an HPV-negative-like genotype associated with worse survival [PMID:27442865](../papers/27442865.md).
+- Morris et al. (MSK, N=151 advanced/recurrent head and neck tumors, MSK-IMPACT 410-gene panel) found that NGS guided therapy in 13/53 (25%) of HNSC patients; [TERT](../genes/TERT.md) promoter mutations in 16/30 (53%) HPV-negative recurrent/metastatic HNSC versus 12/70 (17%) primary HPV-negative tumors (OR 5.5, P<.001); 43% of advanced HPV-positive tumors acquired an HPV-negative-like genotype associated with worse survival [PMID:27442865](../papers/27442865.md).
 - TCGA comparison: ESCC1 and ESCC2 gene expression profiles closely resemble TCGA head and neck squamous cell carcinoma (HNSCC) classical and basal subtypes respectively; ESCC3 (SMARCA4-mutant, US/Canada only) has no analogue in the TCGA HNSCC dataset [PMID:28052061](../papers/28052061.md)
-- TCGA HNSC mutational signatures were used as a reference comparison in the first WES landscape of vulvar squamous cell carcinoma; open question remains whether the 40% PIK3CA and FAT1 prevalences in vulvar SCC align with rates in HNSC and other head-and-neck SCCs [PMID:29422544](../papers/29422544.md)
+- TCGA HNSC mutational signatures were used as a reference comparison in the first WES landscape of vulvar squamous cell carcinoma; open question remains whether the 40% [PIK3CA](../genes/PIK3CA.md) and [FAT1](../genes/FAT1.md) prevalences in vulvar SCC align with rates in HNSC and other head-and-neck SCCs [PMID:29422544](../papers/29422544.md)
 - MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included HNSC; HNSC concordance with the legacy PanCan12 MAF exceeded 90% [PMID:29596782](../papers/29596782.md)
-- Pan-cancer fusion study (9,624 TCGA samples) identified a TRABD–DDR2 promoter-swap fusion driving DDR2 overexpression in one HNSC sample (candidate for dasatinib); DDR2 fusions seen in nine additional samples across five cancer types; FGFR3–TACC3 was present in 1.2% of LUSC (squamous) tumors [PMID:29617662](../papers/29617662.md)
-- Pan-cancer aneuploidy study placed HPV+ and HPV− HNSC in the squamous arm-level cluster (chr_3p loss + chr_3q gain); the squamous signature was strongest in LUSC, ESCC, and HPV-negative HNSC; leukocyte fraction was negatively correlated with aneuploidy in HNSC (Spearman ρ = −0.312) [PMID:29622463](../papers/29622463.md)
+- Pan-cancer fusion study (9,624 TCGA samples) identified a [TRABD](../genes/TRABD.md)–[DDR2](../genes/DDR2.md) promoter-swap fusion driving DDR2 overexpression in one HNSC sample (candidate for [dasatinib](../drugs/dasatinib.md)); DDR2 fusions seen in nine additional samples across five cancer types; [FGFR3](../genes/FGFR3.md)–[TACC3](../genes/TACC3.md) was present in 1.2% of [LUSC](../cancer_types/LUSC.md) (squamous) tumors [PMID:29617662](../papers/29617662.md)
+- Pan-cancer aneuploidy study placed HPV+ and HPV− HNSC in the squamous arm-level cluster (chr_3p loss + chr_3q gain); the squamous signature was strongest in LUSC, [ESCC](../cancer_types/ESCC.md), and HPV-negative HNSC; leukocyte fraction was negatively correlated with aneuploidy in HNSC (Spearman ρ = −0.312) [PMID:29622463](../papers/29622463.md)
 - Included in TCGA PanCancer Atlas; HPV+ HNSC co-clusters in pan-squamous iCluster C27; HNSC showed <50% of samples in any single iCluster [PMID:29625048](../papers/29625048.md)
 - Included in TCGA PanCancer Atlas integrative driver/immune analysis (11,000 tumors, 33 cancer types) [PMID:29625049](../papers/29625049.md)
-- EGFR alterations in HPV-negative HNSC at ~13%; PI3K+NRF2 co-alterations concentrated in head and neck tumors; PI3K pathway activations prominent across HNSC subtypes [PMID:29625050](../papers/29625050.md)
+- [EGFR](../genes/EGFR.md) alterations in HPV-negative HNSC at ~13%; PI3K+NRF2 co-alterations concentrated in head and neck tumors; PI3K pathway activations prominent across HNSC subtypes [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for HNSC [PMID:29625055](../papers/29625055.md)
 - N=12 in pooled MSS ICB WES cohort; APOBEC signature dominance associated with high TMB and CR/PR to immune checkpoint blockade; PIK3CA hotspot mutations in responders were from melanoma, HNSCC, anal, or bladder [PMID:30150660](../papers/30150660.md)
 - HNSC was listed as an illustrative cancer type test bed for 3D tumor models in a survey covering scaffold-free spheroids, hydrogels, bioprinting, and microfluidic platforms. [PMID:41103502](../papers/41103502.md)
 - HNSC (n=138) was among the histologies in the ICI-treated MSK-IMPACT cohort; PFS and clinical-benefit associations with TMB were specifically analyzed for head & neck cancer. [PMID:30643254](../papers/30643254.md)
 - Included in PCAWG pan-cancer WGS cohort (n=2,658 tumors, 38 types); head and neck squamous cell carcinoma analyzed for somatic driver landscape and mutational processes [PMID:32025007](../papers/32025007.md).
 - MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; HNSC is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
-- In a TCGA pan-cancer validation of a triple-negative breast cancer proteogenomic cohort, LIG1 heterozygous loss was associated with worse progression-free survival in head and neck squamous cell carcinoma (HR 1.46, P=0.03) [PMID:36001024](../papers/36001024.md).
+- In a TCGA pan-cancer validation of a triple-negative breast cancer proteogenomic cohort, [LIG1](../genes/LIG1.md) heterozygous loss was associated with worse progression-free survival in head and neck squamous cell carcinoma (HR 1.46, P=0.03) [PMID:36001024](../papers/36001024.md).
 
 ## Subtypes
 
@@ -126,4 +126,4 @@ No molecular subtype breakdown in the corpus for HNSC beyond HPV context implied
 - [PMID:35120664](../papers/35120664.md)
 - [PMID:36001024](../papers/36001024.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

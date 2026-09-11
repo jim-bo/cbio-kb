@@ -5,8 +5,8 @@ drug_class: alkylating agent
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # cyclophosphamide
@@ -27,10 +27,10 @@ Nitrogen mustard alkylating chemotherapy; backbone of CHOP-based lymphoma regime
 - OncoMark hallmark-survival analysis (TCGA logistic regression) associated cyclophosphamide with the Activating Invasion and Metastasis (AIM) hallmark for disease-free survival and the Resisting Cell Death (RCD) hallmark for overall survival [PMID:41057477](../papers/41057477.md)
 - Cyclophosphamide was used as chemotherapy backbone in combination regimens within the MAPPYACTS trial; 45/122 matched targeted therapies were combined with chemotherapy (ORR 18%) [PMID:35292802](../papers/35292802.md)
 - Alkylating immunosuppressant; one of 25 metastatic [CSCC](../cancer_types/CSCC.md) patients in WGS study was on cyclophosphamide+[tacrolimus](../drugs/tacrolimus.md) post solid-organ transplant; SBS32 signature attributable to [azathioprine](../drugs/azathioprine.md) observed in another immunosuppressed patient [PMID:35982973](../papers/35982973.md)
-- In a phase II trial, a single 300 mg/m2 priming dose of cyclophosphamide given the day before pembrolizumab failed to deplete peripheral regulatory T cells or improve PFS over historical controls in pretreated metastatic triple-negative breast cancer. [PMID:35121644](../papers/35121644.md)
-- Cyclophosphamide (paired with doxorubicin, AC) followed paclitaxel/carboplatin +/- veliparib in the BrighTNess trial arms (A+B, n=359) used as an external validation cohort for neoadjuvant TNBC. [PMID:36001024](../papers/36001024.md)
-- Cyclophosphamide is listed among the chemotherapy regimen components (with vincristine, doxorubicin, methotrexate, prednisone, etoposide, ifosfamide, cytarabine and rituximab) recorded for the mature B-cell neoplasm cohort. [PMID:36201743](../papers/36201743.md)
-- In a metastatic paraganglioma patient (E169), cyclophosphamide was part of the CVD regimen (with vincristine and dacarbazine); after 23 cycles the post-treatment metastasis had twice as many SNVs as the pre-treatment lesion, including new TP53, RPL5 and POLE mutations. [PMID:40097403](../papers/40097403.md)
+- In a phase II trial, a single 300 mg/m2 priming dose of cyclophosphamide given the day before [pembrolizumab](../drugs/pembrolizumab.md) failed to deplete peripheral regulatory T cells or improve PFS over historical controls in pretreated metastatic triple-negative breast cancer. [PMID:35121644](../papers/35121644.md)
+- Cyclophosphamide (paired with [doxorubicin](../drugs/doxorubicin.md), AC) followed paclitaxel/carboplatin +/- [veliparib](../drugs/veliparib.md) in the BrighTNess trial arms (A+B, n=359) used as an external validation cohort for neoadjuvant TNBC. [PMID:36001024](../papers/36001024.md)
+- Cyclophosphamide is listed among the chemotherapy regimen components (with [vincristine](../drugs/vincristine.md), doxorubicin, [methotrexate](../drugs/methotrexate.md), [prednisone](../drugs/prednisone.md), [etoposide](../drugs/etoposide.md), [ifosfamide](../drugs/ifosfamide.md), [cytarabine](../drugs/cytarabine.md) and [rituximab](../drugs/rituximab.md)) recorded for the mature B-cell neoplasm cohort. [PMID:36201743](../papers/36201743.md)
+- In a metastatic paraganglioma patient (E169), cyclophosphamide was part of the CVD regimen (with vincristine and [dacarbazine](../drugs/dacarbazine.md)); after 23 cycles the post-treatment metastasis had twice as many SNVs as the pre-treatment lesion, including new [TP53](../genes/TP53.md), [RPL5](../genes/RPL5.md) and [POLE](../genes/POLE.md) mutations. [PMID:40097403](../papers/40097403.md)
 - Cyclophosphamide was part of standard VAC (vincristine/dactinomycin/cyclophosphamide) neoadjuvant chemotherapy received by all rhabdomyosarcoma patients in the cohort before delayed resection. [PMID:41758938](../papers/41758938.md)
 
 ## Resistance mechanisms
@@ -59,4 +59,4 @@ Nitrogen mustard alkylating chemotherapy; backbone of CHOP-based lymphoma regime
 - [PMID:40097403](../papers/40097403.md)
 - [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

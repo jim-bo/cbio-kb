@@ -3,8 +3,8 @@ symbol: KRT2
 aliases: []
 cancer_types: [BRCA]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # KRT2
@@ -16,7 +16,7 @@ transcriptomic biomarker candidate rather than a recurrently mutated driver.
 
 ## Alterations observed in the corpus
 
-- Higher pretreatment tumor expression (alongside KRT1 and NRAP) in non-responders (SD+PD) to pembrolizumab plus low-dose cyclophosphamide priming in a 26-patient metastatic triple-negative breast cancer trial [PMID:35121644](../papers/35121644.md).
+- Higher pretreatment tumor expression (alongside [KRT1](../genes/KRT1.md) and [NRAP](../genes/NRAP.md)) in non-responders (SD+PD) to [pembrolizumab](../drugs/pembrolizumab.md) plus low-dose [cyclophosphamide](../drugs/cyclophosphamide.md) priming in a 26-patient metastatic triple-negative breast cancer trial [PMID:35121644](../papers/35121644.md).
 
 ## Cancer types (linked)
 
@@ -38,4 +38,4 @@ transcriptomic biomarker candidate rather than a recurrently mutated driver.
 
 - [PMID:35121644](../papers/35121644.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

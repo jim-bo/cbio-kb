@@ -3,8 +3,8 @@ symbol: CDK4
 aliases: []
 cancer_types: [RMS, ARMS, ERMS, ACRM]
 tags: [cell-cycle, amplification, actionable]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CDK4
@@ -54,7 +54,7 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - Alternative cell-cycle alteration in glioma alongside [RB1](../genes/RB1.md); one patient with CDK4 amplification later acquired CDKN2A/B loss at recurrence and died within 11-15 months, demonstrating cell-cycle pathway convergence during malignant progression [PMID:31263031](../papers/31263031.md)
 - CDK4 amplification in Rh-30 rhabdomyosarcoma PDX was not retained between paired diagnosis and relapse PDXs, highlighting passage/selection effects in the PPTC cohort [PMID:31693904](../papers/31693904.md)
 - Focal gain co-acquired with [CDKN2A](../genes/CDKN2A.md) loss as part of the cell-cycle module in recurrent IDHmut-noncodel glioma (along with [CDK6](../genes/CDK6.md) and [CCND2](../genes/CCND2.md)); this aneuploidy + cell-cycle alteration subgroup has significantly shorter survival (log-rank P < 0.0001), supporting potential use of CDK inhibitors at recurrence [PMID:31748746](../papers/31748746.md)
-- CDK4 amplification in 8% of 83 glioblastoma PDX, contributing to Rb pathway inactivation alongside [RB1](../genes/RB1.md) loss/mutation (16%) and [CDK6](../genes/CDK6.md) amplification (1%); MDM2 amplification (10%) often co-occurs in the same pathway context [PMID:31852831](../papers/31852831.md)
+- CDK4 amplification in 8% of 83 glioblastoma PDX, contributing to Rb pathway inactivation alongside [RB1](../genes/RB1.md) loss/mutation (16%) and [CDK6](../genes/CDK6.md) amplification (1%); [MDM2](../genes/MDM2.md) amplification (10%) often co-occurs in the same pathway context [PMID:31852831](../papers/31852831.md)
 - Kinase-activity inference flags CDK4 activation in CNV-high vs CNV-low endometrioid endometrial carcinoma; multiple FDA-approved CDK4/6 inhibitors are available as candidate therapeutics [PMID:32059776](../papers/32059776.md)
 - CDK4 protein abundance elevated in RB1-mutant [LUAD](../cancer_types/LUAD.md), suggesting potential CDK4/6-inhibitor resistance mechanism [PMID:32649874](../papers/32649874.md)
 - CDK4/6 activity tracks proliferation in HR+/ERBB2− but not TNBC breast tumors (CPTAC proteogenomics, n=122); in TNBC, Rb protein status — not [RB1](../genes/RB1.md) genotype — determines CDK4/6 inhibitor sensitivity [PMID:33212010](../papers/33212010.md)
@@ -63,11 +63,11 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - CDK4 germline variant identified in 1 forte-subtype LCINS tumor (232-sample WGS cohort); part of driver/timing observations across subtypes. [PMID:34493867](../papers/34493867.md)
 - CDK4 is fully inhibited by CDK4/6i in both sensitive and resistant HR+/HER2− breast cancer cells; CDK4 does not bind INK4 proteins in abemaciclib-resistant FAT1CR cells (zero peptides in IP-MS); co-degradation of CDK4 + [CDK6](../genes/CDK6.md) via PROTAC is required for sustained antitumor activity in resistant models [PMID:34544752](../papers/34544752.md)
 - CDK4 amplifications particularly recurrent in [RMS](../cancer_types/RMS.md) and other sarcomas in MAPPYACTS pediatric trial; generated 105 CDK4/6 inhibitor recommendations across 624 patients with successful tumor sequencing; CDKN2A/CDKN2B deletions (157 events) were the matched biomarker [PMID:35292802](../papers/35292802.md)
-- CDK4 amplified in 10.6% of 7,494 sarcomas (FoundationOne Heme); co-amplified with MDM2 in well/dedifferentiated liposarcoma; Rb pathway (RB1, CDKN2A/B, CDK4/6, CCND1/2/3, [CCNE1](../genes/CCNE1.md)) altered in 46.8% of sarcomas; CDK4/6 inhibitors are Level 3A actionable in WDLS/DDLS [PMID:35705558](../papers/35705558.md)
+- CDK4 amplified in 10.6% of 7,494 sarcomas (FoundationOne Heme); co-amplified with MDM2 in well/dedifferentiated liposarcoma; Rb pathway ([RB1](../genes/RB1.md), CDKN2A/B, CDK4/6, CCND1/2/3, [CCNE1](../genes/CCNE1.md)) altered in 46.8% of sarcomas; CDK4/6 inhibitors are Level 3A actionable in WDLS/DDLS [PMID:35705558](../papers/35705558.md)
 - CDK4 co-amplified with MDM2 in >97% of [WDLS](../cancer_types/WDLS.md) and [DDLS](../cancer_types/DDLS.md) (diagnostic and Level 3A actionable); CDK4 amplification is also among recurrent hits in the broader 2,138-patient MSK sarcoma cohort [PMID:35705560](../papers/35705560.md)
 - Amplification in 10.9% of soft tissue sarcoma ([STS](../cancer_types/STS.md)) in the OncoMark Chinese solid-tumor cohort; actionable with abemaciclib/palbociclib (OncoKB Level 4) [PMID:35871175](../papers/35871175.md)
-- Co-amplified with [CCND2](../genes/CCND2.md) and MDM2 via chromosome 12 chromothripsis in 15% of atypical [SCLC](../cancer_types/SCLC.md) (aSCLC); CDK4 amplification found in 0% of conventional SCLC (P=0.0006) and 1% of carcinoids (P=0.01); ecDNA-amplified CDK4 creates pRb-null-like state [PMID:39185963](../papers/39185963.md)
-- High RB1 protein and CDK4 activity co-occurred in some non-pCR triple-negative breast tumors; DepMap TNBC lines with high Rb protein showed lower carboplatin response and higher CDK4/6-inhibitor response [PMID:36001024](../papers/36001024.md).
+- Co-amplified with [CCND2](../genes/CCND2.md) and MDM2 via chromosome 12 chromothripsis in 15% of atypical [SCLC](../cancer_types/SCLC.md) (aSCLC); CDK4 amplification found in 0% of conventional [SCLC](../cancer_types/SCLC.md) (P=0.0006) and 1% of carcinoids (P=0.01); ecDNA-amplified CDK4 creates pRb-null-like state [PMID:39185963](../papers/39185963.md)
+- High RB1 protein and CDK4 activity co-occurred in some non-pCR triple-negative breast tumors; DepMap TNBC lines with high Rb protein showed lower [carboplatin](../drugs/carboplatin.md) response and higher CDK4/6-inhibitor response [PMID:36001024](../papers/36001024.md).
 - CDK4 was recurrently co-amplified with MDM2 (10-15%) in MYOD1-mutant rhabdomyosarcoma [PMID:41758938](../papers/41758938.md).
 
 ## Cancer types (linked)
@@ -142,4 +142,4 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - [PMID:36001024](../papers/36001024.md)
 - [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

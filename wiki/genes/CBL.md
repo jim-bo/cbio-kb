@@ -4,29 +4,29 @@ aliases: []
 cancer_types:
   - MEL
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CBL
 
 ## Overview
 
-CBL is an E3 ubiquitin ligase and adaptor protein that negatively regulates receptor tyrosine kinase (RTK) signaling through ubiquitin-mediated receptor degradation. Loss-of-function alterations in CBL impair RTK downregulation, contributing to prolonged MAPK/ERK and PI3K pathway activation. In cancer genomics, CBL appears primarily as a co-alteration with other MAPK pathway lesions, particularly in tumors with NF1 loss or BRAF Class 3 mutations.
+CBL is an E3 ubiquitin ligase and adaptor protein that negatively regulates receptor tyrosine kinase (RTK) signaling through ubiquitin-mediated receptor degradation. Loss-of-function alterations in CBL impair RTK downregulation, contributing to prolonged MAPK/ERK and PI3K pathway activation. In cancer genomics, CBL appears primarily as a co-alteration with other MAPK pathway lesions, particularly in tumors with [NF1](../genes/NF1.md) loss or [BRAF](../genes/BRAF.md) Class 3 mutations.
 
 ## Alterations observed in the corpus
 
-- CBL is identified as a secondary "backseat" RTK-RAS regulator in melanoma; CBL alterations co-occur with NF1 loss-of-function and BRAF Class 3 mutations, contributing to co-alteration patterns in MSK-IMPACT–profiled melanoma (mel_mskimpact_2020) [PMID:33509808](../papers/33509808.md).
-- CBL mutations had a previously published survival effect in MDS; clonal and subclonal CBL mutations carried equivalent leukemia-free-survival risk [PMID:24030381](../papers/24030381.md).
+- CBL is identified as a secondary "backseat" RTK-RAS regulator in melanoma; CBL alterations co-occur with NF1 loss-of-function and BRAF Class 3 mutations, contributing to co-alteration patterns in MSK-IMPACT–profiled melanoma ([mel_mskimpact_2020](../datasets/mel_mskimpact_2020.md)) [PMID:33509808](../papers/33509808.md).
+- CBL mutations had a previously published survival effect in [MDS](../cancer_types/MDS.md); clonal and subclonal CBL mutations carried equivalent leukemia-free-survival risk [PMID:24030381](../papers/24030381.md).
 - CBL deep deletion was among the acquired copy-number alterations seen at metastasis in the MSK-BR-WGS-05 paired primary-to-metastasis breast cancer case [PMID:40379787](../papers/40379787.md).
 
 ## Cancer types (linked)
 
-- **Melanoma (MEL):** CBL alterations observed as co-alterations in tumors with NF1 mutations or BRAF Class 3 mutations, part of a 28-gene RTK-RAS driver landscape characterized in 1,145 MSK-IMPACT–profiled melanomas [PMID:33509808](../papers/33509808.md).
+- **Melanoma ([MEL](../cancer_types/MEL.md)):** CBL alterations observed as co-alterations in tumors with NF1 mutations or BRAF Class 3 mutations, part of a 28-gene RTK-RAS driver landscape characterized in 1,145 MSK-IMPACT–profiled melanomas [PMID:33509808](../papers/33509808.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with NF1 loss-of-function, BRAF Class 3 mutations, and other RTK-RAS pathway genes (PTPN11, RASA1, RAC1, SOS1, SPRED1, ARAF, RAF1) in melanoma [PMID:33509808](../papers/33509808.md).
+- Co-occurs with NF1 loss-of-function, BRAF Class 3 mutations, and other RTK-RAS pathway genes ([PTPN11](../genes/PTPN11.md), [RASA1](../genes/RASA1.md), [RAC1](../genes/RAC1.md), [SOS1](../genes/SOS1.md), [SPRED1](../genes/SPRED1.md), [ARAF](../genes/ARAF.md), [RAF1](../genes/RAF1.md)) in melanoma [PMID:33509808](../papers/33509808.md).
 
 ## Therapeutic relevance
 
@@ -42,4 +42,4 @@ CBL is an E3 ubiquitin ligase and adaptor protein that negatively regulates rece
 - [PMID:24030381](../papers/24030381.md)
 - [PMID:40379787](../papers/40379787.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

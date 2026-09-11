@@ -5,15 +5,15 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [risk-stratification, prognostic-score, mds]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # International Prognostic Scoring System (IPSS)
 
 ## Overview
 
-The International Prognostic Scoring System (IPSS) is a clinical risk-stratification score for myelodysplastic syndromes (MDS), combining bone-marrow blast percentage, cytopenia count, and cytogenetic risk category into low, intermediate-1, intermediate-2, and high risk groups. It is widely used to predict overall survival and risk of transformation to acute myeloid leukemia and to guide treatment intensity.
+The International Prognostic Scoring System (IPSS) is a clinical risk-stratification score for myelodysplastic syndromes ([MDS](../cancer_types/MDS.md)), combining bone-marrow blast percentage, cytopenia count, and cytogenetic risk category into low, intermediate-1, intermediate-2, and high risk groups. It is widely used to predict overall survival and risk of transformation to acute myeloid leukemia and to guide treatment intensity.
 
 ## Used by
 
@@ -28,4 +28,4 @@ The International Prognostic Scoring System (IPSS) is a clinical risk-stratifica
 
 - [PMID:24030381](../papers/24030381.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

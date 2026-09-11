@@ -3,8 +3,8 @@ symbol: PDCD1
 aliases: [PD-1, PD1]
 cancer_types: [COAD, HNSC]
 tags: [immune-checkpoint, icr-signature, pd-1, flow-cytometry]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # PDCD1
@@ -38,9 +38,9 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - PD-L1 / immune-infiltration scores co-vary with APOBEC3B/APOBEC3G protein levels in luminal breast cancer; APOBEC mutagenesis and SSBR defects identify immunotherapy-eligible ER+ [BRCA](../cancer_types/BRCA.md) subsets. [PMID:33212010](../papers/33212010.md)
 - PDCD1 (PD-1) expressed on dysfunctional [CD4](../genes/CD4.md)+ T cells in Apc-driven stem-cell mouse tumors, paralleling the immunosuppressive adenoma microenvironment in colorectal precancer [PMID:34910928](../papers/34910928.md)
 - PDCD1 (PD-1) overexpressed in IG3 immune-hot rectal tumors (pMMR/MSS LARC cohort, [rectal_msk_2022](../datasets/rectal_msk_2022.md), n=738); overexpression nominates this immune-hot subset for ICI trials [PMID:35970919](../papers/35970919.md)
-- PDCD1 (PD-1) is the target of nivolumab; on-treatment pharmacodynamic changes (increased tumor CXCL9/CXCL10, T-cell and NK-cell transcripts) were attributed to PD-1 blockade [PMID:27169994](../papers/27169994.md).
-- PDCD1 (PD-1) is one of the PD-L1 receptors whose engagement is blocked by atezolizumab; PDCD1 itself was not directly measured in this urothelial carcinoma cohort [PMID:27939400](../papers/27939400.md).
-- PDCD1 (PD-1), the target of pembrolizumab, showed decreased expression on peripheral CD4+ T cells from baseline to post-surgery only in the neoadjuvant arm of this glioblastoma trial (BH P=0.025) [PMID:30742122](../papers/30742122.md).
+- PDCD1 (PD-1) is the target of [nivolumab](../drugs/nivolumab.md); on-treatment pharmacodynamic changes (increased tumor CXCL9/CXCL10, T-cell and NK-cell transcripts) were attributed to PD-1 blockade [PMID:27169994](../papers/27169994.md).
+- PDCD1 (PD-1) is one of the PD-L1 receptors whose engagement is blocked by [atezolizumab](../drugs/atezolizumab.md); PDCD1 itself was not directly measured in this urothelial carcinoma cohort [PMID:27939400](../papers/27939400.md).
+- PDCD1 (PD-1), the target of [pembrolizumab](../drugs/pembrolizumab.md), showed decreased expression on peripheral [CD4](../genes/CD4.md)+ T cells from baseline to post-surgery only in the neoadjuvant arm of this glioblastoma trial (BH P=0.025) [PMID:30742122](../papers/30742122.md).
 - PDCD1 (PD-1), the target of pembrolizumab, was more highly expressed on peripheral CD8+ T cells of responders during cycles 1-2 in this TNBC trial [PMID:35121644](../papers/35121644.md).
 - PDCD1 (PD-1) is referenced as the target class of approved checkpoint inhibitors and an investigational anti-PD-1/LAG-3 bispecific in this urothelial carcinoma (IMvigor210) analysis; it was not directly measured [PMID:39642637](../papers/39642637.md).
 
@@ -117,4 +117,4 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - [PMID:35121644](../papers/35121644.md)
 - [PMID:39642637](../papers/39642637.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -7,8 +7,8 @@ tags:
   - 19q13-deletion
   - chemotherapy-resistance
   - triple-negative-breast-cancer
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # NOSIP
@@ -19,15 +19,15 @@ NOSIP lies within the 19q13.31-33 locus that is recurrently hemizygously deleted
 
 ## Alterations observed in the corpus
 
-- 19q13.31-33 region genes with lower mRNA and protein levels in non-pathologic-complete-response (non-pCR) TNBC tumors, alongside PPP5C and BCL3, in a proteogenomic neoadjuvant chemotherapy cohort [PMID:36001024](../papers/36001024.md).
+- 19q13.31-33 region genes with lower mRNA and protein levels in non-pathologic-complete-response (non-pCR) TNBC tumors, alongside [PPP5C](../genes/PPP5C.md) and [BCL3](../genes/BCL3.md), in a proteogenomic neoadjuvant chemotherapy cohort [PMID:36001024](../papers/36001024.md).
 
 ## Cancer types (linked)
 
-- **[BRCA](../cancer_types/BRCA.md)** (triple-negative breast cancer, neoadjuvant-treated): in this proteogenomic cohort, NOSIP (19q13.31-33, near LIG1) showed lower mRNA and protein in tumors without pathologic complete response [PMID:36001024](../papers/36001024.md).
+- **[BRCA](../cancer_types/BRCA.md)** (triple-negative breast cancer, neoadjuvant-treated): in this proteogenomic cohort, NOSIP (19q13.31-33, near [LIG1](../genes/LIG1.md)) showed lower mRNA and protein in tumors without pathologic complete response [PMID:36001024](../papers/36001024.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-located with LIG1, POLD1, XRCC1, ERCC2, PPP5C, and BCL3 in the 19q13.31-33 hemizygous-deletion region proposed to underlie a compound DNA lagging-strand-synthesis/repair deficiency associated with carboplatin resistance; LIG1 was the lead gene of this locus, with NOSIP among the co-deleted genes showing concordant reduced expression [PMID:36001024](../papers/36001024.md).
+- Co-located with LIG1, [POLD1](../genes/POLD1.md), [XRCC1](../genes/XRCC1.md), [ERCC2](../genes/ERCC2.md), PPP5C, and BCL3 in the 19q13.31-33 hemizygous-deletion region proposed to underlie a compound DNA lagging-strand-synthesis/repair deficiency associated with [carboplatin](../drugs/carboplatin.md) resistance; LIG1 was the lead gene of this locus, with NOSIP among the co-deleted genes showing concordant reduced expression [PMID:36001024](../papers/36001024.md).
 
 ## Therapeutic relevance
 
@@ -41,4 +41,4 @@ NOSIP lies within the 19q13.31-33 locus that is recurrently hemizygously deleted
 
 - [PMID:36001024](../papers/36001024.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

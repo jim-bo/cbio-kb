@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [deconvolution, tumor-microenvironment, rna-seq, immune-infiltration]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # xCell
@@ -18,8 +18,8 @@ xCell is an RNA-based cell-type deconvolution method that estimates the relative
 ## Used by
 
 - Applied to RNA-seq data from 218 pediatric brain tumor samples (N=218, 7 histologies) in [brain_cptac_2020](../datasets/brain_cptac_2020.md), producing five tumor microenvironment groups (Cold-medullo, Cold-mixed, Neuronal, Epithelial, Hot); the Hot cluster was enriched for adenosine producers (ENTPD1, [NT5E](../genes/NT5E.md)), and the Epithelial cluster (all craniopharyngioma) upregulated [CTLA4](../genes/CTLA4.md) and PD-1 [PMID:33242424](../papers/33242424.md)
-- xCell deconvolution of bulk RNA-seq data used to define four immune subtypes (im1–im4) in 99 GBM tumors; im4 was uniformly immunologically cold (1.3% T cells, 6% TAM by snRNA-seq validation); subtypes confirmed by IHC (CD3, CD68, CD163, PD-1, PD-L1) [PMID:33577785](../papers/33577785.md)
-- Used (with ESTIMATE and CIBERSORT absolute mode) for immune-cell deconvolution in a triple-negative breast cancer proteogenomics cohort [PMID:36001024](../papers/36001024.md)
+- xCell deconvolution of bulk RNA-seq data used to define four immune subtypes (im1–im4) in 99 [GBM](../cancer_types/GBM.md) tumors; im4 was uniformly immunologically cold (1.3% T cells, 6% TAM by snRNA-seq validation); subtypes confirmed by IHC (CD3, [CD68](../genes/CD68.md), CD163, PD-1, PD-L1) [PMID:33577785](../papers/33577785.md)
+- Used (with ESTIMATE and CIBERSORT [absolute](../methods/absolute.md) mode) for immune-cell deconvolution in a triple-negative breast cancer proteogenomics cohort [PMID:36001024](../papers/36001024.md)
 
 ## Notes
 
@@ -31,4 +31,4 @@ xCell is an RNA-based cell-type deconvolution method that estimates the relative
 - [PMID:33577785](../papers/33577785.md)
 - [PMID:36001024](../papers/36001024.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

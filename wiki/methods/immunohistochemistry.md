@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [ihc, pathology, protein-expression, diagnostic]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Immunohistochemistry (IHC)
@@ -64,21 +64,21 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - IHC staining for [AR](../genes/AR.md), CD8, and [FOXC1](../genes/FOXC1.md) used as subtype surrogates to classify 69 refractory metastatic TNBC patients into LAR/IM/BLIS/MES subtypes in the FUTURE umbrella trial; MMR status also assessed by IHC [PMID:32719455](../papers/32719455.md)
 - IHC with immunoreactivity score (IRS = intensity × proportion, 0–12) applied to 80-patient CRC tissue microarray; [CGREF1](../genes/CGREF1.md) overexpressed (IRS ≥4) in 61.25% of CRC vs 0% of normal tissues (p=0.00001); MMR assessed by IHC [PMID:41125935](../papers/41125935.md)
 - IHC used to validate [ATRX](../genes/ATRX.md) protein loss in 9 ATRX-mutant GBMs, immune subtypes (CD3, [CD68](../genes/CD68.md), CD163, PD-1, PD-L1), and EGFR-related proteins ([SOX9](../genes/SOX9.md), [GAB1](../genes/GAB1.md)); xCell-based immune subtypes confirmed by IHC on 99-tumor CPTAC [GBM](../cancer_types/GBM.md) cohort [PMID:33577785](../papers/33577785.md)
-- Used for MMR protein testing (MLH1, [MSH2](../genes/MSH2.md), MSH6, [PMS2](../genes/PMS2.md)) in 94 Nigerian CRC tumors; protein deficiency reached 21.3% (20/94), concordant with MSIsensor-based MSI-H rate of 28.1% [PMID:34819518](../papers/34819518.md)
+- Used for MMR protein testing ([MLH1](../genes/MLH1.md), [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md), [PMS2](../genes/PMS2.md)) in 94 Nigerian CRC tumors; protein deficiency reached 21.3% (20/94), concordant with MSIsensor-based MSI-H rate of 28.1% [PMID:34819518](../papers/34819518.md)
 - Iterative-chromogen multiplexed IHC (MxIHC) used in the COLON MAP colorectal polyp atlas; proposed [MUC5AC](../genes/MUC5AC.md)+/CDX2-low staining as a diagnostic biomarker for sessile serrated lesions [PMID:34910928](../papers/34910928.md)
 - IHC for [ASCL1](../genes/ASCL1.md), [NEUROD1](../genes/NEUROD1.md), [POU2F3](../genes/POU2F3.md), and [YAP1](../genes/YAP1.md) subtype markers performed on 37 [SCLC](../cancer_types/SCLC.md) PDX and 19 clinical samples; [YAP1](../genes/YAP1.md) protein was consistently absent or very low across all models [PMID:35440124](../papers/35440124.md).
 - Used in [prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md) for [ERG](../genes/ERG.md), p53, [PTEN](../genes/PTEN.md), Chromogranin-A, Synaptophysin, PSA, CK5/6, and p63 protein assessment in 168 prostate cancer brain metastasis samples; [ERG](../genes/ERG.md) IHC correlated with TMPRSS2-ERG fusions (Pearson r=0.70, P<2.2×10⁻¹⁶) [PMID:35504881](../papers/35504881.md)
 - Multiplex IHC applied across 49 aSCLC specimens for pRb, p53, [ASCL1](../genes/ASCL1.md), [NEUROD1](../genes/NEUROD1.md), [POU2F3](../genes/POU2F3.md), [YAP1](../genes/YAP1.md), [DLL3](../genes/DLL3.md), [SEZ6](../genes/SEZ6.md), [OTP](../genes/OTP.md), p16 ([CDKN2A](../genes/CDKN2A.md)), and MLH1/PMS2; cell-cycle pathway deregulation confirmed at protein level in 75% of samples; paradoxical p16 overexpression identified in chr 12 chromothripsis cases [PMID:39185963](../papers/39185963.md)
-- Used (multiplex CD3/CD8 and CD3/CD4/FOXP3 stains) to quantify on-treatment immune infiltrate changes in paired nivolumab-treated metastatic RCC biopsies [PMID:27169994](../papers/27169994.md).
-- Used (VENTANA SP142 assay) to score PD-L1 on tumor-infiltrating immune cells in an atezolizumab cisplatin-ineligible urothelial carcinoma trial (IMvigor210 cohort 1) [PMID:27939400](../papers/27939400.md).
+- Used (multiplex CD3/CD8 and CD3/CD4/FOXP3 stains) to quantify on-treatment immune infiltrate changes in paired nivolumab-treated metastatic [RCC](../cancer_types/RCC.md) biopsies [PMID:27169994](../papers/27169994.md).
+- Used (VENTANA SP142 assay) to score PD-L1 on tumor-infiltrating immune cells in an [atezolizumab](../drugs/atezolizumab.md) cisplatin-ineligible urothelial carcinoma trial (IMvigor210 cohort 1) [PMID:27939400](../papers/27939400.md).
 - Used (beyond PD-L1 SP142) to assess CD31 vascular density and CD8 T-cell infiltration in IMmotion150 renal cell carcinoma tumors [PMID:29867230](../papers/29867230.md).
 - Used for CD3 and PD-L1 IHC scoring alongside proteogenomic and PAM50 subtyping in a neoadjuvant chemotherapy TNBC cohort [PMID:36001024](../papers/36001024.md).
-- Used for STAT6 IHC as a diagnostic surrogate for NAB2-STAT6 fusion, plus multiplex immune-marker staining, across four solitary fibrous tumor cohorts [PMID:37980418](../papers/37980418.md).
+- Used for [STAT6](../genes/STAT6.md) IHC as a diagnostic surrogate for NAB2-STAT6 fusion, plus multiplex immune-marker staining, across four solitary fibrous tumor cohorts [PMID:37980418](../papers/37980418.md).
 - Used (E-cadherin and p120 staining) to confirm loss of E-cadherin protein expression in CDH1-wild-type invasive lobular carcinomas [PMID:38347189](../papers/38347189.md).
 - Used (HER2 clone 4B5) to score HER2 protein expression in ERBB2-mutant endometrial carcinomas on the same tissue block used for sequencing [PMID:39031567](../papers/39031567.md).
 - Used (VENTANA SP142 assay) to score PD-L1 on tumor-infiltrating immune cells in the long-term IMvigor210 follow-up analysis of atezolizumab-treated urothelial carcinoma [PMID:39642637](../papers/39642637.md).
-- Used (SDHB staining) to confirm SDH-deficiency status in SDHB-related paraganglioma/pheochromocytoma tumors [PMID:40097403](../papers/40097403.md).
-- Used (HER2 IHC) to track ERBB2 amplification status in matched pre-/post-treatment biliary tract cancer biopsies, including a case showing HER2 IHC 2+/no-amplification escape after response to zanidatamab [PMID:42360806](../papers/42360806.md).
+- Used ([SDHB](../genes/SDHB.md) staining) to confirm SDH-deficiency status in SDHB-related paraganglioma/pheochromocytoma tumors [PMID:40097403](../papers/40097403.md).
+- Used (HER2 IHC) to track [ERBB2](../genes/ERBB2.md) amplification status in matched pre-/post-treatment biliary tract cancer biopsies, including a case showing HER2 IHC 2+/no-amplification escape after response to [zanidatamab](../drugs/zanidatamab.md) [PMID:42360806](../papers/42360806.md).
 
 ## Notes
 
@@ -147,4 +147,4 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - [PMID:40097403](../papers/40097403.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

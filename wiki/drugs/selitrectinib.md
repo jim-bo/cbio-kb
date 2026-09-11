@@ -5,8 +5,8 @@ drug_class: next-generation selective TRK inhibitor
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, kinase-inhibitor, trk-inhibitor]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # selitrectinib
@@ -19,7 +19,7 @@ mutations to first-generation TRK inhibitors.
 
 ## Evidence in the corpus
 
-- In a pan-cancer MET-amplification NGS validation cohort, a MET inhibitor was combined with selitrectinib in one patient to address acquired resistance alongside a non-MET driver. [PMID:36044468](../papers/36044468.md)
+- In a pan-cancer MET-amplification NGS validation cohort, a [MET](../genes/MET.md) inhibitor was combined with selitrectinib in one patient to address acquired resistance alongside a non-MET driver. [PMID:36044468](../papers/36044468.md)
 
 ## Resistance mechanisms
 
@@ -29,4 +29,4 @@ mutations to first-generation TRK inhibitors.
 
 - [PMID:36044468](../papers/36044468.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

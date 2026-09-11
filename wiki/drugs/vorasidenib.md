@@ -5,15 +5,15 @@ drug_class: dual IDH1/IDH2 inhibitor
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, idh-inhibitor, glioma]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # vorasidenib
 
 ## Overview
 
-A brain-penetrant, dual inhibitor of mutant IDH1 and IDH2 enzymes.
+A brain-penetrant, dual inhibitor of mutant [IDH1](../genes/IDH1.md) and [IDH2](../genes/IDH2.md) enzymes.
 
 ## Evidence in the corpus
 
@@ -27,4 +27,4 @@ A brain-penetrant, dual inhibitor of mutant IDH1 and IDH2 enzymes.
 
 - [PMID:37980418](../papers/37980418.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

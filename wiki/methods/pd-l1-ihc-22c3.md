@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [immunohistochemistry, biomarker, PD-L1, companion-diagnostic]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # PD-L1 IHC 22C3 pharmDx
@@ -21,7 +21,7 @@ PD-L1 IHC 22C3 pharmDx (Agilent/Dako) is an FDA-approved companion diagnostic [i
 - PD-L1 IHC 22C3 TPS slides digitized and used as a texture-feature input to the DyAM multimodal model; PD-L1 TPS alone achieved AUC = 0.73, while IHC-G (automated texture) achieved AUC = 0.62 in the pathology validation cohort (n=52) [PMID:36038778](../papers/36038778.md)
 - PD-L1 expression measured by IHC using clone 22C3 (Merck) on 30/34 [NSCLC](../cancer_types/NSCLC.md) patients treated with [pembrolizumab](../drugs/pembrolizumab.md); among PD-L1–expressing tumors with high mutation burden (>200 nonsynonymous mutations), DCB was 91% (10/11), demonstrating mutation burden and PD-L1 IHC capture complementary biomarker information [PMID:25765070](../papers/25765070.md)
 - Referenced as the regulatory companion diagnostic comparator; the OrigiMed cohort used clone 28-8 (not 22C3) for PD-L1 IHC (TPS ≥1% threshold); combined IO biomarker positivity (MSI-H OR TMB-H OR PD-L1+) was 30.3% across 2,723 evaluable Chinese solid-tumor patients [PMID:35871175](../papers/35871175.md)
-- Scored PD-L1 by 22C3 IHC (membrane staining, >1% positive) on 13 pretreatment primary tumors and 8 metastatic lesions in a metastatic triple-negative breast cancer trial; PD-L1 status did not predict response to cyclophosphamide-primed pembrolizumab [PMID:35121644](../papers/35121644.md).
+- Scored PD-L1 by 22C3 IHC (membrane staining, >1% positive) on 13 pretreatment primary tumors and 8 metastatic lesions in a metastatic triple-negative breast cancer trial; PD-L1 status did not predict response to cyclophosphamide-primed [pembrolizumab](../drugs/pembrolizumab.md) [PMID:35121644](../papers/35121644.md).
 
 ## Notes
 
@@ -36,4 +36,4 @@ PD-L1 IHC 22C3 pharmDx (Agilent/Dako) is an FDA-approved companion diagnostic [i
 - [PMID:35871175](../papers/35871175.md)
 - [PMID:35121644](../papers/35121644.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

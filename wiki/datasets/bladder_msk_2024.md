@@ -14,15 +14,15 @@ tags:
   - upper-tract-urothelial-carcinoma
   - immune-checkpoint-blockade
   - molecular-subtyping
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Bladder Cancer (MSK, Eur Urol 2024)
 
 ## Overview
 
-An MSK institutional cohort of upper-tract urothelial carcinoma (UTUC) patients: a 100-patient discovery cohort (MSK100) who underwent nephroureterectomy with no metastatic disease at presurgical imaging, plus a 31-patient immune-checkpoint-blockade (ICB) cohort with metastatic disease. Tissue collected under NCT01775072 and MSKCC IRB #89-076/#06-107. cBioPortal study record: 112 samples, hg19. [PMID:39550333](../papers/39550333.md)
+An MSK institutional cohort of upper-tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) patients: a 100-patient discovery cohort (MSK100) who underwent nephroureterectomy with no metastatic disease at presurgical imaging, plus a 31-patient immune-checkpoint-blockade (ICB) cohort with metastatic disease. Tissue collected under NCT01775072 and MSKCC IRB #89-076/#06-107. cBioPortal study record: 112 samples, hg19. [PMID:39550333](../papers/39550333.md)
 
 ## Composition
 
@@ -45,4 +45,4 @@ An MSK institutional cohort of upper-tract urothelial carcinoma (UTUC) patients:
 
 - cBioPortal study ID: bladder_msk_2024 (name, institution, size, reference_genome from `schema/ontology/studies.json`).
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

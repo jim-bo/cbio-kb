@@ -3,8 +3,8 @@ symbol: CTCF
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CTCF
@@ -16,10 +16,10 @@ CTCF (CCCTC-Binding Factor) encodes an 11-zinc-finger transcriptional regulator 
 ## Alterations observed in the corpus
 
 - Recurrently altered across endometrial carcinoma subtypes (referenced in mutation panels across multiple subgroups) [PMID:23636398](../papers/23636398.md)
-- Mechanistically implicated in Ewing sarcoma: STAG2 interacts with CTCF to regulate chromatin insulation at loci including CDKN2A; CTCF itself carries somatic mutations in 3/112 cases [PMID:25223734](../papers/25223734.md)
+- Mechanistically implicated in Ewing sarcoma: [STAG2](../genes/STAG2.md) interacts with CTCF to regulate chromatin insulation at loci including [CDKN2A](../genes/CDKN2A.md); CTCF itself carries somatic mutations in 3/112 cases [PMID:25223734](../papers/25223734.md)
 - CTCF was a recurrently mutated transcriptional regulator in colorectal cancer; CTCF/cohesin-binding sites are known hotspots for somatic mutations in MSS CRC (Katainen et al. 2015), and CTCF was among the newly significant CRC drivers identified in this 619-tumor neoantigen study [PMID:27149842](../papers/27149842.md).
 - CTCF was identified as a chromatin-function Mut-driver in breast cancer; 22.6% of all breast tumors harbored a coding mutation in one of seven chromatin-function Mut-drivers including CTCF [PMID:27161491](../papers/27161491.md).
-- CTCF mutations partition UCEC into TP53-PPP2R1A vs CTNNB1-PTEN-CTCF mutually-exclusive networks; CTCF-mutant tumors cluster with the ARID1A/PTEN/CTNNB1/PIK3CA-enriched, copy-number-low endometrial subtype [PMID:29625049](../papers/29625049.md)
+- CTCF mutations partition [UCEC](../cancer_types/UCEC.md) into TP53-PPP2R1A vs CTNNB1-PTEN-CTCF mutually-exclusive networks; CTCF-mutant tumors cluster with the ARID1A/PTEN/CTNNB1/PIK3CA-enriched, copy-number-low endometrial subtype [PMID:29625049](../papers/29625049.md)
 - CTCF binding sites (CBSs) are the site of recurrent non-coding SNV hotspots in gastric adenocarcinoma; 11 of 34 significant hotspots overlap CBSs, CBS hotspot mutations are enriched in 25% of gastric and 19% of colorectal tumors, and 71% occur in CIN-subtype tumors (Fisher P=0.012) [PMID:29670109](../papers/29670109.md)
 - CTCF H284 and Y226 hotspot mutations arise exclusively in invasive ductal carcinomas (histology-specific); enriched post-hormonal-therapy; associated with shorter PFS on aromatase inhibitors in HR+HER2- breast cancer [PMID:30205045](../papers/30205045.md)
 - CTCF binding motifs were enriched in the open chromatin of ATRX- or TERT-altered pheochromocytoma/paraganglioma tumor cells. [PMID:40097403](../papers/40097403.md)
@@ -57,4 +57,4 @@ CTCF (CCCTC-Binding Factor) encodes an 11-zinc-finger transcriptional regulator 
 - [PMID:30205045](../papers/30205045.md)
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

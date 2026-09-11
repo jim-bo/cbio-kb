@@ -3,8 +3,8 @@ symbol: EPAS1
 aliases: [HIF2A]
 cancer_types: [CCRCC]
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # EPAS1
@@ -16,8 +16,8 @@ EPAS1 encodes HIF2A (hypoxia-inducible factor 2 alpha), a transcription factor s
 ## Alterations observed in the corpus
 
 - Required for cortical/outer-medullary proximal tubule (PT) cell proliferation following Vhl inactivation in a murine ccRCC precursor model, but dispensable in the renal papilla; HIF2A-specific upregulation drives ECM/motility/secretion programs while HIF2A-specific downregulation drives dedifferentiation of PT cells over time [PMID:41102155](../papers/41102155.md)
-- Human ccRCC almost universally bears VHL mutation but rarely bears EPAS1 activating mutations; mechanistic explanation offered: HIF2A activation alone cannot regulate the HIF1A-specific glycolytic program required for early proliferative advantage [PMID:41102155](../papers/41102155.md)
-- Somatic hotspot mutations at A530, P531, Y532 drive HIF stabilization (pseudohypoxia) in pheochromocytoma/paraganglioma ([PHC](../cancer_types/PHC.md)/[PGNG](../cancer_types/PGNG.md)); one of five MutSig2 significant somatic driver genes (q<0.05) in the TCGA PCPG study; completely specific to the pseudohypoxia mRNA subtype [PMID:28162975](../papers/28162975.md).
+- Human ccRCC almost universally bears [VHL](../genes/VHL.md) mutation but rarely bears EPAS1 activating mutations; mechanistic explanation offered: HIF2A activation alone cannot regulate the HIF1A-specific glycolytic program required for early proliferative advantage [PMID:41102155](../papers/41102155.md)
+- Somatic hotspot mutations at A530, P531, Y532 drive HIF stabilization (pseudohypoxia) in pheochromocytoma/paraganglioma ([PHC](../cancer_types/PHC.md)/[PGNG](../cancer_types/PGNG.md)); one of five MutSig2 significant somatic driver genes (q<0.05) in the TCGA [PCPG](../cancer_types/PCPG.md) study; completely specific to the pseudohypoxia mRNA subtype [PMID:28162975](../papers/28162975.md).
 - EPAS1 somatic variants near the PHD2-targeted prolyl codon 531 (p.Tyr532Cys, p.Asp539Gly) were found in 2 tumors and described as rare cooperative drivers in SDHB-mutant pheochromocytoma/paraganglioma [PMID:40097403](../papers/40097403.md).
 
 ## Cancer types (linked)
@@ -45,4 +45,4 @@ EPAS1 encodes HIF2A (hypoxia-inducible factor 2 alpha), a transcription factor s
 - [PMID:28162975](../papers/28162975.md)
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

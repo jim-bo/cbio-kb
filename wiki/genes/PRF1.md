@@ -3,8 +3,8 @@ symbol: PRF1
 aliases: [perforin]
 cancer_types: [COAD]
 tags: [cytotoxic, icr-signature]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # PRF1
@@ -18,12 +18,12 @@ PRF1 encodes perforin, a cytotoxic effector molecule. In the corpus it is part o
 - Effector cytotoxic component of the 20-gene ICR signature used to classify 348 primary colon cancers in the AC-ICAM cohort; no PRF1-specific mutation finding reported [PMID:37202560](../papers/37202560.md).
 - PRF1 encodes perforin, a component of the cytolytic-activity signature (geometric mean of [GZMA](../genes/GZMA.md) + PRF1); elevated expression in clinical-benefit tumors receiving [ipilimumab](../drugs/ipilimumab.md) in metastatic melanoma (P = 0.042, Mann-Whitney) [PMID:26359337](../papers/26359337.md)
 - Expression of PRF1 (perforin-1) did not significantly differ between anti-PD-1 responders and non-responders in pretreatment metastatic melanoma (n=28 RNA-seq subset); the checkpoint/effector gene panel including PRF1 was not differentially expressed in whole-tumor bulk transcriptome analysis, potentially due to dilution of immune-cell signal. [PMID:26997480](../papers/26997480.md)
-- PRF1 (perforin) geometric mean with GZMA defines the cytolytic activity score; on-therapy increases in PRF1 associated with benefit in both Ipi-N (p=0.005) and Ipi-P (p=0.043) patients treated with nivolumab for melanoma [PMID:29033130](../papers/29033130.md)
-- PRF1 (perforin-1) is among the immune effector genes (alongside GZMA, GZMK, GZMH) over-expressed in MSI-high tumors across COADREAD, STAD, and UCEC (Kolmogorov–Smirnov P < 0.01), consistent with heightened immune surveillance in mismatch-repair-deficient tumors [PMID:29625049](../papers/29625049.md)
+- PRF1 (perforin) geometric mean with [GZMA](../genes/GZMA.md) defines the cytolytic activity score; on-therapy increases in PRF1 associated with benefit in both Ipi-N (p=0.005) and Ipi-P (p=0.043) patients treated with [nivolumab](../drugs/nivolumab.md) for melanoma [PMID:29033130](../papers/29033130.md)
+- PRF1 (perforin-1) is among the immune effector genes (alongside GZMA, [GZMK](../genes/GZMK.md), [GZMH](../genes/GZMH.md)) over-expressed in MSI-high tumors across [COADREAD](../cancer_types/COADREAD.md), [STAD](../cancer_types/STAD.md), and [UCEC](../cancer_types/UCEC.md) (Kolmogorov–Smirnov P < 0.01), consistent with heightened immune surveillance in mismatch-repair-deficient tumors [PMID:29625049](../papers/29625049.md)
 - Used (with GZMA) to define the CYT cytolytic score that correlates with the TIL NMF factor F9 (Spearman R=0.86); elevated in SMC vs. TCGA consistent with higher cytotoxic-T-cell infiltrate in younger Asian breast cancers [PMID:29713003](../papers/29713003.md)
 - PRF1 (perforin) was among the Th1/cytotoxic hallmark genes upregulated in tumor under nivolumab (PD-1 blockade) [PMID:27169994](../papers/27169994.md)
-- PRF1 is part of the CD8A/GZMA/GZMB/PRF1/IFNG/TBX21 T-effector gene signature; it did not differ significantly between upper- and lower-tract urothelial primaries treated with atezolizumab [PMID:27939400](../papers/27939400.md)
-- PRF1 is part of the Teff signature (CD8A, EOMES, PRF1, IFNG, CD274); TeffHigh renal cell carcinoma predicted benefit from atezolizumab plus bevacizumab [PMID:29867230](../papers/29867230.md)
+- PRF1 is part of the CD8A/GZMA/GZMB/PRF1/IFNG/TBX21 T-effector gene signature; it did not differ significantly between upper- and lower-tract urothelial primaries treated with [atezolizumab](../drugs/atezolizumab.md) [PMID:27939400](../papers/27939400.md)
+- PRF1 is part of the Teff signature ([CD8A](../genes/CD8A.md), [EOMES](../genes/EOMES.md), PRF1, [IFNG](../genes/IFNG.md), [CD274](../genes/CD274.md)); TeffHigh renal cell carcinoma predicted benefit from atezolizumab plus [bevacizumab](../drugs/bevacizumab.md) [PMID:29867230](../papers/29867230.md)
 - The CYT cytolytic score in upper tract urothelial carcinoma combines GZMA and PRF1 expression [PMID:39550333](../papers/39550333.md)
 
 ## Cancer types (linked)
@@ -60,4 +60,4 @@ PRF1 encodes perforin, a cytotoxic effector molecule. In the corpus it is part o
 - [PMID:29867230](../papers/29867230.md)
 - [PMID:39550333](../papers/39550333.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

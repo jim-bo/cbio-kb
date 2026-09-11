@@ -5,8 +5,8 @@ drug_class: vinca alkaloid / microtubule inhibitor
 canonical_source: corpus
 unverified: true
 tags: [urothelial, bladder-cancer, chemotherapy]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # vinblastine
@@ -18,7 +18,7 @@ Vinblastine is a vinca alkaloid that inhibits tubulin polymerization, disrupting
 ## Evidence in the corpus
 
 - In a retrospective clinical cohort of 288 MSKCC patients with muscle-invasive bladder cancer receiving cisplatin-based NAC (MVAC or gemcitabine/cisplatin) followed by radical cystectomy, secondary MIBC patients had lower pathologic response rates (26% vs 45%) and worse survival outcomes than primary MIBC patients; the differential outcomes were linked to genomic differences including enrichment of [ERCC2](../genes/ERCC2.md) missense mutations in primary MIBC [PMID:30290956](../papers/30290956.md).
-- In PDAC proteogenomic subtyping (n=140, paad_cptac_2021), DSigDB GSEA associated vinblastine drug signatures with the C1 (classical/proteogenomic-classical) subtype, nominating it alongside docetaxel as a subtype-directed chemotherapy for C1 PDAC [PMID:34534465](../papers/34534465.md)
+- In PDAC proteogenomic subtyping (n=140, [paad_cptac_2021](../datasets/paad_cptac_2021.md)), DSigDB GSEA associated vinblastine drug signatures with the C1 (classical/proteogenomic-classical) subtype, nominating it alongside [docetaxel](../drugs/docetaxel.md) as a subtype-directed chemotherapy for C1 PDAC [PMID:34534465](../papers/34534465.md)
 - In SWOG S1314, cisplatin-eligible muscle-invasive bladder cancer patients received neoadjuvant gemcitabine-cisplatin or dose-dense methotrexate/vinblastine/doxorubicin/cisplatin (ddMVAC) before radical cystectomy, with DDR alterations tested as predictors of pathologic response. [PMID:39499893](../papers/39499893.md)
 
 ## Resistance mechanisms
@@ -33,4 +33,4 @@ Vinblastine is a vinca alkaloid that inhibits tubulin polymerization, disrupting
 - [PMID:34534465](../papers/34534465.md)
 - [PMID:39499893](../papers/39499893.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

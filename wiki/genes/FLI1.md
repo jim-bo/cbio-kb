@@ -3,8 +3,8 @@ symbol: FLI1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # FLI1
@@ -26,7 +26,7 @@ FLI1 (Friend leukemia integration 1 transcription factor) is an ETS-family trans
 - FLI1 catalogued in the TCGA pan-cancer fusion atlas (9,624 samples, 33 cancer types) as an ETS-family fusion partner; EWSR1-FLI1 is the canonical Ewing sarcoma ([SARC](../cancer_types/SARC.md)) fusion. [PMID:29617662](../papers/29617662.md)
 - EWSR1-FLI1 canonical fusion confirmed in all RNA-seq-profiled Ewing sarcoma PDX models in the PPTC pediatric cancer PDX dataset; CHLA-258 additionally harbored an FLI1-RP11-9L18.2 fusion [PMID:31693904](../papers/31693904.md)
 - FLI1 is an [EWSR1](../genes/EWSR1.md) fusion partner (EWSR1-FLI1) that is the canonical driver in Ewing sarcoma, identified in the clinical sequencing of soft tissue and bone sarcomas cohort (MSK, n=1,148) [PMID:35705560](../papers/35705560.md)
-- FLI1 is the fusion partner in EWSR1::FLI1 Ewing sarcoma (n=147), where chromoplexy occurred in 24% of cases; FLI1 is not on the MSK-IMPACT panel, so FLI1-only structural variants are under-detected. [PMID:38335254](../papers/38335254.md)
+- FLI1 is the fusion partner in [EWSR1](../genes/EWSR1.md)::FLI1 Ewing sarcoma (n=147), where chromoplexy occurred in 24% of cases; FLI1 is not on the MSK-IMPACT panel, so FLI1-only structural variants are under-detected. [PMID:38335254](../papers/38335254.md)
 
 ## Cancer types (linked)
 
@@ -63,4 +63,4 @@ FLI1 (Friend leukemia integration 1 transcription factor) is an ETS-family trans
 - [PMID:35705560](../papers/35705560.md)
 - [PMID:38335254](../papers/38335254.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

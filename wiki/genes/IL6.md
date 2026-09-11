@@ -3,8 +3,8 @@ symbol: IL6
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # IL6
@@ -15,7 +15,7 @@ IL6 (interleukin 6) is a pro-inflammatory cytokine implicated in myeloid inflamm
 
 ## Alterations observed in the corpus
 
-- Part of a 6-gene myeloid inflammation signature (with CXCL1, CXCL2, CXCL3, CXCL8, PTGS2) in renal cell carcinoma; MyeloidHigh tumors had worse PFS on atezolizumab monotherapy, proposed as innate resistance that bevacizumab may overcome. [PMID:29867230](../papers/29867230.md)
+- Part of a 6-gene myeloid inflammation signature (with [CXCL1](../genes/CXCL1.md), [CXCL2](../genes/CXCL2.md), [CXCL3](../genes/CXCL3.md), [CXCL8](../genes/CXCL8.md), [PTGS2](../genes/PTGS2.md)) in renal cell carcinoma; MyeloidHigh tumors had worse PFS on [atezolizumab](../drugs/atezolizumab.md) monotherapy, proposed as innate resistance that [bevacizumab](../drugs/bevacizumab.md) may overcome. [PMID:29867230](../papers/29867230.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ IL6 (interleukin 6) is a pro-inflammatory cytokine implicated in myeloid inflamm
 
 - [PMID:29867230](../papers/29867230.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

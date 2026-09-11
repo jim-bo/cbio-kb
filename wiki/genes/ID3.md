@@ -3,8 +3,8 @@ symbol: ID3
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ID3
@@ -15,7 +15,7 @@ ID3 (inhibitor of DNA binding 3) is a helix-loop-helix transcriptional regulator
 
 ## Alterations observed in the corpus
 
-- Along with CCND3, most prevalently mutated in the IC-BL Burkitt lymphoma molecular subgroup; ID3 mutation was used as a single-gene proxy for IC-BL in aBL outcome analyses. [PMID:36201743](../papers/36201743.md)
+- Along with [CCND3](../genes/CCND3.md), most prevalently mutated in the IC-BL Burkitt lymphoma molecular subgroup; ID3 mutation was used as a single-gene proxy for IC-BL in aBL outcome analyses. [PMID:36201743](../papers/36201743.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ ID3 (inhibitor of DNA binding 3) is a helix-loop-helix transcriptional regulator
 
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

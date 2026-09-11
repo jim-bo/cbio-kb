@@ -7,8 +7,8 @@ tags:
   - nk-cell-marker
   - immune-effector
   - pharmacodynamic-biomarker
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # NKG7
@@ -23,7 +23,7 @@ NKG7 encodes an NK/cytotoxic-lymphocyte granule membrane protein. In the cbio-kb
 
 ## Cancer types (linked)
 
-- **[CCRCC](../cancer_types/CCRCC.md)**: in a nivolumab-treated metastatic clear cell renal cell carcinoma cohort, NKG7 transcript expression increased significantly in tumor tissue on treatment, among innate/NK-cell function genes (with KLRB1, KLRD1, KLRG1, CD69) [PMID:27169994](../papers/27169994.md).
+- **[CCRCC](../cancer_types/CCRCC.md)**: in a nivolumab-treated metastatic clear cell renal cell carcinoma cohort, NKG7 transcript expression increased significantly in tumor tissue on treatment, among innate/NK-cell function genes (with [KLRB1](../genes/KLRB1.md), [KLRD1](../genes/KLRD1.md), [KLRG1](../genes/KLRG1.md), [CD69](../genes/CD69.md)) [PMID:27169994](../papers/27169994.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -41,4 +41,4 @@ NKG7 encodes an NK/cytotoxic-lymphocyte granule membrane protein. In the cbio-kb
 
 - [PMID:27169994](../papers/27169994.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

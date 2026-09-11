@@ -3,8 +3,8 @@ symbol: EWSR1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # EWSR1
@@ -31,7 +31,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - EWSR1 detected as a fusion-driver transcription factor in sarcoma (e.g., EWSR1-FLI1, EWSR1-WT1, EWSR1-NR4A3); reclassification of Ewing sarcoma and related tumors via SS18-SSX2 synovial sarcoma and EWSR1 fusions [PMID:35705560](../papers/35705560.md)
 - Fusion-restricted to sarcomas in a pan-Asian solid-tumor cohort (450-gene panel, n=1,015 Chinese patients); part of pan-cancer fusion driver catalogue [PMID:35871175](../papers/35871175.md)
 - An EWSR1-ATF1 fusion was identified in a clear cell sarcoma patient in a pediatric solid tumor PDX genomics cohort. [PMID:37990009](../papers/37990009.md)
-- EWSR1 is the driver fusion gene and hub of chromoplexy in Ewing sarcoma and DSRCT, involved in 76-93% of chromoplectic events, with breakpoints concentrated in exons 8-13 (NM_013986) for both canonical and non-canonical partners. [PMID:38335254](../papers/38335254.md)
+- EWSR1 is the driver fusion gene and hub of chromoplexy in Ewing sarcoma and [DSRCT](../cancer_types/DSRCT.md), involved in 76-93% of chromoplectic events, with breakpoints concentrated in exons 8-13 (NM_013986) for both canonical and non-canonical partners. [PMID:38335254](../papers/38335254.md)
 
 ## Cancer types (linked)
 
@@ -83,4 +83,4 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - [PMID:37990009](../papers/37990009.md)
 - [PMID:38335254](../papers/38335254.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

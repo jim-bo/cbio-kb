@@ -3,8 +3,8 @@ symbol: KRT5
 aliases: []
 cancer_types: [BLCA]
 tags: [keratinocyte-marker, cell-identity, transcriptomic-marker]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # KRT5
@@ -16,9 +16,9 @@ KRT5 (Keratin 5) is an intermediate filament protein and a hallmark marker of ba
 ## Alterations observed in the corpus
 
 - Used as a keratinocyte lineage-confirmation marker in a normal human skin atlas study profiling 297 single melanocytes from 31 donors with matched DNA/RNA sequencing and Xenium spatial validation; co-expressed with [KRT14](../genes/KRT14.md) and [KRT17](../genes/KRT17.md) to confirm keratinocyte identity in cell-type deconvolution. No somatic alterations reported. [PMID:39975212](../papers/39975212.md)
-- Defining basal/stem marker of the basal-squamous MIBC subtype (35% of 412 tumors, TCGA BLCA 2017); high expression co-occurs with CD44, KRT14, and KRT6A; squamous-differentiation marker with strongest immune signature. [PMID:28988769](../papers/28988769.md)
-- Among the top differentially methylated regions (DMRs) distinguishing FGFR3-mutant from FGFR3-WT UTUC; involved in bladder cancer luminal/basal cell identity. [PMID:33397444](../papers/33397444.md)
-- Defining marker (with ELF5) of the squamous-like non-canonical cell state in colorectal cancer; CK5 protein detected in metastases and induced by PROX1 knockdown in canonical organoid lines [PMID:39478232](../papers/39478232.md).
+- Defining basal/stem marker of the basal-squamous MIBC subtype (35% of 412 tumors, TCGA [BLCA](../cancer_types/BLCA.md) 2017); high expression co-occurs with [CD44](../genes/CD44.md), [KRT14](../genes/KRT14.md), and [KRT6A](../genes/KRT6A.md); squamous-differentiation marker with strongest immune signature. [PMID:28988769](../papers/28988769.md)
+- Among the top differentially methylated regions (DMRs) distinguishing FGFR3-mutant from FGFR3-WT [UTUC](../cancer_types/UTUC.md); involved in bladder cancer luminal/basal cell identity. [PMID:33397444](../papers/33397444.md)
+- Defining marker (with ELF5) of the squamous-like non-canonical cell state in colorectal cancer; CK5 protein detected in metastases and induced by [PROX1](../genes/PROX1.md) knockdown in canonical organoid lines [PMID:39478232](../papers/39478232.md).
 
 ## Cancer types (linked)
 
@@ -45,4 +45,4 @@ KRT5 (Keratin 5) is an intermediate filament protein and a hallmark marker of ba
 - [PMID:33397444](../papers/33397444.md)
 - [PMID:39478232](../papers/39478232.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -3,8 +3,8 @@ symbol: TGFBR2
 aliases: []
 cancer_types: [ESCC]
 tags: [tumor-suppressor, somatic, tgfb-pathway, significantly-mutated]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # TGFBR2
@@ -21,7 +21,7 @@ TGFBR2 (Transforming Growth Factor Beta Receptor 2) encodes the type II receptor
 - Altered in >=5% of PDAC tumors in the CPTAC 2021 proteogenomic cohort (n=140 treatment-naive resected tumors); one of the recurrently mutated non-KRAS/TP53/CDKN2A/SMAD4 genes in PDAC [PMID:34534465](../papers/34534465.md)
 - TGFBR2 listed among genes profiled by MSK-IMPACT in [SCLC](../cancer_types/SCLC.md) PDX/CDX models from 33 patients at MSK; present in the frontmatter gene list for the MSK [SCLC](../cancer_types/SCLC.md) PDX cohort ([lung_pdx_msk_2021](../datasets/lung_pdx_msk_2021.md)) [PMID:35440124](../papers/35440124.md).
 - Deleted in 2/7 chr 3 chromothripsis cases in atypical [SCLC](../cancer_types/SCLC.md) (aSCLC); the only recurrent driver event on chromothriptic chromosome 3, though specific mechanistic role on 3p remains unclear [PMID:39185963](../papers/39185963.md)
-- TGFBR2 alterations, along with SMAD4, were enriched in BRAF Class I tumors in a pan-cancer hotspot discovery study [PMID:41895280](../papers/41895280.md).
+- TGFBR2 alterations, along with [SMAD4](../genes/SMAD4.md), were enriched in [BRAF](../genes/BRAF.md) Class I tumors in a pan-cancer hotspot discovery study [PMID:41895280](../papers/41895280.md).
 
 ## Cancer types (linked)
 
@@ -37,7 +37,7 @@ TGFBR2 (Transforming Growth Factor Beta Receptor 2) encodes the type II receptor
 
 ## Open questions
 
-- Whether TGFBR2 mutation enriches in specific ESCC subtypes (ESCC1/2/3) or correlates with prognosis requires further analysis of the TCGA ESCC dataset. [PMID:28052061](../papers/28052061.md)
+- Whether TGFBR2 mutation enriches in specific [ESCC](../cancer_types/ESCC.md) subtypes (ESCC1/2/3) or correlates with prognosis requires further analysis of the TCGA ESCC dataset. [PMID:28052061](../papers/28052061.md)
 
 ## Sources
 
@@ -54,4 +54,4 @@ TGFBR2 (Transforming Growth Factor Beta Receptor 2) encodes the type II receptor
 - [PMID:39185963](../papers/39185963.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

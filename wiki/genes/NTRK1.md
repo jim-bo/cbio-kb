@@ -3,8 +3,8 @@ symbol: NTRK1
 aliases: [TRKA]
 cancer_types: [LCH, ECD, pan-cancer, NBL]
 tags: [fusion, actionable, BRAF-resistance, neuroblastoma, favorable-prognosis, neurotrophin-receptor]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # NTRK1
@@ -41,8 +41,8 @@ NTRK1 encodes the TrkA receptor tyrosine kinase. Oncogenic NTRK1 fusions are act
 - Kinase-fusion gene present in 2.6% of sarcomas (along with [NTRK2](../genes/NTRK2.md), [NTRK3](../genes/NTRK3.md), [ALK](../genes/ALK.md), [ROS1](../genes/ROS1.md), [RET](../genes/RET.md), [FGFR1](../genes/FGFR1.md), [BRAF](../genes/BRAF.md)); NTRK amplifications are not actionable per cited negative trial data [PMID:35705558](../papers/35705558.md)
 - NTRK1 (with [NTRK3](../genes/NTRK3.md)) fusion events detected in 30 cases across the aOM Chinese pan-cancer cohort (~8,900 patients); MSI-H positively associated with NTRK1/NTRK3 fusions (6% fusion in MSI-H vs 1% in MSS, P=0.04); novel partner genes catalogued beyond LRRC28-NTRK3 [PMID:35871175](../papers/35871175.md)
 - In a pan-cancer MET-amplification cohort, an NTRK1 fusion was found as an acquired co-driver in one non-lung MET-amplified tumor [PMID:36044468](../papers/36044468.md).
-- In a pan-cancer hotspot survey, NTRK1 fusions (with ALK, ROS1, NTRK2, NTRK3, FGFR2) were linked to strikingly early age at diagnosis [PMID:41895280](../papers/41895280.md).
-- In biliary tract cancer, 2 of 5 NTRK1 fusion-positive patients received matched TRK-inhibitor therapy; the fusion was retained at resistance, and one tumor developed MET amplification on treatment [PMID:42360806](../papers/42360806.md).
+- In a pan-cancer hotspot survey, NTRK1 fusions (with [ALK](../genes/ALK.md), [ROS1](../genes/ROS1.md), [NTRK2](../genes/NTRK2.md), [NTRK3](../genes/NTRK3.md), [FGFR2](../genes/FGFR2.md)) were linked to strikingly early age at diagnosis [PMID:41895280](../papers/41895280.md).
+- In biliary tract cancer, 2 of 5 NTRK1 fusion-positive patients received matched TRK-inhibitor therapy; the fusion was retained at resistance, and one tumor developed [MET](../genes/MET.md) amplification on treatment [PMID:42360806](../papers/42360806.md).
 
 ## Cancer types (linked)
 
@@ -101,4 +101,4 @@ NTRK1 encodes the TrkA receptor tyrosine kinase. Oncogenic NTRK1 fusions are act
 - [PMID:41895280](../papers/41895280.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -14,15 +14,15 @@ tags:
   - muscle-invasive-bladder-cancer
   - neoadjuvant-chemotherapy
   - dna-damage-response
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Bladder Urothelial Carcinoma SWOG S1314 Trial (MSK, JCO Precis Oncol 2024)
 
 ## Overview
 
-cBioPortal study of pre-treatment tumors from SWOG S1314 (NCT02177695), a randomized phase II trial of neoadjuvant gemcitabine–cisplatin versus dose-dense MVAC before radical cystectomy in cisplatin-eligible muscle-invasive bladder cancer ([BLCA](../cancer_types/BLCA.md)). 184 transurethral resection specimens and matched normals were sequenced with the 505-gene [MSK-IMPACT](../methods/IMPACT505.md) panel. Name, size and reference genome are from the cBioPortal study record; cohort details are from its publication [PMID:39499893](../papers/39499893.md).
+cBioPortal study of pre-treatment tumors from SWOG S1314 (NCT02177695), a randomized phase II trial of neoadjuvant [gemcitabine](../drugs/gemcitabine.md)–[cisplatin](../drugs/cisplatin.md) versus dose-dense MVAC before radical cystectomy in cisplatin-eligible muscle-invasive bladder cancer ([BLCA](../cancer_types/BLCA.md)). 184 transurethral resection specimens and matched normals were sequenced with the 505-gene [MSK-IMPACT](../methods/IMPACT505.md) panel. Name, size and reference genome are from the cBioPortal study record; cohort details are from its publication [PMID:39499893](../papers/39499893.md).
 
 ## Composition
 
@@ -40,10 +40,10 @@ cBioPortal study of pre-treatment tumors from SWOG S1314 (NCT02177695), a random
 
 ## Notable findings derived from this cohort
 
-- Deleterious DDR alterations (truncating variants or any [ERCC2](../genes/ERCC2.md) point mutation) in 41/179 patients (23%) were associated with pathologic complete response (OR 3.24, 95% CI 1.51–6.94), as were ERCC2 alterations alone (OR 3.33, 95% CI 1.35–8.22); neither predicted downstaging to <pT2 [PMID:39499893](../papers/39499893.md).
+- Deleterious DDR alterations (truncating variants or any [ERCC2](../genes/ERCC2.md) point mutation) in 41/179 patients (23%) were associated with pathologic complete response (OR 3.24, 95% CI 1.51–6.94), as were [ERCC2](../genes/ERCC2.md) alterations alone (OR 3.33, 95% CI 1.35–8.22); neither predicted downstaging to <pT2 [PMID:39499893](../papers/39499893.md).
 
 ## Sources
 
 - [PMID:39499893](../papers/39499893.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

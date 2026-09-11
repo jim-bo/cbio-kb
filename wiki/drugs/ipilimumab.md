@@ -5,8 +5,8 @@ drug_class: anti-CTLA-4 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ipilimumab
@@ -35,14 +35,14 @@ Ipilimumab is an anti-CTLA-4 monoclonal antibody immune checkpoint inhibitor wit
 - Prior ipilimumab (anti-CTLA4) exposure stratifies predictors of subsequent anti-PD1 ICB response in melanoma: post-ipilimumab biopsies with low MHC-II HLA expression and low immune infiltrate identify patients very likely resistant to subsequent nivolumab/pembrolizumab monotherapy (median PFS 2.8 vs 38.1 months; median [OS](../cancer_types/OS.md) 9.0 months vs not reached) [PMID:31792460](../papers/31792460.md).
 - CDK12-biallelic prostate cancers may be enriched for fusion neoantigens and respond to immune checkpoint blockade; a multi-institutional phase 2 trial (NCT03570619) combines [nivolumab](../drugs/nivolumab.md) with ipilimumab in CDK12-altered mCRPC [PMID:32317181](../papers/32317181.md)
 - Listed among prior/comparator therapies in 66 patients with [BRAF](../genes/BRAF.md) V600E/K-mutant metastatic [melanoma](../cancer_types/SKCM.md) who subsequently received BRAFi-based treatment; the paper establishes [PTEN](../genes/PTEN.md) loss-of-function as a biomarker of intrinsic BRAFi resistance, with checkpoint inhibitor context informing the pre-BRAFi treatment landscape [PMID:32913971](../papers/32913971.md).
-- Used in combination with nivolumab (N=141) in cutaneous/unknown-primary melanoma; nivolumab+ipilimumab TTF did not vary by MAPK driver class, suggesting combination immunotherapy is preferable to PD-1 monotherapy in [BRAF](../genes/BRAF.md) V600 and [NRAS](../genes/NRAS.md) Q61 patients; TMB still independently predicted TTF (HR 0.51 per 10-fold, P=0.008) and [OS](../cancer_types/OS.md) [PMID:33509808](../papers/33509808.md)
+- Used in combination with [nivolumab](../drugs/nivolumab.md) (N=141) in cutaneous/unknown-primary melanoma; nivolumab+ipilimumab TTF did not vary by MAPK driver class, suggesting combination immunotherapy is preferable to PD-1 monotherapy in [BRAF](../genes/BRAF.md) V600 and [NRAS](../genes/NRAS.md) Q61 patients; TMB still independently predicted TTF (HR 0.51 per 10-fold, P=0.008) and [OS](../cancer_types/OS.md) [PMID:33509808](../papers/33509808.md)
 - Ipilimumab (anti-CTLA-4) was used in the 45-patient recurrent [HGSOC](../cancer_types/HGSOC.md) ICI cohort (15 patients received PD-1/PD-L1 + CTLA-4 combination, 1 received CTLA-4 monotherapy); Ollivier-Ricci network curvature over CNAs predicted OS (p=0.00047) while TMB (p=0.032), LST, and [FGA](../genes/FGA.md) were less discriminating. [PMID:34819508](../papers/34819508.md)
 - Ipilimumab + nivolumab was administered to the MSK773 SCLC-P patient (POU2F3-driven [SCLC](../cancer_types/SCLC.md)) without response, illustrating limited immune checkpoint blockade activity in the SCLC-P subtype [PMID:35440124](../papers/35440124.md)
 - In a pediatric/AYA solid tumor cWGTS study (n=114), a patient with metastatic adrenocortical carcinoma and high fusion/SV burden (H135022) achieved complete response after 3 cycles of nivolumab + ipilimumab and remained disease-free 26 months after therapy cessation; the combination was identified as therapy-informing via WGS beyond panel findings [PMID:35585047](../papers/35585047.md)
 - A complete response to nivolumab + ipilimumab was observed in a malignant PEComa patient with subclonal [TSC1](../genes/TSC1.md) and TMB 7 mut/Mb in the MSK clinical sub-cohort (n=118) anecdotal response series [PMID:35705558](../papers/35705558.md).
 - Anti-CTLA-4 antibody; nivolumab+ipilimumab indicated for MSI-H CRC in Chinese pan-cancer cohort (n=10,194); MSI-H in ~2% of cohort, 55% of which are CRC [PMID:35871175](../papers/35871175.md)
 - Ipilimumab (CTLA-4) is mentioned as an ICI used in advanced [HCC](../cancer_types/HCC.md) trials; the review frames lipid-metabolism reprogramming (DNL, FAO, cholesterol biosynthesis) as a driver of resistance to checkpoint inhibitor regimens including ipilimumab combinations [PMID:41118283](../papers/41118283.md).
-- Nivolumab raised CTLA4 transcripts and many genes linked to ipilimumab response (47 of 108 transcripts) in metastatic RCC, presented as support for a nivolumab + anti-CTLA-4 (ipilimumab) combination strategy [PMID:27169994](../papers/27169994.md).
+- Nivolumab raised [CTLA4](../genes/CTLA4.md) transcripts and many genes linked to ipilimumab response (47 of 108 transcripts) in metastatic [RCC](../cancer_types/RCC.md), presented as support for a nivolumab + anti-CTLA-4 (ipilimumab) combination strategy [PMID:27169994](../papers/27169994.md).
 
 ## Resistance mechanisms
 
@@ -81,4 +81,4 @@ Ipilimumab is an anti-CTLA-4 monoclonal antibody immune checkpoint inhibitor wit
 - [PMID:41118283](../papers/41118283.md)
 - [PMID:27169994](../papers/27169994.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

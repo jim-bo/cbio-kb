@@ -3,8 +3,8 @@ symbol: DRG2
 aliases: []
 cancer_types: [PHC, PGNG]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # DRG2
@@ -15,11 +15,11 @@ DRG2 (developmentally regulated GTP-binding protein 2) is a G2/M cell-cycle chec
 
 ## Alterations observed in the corpus
 
-- DRG2, a G2/M checkpoint gene (with RPRM), is transcriptionally repressed in ATRX-altered pheochromocytoma/paraganglioma [PMID:40097403](../papers/40097403.md).
+- DRG2, a G2/M checkpoint gene (with [RPRM](../genes/RPRM.md)), is transcriptionally repressed in ATRX-altered pheochromocytoma/paraganglioma [PMID:40097403](../papers/40097403.md).
 
 ## Cancer types (linked)
 
-- [PHC](../cancer_types/PHC.md) / [PGNG](../cancer_types/PGNG.md) (pheochromocytoma/paraganglioma): DRG2 repression associated with ATRX alteration status [PMID:40097403](../papers/40097403.md).
+- [PHC](../cancer_types/PHC.md) / [PGNG](../cancer_types/PGNG.md) (pheochromocytoma/paraganglioma): DRG2 repression associated with [ATRX](../genes/ATRX.md) alteration status [PMID:40097403](../papers/40097403.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -37,4 +37,4 @@ DRG2 (developmentally regulated GTP-binding protein 2) is a G2/M cell-cycle chec
 
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

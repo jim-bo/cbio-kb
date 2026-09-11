@@ -5,8 +5,8 @@ drug_class: topoisomerase I inhibitor
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # irinotecan
@@ -24,13 +24,13 @@ Camptothecin-derivative topoisomerase I inhibitor; component of FOLFIRI/FOLFIRIN
 - FOLFIRINOX (incorporating irinotecan) was administered to 38% of the curated 1,480-patient MSK PDAC cohort as first-line therapy; backbone choice between FOLFIRINOX and gemcitabine/nab-paclitaxel was not significantly associated with [OS](../cancer_types/OS.md) in 304 metastatic patients [PMID:39753968](../papers/39753968.md).
 - Included in the CCLE pharmacogenomic screen across 947 cancer cell lines; sensitivity correlated with genomic features via [elastic-net](../methods/elastic-net.md) regression [PMID:22460905](../papers/22460905.md)
 - High [TOP2A](../genes/TOP2A.md) expression and amplification in metastatic PanNET patient PN4 (MSH6/MLH1-deficient, TMB ~11 mut/Mb) supported irinotecan recommendation in the POG NEN WGTA cohort [PMID:40328872](../papers/40328872.md)
-- In SCLC chemoresistant PDX models, EPZ011989 (EZH2 inhibitor) + irinotecan over 6 weekly cycles produced potent combinatorial activity; SLFN11-high chemonaive models achieved complete responses in 5/5 animals with EPZ + irinotecan; a single in vivo irinotecan dose induced EZH2 protein and H3K27me3 increases [PMID:28196596](../papers/28196596.md).
-- Irinotecan-containing regimens (FOLFIRI) were used as chemotherapy in the 295-patient metastatic EGC cohort (MSK-IMPACT); MSI-H patients showed inferior PFS on cytotoxic regimens (4.8 vs 6.9 months) and are candidates for early immunotherapy instead [PMID:29122777](../papers/29122777.md)
-- In a 3D cell culture review, gelatin-foam glioblastoma tumoroids were resistant to irinotecan and fluorouracil but more sensitive to the hypoxia-activated agent tirapazamine, coincident with HIF-1α upregulation, illustrating how 3D hypoxic cores alter drug sensitivity rankings relative to monolayers [PMID:41103502](../papers/41103502.md).
+- In [SCLC](../cancer_types/SCLC.md) chemoresistant PDX models, EPZ011989 ([EZH2](../genes/EZH2.md) inhibitor) + irinotecan over 6 weekly cycles produced potent combinatorial activity; SLFN11-high chemonaive models achieved complete responses in 5/5 animals with EPZ + irinotecan; a single in vivo irinotecan dose induced EZH2 protein and H3K27me3 increases [PMID:28196596](../papers/28196596.md).
+- Irinotecan-containing regimens (FOLFIRI) were used as chemotherapy in the 295-patient metastatic [EGC](../cancer_types/EGC.md) cohort (MSK-IMPACT); MSI-H patients showed inferior PFS on cytotoxic regimens (4.8 vs 6.9 months) and are candidates for early immunotherapy instead [PMID:29122777](../papers/29122777.md)
+- In a 3D cell culture review, gelatin-foam glioblastoma tumoroids were resistant to irinotecan and [fluorouracil](../drugs/fluorouracil.md) but more sensitive to the hypoxia-activated agent [tirapazamine](../drugs/tirapazamine.md), coincident with HIF-1α upregulation, illustrating how 3D hypoxic cores alter drug sensitivity rankings relative to monolayers [PMID:41103502](../papers/41103502.md).
 - Irinotecan-containing regimens (e.g., FOLFIRI) were used as systemic chemotherapy in the 140-patient systemic-chemotherapy-alone arm of a single-institution MSKCC retrospective study of 573 liver-limited [IHCH](../cancer_types/IHCH.md) patients (2000–2018); systemic chemotherapy alone produced median OS 11.2 months in N1 patients vs 18–20 months with locoregional treatment [PMID:33963001](../papers/33963001.md).
 - OncoMark hallmark-survival analysis (TCGA logistic regression) associated irinotecan with the Genome Instability and Mutation (GIM) and Inducing Angiogenesis (IA) hallmarks for overall survival [PMID:41057477](../papers/41057477.md)
 - Irinotecan chemotherapy increased non-canonical/fetal transcriptional module expression in patient-derived colorectal cancer organoids, raising the possibility that cytotoxic therapy promotes entry into therapy-evasive plastic cell states [PMID:39478232](../papers/39478232.md).
-- Combined with the dual PI3K/mTOR inhibitor samotolisib ± temozolomide in ex vivo and in vivo (PDX) testing against MYOD1L122R-mutant SCSRMS; the triple combination produced objective tumor regression, outperforming irinotecan/temozolomide chemotherapy alone (P=0.005) [PMID:41758938](../papers/41758938.md).
+- Combined with the dual PI3K/mTOR inhibitor [samotolisib](../drugs/samotolisib.md) ± [temozolomide](../drugs/temozolomide.md) in ex vivo and in vivo (PDX) testing against MYOD1L122R-mutant [SCSRMS](../cancer_types/SCSRMS.md); the triple combination produced objective tumor regression, outperforming irinotecan/temozolomide chemotherapy alone (P=0.005) [PMID:41758938](../papers/41758938.md).
 
 ## Resistance mechanisms
 
@@ -53,9 +53,9 @@ Camptothecin-derivative topoisomerase I inhibitor; component of FOLFIRI/FOLFIRIN
 - [PMID:28196596](../papers/28196596.md)
 - [PMID:29122777](../papers/29122777.md)
 - [PMID:41103502](../papers/41103502.md)
-- [PMID:33963001](../papers/33963001.md) — Jolissaint et al. 2021, MSKCC IHCH retrospective (N=573); irinotecan-containing regimens (FOLFIRI) used in systemic chemotherapy arm; systemic chemotherapy alone inferior to HAIC or resection in N1 IHC (median OS 11.2 vs 18–20 months).
+- [PMID:33963001](../papers/33963001.md) — Jolissaint et al. 2021, MSKCC [IHCH](../cancer_types/IHCH.md) retrospective (N=573); irinotecan-containing regimens (FOLFIRI) used in systemic chemotherapy arm; systemic chemotherapy alone inferior to HAIC or resection in N1 IHC (median OS 11.2 vs 18–20 months).
 - [PMID:41057477](../papers/41057477.md)
 - [PMID:39478232](../papers/39478232.md)
 - [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

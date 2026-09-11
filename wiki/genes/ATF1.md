@@ -3,8 +3,8 @@ symbol: ATF1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ATF1
@@ -20,11 +20,11 @@ ATF1 (Activating Transcription Factor 1) is a member of the CREB/ATF family of b
 
 ## Cancer types (linked)
 
-- Clear cell odontogenic carcinoma (CCOC): EWSR1-ATF1 fusion reported as a novel finding enabling tumor reclassification [PMID:27442865](../papers/27442865.md)
+- Clear cell odontogenic carcinoma ([CCOC](../cancer_types/CCOC.md)): EWSR1-ATF1 fusion reported as a novel finding enabling tumor reclassification [PMID:27442865](../papers/27442865.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- EWSR1 is the canonical fusion partner; EWSR1-ATF1 fusions are diagnostically definitive in clear cell sarcoma and related entities [PMID:27442865](../papers/27442865.md)
+- [EWSR1](../genes/EWSR1.md) is the canonical fusion partner; EWSR1-ATF1 fusions are diagnostically definitive in clear cell sarcoma and related entities [PMID:27442865](../papers/27442865.md)
 
 ## Therapeutic relevance
 
@@ -39,4 +39,4 @@ ATF1 (Activating Transcription Factor 1) is a member of the CREB/ATF family of b
 - [PMID:27442865](../papers/27442865.md)
 - [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

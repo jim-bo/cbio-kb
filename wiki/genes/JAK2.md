@@ -3,8 +3,8 @@ symbol: JAK2
 aliases: []
 cancer_types: [DLBCLNOS, SKCM]
 tags: [kinase, clonal-hematopoiesis, hematologic-malignancy-risk]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # JAK2
@@ -20,23 +20,23 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 - Focal amplification identified in clear cell renal cell carcinoma (ccRCC) by TCGA comprehensive molecular characterization [PMID:23792563](../papers/23792563.md)
 - V617F present in 48/48 (100%) [PV](../cancer_types/PV.md), 35/62 (56%) [ET](../cancer_types/ET.md), and 27/39 (69%) [MF](../cancer_types/MF.md) patients; strictly mutually exclusive with [CALR](../genes/CALR.md) and [MPL](../genes/MPL.md) mutations in whole-exome sequencing of myeloproliferative neoplasms [PMID:24325359](../papers/24325359.md)
 - Co-amplified with [CD274](../genes/CD274.md) (PD-L1) and [PDCD1LG2](../genes/PDCD1LG2.md) (PD-L2) at 9p24.1 in 15% of EBV-positive gastric adenocarcinoma ([STAD](../cancer_types/STAD.md)) tumours (TCGA); elevated mRNA expression; supports rationale for JAK2 inhibitors and immune-checkpoint blockade in EBV-positive [STAD](../cancer_types/STAD.md) [PMID:25079317](../papers/25079317.md)
-- Among 60 genes with COSMIC hotspot mutations identified as potential drug targets across non-clear cell RCC subtypes [PMID:25401301](../papers/25401301.md)
+- Among 60 genes with COSMIC hotspot mutations identified as potential drug targets across non-clear cell [RCC](../cancer_types/RCC.md) subtypes [PMID:25401301](../papers/25401301.md)
 - Identified as a marker of the immune-related [ILC](../cancer_types/ILC.md) mRNA subtype in a comprehensive molecular analysis of invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
 - Recurrent driver in DLBCL (1001-patient cohort) but CRISPR knockout did NOT impair growth, suggesting JAK2 may act in early pathogenesis or via non-targetable functions in established DLBCL; cautions against naive mutation-based targeting. [PMID:28985567](../papers/28985567.md)
-- Mutations not associated with resistance to nivolumab in advanced melanoma (CA209-038, n=68), contrary to prior reports linking JAK pathway disruption to IFN-γ-blockade resistance. [PMID:29033130](../papers/29033130.md)
-- Homozygous loss-of-function JAK2 splice mutation with LOH identified in one NSCLC patient with primary resistance to anti-PD-(L)1 therapy (PD), consistent with interferon-gamma signaling defects; few total events in the 240-patient cohort [PMID:29337640](../papers/29337640.md)
-- JAK2 (with STAT1, STAT3, STAT6) is upregulated in iClusters C3 (mesenchymal/immune), C20 (mixed stromal/immune), C14 (LUAD), and C10 (pan-SCC) across 10,000 TCGA pan-cancer tumors, raising the hypothesis of repurposing JAK-STAT inhibitors in solid tumors [PMID:29625048](../papers/29625048.md)
+- Mutations not associated with resistance to [nivolumab](../drugs/nivolumab.md) in advanced melanoma (CA209-038, n=68), contrary to prior reports linking JAK pathway disruption to IFN-γ-blockade resistance. [PMID:29033130](../papers/29033130.md)
+- Homozygous loss-of-function JAK2 splice mutation with LOH identified in one [NSCLC](../cancer_types/NSCLC.md) patient with primary resistance to anti-PD-(L)1 therapy (PD), consistent with interferon-gamma signaling defects; few total events in the 240-patient cohort [PMID:29337640](../papers/29337640.md)
+- JAK2 (with [STAT1](../genes/STAT1.md), [STAT3](../genes/STAT3.md), [STAT6](../genes/STAT6.md)) is upregulated in iClusters C3 (mesenchymal/immune), C20 (mixed stromal/immune), C14 ([LUAD](../cancer_types/LUAD.md)), and C10 (pan-SCC) across 10,000 TCGA pan-cancer tumors, raising the hypothesis of repurposing JAK-STAT inhibitors in solid tumors [PMID:29625048](../papers/29625048.md)
 - JAK2 H538Y subclonal variant was present in early SCBO-5 bladder organoid passages and was lost during serial passaging, illustrating clonal dynamics in patient-derived bladder cancer organoids [PMID:29625057](../papers/29625057.md)
 - JAK2 (9p24.1 locus) simultaneously perturbed by mutation, copy gain, and structural variants in DLBCL; co-locus with CD274/PDCD1LG2 as a candidate cancer gene in 304-patient WES cohort. [PMID:29713087](../papers/29713087.md)
 - Loss-of-function alteration in JAK/STAT pathway; rare in pre-treatment tumors in this pooled ICB cohort (193 patients across melanoma, NSCLC, bladder, HNSCC, and other cancer types), consistent with intrinsic rather than acquired resistance mechanisms [PMID:30150660](../papers/30150660.md)
 - JAK2 V617F variants are used as a clonal-hematopoiesis filter in glioma genomic profiling: JAK2 V617F calls are removed wherever observed to exclude CH-attributable variants from somatic and germline analyses [PMID:31263031](../papers/31263031.md).
-- JAK2 or JAK3 alterations in 15% of BCP-ALL models; JAK1 or JAK2 lesions in 24% of ETP-ALL/T-ALL models; JAK2 rearrangements in 55% (12/22) of Ph-like ALL models in the PPTC pediatric cancer PDX panel (261 models, 37 pediatric cancer types) [PMID:31693904](../papers/31693904.md).
+- JAK2 or [JAK3](../genes/JAK3.md) alterations in 15% of BCP-ALL models; [JAK1](../genes/JAK1.md) or JAK2 lesions in 24% of ETP-ALL/T-ALL models; JAK2 rearrangements in 55% (12/22) of Ph-like ALL models in the PPTC pediatric cancer PDX panel (261 models, 37 pediatric cancer types) [PMID:31693904](../papers/31693904.md).
 - JAK2 is one of 15 canonical clonal hematopoiesis (CH) genes used to classify WBC-matched cfDNA variants; JAK2 mutations can arise from myeloproliferative neoplasm-related CH and must be interpreted with matched WBC sequencing [PMID:31768066](../papers/31768066.md)
 - JAK2 V617F driver mutation was missed in 35 MPNs in the PCAWG analysis because panels-of-normals derived from blood samples filtered the mutation, illustrating a systematic bioinformatic failure mode in WGS pipelines [PMID:32025007](../papers/32025007.md)
 - JAK2 — classified as a CH-myeloid putative driver gene; hotspot or in-frame variants classed as drivers per CH-myeloid-PD annotation rules in a large cancer-patient CH cohort (n=24,146) [PMID:33106634](../papers/33106634.md)
 - Co-amplified with [CD274](CD274.md) and [PDCD1LG2](PDCD1LG2.md) at 9p24.3–9p22.2 in 82% of CD274-amplified tumors (85/10,194 total, ~1%); this 9p24 amplicon correlates with 70% PD-L1 IHC positivity across 10,194 Asian solid-tumor patients [PMID:35871175](../papers/35871175.md)
-- A single AML case carried a high-allelic-burden JAK2 p.V617F mutation, proposed as a candidate driver pending confirmation in a larger cohort [PMID:38212634](../papers/38212634.md).
-- JAK2 amplification (with CBL deep deletion) was an acquired copy-number alteration at metastasis in a HER2+ breast cancer case with APOBEC3-driven treatment resistance [PMID:40379787](../papers/40379787.md).
+- A single [AML](../cancer_types/AML.md) case carried a high-allelic-burden JAK2 p.V617F mutation, proposed as a candidate driver pending confirmation in a larger cohort [PMID:38212634](../papers/38212634.md).
+- JAK2 amplification (with [CBL](../genes/CBL.md) deep deletion) was an acquired copy-number alteration at metastasis in a HER2+ breast cancer case with APOBEC3-driven treatment resistance [PMID:40379787](../papers/40379787.md).
 
 ## Cancer types (linked)
 
@@ -96,4 +96,4 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 - [PMID:38212634](../papers/38212634.md)
 - [PMID:40379787](../papers/40379787.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

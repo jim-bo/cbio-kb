@@ -3,8 +3,8 @@ symbol: MTAP
 aliases: []
 cancer_types: [BRCA]
 tags: [deletion, tumor-suppressor, breast-cancer, CDKN2A-locus]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MTAP
@@ -15,7 +15,7 @@ MTAP (Methylthioadenosine Phosphorylase) is a metabolic enzyme involved in the m
 
 ## Alterations observed in the corpus
 
-- MTAP deletions frequently co-occur with CDKN2A and CDKN2B loss at the 9p21 locus across multiple cancer types; confirmed in the breast cancer METABRIC cohort (~2,000 tumors) by integrated CNA-expression analysis [PMID:22522925](../papers/22522925.md)
+- MTAP deletions frequently co-occur with [CDKN2A](../genes/CDKN2A.md) and [CDKN2B](../genes/CDKN2B.md) loss at the 9p21 locus across multiple cancer types; confirmed in the breast cancer METABRIC cohort (~2,000 tumors) by integrated CNA-expression analysis [PMID:22522925](../papers/22522925.md)
 - Co-deleted with CDKN2A and CDKN2B at 9p21 in urothelial carcinoma (UC); in patient WCM117, CDKN2A/MTAP deletion progressed from sub-clonal heterozygous in the primary to clonal homozygous in distant metastases (FISH-confirmed) [PMID:27749842](../papers/27749842.md)
 - Deleted in 12.8% of biliary tract cancers profiled for it (336 tumors), though not assessable across the whole cohort due to panel changes over time [PMID:42360806](../papers/42360806.md).
 
@@ -42,4 +42,4 @@ MTAP (Methylthioadenosine Phosphorylase) is a metabolic enzyme involved in the m
 - [PMID:27749842](../papers/27749842.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

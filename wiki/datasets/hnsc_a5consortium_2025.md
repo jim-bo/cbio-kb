@@ -22,15 +22,15 @@ tags:
   - SDHB
   - hereditary
   - A5-consortium
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Hereditary SDHB-Mutant Pheochromocytomas and Paragangliomas (A5 Consortium, Nature Comm 2025)
 
 ## Overview
 
-94 primary and/or metastatic pheochromocytoma/paraganglioma (PCPG) tumors from 79 patients, all carrying pathogenic germline *SDHB* variants, whole-genome and multi-omic profiled by the international A5 Consortium. Recruitment spanned 11 sites in Australia, the USA and Canada, plus Tufts Medical Center (USA), Waikato Hospital (New Zealand), the National Cancer Centre Singapore, and Uppsala University (Sweden). Name, institution, size (94) and reference genome (hg38) are taken from the cBioPortal study record in `schema/ontology/studies.json`; cBioPortal files this study under the `hnsc` cancer type even though the tumors are PCPG, not head & neck squamous carcinoma [PMID:40097403](../papers/40097403.md).
+94 primary and/or metastatic pheochromocytoma/paraganglioma ([PCPG](../cancer_types/PCPG.md)) tumors from 79 patients, all carrying pathogenic germline *[SDHB](../genes/SDHB.md)* variants, whole-genome and multi-omic profiled by the international A5 Consortium. Recruitment spanned 11 sites in Australia, the USA and Canada, plus Tufts Medical Center (USA), Waikato Hospital (New Zealand), the National Cancer Centre Singapore, and Uppsala University (Sweden). Name, institution, size (94) and reference genome (hg38) are taken from the cBioPortal study record in `schema/ontology/studies.json`; cBioPortal files this study under the `hnsc` cancer type even though the tumors are PCPG, not head & neck squamous carcinoma [PMID:40097403](../papers/40097403.md).
 
 ## Composition
 
@@ -59,4 +59,4 @@ processed_at: 2026-09-10
 - cBioPortal study record: `hnsc_a5consortium_2025` (name, institution, size, reference_genome taken from `schema/ontology/studies.json`).
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

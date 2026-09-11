@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [immunophenotyping, flow-cytometry, peripheral-blood, biomarker]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Multiparameter flow cytometry
@@ -22,7 +22,7 @@ Multiparameter flow cytometry simultaneously measures multiple fluorescence-labe
 - Multiparameter flow cytometry used for immune cell phenotyping in proteogenomic study of ovarian cancer [PMID:40694421](../papers/40694421.md)
 - Used to characterize immune cell populations in AAV-CRISPR-edited rat mammary tumors; quantified adaptive and innate immune infiltration across six genotype groups, complementing scRNA-seq UMAP analysis showing genotype-driven macrophage vs neutrophil dichotomy [PMID:41000773](../papers/41000773.md)
 - Peripheral Tregs (CD45+/FoxP3+/CD4+/CD127-/lo) were quantified by flow cytometry at three time points around cyclophosphamide/pembrolizumab dosing [PMID:35121644](../papers/35121644.md).
-- 28-color flow cytometry (BD Symphony A5) profiled PBMCs alongside CyTOF in a pancreatic cancer trial of chemo plus/minus nivolumab and the CD40 agonist sotigalimab [PMID:35662283](../papers/35662283.md).
+- 28-color flow cytometry (BD Symphony A5) profiled PBMCs alongside CyTOF in a pancreatic cancer trial of chemo plus/minus [nivolumab](../drugs/nivolumab.md) and the CD40 agonist [sotigalimab](../drugs/sotigalimab.md) [PMID:35662283](../papers/35662283.md).
 
 ## Notes
 
@@ -39,4 +39,4 @@ Multiparameter flow cytometry simultaneously measures multiple fluorescence-labe
 - [PMID:35121644](../papers/35121644.md)
 - [PMID:35662283](../papers/35662283.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -9,8 +9,8 @@ tags:
   - digital-pcr
   - validation
   - subclonal
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Droplet Digital PCR (ddPCR)
@@ -22,11 +22,11 @@ Droplet digital PCR (ddPCR) is an [absolute](../methods/absolute.md) quantificat
 ## Used by
 
 - Applied to validate subclonal/heterogeneity findings from whole-exome sequencing in grade II glioma paired initial/recurrent tumor cohort (n=23), confirming variant allele frequencies at low clonal abundance [PMID:24336570](../papers/24336570.md)
-- Used in 5/5 tested [COADREAD](../cancer_types/COADREAD.md) cases to confirm frameshifted splice product from the recurrent APC intronic splice-acceptor mutation chr5:112151184 A>G in MSS CRC [PMID:29316426](../papers/29316426.md)
-- ddPCR on a QX200 system used to validate selected variants from a multi-site breast cancer autopsy case; confirmed mutual exclusivity of ESR1 Y537 and ERBB2 driver mutations across metastatic sites at ~0.03% sensitivity [PMID:30205045](../papers/30205045.md)
-- Used for orthogonal validation of PIK3CA hotspot mutations (H1047R/L/Y, E545K, E542K, C420R, N345K) across 90 plasma specimens in the breast_alpelisib_2020 ctDNA cohort [PMID:32864625](../papers/32864625.md)
-- Used for TP53 hotspot backtracking (C135S, V172F, R175H, R213P, R249S, L257Q, G266R) across 28 additional bone marrow time points in the neuroblastoma t-MDS/AL surveillance cohort [PMID:35078859](../papers/35078859.md)
-- Used to test CDH1 promoter methylation across two CpG islands (methylation frequency above 2.25 called positive) in hereditary diffuse gastric cancer FFPE cases [PMID:38347189](../papers/38347189.md)
+- Used in 5/5 tested [COADREAD](../cancer_types/COADREAD.md) cases to confirm frameshifted splice product from the recurrent [APC](../genes/APC.md) intronic splice-acceptor mutation chr5:112151184 A>G in MSS CRC [PMID:29316426](../papers/29316426.md)
+- ddPCR on a QX200 system used to validate selected variants from a multi-site breast cancer autopsy case; confirmed mutual exclusivity of [ESR1](../genes/ESR1.md) Y537 and [ERBB2](../genes/ERBB2.md) driver mutations across metastatic sites at ~0.03% sensitivity [PMID:30205045](../papers/30205045.md)
+- Used for orthogonal validation of [PIK3CA](../genes/PIK3CA.md) hotspot mutations (H1047R/L/Y, E545K, E542K, C420R, N345K) across 90 plasma specimens in the [breast_alpelisib_2020](../datasets/breast_alpelisib_2020.md) ctDNA cohort [PMID:32864625](../papers/32864625.md)
+- Used for [TP53](../genes/TP53.md) hotspot backtracking (C135S, V172F, R175H, R213P, R249S, L257Q, G266R) across 28 additional bone marrow time points in the neuroblastoma t-MDS/AL surveillance cohort [PMID:35078859](../papers/35078859.md)
+- Used to test [CDH1](../genes/CDH1.md) promoter methylation across two CpG islands (methylation frequency above 2.25 called positive) in hereditary diffuse gastric cancer FFPE cases [PMID:38347189](../papers/38347189.md)
 
 ## Notes
 
@@ -41,4 +41,4 @@ Droplet digital PCR (ddPCR) is an [absolute](../methods/absolute.md) quantificat
 - [PMID:35078859](../papers/35078859.md)
 - [PMID:38347189](../papers/38347189.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

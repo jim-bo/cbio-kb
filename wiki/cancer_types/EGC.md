@@ -4,8 +4,8 @@ oncotree_code: EGC
 main_type: Esophagogastric Cancer
 parent: STOMACH
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Esophagogastric Adenocarcinoma (EGC)
@@ -31,11 +31,11 @@ Esophagogastric adenocarcinoma (EGC) encompasses adenocarcinomas of the esophagu
 - [PIK3CA](../genes/PIK3CA.md) — present in >10% of patients; identified as a resistance mechanism. [PMID:37406106](../papers/37406106.md)
 - [MET](../genes/MET.md) — co-amplification detected in ctDNA at progression; [MET](../genes/MET.md) IHC expression confirmed in escape lesions. [PMID:37406106](../papers/37406106.md)
 - [FGFR3](../genes/FGFR3.md)-[TACC3](../genes/TACC3.md) — subclonal fusion identified at single-cell level by serial ctDNA; expanded on-treatment, implicating it as a resistance driver. [PMID:37406106](../papers/37406106.md)
-- Esophagogastric carcinoma / esophageal gastric adenocarcinoma was included in the MSK-IMPACT pan-cancer cohort (msk_impact_2017) spanning 62 principal tumor types; MSI gastric/esophageal tumors were among those showing responses to immune checkpoint blockade in the pan-cancer MSI analysis. [PMID:28481359](../papers/28481359.md)
-- Janjigian et al. prospectively profiled 295 stage-IV esophagogastric adenocarcinoma patients with MSK-IMPACT (341/410/468-gene panels); 53% had at least one actionable alteration; MSI-H tumors (3%) were chemotherapy-refractory but immunotherapy-sensitive; NGS-based ERBB2 amplification level predicted trastuzumab benefit better than IHC/FISH; HRD/LST did not predict platinum response [PMID:29122777](../papers/29122777.md)
-- EGC was among the histologies represented in the ICI-treated MSK-IMPACT cohort; PFS and clinical-benefit associations with TMB were specifically analyzed for esophagogastric cancer alongside NSCLC, melanoma, head & neck, and renal cell carcinoma. [PMID:30643254](../papers/30643254.md)
-- Phase 2 trial (n=37) of pembrolizumab + trastuzumab + fluoropyrimidine/platinum in HER2-positive metastatic EGC achieved 70% 6-month PFS rate, 91% ORR, and 27.2-month median OS; VAF-adjusted ctDNA ERBB2 amplification predicted longer PFS (16.4 vs 6.2 months, p=0.013) [PMID:32437664](../papers/32437664.md)
-- Broad-panel NGS (MSK-IMPACT) of 487 lower esophageal/EGJ adenocarcinomas identified 16 recurrent oncogenic drivers (≥5%), predominantly amplifications; TP53 was mutated in ~80%, median TMB was 4.5 mut/Mb, MSI-H prevalence was 3.1%; CDKN2A alteration, KRAS amplification, and SMAD4 alteration were independently prognostic for worse OS, while ERBB2 amplification associated with improved OS (HR 0.65, p=0.009) attributable to trastuzumab therapy [PMID:33795256](../papers/33795256.md)
+- Esophagogastric carcinoma / esophageal gastric adenocarcinoma was included in the MSK-IMPACT pan-cancer cohort ([msk_impact_2017](../datasets/msk_impact_2017.md)) spanning 62 principal tumor types; MSI gastric/esophageal tumors were among those showing responses to immune checkpoint blockade in the pan-cancer MSI analysis. [PMID:28481359](../papers/28481359.md)
+- Janjigian et al. prospectively profiled 295 stage-IV esophagogastric adenocarcinoma patients with MSK-IMPACT (341/410/468-gene panels); 53% had at least one actionable alteration; MSI-H tumors (3%) were chemotherapy-refractory but immunotherapy-sensitive; NGS-based [ERBB2](../genes/ERBB2.md) amplification level predicted [trastuzumab](../drugs/trastuzumab.md) benefit better than IHC/FISH; HRD/LST did not predict platinum response [PMID:29122777](../papers/29122777.md)
+- EGC was among the histologies represented in the ICI-treated MSK-IMPACT cohort; PFS and clinical-benefit associations with TMB were specifically analyzed for esophagogastric cancer alongside [NSCLC](../cancer_types/NSCLC.md), melanoma, head & neck, and renal cell carcinoma. [PMID:30643254](../papers/30643254.md)
+- Phase 2 trial (n=37) of [pembrolizumab](../drugs/pembrolizumab.md) + trastuzumab + fluoropyrimidine/platinum in HER2-positive metastatic EGC achieved 70% 6-month PFS rate, 91% ORR, and 27.2-month median OS; VAF-adjusted ctDNA ERBB2 amplification predicted longer PFS (16.4 vs 6.2 months, p=0.013) [PMID:32437664](../papers/32437664.md)
+- Broad-panel NGS (MSK-IMPACT) of 487 lower esophageal/EGJ adenocarcinomas identified 16 recurrent oncogenic drivers (≥5%), predominantly amplifications; [TP53](../genes/TP53.md) was mutated in ~80%, median TMB was 4.5 mut/Mb, MSI-H prevalence was 3.1%; [CDKN2A](../genes/CDKN2A.md) alteration, [KRAS](../genes/KRAS.md) amplification, and [SMAD4](../genes/SMAD4.md) alteration were independently prognostic for worse OS, while ERBB2 amplification associated with improved OS (HR 0.65, p=0.009) attributable to trastuzumab therapy [PMID:33795256](../papers/33795256.md)
 - In the MSK-50K pan-cancer cohort, esophagogastric cancer had the third-highest microsatellite instability rate among 448 detailed cancer subtypes (6%, 93 of 1,657 tumors) [PMID:41895280](../papers/41895280.md).
 
 ## Subtypes
@@ -49,7 +49,7 @@ Esophagogastric adenocarcinoma (EGC) encompasses adenocarcinomas of the esophagu
 - Phase II trial of [pembrolizumab](../drugs/pembrolizumab.md) + [trastuzumab](../drugs/trastuzumab.md) + CAPOX: median PFS 13 months, median [OS](../cancer_types/OS.md) 27 months, ORR 89% in 37 HER2-positive EGC patients. [PMID:37406106](../papers/37406106.md)
 - Uniform HER2 IHC 3+ expression, plasma [ERBB2](../genes/ERBB2.md) amplification, and intense 89Zr-trastuzumab PET avidity predict durable benefit from pembrolizumab + trastuzumab + chemotherapy. [PMID:37406106](../papers/37406106.md)
 - Early ctDNA clearance (by 9 weeks) predicts longer PFS (HR 0.18; 95% CI 0.06--0.53; P=0.001). [PMID:37406106](../papers/37406106.md)
-- [CCNE1](../genes/CCNE1.md) amplification in early-onset tumors is a potential target for CDK2 inhibitors. [PMID:37699004](../papers/37699004.md)
+- [CCNE1](../genes/CCNE1.md) amplification in early-onset tumors is a potential target for [CDK2](../genes/CDK2.md) inhibitors. [PMID:37699004](../papers/37699004.md)
 - 35% of early-onset patients were initially treated for an alternative diagnosis, highlighting the need for increased clinician awareness. [PMID:37699004](../papers/37699004.md)
 
 ## Sources
@@ -64,4 +64,4 @@ Esophagogastric adenocarcinoma (EGC) encompasses adenocarcinomas of the esophagu
 - [PMID:33795256](../papers/33795256.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

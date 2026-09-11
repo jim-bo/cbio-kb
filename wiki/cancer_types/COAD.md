@@ -4,8 +4,8 @@ oncotree_code: COAD
 main_type: Colorectal Cancer
 parent: COADREAD
 tags: [colorectal, gi-oncology]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Colon Adenocarcinoma (COAD)
@@ -47,15 +47,15 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - In CCLE proteomics (n=375 cell lines, 22 lineages), colon adenocarcinoma lines contributed to the mixed-lineage cohort; MSI endometrial and colorectal lines showed proteome buffering with only ~50 differentially expressed proteins vs >1,000 dysregulated mRNAs [PMID:31978347](../papers/31978347.md).
 - In 430 MSS unresectable metastatic colorectal adenocarcinoma patients (including [COAD](../cancer_types/COAD.md) primaries) profiled by MSK-IMPACT, N-terminal [APC](../genes/APC.md) mutations (5' of aa 1400) were associated with longer [OS](../cancer_types/OS.md) (HR 0.56, p<0.001) and PFS (HR 0.68, p<0.001) than C-terminal [APC](../genes/APC.md) mutations, which co-occurred more frequently with [KRAS](../genes/KRAS.md) (72% vs 46%), [BRAF](../genes/BRAF.md) (13% vs 2%), [PIK3CA](../genes/PIK3CA.md) (28% vs 11%), and [PTEN](../genes/PTEN.md) (12% vs 3%) alterations [PMID:32730818](../papers/32730818.md).
 - TIMER 2.0 pan-cancer analysis confirmed [CGREF1](../genes/CGREF1.md) significantly upregulated in [COAD](../cancer_types/COAD.md); IHC on an 80-patient CRC tissue microarray showed [CGREF1](../genes/CGREF1.md) over-expression in 61.25% of CRC tissues, with high expression independently associated with shorter disease-free survival (HR 3.85, 95% CI 1.32–11.2, p=0.014) by multivariate Cox analysis [PMID:41125935](../papers/41125935.md).
-- MSK single-institution cohort (759 early-onset + 687 average-onset CRC) profiled by MSK-IMPACT found most common somatic alterations in microsatellite-stable COAD/READ were [APC](../genes/APC.md) (79%), [TP53](../genes/TP53.md) (82%), and KRAS (43%); left-sided tumors dominated in early-onset CRC (>80%); somatic and survival differences by age disappeared after sidedness adjustment [PMID:34405229](../papers/34405229.md)
+- MSK single-institution cohort (759 early-onset + 687 average-onset CRC) profiled by MSK-IMPACT found most common somatic alterations in microsatellite-stable COAD/READ were [APC](../genes/APC.md) (79%), [TP53](../genes/TP53.md) (82%), and [KRAS](../genes/KRAS.md) (43%); left-sided tumors dominated in early-onset CRC (>80%); somatic and survival differences by age disappeared after sidedness adjustment [PMID:34405229](../papers/34405229.md)
 - MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; COAD is among tumor types analyzed for [FGA](../genes/FGA.md), TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 - Nigerian CRC cohort (380 patients, 64 MSK-IMPACT): COAD tumors showed 28.1% MSI-H (vs. 8.5% MSKCC); MSS tumors had depleted [APC](../genes/APC.md) (36.9% vs. 76.0%), lower WNT-pathway alteration (47.8% vs. 81.9%), and enriched RAS-pathway alteration (76.1% vs. 59.6%) [PMID:34819518](../papers/34819518.md)
 - COLON MAP / HTAN pre-cancer atlas (scRNA-seq, 62 polyps/tumors): conventional adenomas arise from APC-driven WNT expansion of [LGR5](../genes/LGR5.md)+ stem cells; MSS CRCs carry [APC](../genes/APC.md) (100%), KRAS (35%), [TP53](../genes/TP53.md) (71%); MSI-H CRCs have fewer classical drivers but enrich non-APC WNT events ([RNF43](../genes/RNF43.md), [TCF7L2](../genes/TCF7L2.md)) and [BRAF](../genes/BRAF.md) V600E (53%) [PMID:34910928](../papers/34910928.md)
 - In 4,561 CRC patients sequenced with MSK-IMPACT, 47 (1.03%) harbored dual RAS hotspot/BRAF V600E driver mutations (CRC-DD); CRC-DD showed MSI-H enrichment (27% vs 8.7% in single-driver CRC, P=.0004) and lower fraction of genome altered (P=7.99×10⁻⁹) [PMID:35235413](../papers/35235413.md)
-- In a 174-patient IBD-associated colorectal cancer cohort (56% UC, 44% CD), COAD samples showed [TP53](../genes/TP53.md) alteration in 90%, KRAS in 31%, APC in only 20% (vs ~80% in sporadic CRC), with copy-number alterations more enriched than in sporadic CRC and multifocal lesions developing independently [PMID:36611031](../papers/36611031.md)
-- A 1,015-patient Asian colorectal cancer whole-exome cohort found low median TMB (1.74 mut/Mb), 46 high-confidence significantly mutated genes led by TP53 (45%), APC (47%) and KRAS (24%), eight novel driver genes absent from clinical gene panels, and a genomic subtyping scheme in which 10q11.21 amplification (containing RET) marked a poor-prognosis subgroup [PMID:35487942](../papers/35487942.md).
-- In a pan-cancer TCGA analysis, LIG1 heterozygous deletion was associated with worse progression-free survival in colon adenocarcinoma (HR 1.75, P=0.03), consistent with a carboplatin-resistance biomarker role first identified in triple-negative breast cancer [PMID:36001024](../papers/36001024.md).
-- PIK3CA mutations are a canonical driver in colon cancer (21% altered) in the MSK-50K cohort, but were nonetheless more subclonal than expected for a canonical context, which the authors attribute to PIK3CA mutations often emerging during treatment [PMID:41895280](../papers/41895280.md).
+- In a 174-patient IBD-associated colorectal cancer cohort (56% UC, 44% CD), COAD samples showed [TP53](../genes/TP53.md) alteration in 90%, KRAS in 31%, [APC](../genes/APC.md) in only 20% (vs ~80% in sporadic CRC), with copy-number alterations more enriched than in sporadic CRC and multifocal lesions developing independently [PMID:36611031](../papers/36611031.md)
+- A 1,015-patient Asian colorectal cancer whole-exome cohort found low median TMB (1.74 mut/Mb), 46 high-confidence significantly mutated genes led by [TP53](../genes/TP53.md) (45%), APC (47%) and KRAS (24%), eight novel driver genes absent from clinical gene panels, and a genomic subtyping scheme in which 10q11.21 amplification (containing [RET](../genes/RET.md)) marked a poor-prognosis subgroup [PMID:35487942](../papers/35487942.md).
+- In a pan-cancer TCGA analysis, [LIG1](../genes/LIG1.md) heterozygous deletion was associated with worse progression-free survival in colon adenocarcinoma (HR 1.75, P=0.03), consistent with a carboplatin-resistance biomarker role first identified in triple-negative breast cancer [PMID:36001024](../papers/36001024.md).
+- [PIK3CA](../genes/PIK3CA.md) mutations are a canonical driver in colon cancer (21% altered) in the MSK-50K cohort, but were nonetheless more subclonal than expected for a canonical context, which the authors attribute to PIK3CA mutations often emerging during treatment [PMID:41895280](../papers/41895280.md).
 
 ## Subtypes
 
@@ -134,4 +134,4 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - [PMID:36001024](../papers/36001024.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -3,8 +3,8 @@ symbol: PCBP1
 aliases: []
 cancer_types: [COADREAD, BL]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # PCBP1
@@ -24,9 +24,9 @@ and as a gene with EBV-status-dependent mutation patterns in Burkitt lymphoma.
 
 ## Cancer types (linked)
 
-- **COADREAD**: high-confidence significantly mutated gene in 2% of tumors
+- **[COADREAD](../cancer_types/COADREAD.md)**: high-confidence significantly mutated gene in 2% of tumors
   [PMID:35487942](../papers/35487942.md).
-- **BL**: mutation pattern differs by EBV status [PMID:36201743](../papers/36201743.md).
+- **[BL](../cancer_types/BL.md)**: mutation pattern differs by EBV status [PMID:36201743](../papers/36201743.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -45,4 +45,4 @@ and as a gene with EBV-status-dependent mutation patterns in Burkitt lymphoma.
 - [PMID:35487942](../papers/35487942.md)
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

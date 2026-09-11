@@ -3,8 +3,8 @@ symbol: PDE8A
 aliases: []
 cancer_types: [COADREAD]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # PDE8A
@@ -21,7 +21,7 @@ low-frequency, high-confidence significantly mutated gene in colorectal cancer.
 
 ## Cancer types (linked)
 
-- **COADREAD**: high-confidence significantly mutated gene in 1% of tumors
+- **[COADREAD](../cancer_types/COADREAD.md)**: high-confidence significantly mutated gene in 1% of tumors
   [PMID:35487942](../papers/35487942.md).
 
 ## Co-occurrence and mutual exclusivity
@@ -40,4 +40,4 @@ low-frequency, high-confidence significantly mutated gene in colorectal cancer.
 
 - [PMID:35487942](../papers/35487942.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

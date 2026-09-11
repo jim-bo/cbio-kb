@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [alignment, short-read, dna-seq, bioinformatics]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # BWA (Burrows-Wheeler Aligner)
@@ -59,7 +59,7 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 - BWA-MEM used for b37 alignment of whole-exome and whole-genome sequencing data in the GLASS longitudinal diffuse glioma cohort (304 patients, 37 hospitals) [PMID:35649412](../papers/35649412.md)
 - Used as BWA-MEM for alignment of whole-genome sequencing data (mean tumor coverage 94.56x) from 25 metastatic cutaneous squamous cell carcinoma ([CSCC](../cancer_types/CSCC.md)) lymph node specimens to GRCh38 [PMID:35982973](../papers/35982973.md)
 - BWA v0.7.17 aligned whole-exome sequencing reads (tumor vs PBMC normal) to hg38 in a phase II cyclophosphamide-plus-pembrolizumab trial for metastatic triple-negative breast cancer. [PMID:35121644](../papers/35121644.md)
-- BWA-mem aligned targeted, exome and genome sequencing reads to GRCh37 across the three clear-cell RCC sequencing cohorts (C1-C3, n=943). [PMID:36815791](../papers/36815791.md)
+- BWA-mem aligned targeted, exome and genome sequencing reads to GRCh37 across the three clear-cell [RCC](../cancer_types/RCC.md) sequencing cohorts (C1-C3, n=943). [PMID:36815791](../papers/36815791.md)
 - BWA v0.7.15 aligned WGS reads to GRCh37/hg19 for 3 invasive lobular carcinoma cases before MuTect somatic calling. [PMID:38347189](../papers/38347189.md)
 
 ## Notes
@@ -113,4 +113,4 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 - [PMID:36815791](../papers/36815791.md)
 - [PMID:38347189](../papers/38347189.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

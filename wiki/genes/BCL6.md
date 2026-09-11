@@ -7,8 +7,8 @@ tags:
   - translocation
   - transcription-factor
   - lymphoma
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # BCL6
@@ -22,9 +22,9 @@ BCL6 is a transcriptional repressor and proto-oncogene that plays a central role
 - BCL6 translocation enriched in the BN2 DLBCL subtype (77% of BN2 cases) in a real-world LymphGen classification validation study using a 400-gene clinical NGS panel (MSK-IMPACT Heme) in 241 DLBCL patients [PMID:38497151](../papers/38497151.md).
 - BCL6 translocation co-occurs with [MYC](../genes/MYC.md) translocation in 15.3% of BN2 cases [PMID:38497151](../papers/38497151.md).
 - IGH-BCL6 translocation in 2/11 FISH-screened [PCNSL](../cancer_types/PCNSL.md) cases; recurrent 3q27 gains with breakpoints suggesting translocation [PMID:25991819](../papers/25991819.md)
-- BCL6 identified as an epigenetic regulator mutated in the advanced thyroid cancer cohort (n=117 PDTC/ATC); reported alongside CREBBP, EP300, and BCOR as low-frequency epigenetic regulator alterations [PMID:26878173](../papers/26878173.md)
+- BCL6 identified as an epigenetic regulator mutated in the advanced thyroid cancer cohort (n=117 PDTC/ATC); reported alongside [CREBBP](../genes/CREBBP.md), [EP300](../genes/EP300.md), and [BCOR](../genes/BCOR.md) as low-frequency epigenetic regulator alterations [PMID:26878173](../papers/26878173.md)
 - placeholder
-- Structural variants in 19% of DLBCL cohort (dlbcl_dfci_2018); clonal-to-subclonal timing analysis supports BCL6 rearrangement as a late event in the C1 cluster [PMID:29713087](../papers/29713087.md)
+- Structural variants in 19% of DLBCL cohort ([dlbcl_dfci_2018](../datasets/dlbcl_dfci_2018.md)); clonal-to-subclonal timing analysis supports BCL6 rearrangement as a late event in the C1 cluster [PMID:29713087](../papers/29713087.md)
 - BCL6-MYC translocation found in 2 Burkitt lymphomas; BCL6 hotspot mutations helped reclassify cases as DLBCL-like in a comparator Burkitt lymphoma cohort [PMID:36201743](../papers/36201743.md).
 
 ## Cancer types (linked)
@@ -52,4 +52,4 @@ BCL6 is a transcriptional repressor and proto-oncogene that plays a central role
 - [PMID:29713087](../papers/29713087.md)
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

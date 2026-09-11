@@ -3,8 +3,8 @@ symbol: FOXP3
 aliases: []
 cancer_types: [COAD, HNSC, HGSOC]
 tags: [treg, immune-signature, icr, immunotherapy, biomarker]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # FOXP3
@@ -18,12 +18,12 @@ FOXP3 is the master transcription factor of regulatory T cells (Tregs), and is u
 - Component of the 20-gene Immunologic Constant of Rejection (ICR) signature as an immunoregulatory counter-activation marker in colon cancer [PMID:37202560](../papers/37202560.md).
 - FOXP3+ T regulatory cell surge in peripheral blood trended toward worse PFS (HR 1.42, P = .43) in the IMRT reirradiation + [nivolumab](../drugs/nivolumab.md) trial for recurrent/second primary HNSCC (n=51) [PMID:38780927](../papers/38780927.md).
 - FOXP3 was used as a [CD4](../genes/CD4.md)+/CD8+/FOXP3+ immune-cell phenotype marker to define infiltrating populations in a 44-specimen CyCIF/GeoMx spatial atlas of [HGSOC](../cancer_types/HGSOC.md) fallopian tube precursors; FOXP3+ regulatory T cells detected as part of the immune infiltrate across progressive precursor stages [PMID:39386723](../papers/39386723.md).
-- FOXP3 is a transcription factor stabilizing regulatory T cell (Treg) suppressive function in NPC; targeted indirectly by IKZF2 degraders (PLX-4545, DKY709) to reprogram Tregs and restore anti-tumor immunity. [PMID:41002550](../papers/41002550.md)
+- FOXP3 is a transcription factor stabilizing regulatory T cell (Treg) suppressive function in [NPC](../cancer_types/NPC.md); targeted indirectly by [IKZF2](../genes/IKZF2.md) degraders (PLX-4545, DKY709) to reprogram Tregs and restore anti-tumor immunity. [PMID:41002550](../papers/41002550.md)
 - Used as an IHC marker for Treg quantification (clone 236A/E7) in the nivolumab-treated melanoma cohort; contributed to immune-cell-population analyses of the tumor microenvironment [PMID:29033130](../papers/29033130.md)
-- Pre-treatment regulatory-T-cell (Treg) signature enriched in anti-PD-1 non-responders in recurrent GBM (p=0.037); post-treatment FOXP3 signature active in responders; IHC ruled out CD4+FOXP3+ Tregs as the source — signature traced to CD44+ tumor cells expressing a FOXP3-like immunosuppressive program [PMID:30742119](../papers/30742119.md)
+- Pre-treatment regulatory-T-cell (Treg) signature enriched in anti-PD-1 non-responders in recurrent [GBM](../cancer_types/GBM.md) (p=0.037); post-treatment FOXP3 signature active in responders; IHC ruled out [CD4](../genes/CD4.md)+FOXP3+ Tregs as the source — signature traced to [CD44](../genes/CD44.md)+ tumor cells expressing a FOXP3-like immunosuppressive program [PMID:30742119](../papers/30742119.md)
 - Regulon activity elevated in adenoma-derived vs. normal colon CD4+ T cells, supporting Treg-dependent immunosuppression as a feature of the adenoma microenvironment during colorectal carcinogenesis [PMID:34910928](../papers/34910928.md)
-- Included in a triple-stain IHC panel for Treg assessment during nivolumab therapy, though no separate FOXP3-specific result was reported [PMID:27169994](../papers/27169994.md).
-- Used as the Treg marker (CD45+/FOXP3+/CD4+/CD127-/lo) for peripheral Treg counts in a TNBC immunotherapy trial; low-dose cyclophosphamide did not significantly deplete FOXP3+ Tregs [PMID:35121644](../papers/35121644.md).
+- Included in a triple-stain IHC panel for Treg assessment during [nivolumab](../drugs/nivolumab.md) therapy, though no separate FOXP3-specific result was reported [PMID:27169994](../papers/27169994.md).
+- Used as the Treg marker (CD45+/FOXP3+/CD4+/CD127-/lo) for peripheral Treg counts in a TNBC immunotherapy trial; low-dose [cyclophosphamide](../drugs/cyclophosphamide.md) did not significantly deplete FOXP3+ Tregs [PMID:35121644](../papers/35121644.md).
 
 ## Cancer types (linked)
 
@@ -60,4 +60,4 @@ FOXP3 is the master transcription factor of regulatory T cells (Tregs), and is u
 - [PMID:27169994](../papers/27169994.md)
 - [PMID:35121644](../papers/35121644.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

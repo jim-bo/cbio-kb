@@ -3,8 +3,8 @@ symbol: FGFR3
 aliases: []
 cancer_types: [BLCA, UTUC, EGC]
 tags: [oncogene, receptor-tyrosine-kinase, targeted-therapy, resistance, fusion]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # FGFR3
@@ -56,14 +56,14 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - FGFR3 activating missense mutations in 11/37 (29.7%) [UTUC](../cancer_types/UTUC.md) tumors, significantly higher than 13.7% in TCGA UCB (P=0.04); outlier-overexpressed in 14/32 [UTUC](../cancer_types/UTUC.md) tumors; proposed as a cell-intrinsic driver of T-cell-depleted phenotype via suppression of [IFNG](../genes/IFNG.md) response genes; recurrent FGFR3–[TACC3](../genes/TACC3.md) and FGFR3–[BAIAP2L1](../genes/BAIAP2L1.md) fusions present [PMID:31278255](../papers/31278255.md)
 - FGFR3 amplification in 1 [GBM](../cancer_types/GBM.md) PDX; canonical FGFR3-TACC3 fusion in three PDX lines (GBM14, GBM148, GBM232); two novel fusions FGFR3-TRIM54 and FGFR3-CALCOCO1 also identified — all flagged as potentially targetable with FGFR inhibitors [PMID:31852831](../papers/31852831.md)
 - FGFR3 is among the genes frequently copy-number altered in endometrial cancer, consistent with TCGA findings [PMID:32059776](../papers/32059776.md)
-- Activating hotspots (incl. R248C, S249C) in 47–48% of [UTUC](../cancer_types/UTUC.md), restricted to luminal-subtype tumors; favorable prognostic marker; R248C enriched in Lynch-syndrome UTUC and in 3/4 MSI-H PDX pairs [PMID:32332851](../papers/32332851.md)
+- Activating hotspots (incl. R248C, S249C) in 47–48% of [UTUC](../cancer_types/UTUC.md), restricted to luminal-subtype tumors; favorable prognostic marker; R248C enriched in Lynch-syndrome [UTUC](../cancer_types/UTUC.md) and in 3/4 MSI-H PDX pairs [PMID:32332851](../papers/32332851.md)
 - FGFR3 mutations in 50% (15/30) of UTUC WES cases; defining driver of EpiC-low (hypomethylated, immune-cold) subtype; mutually exclusive with 8q22.3 gain; FGFR3-mutant UTUC has globally hypomethylated genome (97.8% of differential probes hypomethylated); one FGFR3-TACC3 fusion detected; associates with better OS/PFS [PMID:33397444](../papers/33397444.md)
 - Listed as a driver-panel RTK gene in a 28-gene MSK-IMPACT melanoma cohort (n=655 cutaneous/unknown-primary melanomas); observed predominantly as a co-alteration with primary MAPK pathway drivers [PMID:33509808](../papers/33509808.md)
 - FGFR3 point mutations conferring resistance to FGFR inhibitors detected in bladder cancers with FGFR3-TACC3 fusions; FGFR3 also recurrently altered in bladder cancer in the MSK-ACCESS liquid biopsy study [PMID:34145282](../papers/34145282.md)
 - Mutations more frequent in bladder urothelial lung metastases (11% primary vs 39% lung met, q=0.005), identifying FGFR3-mutant urothelial tumors as having enhanced lung-tropic dissemination potential [PMID:35120664](../papers/35120664.md)
 - FGFR3 was among 27 FGFR1/2/3/4 events across HGG, rhabdomyosarcoma, and other sarcomas identified in the MAPPYACTS pediatric WES cohort (n=787 relapsed/refractory patients). [PMID:35292802](../papers/35292802.md)
-- Pan-cancer fusion driver across 10,194 Asian solid-tumor patients; FGFR3 fusions grouped with FGFR2 (~50 total events); multiple novel partner genes catalogued by the OrigiMed panel [PMID:35871175](../papers/35871175.md)
-- An FGFR3 mutation was found as a rare co-driver in a non-lung MET-amplified tumor in a pan-cancer MET amplification cohort. [PMID:36044468](../papers/36044468.md)
+- Pan-cancer fusion driver across 10,194 Asian solid-tumor patients; FGFR3 fusions grouped with [FGFR2](../genes/FGFR2.md) (~50 total events); multiple novel partner genes catalogued by the OrigiMed panel [PMID:35871175](../papers/35871175.md)
+- An FGFR3 mutation was found as a rare co-driver in a non-lung MET-amplified tumor in a pan-cancer [MET](../genes/MET.md) amplification cohort. [PMID:36044468](../papers/36044468.md)
 - FGFR3 was the most frequently altered gene in an upper tract urothelial carcinoma cohort (48.5% MSK100), with oncogenic alterations in 93% of the C3 RNA cluster and association with better cancer-specific survival (p<0.05) but not OS. [PMID:39550333](../papers/39550333.md)
 - In bladder cancer, FGFR3 fusions (but not hotspot mutations) are linked to early age of onset. [PMID:41895280](../papers/41895280.md)
 - FGFR3 is counted among selected level 3B actionable genes in a biliary tract cancer genomic cohort. [PMID:42360806](../papers/42360806.md)
@@ -184,4 +184,4 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - [PMID:41895280](../papers/41895280.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

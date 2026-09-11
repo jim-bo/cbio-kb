@@ -3,8 +3,8 @@ symbol: IL2RA
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # IL2RA
@@ -15,7 +15,7 @@ IL2RA (CD25) is the interleukin-2 receptor alpha chain, expressed on activated T
 
 ## Alterations observed in the corpus
 
-- IL2RA (CD25) was higher on responder peripheral CD8+ T cells during cycles 1-2 of pembrolizumab plus low-dose cyclophosphamide in metastatic triple-negative breast cancer; CD25 is also part of the CD25+ FOXP3+ Treg phenotype described in the TNBC microenvironment. [PMID:35121644](../papers/35121644.md)
+- IL2RA (CD25) was higher on responder peripheral CD8+ T cells during cycles 1-2 of [pembrolizumab](../drugs/pembrolizumab.md) plus low-dose [cyclophosphamide](../drugs/cyclophosphamide.md) in metastatic triple-negative breast cancer; CD25 is also part of the CD25+ [FOXP3](../genes/FOXP3.md)+ Treg phenotype described in the TNBC microenvironment. [PMID:35121644](../papers/35121644.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ IL2RA (CD25) is the interleukin-2 receptor alpha chain, expressed on activated T
 
 - [PMID:35121644](../papers/35121644.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

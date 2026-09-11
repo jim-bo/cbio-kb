@@ -8,15 +8,15 @@ tags:
   - dysplasia
   - bone-marrow
   - excess-blasts
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MDS with Excess Blasts (MDSEB)
 
 ## Overview
 
-MDS with excess blasts (MDSEB), historically termed refractory anemia with excess blasts (RAEB) under WHO 2008 nomenclature, is an MDS subtype defined by 5–19% myeloblasts in the bone marrow or 2–19% in the peripheral blood, reflecting a higher risk of progression to acute myeloid leukemia than lower-blast MDS subtypes. It sits at OncoTree level 4 under [MDS](../cancer_types/MDS.md).
+[MDS](../cancer_types/MDS.md) with excess blasts (MDSEB), historically termed refractory anemia with excess blasts (RAEB) under WHO 2008 nomenclature, is an MDS subtype defined by 5–19% myeloblasts in the bone marrow or 2–19% in the peripheral blood, reflecting a higher risk of progression to acute myeloid leukemia than lower-blast MDS subtypes. It sits at OncoTree level 4 under [MDS](../cancer_types/MDS.md).
 
 ## Cohorts in the corpus
 
@@ -38,4 +38,4 @@ MDS with excess blasts (MDSEB), historically termed refractory anemia with exces
 
 - [PMID:24030381](../papers/24030381.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

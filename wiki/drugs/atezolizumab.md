@@ -5,8 +5,8 @@ drug_class: PD-L1 inhibitor (immune checkpoint inhibitor)
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint_inhibitor, pd-l1]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # atezolizumab
@@ -30,10 +30,10 @@ Atezolizumab (MPDL3280A) is a humanized IgG1 monoclonal antibody that blocks PD-
 - Atezolizumab (PD-L1 inhibitor) was listed as a reference immunotherapy option evaluated in the FUTURE umbrella trial context for refractory metastatic TNBC; the trial used [camrelizumab](../drugs/camrelizumab.md) (anti-PD-1) rather than atezolizumab in arm C [PMID:32719455](../papers/32719455.md).
 - Atezolizumab (with cisplatin/carboplatin + [etoposide](../drugs/etoposide.md)) is noted as a current first-line standard for extensive-stage [SCLC](../cancer_types/SCLC.md) in the [SCLC](../cancer_types/SCLC.md) PDX/CDX resource paper; the MSK773 SCLC-P patient received carboplatin/etoposide and [ipilimumab](../drugs/ipilimumab.md) + [nivolumab](../drugs/nivolumab.md) without response [PMID:35440124](../papers/35440124.md)
 - Atezolizumab plus [bevacizumab](../drugs/bevacizumab.md) achieves a real-world ORR of 26–28% in advanced [HCC](../cancer_types/HCC.md); second-line ORR after progression on this combination is ~7%; lipid-metabolism reprogramming — including [ACLY](../genes/ACLY.md)-driven suppression of cGAS–STING and PD-L1 — is a proposed resistance mechanism [PMID:41118283](../papers/41118283.md).
-- 3/5 aSCLC patients (RB1+/TP53+, never/light smokers) receiving immune checkpoint inhibitors including atezolizumab remained on therapy 2 to >5 years; aSCLC lacks dual RB1/TP53 inactivation and is characterized by chromothripsis-driven [CCND1](../genes/CCND1.md)/[CDK4](../genes/CDK4.md) amplification [PMID:39185963](../papers/39185963.md).
+- 3/5 aSCLC patients ([RB1](../genes/RB1.md)+/TP53+, never/light smokers) receiving immune checkpoint inhibitors including atezolizumab remained on therapy 2 to >5 years; aSCLC lacks dual RB1/TP53 inactivation and is characterized by chromothripsis-driven [CCND1](../genes/CCND1.md)/[CDK4](../genes/CDK4.md) amplification [PMID:39185963](../papers/39185963.md).
 - As first-line monotherapy (1200 mg IV every 3 weeks) in 119 cisplatin-ineligible metastatic urothelial carcinoma patients (IMvigor210 cohort 1), atezolizumab gave a 23% objective response rate and median OS of 15.9 months, with response occurring across all PD-L1 immune-cell subgroups. [PMID:27939400](../papers/27939400.md)
-- In the IMmotion150 phase 2 trial, atezolizumab plus bevacizumab did not significantly improve PFS over sunitinib in treatment-naive metastatic RCC (ITT HR 1.00), but showed a favorable trend in PD-L1+ tumors (HR 0.64) and outperformed atezolizumab monotherapy in TeffHigh/myeloid-inflammation-high tumors. [PMID:29867230](../papers/29867230.md)
-- Response of the immune-hot UTUC clusters C4/C5 to atezolizumab in bladder cancer was cited by analogy, since these clusters share features with the TCGA 'luminal infiltrated' subtype previously linked to anti-PD-L1 response. [PMID:39550333](../papers/39550333.md)
+- In the IMmotion150 phase 2 trial, atezolizumab plus [bevacizumab](../drugs/bevacizumab.md) did not significantly improve PFS over [sunitinib](../drugs/sunitinib.md) in treatment-naive metastatic [RCC](../cancer_types/RCC.md) (ITT HR 1.00), but showed a favorable trend in PD-L1+ tumors (HR 0.64) and outperformed atezolizumab monotherapy in TeffHigh/myeloid-inflammation-high tumors. [PMID:29867230](../papers/29867230.md)
+- Response of the immune-hot [UTUC](../cancer_types/UTUC.md) clusters C4/C5 to atezolizumab in bladder cancer was cited by analogy, since these clusters share features with the TCGA 'luminal infiltrated' subtype previously linked to anti-PD-L1 response. [PMID:39550333](../papers/39550333.md)
 - Final analysis of IMvigor210 monotherapy in metastatic urothelial carcinoma (cohorts 1 and 2) reported a cohort 1 median duration of response of 59.1 months and 5-year OS of 21.6%, with higher landmark OS in PD-L1 IC2/3 tumors despite similar median OS across IC subgroups. [PMID:39642637](../papers/39642637.md)
 
 ## Resistance mechanisms
@@ -64,4 +64,4 @@ Atezolizumab (MPDL3280A) is a humanized IgG1 monoclonal antibody that blocks PD-
 - [PMID:39550333](../papers/39550333.md)
 - [PMID:39642637](../papers/39642637.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

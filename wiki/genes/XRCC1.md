@@ -3,8 +3,8 @@ symbol: XRCC1
 aliases: []
 cancer_types: [STAD]
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # XRCC1
@@ -16,11 +16,11 @@ XRCC1 encodes X-ray repair cross-complementing protein 1, a scaffold protein ess
 ## Alterations observed in the corpus
 
 - Low-penetrance XRCC1 variants (DNA-repair polymorphisms) identified as GWAS susceptibility loci for gastric adenocarcinoma; individually small risk effects but may contribute to familial aggregation in the context of H. pylori and shared environment. [PMID:41097736](../papers/41097736.md)
-- XRCC1, co-located with LIG1/POLD1 on 19q13.31-33, showed low mRNA associated with poor metastasis-free survival in a TNBC subset and reduced protein in carboplatin-resistant PDX models; with LIG3, XRCC1 provides the backup ligation pathway proposed to be compromised by LIG1/POLD1/XRCC1 codeletion [PMID:36001024](../papers/36001024.md).
+- XRCC1, co-located with LIG1/POLD1 on 19q13.31-33, showed low mRNA associated with poor metastasis-free survival in a TNBC subset and reduced protein in carboplatin-resistant PDX models; with [LIG3](../genes/LIG3.md), XRCC1 provides the backup ligation pathway proposed to be compromised by LIG1/POLD1/XRCC1 codeletion [PMID:36001024](../papers/36001024.md).
 
 ## Cancer types (linked)
 
-- **STAD** — XRCC1 DNA-repair polymorphisms are low-penetrance susceptibility loci in gastric cancer, listed alongside GSTM1-null and other xenobiotic-metabolism variants as potential contributors to familial non-hereditary gastric cancer (FNHGC). [PMID:41097736](../papers/41097736.md)
+- **[STAD](../cancer_types/STAD.md)** — XRCC1 DNA-repair polymorphisms are low-penetrance susceptibility loci in gastric cancer, listed alongside GSTM1-null and other xenobiotic-metabolism variants as potential contributors to familial non-hereditary gastric cancer (FNHGC). [PMID:41097736](../papers/41097736.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -39,4 +39,4 @@ XRCC1 encodes X-ray repair cross-complementing protein 1, a scaffold protein ess
 - [PMID:41097736](../papers/41097736.md)
 - [PMID:36001024](../papers/36001024.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

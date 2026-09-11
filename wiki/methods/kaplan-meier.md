@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [statistics, survival-analysis, visualization]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Kaplan-Meier
@@ -42,10 +42,10 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 - Kaplan-Meier analysis used to compare progression-free survival among 119 MSI-H/MMR-D endometrial cancer patients stratified by MMR-deficiency mechanism (germline, somatic, MLH1-promoter-hypermethylation); MLH1ph associated with inferior PFS (p=0.005) [PMID:35849120](../papers/35849120.md)
 - Used for overall survival analysis in the Beat [AML](../cancer_types/AML.md) Waves 1–4 cohort (n=805 [AML](../cancer_types/AML.md) patients); [PEAR1](../genes/PEAR1.md) expression stratified OS with hazard ratios comparable to the LSC17 leukemic stem-cell signature across age strata [PMID:35868306](../papers/35868306.md)
 - Used Kaplan-Meier survival analysis to characterize outcomes among nivolumab-treated metastatic renal cell carcinoma patients [PMID:27169994](../papers/27169994.md).
-- Used Kaplan-Meier to estimate progression-free and overall survival in cisplatin-ineligible urothelial carcinoma patients treated with first-line atezolizumab [PMID:27939400](../papers/27939400.md).
-- Used Kaplan-Meier survival analysis to compare progression-free survival across atezolizumab, atezolizumab+bevacizumab, and sunitinib arms in renal cell carcinoma [PMID:29867230](../papers/29867230.md).
+- Used Kaplan-Meier to [estimate](../methods/estimate.md) progression-free and overall survival in cisplatin-ineligible urothelial carcinoma patients treated with first-line [atezolizumab](../drugs/atezolizumab.md) [PMID:27939400](../papers/27939400.md).
+- Used Kaplan-Meier survival analysis to compare progression-free survival across atezolizumab, atezolizumab+[bevacizumab](../drugs/bevacizumab.md), and [sunitinib](../drugs/sunitinib.md) arms in renal cell carcinoma [PMID:29867230](../papers/29867230.md).
 - Used Kaplan-Meier to demonstrate a survival benefit associated with neoadjuvant anti-PD-1 therapy in recurrent glioblastoma [PMID:30742122](../papers/30742122.md).
-- Used Kaplan-Meier survival analysis to assess outcomes in metastatic triple-negative breast cancer patients receiving cyclophosphamide-primed pembrolizumab [PMID:35121644](../papers/35121644.md).
+- Used Kaplan-Meier survival analysis to assess outcomes in metastatic triple-negative breast cancer patients receiving cyclophosphamide-primed [pembrolizumab](../drugs/pembrolizumab.md) [PMID:35121644](../papers/35121644.md).
 - Used Kaplan-Meier to analyze survival associations of genomic-clinical features across 1015 colorectal cancer exomes [PMID:35487942](../papers/35487942.md).
 - Used Kaplan-Meier to evaluate survival outcomes associated with proteogenomic markers of chemotherapy response in triple-negative breast cancer [PMID:36001024](../papers/36001024.md).
 - Used Kaplan-Meier to compare survival across genetic subgroups in adult and pediatric Burkitt lymphoma [PMID:36201743](../papers/36201743.md).
@@ -106,4 +106,4 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 - [PMID:40511613](../papers/40511613.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -16,15 +16,15 @@ tags:
   - pembrolizumab
   - cyclophosphamide
   - iatlas-harmonized
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Metastatic Triple Negative Breast Cancer (UNC Phase II Trial, J Immunother Cancer 2022) - iAtlas Harmonized
 
 ## Overview
 
-A CRI iAtlas-harmonized whole-exome sequencing and neoantigen-landscape reprocessing (hg38) of samples from a multicenter, open-label, single-arm phase II trial (NCT02768701) testing a single low dose of cyclophosphamide before pembrolizumab in 40 patients with pretreated metastatic triple-negative [breast cancer](../cancer_types/BRCA.md). The trial paper's own genomic arm reports WES for 26 of 40 patients using PBMCs as matched normal; cBioPortal's study metadata lists 31 samples for the harmonized dataset itself. [PMID:35121644](../papers/35121644.md)
+A CRI iAtlas-harmonized whole-exome sequencing and neoantigen-landscape reprocessing (hg38) of samples from a multicenter, open-label, single-arm phase II trial (NCT02768701) testing a single low dose of [cyclophosphamide](../drugs/cyclophosphamide.md) before [pembrolizumab](../drugs/pembrolizumab.md) in 40 patients with pretreated metastatic triple-negative [breast cancer](../cancer_types/BRCA.md). The trial paper's own genomic arm reports WES for 26 of 40 patients using PBMCs as matched normal; cBioPortal's study metadata lists 31 samples for the harmonized dataset itself. [PMID:35121644](../papers/35121644.md)
 
 ## Composition
 
@@ -47,4 +47,4 @@ A CRI iAtlas-harmonized whole-exome sequencing and neoantigen-landscape reproces
 
 - cBioPortal study ID: brca_iatlas_anders_2022 (name, institution, size, reference_genome from `schema/ontology/studies.json`).
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

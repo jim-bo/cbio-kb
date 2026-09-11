@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [transcriptomics, microarray, gene-expression]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Microarray gene expression profiling
@@ -19,15 +19,15 @@ Hybridization-based platform for simultaneous measurement of mRNA abundance acro
 
 - Used across multiple [HCC](../cancer_types/HCC.md) cohorts to derive and validate prognostic signatures including a 186-gene poor-survival cirrhotic-tissue signature, a 5-gene tumor score ([TAF9](../genes/TAF9.md), [RAN](../genes/RAN.md), [RAMP3](../genes/RAMP3.md), [KRT19](../genes/KRT19.md), HN1), and the G3 transcriptomic subgroup ([TP53](../genes/TP53.md) mutation, [CDKN2A](../genes/CDKN2A.md) inactivation, cell-cycle gene overexpression); raw expression data also accessible via public datasets GSE20347, GSE23400 [PMID:25369299](../papers/25369299.md).
 - Illumina HumanHT-12 V4 expression microarrays (ArrayExpress E-MTAB-1397) analyzed via limma to characterize expression differences between MYB/MYBL1 fusion subclasses in 102 salivary adenoid cystic carcinomas [PMID:26631609](../papers/26631609.md).
-- Agilent 44K expression microarray applied to 171 tumors from 63 men with metastatic CRPC; expression clustering grouped tumors by patient, revealing high intra-individual concordance for AR activity and cell-cycle progression (CCP) scores. Data deposited at GEO accession GSE74685. [PMID:26928463](../papers/26928463.md)
+- Agilent 44K expression microarray applied to 171 tumors from 63 men with metastatic CRPC; expression clustering grouped tumors by patient, revealing high intra-individual concordance for [AR](../genes/AR.md) activity and cell-cycle progression (CCP) scores. Data deposited at GEO accession GSE74685. [PMID:26928463](../papers/26928463.md)
 - All 1,913 B-ALL cases profiled by microarray gene expression to identify the DUX4/ERG subtype cluster (141/1,913, 7.6%) as a distinct expression signature. [PMID:27776115](../papers/27776115.md)
 - HumanHT-12 Expression BeadChip (Illumina platform) applied to 118 CCA cases; transcript-level data contributed to the four-cluster integrative iCluster analysis and GSEA of PRC2-pathway dysregulation [PMID:28667006](../papers/28667006.md)
-- Used Affymetrix HG-U219 microarray gene expression profiling to assess immunomodulatory transcriptional changes with nivolumab in metastatic renal cell carcinoma [PMID:27169994](../papers/27169994.md).
+- Used Affymetrix HG-U219 microarray gene expression profiling to assess immunomodulatory transcriptional changes with [nivolumab](../drugs/nivolumab.md) in metastatic renal cell carcinoma [PMID:27169994](../papers/27169994.md).
 
 ## Notes
 
 - Cross-platform robustness, frozen-to-FFPE portability, and external validation remain incomplete for most [HCC](../cancer_types/HCC.md) microarray signatures [PMID:25369299](../papers/25369299.md).
-- Largely superseded by RNA-seq for new studies but extensive legacy HCC datasets remain on microarray platforms.
+- Largely superseded by RNA-seq for new studies but extensive legacy [HCC](../cancer_types/HCC.md) datasets remain on microarray platforms.
 
 ## Sources
 - [PMID:26631609](../papers/26631609.md)
@@ -36,4 +36,4 @@ Hybridization-based platform for simultaneous measurement of mRNA abundance acro
 - [PMID:28667006](../papers/28667006.md)
 - [PMID:27169994](../papers/27169994.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

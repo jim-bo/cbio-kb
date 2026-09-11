@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [immune-deconvolution, tumor-purity, stromal-scoring, expression-based]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ESTIMATE
@@ -18,11 +18,11 @@ ESTIMATE (Estimation of STromal and Immune cells in MAlignant Tumor tissues usin
 ## Used by
 
 - Applied to TCGA diffuse glioma expression data as part of the pan-glioma integrative analysis to estimate stromal and immune cell infiltration and tumor purity across the 1,122-sample cohort; used alongside PARADIGM and Tumor Map for multi-platform integration [PMID:26824661](../papers/26824661.md)
-- Applied to CCA transcriptome data to quantify immune infiltration, revealing elevated immune scores in both Cluster 2 and 3, but only Cluster 3 specifically upregulated immune-checkpoint genes (PDCD1, PDCD1LG2, BTLA) [PMID:28667006](../papers/28667006.md)
+- Applied to CCA transcriptome data to quantify immune infiltration, revealing elevated immune scores in both Cluster 2 and 3, but only Cluster 3 specifically upregulated immune-checkpoint genes ([PDCD1](../genes/PDCD1.md), [PDCD1LG2](../genes/PDCD1LG2.md), [BTLA](../genes/BTLA.md)) [PMID:28667006](../papers/28667006.md)
 - ESTIMATE and Bindea immune signatures applied to 206 TCGA sarcomas; NK-cell infiltration was the only immune signature correlated with disease-specific survival across multiple histologies [PMID:29100075](../papers/29100075.md)
-- Used to derive tumor-purity estimates from TCGA GBM data (n=172) for comparison with the recurrent GBM anti-PD-1 cohort; PTEN-mutant tumors had lower purity (p=0.028) [PMID:30742119](../papers/30742119.md)
+- Used to derive tumor-purity estimates from TCGA [GBM](../cancer_types/GBM.md) data (n=172) for comparison with the recurrent GBM anti-PD-1 cohort; PTEN-mutant tumors had lower purity (p=0.028) [PMID:30742119](../papers/30742119.md)
 - Used in the Sherlock-Lung NS-LUAD study (n=684 tumors) to estimate tumor purity from RNA-seq data as part of the cell-composition deconvolution workflow [PMID:40970133](../papers/40970133.md).
-- Used alongside CIBERSORT (absolute mode) and xCell for immune/stromal deconvolution in a breast cancer proteogenomic cohort [PMID:36001024](../papers/36001024.md)
+- Used alongside CIBERSORT ([absolute](../methods/absolute.md) mode) and xCell for immune/stromal deconvolution in a breast cancer proteogenomic cohort [PMID:36001024](../papers/36001024.md)
 - Used alongside ssGSEA, GSEA (GSEApy, MSigDB C2) and TIMER2.0 for expression-based immune/stromal scoring in pediatric solid-tumor PDX models [PMID:37990009](../papers/37990009.md)
 
 ## Notes
@@ -42,4 +42,4 @@ ESTIMATE (Estimation of STromal and Immune cells in MAlignant Tumor tissues usin
 - [PMID:36001024](../papers/36001024.md)
 - [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

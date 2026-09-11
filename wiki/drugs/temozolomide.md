@@ -5,8 +5,8 @@ drug_class: alkylating chemotherapy
 canonical_source: 
 unverified: 
 tags: [chemotherapy, cns-lymphoma, glioblastoma]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # temozolomide
@@ -35,13 +35,13 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - All 66 recurrent [GBM](../cancer_types/GBM.md) patients in this anti-PD-1 cohort had received standard temozolomide plus radiation as prior therapy before initiating PD-1 blockade; the study examined genomic/TME predictors of response to subsequent [nivolumab](../drugs/nivolumab.md) or [pembrolizumab](../drugs/pembrolizumab.md) [PMID:30742119](../papers/30742119.md)
 - Alkylator (temozolomide)-induced hypermutation was identified in 38 gliomas (MGMT-methylated and IDH-mutant tumors at highest risk: 30% vs 10%, P=0.006); 31/38 (82%) hypermutated recurrences harbored somatic MMR mutations, and pre-existing cell-cycle alterations in 1p19q-intact astrocytomas preceded TMZ exposure and remained clonal through hypermutation — establishing cell-cycle status as a potential biomarker of TMZ-related mutagenesis risk. [PMID:31263031](../papers/31263031.md)
 - Treatment-induced hypermutation (COSMIC signature 11, >10 mut/Mb) was observed after alkylating-agent therapy (primarily temozolomide) in adult glioma: 47% of IDHmut-noncodel, 25% of IDHmut-codel, and 16% of IDHwt recurrences; hypermutation did not associate with reduced overall survival after adjustment for age, subtype, and [MGMT](../genes/MGMT.md) methylation status [PMID:31748746](../papers/31748746.md).
-- [MGMT](../genes/MGMT.md) promoter methylation predicted response to temozolomide and concurrent RT/TMZ in the Mayo [GBM](../cancer_types/GBM.md) PDX panel, directly mirroring the human clinical phenotype and validating MGMT status as a stratification biomarker; [veliparib](../drugs/veliparib.md) + temozolomide efficacy across 28 PDX was also limited to MGMT-methylated tumors [PMID:31852831](../papers/31852831.md).
+- [MGMT](../genes/MGMT.md) promoter methylation predicted response to temozolomide and concurrent RT/TMZ in the Mayo [GBM](../cancer_types/GBM.md) PDX panel, directly mirroring the human clinical phenotype and validating [MGMT](../genes/MGMT.md) status as a stratification biomarker; [veliparib](../drugs/veliparib.md) + temozolomide efficacy across 28 PDX was also limited to MGMT-methylated tumors [PMID:31852831](../papers/31852831.md).
 - Temozolomide was used as a chemotherapy backbone in combination with matched targeted therapies in MAPPYACTS; 45/122 matched targeted therapies were combined with chemotherapy (ORR 18% vs 13% single-agent) [PMID:35292802](../papers/35292802.md)
 - In 45/114 pediatric/AYA solid tumor patients profiled by cWGTS, treatment-related somatic mutation signatures included temozolomide signatures; TMB was significantly higher in therapy-exposed versus treatment-naive samples (Mann-Whitney p=1.892e-04), confirming persistent clones surviving prior therapy [PMID:35585047](../papers/35585047.md)
 - Temozolomide-induced hypermutation (>10 mutations/Mb at recurrence) was associated with increased proliferating stem-like cells in both IDH-wild-type (n=13) and IDH-mutant (n=7) diffuse glioma, confirmed by [SOX2](../genes/SOX2.md)+/Ki67+ multiplex IF; hypermutation is a shared route to the proliferative recurrence phenotype independent of CDKN2A/CCND2 events, motivating monitoring of mutation burden as a longitudinal biomarker [PMID:35649412](../papers/35649412.md).
-- 4/6 atypical SCLC (aSCLC) patients treated with temozolomide remained on therapy >10 months (up to 2 years); long responders had lowest MGMT expression by RNA-seq; the mutational signature of TMZ was detected in treated case A07, confirming drug exposure [PMID:39185963](../papers/39185963.md).
-- Alkylating chemotherapy with temozolomide (or dacarbazine) has no validated response biomarker in SDHB-mutant pheochromocytoma/paraganglioma; the authors suggest monitoring for MMR-gene mutations, SBS11, or MGMT overexpression to flag emerging resistant cells. [PMID:40097403](../papers/40097403.md)
-- The dual PI3K/mTOR inhibitor samotolisib combined with irinotecan/temozolomide was validated in vivo as a translational strategy for MYOD1 L122R-mutant spindle cell/sclerosing rhabdomyosarcoma. [PMID:41758938](../papers/41758938.md)
+- 4/6 atypical [SCLC](../cancer_types/SCLC.md) (aSCLC) patients treated with temozolomide remained on therapy >10 months (up to 2 years); long responders had lowest MGMT expression by RNA-seq; the mutational signature of TMZ was detected in treated case A07, confirming drug exposure [PMID:39185963](../papers/39185963.md).
+- Alkylating chemotherapy with temozolomide (or [dacarbazine](../drugs/dacarbazine.md)) has no validated response biomarker in SDHB-mutant pheochromocytoma/paraganglioma; the authors suggest monitoring for MMR-gene mutations, SBS11, or MGMT overexpression to flag emerging resistant cells. [PMID:40097403](../papers/40097403.md)
+- The dual PI3K/mTOR inhibitor [samotolisib](../drugs/samotolisib.md) combined with irinotecan/temozolomide was validated in vivo as a translational strategy for [MYOD1](../genes/MYOD1.md) L122R-mutant spindle cell/sclerosing rhabdomyosarcoma. [PMID:41758938](../papers/41758938.md)
 
 ## Resistance mechanisms
 
@@ -64,7 +64,7 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - [PMID:38758238](../papers/38758238.md)
 - [PMID:39289779](../papers/39289779.md) — Hickman et al. 2024, MSK CSF ctDNA series; TMZ mutational signature detectable in glioma CSF ctDNA.
 - [PMID:39305899](../papers/39305899.md) — Duminuco et al. 2024, UCLA PDTO sarcoma screen; [irinotecan](../drugs/irinotecan.md) + temozolomide in matched-therapy cohort.
-- [PMID:18772890](../papers/18772890.md) — TCGA Research Network 2008, GBM interim analysis; [MGMT](../genes/MGMT.md) methylation, alkylator response, and hypermutator phenotype.
+- [PMID:18772890](../papers/18772890.md) — TCGA Research Network 2008, [GBM](../cancer_types/GBM.md) interim analysis; [MGMT](../genes/MGMT.md) methylation, alkylator response, and hypermutator phenotype.
 - [PMID:28472509](../papers/28472509.md) — Thomas et al. 2017, *J Clin Oncol*. Phase II NCT00588523; TMZ induction + HDC-ASCT in anaplastic oligodendroglioma; 2-year PFS 85.7% in transplanted patients; TMZ non-inferior to PCV induction.
 
 - [PMID:24120142](../papers/24120142.md)
@@ -87,4 +87,4 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - [PMID:40097403](../papers/40097403.md)
 - [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

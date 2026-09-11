@@ -3,8 +3,8 @@ symbol: MAP2K1
 aliases: [MEK1]
 cancer_types: [LCH, ECD]
 tags: [mapk, histiocytosis, actionable]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MAP2K1
@@ -40,7 +40,7 @@ MAP2K1 (MEK1) is a core MAPK-pathway kinase and an actionable driver in histiocy
 - MAP2K1/MAP2K2 combined at 7% in 696 melanomas ([mel_mskimpact_2020](../datasets/mel_mskimpact_2020.md)); MAP2K1 indels (residues 98–113) act as sole drivers; MAP2K1 missense E203K behaves as a RAF-dependent amplifier requiring co-altered [BRAF](../genes/BRAF.md) Class 2 — combination with [BRAF](../genes/BRAF.md) K601E produced a durable complete response to [trametinib](../drugs/trametinib.md) [PMID:33509808](../papers/33509808.md)
 - MAP2K1 activating mutations found in 0.3% of metastatic HER2-amplified breast cancers (0% in primary; n=733 tumors); included in the MAPK-pathway alteration group associated with ~2-fold worse PFS on first-line anti-HER2 therapy (HR 2.03, p=0.023). [PMID:34795269](../papers/34795269.md)
 - MAP2K1 C121S was observed as an acquired MAPK-activating alteration in patients with RET-fusion [NSCLC](../cancer_types/NSCLC.md) at [selpercatinib](../drugs/selpercatinib.md) progression, representing a bypass resistance mechanism [PMID:35304457](../papers/35304457.md).
-- Truncal cfDNA variant p.Q56P (VAF > 10%) detected in a temozolomide-treated SDHB-mutant pheochromocytoma/paraganglioma patient, alongside NUTM1 p.P88L [PMID:40097403](../papers/40097403.md).
+- Truncal cfDNA variant p.Q56P (VAF > 10%) detected in a temozolomide-treated SDHB-mutant pheochromocytoma/paraganglioma patient, alongside [NUTM1](../genes/NUTM1.md) p.P88L [PMID:40097403](../papers/40097403.md).
 
 ## Cancer types (linked)
 
@@ -112,4 +112,4 @@ MAP2K1 (MEK1) is a core MAPK-pathway kinase and an actionable driver in histiocy
 - [PMID:35304457](../papers/35304457.md)
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

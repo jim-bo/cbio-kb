@@ -10,8 +10,8 @@ tags:
   - chemoradiation
   - hnscc
   - standard-of-care
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # cisplatin
@@ -64,14 +64,14 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - Cisplatin is referenced as part of FOLFOX/FLOT regimens (5-FU/leucovorin/oxaliplatin ± [docetaxel](../drugs/docetaxel.md)) in neoadjuvant treatment of 237 locally advanced esophageal/GEJ adenocarcinoma patients; FOLFOX was significantly associated with better pathologic response than carboplatin/paclitaxel (OR 2.38, p=0.013) [PMID:35377946](../papers/35377946.md)
 - Cisplatin (with [carboplatin](../drugs/carboplatin.md) + [etoposide](../drugs/etoposide.md) and [atezolizumab](../drugs/atezolizumab.md) or [durvalumab](../drugs/durvalumab.md)) is noted as first-line platinum-based chemoimmunotherapy standard for extensive-stage [SCLC](../cancer_types/SCLC.md) [PMID:35440124](../papers/35440124.md)
 - In a sarcoma patient with [ATM](../genes/ATM.md) exon 57 truncation, failure of prior doxorubicin/cisplatin chemotherapy preceded enrollment in PARP + ATR-inhibitor combination trial, yielding >1-year stable disease; authors cite cisplatin as part of the standard prior-treatment backdrop in heavily pre-treated sarcoma (median 4 prior therapies) [PMID:35705558](../papers/35705558.md).
-- Cisplatin-based chemotherapy (with [etoposide](../drugs/etoposide.md)) achieved only ~33% CR/PR in atypical SCLC (aSCLC), substantially below the conventional SCLC benchmark of ~70%; aSCLC is defined by RB1+/TP53+ status and chromothripsis [PMID:39185963](../papers/39185963.md).
-- Historical comparator: first-line cisplatin-based regimens gave 15.2-15.8 month median OS in cisplatin-eligible metastatic urothelial carcinoma, versus 15.9 months for atezolizumab in this cisplatin-ineligible cohort. [PMID:27939400](../papers/27939400.md)
-- A single-agent neoadjuvant cisplatin trial served as an external validation cohort in which LIG1 mRNA was lower in non-responders (SD+PD) than responders (CR+PR), consistent with the carboplatin-resistance finding in the discovery TNBC cohort. [PMID:36001024](../papers/36001024.md)
+- Cisplatin-based chemotherapy (with [etoposide](../drugs/etoposide.md)) achieved only ~33% CR/PR in atypical [SCLC](../cancer_types/SCLC.md) (aSCLC), substantially below the conventional SCLC benchmark of ~70%; aSCLC is defined by [RB1](../genes/RB1.md)+/TP53+ status and chromothripsis [PMID:39185963](../papers/39185963.md).
+- Historical comparator: first-line cisplatin-based regimens gave 15.2-15.8 month median OS in cisplatin-eligible metastatic urothelial carcinoma, versus 15.9 months for [atezolizumab](../drugs/atezolizumab.md) in this cisplatin-ineligible cohort. [PMID:27939400](../papers/27939400.md)
+- A single-agent neoadjuvant cisplatin trial served as an external validation cohort in which [LIG1](../genes/LIG1.md) mRNA was lower in non-responders (SD+PD) than responders (CR+PR), consistent with the carboplatin-resistance finding in the discovery TNBC cohort. [PMID:36001024](../papers/36001024.md)
 - Of 6 chemotherapy-treated patients whose primary tumor/PDX pairs showed the platinum mutational signatures SBS31/SBS35, 5 had received cisplatin. [PMID:37990009](../papers/37990009.md)
-- In SWOG S1314, cisplatin-eligible muscle-invasive bladder cancer patients received neoadjuvant gemcitabine-cisplatin or ddMVAC; deleterious alterations in a 9-gene DNA-damage-response panel (including ERCC2) were associated with pathologic complete response to cisplatin-based neoadjuvant chemotherapy. [PMID:39499893](../papers/39499893.md)
-- UTUC patient PT23 (MSI-H, Lynch syndrome, cluster C3) was treated with gemcitabine/cisplatin plus radiotherapy for a brain metastasis before responding durably to pembrolizumab. [PMID:39550333](../papers/39550333.md)
+- In SWOG S1314, cisplatin-eligible muscle-invasive bladder cancer patients received neoadjuvant gemcitabine-cisplatin or ddMVAC; deleterious alterations in a 9-gene DNA-damage-response panel (including [ERCC2](../genes/ERCC2.md)) were associated with pathologic complete response to cisplatin-based neoadjuvant chemotherapy. [PMID:39499893](../papers/39499893.md)
+- [UTUC](../cancer_types/UTUC.md) patient PT23 (MSI-H, Lynch syndrome, cluster C3) was treated with gemcitabine/cisplatin plus radiotherapy for a brain metastasis before responding durably to [pembrolizumab](../drugs/pembrolizumab.md). [PMID:39550333](../papers/39550333.md)
 - Cohort 1 patients (n=119) in the final IMvigor210 analysis were cisplatin-ineligible (renal impairment, hearing loss, neuropathy or ECOG PS 2) and received atezolizumab monotherapy instead. [PMID:39642637](../papers/39642637.md)
-- Case report: a gallbladder cancer patient progressed on FOLFOX then gemcitabine/cisplatin before achieving a partial response to the HER2 bispecific antibody zanidatamab. [PMID:42360806](../papers/42360806.md)
+- Case report: a gallbladder cancer patient progressed on FOLFOX then gemcitabine/cisplatin before achieving a partial response to the HER2 bispecific antibody [zanidatamab](../drugs/zanidatamab.md). [PMID:42360806](../papers/42360806.md)
 
 ## Resistance mechanisms
 
@@ -139,4 +139,4 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - [PMID:39642637](../papers/39642637.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

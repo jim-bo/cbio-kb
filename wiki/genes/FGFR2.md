@@ -3,8 +3,8 @@ symbol: FGFR2
 aliases: []
 cancer_types: [BLCA, UTUC, PAAD]
 tags: [oncogene, receptor-tyrosine-kinase, fusion]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # FGFR2
@@ -50,7 +50,7 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - Pan-cancer fusion driver in 10,194 Asian solid-tumor patients; FGFR2 and [FGFR3](../genes/FGFR3.md) together accounted for ~50 of 513 fusion events detected by the OrigiMed panel; multiple novel partner genes catalogued [PMID:35871175](../papers/35871175.md)
 - Pathogenic [FGFR2](FGFR2.md) mutation detected in CD37 adenosarcoma cfDNA by MSK-ACCESS in a longitudinal endometrial cancer ctDNA monitoring study [PMID:36007103](../papers/36007103.md)
 - FGFR2 amplification or fusion observed in CAC (colitis-associated cancer, rare in sporadic CRC); selective FGFR inhibitor active in a CAC PDX model; FDA-approved FGFR inhibitors exist for cholangiocarcinoma, supporting trial eligibility for CAC. [PMID:36611031](../papers/36611031.md)
-- FGFR2 fusions were found as rare co-drivers (2 de novo, 1 acquired) in non-lung MET-amplified tumors in a pan-cancer MET amplification cohort. [PMID:36044468](../papers/36044468.md)
+- FGFR2 fusions were found as rare co-drivers (2 de novo, 1 acquired) in non-lung MET-amplified tumors in a pan-cancer [MET](../genes/MET.md) amplification cohort. [PMID:36044468](../papers/36044468.md)
 - FGFR2 fusions are linked to strikingly early age at diagnosis in a pan-cancer hotspot mutation study. [PMID:41895280](../papers/41895280.md)
 - FGFR2 fusions are enriched in intrahepatic cholangiocarcinoma; 37/72 fusion-positive patients received matched therapy with median PFS 7.4 months, and a second-site N549K mutation arose after FGFR2 inhibition in one case. [PMID:42360806](../papers/42360806.md)
 
@@ -144,4 +144,4 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - [PMID:41895280](../papers/41895280.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

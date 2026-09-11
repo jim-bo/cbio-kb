@@ -3,8 +3,8 @@ symbol: RFX7
 aliases: []
 cancer_types: [CLLSLL]
 tags: [cll-driver, novel-driver]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # RFX7
@@ -16,7 +16,7 @@ RFX7 is a regulatory factor X family transcription factor. In the corpus it is n
 ## Alterations observed in the corpus
 
 - Novel U-CLL driver associated with poor FFS/OS in the 1,148-patient CLL map [PMID:35927489](../papers/35927489.md).
-- One of five significantly mutated genes (with SIN3A, USP7, H1-4/HIST1H1E, CHD8) in Burkitt lymphoma whose role in BL this study further supports. [PMID:36201743](../papers/36201743.md)
+- One of five significantly mutated genes (with [SIN3A](../genes/SIN3A.md), [USP7](../genes/USP7.md), H1-4/HIST1H1E, [CHD8](../genes/CHD8.md)) in Burkitt lymphoma whose role in [BL](../cancer_types/BL.md) this study further supports. [PMID:36201743](../papers/36201743.md)
 
 ## Cancer types (linked)
 
@@ -39,4 +39,4 @@ RFX7 is a regulatory factor X family transcription factor. In the corpus it is n
 - [PMID:35927489](../papers/35927489.md)
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

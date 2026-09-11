@@ -13,8 +13,8 @@ tags:
   - ETV6
   - larotrectinib
   - NTRK-inhibitor
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # NTRK3
@@ -47,7 +47,7 @@ NTRK3 (Neurotrophic Receptor Tyrosine Kinase 3, also TRKC) is a member of the ne
 - Pan-cancer fusion driver with novel partner genes catalogued in Chinese solid-tumor cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md)); pathogenic NTRK3 mutation also in CD26 carcinosarcoma tracked by cfDNA [PMID:35871175](../papers/35871175.md)
 - Pathogenic NTRK3 mutation detected in CD26 carcinosarcoma ctDNA monitored by MSK-ACCESS in EC cfDNA pilot study ([ucec_ccr_cfdna_msk_2022](../datasets/ucec_ccr_cfdna_msk_2022.md), n=44) [PMID:36007103](../papers/36007103.md)
 - In a pediatric solid-tumor PDX cohort, a TAOK1-NTRK3 fusion was identified as a clinically actionable kinase fusion [PMID:37990009](../papers/37990009.md).
-- In a pan-cancer hotspot survey, NTRK3 fusions (with ALK, ROS1, NTRK1, NTRK2, FGFR2) were linked to strikingly early age at diagnosis [PMID:41895280](../papers/41895280.md).
+- In a pan-cancer hotspot survey, NTRK3 fusions (with [ALK](../genes/ALK.md), [ROS1](../genes/ROS1.md), [NTRK1](../genes/NTRK1.md), [NTRK2](../genes/NTRK2.md), [FGFR2](../genes/FGFR2.md)) were linked to strikingly early age at diagnosis [PMID:41895280](../papers/41895280.md).
 
 ## Cancer types (linked)
 
@@ -103,4 +103,4 @@ NTRK3 (Neurotrophic Receptor Tyrosine Kinase 3, also TRKC) is a member of the ne
 - [PMID:37990009](../papers/37990009.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

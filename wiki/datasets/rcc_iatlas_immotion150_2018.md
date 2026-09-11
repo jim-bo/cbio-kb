@@ -17,15 +17,15 @@ tags:
   - bevacizumab
   - sunitinib
   - clinical-trial
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Renal Cell Carcinoma (IMmotion150 Clinical Trial, Nat Med. 2018) - iAtlas Harmonized
 
 ## Overview
 
-IMmotion150: a randomized, open-label phase 2 trial (96 institutions) in 305 patients with treatment-naive metastatic renal cell carcinoma ([RCC](../cancer_types/RCC.md)), randomizing 1:1:1 to atezolizumab + bevacizumab, atezolizumab alone, or sunitinib; sequencing data reprocessed and harmonized by CRI iAtlas. Name, institution, size (263) and reference genome (hg38) are taken from the cBioPortal study record in `schema/ontology/studies.json`, matching the 263 tumors with RNA-seq described in the paper [PMID:29867230](../papers/29867230.md).
+IMmotion150: a randomized, open-label phase 2 trial (96 institutions) in 305 patients with treatment-naive metastatic renal cell carcinoma ([RCC](../cancer_types/RCC.md)), randomizing 1:1:1 to [atezolizumab](../drugs/atezolizumab.md) + [bevacizumab](../drugs/bevacizumab.md), atezolizumab alone, or [sunitinib](../drugs/sunitinib.md); sequencing data reprocessed and harmonized by CRI iAtlas. Name, institution, size (263) and reference genome (hg38) are taken from the cBioPortal study record in `schema/ontology/studies.json`, matching the 263 tumors with RNA-seq described in the paper [PMID:29867230](../papers/29867230.md).
 
 ## Composition
 
@@ -51,4 +51,4 @@ IMmotion150: a randomized, open-label phase 2 trial (96 institutions) in 305 pat
 - cBioPortal study record: `rcc_iatlas_immotion150_2018` (name, institution, size, reference_genome taken from `schema/ontology/studies.json`).
 - [PMID:29867230](../papers/29867230.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -3,8 +3,8 @@ symbol: CD8B
 aliases: []
 cancer_types: [COAD]
 tags: [t-cell, icr-signature, immune-infiltration]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CD8B
@@ -17,7 +17,7 @@ CD8B encodes the beta chain of the CD8 co-receptor, paired with [CD8A](../genes/
 
 - Included in the 20-gene Immunologic Constant of Rejection (ICR) signature applied to the 348-patient AC-ICAM colon cancer cohort [PMID:37202560](../papers/37202560.md).
 - CD8B (CD8 beta chain) was not significantly differentially expressed between anti-PD-1 responders and non-responders in whole-tumor transcriptome analysis of melanoma, suggesting bulk RNA-seq may mask immune-cell-restricted signals [PMID:26997480](../papers/26997480.md).
-- CD8B T-cell transcripts increased in tumor on nivolumab, alongside CD3D/CD3E/CD3G/CD8A, matching the IHC increase in CD8+ infiltrates [PMID:27169994](../papers/27169994.md).
+- CD8B T-cell transcripts increased in tumor on [nivolumab](../drugs/nivolumab.md), alongside CD3D/CD3E/CD3G/CD8A, matching the IHC increase in CD8+ infiltrates [PMID:27169994](../papers/27169994.md).
 
 ## Cancer types (linked)
 
@@ -41,4 +41,4 @@ CD8B encodes the beta chain of the CD8 co-receptor, paired with [CD8A](../genes/
 - [PMID:26997480](../papers/26997480.md)
 - [PMID:27169994](../papers/27169994.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -5,8 +5,8 @@ cancer_types:
   - PHC
   - PGNG
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # TRIP13
@@ -21,7 +21,7 @@ TRIP13 (Thyroid Hormone Receptor Interactor 13) is an AAA-ATPase involved in the
 
 ## Cancer types (linked)
 
-- [PHC](../cancer_types/PHC.md) / [PGNG](../cancer_types/PGNG.md) — TRIP13 (with [IRX3](../genes/IRX3.md)) was specifically differentially expressed in TERT-altered tumors within a multi-omic SDHB-deficient PCPG cohort [PMID:40097403](../papers/40097403.md).
+- [PHC](../cancer_types/PHC.md) / [PGNG](../cancer_types/PGNG.md) — TRIP13 (with [IRX3](../genes/IRX3.md)) was specifically differentially expressed in TERT-altered tumors within a multi-omic SDHB-deficient [PCPG](../cancer_types/PCPG.md) cohort [PMID:40097403](../papers/40097403.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -33,10 +33,10 @@ TRIP13 (Thyroid Hormone Receptor Interactor 13) is an AAA-ATPase involved in the
 
 ## Open questions
 
-- Whether TRIP13 upregulation is mechanistically linked to TERT alteration (e.g., telomere maintenance) or is a downstream bystander effect is unresolved in the source text [PMID:40097403](../papers/40097403.md).
+- Whether TRIP13 upregulation is mechanistically linked to [TERT](../genes/TERT.md) alteration (e.g., telomere maintenance) or is a downstream bystander effect is unresolved in the source text [PMID:40097403](../papers/40097403.md).
 
 ## Sources
 
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

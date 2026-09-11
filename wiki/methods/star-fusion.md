@@ -5,15 +5,15 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [fusion-calling, rna-seq, gene-fusion]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # STAR-Fusion
 
 ## Overview
 
-STAR-Fusion is a gene-fusion detection tool that uses the [STAR](../genes/STAR.md) aligner to identify chimeric RNA reads spanning two distinct genomic loci. It applies a series of filters (panel-of-normals, FFPM thresholds, minimum read support) to reduce false-positive fusion calls from RNA-seq data. STAR-Fusion is the dominant caller in multi-tool fusion pipelines due to its sensitivity and integration with the widely-used STAR aligner.
+STAR-Fusion is a gene-fusion detection tool that uses the [STAR](../genes/STAR.md) aligner to identify chimeric RNA reads spanning two distinct genomic loci. It applies a series of filters (panel-of-normals, FFPM thresholds, minimum read support) to reduce false-positive fusion calls from RNA-seq data. STAR-Fusion is the dominant caller in multi-tool fusion pipelines due to its sensitivity and integration with the widely-used [STAR](../genes/STAR.md) aligner.
 
 ## Used by
 
@@ -35,4 +35,4 @@ STAR-Fusion is a gene-fusion detection tool that uses the [STAR](../genes/STAR.m
 - [PMID:40970133](../papers/40970133.md)
 - [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

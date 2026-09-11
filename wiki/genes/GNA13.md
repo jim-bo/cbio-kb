@@ -3,8 +3,8 @@ symbol: GNA13
 aliases: []
 cancer_types: [CHL]
 tags: [early-event, lymphoma-driver]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # GNA13
@@ -21,8 +21,8 @@ GNA13 encodes a Gα13 heterotrimeric G-protein subunit and is a recurrently inac
 - GNA13 was recurrently mutated in DLBCL and [FL](../cancer_types/FL.md) through whole-genome/exome sequencing, implicating G-protein signaling in lymphomagenesis [PMID:21796119](../papers/21796119.md)
 - GNA13 is recurrently mutated in DLBCL by whole-exome sequencing of 55 tumors (MutSig analysis, Broad Institute) [PMID:22343534](../papers/22343534.md)
 - Mutations in 20% of [PCNSL](../cancer_types/PCNSL.md); recurrent homozygous deletion [PMID:25991819](../papers/25991819.md)
-- Preferentially mutated in GCB-DLBCL alongside SOCS1, STAT6, and TNFRSF14; GNA13 mutations are a GCB-enriched driver event in the comprehensive 1,001-patient DLBCL analysis [PMID:28985567](../papers/28985567.md)
-- GNA13 identified as a BCR/PI3K signaling modifier in DLBCL C3/C4 genetic subtypes in 304-patient WES cohort; co-listed with SGK1, TNFSF14, and HVCN1 as recurrently mutated in these clusters. [PMID:29713087](../papers/29713087.md)
+- Preferentially mutated in GCB-DLBCL alongside [SOCS1](../genes/SOCS1.md), [STAT6](../genes/STAT6.md), and [TNFRSF14](../genes/TNFRSF14.md); GNA13 mutations are a GCB-enriched driver event in the comprehensive 1,001-patient DLBCL analysis [PMID:28985567](../papers/28985567.md)
+- GNA13 identified as a BCR/PI3K signaling modifier in DLBCL C3/C4 genetic subtypes in 304-patient WES cohort; co-listed with [SGK1](../genes/SGK1.md), [TNFSF14](../genes/TNFSF14.md), and [HVCN1](../genes/HVCN1.md) as recurrently mutated in these clusters. [PMID:29713087](../papers/29713087.md)
 - Defining gene of the DGG-BL molecular subgroup of Burkitt lymphoma; mutated across all DLBCL subgroups examined [PMID:36201743](../papers/36201743.md).
 
 ## Cancer types (linked)
@@ -56,4 +56,4 @@ GNA13 encodes a Gα13 heterotrimeric G-protein subunit and is a recurrently inac
 - [PMID:29713087](../papers/29713087.md)
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

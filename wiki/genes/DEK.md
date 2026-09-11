@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - RBL
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # DEK
@@ -16,12 +16,12 @@ DEK is a chromatin-associated protein involved in DNA repair, replication, and t
 
 ## Alterations observed in the corpus
 
-- DEK is discussed as a driver candidate in retinoblastoma (rbl_mskcc_2020, n=83 enucleated specimens) but no recurrent coding mutations in DEK were detected in this MSK-IMPACT–profiled cohort; it is listed among previously proposed candidates without recurrent somatic mutation support in this dataset [PMID:33466343](../papers/33466343.md).
-- DEK::NUP214 fusion defines an AML molecular subgroup (16/887 cases, HOXB superfamily) with favorable outcome in the AAML1031 validation cohort, contrasting with its historically poor prognosis [PMID:38212634](../papers/38212634.md).
+- DEK is discussed as a driver candidate in retinoblastoma ([rbl_mskcc_2020](../datasets/rbl_mskcc_2020.md), n=83 enucleated specimens) but no recurrent coding mutations in DEK were detected in this MSK-IMPACT–profiled cohort; it is listed among previously proposed candidates without recurrent somatic mutation support in this dataset [PMID:33466343](../papers/33466343.md).
+- DEK::[NUP214](../genes/NUP214.md) fusion defines an [AML](../cancer_types/AML.md) molecular subgroup (16/887 cases, HOXB superfamily) with favorable outcome in the AAML1031 validation cohort, contrasting with its historically poor prognosis [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
-- **Retinoblastoma (RBL):** DEK is a previously proposed driver candidate based on prior literature; no recurrent somatic coding mutations identified in 83 MSK-IMPACT–profiled specimens [PMID:33466343](../papers/33466343.md).
+- **Retinoblastoma ([RBL](../cancer_types/RBL.md)):** DEK is a previously proposed driver candidate based on prior literature; no recurrent somatic coding mutations identified in 83 MSK-IMPACT–profiled specimens [PMID:33466343](../papers/33466343.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -40,4 +40,4 @@ DEK is a chromatin-associated protein involved in DNA repair, replication, and t
 - [PMID:33466343](../papers/33466343.md)
 - [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

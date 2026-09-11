@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [sequencing, non-coding-rna, expression]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # miRNA-seq
@@ -24,18 +24,18 @@ Small RNA (microRNA) sequencing by next-generation sequencing platforms; quantif
 - Included in the TCGA breast cancer ILC/IDC multi-platform study (n=817) for miRNA expression profiling as part of the comprehensive molecular characterization distinguishing [ILC](../cancer_types/ILC.md) from [IDC](../cancer_types/IDC.md) [PMID:26451490](../papers/26451490.md)
 - Profiled miRNA expression in 330 of 333 primary prostate adenocarcinomas (TCGA) as part of multi-platform molecular characterization that defined seven mutually exclusive molecular subtypes [PMID:26544944](../papers/26544944.md).
 - miRNA-seq applied to TCGA glioma samples as part of the multi-platform pan-glioma data integration defining molecular subtypes [PMID:26824661](../papers/26824661.md)
-- Applied to 66 primary MRTs; unsupervised clustering of 535 miRNAs split MRT into a larger sub-group (n=57) clustering with normal cerebellum and TCGA PCPG, and a smaller sub-group (n=9) clustering with synovial sarcomas, linking MRT to neural-crest lineages. [PMID:26977886](../papers/26977886.md)
-- miRNA-seq referenced as one of multiple sequencing modalities applied in molecular characterization studies of young-onset lung cancer (NSCLC) populations [PMID:40958859](../papers/40958859.md)
+- Applied to 66 primary MRTs; unsupervised clustering of 535 miRNAs split [MRT](../cancer_types/MRT.md) into a larger sub-group (n=57) clustering with normal cerebellum and TCGA [PCPG](../cancer_types/PCPG.md), and a smaller sub-group (n=9) clustering with synovial sarcomas, linking MRT to neural-crest lineages. [PMID:26977886](../papers/26977886.md)
+- miRNA-seq referenced as one of multiple sequencing modalities applied in molecular characterization studies of young-onset lung cancer ([NSCLC](../cancer_types/NSCLC.md)) populations [PMID:40958859](../papers/40958859.md)
 - miRNA-seq included in the multi-platform TCGA esophageal/stomach profiling of 164 oesophageal carcinomas; APOBEC signature was enriched in ESCC2 subtype and miRNA data contributed to iCluster subtyping [PMID:28052061](../papers/28052061.md).
-- miRNA sequencing applied to 173 PCPG tumors in the TCGA PCPG study; miR-375 underexpression in MAML3 fusion-positive (Wnt-altered) tumors was noted; miRNA cluster 3 with mir-210 overexpression tightly associated with the pseudohypoxia subtype [PMID:28162975](../papers/28162975.md).
-- Performed on 412 BLCA tumors; four miRNA consensus clusters with distinct survival (p=1.7×10⁻³) refined the mRNA expression taxonomy [PMID:28988769](../papers/28988769.md)
-- Performed on 206 TCGA sarcomas; miR-181b-5p identified as an independent prognostic marker for recurrence-free survival in LMS (multivariate HR=7.4, p=9×10⁻⁶) [PMID:29100075](../papers/29100075.md)
+- miRNA sequencing applied to 173 PCPG tumors in the TCGA PCPG study; miR-375 underexpression in [MAML3](../genes/MAML3.md) fusion-positive (Wnt-altered) tumors was noted; miRNA cluster 3 with mir-210 overexpression tightly associated with the pseudohypoxia subtype [PMID:28162975](../papers/28162975.md).
+- Performed on 412 [BLCA](../cancer_types/BLCA.md) tumors; four miRNA consensus clusters with distinct survival (p=1.7×10⁻³) refined the mRNA expression taxonomy [PMID:28988769](../papers/28988769.md)
+- Performed on 206 TCGA sarcomas; miR-181b-5p identified as an independent prognostic marker for recurrence-free survival in [LMS](../cancer_types/LMS.md) (multivariate HR=7.4, p=9×10⁻⁶) [PMID:29100075](../papers/29100075.md)
 - Used as one of four platforms in iCluster integrative analysis of 9,759 TCGA PanCancer Atlas tumors; miRNA contributed as part of the 42% transcriptome signal in the 28-iCluster solution [PMID:29625048](../papers/29625048.md).
-- Small RNA-seq on Illumina HiSeq (TruSeq Small RNA kit, ~11.5M reads/sample, BWA-aligned to miRBase) used to profile 11 HCA and 10 HCC tumors; identified 6 concordantly deregulated miRNAs and C19MC locus as candidate HCA-to-HCC transformation markers [PMID:30052636](../papers/30052636.md)
-- Applied alongside RNA-Seq and proteomics on CPTAC colon cancer prospective cohort (coad_cptac_2019, n=110) as part of multi-omic profiling including WXS, copy-number array, RNA-Seq, TMT proteomics, and phosphoproteomics [PMID:31031003](../papers/31031003.md)
+- Small RNA-seq on Illumina HiSeq (TruSeq Small RNA kit, ~11.5M reads/sample, BWA-aligned to miRBase) used to profile 11 HCA and 10 [HCC](../cancer_types/HCC.md) tumors; identified 6 concordantly deregulated miRNAs and C19MC locus as candidate HCA-to-HCC transformation markers [PMID:30052636](../papers/30052636.md)
+- Applied alongside RNA-Seq and proteomics on CPTAC colon cancer prospective cohort ([coad_cptac_2019](../datasets/coad_cptac_2019.md), n=110) as part of multi-omic profiling including WXS, copy-number array, RNA-Seq, TMT proteomics, and phosphoproteomics [PMID:31031003](../papers/31031003.md)
 - Nanostring miRNA profiling of 734 miRNAs applied across 954 of the 1,072 CCLE cancer cell lines; generated in the expanded multi-omic CCLE characterization alongside WES, WGS, RNA-seq, RRBS, RPPA, and H3 mass-spec [PMID:31068700](../papers/31068700.md)
 - Integrated alongside total RNA-seq in the CPTAC endometrial carcinoma proteogenomics study (n=95 tumors) to identify miRNA binding sites on circRNAs; 234 recurrent circRNAs found with QKI-correlated circRNAs harboring predicted sites for 36 miRNAs including miR-200c [PMID:32059776](../papers/32059776.md).
-- miRNA-seq (≥10M reads per sample) performed on all 99 treatment-naive GBM tumors as part of 10-platform CPTAC proteogenomic profiling study [PMID:33577785](../papers/33577785.md)
+- miRNA-seq (≥10M reads per sample) performed on all 99 treatment-naive [GBM](../cancer_types/GBM.md) tumors as part of 10-platform CPTAC proteogenomic profiling study [PMID:33577785](../papers/33577785.md)
 - Used miRNA-seq as part of multi-omic profiling of SDHB-deficient pheochromocytoma and paraganglioma [PMID:40097403](../papers/40097403.md).
 
 ## Notes
@@ -63,4 +63,4 @@ Small RNA (microRNA) sequencing by next-generation sequencing platforms; quantif
 - [PMID:33577785](../papers/33577785.md)
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

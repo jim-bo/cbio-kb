@@ -4,8 +4,8 @@ oncotree_code: BILIARY_TRACT
 main_type: Biliary Tract Cancer
 parent: TISSUE
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Biliary Tract (BILIARY_TRACT)
@@ -24,7 +24,7 @@ Biliary Tract (OncoTree: BILIARY_TRACT) is a level-1 OncoTree grouping encompass
 
 ## Subtypes
 
-- More specific biliary subtypes in OncoTree include CHOL (cholangiocarcinoma), IHCH (intrahepatic cholangiocarcinoma), EHCH (extrahepatic cholangiocarcinoma), and [GBC](../cancer_types/GBC.md) (gallbladder carcinoma).
+- More specific biliary subtypes in OncoTree include [CHOL](../cancer_types/CHOL.md) (cholangiocarcinoma), [IHCH](../cancer_types/IHCH.md) (intrahepatic cholangiocarcinoma), [EHCH](../cancer_types/EHCH.md) (extrahepatic cholangiocarcinoma), and [GBC](../cancer_types/GBC.md) (gallbladder carcinoma).
 
 ## Therapeutic landscape
 
@@ -36,4 +36,4 @@ Biliary Tract (OncoTree: BILIARY_TRACT) is a level-1 OncoTree grouping encompass
 - [PMID:31871300](../papers/31871300.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

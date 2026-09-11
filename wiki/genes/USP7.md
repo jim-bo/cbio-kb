@@ -3,8 +3,8 @@ symbol: USP7
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # USP7
@@ -15,8 +15,8 @@ USP7 (ubiquitin-specific peptidase 7, also known as HAUSP) is a deubiquitinase t
 
 ## Alterations observed in the corpus
 
-- Identified as a ubiquitin-pathway SMG in a 1,013-sample prostate cancer cohort (discovery + MSK-IMPACT validation); co-nominated with USP28 as a novel driver in the ubiquitin pathway [PMID:29610475](../papers/29610475.md)
-- USP7 is a Burkitt lymphoma significantly mutated gene (SMG) whose role this study further supports, alongside SIN3A, H1-4, CHD8 and RFX7 [PMID:36201743](../papers/36201743.md).
+- Identified as a ubiquitin-pathway SMG in a 1,013-sample prostate cancer cohort (discovery + MSK-IMPACT validation); co-nominated with [USP28](../genes/USP28.md) as a novel driver in the ubiquitin pathway [PMID:29610475](../papers/29610475.md)
+- USP7 is a Burkitt lymphoma significantly mutated gene (SMG) whose role this study further supports, alongside [SIN3A](../genes/SIN3A.md), [H1-4](../genes/H1-4.md), [CHD8](../genes/CHD8.md) and [RFX7](../genes/RFX7.md) [PMID:36201743](../papers/36201743.md).
 
 ## Cancer types (linked)
 
@@ -28,7 +28,7 @@ USP7 (ubiquitin-specific peptidase 7, also known as HAUSP) is a deubiquitinase t
 
 ## Therapeutic relevance
 
-- USP7 inhibition is being explored as a therapeutic strategy to destabilize MDM2 and restore TP53 activity; identification as an SMG in prostate cancer adds context for its targeting in that disease [PMID:29610475](../papers/29610475.md)
+- USP7 inhibition is being explored as a therapeutic strategy to destabilize [MDM2](../genes/MDM2.md) and restore [TP53](../genes/TP53.md) activity; identification as an SMG in prostate cancer adds context for its targeting in that disease [PMID:29610475](../papers/29610475.md)
 
 ## Open questions
 
@@ -37,4 +37,4 @@ USP7 (ubiquitin-specific peptidase 7, also known as HAUSP) is a deubiquitinase t
 - [PMID:29610475](../papers/29610475.md)
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -16,8 +16,8 @@ tags:
   - HLA
   - clinical-sequencing
   - MSK-IMPACT
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MSK-IMPACT 50K Clinical Sequencing Cohort (MSK, Cancer Cell 2026)
@@ -39,7 +39,7 @@ MSK-50K: a pan-cancer, prospectively sequenced clinical cohort of 54,331 tumors 
 
 ## Papers using this cohort
 
-- [PMID:41895280](../papers/41895280.md) — Bandlamudi et al. (MSK), source publication: identifies 164 new single-codon mutational hotspots (incl. RAS-paralog hotspots in *RRAS2*), classifies drivers as canonical vs. non-canonical by cancer type, and characterizes HLA LOH relevant to neoantigen-directed TCR therapy eligibility.
+- [PMID:41895280](../papers/41895280.md) — Bandlamudi et al. (MSK), source publication: identifies 164 new single-codon mutational hotspots (incl. RAS-paralog hotspots in *[RRAS2](../genes/RRAS2.md)*), classifies drivers as canonical vs. non-canonical by cancer type, and characterizes HLA LOH relevant to neoantigen-directed TCR therapy eligibility.
 
 ## Notable findings derived from this cohort
 
@@ -51,4 +51,4 @@ MSK-50K: a pan-cancer, prospectively sequenced clinical cohort of 54,331 tumors 
 - cBioPortal study record: `msk_impact_50k_2026` (name, institution, size, reference_genome taken from `schema/ontology/studies.json`).
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -3,8 +3,8 @@ symbol: MEF2C
 aliases: []
 cancer_types: [BL]
 tags: [aberrant-somatic-hypermutation]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MEF2C
@@ -16,7 +16,7 @@ aberrant somatic hypermutation (aSHM) target in B-cell lymphoma.
 
 ## Alterations observed in the corpus
 
-- One of the aberrant somatic hypermutation (aSHM) target genes mutated in Burkitt lymphomas that were classified into the DLBCL-A subgroup by expression-based classifier, alongside EBF1, FOXP1, LPP and PTPN1 [PMID:36201743](../papers/36201743.md).
+- One of the aberrant somatic hypermutation (aSHM) target genes mutated in Burkitt lymphomas that were classified into the DLBCL-A subgroup by expression-based classifier, alongside [EBF1](../genes/EBF1.md), [FOXP1](../genes/FOXP1.md), [LPP](../genes/LPP.md) and [PTPN1](../genes/PTPN1.md) [PMID:36201743](../papers/36201743.md).
 
 ## Cancer types (linked)
 
@@ -38,4 +38,4 @@ aberrant somatic hypermutation (aSHM) target in B-cell lymphoma.
 
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

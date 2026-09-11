@@ -3,8 +3,8 @@ symbol: KMT2A
 aliases: [MLL, MLL1, ALL-1, HRX, TRX1]
 cancer_types: [BLLKMT2A, BLCA]
 tags: [epigenetic-regulator, histone-methyltransferase, fusion-gene]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # KMT2A
@@ -25,16 +25,16 @@ processed_at: 2026-09-10
 - KMT2A is listed among recurrently mutated genes in the [HCC](../cancer_types/HCC.md) WES landscape (n=1,289), part of the chromatin-modifier/epigenetic regulator gene set in hepatocellular carcinoma. [PMID:30061739](../papers/30061739.md)
 - KMT2A listed among additional candidate chromatin-remodeling drivers in PTC; 93 mutations across 57 epigenetic regulator genes in 80/402 (20.0%) tumors including KMT2A [PMID:25417114](../papers/25417114.md)
 - Chromatin-modifying gene mutated in [UTUC](../cancer_types/UTUC.md); mutations common in both low- and high-grade tumors and concordant across spatial tumor components, suggesting early/clonal events [PMID:26278805](../papers/26278805.md)
-- KMT2A, together with KMT2C, KMT2D, and SETD2, are histone methyltransferases mutated collectively in 24% of ATC vs 7% of PDTC (P = 0.02); HMT enrichment in ATC is cited as rationale for chromatin-targeted therapy [PMID:26878173](../papers/26878173.md)
-- KMT2A PTD is a chromatin regulator defining the chromatin-spliceosome AML subgroup (18%, n=275); KMT2A PTD × FLT3 TKD co-occurrence (n=10) was strongly adverse (q=0.008); KMT2A fusions present in 3% (n=44) of 1540 AML patients with multiple partners — MLLT3-KMT2A t(9;11) appears favorable relative to other KMT2A fusions [PMID:27276561](../papers/27276561.md)
+- KMT2A, together with [KMT2C](../genes/KMT2C.md), [KMT2D](../genes/KMT2D.md), and [SETD2](../genes/SETD2.md), are histone methyltransferases mutated collectively in 24% of ATC vs 7% of PDTC (P = 0.02); HMT enrichment in ATC is cited as rationale for chromatin-targeted therapy [PMID:26878173](../papers/26878173.md)
+- KMT2A PTD is a chromatin regulator defining the chromatin-spliceosome [AML](../cancer_types/AML.md) subgroup (18%, n=275); KMT2A PTD × [FLT3](../genes/FLT3.md) TKD co-occurrence (n=10) was strongly adverse (q=0.008); KMT2A fusions present in 3% (n=44) of 1540 AML patients with multiple partners — MLLT3-KMT2A t(9;11) appears favorable relative to other KMT2A fusions [PMID:27276561](../papers/27276561.md)
 - Recurrently mutated in unclassified renal cell carcinoma (uRCC, n=62 MSKCC cohort); KMT2A/C/D combined account for 16% of cases in the chromatin-modulator group; KMT2A-mutated cases cluster in the chromatin/DNA-damage regulator subgroup associated with intermediate clinical outcome. [PMID:27713405](../papers/27713405.md)
-- KMT2A–AFF1 (MLL-AFF1) fusion identified in pediatric AML as a DOT1L-inhibitor target in comprehensive clinical genomic sequencing [PMID:28007021](../papers/28007021.md).
-- Newly recognized SMG in MIBC (n=412, TCGA BLCA 2017), mutated in 11%; part of the pervasive chromatin-modifier mutation cluster with predominantly inactivating mutations. [PMID:28988769](../papers/28988769.md)
-- Discussed as a known therapeutic-target gene in AML; KMT2A-rearranged disease is a candidate for DOT1L inhibitors; co-listed with TET2, BCL2, EZH2, KDM1A, and DOT1L as epigenetic targets in the Beat AML (aml_ohsu_2018) cohort [PMID:30333627](../papers/30333627.md)
+- KMT2A–[AFF1](../genes/AFF1.md) (MLL-AFF1) fusion identified in pediatric AML as a DOT1L-inhibitor target in comprehensive clinical genomic sequencing [PMID:28007021](../papers/28007021.md).
+- Newly recognized SMG in MIBC (n=412, TCGA [BLCA](../cancer_types/BLCA.md) 2017), mutated in 11%; part of the pervasive chromatin-modifier mutation cluster with predominantly inactivating mutations. [PMID:28988769](../papers/28988769.md)
+- Discussed as a known therapeutic-target gene in AML; KMT2A-rearranged disease is a candidate for [DOT1L](../genes/DOT1L.md) inhibitors; co-listed with [TET2](../genes/TET2.md), [BCL2](../genes/BCL2.md), [EZH2](../genes/EZH2.md), [KDM1A](../genes/KDM1A.md), and DOT1L as epigenetic targets in the Beat AML ([aml_ohsu_2018](../datasets/aml_ohsu_2018.md)) cohort [PMID:30333627](../papers/30333627.md)
 - Detected as a somatic alteration in metastatic panNET (n=80 patients); KMT2A is among the chromatin-remodeling/histone methyltransferase genes recurrently altered in this cohort [PMID:30687805](../papers/30687805.md)
 - An AFF1-KMT2A fusion confers dependence on AFF1 in cancer cell lines, identified via cross-referencing with RNAi loss-of-function data in the CCLE cancer cell line encyclopedia [PMID:31068700](../papers/31068700.md).
 - Fusions detected in all MLL-ALL PDX models in the PPTC pediatric cancer PDX panel (261 models across 37 pediatric cancer types) [PMID:31693904](../papers/31693904.md).
-- Canonical breakpoint-region rearrangements in 6/17 pediatric neuroblastoma transformation patients; partners include ELL, AFF1, FRYL, GAS7, and novel PRDM10 and DDX6; associated with topoisomerase-II exposure and earlier transformation (median detection 15 months before clinical diagnosis) [PMID:35078859](../papers/35078859.md)
+- Canonical breakpoint-region rearrangements in 6/17 pediatric neuroblastoma transformation patients; partners include [ELL](../genes/ELL.md), AFF1, [FRYL](../genes/FRYL.md), [GAS7](../genes/GAS7.md), and novel [PRDM10](../genes/PRDM10.md) and [DDX6](../genes/DDX6.md); associated with topoisomerase-II exposure and earlier transformation (median detection 15 months before clinical diagnosis) [PMID:35078859](../papers/35078859.md)
 - KMT2A rearrangements (KMT2Ar, 20.3% of 887 AML cases) and KMT2A partial tandem duplications formed the largest single class-defining molecular category, clustering in the HOXA superfamily with KAT6Ar [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
@@ -95,4 +95,4 @@ processed_at: 2026-09-10
 - [PMID:35078859](../papers/35078859.md)
 - [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

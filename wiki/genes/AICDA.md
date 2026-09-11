@@ -6,15 +6,15 @@ cancer_types:
 tags:
   - somatic-hypermutation
   - b-cell-lymphoma
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # AICDA
 
 ## Overview
 
-AICDA (activation-induced cytidine deaminase, AID) encodes the enzyme that initiates somatic hypermutation (SHM) and class-switch recombination at immunoglobulin loci in germinal-center B cells by deaminating cytosine to uracil. Off-target AICDA activity is a major source of aberrant somatic hypermutation (aSHM) and collateral double-strand breaks that drive oncogenic translocations (e.g., MYC–IGH) and passenger mutations in germinal-center-derived B-cell lymphomas, including Burkitt lymphoma and diffuse large B-cell lymphoma.
+AICDA (activation-induced cytidine deaminase, AID) encodes the enzyme that initiates somatic hypermutation (SHM) and class-switch recombination at immunoglobulin loci in germinal-center B cells by deaminating cytosine to uracil. Off-target AICDA activity is a major source of aberrant somatic hypermutation (aSHM) and collateral double-strand breaks that drive oncogenic translocations (e.g., [MYC](../genes/MYC.md)–[IGH](../genes/IGH.md)) and passenger mutations in germinal-center-derived B-cell lymphomas, including Burkitt lymphoma and diffuse large B-cell lymphoma.
 
 ## Alterations observed in the corpus
 
@@ -34,10 +34,10 @@ AICDA (activation-induced cytidine deaminase, AID) encodes the enzyme that initi
 
 ## Open questions
 
-- Whether AICDA expression level is a direct driver of subgroup-specific aSHM target selection in BL and DLBCL, or a correlate of EBV status and cell-of-origin [PMID:36201743](../papers/36201743.md).
+- Whether AICDA expression level is a direct driver of subgroup-specific aSHM target selection in [BL](../cancer_types/BL.md) and DLBCL, or a correlate of EBV status and cell-of-origin [PMID:36201743](../papers/36201743.md).
 
 ## Sources
 
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

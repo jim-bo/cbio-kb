@@ -3,8 +3,8 @@ symbol: GATA1
 aliases: []
 cancer_types: [AML, AMKL]
 tags: [transcription-factor, erythroid, megakaryocytic, fusion]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # GATA1
@@ -15,11 +15,11 @@ GATA1 encodes a zinc-finger transcription factor essential for erythroid and meg
 
 ## Alterations observed in the corpus
 
-- GATA1 mutation or fusion (e.g. MYB::GATA1) defines an AEL/AMKL-phenotype AML subgroup (23 of 887 cases), assigned only in the absence of Group-1 defining alterations [PMID:38212634](../papers/38212634.md).
+- GATA1 mutation or fusion (e.g. [MYB](../genes/MYB.md)::GATA1) defines an AEL/AMKL-phenotype [AML](../cancer_types/AML.md) subgroup (23 of 887 cases), assigned only in the absence of Group-1 defining alterations [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
-- [AML](../cancer_types/AML.md) — acute erythroid leukemia (AEL) / acute megakaryoblastic leukemia (AMKL) phenotype, a Group-2 molecular category defined by GATA1 mutation or fusion in the absence of Group-1 alterations [PMID:38212634](../papers/38212634.md).
+- [AML](../cancer_types/AML.md) — acute erythroid leukemia (AEL) / acute megakaryoblastic leukemia ([AMKL](../cancer_types/AMKL.md)) phenotype, a Group-2 molecular category defined by GATA1 mutation or fusion in the absence of Group-1 alterations [PMID:38212634](../papers/38212634.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -37,4 +37,4 @@ GATA1 encodes a zinc-finger transcription factor essential for erythroid and meg
 
 - [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

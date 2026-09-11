@@ -3,8 +3,8 @@ symbol: SYCE1
 aliases: []
 cancer_types: [BRCA]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # SYCE1
@@ -15,7 +15,7 @@ SYCE1 (synaptonemal complex central element protein 1) is a cancer-testis-associ
 
 ## Alterations observed in the corpus
 
-- SYCE1 (along with ANKRD30A and TUBB2B) showed higher pretreatment tumor expression in responders (CR+PR) to a cyclophosphamide-priming plus pembrolizumab regimen in metastatic triple-negative breast cancer [PMID:35121644](../papers/35121644.md).
+- SYCE1 (along with [ANKRD30A](../genes/ANKRD30A.md) and [TUBB2B](../genes/TUBB2B.md)) showed higher pretreatment tumor expression in responders (CR+PR) to a cyclophosphamide-priming plus [pembrolizumab](../drugs/pembrolizumab.md) regimen in metastatic triple-negative breast cancer [PMID:35121644](../papers/35121644.md).
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ SYCE1 (synaptonemal complex central element protein 1) is a cancer-testis-associ
 
 - [PMID:35121644](../papers/35121644.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -19,8 +19,8 @@ tags:
   - gallbladder-cancer
   - msk-impact
   - actionability
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Hepatobiliary Cancer (MSK, 2026)
@@ -31,7 +31,7 @@ A prospective MSK clinical genomic profiling cohort (NCT01775072; MSK IRB 12-245
 
 ## Composition
 
-- Cancer types: [biliary tract cancer](../cancer_types/BILIARY_TRACT.md), comprising [intrahepatic cholangiocarcinoma (IHCH)](../cancer_types/IHCH.md) 767 (61.2%), [extrahepatic cholangiocarcinoma (EHCH)](../cancer_types/EHCH.md) 210 (16.8%) and [gallbladder cancer (GBC)](../cancer_types/GBC.md) 277 (22.1%); IHCH and EHCH both fall under [cholangiocarcinoma](../cancer_types/CHOL.md). [PMID:42360806](../papers/42360806.md)
+- Cancer types: [biliary tract cancer](../cancer_types/BILIARY_TRACT.md), comprising [intrahepatic cholangiocarcinoma (IHCH)](../cancer_types/IHCH.md) 767 (61.2%), [extrahepatic cholangiocarcinoma (EHCH)](../cancer_types/EHCH.md) 210 (16.8%) and [gallbladder cancer (GBC)](../cancer_types/GBC.md) 277 (22.1%); [IHCH](../cancer_types/IHCH.md) and [EHCH](../cancer_types/EHCH.md) both fall under [cholangiocarcinoma](../cancer_types/CHOL.md). [PMID:42360806](../papers/42360806.md)
 - Demographics: median age 65 (range 21–89); 52% female / 48% male; 74.2% self-reported Caucasian, 10.2% Asian, 6.2% African American; 879 primary (70%) vs 375 metastatic (30%) samples sequenced. [PMID:42360806](../papers/42360806.md)
 - Analysis subsets: potentially actionable cohort (OncoKB level 1/2/3A, or selected level 3B) n=514; clinically eligible cohort with outcome data n=413, of whom 176 (43%) received matched targeted therapy. [PMID:42360806](../papers/42360806.md)
 
@@ -50,4 +50,4 @@ A prospective MSK clinical genomic profiling cohort (NCT01775072; MSK IRB 12-245
 
 - cBioPortal study ID: biliary_tract_msk_2026 (name, institution, size, reference_genome from `schema/ontology/studies.json`).
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

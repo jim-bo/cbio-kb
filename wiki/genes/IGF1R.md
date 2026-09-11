@@ -10,8 +10,8 @@ tags:
   - drug-sensitivity-predictor
   - receptor-tyrosine-kinase
   - targeted-therapy
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # IGF1R
@@ -30,13 +30,13 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 - Activated in ~21% of [HCC](../cancer_types/HCC.md); part of the IGF axis (alongside [IGF2](../genes/IGF2.md) overexpression and [IGF2R](../genes/IGF2R.md) allelic loss) implicated as a therapeutic target in [HCC](../cancer_types/HCC.md) [PMID:25369299](../papers/25369299.md)
 - IGF1R is listed as a candidate RTK alteration in [HNSC](../cancer_types/HNSC.md) (n=279 TCGA) with somatic events across HPV(+) and HPV(−) groups in the multi-platform genomic analysis. [PMID:25631445](../papers/25631445.md)
 - Novel amplification target gene in lung SqCC identified in the TCGA pan-lung cancer cohort [PMID:27158780](../papers/27158780.md)
-- IGF1R amplified in subsets of esophageal adenocarcinoma (EAC) alongside ERBB2, EGFR, VEGFA, and KRAS amplifications [PMID:28052061](../papers/28052061.md).
-- Part of the PI3K/AKT/MTOR pathway co-alteration cluster (with PTEN, AKT3, MTOR, RICTOR) in 84% of ULMS+STLMS iCluster C1 vs 44% of STLMS C2 (p=1e-04); upregulated in poor-prognosis STLMS C1 in TCGA SARC (n=80 LMS). [PMID:29100075](../papers/29100075.md)
-- Assessed as part of the mTOR pathway gene set in metastatic panNET (MSK-IMPACT, 80 patients); mTOR-pathway alterations (IGF1R, IGF2, MTOR, TSC1, TSC2, AKT2, AKT3, and others) were identified in 43% (34/80) of patients; IGF1R was a component of the panel but not individually reported as a top recurrent alteration in this cohort [PMID:30687805](../papers/30687805.md)
-- IGF1R variants identified in 7% of 28 recurrent Mayo GBM PDX at frequencies consistent with prior recurrent-glioblastoma reports; some variants also seen in primary PDX, raising the possibility of germline origin [PMID:31852831](../papers/31852831.md)
+- IGF1R amplified in subsets of esophageal adenocarcinoma ([EAC](../cancer_types/EAC.md)) alongside [ERBB2](../genes/ERBB2.md), [EGFR](../genes/EGFR.md), [VEGFA](../genes/VEGFA.md), and [KRAS](../genes/KRAS.md) amplifications [PMID:28052061](../papers/28052061.md).
+- Part of the PI3K/AKT/MTOR pathway co-alteration cluster (with [PTEN](../genes/PTEN.md), [AKT3](../genes/AKT3.md), [MTOR](../genes/MTOR.md), [RICTOR](../genes/RICTOR.md)) in 84% of [ULMS](../cancer_types/ULMS.md)+STLMS iCluster C1 vs 44% of STLMS C2 (p=1e-04); upregulated in poor-prognosis STLMS C1 in TCGA [SARC](../cancer_types/SARC.md) (n=80 [LMS](../cancer_types/LMS.md)). [PMID:29100075](../papers/29100075.md)
+- Assessed as part of the mTOR pathway gene set in metastatic panNET (MSK-IMPACT, 80 patients); mTOR-pathway alterations (IGF1R, [IGF2](../genes/IGF2.md), MTOR, [TSC1](../genes/TSC1.md), [TSC2](../genes/TSC2.md), [AKT2](../genes/AKT2.md), AKT3, and others) were identified in 43% (34/80) of patients; IGF1R was a component of the panel but not individually reported as a top recurrent alteration in this cohort [PMID:30687805](../papers/30687805.md)
+- IGF1R variants identified in 7% of 28 recurrent Mayo [GBM](../cancer_types/GBM.md) PDX at frequencies consistent with prior recurrent-glioblastoma reports; some variants also seen in primary PDX, raising the possibility of germline origin [PMID:31852831](../papers/31852831.md)
 - IGF1R is among the genes frequently copy-number altered in endometrial cancer, consistent with TCGA findings [PMID:32059776](../papers/32059776.md)
-- Amplification in 4/41 (9.8%) resistant vs 1/18 (5.6%) sensitive HR+/HER2- MBC biopsies; flagged as a candidate CDK4/6i resistance driver for future study [PMID:32404308](../papers/32404308.md)
-- Receptor expressed by transition/differentiated (not progenitor) MYOD1-mutant rhabdomyosarcoma cells and the top oncogenic master regulator by OncoTarget across single-cell, bulk, and PDX datasets; pharmacologically targeted by linsitinib and GSK1838705A with activity in ex vivo/organoid screens. [PMID:41758938](../papers/41758938.md)
+- Amplification in 4/41 (9.8%) resistant vs 1/18 (5.6%) sensitive HR+/HER2- [MBC](../cancer_types/MBC.md) biopsies; flagged as a candidate CDK4/6i resistance driver for future study [PMID:32404308](../papers/32404308.md)
+- Receptor expressed by transition/differentiated (not progenitor) MYOD1-mutant rhabdomyosarcoma cells and the top oncogenic master regulator by OncoTarget across single-cell, bulk, and PDX datasets; pharmacologically targeted by [linsitinib](../drugs/linsitinib.md) and GSK1838705A with activity in ex vivo/organoid screens. [PMID:41758938](../papers/41758938.md)
 
 ## Cancer types (linked)
 
@@ -85,4 +85,4 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 - [PMID:32404308](../papers/32404308.md)
 - [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

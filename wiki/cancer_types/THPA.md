@@ -4,8 +4,8 @@ oncotree_code: THPA
 main_type: Thyroid Cancer
 parent: WDTC
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Papillary Thyroid Cancer (THPA)
@@ -33,7 +33,7 @@ Papillary thyroid carcinoma (PTC/THPA) is the most common thyroid malignancy, wi
 - MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; THPA is among tumor types analyzed for [FGA](../genes/FGA.md), TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 - Papillary thyroid carcinoma (THPA) was represented in the LIBRETTO-001 [selpercatinib](../drugs/selpercatinib.md) trial (12% of [RET](../genes/RET.md) fusion-positive cases among 72 patients); [selpercatinib](../drugs/selpercatinib.md) ORR was 67% in [RET](../genes/RET.md) fusion-positive cancers [PMID:35304457](../papers/35304457.md)
 - Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
-- In the MSK-IMPACT pan-cancer age-of-onset analysis, papillary thyroid cancer showed RET alterations linked to earlier disease onset and TERT alterations to later onset, with RET+TERT co-mutant tumors presenting later than RET-mutant/TERT-wild-type tumors. [PMID:41895280](../papers/41895280.md)
+- In the MSK-IMPACT pan-cancer age-of-onset analysis, papillary thyroid cancer showed [RET](../genes/RET.md) alterations linked to earlier disease onset and [TERT](../genes/TERT.md) alterations to later onset, with RET+TERT co-mutant tumors presenting later than RET-mutant/TERT-wild-type tumors. [PMID:41895280](../papers/41895280.md)
 
 ## Subtypes
 
@@ -63,4 +63,4 @@ Papillary thyroid carcinoma (PTC/THPA) is the most common thyroid malignancy, wi
 - [PMID:35585047](../papers/35585047.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -15,8 +15,8 @@ tags:
   - atezolizumab
   - neoantigen-landscape
   - iatlas-harmonized
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Metastatic Bladder Urothelial Carcinoma (IMvigor210 Phase II Trial, ESMO Open. 2024) - iAtlas Harmonized
@@ -38,7 +38,7 @@ A CRI iAtlas-harmonized whole-exome sequencing and neoantigen-landscape reproces
 
 ## Papers using this cohort
 
-- [PMID:27939400](../papers/27939400.md) — Rosenberg et al.: cohort 1 primary analysis of atezolizumab in cisplatin-ineligible metastatic urothelial carcinoma.
+- [PMID:27939400](../papers/27939400.md) — Rosenberg et al.: cohort 1 primary analysis of [atezolizumab](../drugs/atezolizumab.md) in cisplatin-ineligible metastatic urothelial carcinoma.
 - [PMID:39642637](../papers/39642637.md) — Rosenberg et al., *ESMO Open* (2024): long-term/final analysis of both IMvigor210 cohorts.
 
 ## Notable findings derived from this cohort
@@ -47,4 +47,4 @@ A CRI iAtlas-harmonized whole-exome sequencing and neoantigen-landscape reproces
 
 - cBioPortal study ID: blca_iatlas_imvigor210_2017 (name, institution, size, reference_genome from `schema/ontology/studies.json`); co-listed pmid field cites both PMID:39642637 and PMID:27939400.
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

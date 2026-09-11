@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [proteomics, serum-biomarkers, olink]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Olink Proximity Extension Assay Proteomics
@@ -17,7 +17,7 @@ An antibody-based proximity extension assay (PEA) platform for multiplexed serum
 
 ## Used by
 
-- Olink proximity-extension serum proteomics (172 analytes across two Target96 panels) profiled serial peripheral blood samples in a pancreatic cancer trial of chemotherapy plus/minus nivolumab and the CD40 agonist sotigalimab [PMID:35662283](../papers/35662283.md).
+- Olink proximity-extension serum proteomics (172 analytes across two Target96 panels) profiled serial peripheral blood samples in a pancreatic cancer trial of chemotherapy plus/minus [nivolumab](../drugs/nivolumab.md) and the CD40 agonist [sotigalimab](../drugs/sotigalimab.md) [PMID:35662283](../papers/35662283.md).
 
 ## Notes
 
@@ -28,4 +28,4 @@ An antibody-based proximity extension assay (PEA) platform for multiplexed serum
 
 - [PMID:35662283](../papers/35662283.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

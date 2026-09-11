@@ -8,8 +8,8 @@ tags:
   - variant-calling
   - somatic
   - bioinformatics
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # VarScan
@@ -29,12 +29,12 @@ VarScan is a platform-independent variant detection tool for next-generation seq
 - One of four mutation callers (MuTect, Indelocator, VarScan, RADIA) used in ≥2-caller consensus strategy for somatic variant detection in 820 TCGA diffuse glioma exomes [PMID:26824661](../papers/26824661.md)
 - Used (as VarScan2) together with Sequenza to generate intersected copy-number profiles from anti-PD-1-treated melanoma WES data [PMID:26997480](../papers/26997480.md)
 - VarScan2 v2.3.2 used for somatic SNV calling in MET500 whole-exome sequencing data (500 metastatic solid tumors, mean 180× tumor / 120× normal coverage, aligned to GRCh37/hg19 via Novoalign) [PMID:28783718](../papers/28783718.md)
-- VarScan 2.3.7 applied as one of four somatic callers in intersection-based SNV detection for 68 paired melanoma WES biopsies in the CA209-038 nivolumab trial [PMID:29033130](../papers/29033130.md)
+- VarScan 2.3.7 applied as one of four somatic callers in intersection-based SNV detection for 68 paired melanoma WES biopsies in the CA209-038 [nivolumab](../drugs/nivolumab.md) trial [PMID:29033130](../papers/29033130.md)
 - One of seven somatic callers in the TCGA MC3 ensemble pipeline run on the DNAnexus cloud across ~10,510 TCGA tumor/normal pairs [PMID:29596782](../papers/29596782.md)
 - Used (v2.3.8) for both germline SNV calling and as one of seven somatic MC3 callers across 11,000 TCGA PanCancer Atlas tumors; germline calling performed on GRCh37-lite aligned data [PMID:29625049](../papers/29625049.md).
 - Used for somatic variant calling in pediatric cancer WGS samples [PMID:29670109](../papers/29670109.md)
-- VarScan 2 v2.4.1 used for somatic indel calling from whole-exome sequencing of 622 AML specimens in the Beat AML study (aml_ohsu_2018) [PMID:30333627](../papers/30333627.md)
-- Part of the consensus SNV/indel calling pipeline in the high-grade UTUC WES study (37 tumor-normal pairs), used together with [mutect](../methods/mutect.md) and [strelka](../methods/strelka.md); consensus calls annotated by [oncotator](../methods/oncotator.md) [PMID:31278255](../papers/31278255.md)
+- VarScan 2 v2.4.1 used for somatic indel calling from whole-exome sequencing of 622 [AML](../cancer_types/AML.md) specimens in the Beat AML study ([aml_ohsu_2018](../datasets/aml_ohsu_2018.md)) [PMID:30333627](../papers/30333627.md)
+- Part of the consensus SNV/indel calling pipeline in the high-grade [UTUC](../cancer_types/UTUC.md) WES study (37 tumor-normal pairs), used together with [mutect](../methods/mutect.md) and [strelka](../methods/strelka.md); consensus calls annotated by [oncotator](../methods/oncotator.md) [PMID:31278255](../papers/31278255.md)
 - One of three somatic callers (with Mutect2 and TNscope) requiring agreement from at least 2 of 3 for SNV/indel calls in a paired tumor-normal WES cohort [PMID:35487942](../papers/35487942.md)
 - Called somatic and germline variants (VarDict re-called indels/complex variants) in a GenPipes DNA-Seq high-coverage pipeline [PMID:36815791](../papers/36815791.md)
 - One of four callers (with MuTect2, Strelka, Pindel) requiring calls from at least 2 callers (paired) or all three non-Pindel callers (tumor-only) in a pediatric solid-tumor PDX cohort [PMID:37990009](../papers/37990009.md)
@@ -65,4 +65,4 @@ VarScan is a platform-independent variant detection tool for next-generation seq
 - [PMID:37990009](../papers/37990009.md)
 - [PMID:38347189](../papers/38347189.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

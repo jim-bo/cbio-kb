@@ -4,8 +4,8 @@ oncotree_code: SEM
 main_type: Germ Cell Tumor
 parent: TESTIS
 tags: [germ-cell, testicular, seminoma]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Seminoma (SEM)
@@ -22,10 +22,10 @@ Seminoma is a histologically pure testicular germ cell tumor composed of primord
 
 - **[KIT](../genes/KIT.md)** — mutations in 29.6% of seminomas versus 4% in nonseminoma (P<.001); predominantly exon 17 hotspots associated with imatinib-resistance patterns distinct from [GIST](../cancer_types/GIST.md) [PMID:27646943](../papers/27646943.md).
 - **[KRAS](../genes/KRAS.md)** — enriched in seminomas overall (20% vs 8.7% in nonseminoma, P=.045); G12 hotspot dominant [PMID:27646943](../papers/27646943.md).
-- **[TP53](../genes/TP53.md)** — exclusively absent in seminoma in this cohort; none of the 4 primary mediastinal seminomas harbored TP53 mutations [PMID:27646943](../papers/27646943.md).
-- **12p gain** — present in 74% of discovery GCT tumors overall; characteristic of both seminoma and nonseminoma [PMID:27646943](../papers/27646943.md).
+- **[TP53](../genes/TP53.md)** — exclusively absent in seminoma in this cohort; none of the 4 primary mediastinal seminomas harbored [TP53](../genes/TP53.md) mutations [PMID:27646943](../papers/27646943.md).
+- **12p gain** — present in 74% of discovery [GCT](../cancer_types/GCT.md) tumors overall; characteristic of both seminoma and nonseminoma [PMID:27646943](../papers/27646943.md).
 - **Very low somatic mutation rate** — mean 0.9 mutations/Mb in the combined cohort [PMID:27646943](../papers/27646943.md).
-- In the pan-cancer LIG1 analysis, testicular germ cell tumors had only a marginal PFS association with LIG1 loss, and the carboplatin-sensitive seminoma subtype had no cases of LIG1 loss at all. [PMID:36001024](../papers/36001024.md)
+- In the pan-cancer [LIG1](../genes/LIG1.md) analysis, testicular germ cell tumors had only a marginal PFS association with LIG1 loss, and the carboplatin-sensitive seminoma subtype had no cases of LIG1 loss at all. [PMID:36001024](../papers/36001024.md)
 
 ## Subtypes
 
@@ -33,12 +33,12 @@ Seminoma is a histologically pure testicular germ cell tumor composed of primord
 
 ## Therapeutic landscape
 
-- **Cisplatin-based chemotherapy** — seminoma is generally more sensitive to cisplatin than nonseminoma; the absence of TP53/MDM2 alterations in seminoma is consistent with its relatively favorable prognosis [PMID:27646943](../papers/27646943.md).
-- **[Imatinib](../drugs/imatinib.md)/[sunitinib](../drugs/sunitinib.md)** — potential candidates for KIT-mutant seminoma, though KIT mutations in testicular GCT have an imatinib-resistance hotspot pattern distinct from GIST exon 11/9 mutations [PMID:27646943](../papers/27646943.md).
+- **Cisplatin-based chemotherapy** — seminoma is generally more sensitive to [cisplatin](../drugs/cisplatin.md) than nonseminoma; the absence of TP53/MDM2 alterations in seminoma is consistent with its relatively favorable prognosis [PMID:27646943](../papers/27646943.md).
+- **[Imatinib](../drugs/imatinib.md)/[sunitinib](../drugs/sunitinib.md)** — potential candidates for KIT-mutant seminoma, though [KIT](../genes/KIT.md) mutations in testicular GCT have an imatinib-resistance hotspot pattern distinct from [GIST](../cancer_types/GIST.md) exon 11/9 mutations [PMID:27646943](../papers/27646943.md).
 
 ## Sources
 
-- [PMID:27646943](../papers/27646943.md) — Bagrodia et al. 2016 (JCO). 54 seminomas in MSK GCT cohort; KIT mutations 29.6%, KRAS enriched; no TP53 alterations in seminoma consistent with cisplatin sensitivity.
+- [PMID:27646943](../papers/27646943.md) — Bagrodia et al. 2016 (JCO). 54 seminomas in MSK GCT cohort; KIT mutations 29.6%, [KRAS](../genes/KRAS.md) enriched; no TP53 alterations in seminoma consistent with cisplatin sensitivity.
 - [PMID:36001024](../papers/36001024.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

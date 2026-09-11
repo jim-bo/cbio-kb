@@ -3,8 +3,8 @@ symbol: IDO1
 aliases: []
 cancer_types: [COAD]
 tags: [immunoregulatory, icr, immune-signature]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # IDO1
@@ -19,7 +19,7 @@ IDO1 encodes indoleamine 2,3-dioxygenase 1, a tryptophan-catabolizing enzyme inv
 - Marker of the immune-related [ILC](../cancer_types/ILC.md) mRNA subtype identified in a comprehensive molecular portrait of invasive lobular breast cancer (n=127 [ILC](../cancer_types/ILC.md) TCGA + n=106 LumA [ILC](../cancer_types/ILC.md)) [PMID:26451490](../papers/26451490.md)
 - Protein upregulated in immune-hot (HTE) and IFNG-high [LUAD](../cancer_types/LUAD.md) clusters in the CPTAC proteogenomics cohort (n=110); IDO1 inhibition nominated as a therapeutic opportunity in immune-hot [LUAD](../cancer_types/LUAD.md) [PMID:32649874](../papers/32649874.md)
 - IDO1 is upregulated by myeloid cells in classical and mesenchymal IDHwt gliomas, contributing to the immunosuppressive tumor microenvironment; IDO1 is co-regulated with [PDCD1LG2](../genes/PDCD1LG2.md) (PD-L2) as part of the myeloid immunosuppressive program in the GLASS longitudinal glioma cohort [PMID:35649412](../papers/35649412.md)
-- Myeloid-lineage transcript that increased in melanoma tumor tissue on nivolumab (anti-PD-1) treatment. [PMID:27169994](../papers/27169994.md)
+- Myeloid-lineage transcript that increased in melanoma tumor tissue on [nivolumab](../drugs/nivolumab.md) (anti-PD-1) treatment. [PMID:27169994](../papers/27169994.md)
 
 ## Cancer types (linked)
 
@@ -48,4 +48,4 @@ IDO1 encodes indoleamine 2,3-dioxygenase 1, a tryptophan-catabolizing enzyme inv
 - [PMID:35649412](../papers/35649412.md)
 - [PMID:27169994](../papers/27169994.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

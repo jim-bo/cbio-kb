@@ -3,8 +3,8 @@ symbol: GNAS
 aliases: []
 cancer_types: [APAD, PTAD, PAAD]
 tags: [oncogene, chemoresistance, molecular-subtype]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # GNAS
@@ -25,10 +25,10 @@ GNAS encodes the Gαs subunit of the heterotrimeric G protein; activating hotspo
 - Mutated in 6% of PDAC at hotspot codon 201 (R201C/R201H); all invasive cases derived from [IPMN](../cancer_types/IPMN.md) precursors; frequent co-mutation with [KRAS](../genes/KRAS.md) [PMID:25855536](../papers/25855536.md)
 - Selectively mutated in mCRPC vs. primary prostate cancer (q<0.1); mutation observed exclusively in mCRPC [PMID:26000489](../papers/26000489.md)
 - Identified as a lineage-associated oncogene in the MET500 cohort of 500 metastatic solid tumors profiled by paired whole-exome and transcriptome sequencing; enrichment restricted to selected tumor types [PMID:28783718](../papers/28783718.md)
-- Mutated in a single inflammatory HCA (hepatocellular adenoma) case in a pilot HCA-to-HCC transformation series (n=11 HCA, n=10 HCC) [PMID:30052636](../papers/30052636.md)
+- Mutated in a single inflammatory HCA (hepatocellular adenoma) case in a pilot HCA-to-HCC transformation series (n=11 HCA, n=10 [HCC](../cancer_types/HCC.md)) [PMID:30052636](../papers/30052636.md)
 - Case-specific private mutation defining an individual IDC-NST subclone in Case 2 multifocal BRCA1-mutant DCIS/IDC-NST by WES [PMID:32220886](../papers/32220886.md)
-- Mutated in 1.2% of CSCC tumors at a hotspot position in an 83-tumor CSCC meta-analysis [PMID:34272401](../papers/34272401.md)
-- Identified as a structural variant (SV) breakpoint hotspot in lung cancers from never smokers (LCINS), together with MDM2, TERT, CDKN2A, NKX2-1, and 6p21 [PMID:34493867](../papers/34493867.md)
+- Mutated in 1.2% of [CSCC](../cancer_types/CSCC.md) tumors at a hotspot position in an 83-tumor CSCC meta-analysis [PMID:34272401](../papers/34272401.md)
+- Identified as a structural variant (SV) breakpoint hotspot in lung cancers from never smokers (LCINS), together with [MDM2](../genes/MDM2.md), [TERT](../genes/TERT.md), [CDKN2A](../genes/CDKN2A.md), [NKX2-1](../genes/NKX2-1.md), and 6p21 [PMID:34493867](../papers/34493867.md)
 - Significantly mutated gene (SMG) altered in ≥5% of PDAC tumors in the CPTAC proteogenomic cohort (n=140) [PMID:34534465](../papers/34534465.md)
 - Recurrently mutated (4%) as one of the remaining high-confidence significantly mutated genes (HC-SMGs) in a colorectal cancer cohort [PMID:35487942](../papers/35487942.md).
 
@@ -78,4 +78,4 @@ GNAS encodes the Gαs subunit of the heterotrimeric G protein; activating hotspo
 - [PMID:34534465](../papers/34534465.md)
 - [PMID:35487942](../papers/35487942.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

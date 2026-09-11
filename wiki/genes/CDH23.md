@@ -3,8 +3,8 @@ symbol: CDH23
 aliases: []
 cancer_types: [SFT]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CDH23
@@ -15,7 +15,7 @@ CDH23 encodes a large cadherin-superfamily protein best known for its role in st
 
 ## Alterations observed in the corpus
 
-- CDH23 was among the most frequently altered genes (13%) in solitary fibrous tumor across four cohorts, alongside ZFHX3 (25%), KMT2C (21%), TERT (19%), SLX4 (17%), FAT1 (16%), KMT2D (16%), ARID1B (14%) and NOTCH1 (9%) [PMID:37980418](../papers/37980418.md).
+- CDH23 was among the most frequently altered genes (13%) in solitary fibrous tumor across four cohorts, alongside [ZFHX3](../genes/ZFHX3.md) (25%), [KMT2C](../genes/KMT2C.md) (21%), [TERT](../genes/TERT.md) (19%), [SLX4](../genes/SLX4.md) (17%), [FAT1](../genes/FAT1.md) (16%), [KMT2D](../genes/KMT2D.md) (16%), [ARID1B](../genes/ARID1B.md) (14%) and [NOTCH1](../genes/NOTCH1.md) (9%) [PMID:37980418](../papers/37980418.md).
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ CDH23 encodes a large cadherin-superfamily protein best known for its role in st
 
 - [PMID:37980418](../papers/37980418.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

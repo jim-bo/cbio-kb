@@ -3,8 +3,8 @@ symbol: SETBP1
 aliases: []
 cancer_types: [AML, JMML]
 tags: [somatic, driver, myeloid]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # SETBP1
@@ -17,7 +17,7 @@ SETBP1 (SET Binding Protein 1) encodes a nuclear protein that binds the oncoprot
 
 - SETBP1 D868N co-occurring with [PTPN11](../genes/PTPN11.md) D61Y in a 4-year-old: this combination reclassified the diagnosis from de novo [AML](../cancer_types/AML.md) to [JMML](../cancer_types/JMML.md) (which subsequently evolved into [AML](../cancer_types/AML.md)) in the PIPseq pediatric precision sequencing program (n=101, Columbia University). [PMID:28007021](../papers/28007021.md)
 - Somatic SETBP1 p.D868N mutation identified in a germ cell tumor via cWGTS; detected only by the comprehensive sequencing approach, not by standard clinical panels [PMID:35585047](../papers/35585047.md)
-- Not included on the 111-gene MDS sequencing panel because it was characterized after panel design; the authors suggest SETBP1 (with SMC1A, SMC3) could explain part of the 22% of driver-negative MDS patients. [PMID:24030381](../papers/24030381.md)
+- Not included on the 111-gene [MDS](../cancer_types/MDS.md) sequencing panel because it was characterized after panel design; the authors suggest SETBP1 (with [SMC1A](../genes/SMC1A.md), [SMC3](../genes/SMC3.md)) could explain part of the 22% of driver-negative MDS patients. [PMID:24030381](../papers/24030381.md)
 
 ## Cancer types (linked)
 
@@ -42,4 +42,4 @@ SETBP1 (SET Binding Protein 1) encodes a nuclear protein that binds the oncoprot
 - [PMID:35585047](../papers/35585047.md)
 - [PMID:24030381](../papers/24030381.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

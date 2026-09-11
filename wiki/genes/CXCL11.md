@@ -3,19 +3,19 @@ symbol: CXCL11
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CXCL11
 
 ## Overview
 
-CXCL11 is an interferon-gamma-inducible chemokine, related to CXCL9 and CXCL10, implicated in T-cell recruitment to tumors during checkpoint-blockade immunotherapy.
+CXCL11 is an interferon-gamma-inducible chemokine, related to [CXCL9](../genes/CXCL9.md) and [CXCL10](../genes/CXCL10.md), implicated in T-cell recruitment to tumors during checkpoint-blockade immunotherapy.
 
 ## Alterations observed in the corpus
 
-- CXCL11 was among the myeloid-specific transcripts that increased in tumor on nivolumab (anti-PD-1) treatment. [PMID:27169994](../papers/27169994.md)
+- CXCL11 was among the myeloid-specific transcripts that increased in tumor on [nivolumab](../drugs/nivolumab.md) (anti-PD-1) treatment. [PMID:27169994](../papers/27169994.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ CXCL11 is an interferon-gamma-inducible chemokine, related to CXCL9 and CXCL10, 
 
 - [PMID:27169994](../papers/27169994.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

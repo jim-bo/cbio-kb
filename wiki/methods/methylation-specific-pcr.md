@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [epigenetics, methylation, pcr]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Methylation-Specific PCR
@@ -17,7 +17,7 @@ Methylation-specific PCR (MSP) uses bisulfite-converted DNA and primer pairs des
 
 ## Used by
 
-- Used to assess CDH1 promoter methylation status in invasive lobular breast carcinomas lacking CDH1 genetic alterations [PMID:38347189](../papers/38347189.md).
+- Used to assess [CDH1](../genes/CDH1.md) promoter methylation status in invasive lobular breast carcinomas lacking CDH1 genetic alterations [PMID:38347189](../papers/38347189.md).
 
 ## Notes
 
@@ -28,4 +28,4 @@ Methylation-specific PCR (MSP) uses bisulfite-converted DNA and primer pairs des
 
 - [PMID:38347189](../papers/38347189.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

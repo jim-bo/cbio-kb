@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [differential-expression, rna-seq, bioinformatics, statistics]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # DESeq2
@@ -22,11 +22,11 @@ DESeq2 is an R/Bioconductor package for differential gene-expression analysis of
 
 ## Notes
 
-- Commonly paired with [Salmon](../methods/salmon.md) or STAR for upstream alignment/quantification before differential-expression testing.
+- Commonly paired with [Salmon](../methods/salmon.md) or [STAR](../genes/STAR.md) for upstream alignment/quantification before differential-expression testing.
 
 ## Sources
 
 - [PMID:35121644](../papers/35121644.md) — triple-negative breast cancer immunotherapy cohort; DESeq2 differential expression on STAR/Salmon-processed RNA-seq.
 - [PMID:36201743](../papers/36201743.md) — adult/pediatric Burkitt lymphoma WGS cohort; DESeq2 used with Salmon and GSVA for expression/outcome analysis.
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

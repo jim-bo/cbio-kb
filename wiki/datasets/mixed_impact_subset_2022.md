@@ -15,15 +15,15 @@ tags:
   - copy-number
   - FISH
   - pan-cancer
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Pan-Cancer MSK-IMPACT MET Validation Cohort (MSK 2022)
 
 ## Overview
 
-A FISH-validation cohort used to calibrate a purity/ploidy-aware caller for *MET* copy-number alterations from [MSK-IMPACT](../methods/msk-impact-panel.md) hybrid-capture sequencing, drawn from a landscape screen of 66,285 tumor samples (50,748 patients) at Memorial Sloan Kettering. Name, institution, size (69) and reference genome (hg19) are taken from the cBioPortal study record in `schema/ontology/studies.json`; cBioPortal's 69-sample count is close to but does not exactly match the 70-case FISH validation cohort described in the paper text [PMID:36044468](../papers/36044468.md).
+A FISH-validation cohort used to calibrate a purity/ploidy-aware caller for *[MET](../genes/MET.md)* copy-number alterations from [MSK-IMPACT](../methods/msk-impact-panel.md) hybrid-capture sequencing, drawn from a landscape screen of 66,285 tumor samples (50,748 patients) at Memorial Sloan Kettering. Name, institution, size (69) and reference genome (hg19) are taken from the cBioPortal study record in `schema/ontology/studies.json`; cBioPortal's 69-sample count is close to but does not exactly match the 70-case FISH validation cohort described in the paper text [PMID:36044468](../papers/36044468.md).
 
 ## Composition
 
@@ -49,4 +49,4 @@ A FISH-validation cohort used to calibrate a purity/ploidy-aware caller for *MET
 - cBioPortal study record: `mixed_impact_subset_2022` (name, institution, size, reference_genome taken from `schema/ontology/studies.json`).
 - [PMID:36044468](../papers/36044468.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

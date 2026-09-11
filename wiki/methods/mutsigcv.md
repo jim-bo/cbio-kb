@@ -9,8 +9,8 @@ tags:
   - somatic-mutation
   - bioinformatics
   - cancer-genomics
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MutSigCV
@@ -30,7 +30,7 @@ MutSigCV is a statistical method for identifying significantly mutated genes (SM
 - Part of three-tool consensus driver-calling pipeline applied to 25 metastatic [CSCC](../cancer_types/CSCC.md) WGS samples; called [TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), and [C9](../genes/C9.md) as significant coding drivers at p<0.005; also used in cross-cohort driver comparison against cBioPortal [CSCC](../cancer_types/CSCC.md) samples [PMID:35982973](../papers/35982973.md)
 - MutSig2CV was one of five driver-discovery tools run on nonhypermutated colorectal tumors, contributing to a 46-gene high-confidence significantly mutated gene set [PMID:35487942](../papers/35487942.md).
 - MutSig2CV was one of four tools (with dNdScv, HOTMAPS and OncodriveFML) used to call significantly mutated genes in Burkitt lymphoma/DLBCL [PMID:36201743](../papers/36201743.md).
-- Used for driver-gene analysis in a gastric/hepatoblastoma PDX cohort; CTNNB1 was one of only two genes it called significant (FDR<0.1) [PMID:37990009](../papers/37990009.md).
+- Used for driver-gene analysis in a gastric/hepatoblastoma PDX cohort; [CTNNB1](../genes/CTNNB1.md) was one of only two genes it called significant (FDR<0.1) [PMID:37990009](../papers/37990009.md).
 
 ## Notes
 
@@ -49,4 +49,4 @@ MutSigCV is a statistical method for identifying significantly mutated genes (SM
 - [PMID:36201743](../papers/36201743.md)
 - [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -3,19 +3,19 @@ symbol: RBM15
 aliases: []
 cancer_types: [AML]
 tags: [fusion-gene, pediatric-aml]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # RBM15
 
 ## Overview
 
-RBM15 (RNA-binding motif protein 15) recurrently forms a fusion with MRTFA (MKL1) in pediatric acute myeloid leukemia, particularly the acute megakaryoblastic subtype.
+RBM15 (RNA-binding motif protein 15) recurrently forms a fusion with [MRTFA](../genes/MRTFA.md) (MKL1) in pediatric acute myeloid leukemia, particularly the acute megakaryoblastic subtype.
 
 ## Alterations observed in the corpus
 
-- An RBM15::MRTFA fusion was identified in 10 cases in a pediatric AML molecular classification cohort of 887 patients [PMID:38212634](../papers/38212634.md).
+- An RBM15::MRTFA fusion was identified in 10 cases in a pediatric [AML](../cancer_types/AML.md) molecular classification cohort of 887 patients [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ RBM15 (RNA-binding motif protein 15) recurrently forms a fusion with MRTFA (MKL1
 
 - [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

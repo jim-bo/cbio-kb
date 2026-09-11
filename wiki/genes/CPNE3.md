@@ -3,8 +3,8 @@ symbol: CPNE3
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CPNE3
@@ -15,7 +15,7 @@ CPNE3 (copine 3) is a calcium-dependent phospholipid-binding protein located in 
 
 ## Alterations observed in the corpus
 
-- CPNE3, located in the amplified 8q21.3 region, had higher mRNA and protein levels in non-pCR triple-negative breast cancer tumors after neoadjuvant chemotherapy, alongside co-amplified neighbors RMDN1, DECR1 and OTUD6B. [PMID:36001024](../papers/36001024.md)
+- CPNE3, located in the amplified 8q21.3 region, had higher mRNA and protein levels in non-pCR triple-negative breast cancer tumors after neoadjuvant chemotherapy, alongside co-amplified neighbors [RMDN1](../genes/RMDN1.md), [DECR1](../genes/DECR1.md) and [OTUD6B](../genes/OTUD6B.md). [PMID:36001024](../papers/36001024.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ CPNE3 (copine 3) is a calcium-dependent phospholipid-binding protein located in 
 
 - [PMID:36001024](../papers/36001024.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

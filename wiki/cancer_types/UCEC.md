@@ -4,8 +4,8 @@ oncotree_code: UCEC
 main_type: Endometrial Cancer
 parent: UTERUS
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Endometrial Carcinoma (UCEC)
@@ -53,9 +53,9 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 - In 184 MSI-H endometrial carcinomas profiled by MSK-IMPACT, three distinct MMR-D mechanisms (germline Lynch n=25, somatic n=39, [MLH1](../genes/MLH1.md) promoter hypermethylation n=120) were associated with divergent molecular profiles, TMB (MLH1ph median 32 vs germline 44 vs somatic 48 mt/Mb, p<0.001), and 2-year stage-I/II PFS (70.3% vs 100% vs 100%) [PMID:35849120](../papers/35849120.md).
 - MSK cfDNA pilot (N=44 newly diagnosed EC; [ucec_ccr_cfdna_msk_2022](../datasets/ucec_ccr_cfdna_msk_2022.md)): baseline ctDNA detected in 22% (8/36) of evaluable patients, enriched in advanced/high-risk histologies ([USC](../cancer_types/USC.md), [UCS](../cancer_types/UCS.md)); detectable baseline ctDNA associated with reduced PFS (HR 11.14, p<0.001); post-surgical ctDNA associated with reduced PFS (HR 15.56, p=0.014); primary-tumor mutational landscape: [TP53](../genes/TP53.md) 52%, [PTEN](../genes/PTEN.md) 50%, [PIK3CA](../genes/PIK3CA.md) 50%, [ARID1A](../genes/ARID1A.md) 36%, [FBXW7](../genes/FBXW7.md) 29% [PMID:36007103](../papers/36007103.md)
 - Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): UCEC included among 25 principal tumor types; [TP53](../genes/TP53.md) (58% pan-cohort), [PIK3CA](../genes/PIK3CA.md) (11%), MSI-H/TMB-H/PD-L1+ IO biomarker positivity profiled across tumor types [PMID:35871175](../papers/35871175.md)
-- In TCGA endometrial carcinoma (UCEC), hemizygous LIG1 copy-number loss was associated with worse progression-free survival (HR 2.23, P=0.02) and higher fraction genome altered. [PMID:36001024](../papers/36001024.md)
-- Among 2,638 endometrial carcinomas (UCEC) with MSK-IMPACT sequencing, 69 (2.6%) carried pathogenic ERBB2 mutations, enriched for MSI-H (59% vs 24%) and high TMB (median 43.2 vs 6.1 mut/Mb), distinct from the ERBB2-amplified/CN-H/TP53abn subgroup. [PMID:39031567](../papers/39031567.md)
-- Across 50,000 MSK-IMPACT tumors, endometrial carcinoma (UCEC) had the highest microsatellite instability rate of any cancer type (15%, 349/2,348), and RRAS2 hotspot mutations (G23/G24) were enriched in endometrial and germ cell tumors. [PMID:41895280](../papers/41895280.md)
+- In TCGA endometrial carcinoma (UCEC), hemizygous [LIG1](../genes/LIG1.md) copy-number loss was associated with worse progression-free survival (HR 2.23, P=0.02) and higher fraction genome altered. [PMID:36001024](../papers/36001024.md)
+- Among 2,638 endometrial carcinomas (UCEC) with MSK-IMPACT sequencing, 69 (2.6%) carried pathogenic [ERBB2](../genes/ERBB2.md) mutations, enriched for MSI-H (59% vs 24%) and high TMB (median 43.2 vs 6.1 mut/Mb), distinct from the ERBB2-amplified/CN-H/TP53abn subgroup. [PMID:39031567](../papers/39031567.md)
+- Across 50,000 MSK-IMPACT tumors, endometrial carcinoma (UCEC) had the highest microsatellite instability rate of any cancer type (15%, 349/2,348), and [RRAS2](../genes/RRAS2.md) hotspot mutations (G23/G24) were enriched in endometrial and germ cell tumors. [PMID:41895280](../papers/41895280.md)
 
 ## Subtypes
 
@@ -139,4 +139,4 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 - [PMID:39031567](../papers/39031567.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

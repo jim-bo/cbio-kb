@@ -4,8 +4,8 @@ oncotree_code: MBN
 main_type: Mature B-Cell Neoplasms
 parent: NHL
 tags: [lymphoid, b-cell, non-hodgkin-lymphoma]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 canonical_source: oncotree
 unverified: false
 ---
@@ -24,7 +24,7 @@ Mature B-Cell Neoplasms is a broad OncoTree category encompassing post-germinal-
 
 - In PCAWG, mature B-cell lymphomas showed point mutation dominance over SVs; chromoplexy was enriched in lymphoid malignancies; [JAK2](../genes/JAK2.md) V617F driver was missed in myeloproliferative neoplasms because panels-of-normals from blood samples filtered the mutation — a cautionary finding for WGS in haematopoietic cancers [PMID:32025007](../papers/32025007.md).
 - [SETD2](../genes/SETD2.md) — novel recurrent CNA-driven loss identified as a driver in driverless group-4 medulloblastoma cases within the PCAWG cohort (P < 1×10⁻⁴) [PMID:32025007](../papers/32025007.md).
-- Whole-genome and/or transcriptome sequencing of 281 Burkitt lymphomas (a Mature B-Cell Neoplasm) found MYC translocations in 93% of cases and defined three BL-predominant genetic subgroups (DGG-BL, IC-BL, Q53-BL) that differ by EBV status, mutation burden and outcome [PMID:36201743](../papers/36201743.md).
+- Whole-genome and/or transcriptome sequencing of 281 Burkitt lymphomas (a Mature B-Cell Neoplasm) found [MYC](../genes/MYC.md) translocations in 93% of cases and defined three BL-predominant genetic subgroups (DGG-BL, IC-BL, Q53-BL) that differ by EBV status, mutation burden and outcome [PMID:36201743](../papers/36201743.md).
 
 ## Subtypes
 
@@ -40,4 +40,4 @@ Mature B-Cell Neoplasms is a broad OncoTree category encompassing post-germinal-
 - [PMID:32025007](../papers/32025007.md) — PCAWG Consortium, Nature 578 (2020). Pan-cancer WGS analysis including mature B-cell lymphomas.
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

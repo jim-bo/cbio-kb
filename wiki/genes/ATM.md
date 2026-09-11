@@ -3,8 +3,8 @@ symbol: ATM
 aliases: []
 cancer_types: [CLLSLL, ANGS]
 tags: [dna-damage-response, driver]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ATM
@@ -86,12 +86,12 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - ATM exon 57 truncating mutation in osteosarcoma was associated with >1-year stable disease on a PARP-inhibitor plus ATR-inhibitor combination in an anecdotal MSK clinical case [PMID:35705558](../papers/35705558.md)
 - ATM is part of the DDR pathway altered in 9.6% of 2,138 MSK sarcomas; DDR pathway alteration highest in [ULMS](../cancer_types/ULMS.md) (24%), [MPNST](../cancer_types/MPNST.md) (16%), [PLLS](../cancer_types/PLLS.md) (13%), [PECOMA](../cancer_types/PECOMA.md) (13%), and [ANGS](../cancer_types/ANGS.md) (13%) [PMID:35705560](../papers/35705560.md)
 - Mutated in 2% of pMMR/MSS rectal tumors (LARC cohort); OncoKB Level 3B actionable alteration in CRC [PMID:35970919](../papers/35970919.md)
-- Somatic ATM mutations in 30% of atypical [SCLC](../cancer_types/SCLC.md) (aSCLC), enriched vs carcinoids (8%, P=0.008) and conventional SCLC (3%, P=0.0003); authors hypothesize ATM disabling permits chromothripsis via micronucleus formation [PMID:39185963](../papers/39185963.md)
+- Somatic ATM mutations in 30% of atypical [SCLC](../cancer_types/SCLC.md) (aSCLC), enriched vs carcinoids (8%, P=0.008) and conventional [SCLC](../cancer_types/SCLC.md) (3%, P=0.0003); authors hypothesize ATM disabling permits chromothripsis via micronucleus formation [PMID:39185963](../papers/39185963.md)
 - Germline ATM pathogenic variant identified in 1 of 73 consented colitis-associated cancer (CAC) patients; overall germline alteration frequency in CAC similar to sporadic CRC (14%) [PMID:36611031](../papers/36611031.md)
-- Target phosphorylation increased on treatment in triple-negative breast cancer tumors with LIG1 loss [PMID:36001024](../papers/36001024.md)
+- Target phosphorylation increased on treatment in triple-negative breast cancer tumors with [LIG1](../genes/LIG1.md) loss [PMID:36001024](../papers/36001024.md)
 - Lower-frequency gene added to a VHL-anchored ccRCC outcome classifier based on preliminary links to recurrence, though its individual significance could not be robustly established [PMID:36815791](../papers/36815791.md)
-- One of the DNA-repair/PARP-pathway genes (with FANCF, RAD54L, FANCA, FANCC, RECQL4, NBN, CHEK2, WRN) altered in 6.9% of solitary fibrous tumors, proposed as PARP-inhibitor targets [PMID:37980418](../papers/37980418.md)
-- Located in a GISTIC2 deletion peak alongside RAD51, FANCA, CHEK1 and POLD1 in a pediatric solid tumor PDX cohort [PMID:37990009](../papers/37990009.md)
+- One of the DNA-repair/PARP-pathway genes (with [FANCF](../genes/FANCF.md), [RAD54L](../genes/RAD54L.md), [FANCA](../genes/FANCA.md), [FANCC](../genes/FANCC.md), [RECQL4](../genes/RECQL4.md), [NBN](../genes/NBN.md), [CHEK2](../genes/CHEK2.md), [WRN](../genes/WRN.md)) altered in 6.9% of solitary fibrous tumors, proposed as PARP-inhibitor targets [PMID:37980418](../papers/37980418.md)
+- Located in a GISTIC2 deletion peak alongside [RAD51](../genes/RAD51.md), FANCA, [CHEK1](../genes/CHEK1.md) and [POLD1](../genes/POLD1.md) in a pediatric solid tumor PDX cohort [PMID:37990009](../papers/37990009.md)
 - Lies in a deletion bridge (11q22, 8 cases) adjacent to chromoplectic breakpoints in Ewing sarcoma, suggesting possible loss of tumor-suppressor function [PMID:38335254](../papers/38335254.md)
 - Most frequently altered DNA-damage-response gene overall (17%, n=31) in a bladder cancer cohort; only truncating variants counted as deleterious [PMID:39499893](../papers/39499893.md)
 
@@ -200,4 +200,4 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:38335254](../papers/38335254.md)
 - [PMID:39499893](../papers/39499893.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

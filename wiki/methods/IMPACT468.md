@@ -5,8 +5,8 @@ kind: gene-panel
 canonical_source: msk
 unverified: false
 tags: [panel, msk-impact, targeted-sequencing]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 genePanelId: IMPACT468
 ---
 
@@ -55,8 +55,8 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Applied to 1,356 of 2,138 sarcomas (63.4%) in the MSK sarcoma genomic landscape study — the dominant panel version used [PMID:35705560](../papers/35705560.md)
 - Primary sequencing assay for 170 of 184 MSI-H/MMR-D endometrial cancers (median depth 637×) in a study comparing germline, somatic, and MLH1-promoter-hypermethylation MMR-deficiency mechanisms [PMID:35849120](../papers/35849120.md)
 - Used to profile 42 primary endometrial cancer tumors (median depth 618x, range 101–1030x) in a prospective cfDNA monitoring study; tumor-informed variant calling against MSK-ACCESS enabled detection of 92% of primary-tumor mutations in baseline plasma [PMID:36007103](../papers/36007103.md)
-- One of the four MSK-IMPACT panel versions (341-505 genes) used to screen 66,285 tumor samples for MET copy-number gain. [PMID:36044468](../papers/36044468.md)
-- One of the MSK-IMPACT panel versions used to sequence 2,638 endometrial carcinomas screened for pathogenic ERBB2 mutations. [PMID:39031567](../papers/39031567.md)
+- One of the four MSK-IMPACT panel versions (341-505 genes) used to screen 66,285 tumor samples for [MET](../genes/MET.md) copy-number gain. [PMID:36044468](../papers/36044468.md)
+- One of the MSK-IMPACT panel versions used to sequence 2,638 endometrial carcinomas screened for pathogenic [ERBB2](../genes/ERBB2.md) mutations. [PMID:39031567](../papers/39031567.md)
 - TCGA and Nik-Zainal WES/WGS validation cohorts were downsampled and simulated to the IMPACT468 panel footprint to benchmark the SigMA mutational-signature caller on breast cancer. [PMID:40379787](../papers/40379787.md)
 - IMPACT468 (v6, 468 genes) was one of two MSK-IMPACT panel versions used for tissue sequencing of pancreatic ductal adenocarcinoma compared against ctDNA. [PMID:40511613](../papers/40511613.md)
 - IMPACT468 sequenced 36,323 of the 54,331 tumors in the 50k-sample MSK-IMPACT pan-cancer hotspot-discovery cohort, the largest of the four panel versions. [PMID:41895280](../papers/41895280.md)
@@ -113,4 +113,4 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - [PMID:41895280](../papers/41895280.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

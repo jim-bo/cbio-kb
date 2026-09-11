@@ -6,8 +6,8 @@ cancer_types:
   - RBL
   - GBM
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CREBBP
@@ -24,8 +24,8 @@ CREBBP (CREB-binding protein, CBP) is a transcriptional coactivator and histone 
 - CREBBP is the top-ranked negative Δκ risk gene (Δκ = −0.064) — the largest decrease in curvature between low- and high-risk [HGSOC](../cancer_types/HGSOC.md) groups in ICI-treated patients; flagged as a putative network driver of ICI-modulated robustness [PMID:34819508](../papers/34819508.md)
 - CREBBP was listed among genes sequenced by MSK-IMPACT in the [SCLC](../cancer_types/SCLC.md) PDX/CDX biobank study characterizing 26 clinical [SCLC](../cancer_types/SCLC.md) specimens and 30 patient-derived models. [PMID:35440124](../papers/35440124.md)
 - Structural deletion (DEL) detected by LINX/PURPLE SV analysis in metastatic [CSCC](../cancer_types/CSCC.md) WGS cohort (25 samples) [PMID:35982973](../papers/35982973.md)
-- Rare (<2%) CREBBP mutations found in MDS, showing a nonsense/splice-site/frameshift pattern typical of other cancers but not previously implicated in MDS. [PMID:24030381](../papers/24030381.md)
-- CREBBP hotspot mutations, atypical for Burkitt lymphoma, drove DLBCL-like calls in an external BL cohort reanalysis. [PMID:36201743](../papers/36201743.md)
+- Rare (<2%) CREBBP mutations found in [MDS](../cancer_types/MDS.md), showing a nonsense/splice-site/frameshift pattern typical of other cancers but not previously implicated in MDS. [PMID:24030381](../papers/24030381.md)
+- CREBBP hotspot mutations, atypical for Burkitt lymphoma, drove DLBCL-like calls in an external [BL](../cancer_types/BL.md) cohort reanalysis. [PMID:36201743](../papers/36201743.md)
 - CREBBP alterations, as part of a NOTCH-pathway gene set, were related to progression-free survival in solitary fibrous tumor. [PMID:37980418](../papers/37980418.md)
 
 ## Cancer types (linked)
@@ -39,7 +39,7 @@ CREBBP (CREB-binding protein, CBP) is a transcriptional coactivator and histone 
 
 ## Therapeutic relevance
 
-- CREBBP and EP300 inhibitors are nominated as therapeutic candidates for the classical-like, H2B-hyperacetylated GBM subset; hypothesis-generating from proteogenomic data, not clinically tested in this cohort [PMID:33577785](../papers/33577785.md).
+- CREBBP and [EP300](../genes/EP300.md) inhibitors are nominated as therapeutic candidates for the classical-like, H2B-hyperacetylated [GBM](../cancer_types/GBM.md) subset; hypothesis-generating from proteogenomic data, not clinically tested in this cohort [PMID:33577785](../papers/33577785.md).
 
 ## Open questions
 
@@ -62,4 +62,4 @@ CREBBP (CREB-binding protein, CBP) is a transcriptional coactivator and histone 
 - [PMID:36201743](../papers/36201743.md)
 - [PMID:37980418](../papers/37980418.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [immune-repertoire, b-cell, sequencing]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # BCR sequencing (BCR-seq)
@@ -17,7 +17,7 @@ BCR-seq (B-cell receptor sequencing) amplifies and sequences the rearranged immu
 
 ## Used by
 
-- BCR-seq profiled peripheral-blood BCR IgG/IgM heavy/kappa/lambda repertoires (Takara SMARTer kits, MiSeq 2x300bp, chains inferred with MiXCR v2.1.9) alongside TCR-seq in a phase II single-arm trial of a cyclophosphamide priming dose before pembrolizumab for metastatic triple-negative breast cancer (n=40). [PMID:35121644](../papers/35121644.md)
+- BCR-seq profiled peripheral-blood [BCR](../genes/BCR.md) IgG/IgM heavy/kappa/lambda repertoires (Takara SMARTer kits, MiSeq 2x300bp, chains inferred with MiXCR v2.1.9) alongside TCR-seq in a phase II single-arm trial of a [cyclophosphamide](../drugs/cyclophosphamide.md) priming dose before [pembrolizumab](../drugs/pembrolizumab.md) for metastatic triple-negative breast cancer (n=40). [PMID:35121644](../papers/35121644.md)
 
 ## Notes
 
@@ -27,4 +27,4 @@ BCR-seq (B-cell receptor sequencing) amplifies and sequences the rearranged immu
 
 - [PMID:35121644](../papers/35121644.md) — Anders et al. 2022, *J Immunother Cancer*, cyclophosphamide priming before pembrolizumab in metastatic TNBC
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

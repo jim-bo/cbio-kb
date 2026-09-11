@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - AML
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CUX1
@@ -18,7 +18,7 @@ CUX1 (Cut Homeobox 1) is a haploinsufficient tumor suppressor located on chromos
 
 - Cited as a haploinsufficient tumor suppressor on chromosome 7 frequently inactivated in [AML](../cancer_types/AML.md); referenced as an example of a somatic variant discovery enabled by the Bionimbus Protected Data Cloud, in a cloud-computing perspectives paper [PMID:29902176](../papers/29902176.md).
 - Myeloid-malignancy driver mutation identified at t-MDS/AL transformation in pediatric neuroblastoma patients developing therapy-related MDS/AL at MSKCC [PMID:35078859](../papers/35078859.md)
-- CUX1, previously reported in AML, was also found mutated in this MDS cohort. [PMID:24030381](../papers/24030381.md)
+- CUX1, previously reported in [AML](../cancer_types/AML.md), was also found mutated in this [MDS](../cancer_types/MDS.md) cohort. [PMID:24030381](../papers/24030381.md)
 
 ## Cancer types (linked)
 
@@ -43,4 +43,4 @@ CUX1 (Cut Homeobox 1) is a haploinsufficient tumor suppressor located on chromos
 - [PMID:35078859](../papers/35078859.md)
 - [PMID:24030381](../papers/24030381.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

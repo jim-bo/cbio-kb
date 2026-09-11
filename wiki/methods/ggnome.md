@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [genome-graph, structural-variants, chromoplexy]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # gGnome
@@ -17,7 +17,7 @@ gGnome is a genome-graph R package used to represent and query complex structura
 
 ## Used by
 
-- Used (gWalk function) to confirm open-chain and closed-loop chromoplexy structures from DELLY-called structural variants in 277 EWSR1-rearranged small blue round cell tumors (Ewing sarcoma and EWSR1::WT1 DSRCT) [PMID:38335254](../papers/38335254.md).
+- Used (gWalk function) to confirm open-chain and closed-loop chromoplexy structures from DELLY-called structural variants in 277 EWSR1-rearranged small blue round cell tumors (Ewing sarcoma and [EWSR1](../genes/EWSR1.md)::[WT1](../genes/WT1.md) [DSRCT](../cancer_types/DSRCT.md)) [PMID:38335254](../papers/38335254.md).
 
 ## Notes
 
@@ -27,4 +27,4 @@ gGnome is a genome-graph R package used to represent and query complex structura
 
 - [PMID:38335254](../papers/38335254.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

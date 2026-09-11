@@ -3,8 +3,8 @@ symbol: NUP98
 aliases: []
 cancer_types: [AML]
 tags: [fusion, NSD1-partner, nucleoporin, leukemia, HOXA-activation]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # NUP98
@@ -15,10 +15,10 @@ NUP98 (Nucleoporin 98) is a component of the nuclear pore complex. NUP98 is an o
 
 ## Alterations observed in the corpus
 
-- NUP98–NSD1 recurrent in-frame fusion detected by RNA-seq in adult de novo AML; identified among the recurrent in-frame fusions beyond the major known fusions ([PML](../genes/PML.md)–[RARA](../genes/RARA.md), [MYH11](../genes/MYH11.md)–[CBFB](../genes/CBFB.md), [RUNX1](../genes/RUNX1.md)–[RUNX1T1](../genes/RUNX1T1.md), [BCR](../genes/BCR.md)–[ABL1](../genes/ABL1.md)) in the TCGA 200-case AML cohort [PMID:23634996](../papers/23634996.md)
+- NUP98–[NSD1](../genes/NSD1.md) recurrent in-frame fusion detected by RNA-seq in adult de novo [AML](../cancer_types/AML.md); identified among the recurrent in-frame fusions beyond the major known fusions ([PML](../genes/PML.md)–[RARA](../genes/RARA.md), [MYH11](../genes/MYH11.md)–[CBFB](../genes/CBFB.md), [RUNX1](../genes/RUNX1.md)–[RUNX1T1](../genes/RUNX1T1.md), [BCR](../genes/BCR.md)–[ABL1](../genes/ABL1.md)) in the TCGA 200-case AML cohort [PMID:23634996](../papers/23634996.md)
 - NUP98–NSD1 fusion in pediatric AML; DOT1L-inhibitor target identified in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
-- Driver gene in the NUP98-NSD1 fusion, a classic leukemic fusion recovered in LAML fusion-only tumors in pan-cancer RNA-seq fusion analysis across 9,624 TCGA samples. [PMID:29617662](../papers/29617662.md)
-- In a pediatric AML transcriptomic classification, NUP98 rearrangements (71 cases), frequently cryptic (e.g. NUP98::NSD1), formed the HOXB expression superfamily with strong FLT3-ITD and WT1 co-occurrence [PMID:38212634](../papers/38212634.md).
+- Driver gene in the NUP98-NSD1 fusion, a classic leukemic fusion recovered in [LAML](../cancer_types/LAML.md) fusion-only tumors in pan-cancer RNA-seq fusion analysis across 9,624 TCGA samples. [PMID:29617662](../papers/29617662.md)
+- In a pediatric AML transcriptomic classification, NUP98 rearrangements (71 cases), frequently cryptic (e.g. NUP98::NSD1), formed the HOXB expression superfamily with strong FLT3-ITD and [WT1](../genes/WT1.md) co-occurrence [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
@@ -43,4 +43,4 @@ NUP98 (Nucleoporin 98) is a component of the nuclear pore complex. NUP98 is an o
 - [PMID:29617662](../papers/29617662.md)
 - [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

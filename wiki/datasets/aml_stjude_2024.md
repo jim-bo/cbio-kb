@@ -16,15 +16,15 @@ tags:
   - aml
   - fusion-driven
   - discovery-cohort
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Pediatric Acute Myeloid Leukemia (St. Jude, Nat Genet 2024)
 
 ## Overview
 
-A discovery cohort of 887 unique pediatric acute myeloid leukemia (AML) cases assembled by St. Jude Children's Research Hospital from prior published cohorts, newly sequenced St. Jude cases, and TARGET-AML (n=187 of the 887). Study record per cBioPortal metadata: `aml_stjude_2024`, 887 samples, hg19. [PMID:38212634](../papers/38212634.md)
+A discovery cohort of 887 unique pediatric acute myeloid leukemia ([AML](../cancer_types/AML.md)) cases assembled by St. Jude Children's Research Hospital from prior published cohorts, newly sequenced St. Jude cases, and TARGET-AML (n=187 of the 887). Study record per cBioPortal metadata: `aml_stjude_2024`, 887 samples, hg19. [PMID:38212634](../papers/38212634.md)
 
 ## Composition
 
@@ -47,4 +47,4 @@ A discovery cohort of 887 unique pediatric acute myeloid leukemia (AML) cases as
 
 - cBioPortal study ID: aml_stjude_2024 (name, institution, size, reference_genome from `schema/ontology/studies.json`).
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -3,8 +3,8 @@ symbol: ERG
 aliases: []
 cancer_types: [PRAD]
 tags: [fusion, oncogene, prostate]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ERG
@@ -40,8 +40,8 @@ ERG (ETS-Related Gene) is a transcription factor of the ETS family. In prostate 
 - [TMPRSS2](../genes/TMPRSS2.md):ERG fusions intentionally excluded from racial alteration-prevalence comparisons in an MSK-IMPACT prostate cancer cohort (n=2,069) due to suboptimal panel sensitivity for fusions; known to be more common in European-ancestry men. [PMID:34667026](../papers/34667026.md)
 - Fusions less frequent in [PRAD](../cancer_types/PRAD.md) bone metastases (30% primary vs 15% bone met, q=0.002; secondary analysis 29% vs 24%, q=0.04), indicating negative selection for ERG fusions at the bone metastatic site in prostate cancer [PMID:35120664](../papers/35120664.md)
 - [TMPRSS2](../genes/TMPRSS2.md)–ERG fusions detected by targeted RNA-seq in 13/51 (25%) prostate cancer brain metastases (PCBM), highly correlated with ERG IHC (r=0.70, P<2.2×10⁻¹⁶) [PMID:35504881](../papers/35504881.md)
-- ERG is the ETS-family fusion partner in a FUS::ERG rearrangement, one of 16 FET-ETS fusions identified in a pediatric AML molecular classification cohort. [PMID:38212634](../papers/38212634.md)
-- ERG is the fusion partner in EWSR1::ERG Ewing sarcoma (n=26, unbalanced fusion); chromoplexy occurred in 42% of these cases versus 24% for EWSR1::FLI1 (P=0.03), and ERG accounted for 7% of chromoplectic events; ERG is also the partner in TMPRSS2::ERG prostate cancer. [PMID:38335254](../papers/38335254.md)
+- ERG is the ETS-family fusion partner in a [FUS](../genes/FUS.md)::ERG rearrangement, one of 16 FET-ETS fusions identified in a pediatric [AML](../cancer_types/AML.md) molecular classification cohort. [PMID:38212634](../papers/38212634.md)
+- ERG is the fusion partner in [EWSR1](../genes/EWSR1.md)::ERG Ewing sarcoma (n=26, unbalanced fusion); chromoplexy occurred in 42% of these cases versus 24% for EWSR1::[FLI1](../genes/FLI1.md) (P=0.03), and ERG accounted for 7% of chromoplectic events; ERG is also the partner in [TMPRSS2](../genes/TMPRSS2.md)::ERG prostate cancer. [PMID:38335254](../papers/38335254.md)
 
 ## Cancer types (linked)
 
@@ -113,4 +113,4 @@ ERG (ETS-Related Gene) is a transcription factor of the ETS family. In prostate 
 - [PMID:38212634](../papers/38212634.md)
 - [PMID:38335254](../papers/38335254.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

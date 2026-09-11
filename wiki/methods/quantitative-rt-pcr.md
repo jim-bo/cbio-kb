@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [pcr, transcriptomics, gene-expression, validation]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Quantitative RT-PCR (qRT-PCR)
@@ -23,12 +23,12 @@ Reverse-transcription quantitative PCR for measuring mRNA expression levels. Use
 - Quantitative RT-PCR used to validate gene expression findings in adrenocortical carcinoma [PMID:26095796](../papers/26095796.md)
 - Quantitative RT-PCR used to validate RNA expression results in proteogenomic analysis of ovarian cancer [PMID:40694421](../papers/40694421.md)
 - RT-PCR used to validate MYBL1-NFIB and other [MYBL1](../genes/MYBL1.md) fusion transcripts, and to quantify [MYB](../genes/MYB.md) and [MYBL1](../genes/MYBL1.md) mRNA expression in all 102 salivary adenoid cystic carcinomas demonstrating mutually exclusive high expression [PMID:26631609](../papers/26631609.md).
-- Quantitative RT-PCR used to validate MYB and MYB-target gene expression changes following BET bromodomain inhibitor JQ1 treatment in grade-2 and grade-3 ACC primagrafts [PMID:26829750](../papers/26829750.md)
-- qRT-PCR used to quantify DUX4 and ERGalt expression in B-ALL cell lines and patient-derived xenografts in the DUX4/ERG B-ALL subtype study. [PMID:27776115](../papers/27776115.md)
-- Quantitative RT-PCR used to confirm that spautin-1 reduced TRMT10A protein but not mRNA levels, establishing post-transcriptional (proteasomal) regulation [PMID:41071892](../papers/41071892.md).
-- RT-qPCR used to validate RNA-seq-derived NOL10 cell-cycle signature gene set (DLGAP5, MCM4, KIF20B, DIAPH3, SUV39H1, CENPE, GINS2, HMGB3, CDC6) and to measure NOL10 and USF1 expression changes after CRISPR perturbations and knockdown experiments across DU145, 22Rv1, LNCaP, and PC3 cells [PMID:41062477](../papers/41062477.md)
-- Used to confirm MAP3K1 shRNA knockdown efficiency (~70% mRNA reduction) in T47D cells before functional assessment of PI3K-inhibitor sensitization; knockdown abolished buparlisib-induced p-cJUN induction without affecting p-AKT suppression [PMID:31552290](../papers/31552290.md).
-- qRT-PCR normalized to GAPDH validated CGREF1 mRNA overexpression in 15/19 (78.9%) CRC paired tumor/normal specimens; confirmed TIMER 2.0 and GEPIA2 bioinformatic findings [PMID:41125935](../papers/41125935.md)
+- Quantitative RT-PCR used to validate [MYB](../genes/MYB.md) and MYB-target gene expression changes following BET bromodomain inhibitor JQ1 treatment in grade-2 and grade-3 [ACC](../cancer_types/ACC.md) primagrafts [PMID:26829750](../papers/26829750.md)
+- qRT-PCR used to quantify [DUX4](../genes/DUX4.md) and ERGalt expression in B-ALL cell lines and patient-derived xenografts in the DUX4/ERG B-ALL subtype study. [PMID:27776115](../papers/27776115.md)
+- Quantitative RT-PCR used to confirm that [spautin-1](../drugs/spautin-1.md) reduced [TRMT10A](../genes/TRMT10A.md) protein but not mRNA levels, establishing post-transcriptional (proteasomal) regulation [PMID:41071892](../papers/41071892.md).
+- RT-qPCR used to validate RNA-seq-derived [NOL10](../genes/NOL10.md) cell-cycle signature gene set (DLGAP5, [MCM4](../genes/MCM4.md), KIF20B, DIAPH3, SUV39H1, CENPE, GINS2, HMGB3, CDC6) and to measure NOL10 and [USF1](../genes/USF1.md) expression changes after CRISPR perturbations and knockdown experiments across DU145, 22Rv1, LNCaP, and PC3 cells [PMID:41062477](../papers/41062477.md)
+- Used to confirm [MAP3K1](../genes/MAP3K1.md) shRNA knockdown efficiency (~70% mRNA reduction) in T47D cells before functional assessment of PI3K-inhibitor sensitization; knockdown abolished buparlisib-induced p-cJUN induction without affecting p-AKT suppression [PMID:31552290](../papers/31552290.md).
+- qRT-PCR normalized to GAPDH validated [CGREF1](../genes/CGREF1.md) mRNA overexpression in 15/19 (78.9%) CRC paired tumor/normal specimens; confirmed TIMER 2.0 and GEPIA2 bioinformatic findings [PMID:41125935](../papers/41125935.md)
 - Validated mtDNA copy-number calls (from ExomeDepth) by D-loop/B2M qRT-PCR in a 1015-exome colorectal cancer cohort [PMID:35487942](../papers/35487942.md).
 - Validated the PRADA/STAR-Fusion-detected LRPAP1-PDGFRA fusion by RT-PCR in a pediatric solid-tumor PDX study [PMID:37990009](../papers/37990009.md).
 - Used TaqMan qRT-PCR (normalized to GAPDH) to validate AXIN2/CDH1 siRNA-knockdown effects in CDH1-intact invasive lobular breast carcinoma [PMID:38347189](../papers/38347189.md).
@@ -54,4 +54,4 @@ Reverse-transcription quantitative PCR for measuring mRNA expression levels. Use
 - [PMID:37990009](../papers/37990009.md)
 - [PMID:38347189](../papers/38347189.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

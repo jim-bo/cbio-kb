@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [functional-precision-medicine, organoids, drug-screening, sarcoma, ex-vivo]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Organoid drug screening (PDTO mini-ring platform)
@@ -22,7 +22,7 @@ Patient-derived tumor organoid (PDTO) drug screening is a functional precision m
 - Applied to 22 patient-derived bladder cancer organoid lines using CellTiter-Glo 3D (7-point 5-fold dilution series, 6-day incubation) to profile drug responses to [trametinib](../drugs/trametinib.md), [gemcitabine](../drugs/gemcitabine.md), [sirolimus](../drugs/sirolimus.md), AZD8055, and [erdafitinib](../drugs/erdafitinib.md) [PMID:29625057](../papers/29625057.md).
 - 21 rectal cancer tumoroids screened ex vivo against 5-FU and FOLFOX; 19 screened against ionizing radiation; KRAS-mutant tumoroids tested against [cetuximab](../drugs/cetuximab.md); ex vivo AUC for 5-FU and FOLFOX correlated with patient PFS (Spearman r=0.86, p=0.024 for both) [PMID:31591597](../papers/31591597.md).
 - MSK-PCa1–7 patient-derived organoid lines from mCRPC (including PIK3R1-mutant MSK-PCa3) screened with AKT inhibitors MK-2206 and [ipatasertib](../drugs/ipatasertib.md); PIK3R1-mutant MSK-PCa3 showed strong growth inhibition at 10 nM whereas PIK3R1-WT MSK-PCa1 was modestly affected [PMID:35670774](../papers/35670774.md)
-- A 3D patient-derived tumor organoid (PDXO) mini-ring drug screen of 42 regimens found relative sensitivity to ceritinib, copanlisib, linsitinib and sapanisertib in MYOD1-mutant rhabdomyosarcoma [PMID:41758938](../papers/41758938.md).
+- A 3D patient-derived tumor organoid (PDXO) mini-ring drug screen of 42 regimens found relative sensitivity to [ceritinib](../drugs/ceritinib.md), [copanlisib](../drugs/copanlisib.md), [linsitinib](../drugs/linsitinib.md) and [sapanisertib](../drugs/sapanisertib.md) in MYOD1-mutant rhabdomyosarcoma [PMID:41758938](../papers/41758938.md).
 
 ## Notes
 
@@ -40,4 +40,4 @@ Patient-derived tumor organoid (PDTO) drug screening is a functional precision m
 - [PMID:35670774](../papers/35670774.md)
 - [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

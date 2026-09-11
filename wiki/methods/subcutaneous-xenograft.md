@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: false
 tags: [in-vivo, mouse-model, tumor-model, xenograft]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Subcutaneous Xenograft
@@ -21,11 +21,11 @@ Subcutaneous xenograft models involve injecting human cancer cells into the flan
 - CB17 SCID mouse subcutaneous xenografts established from prostate cancer organoid lines MSK-PCa1 and MSK-PCa2; used to test [enzalutamide](../drugs/enzalutamide.md) and [everolimus](../drugs/everolimus.md) in vivo. [PMID:25201530](../papers/25201530.md)
 - 30 serially transplanted breast cancer PDX lines established in NSG and NRG mice via subcutaneous, subrenal capsule, and mammary fat pad implantation over up to 16 generations; clonal selection on engraftment was universal across all 15 WGS-characterized series [PMID:25470049](../papers/25470049.md)
 - Subcutaneous xenograft models used to assess in vivo drug sensitivity in ovarian cancer cell line experiments [PMID:40694421](../papers/40694421.md)
-- ACC patient-derived primagraft (PDX) models in Foxn1nu mice used for in vivo BET bromodomain inhibitor JQ1 testing (50 mg/kg daily oral); grade-2 primagrafts responded (tumor growth slowed) while grade-3 Notch-activated primagrafts did not [PMID:26829750](../papers/26829750.md)
-- 22Rv1 cell-derived subcutaneous xenografts (CDX) in NOD-SCID mice used to demonstrate in vivo TRMT10A-knockdown olaparib sensitization; combination index (CI = 0.76) for olaparib (50 mg/kg) + spautin-1 (20 mg/kg) [PMID:41071892](../papers/41071892.md).
-- DU145 and PC3 cells with NOL10 knockdown or USF1 knockdown grown as subcutaneous xenografts in male nude mice; NOL10-knockdown xenografts were significantly smaller by volume and weight, with lower Ki67, lower Vimentin, and higher E-cadherin by IHC [PMID:41062477](../papers/41062477.md)
-- Used subcutaneous MCF7 CDK6-overexpressing and shPTEN xenografts in nude mice to demonstrate that PROTAC degraders BSJ-05-017 and BSJ-03-096 suppress tumor volume by 47–69% vs ribociclib failure in CDK4/6i-resistant ER+ breast cancer [PMID:34544752](../papers/34544752.md)
-- Used BT-474 shNF1 subcutaneous xenografts to show 37% growth inhibition with trametinib 1 mg/kg (p=0.0059), demonstrating MEK dependency in MAPK-altered HER2+ breast cancer resistant to anti-HER2 therapy [PMID:34795269](../papers/34795269.md)
+- [ACC](../cancer_types/ACC.md) patient-derived primagraft (PDX) models in Foxn1nu mice used for in vivo BET bromodomain inhibitor JQ1 testing (50 mg/kg daily oral); grade-2 primagrafts responded (tumor growth slowed) while grade-3 Notch-activated primagrafts did not [PMID:26829750](../papers/26829750.md)
+- 22Rv1 cell-derived subcutaneous xenografts (CDX) in NOD-SCID mice used to demonstrate in vivo TRMT10A-knockdown [olaparib](../drugs/olaparib.md) sensitization; combination index (CI = 0.76) for olaparib (50 mg/kg) + [spautin-1](../drugs/spautin-1.md) (20 mg/kg) [PMID:41071892](../papers/41071892.md).
+- DU145 and PC3 cells with [NOL10](../genes/NOL10.md) knockdown or [USF1](../genes/USF1.md) knockdown grown as subcutaneous xenografts in male nude mice; NOL10-knockdown xenografts were significantly smaller by volume and weight, with lower Ki67, lower Vimentin, and higher E-cadherin by IHC [PMID:41062477](../papers/41062477.md)
+- Used subcutaneous MCF7 CDK6-overexpressing and shPTEN xenografts in nude mice to demonstrate that PROTAC degraders BSJ-05-017 and BSJ-03-096 suppress tumor volume by 47–69% vs [ribociclib](../drugs/ribociclib.md) failure in CDK4/6i-resistant ER+ breast cancer [PMID:34544752](../papers/34544752.md)
+- Used BT-474 shNF1 subcutaneous xenografts to show 37% growth inhibition with [trametinib](../drugs/trametinib.md) 1 mg/kg (p=0.0059), demonstrating MEK dependency in MAPK-altered HER2+ breast cancer resistant to anti-HER2 therapy [PMID:34795269](../papers/34795269.md)
 - Used to generate 90 subcutaneous PDX models from 194 pediatric solid tumor samples in NSG mice, yielding a 68-PDX analyzed cohort across 16 cancer types [PMID:37990009](../papers/37990009.md).
 
 ## Notes
@@ -46,4 +46,4 @@ Subcutaneous xenograft models involve injecting human cancer cells into the flan
 - [PMID:34795269](../papers/34795269.md)
 - [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

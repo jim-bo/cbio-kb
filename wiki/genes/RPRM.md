@@ -3,19 +3,19 @@ symbol: RPRM
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # RPRM
 
 ## Overview
 
-RPRM (Reprimo) is a G2/M cell-cycle checkpoint gene. In the corpus it is reported as transcriptionally repressed in ATRX-altered pheochromocytoma/paraganglioma (PCPG).
+RPRM (Reprimo) is a G2/M cell-cycle checkpoint gene. In the corpus it is reported as transcriptionally repressed in ATRX-altered pheochromocytoma/paraganglioma ([PCPG](../cancer_types/PCPG.md)).
 
 ## Alterations observed in the corpus
 
-- G2/M checkpoint gene (with DRG2) repressed in ATRX-altered pheochromocytoma/paraganglioma, coinciding with overexpression of RIPK4 in the same tumors. [PMID:40097403](../papers/40097403.md)
+- G2/M checkpoint gene (with [DRG2](../genes/DRG2.md)) repressed in ATRX-altered pheochromocytoma/paraganglioma, coinciding with overexpression of [RIPK4](../genes/RIPK4.md) in the same tumors. [PMID:40097403](../papers/40097403.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ RPRM (Reprimo) is a G2/M cell-cycle checkpoint gene. In the corpus it is reporte
 
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

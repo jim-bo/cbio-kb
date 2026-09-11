@@ -3,8 +3,8 @@ symbol: DENND6A
 aliases: []
 cancer_types: [ILC]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # DENND6A
@@ -19,11 +19,11 @@ DENND6A is a DENN-domain-containing gene with no previously established role in 
 
 ## Cancer types (linked)
 
-- [ILC](../cancer_types/ILC.md) (invasive lobular carcinoma): CTNND1-DENND6A fusion found in a CDH1 genetically wild-type case (case CDW20) [PMID:38347189](../papers/38347189.md).
+- [ILC](../cancer_types/ILC.md) (invasive lobular carcinoma): CTNND1-DENND6A fusion found in a [CDH1](../genes/CDH1.md) genetically wild-type case (case CDW20) [PMID:38347189](../papers/38347189.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- Fusion partner of [CTNND1](../genes/CTNND1.md) (p120-catenin); the fusion joins CTNND1 intron 11 to DENND6A exon 2, removing the CTNND1 armadillo repeats while wild-type CTNND1 is retained [PMID:38347189](../papers/38347189.md).
+- Fusion partner of [CTNND1](../genes/CTNND1.md) (p120-catenin); the fusion joins [CTNND1](../genes/CTNND1.md) intron 11 to DENND6A exon 2, removing the CTNND1 armadillo repeats while wild-type CTNND1 is retained [PMID:38347189](../papers/38347189.md).
 
 ## Therapeutic relevance
 
@@ -37,4 +37,4 @@ DENND6A is a DENN-domain-containing gene with no previously established role in 
 
 - [PMID:38347189](../papers/38347189.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

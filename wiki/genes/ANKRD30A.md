@@ -6,8 +6,8 @@ cancer_types:
 tags:
   - tumor-antigen
   - biomarker
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ANKRD30A
@@ -18,11 +18,11 @@ ANKRD30A (ankyrin repeat domain 30A, also known as NY-BR-1) is a breast-differen
 
 ## Alterations observed in the corpus
 
-- Higher pretreatment tumor expression, along with SYCE1 and TUBB2B, in responders (CR+PR) versus non-responders (SD+PD) to pembrolizumab-based therapy in a phase II trial of metastatic triple-negative breast cancer [PMID:35121644](../papers/35121644.md)
+- Higher pretreatment tumor expression, along with [SYCE1](../genes/SYCE1.md) and [TUBB2B](../genes/TUBB2B.md), in responders (CR+PR) versus non-responders (SD+PD) to pembrolizumab-based therapy in a phase II trial of metastatic triple-negative breast cancer [PMID:35121644](../papers/35121644.md)
 
 ## Cancer types (linked)
 
-- [BRCA](../cancer_types/BRCA.md) (triple-negative breast cancer): higher pretreatment expression associated with response to low-dose cyclophosphamide + pembrolizumab [PMID:35121644](../papers/35121644.md).
+- [BRCA](../cancer_types/BRCA.md) (triple-negative breast cancer): higher pretreatment expression associated with response to low-dose [cyclophosphamide](../drugs/cyclophosphamide.md) + [pembrolizumab](../drugs/pembrolizumab.md) [PMID:35121644](../papers/35121644.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -40,4 +40,4 @@ ANKRD30A (ankyrin repeat domain 30A, also known as NY-BR-1) is a breast-differen
 
 - [PMID:35121644](../papers/35121644.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

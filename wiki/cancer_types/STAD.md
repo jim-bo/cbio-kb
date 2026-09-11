@@ -4,8 +4,8 @@ oncotree_code: STAD
 main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Stomach Adenocarcinoma (STAD)
@@ -45,8 +45,8 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 - Stomach adenocarcinoma is one of the four classic Lynch syndrome-associated tumor types with highest MSI-H prevalence in the pan-cancer 39-type MANTIS analysis of 11,139 TCGA/TARGET tumors [PMID:29850653](../papers/29850653.md)
 - 11/37 (30%) patients in a HER2-positive mEGC phase 2 [pembrolizumab](../drugs/pembrolizumab.md) + [trastuzumab](../drugs/trastuzumab.md) + chemotherapy trial had gastric (STAD) primary; overall trial met primary endpoint with 70% 6-month PFS rate and 91% ORR [PMID:32437664](../papers/32437664.md)
 - Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): STAD comprised 8% of cohort; MSI-H in 26% of all cohort MSI-H cases (second-most after CRC); [ARID1A](../genes/ARID1A.md) truncating mutations in 7.2%; [CDH1](../genes/CDH1.md) enriched in younger STAD patients; older STAD enriched for TP53/NOTCH1/FAT4; MSI-H rate 26% of 186 MSI-H cases [PMID:35871175](../papers/35871175.md)
-- Gastric adenocarcinomas had the highest MET copy number and the most focal amplifications among the cancer types in a 66,285-tumor MSK-IMPACT MET-amplification screen. [PMID:36044468](../papers/36044468.md)
-- In the MSK-IMPACT pan-cancer driver analysis, ERBB2 alterations were a common canonical driver in stomach adenocarcinoma (18% altered), among the highest rates of any cancer type. [PMID:41895280](../papers/41895280.md)
+- Gastric adenocarcinomas had the highest [MET](../genes/MET.md) copy number and the most focal amplifications among the cancer types in a 66,285-tumor MSK-IMPACT MET-amplification screen. [PMID:36044468](../papers/36044468.md)
+- In the MSK-IMPACT pan-cancer driver analysis, [ERBB2](../genes/ERBB2.md) alterations were a common canonical driver in stomach adenocarcinoma (18% altered), among the highest rates of any cancer type. [PMID:41895280](../papers/41895280.md)
 
 ## Subtypes
 
@@ -119,4 +119,4 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 - [PMID:36044468](../papers/36044468.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

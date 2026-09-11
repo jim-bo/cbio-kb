@@ -5,28 +5,28 @@ drug_class: selective estrogen receptor degrader (SERD)
 canonical_source: corpus
 unverified: true
 tags: [endocrine-therapy, breast-cancer, serd]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # fulvestrant
 
 ## Overview
 
-Fulvestrant is a selective estrogen receptor degrader (SERD) that binds [ESR1](../genes/ESR1.md) and promotes its degradation, used in the treatment of hormone receptor-positive breast cancer. It lacks the partial agonist activity of tamoxifen and is employed in both first-line and endocrine-refractory settings.
+Fulvestrant is a selective estrogen receptor degrader (SERD) that binds [ESR1](../genes/ESR1.md) and promotes its degradation, used in the treatment of hormone receptor-positive breast cancer. It lacks the partial agonist activity of [tamoxifen](../drugs/tamoxifen.md) and is employed in both first-line and endocrine-refractory settings.
 
 ## Evidence in the corpus
 
 - In a rat AAV-CRISPR somatic editing model of ER+ breast cancer, Nf1Indel tumors ([DCIS](../cancer_types/DCIS.md) histology, 12/13 cases) regressed completely with 5-week fulvestrant treatment (4/4 rats), and 3/4 treated animals remained in remission for 8 months after cessation, demonstrating strong endocrine sensitivity driven by [NF1](../genes/NF1.md) loss alone [PMID:41000773](../papers/41000773.md).
 - Combined Nf1Indel/Tp53Indel rat tumors showed only modest, transient shrinkage by week 3 (p<0.05) and resumed growth by weeks 4–5 under fulvestrant, modeling endocrine-refractory disease driven by [TP53](../genes/TP53.md) co-loss [PMID:41000773](../papers/41000773.md).
-- GSEA of 486 fulvestrant-responsive rat differentially expressed genes showed significant enrichment of genes induced by neoadjuvant fulvestrant in human patients (GSE71791); 58 overlapping genes included [PGR](../genes/PGR.md), AREG, SGK3, STC2, and WNT5A [PMID:41000773](../papers/41000773.md).
-- In 216 metastatic breast cancer patients (SAFIR01/02, SHIVA, MOSCATO trials), ESR1 mutations (found in 20/143 HR+/HER2- mBCs, 14%) were exclusively in patients who had received prior endocrine therapy including fulvestrant, and all ESR1 mutations occurred in the hormone-receptor domain mediating acquired endocrine resistance [PMID:28027327](../papers/28027327.md)
-- One endometrial patient with a de novo ESR1 ligand-binding-domain mutation achieved an 18-month ongoing response on bevacizumab + fulvestrant after progressing on letrozole; 3/5 ESR1-mutant cases arose in apparent absence of prior endocrine therapy [PMID:30068706](../papers/30068706.md)
+- GSEA of 486 fulvestrant-responsive rat differentially expressed genes showed significant enrichment of genes induced by neoadjuvant fulvestrant in human patients (GSE71791); 58 overlapping genes included [PGR](../genes/PGR.md), AREG, SGK3, STC2, and [WNT5A](../genes/WNT5A.md) [PMID:41000773](../papers/41000773.md).
+- In 216 metastatic breast cancer patients (SAFIR01/02, SHIVA, MOSCATO trials), [ESR1](../genes/ESR1.md) mutations (found in 20/143 HR+/HER2- mBCs, 14%) were exclusively in patients who had received prior endocrine therapy including fulvestrant, and all ESR1 mutations occurred in the hormone-receptor domain mediating acquired endocrine resistance [PMID:28027327](../papers/28027327.md)
+- One endometrial patient with a de novo ESR1 ligand-binding-domain mutation achieved an 18-month ongoing response on [bevacizumab](../drugs/bevacizumab.md) + fulvestrant after progressing on [letrozole](../drugs/letrozole.md); 3/5 ESR1-mutant cases arose in apparent absence of prior endocrine therapy [PMID:30068706](../papers/30068706.md)
 - In prospective MSK-IMPACT sequencing of 1,918 breast tumors (1,756 patients), MAPK-pathway-altered tumors had shorter PFS on fulvestrant (SERD) than on aromatase inhibitors (median 3.7 vs 4.8 mo, p=0.029); ESR1-mutant and transcription-factor-altered tumors had similar PFS to pan-wild-type on SERD, indicating fulvestrant is preferred over aromatase inhibitors for ESR1- and TF-class resistance but insufficient for MAPK-class resistance [PMID:30205045](../papers/30205045.md).
-- Referenced via the FERGI trial of pictilisib + fulvestrant (Krop et al. Lancet Oncol 2016) in which the PR+ (luminal A) breast cancer subset benefited preferentially, supporting luminal A subtype as a predictive biomarker for PI3K inhibitor + endocrine therapy combinations [PMID:31552290](../papers/31552290.md)
+- Referenced via the FERGI trial of [pictilisib](../drugs/pictilisib.md) + fulvestrant (Krop et al. Lancet Oncol 2016) in which the PR+ (luminal A) breast cancer subset benefited preferentially, supporting luminal A subtype as a predictive biomarker for PI3K inhibitor + endocrine therapy combinations [PMID:31552290](../papers/31552290.md)
 - In an ESR1 Y537S-mutant LG-ESS patient on long-term aromatase inhibitor therapy, switching to fulvestrant produced tumor regression, demonstrating that acquired ESR1 ligand-binding domain mutations should prompt SERD therapy in endometrial stromal sarcoma [PMID:32299819](../papers/32299819.md)
 - Used in 55/58 (94.8%) HR+/HER2- metastatic breast cancer patients combined with a CDK4/6 inhibitor; ESR1 mutations (enriched in resistant tumors, 34.1% vs 16.7%) occurred exclusively in fulvestrant-treated patients in the sensitive subgroup [PMID:32404308](../papers/32404308.md).
-- Fulvestrant (SERD) is mentioned in the context of the SOLAR-1 phase III trial, where alpelisib + fulvestrant showed pervasive resistance despite PIK3CA selection; the NCT01870505 alpelisib + AI resistance data (PTEN loss, ESR1 mutations) provides genomic context for SOLAR-1 failures [PMID:32864625](../papers/32864625.md).
+- Fulvestrant (SERD) is mentioned in the context of the SOLAR-1 phase III trial, where [alpelisib](../drugs/alpelisib.md) + fulvestrant showed pervasive resistance despite [PIK3CA](../genes/PIK3CA.md) selection; the NCT01870505 alpelisib + AI resistance data ([PTEN](../genes/PTEN.md) loss, ESR1 mutations) provides genomic context for SOLAR-1 failures [PMID:32864625](../papers/32864625.md).
 - Fulvestrant-treated APOBEC3A-wild-type T47D cells acquired resistance significantly faster than catalytically-dead A3A-E72Q controls (P=1.44x10^-9), and APOBEC3B-wild-type MCF7 cells acquired fulvestrant resistance more often than A3B-E255Q controls (2/3 vs 0/3, P=9.13x10^-10) [PMID:40379787](../papers/40379787.md).
 
 ## Resistance mechanisms
@@ -42,7 +42,7 @@ Fulvestrant is a selective estrogen receptor degrader (SERD) that binds [ESR1](.
 - [PMID:41000773](../papers/41000773.md) — Bu et al. (bioRxiv 2025). Rat somatic genome editing models of ER+ breast cancer; fulvestrant sensitivity/resistance dichotomy driven by [NF1](../genes/NF1.md) and [TP53](../genes/TP53.md) status.
 - [PMID:28027327](../papers/28027327.md) — Lefebvre et al. 2016, metastatic breast cancer WES; ESR1 mutations (14% of HR+/HER2- mBC) exclusively in prior-endocrine-therapy patients, mediating acquired endocrine resistance.
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.
+*This page was processed by **crosslinker** on **2026-09-11**.*
 - [PMID:30068706](../papers/30068706.md)
 - [PMID:30205045](../papers/30205045.md)
 - [PMID:31552290](../papers/31552290.md)
@@ -51,4 +51,4 @@ Fulvestrant is a selective estrogen receptor degrader (SERD) that binds [ESR1](.
 - [PMID:32864625](../papers/32864625.md)
 - [PMID:40379787](../papers/40379787.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

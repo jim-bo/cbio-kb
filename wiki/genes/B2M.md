@@ -3,8 +3,8 @@ symbol: B2M
 aliases: []
 cancer_types: [CHL]
 tags: [immune-escape, mhc-class-i, early-event]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # B2M
@@ -30,9 +30,9 @@ B2M encodes beta-2-microglobulin, an essential component of MHC class I; loss-of
 - Focally deleted in both lung ADC and SqCC; enriched for loss-of-function mutations (p < 0.01), Pan-Lung FDR q = 0.006; implicated in MHC-I antigen-presentation loss [PMID:27158780](../papers/27158780.md)
 - placeholder
 - placeholder
-- A validation-cohort non-clinical-benefit (NCB) patient with PBRM1 LOF had a co-occurring B2M alteration, hypothesized to explain non-response to anti-PD-(L)1 therapy in ccRCC [PMID:29301960](../papers/29301960.md).
-- Truncating B2M mutations were rare in a 240-patient NSCLC ICI cohort; one patient with biallelic deleterious B2M (S40* + Q28L) and confirmed loss of B2M IHC nonetheless had a PR ongoing at 8.9 months with TMB of 48 SNVs/Mb [PMID:29337640](../papers/29337640.md).
-- Immune-escape gene mutated and copy-lost in DLBCL (dlbcl_dfci_2018); collectively with CD58, CD70, and CIITA, immune-escape genes are altered in 74% of DLBCLs [PMID:29713087](../papers/29713087.md)
+- A validation-cohort non-clinical-benefit (NCB) patient with [PBRM1](../genes/PBRM1.md) LOF had a co-occurring B2M alteration, hypothesized to explain non-response to anti-PD-(L)1 therapy in ccRCC [PMID:29301960](../papers/29301960.md).
+- Truncating B2M mutations were rare in a 240-patient [NSCLC](../cancer_types/NSCLC.md) ICI cohort; one patient with biallelic deleterious B2M (S40* + Q28L) and confirmed loss of B2M IHC nonetheless had a PR ongoing at 8.9 months with TMB of 48 SNVs/Mb [PMID:29337640](../papers/29337640.md).
+- Immune-escape gene mutated and copy-lost in DLBCL ([dlbcl_dfci_2018](../datasets/dlbcl_dfci_2018.md)); collectively with [CD58](../genes/CD58.md), [CD70](../genes/CD70.md), and [CIITA](../genes/CIITA.md), immune-escape genes are altered in 74% of DLBCLs [PMID:29713087](../papers/29713087.md)
 - Loss-of-function alterations (antigen-presentation pathway) were rare pre-treatment in a pan-cancer ICB cohort, suggesting a role in acquired rather than intrinsic resistance to immune checkpoint blockade [PMID:30150660](../papers/30150660.md)
 - LOH observed in 9/55 (16%) anti-PD1 responders versus 16/65 (25%) progressors in melanoma (OR=0.6, Fisher's P=0.37); not significantly associated with response to anti-PD1 ICB, only rare point mutations observed [PMID:31792460](../papers/31792460.md)
 - A high-confidence significantly mutated gene (HC-SMG) in ~3% of colorectal tumors in a large pan-colon sequencing cohort [PMID:35487942](../papers/35487942.md).
@@ -76,4 +76,4 @@ B2M encodes beta-2-microglobulin, an essential component of MHC class I; loss-of
 - [PMID:31792460](../papers/31792460.md)
 - [PMID:35487942](../papers/35487942.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

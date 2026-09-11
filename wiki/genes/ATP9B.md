@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - CCRCC
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ATP9B
@@ -16,7 +16,7 @@ ATP9B encodes a P4-type ATPase (phospholipid flippase) with no well-established 
 
 ## Alterations observed in the corpus
 
-- Included among lower-frequency genes (with ATM, COL11A1, DMD, PTK7, TRRAP) added to a ccRCC prognostic mutation classifier because of preliminary links to outcome or clinical features in the C1/C2 subgroups; the authors state individual significance "could not be robustly established" even in this large cohort [PMID:36815791](../papers/36815791.md).
+- Included among lower-frequency genes (with [ATM](../genes/ATM.md), [COL11A1](../genes/COL11A1.md), [DMD](../genes/DMD.md), [PTK7](../genes/PTK7.md), [TRRAP](../genes/TRRAP.md)) added to a ccRCC prognostic mutation classifier because of preliminary links to outcome or clinical features in the C1/C2 subgroups; the authors state individual significance "could not be robustly established" even in this large cohort [PMID:36815791](../papers/36815791.md).
 
 ## Cancer types (linked)
 
@@ -38,4 +38,4 @@ ATP9B encodes a P4-type ATPase (phospholipid flippase) with no well-established 
 
 - [PMID:36815791](../papers/36815791.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

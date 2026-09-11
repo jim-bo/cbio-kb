@@ -3,19 +3,19 @@ symbol: IGK
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # IGK
 
 ## Overview
 
-IGK (immunoglobulin kappa locus) is one of the immunoglobulin light-chain loci that can serve as a translocation partner for oncogenes such as MYC in B-cell lymphomas.
+IGK (immunoglobulin kappa locus) is one of the immunoglobulin light-chain loci that can serve as a translocation partner for oncogenes such as [MYC](../genes/MYC.md) in B-cell lymphomas.
 
 ## Alterations observed in the corpus
 
-- MYC translocation partner in 7% of MYC-translocated Burkitt lymphomas (vs. 79% for IGH and 12% for IGL). [PMID:36201743](../papers/36201743.md)
+- MYC translocation partner in 7% of MYC-translocated Burkitt lymphomas (vs. 79% for [IGH](../genes/IGH.md) and 12% for [IGL](../genes/IGL.md)). [PMID:36201743](../papers/36201743.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ IGK (immunoglobulin kappa locus) is one of the immunoglobulin light-chain loci t
 
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

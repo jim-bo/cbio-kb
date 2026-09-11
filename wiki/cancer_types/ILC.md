@@ -9,8 +9,8 @@ tags:
   - lobular
   - e-cadherin-loss
   - pi3k-akt
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Breast Invasive Lobular Carcinoma (ILC)
@@ -27,7 +27,7 @@ Breast Invasive Lobular Carcinoma (ILC) is the second most common histologic sub
 ## Recurrent alterations
 
 - [CDH1](../genes/CDH1.md) mutation: 63% of ILC vs 2% of [IDC](../cancer_types/IDC.md) (q=3.94E-53); 83% truncating; biallelic loss (mutation + 16q heterozygous loss) in 95% of ILC; no promoter hypermethylation detected [PMID:26451490](../papers/26451490.md).
-- [PIK3CA](../genes/PIK3CA.md) mutation: 48% of ILC vs 33% of IDC (q=0.02); not associated with pAKT levels in this dataset [PMID:26451490](../papers/26451490.md).
+- [PIK3CA](../genes/PIK3CA.md) mutation: 48% of ILC vs 33% of [IDC](../cancer_types/IDC.md) (q=0.02); not associated with pAKT levels in this dataset [PMID:26451490](../papers/26451490.md).
 - [PTEN](../genes/PTEN.md) inactivation (homozygous deletion + mutation): 14% in Luminal A ILC vs 3% in Luminal A IDC (p=9E-4); mutually exclusive with [PIK3CA](../genes/PIK3CA.md) [PMID:26451490](../papers/26451490.md).
 - [FOXA1](../genes/FOXA1.md) mutation: 7% of ILC (vs 2% IDC, q=0.08); all ILC mutations cluster in the fork-head W2 wing loop (I176, D226 hotspot residues); associated with increased [FOXA1](../genes/FOXA1.md) mRNA, suggesting gain-of-function [PMID:26451490](../papers/26451490.md).
 - [TBX3](../genes/TBX3.md) mutation: 9% of ILC vs 2% of IDC (q=0.003) [PMID:26451490](../papers/26451490.md).
@@ -35,12 +35,12 @@ Breast Invasive Lobular Carcinoma (ILC) is the second most common histologic sub
 - [TP53](../genes/TP53.md) mutation: ILC-depleted (8% ILC vs 44% IDC, q=1.9E-14), consistent with predominantly Luminal A biology [PMID:26451490](../papers/26451490.md).
 - [ERBB2](../genes/ERBB2.md) amplification and mutations identified among upstream drivers of AKT activation in ILC [PMID:26451490](../papers/26451490.md).
 - pAKT-S473 and pAKT-T308 levels are highest in ILC among all breast cancer subtypes, matching levels seen in HER2+ and Basal-like IDC, despite predominantly Luminal A classification [PMID:26451490](../papers/26451490.md).
-- WES of 216 metastatic breast carcinomas (SAFIR01/SAFIR02/SHIVA/MOSCATO trials) included ILC tumors within the HR+/HER2- subgroup; CDH1 identified as a significantly mutated driver in both metastatic and early breast cancer [PMID:28027327](../papers/28027327.md)
+- WES of 216 metastatic breast carcinomas (SAFIR01/SAFIR02/SHIVA/MOSCATO trials) included ILC tumors within the HR+/HER2- subgroup; [CDH1](../genes/CDH1.md) identified as a significantly mutated driver in both metastatic and early breast cancer [PMID:28027327](../papers/28027327.md)
 - ILC was under-represented in the Korean SMC breast cohort vs TCGA (3.7% vs 17.3%, p=2.9e-08); CDH1 mutation rate correspondingly lower in SMC (2.2%) than TCGA (11.5%) [PMID:29713003](../papers/29713003.md)
-- In 1,918 prospectively sequenced breast tumors, ILC-specific alterations included TBX3 N297 hotspot exclusive to lobular carcinomas and FOXA1 Forkhead-domain hotspots on wing 2 (lobular-specific); CDH1 mutations were associated with ovarian metastasis, reflecting lobular predisposition to ovarian spread; dataset [breast_msk_2018](../datasets/breast_msk_2018.md) [PMID:30205045](../papers/30205045.md)
-- ILC included in 122-sample primary invasive [BRCA](../cancer_types/BRCA.md) cohort profiled by integrated multi-omics (WES, RNA-seq, proteomics, phosphoproteomics); NMF subtypes and ERBB2 protein heterogeneity findings apply across IDC/ILC histologies [PMID:33212010](../papers/33212010.md)
+- In 1,918 prospectively sequenced breast tumors, ILC-specific alterations included [TBX3](../genes/TBX3.md) N297 hotspot exclusive to lobular carcinomas and [FOXA1](../genes/FOXA1.md) Forkhead-domain hotspots on wing 2 (lobular-specific); CDH1 mutations were associated with ovarian metastasis, reflecting lobular predisposition to ovarian spread; dataset [breast_msk_2018](../datasets/breast_msk_2018.md) [PMID:30205045](../papers/30205045.md)
+- ILC included in 122-sample primary invasive [BRCA](../cancer_types/BRCA.md) cohort profiled by integrated multi-omics (WES, RNA-seq, proteomics, phosphoproteomics); NMF subtypes and [ERBB2](../genes/ERBB2.md) protein heterogeneity findings apply across IDC/ILC histologies [PMID:33212010](../papers/33212010.md)
 - MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; ILC is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
-- Reanalysis of 364 MSK-IMPACT-sequenced primary invasive lobular carcinomas found 25 (6.9%) with no CDH1 inactivating genetic alteration; 10 of 16 evaluable cases had CDH1 promoter methylation and 3 had inactivating AXIN2 alterations instead [PMID:38347189](../papers/38347189.md).
+- Reanalysis of 364 MSK-IMPACT-sequenced primary invasive lobular carcinomas found 25 (6.9%) with no CDH1 inactivating genetic alteration; 10 of 16 evaluable cases had CDH1 promoter methylation and 3 had inactivating [AXIN2](../genes/AXIN2.md) alterations instead [PMID:38347189](../papers/38347189.md).
 - Among 3,880 MSK-IMPACT breast cancers, invasive lobular carcinoma (n=489) was associated more frequently with a dominant APOBEC3 mutational signature than invasive ductal carcinoma, in both primary and metastatic samples [PMID:40379787](../papers/40379787.md).
 - In the MSK-50K cohort, no MSI-high tumors were observed among 606 invasive lobular carcinomas, despite an overall cohort MSI rate of 2.7% [PMID:41895280](../papers/41895280.md).
 
@@ -56,7 +56,7 @@ Breast Invasive Lobular Carcinoma (ILC) is the second most common histologic sub
 ## Therapeutic landscape
 
 - PI3K/AKT/mTOR inhibition is proposed as a priority strategy for ILC given the highest average pAKT levels of any breast cancer subtype and frequent [PTEN](../genes/PTEN.md) inactivation; 40% of ILC samples carry upstream AKT pathway alterations by MEMo analysis [PMID:26451490](../papers/26451490.md).
-- Lower [GATA3](../genes/GATA3.md) and reduced total/phospho-ER in Luminal A ILC are consistent with prior reports of improved aromatase inhibitor ([letrozole](../drugs/letrozole.md)) vs tamoxifen response [PMID:26451490](../papers/26451490.md).
+- Lower [GATA3](../genes/GATA3.md) and reduced total/phospho-ER in Luminal A ILC are consistent with prior reports of improved aromatase inhibitor ([letrozole](../drugs/letrozole.md)) vs [tamoxifen](../drugs/tamoxifen.md) response [PMID:26451490](../papers/26451490.md).
 - Prognostic stratification by mRNA subtype (reactive-like vs proliferative) carries survival differences (p=0.023–0.038 in METABRIC), suggesting potential for trial stratification [PMID:26451490](../papers/26451490.md).
 
 ## Sources
@@ -76,4 +76,4 @@ Breast Invasive Lobular Carcinoma (ILC) is the second most common histologic sub
 - [PMID:40379787](../papers/40379787.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

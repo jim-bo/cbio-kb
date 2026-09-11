@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [cytogenetics, fusion-detection]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Fluorescence in situ hybridization (FISH)
@@ -50,17 +50,17 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - FISH used on 53 tumors from 13 men to assess TMPRSS2-ERG fusion status; found 100% intra-individual concordance for TMPRSS2-ERG status across metastatic sites in mCRPC. [PMID:26928463](../papers/26928463.md)
 - Used with custom three-probe NF2/22q11/Cen10 assay and [ALK](../genes/ALK.md) break-apart probes to confirm [NF2](../genes/NF2.md) 22q hemizygous loss and TPM3-ALK fusion in uRCC tumours. [PMID:27713405](../papers/27713405.md)
 - Used to confirm sub-clonal to clonal progression of [CDKN2A](../genes/CDKN2A.md) deletion (from heterozygous in the primary to homozygous in distant metastases) in the WCM117 rapid-autopsy urothelial carcinoma case. [PMID:27749842](../papers/27749842.md)
-- Used to validate IGH-DUX4 rearrangements and [ERG](../genes/ERG.md) deletions in the DUX4/ERG B-ALL subtype in cell lines and patient-derived xenografts; [DUX4](../genes/DUX4.md) rearrangement is not detectable by conventional FISH due to repetitive subtelomeric DUX4 locus. [PMID:27776115](../papers/27776115.md)
+- Used to validate IGH-DUX4 rearrangements and [ERG](../genes/ERG.md) deletions in the DUX4/ERG B-ALL subtype in cell lines and patient-derived xenografts; [DUX4](../genes/DUX4.md) rearrangement is not detectable by conventional FISH due to repetitive subtelomeric [DUX4](../genes/DUX4.md) locus. [PMID:27776115](../papers/27776115.md)
 - Used fluorescence in situ hybridization (FISH) to detect chromosomal copy number alterations and gene fusions [PMID:41102727](../papers/41102727.md)
 - Used FISH to detect copy number alterations and gene fusions in pediatric tumor specimens [PMID:41137179](../papers/41137179.md)
 - Used to independently validate [ERBB2](../genes/ERBB2.md) amplification calls from ASCAT/SNP-array analysis in ICGC CCA cohort; enrichment confirmed for Fluke-Pos CCAs (10.4% vs 2.7% in Fluke-Neg, p < 0.01) [PMID:28667006](../papers/28667006.md)
-- Applied to detect [MYC](../genes/MYC.md) and [BCL2](../genes/BCL2.md) translocations in the 1001-patient DLBCL cohort; MYC FISH translocations associated with MYC mutations and high MYC expression [PMID:28985567](../papers/28985567.md)
-- Used for HER2 (ERBB2) status assessment per CAP/ASCO criteria as part of standard clinical workup in the [BLCA](../cancer_types/BLCA.md) TCGA cohort [PMID:28988769](../papers/28988769.md)
+- Applied to detect [MYC](../genes/MYC.md) and [BCL2](../genes/BCL2.md) translocations in the 1001-patient DLBCL cohort; [MYC](../genes/MYC.md) FISH translocations associated with MYC mutations and high MYC expression [PMID:28985567](../papers/28985567.md)
+- Used for HER2 ([ERBB2](../genes/ERBB2.md)) status assessment per CAP/ASCO criteria as part of standard clinical workup in the [BLCA](../cancer_types/BLCA.md) TCGA cohort [PMID:28988769](../papers/28988769.md)
 - FISH used for HER2 status assessment per CAP/ASCO criteria in 295 metastatic [EGC](../cancer_types/EGC.md) patients; NGS-based ERBB2 amplification showed 93.7% overall concordance with IHC/FISH, with NGS predicting [trastuzumab](../drugs/trastuzumab.md) benefit more precisely [PMID:29122777](../papers/29122777.md)
 - FISH using BAC probes RP11-267M23 / RP11-22C11 (8q22.1) with centromere 8 reference probe confirmed [ESRP1](../genes/ESRP1.md) duplication events initially detected by WGS in early-onset prostate cancer ([prostate_dkfz_2018](../datasets/prostate_dkfz_2018.md)) [PMID:30537516](../papers/30537516.md)
-- Used to detect MYB and [MYBL1](../genes/MYBL1.md) rearrangements in ACC; a 3-color BAC probe mix confirmed clonality of MYB-NFIB fusion across primary and metastatic regions in a multiregion salivary case; MYB-NFIB detected in 22.2% of R/M tumors with available data [PMID:31483290](../papers/31483290.md).
+- Used to detect [MYB](../genes/MYB.md) and [MYBL1](../genes/MYBL1.md) rearrangements in [ACC](../cancer_types/ACC.md); a 3-color BAC probe mix confirmed clonality of MYB-NFIB fusion across primary and metastatic regions in a multiregion salivary case; MYB-NFIB detected in 22.2% of R/M tumors with available data [PMID:31483290](../papers/31483290.md).
 - 3-color FISH used to confirm extrachromosomal DNA (ecDNA) double-minute amplification of [CCND1](../genes/CCND1.md) or CCND2/CDK4/MDM2 in all 5 FISH-tested aSCLC cases; demonstrated both extra- and intrachromosomal amplification in one case [PMID:39185963](../papers/39185963.md)
-- Used to validate MET copy-number-gain calls in 70 cases (ZytoVision MET/CEP7 probes, >=100 cells scored), classifying amplification (ratio >2, >5 signals/cell) and CNG grades against NGS-based calls [PMID:36044468](../papers/36044468.md).
+- Used to validate [MET](../genes/MET.md) copy-number-gain calls in 70 cases (ZytoVision MET/CEP7 probes, >=100 cells scored), classifying amplification (ratio >2, >5 signals/cell) and CNG grades against NGS-based calls [PMID:36044468](../papers/36044468.md).
 - Used to confirm MYC translocation in 11 of 16 Burkitt lymphoma cases without a WGS-detected MYC structural variant [PMID:36201743](../papers/36201743.md).
 - Used to confirm ERBB2 amplification in one trastuzumab-treated endometrial carcinoma case where sequencing alone was not diagnostic [PMID:39031567](../papers/39031567.md).
 
@@ -118,4 +118,4 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - [PMID:36201743](../papers/36201743.md)
 - [PMID:39031567](../papers/39031567.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

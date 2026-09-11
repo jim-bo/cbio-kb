@@ -4,15 +4,15 @@ oncotree_code: PHC
 main_type: Pheochromocytoma
 parent: ADRENAL_GLAND
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Pheochromocytoma (PHC)
 
 ## Overview
 
-Pheochromocytoma (PHC) is a neuroendocrine tumor arising from chromaffin cells of the adrenal medulla that secretes catecholamines (epinephrine, norepinephrine). It is classified within the PCPG (pheochromocytoma and paraganglioma) family. At least 40% of PCCs are hereditary, driven by germline mutations in [SDHB](../genes/SDHB.md), [SDHD](../genes/SDHD.md), [SDHC](../genes/SDHC.md), SDHAF2, [VHL](../genes/VHL.md), [RET](../genes/RET.md), [NF1](../genes/NF1.md), [MAX](../genes/MAX.md), [TMEM127](../genes/TMEM127.md), [EGLN1](../genes/EGLN1.md), or [FH](../genes/FH.md). Approximately 10–15% are malignant (defined by metastasis). The TCGA PCPG analysis defined four molecular subtypes with distinct molecular drivers and clinical behavior.
+Pheochromocytoma (PHC) is a neuroendocrine tumor arising from chromaffin cells of the adrenal medulla that secretes catecholamines (epinephrine, norepinephrine). It is classified within the [PCPG](../cancer_types/PCPG.md) (pheochromocytoma and paraganglioma) family. At least 40% of PCCs are hereditary, driven by germline mutations in [SDHB](../genes/SDHB.md), [SDHD](../genes/SDHD.md), [SDHC](../genes/SDHC.md), SDHAF2, [VHL](../genes/VHL.md), [RET](../genes/RET.md), [NF1](../genes/NF1.md), [MAX](../genes/MAX.md), [TMEM127](../genes/TMEM127.md), [EGLN1](../genes/EGLN1.md), or [FH](../genes/FH.md). Approximately 10–15% are malignant (defined by metastasis). The TCGA PCPG analysis defined four molecular subtypes with distinct molecular drivers and clinical behavior.
 
 ## Cohorts in the corpus
 
@@ -20,17 +20,17 @@ Pheochromocytoma (PHC) is a neuroendocrine tumor arising from chromaffin cells o
 
 ## Recurrent alterations
 
-- TCGA PCPG cohort (n=173 total PCC/PGL): 95% of tumors had a driver identified; 46/173 (27%) had pathogenic germline mutations in 8 susceptibility genes — highest rates: SDHB (9%), RET (6%), VHL (4%), NF1 (3%); somatic drivers: [HRAS](../genes/HRAS.md) Q61 hotspot (kinase signaling subtype), [EPAS1](../genes/EPAS1.md) hotspots A530/P531/Y532 (pseudohypoxia subtype), RET M918 somatic (vs germline C634), [CSDE1](../genes/CSDE1.md) truncating/splice-site mutations (novel driver, Wnt-altered subtype); recurrent fusions: UBTF-MAML3 and TCF4-MAML3 (10 tumors, all Wnt-altered subtype), RUNDC1-BRAF (5.2-fold [BRAF](../genes/BRAF.md) overexpression) [PMID:28162975](../papers/28162975.md).
+- TCGA PCPG cohort (n=173 total PCC/PGL): 95% of tumors had a driver identified; 46/173 (27%) had pathogenic germline mutations in 8 susceptibility genes — highest rates: [SDHB](../genes/SDHB.md) (9%), [RET](../genes/RET.md) (6%), [VHL](../genes/VHL.md) (4%), [NF1](../genes/NF1.md) (3%); somatic drivers: [HRAS](../genes/HRAS.md) Q61 hotspot (kinase signaling subtype), [EPAS1](../genes/EPAS1.md) hotspots A530/P531/Y532 (pseudohypoxia subtype), RET M918 somatic (vs germline C634), [CSDE1](../genes/CSDE1.md) truncating/splice-site mutations (novel driver, Wnt-altered subtype); recurrent fusions: UBTF-MAML3 and TCF4-MAML3 (10 tumors, all Wnt-altered subtype), RUNDC1-BRAF (5.2-fold [BRAF](../genes/BRAF.md) overexpression) [PMID:28162975](../papers/28162975.md).
 - Mean somatic mutation rate 0.67/Mb — among the lowest of TCGA tumor types [PMID:28162975](../papers/28162975.md).
 - [MAML3](../genes/MAML3.md) fusions, SDHB germline mutations, SETD2/ATRX somatic mutations, Wnt-altered and pseudohypoxia subtypes, and hypermethylated DNA-methylation subtype all independently associated with poor aggressive-disease-free survival [PMID:28162975](../papers/28162975.md).
-- In the same SDHB-mutant phaeochromocytoma/paraganglioma cohort, only 6 of 94 tumors arose in the adrenal gland (pheochromocytoma); as in the paraganglioma majority, mutually exclusive somatic TERT or ATRX alterations marked metastatic potential and were linked to poorer outcome. [PMID:40097403](../papers/40097403.md)
+- In the same SDHB-mutant phaeochromocytoma/paraganglioma cohort, only 6 of 94 tumors arose in the adrenal gland (pheochromocytoma); as in the paraganglioma majority, mutually exclusive somatic [TERT](../genes/TERT.md) or [ATRX](../genes/ATRX.md) alterations marked metastatic potential and were linked to poorer outcome. [PMID:40097403](../papers/40097403.md)
 
 ## Subtypes
 
-- Kinase signaling subtype: predominantly PCC; NF1, RET, TMEM127, HRAS mutations; highest epinephrine production; BRAF/NGFR fusions; best prognosis.
+- Kinase signaling subtype: predominantly PCC; NF1, RET, [TMEM127](../genes/TMEM127.md), [HRAS](../genes/HRAS.md) mutations; highest epinephrine production; BRAF/NGFR fusions; best prognosis.
 - Pseudohypoxia subtype: SDHB/SDHD/VHL/EPAS1 mutations; genome-doubled; hypermethylated; miR-210 overexpression; highest metastatic risk.
-- Wnt-altered subtype: MAML3 fusions + CSDE1 mutations; sporadic adrenal PCCs; highest [CHGA](../genes/CHGA.md); poor prognosis; no germline susceptibility-gene mutations.
-- Cortical admixture subtype: adrenal cortex marker overexpression; MAX germline mutations; elevated leukocyte infiltration.
+- Wnt-altered subtype: [MAML3](../genes/MAML3.md) fusions + [CSDE1](../genes/CSDE1.md) mutations; sporadic adrenal PCCs; highest [CHGA](../genes/CHGA.md); poor prognosis; no germline susceptibility-gene mutations.
+- Cortical [admixture](../methods/admixture.md) subtype: adrenal cortex marker overexpression; [MAX](../genes/MAX.md) germline mutations; elevated leukocyte infiltration.
 
 ## Therapeutic landscape
 
@@ -44,4 +44,4 @@ Pheochromocytoma (PHC) is a neuroendocrine tumor arising from chromaffin cells o
 - [PMID:28162975](../papers/28162975.md) — TCGA PCPG Analysis Working Group, multi-platform profiling of 173 PCC/PGL tumors.
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -3,8 +3,8 @@ symbol: SETD2
 aliases: []
 cancer_types: [PHC, PGNG]
 tags: [tumor-suppressor, somatic, histone-methyltransferase, poor-prognosis]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # SETD2
@@ -26,8 +26,8 @@ SETD2 (SET Domain Containing 2, Histone Lysine Methyltransferase) is the primary
 - Assessed at ≥2% alteration frequency in [LUAD](../cancer_types/LUAD.md); no statistically significant association with pathologic lymph-node (pN) metastasis status in multivariable analysis [PMID:34290393](../papers/34290393.md)
 - 8 of 10 SETD2-mutated tumors in the piano subtype of LCINS [LUAD](../cancer_types/LUAD.md); positive prognostic marker (HR = 0.13) [PMID:34493867](../papers/34493867.md)
 - SETD2 identified as a novel recurrent mutation in [GIST](../cancer_types/GIST.md) at 4% frequency alongside [MAX](../genes/MAX.md) (4%) and [MGA](../genes/MGA.md) (3%) in the 2,138-sarcoma MSK-IMPACT dataset [PMID:35705560](../papers/35705560.md)
-- Mutated in 18% of clear cell RCC; not independently prognostic for DFS in this cohort, though a pooled 1,049-patient analysis found it marginally significant for recurrence-free survival; PBRM1/SETD2 co-mutation marked a worse-outcome subset similar to BAP1/PBRM1 co-mutation. [PMID:36815791](../papers/36815791.md)
-- Co-altered in 47% of BRAF V600-mutant LUAD tumors. [PMID:41895280](../papers/41895280.md)
+- Mutated in 18% of clear cell [RCC](../cancer_types/RCC.md); not independently prognostic for DFS in this cohort, though a pooled 1,049-patient analysis found it marginally significant for recurrence-free survival; PBRM1/SETD2 co-mutation marked a worse-outcome subset similar to BAP1/PBRM1 co-mutation. [PMID:36815791](../papers/36815791.md)
+- Co-altered in 47% of [BRAF](../genes/BRAF.md) V600-mutant [LUAD](../cancer_types/LUAD.md) tumors. [PMID:41895280](../papers/41895280.md)
 
 ## Cancer types (linked)
 
@@ -69,4 +69,4 @@ SETD2 (SET Domain Containing 2, Histone Lysine Methyltransferase) is the primary
 - [PMID:36815791](../papers/36815791.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

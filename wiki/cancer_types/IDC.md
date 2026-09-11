@@ -7,8 +7,8 @@ tags:
   - breast
   - invasive
   - ductal
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Breast Invasive Ductal Carcinoma (IDC)
@@ -26,16 +26,16 @@ Breast Invasive Ductal Carcinoma (IDC) is the most common histologic subtype of 
 ## Recurrent alterations
 
 - [TP53](../genes/TP53.md) mutation: 44% of IDC vs 8% of [ILC](../cancer_types/ILC.md) (q=1.9E-14); IDC-enriched, reflecting high Basal-like and HER2-enriched representation [PMID:26451490](../papers/26451490.md).
-- [PIK3CA](../genes/PIK3CA.md) mutation: 33% of IDC vs 48% of [ILC](../cancer_types/ILC.md); less frequent in IDC than ILC but present across all subtypes [PMID:26451490](../papers/26451490.md).
+- [PIK3CA](../genes/PIK3CA.md) mutation: 33% of IDC vs 48% of [ILC](../cancer_types/ILC.md); less frequent in IDC than [ILC](../cancer_types/ILC.md) but present across all subtypes [PMID:26451490](../papers/26451490.md).
 - [GATA3](../genes/GATA3.md) mutation: IDC-enriched in Luminal A comparison (20% LumA IDC vs 5% LumA ILC, q=0.003) [PMID:26451490](../papers/26451490.md).
 - [MYC](../genes/MYC.md) focal amplification: IDC-enriched (27% IDC vs 6% ILC, q=7.42E-7) [PMID:26451490](../papers/26451490.md).
 - [CCNE1](../genes/CCNE1.md) focal amplification: IDC-enriched (7% IDC vs 0% ILC, q=0.01) [PMID:26451490](../papers/26451490.md).
 - [CDH1](../genes/CDH1.md) mutation: 2% of IDC vs 63% of ILC (q=3.94E-53); E-cadherin loss is the defining molecular feature distinguishing ILC from IDC [PMID:26451490](../papers/26451490.md).
 - Invasive ductal carcinoma histology was produced in rat models by combined [NF1](../genes/NF1.md)+[TP53](../genes/TP53.md) Indel editing (uniformly invasive, moderately differentiated) and PIK3CA-H1047R+[TP53](../genes/TP53.md) Indel editing (invasive with papillary features) [PMID:41000773](../papers/41000773.md).
-- WES of 216 metastatic breast carcinomas (SAFIR01/SAFIR02/SHIVA/MOSCATO trials) encompassing predominantly IDC tumors: ESR1, RB1, PALB2, TSC1/TSC2, and APOBEC enrichments characterize the metastatic vs primary mutation landscape; all ESR1-mutant patients had received prior endocrine therapy [PMID:28027327](../papers/28027327.md)
-- IDC comprised 92.0% of Korean SMC breast tumors vs 74.4% of TCGA BRCA (p<0.001); SMC IDC showed higher TP53 (47.9%) and ERBB2 (20%) somatic alteration rates and greater HRD-signature (S3) enrichment in TNBC (85% HRD-positive) [PMID:29713003](../papers/29713003.md)
-- In 1,918 prospectively sequenced breast tumors, IDC-specific alterations identified included CTCF hotspots (H284, Y226) arising exclusively in invasive ductal carcinomas post-hormonal therapy; FOXA1 Forkhead-domain hotspots on wing 1 were ductal-specific; PIK3CA was the most commonly mutated gene (36.4% combined cohort); dataset [breast_msk_2018](../datasets/breast_msk_2018.md) [PMID:30205045](../papers/30205045.md)
-- IDC-NSTs (n=26) paired with synchronous DCIS showed identical mutation frequencies: TP53 54%, PIK3CA 42%, GATA3 23%; clonal selection (minor DCIS subclone becoming dominant in IDC-NST) drove progression in 7/25 patients (28%), with higher intra-lesion heterogeneity distinguishing selection cases (Shannon/Gini-Simpson P<0.05) [PMID:32220886](../papers/32220886.md)
+- WES of 216 metastatic breast carcinomas (SAFIR01/SAFIR02/SHIVA/MOSCATO trials) encompassing predominantly IDC tumors: [ESR1](../genes/ESR1.md), [RB1](../genes/RB1.md), [PALB2](../genes/PALB2.md), TSC1/TSC2, and APOBEC enrichments characterize the metastatic vs primary mutation landscape; all ESR1-mutant patients had received prior endocrine therapy [PMID:28027327](../papers/28027327.md)
+- IDC comprised 92.0% of Korean SMC breast tumors vs 74.4% of TCGA [BRCA](../cancer_types/BRCA.md) (p<0.001); SMC IDC showed higher [TP53](../genes/TP53.md) (47.9%) and [ERBB2](../genes/ERBB2.md) (20%) somatic alteration rates and greater HRD-signature (S3) enrichment in TNBC (85% HRD-positive) [PMID:29713003](../papers/29713003.md)
+- In 1,918 prospectively sequenced breast tumors, IDC-specific alterations identified included [CTCF](../genes/CTCF.md) hotspots (H284, Y226) arising exclusively in invasive ductal carcinomas post-hormonal therapy; [FOXA1](../genes/FOXA1.md) Forkhead-domain hotspots on wing 1 were ductal-specific; [PIK3CA](../genes/PIK3CA.md) was the most commonly mutated gene (36.4% combined cohort); dataset [breast_msk_2018](../datasets/breast_msk_2018.md) [PMID:30205045](../papers/30205045.md)
+- IDC-NSTs (n=26) paired with synchronous [DCIS](../cancer_types/DCIS.md) showed identical mutation frequencies: TP53 54%, PIK3CA 42%, [GATA3](../genes/GATA3.md) 23%; clonal selection (minor DCIS subclone becoming dominant in IDC-NST) drove progression in 7/25 patients (28%), with higher intra-lesion heterogeneity distinguishing selection cases (Shannon/Gini-Simpson P<0.05) [PMID:32220886](../papers/32220886.md)
 - 122 primary invasive breast tumors (predominantly IDC) profiled by integrated multi-omics; NMF resolved four subtypes including LumA-I, LumB-I, HER2-I, Basal-I; Basal-I enriched for [TP53](../genes/TP53.md) mutations, [ERBB2](../genes/ERBB2.md)-I heterogeneous in ERBB2 amplification [PMID:33212010](../papers/33212010.md)
 - IDC-NST component of a juvenile papillomatosis case shared clonal [PIK3CA](../genes/PIK3CA.md) E542K with JP and DCIS; acquired 1q gain/16q loss hallmark CNA of ER-positive breast cancer; APOBEC Signature 2 dominant at 64% in IDC-NST vs 20% in JP [PMID:33263939](../papers/33263939.md)
 - Case example from the [brca_mapk_hp_msk_2021](../datasets/brca_mapk_hp_msk_2021.md) HER2+ cohort: a de novo metastatic HER2+ IDC patient acquired an [NF1](../genes/NF1.md) intragenic inversion (bisecting the RAS-GTPase domain) at lymph-node progression after 31.5 months of THP/HP, illustrating MAPK-pathway acquisition as an IDC anti-HER2 resistance mechanism; MAPK-altered IDC cases had ~2-fold worse PFS on first-line trastuzumab/pertuzumab-based therapy [PMID:34795269](../papers/34795269.md)
@@ -68,4 +68,4 @@ Breast Invasive Ductal Carcinoma (IDC) is the most common histologic subtype of 
 - [PMID:35120664](../papers/35120664.md)
 - [PMID:40379787](../papers/40379787.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

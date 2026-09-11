@@ -15,15 +15,15 @@ tags:
   - DLBCL
   - EBV
   - lymphoma
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Mature B-Cell Neoplasms (Simon Fraser University, Blood 2023)
 
 ## Overview
 
-Whole-genome and/or transcriptome sequencing of Burkitt lymphoma ([BL](../cancer_types/BL.md)) and diffuse large B-cell lymphoma ([DLBCLNOS](../cancer_types/DLBCLNOS.md)) cases assembled by Thomas et al. (Simon Fraser University), with cases collected in Uganda, the United States, Brazil, France, Germany and Canada. Name, institution, size (297) and reference genome (hg38) are taken from the cBioPortal study record in `schema/ontology/studies.json`; the study aggregates 281 BL cases (181 pediatric, 100 adult) and additional DLBCL comparator material [PMID:36201743](../papers/36201743.md).
+Whole-genome and/or transcriptome sequencing of Burkitt lymphoma ([BL](../cancer_types/BL.md)) and diffuse large B-cell lymphoma ([DLBCLNOS](../cancer_types/DLBCLNOS.md)) cases assembled by Thomas et al. (Simon Fraser University), with cases collected in Uganda, the United States, Brazil, France, Germany and Canada. Name, institution, size (297) and reference genome (hg38) are taken from the cBioPortal study record in `schema/ontology/studies.json`; the study aggregates 281 [BL](../cancer_types/BL.md) cases (181 pediatric, 100 adult) and additional DLBCL comparator material [PMID:36201743](../papers/36201743.md).
 
 ## Composition
 
@@ -50,4 +50,4 @@ Whole-genome and/or transcriptome sequencing of Burkitt lymphoma ([BL](../cancer
 - cBioPortal study record: `mbn_sfu_2023` (name, institution, size, reference_genome taken from `schema/ontology/studies.json`).
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

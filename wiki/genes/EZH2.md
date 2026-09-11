@@ -8,8 +8,8 @@ tags:
   - epigenetic
   - histone-methyltransferase
   - GCB
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # EZH2
@@ -52,10 +52,10 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - EZH2 inhibitors were matched as investigational-tier treatments for SMARCA4/SMARCB1-inactivated tumors (27 events, including rhabdoid tumors MRT/ATRT) in the MAPPYACTS pediatric WES cohort (n=787). [PMID:35292802](../papers/35292802.md)
 - Trend toward dural-metastasis enrichment of EZH2-regulated targets (q=0.07) observed in prostate cancer brain metastases (PCBM) profiled by WES and RNA-seq (n=51) [PMID:35504881](../papers/35504881.md)
 - EZH2 inhibition rationale in uterine adenosarcoma ([UAS](../cancer_types/UAS.md)): given SWI/SNF-EZH2 synthetic lethality precedent in epithelioid sarcoma ([EPIS](../cancer_types/EPIS.md)), the 43% SWI/SNF-altered rate in [UAS](../cancer_types/UAS.md) motivates exploration of [tazemetostat](../drugs/tazemetostat.md) [PMID:35705560](../papers/35705560.md)
-- EZH2 is a chromatin-modifier driver in MDS that is never co-mutated with SRSF2 (q=0.04); clonal and subclonal EZH2 mutations carried equivalent leukemia-free survival risk. [PMID:24030381](../papers/24030381.md)
+- EZH2 is a chromatin-modifier driver in [MDS](../cancer_types/MDS.md) that is never co-mutated with [SRSF2](../genes/SRSF2.md) (q=0.04); clonal and subclonal EZH2 mutations carried equivalent leukemia-free survival risk. [PMID:24030381](../papers/24030381.md)
 - EZH2 is mutated at similar or higher rates in DLBCL than Burkitt lymphoma; EZH2 hotspot mutations mark the EZB-enriched DLBCL-A subgroup. [PMID:36201743](../papers/36201743.md)
-- EZH2 sits within a GISTIC2 amplification peak alongside MYC, CCND3, CCNE1 and SETDB1 in a pediatric solid tumor PDX cohort. [PMID:37990009](../papers/37990009.md)
-- EZH2 is overexpressed in metastatic pheochromocytoma/paraganglioma as part of a proliferation gene program alongside MKI67, TOP2A and FOXM1. [PMID:40097403](../papers/40097403.md)
+- EZH2 sits within a GISTIC2 amplification peak alongside [MYC](../genes/MYC.md), [CCND3](../genes/CCND3.md), [CCNE1](../genes/CCNE1.md) and [SETDB1](../genes/SETDB1.md) in a pediatric solid tumor PDX cohort. [PMID:37990009](../papers/37990009.md)
+- EZH2 is overexpressed in metastatic pheochromocytoma/paraganglioma as part of a proliferation gene program alongside [MKI67](../genes/MKI67.md), [TOP2A](../genes/TOP2A.md) and [FOXM1](../genes/FOXM1.md). [PMID:40097403](../papers/40097403.md)
 
 ## Cancer types (linked)
 
@@ -144,4 +144,4 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - [PMID:37990009](../papers/37990009.md)
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

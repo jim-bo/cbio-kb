@@ -3,8 +3,8 @@ symbol: CDC7
 aliases: []
 cancer_types: [BRCA]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CDC7
@@ -15,7 +15,7 @@ CDC7 encodes a serine/threonine kinase that, together with its regulatory subuni
 
 ## Alterations observed in the corpus
 
-- CDC7 kinase target phosphosites were higher in pathologic complete response (pCR) triple-negative breast tumors in a neoadjuvant chemotherapy proteogenomics cohort, alongside CDK1, CDK2 and CDK7 target phosphosites [PMID:36001024](../papers/36001024.md).
+- CDC7 kinase target phosphosites were higher in pathologic complete response (pCR) triple-negative breast tumors in a neoadjuvant chemotherapy proteogenomics cohort, alongside [CDK1](../genes/CDK1.md), [CDK2](../genes/CDK2.md) and [CDK7](../genes/CDK7.md) target phosphosites [PMID:36001024](../papers/36001024.md).
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ CDC7 encodes a serine/threonine kinase that, together with its regulatory subuni
 
 - [PMID:36001024](../papers/36001024.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

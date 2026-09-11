@@ -3,8 +3,8 @@ symbol: IGF2
 aliases: []
 cancer_types: [RMS]
 tags: [growth-factor, fusion-associated, rhabdomyosarcoma]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # IGF2
@@ -19,12 +19,12 @@ IGF2 (Insulin-like Growth Factor 2) is an imprinted growth factor with roles in 
 - Somatic mutations detected in TCGA colorectal adenocarcinoma cohort (276 tumors) [PMID:22810696](../papers/22810696.md)
 - Focal amplification and overexpression in 12% (8/68) of colorectal cancers (Genentech WES) [PMID:22895193](../papers/22895193.md)
 - IGF2 is a paternally imprinted gene within the 11p15.5 LOH region (50% of [RMS](../cancer_types/RMS.md) tumors); one 3'UTR somatic indel observed; part of the 11p15.5 locus commonly lost in rhabdomyosarcoma [PMID:24436047](../papers/24436047.md)
-- ~10% of HCC overexpress IGF2; part of the IGF axis (with IGF2R allelic loss ~25% and IGF1R activation ~21%) targeted therapeutically in HCC [PMID:25369299](../papers/25369299.md)
-- IGF2 is epigenetically upregulated and marks the S2 progenitor-cell proliferation subclass in HCC (co-expressed with EPCAM and AFP); proposed as an actionable target in the ~50% of HCCs in the proliferation class. [PMID:30061739](../papers/30061739.md)
-- PRC2-repressed imprinted gene aberrantly upregulated in PRC2-loss MPNSTs; promoter H3K27me3 restored after SUZ12 reintroduction in ST88-14 cells with reciprocal reduction of transcript levels [PMID:25240281](../papers/25240281.md)
-- G226S variant lost in one panNET patient on everolimus treatment, suggesting clonal replacement rather than direct mTOR-pathway resistance; observed in MSK-IMPACT metastatic panNET cohort (n=80) [PMID:30687805](../papers/30687805.md)
+- ~10% of [HCC](../cancer_types/HCC.md) overexpress IGF2; part of the IGF axis (with [IGF2R](../genes/IGF2R.md) allelic loss ~25% and [IGF1R](../genes/IGF1R.md) activation ~21%) targeted therapeutically in HCC [PMID:25369299](../papers/25369299.md)
+- IGF2 is epigenetically upregulated and marks the S2 progenitor-cell proliferation subclass in HCC (co-expressed with [EPCAM](../genes/EPCAM.md) and AFP); proposed as an actionable target in the ~50% of HCCs in the proliferation class. [PMID:30061739](../papers/30061739.md)
+- PRC2-repressed imprinted gene aberrantly upregulated in PRC2-loss MPNSTs; promoter H3K27me3 restored after [SUZ12](../genes/SUZ12.md) reintroduction in ST88-14 cells with reciprocal reduction of transcript levels [PMID:25240281](../papers/25240281.md)
+- G226S variant lost in one panNET patient on [everolimus](../drugs/everolimus.md) treatment, suggesting clonal replacement rather than direct mTOR-pathway resistance; observed in MSK-IMPACT metastatic panNET cohort (n=80) [PMID:30687805](../papers/30687805.md)
 - Overexpressed in incomplete-responder (iCR) rectal cancer patients after neoadjuvant treatment; strong overexpression mutually exclusive with PI3K-pathway alterations; validated in the Kamran et al. independent cohort; associated with lower complete-response rate in pMMR/MSS rectal tumors (n=652) [PMID:35970919](../papers/35970919.md)
-- Top activated master regulator of the progenitor cell state in fusion-negative, MYOD1 L122R-driven rhabdomyosarcoma; recurrently amplified in the 20-patient genomic cohort and functions as the paracrine ligand driving progenitor-to-differentiated signaling. [PMID:41758938](../papers/41758938.md)
+- Top activated master regulator of the progenitor cell state in fusion-negative, [MYOD1](../genes/MYOD1.md) L122R-driven rhabdomyosarcoma; recurrently amplified in the 20-patient genomic cohort and functions as the paracrine ligand driving progenitor-to-differentiated signaling. [PMID:41758938](../papers/41758938.md)
 
 ## Cancer types (linked)
 
@@ -63,4 +63,4 @@ IGF2 (Insulin-like Growth Factor 2) is an imprinted growth factor with roles in 
 - [PMID:35970919](../papers/35970919.md)
 - [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

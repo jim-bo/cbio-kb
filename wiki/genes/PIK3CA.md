@@ -3,8 +3,8 @@ symbol: PIK3CA
 aliases: []
 cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, HCC, THAP, THPA, IHCH, EHCH, STAD, RMS, ERMS, GBM]
 tags: [pi3k-pathway, actionable, thyroid-cancer, cholangiocarcinoma, gastric-cancer]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # PIK3CA
@@ -31,7 +31,7 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - PIK3CA co-occurs with [BRAF](../genes/BRAF.md) V600E in anaplastic thyroid carcinoma (FDR = 0.034); preferentially mutated in ATCs and co-differentiated thyroid cancers relative to PTC [PMID:38412093](../papers/38412093.md).
 - PIK3CA mutated in 48% of dMMR/MSI-H gynecologic cancers treated with [nivolumab](../drugs/nivolumab.md); not associated with clinical benefit or resistance to PD-1 blockade [PMID:38653864](../papers/38653864.md).
 - PIK3CA plasma detection associated with VTE risk (adjusted HR = 1.47, 95% CI: 1.01--2.13, N=254 patients) in pan-cancer ctDNA liquid biopsy cohort; in multivariate analysis, individual gene-level alterations including PIK3CA were not independently associated with VTE after controlling for ctDNA detection [PMID:39147831](../papers/39147831.md).
-- PIK3CA hotspot mutation (H1047L — reported as "H1074L" in text) in SARC0117 (USS sarcoma) drove broad PI3K/mTOR pathway sensitivity ([alpelisib](../drugs/alpelisib.md), apitolisib, copanlisib, BGT226, [vistusertib](../drugs/vistusertib.md)) in PDTO screen. SARC0134 ([MPNST](../cancer_types/MPNST.md)) carried the mutation in the primary but lost it in metastasis, predicting non-response. A biomarker-negative osteosarcoma (SARC0069_2) was a top [alpelisib](../drugs/alpelisib.md) responder. [PMID:39305899](../papers/39305899.md)
+- PIK3CA hotspot mutation (H1047L — reported as "H1074L" in text) in SARC0117 (USS sarcoma) drove broad PI3K/mTOR pathway sensitivity ([alpelisib](../drugs/alpelisib.md), apitolisib, [copanlisib](../drugs/copanlisib.md), BGT226, [vistusertib](../drugs/vistusertib.md)) in PDTO screen. SARC0134 ([MPNST](../cancer_types/MPNST.md)) carried the mutation in the primary but lost it in metastasis, predicting non-response. A biomarker-negative osteosarcoma (SARC0069_2) was a top [alpelisib](../drugs/alpelisib.md) responder. [PMID:39305899](../papers/39305899.md)
 - PIK3CA enriched in MAPK-WT PDAC tumors (10% vs 2% in KRAS-mutant, P=0.002) in the MSK 2,336-patient cohort; one of the defining features distinguishing the MAPK-WT subtype. [PMID:39753968](../papers/39753968.md)
 - PIK3CA oncogenic alteration present in 11% of cfDNA samples in a 201-patient metastatic urothelial carcinoma (mUC) cohort (CALGB 90601); associated with significantly shorter [OS](../cancer_types/OS.md) on multivariable analysis (HR 1.91, 95% CI 1.20–3.04; P=0.006) after adjustment for visceral metastases, performance status, and ctDNA VAF. [PMID:40256659](../papers/40256659.md)
 - PIK3CA was mutated in 18% (13/71) of myxoid/round-cell liposarcomas ([MRLS](../cancer_types/MRLS.md)) — first report of PIK3CA mutation in a mesenchymal cancer; mutations clustered in helical (E542K, E545K) and kinase (H1047L, H1047R) domains; mutated tumors had shorter disease-specific survival (log-rank p=0.036, n=65 with outcome data); only helical-domain mutants showed elevated phospho-AKT (Ser473/Thr308), suggesting domain-specific mechanism ([sarc_mskcc](../datasets/sarc_mskcc.md), n=207) [PMID:20601955](../papers/20601955.md).
@@ -168,10 +168,10 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - PIK3CA alterations present in 30% of 733 HER2-amplified breast tumors (metastatic + primary); co-occurs with MAPK alterations (OR 1.20, p=0.42 — no mutual exclusivity); MAPK resistance signal is independent of PIK3CA/AKT1/PTEN status (multivariate HR 2.25, p=0.0043). [PMID:34795269](../papers/34795269.md)
 - PIK3CA mutations less frequent in primaries of HR+/HER2- ductal breast metastatic patients vs. non-metastatic (49% vs 38%, q=0.003); PI3K pathway alterations enriched in HR+/HER2- ductal breast bone metastases (44% vs 56%, q=0.003) in the MSK-MET pan-cancer cohort (25,775 patients) [PMID:35120664](../papers/35120664.md)
 - PIK3CA surveyed in CRC with dual MAPK drivers (CRC-DD; n=47/4,561 MSK-IMPACT cases); no significant prevalence difference between CRC-DD and CRC single-driver (CRC-SD) groups [PMID:35235413](../papers/35235413.md)
-- PIK3CA/PIK3R1 events (n=23 combined) in the MAPPYACTS pediatric relapsed cohort (n=787); matched to mTOR inhibitors ([vistusertib](../drugs/vistusertib.md), [everolimus](../drugs/everolimus.md)) explored in AcSé-ESMART arms E/F alongside 25 PTEN losses [PMID:35292802](../papers/35292802.md)
+- PIK3CA/PIK3R1 events (n=23 combined) in the MAPPYACTS pediatric relapsed cohort (n=787); matched to mTOR inhibitors ([vistusertib](../drugs/vistusertib.md), [everolimus](../drugs/everolimus.md)) explored in AcSé-ESMART arms E/F alongside 25 [PTEN](../genes/PTEN.md) losses [PMID:35292802](../papers/35292802.md)
 - PIK3CA PI3K pathway lesions present at [selpercatinib](../drugs/selpercatinib.md) baseline in RET-fusion-positive lung cancers did not preclude response; clinical benefit rate in PI3K-co-altered patients was 91%; PI3K activating mutations decreased on therapy alongside [RET](../genes/RET.md), inconsistent with primary driver of resistance [PMID:35304457](../papers/35304457.md)
 - PIK3CA amplification observed in matched clinical [SCLC](../cancer_types/SCLC.md) sample (MSK304B) but lost in the corresponding PDX (which instead gained [MYCL](../genes/MYCL.md) amplification), illustrating PDX clonal bottleneck effects in the 42-model [SCLC](../cancer_types/SCLC.md) PDX/CDX characterization study [PMID:35440124](../papers/35440124.md)
-- PIK3CA altered in 4.6% of metastatic vs 3.0% of primary prostate cancer (p=0.152); mutually exclusive with PIK3R1 alterations in breast cancer (p<0.001) [PMID:35670774](../papers/35670774.md)
+- PIK3CA altered in 4.6% of metastatic vs 3.0% of primary prostate cancer (p=0.152); mutually exclusive with [PIK3R1](../genes/PIK3R1.md) alterations in breast cancer (p<0.001) [PMID:35670774](../papers/35670774.md)
 - PIK3CA/PTEN/AKT1 enriched in myxoid liposarcoma (36.3%/17.8%/3.7% AKT E17K); PI3K-pathway hits collectively actionable in this sarcoma subtype [PMID:35705558](../papers/35705558.md)
 - PIK3CA mutated in 25% of myxoid round cell liposarcoma ([MRLS](../cancer_types/MRLS.md)) and 6% of angiosarcoma ([ANGS](../cancer_types/ANGS.md)); part of 31% collectively targetable PI3K-pathway alterations in [MRLS](../cancer_types/MRLS.md) [PMID:35705560](../papers/35705560.md)
 - PIK3CA, PTEN, and [ARID1A](../genes/ARID1A.md) frequencies are similar across MMR-D endometrial cancer subgroups (MLH1ph, germline, somatic), representing background EC alterations not distinguishing MMR mechanism [PMID:35849120](../papers/35849120.md)
@@ -179,14 +179,14 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Mutated in 50% of primary endometrial cancers in ctDNA pilot ([ucec_ccr_cfdna_msk_2022](../datasets/ucec_ccr_cfdna_msk_2022.md), n=44); hotspot PIK3CA subclonal in CD20 primary became clonal in sentinel lymph nodes; serial MAF tracking demonstrated treatment response monitoring utility [PMID:36007103](../papers/36007103.md)
 - Altered in 12% of pMMR/MSS rectal tumors ([rectal_msk_2022](../datasets/rectal_msk_2022.md), n=692); mutually exclusive with [TP53](../genes/TP53.md); subclonal in ~1/3 of co-occurrent cases with APC/TP53; co-mutation with [KRAS](../genes/KRAS.md) associated with elevated [CA9](../genes/CA9.md) expression (p<0.001) [PMID:35970919](../papers/35970919.md)
 - PIK3CA enriched in Crohn's disease-associated colitis-associated cancer (CAC) vs ulcerative colitis-associated CAC (MSK cohort, MSK-IMPACT panel sequencing) [PMID:36611031](../papers/36611031.md)
-- PIK3CA was among the uncommon mutations carried in this TNBC pembrolizumab trial cohort; it was not associated with response [PMID:35121644](../papers/35121644.md).
+- PIK3CA was among the uncommon mutations carried in this TNBC [pembrolizumab](../drugs/pembrolizumab.md) trial cohort; it was not associated with response [PMID:35121644](../papers/35121644.md).
 - PIK3CA was mutated in 13% of colorectal tumors in this cohort and enriched in hypermutated tumors, with frequency varying by tumor site [PMID:35487942](../papers/35487942.md).
-- PIK3CA was one of the mTOR-pathway genes (with NF2, NF1) mutated in 3.1% of solitary fibrous tumors combined, proposed as an mTOR-inhibitor target [PMID:37980418](../papers/37980418.md).
-- PIK3CA was the most frequently altered gene in CDH1 genetically wild-type invasive lobular carcinoma (10/25, 40%), dominated by H1047R and E542K hotspots [PMID:38347189](../papers/38347189.md).
-- PIK3CA was co-mutated in 54% of ERBB2-mutated endometrial carcinomas, among the most frequent co-mutations alongside ARID1A and PTEN [PMID:39031567](../papers/39031567.md).
+- PIK3CA was one of the mTOR-pathway genes (with [NF2](../genes/NF2.md), [NF1](../genes/NF1.md)) mutated in 3.1% of solitary fibrous tumors combined, proposed as an mTOR-inhibitor target [PMID:37980418](../papers/37980418.md).
+- PIK3CA was the most frequently altered gene in [CDH1](../genes/CDH1.md) genetically wild-type invasive lobular carcinoma (10/25, 40%), dominated by H1047R and E542K hotspots [PMID:38347189](../papers/38347189.md).
+- PIK3CA was co-mutated in 54% of ERBB2-mutated endometrial carcinomas, among the most frequent co-mutations alongside [ARID1A](../genes/ARID1A.md) and PTEN [PMID:39031567](../papers/39031567.md).
 - APOBEC3-context PIK3CA helical-domain hotspots E545K/E542K, and double (cis) PIK3CA mutations, are enriched in APOBEC3-dominant post-treatment HR+/HER2- breast tumors, suggesting increased sensitivity to PI3K-alpha-selective inhibitors [PMID:40379787](../papers/40379787.md).
-- PIK3CA was the most frequent co-occurring pathogenic alteration in MYOD1 L122R-mutant rhabdomyosarcoma (20% of 20 genomically profiled patients), mutually exclusive with other PI3K/AKT/mTOR pathway alterations [PMID:41758938](../papers/41758938.md).
-- New PIK3CA hotspots usually appear as second hits alongside a common PIK3CA hotspot (51% vs 9%) and are more subclonal; mutations are clonal in canonical BRCA, uterine and bladder cancer but subclonal in non-canonical LUAD, ESCA and glioblastoma [PMID:41895280](../papers/41895280.md).
+- PIK3CA was the most frequent co-occurring pathogenic alteration in [MYOD1](../genes/MYOD1.md) L122R-mutant rhabdomyosarcoma (20% of 20 genomically profiled patients), mutually exclusive with other PI3K/AKT/mTOR pathway alterations [PMID:41758938](../papers/41758938.md).
+- New PIK3CA hotspots usually appear as second hits alongside a common PIK3CA hotspot (51% vs 9%) and are more subclonal; mutations are clonal in canonical [BRCA](../cancer_types/BRCA.md), uterine and bladder cancer but subclonal in non-canonical [LUAD](../cancer_types/LUAD.md), [ESCA](../cancer_types/ESCA.md) and glioblastoma [PMID:41895280](../papers/41895280.md).
 
 ## Cancer types (linked)
 
@@ -414,4 +414,4 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [PMID:41758938](../papers/41758938.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

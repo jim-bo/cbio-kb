@@ -16,8 +16,8 @@ tags:
   - secondary-malignancy
   - radiation
   - prostate-cancer
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Colorectal Cancer Radiation (MSK, 2024)
@@ -51,4 +51,4 @@ A single-institution case-control study at MSKCC of 64 men who developed rectal 
 - cBioPortal study record: `rectal_radiation_msk_2024` (name, institution, size, reference_genome taken from `schema/ontology/studies.json`).
 - [PMID:40100215](../papers/40100215.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

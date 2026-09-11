@@ -6,8 +6,8 @@ aliases:
 cancer_types:
   - BLCA
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # L1CAM
@@ -20,7 +20,7 @@ L1CAM (L1 Cell Adhesion Molecule, also known as CD171) is a transmembrane glycop
 
 - Clonally enriched missense mutations (83% missense) in post-chemotherapy urothelial carcinoma (UC) tumors; GSEA on REACTOME pathways showed significant enrichment of L1CAM signaling pathway mutations in post-chemotherapy samples vs pre-chemotherapy samples (odds ratio = 1.9, FDR = 0.12) in a 32-patient matched pre/post-chemotherapy WES cohort. Proposed as a candidate driver of chemotherapy resistance through cell-adhesion-mediated drug resistance (CAM-DR). [PMID:27749842](../papers/27749842.md)
 - Overexpressed in incomplete-responder (iCR) pMMR/MSS LARC patients; higher L1CAM levels associated with CMS4 subtype, lower complete response rate, shorter DFS, and higher metastasis rates; IHC confirmed L1CAM-expressing tumor cells pre- and post-neoadjuvant therapy; validated in an independent cohort [PMID:35970919](../papers/35970919.md)
-- Co-expressed with EMP1 as markers of an LGR5-low injury-repair/tumor-regenerative module at the colorectal cancer invasion front, consistent with prior identification of L1CAM+/EMP1+ metastasis-initiating cells [PMID:39478232](../papers/39478232.md).
+- Co-expressed with [EMP1](../genes/EMP1.md) as markers of an LGR5-low injury-repair/tumor-regenerative module at the colorectal cancer invasion front, consistent with prior identification of L1CAM+/EMP1+ metastasis-initiating cells [PMID:39478232](../papers/39478232.md).
 
 ## Cancer types (linked)
 
@@ -46,4 +46,4 @@ L1CAM (L1 Cell Adhesion Molecule, also known as CD171) is a transmembrane glycop
 - [PMID:35970919](../papers/35970919.md)
 - [PMID:39478232](../papers/39478232.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

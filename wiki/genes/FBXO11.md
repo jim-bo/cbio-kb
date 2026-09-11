@@ -3,8 +3,8 @@ symbol: FBXO11
 aliases: []
 cancer_types: [BL]
 tags: [ebv-status, burkitt-lymphoma]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # FBXO11
@@ -15,7 +15,7 @@ FBXO11 is an F-box protein gene recurrently mutated in Burkitt lymphoma, with mu
 
 ## Alterations observed in the corpus
 
-- FBXO11 is more often mutated in EBV-negative Burkitt lymphoma, alongside MIR17HG, PTEN, SMARCA4, CDKN2A, STAT6 and PHF6. [PMID:36201743](../papers/36201743.md)
+- FBXO11 is more often mutated in EBV-negative Burkitt lymphoma, alongside [MIR17HG](../genes/MIR17HG.md), [PTEN](../genes/PTEN.md), [SMARCA4](../genes/SMARCA4.md), [CDKN2A](../genes/CDKN2A.md), [STAT6](../genes/STAT6.md) and [PHF6](../genes/PHF6.md). [PMID:36201743](../papers/36201743.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ FBXO11 is an F-box protein gene recurrently mutated in Burkitt lymphoma, with mu
 
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

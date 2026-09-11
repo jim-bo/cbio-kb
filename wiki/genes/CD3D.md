@@ -3,8 +3,8 @@ symbol: CD3D
 aliases: []
 cancer_types: [SKCM]
 tags: [TCR-complex, T-cell, immune-checkpoint, co-stimulation]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CD3D
@@ -16,7 +16,7 @@ CD3D encodes the CD3 delta chain, a component of the CD3 complex that associates
 ## Alterations observed in the corpus
 
 - CD3D was identified as a component of the TCR/co-stimulatory immunological synapse upregulated on-therapy in melanoma patients receiving [nivolumab](../drugs/nivolumab.md) (anti-PD-1). CD3D upregulation was part of a 695-gene differentially expressed gene set enriched in the genomic-contraction phenotype (q < 0.10) and a broader 475-DEG pharmacologic on-therapy response set (q < 0.20), encompassing PD-1 signaling, [CD28](../genes/CD28.md) co-stimulation, downstream TCR signaling, IFN-gamma, and IL-2 signaling. [PMID:29033130](../papers/29033130.md)
-- CD3D transcripts increased 1.7-fold in tumor on nivolumab treatment, matching the IHC increase in CD3+ infiltrates [PMID:27169994](../papers/27169994.md).
+- CD3D transcripts increased 1.7-fold in tumor on [nivolumab](../drugs/nivolumab.md) treatment, matching the IHC increase in CD3+ infiltrates [PMID:27169994](../papers/27169994.md).
 
 ## Cancer types (linked)
 
@@ -39,4 +39,4 @@ CD3D encodes the CD3 delta chain, a component of the CD3 complex that associates
 - [PMID:29033130](../papers/29033130.md)
 - [PMID:27169994](../papers/27169994.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

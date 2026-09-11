@@ -3,8 +3,8 @@ symbol: PAK1
 aliases: []
 cancer_types: [BRCA]
 tags: [amplification, kinase, breast-cancer, IntClust2]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # PAK1
@@ -17,13 +17,13 @@ PAK1 (P21-Activated Kinase 1) is a serine/threonine kinase downstream of Rac1 an
 
 - PAK1 (11q14.1) is amplified as part of the 11q13/14 cis-acting cassette in IntClust 2 of the METABRIC breast cancer cohort (~2,000 tumors); co-amplified with [CCND1](../genes/CCND1.md), [EMSY](../genes/EMSY.md), and [RSF1](../genes/RSF1.md) in ER-positive, high-risk tumors [PMID:22522925](../papers/22522925.md)
 - Identified as a downstream effector of [RAC1](../genes/RAC1.md) P29S and a potential therapeutic target in melanoma (147-tumor Yale WES cohort) [PMID:22842228](../papers/22842228.md)
-- Recurrently amplified at 11q13 in esophageal adenocarcinoma (EAC) as a downstream effector of the RAC1 signaling axis (upstream regulators [ELMO1](../genes/ELMO1.md), [DOCK2](../genes/DOCK2.md), [TRIO](../genes/TRIO.md), [TIAM1](../genes/TIAM1.md), [VAV2](../genes/VAV2.md), [ECT2](../genes/ECT2.md) are recurrently mutated) [PMID:23525077](../papers/23525077.md)
+- Recurrently amplified at 11q13 in esophageal adenocarcinoma ([EAC](../cancer_types/EAC.md)) as a downstream effector of the [RAC1](../genes/RAC1.md) signaling axis (upstream regulators [ELMO1](../genes/ELMO1.md), [DOCK2](../genes/DOCK2.md), [TRIO](../genes/TRIO.md), [TIAM1](../genes/TIAM1.md), [VAV2](../genes/VAV2.md), [ECT2](../genes/ECT2.md) are recurrently mutated) [PMID:23525077](../papers/23525077.md)
 - Co-amplification with [CCND1](../genes/CCND1.md) at 11q13–14 defines the IntClust2 breast cancer subtype (METABRIC 2,433 primary tumors); this early clonal event is associated with paradoxically low MATH heterogeneity score and resistance to neo-adjuvant cytotoxic chemotherapy. [PMID:27161491](../papers/27161491.md)
 - Focal copy gains in 5/34 ALM patients (15%); validated by qPCR in 4/5; all in BRAF/NRAS wild-type tumors (1 NF1-subtype, 4 triple-wild-type); proposed as alternate MAPK-pathway dysregulation route in acral melanoma [PMID:28373299](../papers/28373299.md)
-- 11q focal amplification (co-amplified with YAP1 and CCND1) enriched in PD patients in a pooled ICB cohort (193 patients); 11q amplification is a candidate genomic marker of immune checkpoint blockade resistance [PMID:30150660](../papers/30150660.md)
-- PAK1 is co-amplified with CCND1, FGF3, EMSY, and RSF1 on chromosome 11q13; this co-amplification defines IntClust2 (4.5% of ER+ breast cancers), a late-relapsing subgroup in the METABRIC cohort (n=3,240) [PMID:30867590](../papers/30867590.md)
-- Protein elevated in >70% of [PAAD](../cancer_types/PAAD.md) tumors; downstream effector of KRAS via RAC1; combined PAK1/PAK2 inhibition with MAPK-ERK and PI3K-AKT-mTOR inhibitors proposed as a KRAS-driven signaling targeting strategy [PMID:34534465](../papers/34534465.md).
-- PAK1 was altered in 3 of 25 (12%) CDH1 genetically wild-type invasive lobular breast carcinomas [PMID:38347189](../papers/38347189.md).
+- 11q focal amplification (co-amplified with [YAP1](../genes/YAP1.md) and [CCND1](../genes/CCND1.md)) enriched in PD patients in a pooled ICB cohort (193 patients); 11q amplification is a candidate genomic marker of immune checkpoint blockade resistance [PMID:30150660](../papers/30150660.md)
+- PAK1 is co-amplified with CCND1, [FGF3](../genes/FGF3.md), [EMSY](../genes/EMSY.md), and [RSF1](../genes/RSF1.md) on chromosome 11q13; this co-amplification defines IntClust2 (4.5% of ER+ breast cancers), a late-relapsing subgroup in the METABRIC cohort (n=3,240) [PMID:30867590](../papers/30867590.md)
+- Protein elevated in >70% of [PAAD](../cancer_types/PAAD.md) tumors; downstream effector of [KRAS](../genes/KRAS.md) via RAC1; combined PAK1/PAK2 inhibition with MAPK-ERK and PI3K-AKT-mTOR inhibitors proposed as a KRAS-driven signaling targeting strategy [PMID:34534465](../papers/34534465.md).
+- PAK1 was altered in 3 of 25 (12%) [CDH1](../genes/CDH1.md) genetically wild-type invasive lobular breast carcinomas [PMID:38347189](../papers/38347189.md).
 
 ## Cancer types (linked)
 
@@ -60,4 +60,4 @@ PAK1 (P21-Activated Kinase 1) is a serine/threonine kinase downstream of Rac1 an
 - [PMID:34534465](../papers/34534465.md)
 - [PMID:38347189](../papers/38347189.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

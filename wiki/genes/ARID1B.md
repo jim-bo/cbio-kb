@@ -7,8 +7,8 @@ tags:
   - chromatin-remodeling
   - SWI-SNF
   - tumor-suppressor
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ARID1B
@@ -23,7 +23,7 @@ ARID1B encodes a subunit of the SWI/SNF chromatin-remodeling complex, serving as
 - ARID1B mutations identified in breast cancer WES of 100 tumors, implicating SWI/SNF chromatin remodeling complex in breast cancer [PMID:22722201](../papers/22722201.md)
 - ARID1B is identified as a significantly mutated gene in melanoma WES of 121 tumors (Broad cohort), highlighting SWI/SNF complex subunit alterations in cutaneous melanoma [PMID:22817889](../papers/22817889.md)
 - Mutated in neuroblastoma (Broad WES/WGS, 240 tumors); ARID1B identified among recurrently mutated chromatin-remodeling genes [PMID:23334666](../papers/23334666.md)
-- Somatic mutation in chromatin-remodeling gene cluster; collectively mutated in 12/24 ACC cases in exome-sequencing discovery cohort [PMID:23778141](../papers/23778141.md)
+- Somatic mutation in chromatin-remodeling gene cluster; collectively mutated in 12/24 [ACC](../cancer_types/ACC.md) cases in exome-sequencing discovery cohort [PMID:23778141](../papers/23778141.md)
 - Flagged as SWI/SNF chromatin-remodeling complex partner of [ARID1A](../genes/ARID1A.md) in sinonasal AdCC literature context; no coding mutations reported in the sequenced cohort [PMID:39760648](../papers/39760648.md)
 - Non-catalytic BAF subunit (BAF250B) invoked in the context of SWI/SNF biology in SCCOHT; not mutated in this cohort but discussed as relevant to ovarian tumorigenesis [PMID:24658004](../papers/24658004.md)
 - Loss-of-function mutation in 1% (range 1–3%) of HCCs (WES, n=1,289); chromatin-modifier trunk driver classified as non-actionable [PMID:30061739](../papers/30061739.md)
@@ -33,9 +33,9 @@ ARID1B encodes a subunit of the SWI/SNF chromatin-remodeling complex, serving as
 - Mouse-model gCIS shared between local and metastatic medulloblastoma recurrences but absent from diagnostic samples; identified as a recurrence-specific driver in the Shh subgroup [PMID:26760213](../papers/26760213.md)
 - ARID1B, as part of the SWI/SNF complex, mutated in 36% ATC vs 6% PDTC (P = 1×10⁻⁴) in a 341-gene targeted sequencing cohort (n=117 advanced thyroid tumors); SWI/SNF disruption was the first such report in advanced thyroid cancer [PMID:26878173](../papers/26878173.md)
 - ARID1B identified as a somatic alteration in metastatic panNET (80-patient MSK-IMPACT cohort); SWI/SNF chromatin-remodeling complex member [PMID:30687805](../papers/30687805.md)
-- Enriched in recurrent/metastatic adenoid cystic carcinoma vs. primary tumors (OR 4.00); SWI/SNF complex member in the acc_2019 cohort (n=1,045) [PMID:31483290](../papers/31483290.md)
+- Enriched in recurrent/metastatic adenoid cystic carcinoma vs. primary tumors (OR 4.00); SWI/SNF complex member in the [acc_2019](../datasets/acc_2019.md) cohort (n=1,045) [PMID:31483290](../papers/31483290.md)
 - ARID1B was observed at low frequency, enriched in metastatic vs. primary TNBC samples; functional significance in the metastatic context is not yet established. [PMID:32719455](../papers/32719455.md)
-- Among the most frequently altered genes in solitary fibrous tumor (14%), alongside ZFHX3, KMT2C, TERT, SLX4, FAT1, KMT2D, CDH23 and NOTCH1 [PMID:37980418](../papers/37980418.md)
+- Among the most frequently altered genes in solitary fibrous tumor (14%), alongside [ZFHX3](../genes/ZFHX3.md), [KMT2C](../genes/KMT2C.md), [TERT](../genes/TERT.md), [SLX4](../genes/SLX4.md), [FAT1](../genes/FAT1.md), [KMT2D](../genes/KMT2D.md), [CDH23](../genes/CDH23.md) and [NOTCH1](../genes/NOTCH1.md) [PMID:37980418](../papers/37980418.md)
 
 ## Cancer types (linked)
 
@@ -74,4 +74,4 @@ ARID1B encodes a subunit of the SWI/SNF chromatin-remodeling complex, serving as
 - [PMID:32719455](../papers/32719455.md)
 - [PMID:37980418](../papers/37980418.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

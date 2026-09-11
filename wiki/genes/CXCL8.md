@@ -4,8 +4,8 @@ aliases:
   - IL8
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CXCL8
@@ -16,7 +16,7 @@ CXCL8 (interleukin-8) is a myeloid-associated chemokine included in composite im
 
 ## Alterations observed in the corpus
 
-- CXCL8 is part of a myeloid inflammation gene signature (with IL6, CXCL1, CXCL2, CXCL3, PTGS2); MyeloidHigh renal cell carcinoma tumors had worse PFS on atezolizumab monotherapy, proposed as innate resistance overcome by bevacizumab. [PMID:29867230](../papers/29867230.md)
+- CXCL8 is part of a myeloid inflammation gene signature (with [IL6](../genes/IL6.md), [CXCL1](../genes/CXCL1.md), [CXCL2](../genes/CXCL2.md), [CXCL3](../genes/CXCL3.md), [PTGS2](../genes/PTGS2.md)); MyeloidHigh renal cell carcinoma tumors had worse PFS on [atezolizumab](../drugs/atezolizumab.md) monotherapy, proposed as innate resistance overcome by [bevacizumab](../drugs/bevacizumab.md). [PMID:29867230](../papers/29867230.md)
 
 ## Cancer types (linked)
 
@@ -38,4 +38,4 @@ CXCL8 (interleukin-8) is a myeloid-associated chemokine included in composite im
 
 - [PMID:29867230](../papers/29867230.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

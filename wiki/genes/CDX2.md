@@ -3,8 +3,8 @@ symbol: CDX2
 aliases: []
 cancer_types: [COADREAD]
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CDX2
@@ -24,7 +24,7 @@ CDX2 (Caudal Type Homeobox 2) is a hindgut-specific homeobox transcription facto
 
 ## Co-occurrence and mutual exclusivity
 
-- CDX2 loss co-occurs with MUC5AC gain in the serrated/metaplastic program; mutually exclusive with WNT/LGR5+ stem-cell activation characteristic of conventional adenomas [PMID:34910928](../papers/34910928.md)
+- CDX2 loss co-occurs with [MUC5AC](../genes/MUC5AC.md) gain in the serrated/metaplastic program; mutually exclusive with WNT/LGR5+ stem-cell activation characteristic of conventional adenomas [PMID:34910928](../papers/34910928.md)
 
 ## Therapeutic relevance
 
@@ -39,4 +39,4 @@ CDX2 (Caudal Type Homeobox 2) is a hindgut-specific homeobox transcription facto
 - [PMID:34910928](../papers/34910928.md)
 - [PMID:39478232](../papers/39478232.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

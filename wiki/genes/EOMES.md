@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - MB
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # EOMES
@@ -17,11 +17,11 @@ EOMES (Eomesodermin) encodes a T-box transcription factor involved in brain deve
 ## Alterations observed in the corpus
 
 - Inversely expressed with [TBR1](../genes/TBR1.md) in Group 4 medulloblastoma; methylation-dependent differential expression across subgroups identified by WGS/WES (ICGC, 76 tumors) [PMID:22832583](../papers/22832583.md)
-- EOMES is one of five genes (with CD8A, PRF1, IFNG, CD274) composing the Teff (effector T-cell) signature in renal cell carcinoma; TeffHigh tumors showed benefit from atezolizumab + bevacizumab and tracked CD8 IHC [PMID:29867230](../papers/29867230.md).
+- EOMES is one of five genes (with [CD8A](../genes/CD8A.md), [PRF1](../genes/PRF1.md), [IFNG](../genes/IFNG.md), [CD274](../genes/CD274.md)) composing the Teff (effector T-cell) signature in renal cell carcinoma; TeffHigh tumors showed benefit from [atezolizumab](../drugs/atezolizumab.md) + [bevacizumab](../drugs/bevacizumab.md) and tracked CD8 IHC [PMID:29867230](../papers/29867230.md).
 
 ## Cancer types (linked)
 
-- **MB (medulloblastoma):** Subgroup-specific expression pattern — inversely correlated with TBR1 in Group 4; epigenetic (methylation) regulation implicated [PMID:22832583](../papers/22832583.md)
+- **MB (medulloblastoma):** Subgroup-specific expression pattern — inversely correlated with [TBR1](../genes/TBR1.md) in Group 4; epigenetic (methylation) regulation implicated [PMID:22832583](../papers/22832583.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -41,4 +41,4 @@ EOMES (Eomesodermin) encodes a T-box transcription factor involved in brain deve
 - [PMID:22832583](../papers/22832583.md)
 - [PMID:29867230](../papers/29867230.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

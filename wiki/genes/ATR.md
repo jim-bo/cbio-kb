@@ -7,8 +7,8 @@ tags:
   - dna-damage-response
   - replication-stress
   - kinase
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ATR
@@ -32,7 +32,7 @@ ATR ([ATM](../genes/ATM.md) and Rad3-Related) is a serine/threonine kinase that 
 - In a proteogenomic study of 99 GBMs, ATR protein and phosphorylation were elevated in TP53-mutant tumors without corresponding protein-level upregulation of DNA-repair components, nominating ATR inhibitors as potential therapeutic candidates for TP53-mutant [GBM](../cancer_types/GBM.md). [PMID:33577785](../papers/33577785.md)
 - No significant difference in ATR alteration prevalence by race in 1,012 mPC patients (Black, Asian, White) profiled on MSK-IMPACT, contradicting a prior Project GENIE-based report [PMID:34667026](../papers/34667026.md)
 - [ATRX](../genes/ATRX.md) loss-of-function across multiple sarcoma subtypes ([ULMS](../cancer_types/ULMS.md), [PLLS](../cancer_types/PLLS.md), [UPS](../cancer_types/UPS.md), [MFS](../cancer_types/MFS.md), [PECOMA](../cancer_types/PECOMA.md), [LMS](../cancer_types/LMS.md), [ANGS](../cancer_types/ANGS.md)) raises the possibility of ATR-inhibitor synthetic lethality; active basket trials NCT03718091, NCT05071209, and NCT04807816 are cited [PMID:35705560](../papers/35705560.md)
-- Identified as one of several cancer-related genes among non-canonical EWSR1 fusion partners in chromoplectic Ewing sarcoma/DSRCT structural variants; none of these rearrangements were expressed by RNA sequencing [PMID:38335254](../papers/38335254.md).
+- Identified as one of several cancer-related genes among non-canonical [EWSR1](../genes/EWSR1.md) fusion partners in chromoplectic Ewing sarcoma/DSRCT structural variants; none of these rearrangements were expressed by RNA sequencing [PMID:38335254](../papers/38335254.md).
 - One of 9 DNA-damage-response genes on a bladder cancer NGS panel; only truncating ATR alterations counted toward the deleterious DDR category, with results reported at the pooled panel level rather than per-gene [PMID:39499893](../papers/39499893.md).
 
 ## Cancer types (linked)
@@ -70,4 +70,4 @@ ATR ([ATM](../genes/ATM.md) and Rad3-Related) is a serine/threonine kinase that 
 - [PMID:38335254](../papers/38335254.md)
 - [PMID:39499893](../papers/39499893.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

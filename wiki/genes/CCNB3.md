@@ -3,15 +3,15 @@ symbol: CCNB3
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CCNB3
 
 ## Overview
 
-Cyclin B3 (CCNB3) is a mitotic cyclin best known in oncology as the 3' partner of the BCOR::CCNB3 fusion that defines a subset of Ewing-like ("BCOR-CCNB3") sarcomas.
+Cyclin B3 (CCNB3) is a mitotic cyclin best known in oncology as the 3' partner of the [BCOR](../genes/BCOR.md)::CCNB3 fusion that defines a subset of Ewing-like ("BCOR-CCNB3") sarcomas.
 
 ## Alterations observed in the corpus
 
@@ -37,4 +37,4 @@ Cyclin B3 (CCNB3) is a mitotic cyclin best known in oncology as the 3' partner o
 
 - [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

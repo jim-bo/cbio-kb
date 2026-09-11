@@ -3,8 +3,8 @@ symbol: FANCC
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # FANCC
@@ -24,8 +24,8 @@ FANCC (Fanconi Anemia Complementation Group C) is a component of the Fanconi ane
 - Pre-specified DDR/NAC-response gene in MIBC analysis; no significant difference observed between primary and secondary MIBC groups [PMID:30290956](../papers/30290956.md)
 - Germline pathogenic/likely pathogenic carrier identified in panNET cohort (MSK-IMPACT, 80 patients); classified as a recessive germline susceptibility gene for cancer [PMID:30687805](../papers/30687805.md)
 - Pathogenic germline FANCC alteration identified in CAC patient cohort (IBD-associated colorectal cancer, n=73 germline analysis); overall germline pathogenic variant frequency 14%, comparable to sporadic CRC. [PMID:36611031](../papers/36611031.md)
-- FANCC is one of nine DNA-repair/PARP-pathway genes (with FANCA, FANCF, RAD54L, ATM, RECQL4, NBN, CHEK2, WRN) altered in 6.9% (9/131) of solitary fibrous tumors, proposed as PARP-inhibitor targets. [PMID:37980418](../papers/37980418.md)
-- FANCC is one of the DDR panel genes (with ERCC5, ATR, BRCA1, BRCA2, RECQL4, RAD51C) scored for deleterious truncating alterations in a bladder cancer neoadjuvant chemotherapy cohort. [PMID:39499893](../papers/39499893.md)
+- FANCC is one of nine DNA-repair/PARP-pathway genes (with [FANCA](../genes/FANCA.md), [FANCF](../genes/FANCF.md), [RAD54L](../genes/RAD54L.md), [ATM](../genes/ATM.md), [RECQL4](../genes/RECQL4.md), [NBN](../genes/NBN.md), [CHEK2](../genes/CHEK2.md), [WRN](../genes/WRN.md)) altered in 6.9% (9/131) of solitary fibrous tumors, proposed as PARP-inhibitor targets. [PMID:37980418](../papers/37980418.md)
+- FANCC is one of the DDR panel genes (with [ERCC5](../genes/ERCC5.md), [ATR](../genes/ATR.md), [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md), RECQL4, [RAD51C](../genes/RAD51C.md)) scored for deleterious truncating alterations in a bladder cancer neoadjuvant chemotherapy cohort. [PMID:39499893](../papers/39499893.md)
 
 ## Cancer types (linked)
 
@@ -65,4 +65,4 @@ FANCC (Fanconi Anemia Complementation Group C) is a component of the Fanconi ane
 - [PMID:37980418](../papers/37980418.md)
 - [PMID:39499893](../papers/39499893.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

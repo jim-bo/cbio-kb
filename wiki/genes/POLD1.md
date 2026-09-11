@@ -3,8 +3,8 @@ symbol: POLD1
 aliases: []
 cancer_types: [UCEC, PRAD]
 tags: [dna-polymerase, proofreading, ultramutator]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 canonical_source: cbioportal
 unverified: false
 ---
@@ -25,8 +25,8 @@ POLD1 encodes the catalytic subunit of DNA polymerase delta, a key proofreading 
 - Germline P/LP variant identified in 1 EO-CRC high-penetrance carrier; defines an ultramutated subgroup alongside [POLE](../genes/POLE.md) [PMID:34405229](../papers/34405229.md)
 - POLD1 frameshift mutation in a hypermutated prostate cancer brain metastasis (PCBM) patient (P58; >15 mut/Mb, high SBS10b signature) co-occurring with [RFC4](../genes/RFC4.md) missense; identified among 51 PCBM patients by whole-exome sequencing [PMID:35504881](../papers/35504881.md)
 - POLD1 mutations were enriched in hypermutated colorectal tumors [PMID:35487942](../papers/35487942.md)
-- POLD1, co-located with LIG1 on 19q13.31-33, showed lower protein in non-pCR triple-negative breast tumors and reduced protein in carboplatin-resistant PDX models [PMID:36001024](../papers/36001024.md)
-- POLD1 fell within a GISTIC2 deletion peak alongside RAD51, FANCA, ATM and CHEK1 in hepatoblastoma PDX models [PMID:37990009](../papers/37990009.md)
+- POLD1, co-located with [LIG1](../genes/LIG1.md) on 19q13.31-33, showed lower protein in non-pCR triple-negative breast tumors and reduced protein in carboplatin-resistant PDX models [PMID:36001024](../papers/36001024.md)
+- POLD1 fell within a GISTIC2 deletion peak alongside [RAD51](../genes/RAD51.md), [FANCA](../genes/FANCA.md), [ATM](../genes/ATM.md) and [CHEK1](../genes/CHEK1.md) in hepatoblastoma PDX models [PMID:37990009](../papers/37990009.md)
 
 ## Cancer types (linked)
 
@@ -63,4 +63,4 @@ POLD1 encodes the catalytic subunit of DNA polymerase delta, a key proofreading 
 - [PMID:36001024](../papers/36001024.md)
 - [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

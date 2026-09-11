@@ -3,8 +3,8 @@ symbol: GFAP
 aliases: []
 cancer_types: [ODG]
 tags: [astrocytic-marker, glioma, lineage-differentiation, immunohistochemistry]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # GFAP
@@ -18,7 +18,7 @@ GFAP (glial fibrillary acidic protein) is the canonical astrocytic lineage marke
 - GFAP is highly expressed in the differentiated astrocyte-like tumor cell compartment of grade II oligodendrogliomas, alongside [APOE](../genes/APOE.md), [ALDOC](../genes/ALDOC.md), and [SOX9](../genes/SOX9.md); this astrocyte-like program coexists with an oligodendrocyte-like program ([OLIG1](../genes/OLIG1.md), [OLIG2](../genes/OLIG2.md), [OMG](../genes/OMG.md)) within the same tumors [PMID:27806376](../papers/27806376.md).
 - GFAP IHC was used to confirm astrocyte-like cell distribution in oligodendroglioma tissue sections as an orthogonal validation of the scRNA-seq lineage assignments [PMID:27806376](../papers/27806376.md).
 - The stem/progenitor compartment (SOX2/SOX4/SOX11-high) that accounts for nearly all proliferating cells is GFAP-low, indicating that differentiation into the astrocytic lineage is associated with loss of the stem cell program [PMID:27806376](../papers/27806376.md).
-- Used as a glial marker (with CD45/PTPRC) in a multiplex immunofluorescence panel assessing the GBM tumor immune microenvironment after PD-1 blockade [PMID:30742122](../papers/30742122.md).
+- Used as a glial marker (with CD45/PTPRC) in a multiplex immunofluorescence panel assessing the [GBM](../cancer_types/GBM.md) tumor immune microenvironment after PD-1 blockade [PMID:30742122](../papers/30742122.md).
 
 ## Cancer types (linked)
 
@@ -41,4 +41,4 @@ GFAP (glial fibrillary acidic protein) is the canonical astrocytic lineage marke
 - [PMID:27806376](../papers/27806376.md)
 - [PMID:30742122](../papers/30742122.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

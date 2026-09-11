@@ -3,8 +3,8 @@ symbol: BRAF
 aliases: []
 cancer_types: [CLLSLL, LCH, ECD, MEL, DIFG, NSCLC, THPA]
 tags: [kinase, mapk, actionable]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # BRAF
@@ -150,9 +150,9 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF V600E mutations occurred significantly less frequently in colitis-associated cancers (CAC) than in sporadic CRC; absence of BRAF V600E is a genomic distinguishing feature of CAC [PMID:36611031](../papers/36611031.md)
 - BRAF mutations (~4% of tumors) correlated with hypermutation status in a large pan-colon colorectal cancer sequencing cohort [PMID:35487942](../papers/35487942.md).
 - BRAF mutations (7 cases) and fusions (2 cases) were co-drivers in non-lung de novo MET-amplified tumors, and BRAF mutations were also found in 3 of 8 non-lung acquired-MET-amplification-resistance cases [PMID:36044468](../papers/36044468.md).
-- One of several significantly mutated genes (with SYNCRIP, EZH2) in Burkitt lymphoma that is mutated at similar or higher rates in DLBCL [PMID:36201743](../papers/36201743.md).
+- One of several significantly mutated genes (with [SYNCRIP](../genes/SYNCRIP.md), [EZH2](../genes/EZH2.md)) in Burkitt lymphoma that is mutated at similar or higher rates in DLBCL [PMID:36201743](../papers/36201743.md).
 - BRAF p.G469R identified in a single solitary fibrous tumor case (0.8%), flagged as a candidate target for BRAF-inhibitor/tyrosine-kinase-inhibitor therapy [PMID:37980418](../papers/37980418.md).
-- Pan-cancer hotspot analysis classified BRAF alterations into Class I (dominant in canonical cancer types, most clonal), Class II, and Class III (subclonal, enriched with cooperating HRAS/NF1 alterations); RNF43 was the gene most enriched in BRAF Class I colorectal tumors [PMID:41895280](../papers/41895280.md).
+- Pan-cancer hotspot analysis classified BRAF alterations into Class I (dominant in canonical cancer types, most clonal), Class II, and Class III (subclonal, enriched with cooperating HRAS/NF1 alterations); [RNF43](../genes/RNF43.md) was the gene most enriched in BRAF Class I colorectal tumors [PMID:41895280](../papers/41895280.md).
 - Among 25 BRAF-mutant biliary tract cancer patients (class I 16, class II 5, class III 4), targeted therapy was associated with markedly longer overall survival (37.0 vs 9.5 months; HR 0.17; P=.013), the only BRAF subgroup showing this benefit [PMID:42360806](../papers/42360806.md).
 
 ## Cancer types (linked)
@@ -317,4 +317,4 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - [PMID:41895280](../papers/41895280.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

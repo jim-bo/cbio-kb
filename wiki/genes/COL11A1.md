@@ -3,8 +3,8 @@ symbol: COL11A1
 aliases: []
 cancer_types: [CSCC]
 tags: [collagen, extracellular-matrix, possible-false-positive]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # COL11A1
@@ -15,8 +15,8 @@ COL11A1 encodes the alpha-1 chain of type XI collagen, an extracellular matrix s
 
 ## Alterations observed in the corpus
 
-- Appeared as a borderline hit in CSCC driver-discovery analyses across 88 QC-passed tumors; classified as a "likely false positive / requiring more evidence" by the authors due to borderline q-value, unusual gene structure with many small exons, and low expression in keratinocytes — not nominated as a bona fide CSCC driver [PMID:34272401](../papers/34272401.md)
-- COL11A1 was among lower-frequency genes added to a clear-cell RCC recurrence classifier because of preliminary links to outcome, though its individual significance could not be robustly established even in this large cohort [PMID:36815791](../papers/36815791.md).
+- Appeared as a borderline hit in [CSCC](../cancer_types/CSCC.md) driver-discovery analyses across 88 QC-passed tumors; classified as a "likely false positive / requiring more evidence" by the authors due to borderline q-value, unusual gene structure with many small exons, and low expression in keratinocytes — not nominated as a bona fide CSCC driver [PMID:34272401](../papers/34272401.md)
+- COL11A1 was among lower-frequency genes added to a clear-cell [RCC](../cancer_types/RCC.md) recurrence classifier because of preliminary links to outcome, though its individual significance could not be robustly established even in this large cohort [PMID:36815791](../papers/36815791.md).
 
 ## Cancer types (linked)
 
@@ -39,4 +39,4 @@ COL11A1 encodes the alpha-1 chain of type XI collagen, an extracellular matrix s
 - [PMID:34272401](../papers/34272401.md)
 - [PMID:36815791](../papers/36815791.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

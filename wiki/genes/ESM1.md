@@ -3,8 +3,8 @@ symbol: ESM1
 aliases: []
 cancer_types: [CCRCC, RCC]
 tags: [angiogenesis, gene-expression-signature, biomarker]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ESM1
@@ -19,7 +19,7 @@ ESM1 (endocan) is an endothelial secreted gene used as a component of angiogenes
 
 ## Cancer types (linked)
 
-- [CCRCC](../cancer_types/CCRCC.md) / [RCC](../cancer_types/RCC.md): ESM1 is one of six genes (with VEGFA, KDR, ESM1, PECAM1, ANGPTL4, CD34) comprising the "Angio signature" used in the IMmotion150 randomized phase 2 trial of atezolizumab +/- bevacizumab versus sunitinib. AngioHigh tumors predicted sunitinib benefit and tracked CD31 IHC vascular density (CD31 is encoded by PECAM1). [PMID:29867230](../papers/29867230.md)
+- [CCRCC](../cancer_types/CCRCC.md) / [RCC](../cancer_types/RCC.md): ESM1 is one of six genes (with [VEGFA](../genes/VEGFA.md), [KDR](../genes/KDR.md), ESM1, [PECAM1](../genes/PECAM1.md), [ANGPTL4](../genes/ANGPTL4.md), [CD34](../genes/CD34.md)) comprising the "Angio signature" used in the IMmotion150 randomized phase 2 trial of [atezolizumab](../drugs/atezolizumab.md) +/- [bevacizumab](../drugs/bevacizumab.md) versus [sunitinib](../drugs/sunitinib.md). AngioHigh tumors predicted sunitinib benefit and tracked CD31 IHC vascular density (CD31 is encoded by PECAM1). [PMID:29867230](../papers/29867230.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -37,4 +37,4 @@ ESM1 (endocan) is an endothelial secreted gene used as a component of angiogenes
 
 - [PMID:29867230](../papers/29867230.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -9,20 +9,20 @@ tags:
   - igf1r-inhibitor
   - sarcoma
   - functional-precision-medicine
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # linsitinib
 
 ## Overview
 
-Linsitinib (OSI-906) is an orally available, selective dual inhibitor of the insulin-like growth factor 1 receptor (IGF-1R) and insulin receptor (INSR) tyrosine kinases. It was evaluated in phase II/III trials in adrenocortical carcinoma and Ewing sarcoma, where IGF-1R signaling is an established driver. It targets the IGF pathway that is implicated in multiple sarcoma subtypes.
+Linsitinib (OSI-906) is an orally available, selective dual inhibitor of the insulin-like growth factor 1 receptor (IGF-1R) and insulin receptor ([INSR](../genes/INSR.md)) tyrosine kinases. It was evaluated in phase II/III trials in adrenocortical carcinoma and Ewing sarcoma, where IGF-1R signaling is an established driver. It targets the IGF pathway that is implicated in multiple sarcoma subtypes.
 
 ## Evidence in the corpus
 
 - Linsitinib is among the compounds included in the sarcoma PDTO functional precision-medicine screen of 92 specimens; it is listed in the drugs screened across the UCLA sarcoma PDTO platform and appears in the drug-sensitivity landscape reported for diverse sarcoma histologies [PMID:39305899](../papers/39305899.md).
-- In a 3D patient-derived tumor organoid mini-ring screen of MYOD1L122R-mutant SCSRMS, PDX organoids showed relative sensitivity to linsitinib and to a linsitinib + palbociclib (IGF1R + CDK4/6) combination [PMID:41758938](../papers/41758938.md).
+- In a 3D patient-derived tumor organoid mini-ring screen of MYOD1L122R-mutant [SCSRMS](../cancer_types/SCSRMS.md), PDX organoids showed relative sensitivity to linsitinib and to a linsitinib + [palbociclib](../drugs/palbociclib.md) ([IGF1R](../genes/IGF1R.md) + CDK4/6) combination [PMID:41758938](../papers/41758938.md).
 
 ## Resistance mechanisms
 
@@ -37,4 +37,4 @@ Linsitinib (OSI-906) is an orally available, selective dual inhibitor of the ins
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. 2024, *Cell Stem Cell*. Sarcoma PDTO functional precision-medicine screen; linsitinib included in drug library.
 - [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

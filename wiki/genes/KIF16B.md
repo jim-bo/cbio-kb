@@ -3,8 +3,8 @@ symbol: KIF16B
 aliases: []
 cancer_types: [COADREAD]
 tags: [kinesin, novel-driver, candidate-driver, colorectal-cancer]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # KIF16B
@@ -19,7 +19,7 @@ KIF16B encodes a kinesin motor protein involved in endosomal trafficking. It was
 
 ## Cancer types (linked)
 
-- Colorectal cancer (COADREAD): one of eight novel HC-SMGs (with LYST, DAPK1, CR2, NPIPB15, SYTL2, ZNF91, KIAA0586) that together were mutated in 14.9% of the cohort and 19.55% of TCGA colorectal cases [PMID:35487942](../papers/35487942.md).
+- Colorectal cancer ([COADREAD](../cancer_types/COADREAD.md)): one of eight novel HC-SMGs (with [LYST](../genes/LYST.md), [DAPK1](../genes/DAPK1.md), [CR2](../genes/CR2.md), [NPIPB15](../genes/NPIPB15.md), [SYTL2](../genes/SYTL2.md), [ZNF91](../genes/ZNF91.md), [KIAA0586](../genes/KIAA0586.md)) that together were mutated in 14.9% of the cohort and 19.55% of TCGA colorectal cases [PMID:35487942](../papers/35487942.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -37,4 +37,4 @@ KIF16B encodes a kinesin motor protein involved in endosomal trafficking. It was
 
 - [PMID:35487942](../papers/35487942.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

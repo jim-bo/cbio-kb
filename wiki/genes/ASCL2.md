@@ -3,8 +3,8 @@ symbol: ASCL2
 aliases: []
 cancer_types: [COADREAD]
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ASCL2
@@ -15,7 +15,7 @@ ASCL2 (Achaete-Scute Family BHLH Transcription Factor 2) is a WNT target gene an
 
 ## Alterations observed in the corpus
 
-- Over-expressed as part of the WNT/stem-cell transcriptional program in aberrant stem cells (ASCs) and MSS CRC cells in the COLON MAP / HTAN pre-cancer atlas ([crc_hta11_htan_2021](../datasets/crc_hta11_htan_2021.md)); co-expressed with LGR5, [OLFM4](../genes/OLFM4.md), [EPHB2](../genes/EPHB2.md), and [MYC](../genes/MYC.md) [PMID:34910928](../papers/34910928.md)
+- Over-expressed as part of the WNT/stem-cell transcriptional program in aberrant stem cells (ASCs) and MSS CRC cells in the COLON MAP / HTAN pre-cancer atlas ([crc_hta11_htan_2021](../datasets/crc_hta11_htan_2021.md)); co-expressed with [LGR5](../genes/LGR5.md), [OLFM4](../genes/OLFM4.md), [EPHB2](../genes/EPHB2.md), and [MYC](../genes/MYC.md) [PMID:34910928](../papers/34910928.md)
 - Co-defines the ISC-like canonical 'Hotspot' transcriptional module with LGR5 in a colorectal cancer organoid cell-state study [PMID:39478232](../papers/39478232.md)
 
 ## Cancer types (linked)
@@ -24,7 +24,7 @@ ASCL2 (Achaete-Scute Family BHLH Transcription Factor 2) is a WNT target gene an
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with LGR5, OLFM4, EPHB2, MYC in the WNT/stem-cell program; mutually exclusive with the gastric-metaplasia program ([MUC5AC](../genes/MUC5AC.md), [AQP5](../genes/AQP5.md), CDX2-low) that defines the serrated pathway [PMID:34910928](../papers/34910928.md)
+- Co-expressed with LGR5, [OLFM4](../genes/OLFM4.md), [EPHB2](../genes/EPHB2.md), [MYC](../genes/MYC.md) in the WNT/stem-cell program; mutually exclusive with the gastric-metaplasia program ([MUC5AC](../genes/MUC5AC.md), [AQP5](../genes/AQP5.md), CDX2-low) that defines the serrated pathway [PMID:34910928](../papers/34910928.md)
 
 ## Therapeutic relevance
 
@@ -39,4 +39,4 @@ ASCL2 (Achaete-Scute Family BHLH Transcription Factor 2) is a WNT target gene an
 - [PMID:34910928](../papers/34910928.md)
 - [PMID:39478232](../papers/39478232.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

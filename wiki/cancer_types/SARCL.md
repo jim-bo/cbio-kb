@@ -6,15 +6,15 @@ parent: LUNG
 tags: [lung, nsclc, sarcomatoid, met-amplification]
 canonical_source: oncotree
 unverified: false
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Sarcomatoid Carcinoma of the Lung (SARCL)
 
 ## Overview
 
-Sarcomatoid Carcinoma of the Lung (SARCL) is a rare, aggressive histologic subtype of Non-Small Cell Lung Cancer (parent [LUNG](../cancer_types/LUNG.md)), characterized by mixed epithelial and sarcoma-like or sarcomatous differentiation. It is grouped with pleomorphic carcinoma of the lung (LUPC) in pan-cancer NSCLC histology breakdowns.
+Sarcomatoid Carcinoma of the Lung (SARCL) is a rare, aggressive histologic subtype of Non-Small Cell Lung Cancer (parent [LUNG](../cancer_types/LUNG.md)), characterized by mixed epithelial and sarcoma-like or sarcomatous differentiation. It is grouped with pleomorphic carcinoma of the lung ([LUPC](../cancer_types/LUPC.md)) in pan-cancer [NSCLC](../cancer_types/NSCLC.md) histology breakdowns.
 
 ## Cohorts in the corpus
 
@@ -22,7 +22,7 @@ Sarcomatoid Carcinoma of the Lung (SARCL) is a rare, aggressive histologic subty
 
 ## Recurrent alterations
 
-- MET amplification recurred in pleomorphic and sarcomatoid NSCLC (SARCL/LUPC) at 8.5% in a 66,285-tumor MSK-IMPACT pan-cancer screen, one of the highest rates among the cancer types and histologies screened, well above the 1.9% rate seen in NSCLC overall. [PMID:36044468](../papers/36044468.md)
+- [MET](../genes/MET.md) amplification recurred in pleomorphic and sarcomatoid NSCLC (SARCL/LUPC) at 8.5% in a 66,285-tumor MSK-IMPACT pan-cancer screen, one of the highest rates among the cancer types and histologies screened, well above the 1.9% rate seen in NSCLC overall. [PMID:36044468](../papers/36044468.md)
 
 ## Subtypes
 
@@ -36,4 +36,4 @@ Sarcomatoid Carcinoma of the Lung (SARCL) is a rare, aggressive histologic subty
 
 - [PMID:36044468](../papers/36044468.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

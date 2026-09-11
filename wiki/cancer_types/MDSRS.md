@@ -8,15 +8,15 @@ tags:
   - dysplasia
   - bone-marrow
   - ring-sideroblasts
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MDS with Ring Sideroblasts (MDSRS)
 
 ## Overview
 
-MDS with ring sideroblasts (MDSRS) is an MDS subtype defined by ≥15% ring sideroblasts in the bone marrow (or ≥5% with an SF3B1 mutation), reflecting iron-loaded, ineffective erythropoiesis. It sits at OncoTree level 4 under [MDS](../cancer_types/MDS.md) and encompasses the older WHO 2008 categories refractory anemia with ring sideroblasts (RARS) and refractory cytopenia with multilineage dysplasia and ring sideroblasts (RCMD-RS).
+[MDS](../cancer_types/MDS.md) with ring sideroblasts (MDSRS) is an MDS subtype defined by ≥15% ring sideroblasts in the bone marrow (or ≥5% with an [SF3B1](../genes/SF3B1.md) mutation), reflecting iron-loaded, ineffective erythropoiesis. It sits at OncoTree level 4 under [MDS](../cancer_types/MDS.md) and encompasses the older WHO 2008 categories refractory anemia with ring sideroblasts (RARS) and refractory cytopenia with multilineage dysplasia and ring sideroblasts (RCMD-RS).
 
 ## Cohorts in the corpus
 
@@ -38,4 +38,4 @@ MDS with ring sideroblasts (MDSRS) is an MDS subtype defined by ≥15% ring side
 
 - [PMID:24030381](../papers/24030381.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

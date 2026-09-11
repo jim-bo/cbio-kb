@@ -11,6 +11,7 @@ include-in-header:
 include-after-body:
   - text: |
       <script src="ask-graph.js"></script>
+      <script src="ask-config.js"></script>
       <script src="ask-chat.js"></script>
 ---
 

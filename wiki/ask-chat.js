@@ -1,5 +1,7 @@
-// API endpoint — local dev uses bundled FastAPI, production hits Cloud Run.
-// Append ?cloud=1 to force the Cloud Run backend from localhost.
+// API endpoint — local dev uses the FastAPI server on localhost; everywhere
+// else uses the deployed chat API configured in ask-config.js
+// (window.CBIO_KB_CHAT_API_URL, set at build time from vars.CHAT_API_URL).
+// Append ?cloud=1 to force the deployed backend from localhost.
 // Append ?port=N to override the local API port (default 8080).
 const _params = new URLSearchParams(location.search);
 const _forceCloud = _params.get('cloud') === '1';
@@ -7,7 +9,7 @@ const _port = _params.get('port') || '8080';
 const _isLocal = !_forceCloud && (location.hostname === 'localhost' || location.hostname === '127.0.0.1');
 const API_URL = _isLocal
     ? 'http://localhost:' + _port + '/api/chat'
-    : 'https://cbio-kb-api-7vd2hab3va-uc.a.run.app/api/chat';
+    : (window.CBIO_KB_CHAT_API_URL || '/api/chat');
 
 // Dev-only: ?delay=N holds the first event for N milliseconds so you can
 // see the cold-start indicator without actually forcing a Cloud Run cold

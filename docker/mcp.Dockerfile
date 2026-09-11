@@ -1,12 +1,16 @@
 # syntax=docker/dockerfile:1.6
 #
-# cbio-kb MCP server image
-# ------------------------
-# Published to Docker Hub on release (.github/workflows/publish-docker.yml).
+# cbio-kb MCP server image  ->  ghcr.io/<owner>/cbio-kb-mcp
+# ---------------------------------------------------------
+# Built by .github/workflows/mcp-server.yml (PRs build; main and v* tags
+# publish to GHCR). Deployment: docs/hosting.md, deploy/compose.yml,
+# deploy/k8s/mcp.yaml.
+#
 # Runs the literature MCP server (ai_search/mcp.py) the same way the
 # cBioPortal MCP images run: streamable HTTP at :8124/mcp plus GET /health,
 # configured through CBIO_KB_MCP_* env vars (set CBIO_KB_MCP_SERVER_TRANSPORT=stdio
-# and run with `docker run -i` for stdio clients).
+# and run with `docker run -i` for stdio clients; set
+# CBIO_KB_MCP_HTTP_PATH=/lit/mcp behind a path-prefixed ingress).
 #
 # The passage index (data/paper_index, FAISS + BM25, ~0.5 GB) is not in git.
 # It powers search_hybrid / search_dense; without it the study, paper, entity

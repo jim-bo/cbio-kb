@@ -1,11 +1,20 @@
 # syntax=docker/dockerfile:1.6
 #
-# cbio-kb chat API — Cloud Run image
-# ----------------------------------
-# Separate from the MCP-server image (docker/mcp.Dockerfile).
-# This one builds the FastAPI chat app (ai_search/) for Cloud Run.
+# cbio-kb chat API image  ->  ghcr.io/<owner>/cbio-kb-chat
+# --------------------------------------------------------
+# The FastAPI app behind the website's /ask page (ai_search/app.py:
+# POST /api/chat, streamed as SSE). Separate from the MCP-server image
+# (docker/mcp.Dockerfile). Built by .github/workflows/chat-api.yml, which
+# publishes it to GHCR and, optionally, builds the same file with Cloud
+# Build for Cloud Run (deploy/cloudrun/). Deployment: docs/hosting.md.
 #
 #   docker build -f docker/chat.Dockerfile -t cbio-kb-chat .
+#   docker run --rm -p 8080:8080 -e ANTHROPIC_API_KEY \
+#     -e CHAT_CORS_ORIGINS=https://site.example.org \
+#     -v "$PWD/data/paper_index:/app/data/paper_index:ro" cbio-kb-chat
+#
+# Runtime env: ANTHROPIC_API_KEY (required), CHAT_CORS_ORIGINS (the site's
+# origin), SESSION_STORE (memory | firestore).
 #
 # Multi-stage:
 #   1. `builder` installs the project + the `chat` and `cloud` extras into

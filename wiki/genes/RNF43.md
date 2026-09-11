@@ -3,8 +3,8 @@ symbol: RNF43
 aliases: []
 cancer_types: [COAD, PRAD, CESC, PAAD]
 tags: [wnt-pathway, ubiquitin-ligase, tumor-suppressor]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 canonical_source: cbioportal
 unverified: false
 ---
@@ -40,7 +40,7 @@ RNF43 is an E3 ubiquitin ligase that negatively regulates Wnt signaling by promo
 - Wnt-pathway alteration in a subset of CAC dysplasia and carcinoma; not selectively enriched in APC-wild-type tumors; Wnt alterations overall enriched only in subclonal-TP53 CAC (Fisher's exact P=0.017) [PMID:36611031](../papers/36611031.md)
 - Loss-of-function activates Wnt/beta-catenin signaling and de novo lipogenesis (DNL) to drive hepatocellular carcinoma ([HCC](../cancer_types/HCC.md)) [PMID:41118283](../papers/41118283.md)
 - Significantly mutated gene (HC-SMG) in 6% of colorectal cancers in this cohort. [PMID:35487942](../papers/35487942.md)
-- The gene most enriched in BRAF Class I tumors (adj. p=1e-34; 98% in CRC); RNF43 status did not predict PFS or OS on anti-EGFR/anti-BRAF therapy (n=73). [PMID:41895280](../papers/41895280.md)
+- The gene most enriched in [BRAF](../genes/BRAF.md) Class I tumors (adj. p=1e-34; 98% in CRC); RNF43 status did not predict PFS or OS on anti-EGFR/anti-BRAF therapy (n=73). [PMID:41895280](../papers/41895280.md)
 
 ## Cancer types (linked)
 
@@ -108,4 +108,4 @@ RNF43 is an E3 ubiquitin ligase that negatively regulates Wnt signaling by promo
 - [PMID:35487942](../papers/35487942.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

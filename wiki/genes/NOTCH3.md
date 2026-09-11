@@ -3,8 +3,8 @@ symbol: NOTCH3
 aliases: []
 cancer_types: [MFH]
 tags: [notch-signaling]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # NOTCH3
@@ -26,7 +26,7 @@ NOTCH3 encodes a member of the Notch receptor family involved in cell fate deter
 - Included among drug-resistance-related mutations enriched in progressive-disease patients in the FUTURE trial TNBC cohort (n=69, refractory metastatic TNBC). [PMID:32719455](../papers/32719455.md)
 - Detected at varying frequencies across both TERT-altered and TERT-WT metaplastic breast cancers in a 60-case multi-institutional cohort [PMID:33863915](../papers/33863915.md)
 - NOTCH3 downstream YAP/TAZ pathway is upregulated in POU2F3-positive SCLC-P PDX models; NOTCH1/2/3 signaling implicated in the non-NE subtype biology across 42 [SCLC](../cancer_types/SCLC.md) PDX/CDX models [PMID:35440124](../papers/35440124.md)
-- In solitary fibrous tumor, NOTCH3 (with NOTCH1, NOTCH2, CREBBP) NOTCH-pathway alterations were related to progression-free survival [PMID:37980418](../papers/37980418.md).
+- In solitary fibrous tumor, NOTCH3 (with [NOTCH1](../genes/NOTCH1.md), [NOTCH2](../genes/NOTCH2.md), [CREBBP](../genes/CREBBP.md)) NOTCH-pathway alterations were related to progression-free survival [PMID:37980418](../papers/37980418.md).
 
 ## Cancer types (linked)
 
@@ -69,4 +69,4 @@ NOTCH3 encodes a member of the Notch receptor family involved in cell fate deter
 - [PMID:35440124](../papers/35440124.md)
 - [PMID:37980418](../papers/37980418.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

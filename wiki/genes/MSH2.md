@@ -3,8 +3,8 @@ symbol: MSH2
 aliases: []
 cancer_types: [UCEC, PRAD, PITU, GYNEC, GB, NSCLC]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MSH2
@@ -35,7 +35,7 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - Low MSH2 expression was identified in one of the two sarcoma tumors (along with an [MSH6](../genes/MSH6.md) frameshift mutation in the other) with the COSMIC6 mismatch repair signature and highest mutational burden in the TCGA sarcoma cohort [PMID:29100075](../papers/29100075.md)
 - Assayed by IHC for MMR protein status in mCRC (N=1,152); concordance between IHC-based MMR status and MSIsensor score was 98.6% [PMID:29316426](../papers/29316426.md)
 - One pLoF likely pathogenic/pathogenic variant in German pediatric cancer predisposition cohort (n=390); reached significance in joint analysis with Zhang et al. (OR=7.1, p=.039); MSH2 is the only DNA-repair gene consistently associated with childhood cancer in a prior meta-analysis. [PMID:40857049](../papers/40857049.md)
-- MSH2 (with [MLH1](../genes/MLH1.md), MSH6, [PMS2](../genes/PMS2.md)) is an MMR gene in which somatic non-synonymous mutations in 250/1,464 TCGA samples and germline variants (16/18 with both germline and somatic hits) reach MSI-high status, defining a population with elevated neoantigen load expected to respond to PD-1/PD-L1 blockade [PMID:29625049](../papers/29625049.md)
+- MSH2 (with [MLH1](../genes/MLH1.md), [MSH6](../genes/MSH6.md), [PMS2](../genes/PMS2.md)) is an MMR gene in which somatic non-synonymous mutations in 250/1,464 TCGA samples and germline variants (16/18 with both germline and somatic hits) reach MSI-high status, defining a population with elevated neoantigen load expected to respond to PD-1/PD-L1 blockade [PMID:29625049](../papers/29625049.md)
 - Component of the standard MMR IHC panel used to call MMR-D status in metastatic endometrial cancer (MSK cohort, n=189); MSH2 protein loss by IHC contributed to MMR-D classification alongside MSIsensor score [PMID:30068706](../papers/30068706.md)
 - Somatic deleterious mutations enriched in MSI-H tumors of [ACC](../cancer_types/ACC.md), [CESC](../cancer_types/CESC.md), and [MESO](../cancer_types/MESO.md) in a pan-TCGA analysis; MSH2 was one of five MMR genes explicitly screened for DANN-pathogenic somatic variants [PMID:29850653](../papers/29850653.md)
 - MSH2 somatic mutation found in 1 of 80 metastatic panNET patients (OncoKB Level 4); alkylator-induced hypermutation in panNET is associated with acquisition of MMR gene mutations including MSH2 [PMID:30687805](../papers/30687805.md)
@@ -52,7 +52,7 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - In the MAPPYACTS trial, MSH2 germline mutations contributed to CMMRD in 3 hypermutated pediatric patients; MSH2 was among 49 germline SNVs in DNA repair genes detected across the 624-patient cohort, prompting genetic counseling recommendations in 7.6% of patients [PMID:35292802](../papers/35292802.md).
 - Missense (patient P39) and frameshift (patient P48) variants identified in two MSI-H hypermutator PCBM patients with SBS44 enrichment (n=51 prostate cancer brain metastases); findings support MMR/MSI testing in the PCBM setting for potential ICI eligibility [PMID:35504881](../papers/35504881.md).
 - MMR gene altered in 2.1% of sarcomas (n=7,494) alongside [MLH1](../genes/MLH1.md), MSH6, and [PMS2](../genes/PMS2.md), tightly correlated with MSI-H status [PMID:35705558](../papers/35705558.md)
-- MMR gene altered in sarcoma clinical sequencing cohort (n=2,138); collectively MLH1, MSH2, MSH6, [PMS2](../genes/PMS2.md) altered in sarcomas [PMID:35705560](../papers/35705560.md)
+- MMR gene altered in sarcoma clinical sequencing cohort (n=2,138); collectively [MLH1](../genes/MLH1.md), MSH2, MSH6, [PMS2](../genes/PMS2.md) altered in sarcomas [PMID:35705560](../papers/35705560.md)
 - Accounts for 8 (32%) germline and 19 (49%) somatic MMR-mutant endometrial cancers in MSI-H EC cohort (n=161 MMR-D); Lynch-associated MSH2-mutant ECs harbor [ERBB2](../genes/ERBB2.md) hotspot mutations in 29% vs 3% in MLH1ph [PMID:35849120](../papers/35849120.md)
 - Lynch-syndrome germline mutation (n=4 of 21) and somatic mutation implicated in mismatch repair deficiency among MSI-H ERBB2-mutated endometrial cancers; one case had MSH2/MSH6 IHC loss with somatic MSH2 mutations [PMID:39031567](../papers/39031567.md).
 - Somatic MSH2 mutation found in 1 of 5 MSI-H upper tract urothelial carcinomas (cluster C3) [PMID:39550333](../papers/39550333.md).
@@ -143,4 +143,4 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - [PMID:39550333](../papers/39550333.md)
 - [PMID:40511613](../papers/40511613.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

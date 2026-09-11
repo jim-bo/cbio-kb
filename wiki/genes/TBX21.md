@@ -3,8 +3,8 @@ symbol: TBX21
 aliases: [T-bet]
 cancer_types: [COAD]
 tags: [immune-signature, icr, th1]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # TBX21
@@ -16,7 +16,7 @@ TBX21 (T-bet) is a master Th1 transcription factor included in the 20-gene ICR i
 ## Alterations observed in the corpus
 
 - TBX21 is a component of the 20-gene Immunologic Constant of Rejection (ICR) panel (Th1 signaling genes) used to stratify colon cancer immune subtypes [PMID:37202560](../papers/37202560.md).
-- TBX21 is part of the T-effector gene signature (with CD8A, GZMA, GZMB, PRF1, IFNG) evaluated in metastatic urothelial carcinoma treated with atezolizumab; the signature did not differ significantly between upper- and lower-tract primary tumors [PMID:27939400](../papers/27939400.md).
+- TBX21 is part of the T-effector gene signature (with [CD8A](../genes/CD8A.md), [GZMA](../genes/GZMA.md), [GZMB](../genes/GZMB.md), [PRF1](../genes/PRF1.md), [IFNG](../genes/IFNG.md)) evaluated in metastatic urothelial carcinoma treated with [atezolizumab](../drugs/atezolizumab.md); the signature did not differ significantly between upper- and lower-tract primary tumors [PMID:27939400](../papers/27939400.md).
 
 ## Cancer types (linked)
 
@@ -39,4 +39,4 @@ TBX21 (T-bet) is a master Th1 transcription factor included in the 20-gene ICR i
 - [PMID:37202560](../papers/37202560.md)
 - [PMID:27939400](../papers/27939400.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

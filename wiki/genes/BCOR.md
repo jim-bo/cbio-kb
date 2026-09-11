@@ -7,8 +7,8 @@ tags:
   - tumor-suppressor
   - chromatin-remodeling
   - rhabdomyosarcoma
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # BCOR
@@ -43,11 +43,11 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 - Mutations identified in TERT-WT metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) in a 60-case MSKCC cohort; present only in the TERT-WT group (not statistically significant after multiple-testing correction) [PMID:33863915](../papers/33863915.md)
 - Transient clonal oncogenic mutation detected 2 years before transformation in pediatric neuroblastoma patient 118731 developing t-MDS (fell below detection at t-MDS diagnosis); also found in one control-cohort patient (who died of neuroblastoma) [PMID:35078859](../papers/35078859.md)
 - BCOR oncogenic alterations occur in 16% of embryonal rhabdomyosarcoma ([ERMS](../cancer_types/ERMS.md)), mutually exclusive with [DICER1](../genes/DICER1.md) alterations (12% [ERMS](../cancer_types/ERMS.md)); BCOR and [DICER1](../genes/DICER1.md) define genomically distinct [ERMS](../cancer_types/ERMS.md) subsets [PMID:35705560](../papers/35705560.md)
-- Enriched in the HSC-like cell state in AML (ex vivo drug sensitivity study, n=805 patients); BCOR-mutant AML shows cell-state biased drug response patterns [PMID:35868306](../papers/35868306.md)
+- Enriched in the HSC-like cell state in [AML](../cancer_types/AML.md) (ex vivo drug sensitivity study, n=805 patients); BCOR-mutant AML shows cell-state biased drug response patterns [PMID:35868306](../papers/35868306.md)
 - BCOR-CCNB3 fusion identified in a Ewing-like sarcoma case within a pediatric solid tumor PDX genomics cohort [PMID:37990009](../papers/37990009.md).
-- One of several epigenetic-modifier genes (with IDH1, IDH2, ASXL1, KDM6A, PHF6) differentially enriched between HOXA- and HOXB-superfamily expression groups in a pediatric AML molecular classification [PMID:38212634](../papers/38212634.md).
+- One of several epigenetic-modifier genes (with [IDH1](../genes/IDH1.md), [IDH2](../genes/IDH2.md), [ASXL1](../genes/ASXL1.md), [KDM6A](../genes/KDM6A.md), [PHF6](../genes/PHF6.md)) differentially enriched between HOXA- and HOXB-superfamily expression groups in a pediatric AML molecular classification [PMID:38212634](../papers/38212634.md).
 - Recurrently mutated (n=2) in metastatic pheochromocytoma/paraganglioma; the BCOR mutation was truncal in one case (E169) [PMID:40097403](../papers/40097403.md).
-- Recurrent alteration (5-15% of cases) in genes upstream of PI3K/AKT/mTOR signaling in MYOD1 L122R-driven soft tissue tumors [PMID:41758938](../papers/41758938.md).
+- Recurrent alteration (5-15% of cases) in genes upstream of PI3K/AKT/mTOR signaling in [MYOD1](../genes/MYOD1.md) L122R-driven soft tissue tumors [PMID:41758938](../papers/41758938.md).
 
 ## Cancer types (linked)
 
@@ -63,7 +63,7 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 
 ## Open questions
 
-- Whether BCOR alterations are early truncal events or acquired during relapse in FN-RMS, and their relationship to BCOR::CCNB3 fusions described in other [RMS](../cancer_types/RMS.md) series, is not resolved in this corpus [PMID:37730754](../papers/37730754.md).
+- Whether BCOR alterations are early truncal events or acquired during relapse in FN-RMS, and their relationship to BCOR::[CCNB3](../genes/CCNB3.md) fusions described in other [RMS](../cancer_types/RMS.md) series, is not resolved in this corpus [PMID:37730754](../papers/37730754.md).
 
 ## Sources
 
@@ -97,4 +97,4 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 - [PMID:40097403](../papers/40097403.md)
 - [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

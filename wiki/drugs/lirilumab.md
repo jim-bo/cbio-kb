@@ -5,8 +5,8 @@ drug_class: anti-KIR monoclonal antibody (NK-cell checkpoint inhibitor)
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, nk-cell, checkpoint-inhibitor]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # lirilumab
@@ -17,7 +17,7 @@ Lirilumab is an anti-KIR (killer-cell immunoglobulin-like receptor) monoclonal a
 
 ## Evidence in the corpus
 
-- Authors propose combining nivolumab with the NK-cell-directed agent lirilumab in metastatic renal cell carcinoma, based on nivolumab-induced increases in NK-function gene transcripts (KLRB1, KLRD1, KLRG1, CD69, NKG7) in on-treatment tumor biopsies. [PMID:27169994](../papers/27169994.md)
+- Authors propose combining [nivolumab](../drugs/nivolumab.md) with the NK-cell-directed agent lirilumab in metastatic renal cell carcinoma, based on nivolumab-induced increases in NK-function gene transcripts ([KLRB1](../genes/KLRB1.md), [KLRD1](../genes/KLRD1.md), [KLRG1](../genes/KLRG1.md), [CD69](../genes/CD69.md), [NKG7](../genes/NKG7.md)) in on-treatment tumor biopsies. [PMID:27169994](../papers/27169994.md)
 
 ## Resistance mechanisms
 
@@ -29,4 +29,4 @@ Lirilumab is an anti-KIR (killer-cell immunoglobulin-like receptor) monoclonal a
 
 - [PMID:27169994](../papers/27169994.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

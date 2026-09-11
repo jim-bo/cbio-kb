@@ -9,8 +9,8 @@ tags:
   - nab2-stat6-fusion
 canonical_source: oncotree
 unverified: false
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Solitary Fibrous Tumor/Hemangiopericytoma (SFT)
@@ -26,7 +26,7 @@ Solitary Fibrous Tumor (formerly also called Hemangiopericytoma) is a fibroblast
 ## Recurrent alterations
 
 - In the 2,138-sarcoma MSK-IMPACT cohort (n=52 SFT), [TERT](../genes/TERT.md) promoter mutations were present in 46% (24/52) of SFTs — predominantly as amplifications; [TP53](../genes/TP53.md) co-occurs with [TERT](../genes/TERT.md) in SFT; [NAB2](../genes/NAB2.md)–[STAT6](../genes/STAT6.md) is the defining diagnostic fusion [PMID:35705560](../papers/35705560.md).
-- Across four cohorts totaling 408 solitary fibrous tumors, MTOR mutation (3-9% of cases) and TP53 mutation (7%) were each independently associated with shorter progression-free survival, and an actionable IDH1 p.R132S hotspot was found in 6.9% of the SYSUCC discovery cohort. [PMID:37980418](../papers/37980418.md)
+- Across four cohorts totaling 408 solitary fibrous tumors, [MTOR](../genes/MTOR.md) mutation (3-9% of cases) and [TP53](../genes/TP53.md) mutation (7%) were each independently associated with shorter progression-free survival, and an actionable [IDH1](../genes/IDH1.md) p.R132S hotspot was found in 6.9% of the SYSUCC discovery cohort. [PMID:37980418](../papers/37980418.md)
 
 ## Subtypes
 
@@ -41,4 +41,4 @@ Solitary Fibrous Tumor (formerly also called Hemangiopericytoma) is a fibroblast
 - [PMID:35705560](../papers/35705560.md) — Nacev et al. 2022, 2,138-sarcoma MSK-IMPACT cohort.
 - [PMID:37980418](../papers/37980418.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

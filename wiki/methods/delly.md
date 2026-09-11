@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [structural-variant, sv-caller, bioinformatics]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # DELLY
@@ -23,7 +23,7 @@ DELLY is a structural variant detection tool that discovers deletions, tandem du
 - Delly v0.6.1 used for structural variant detection in the MSK-IMPACT bioinformatics pipeline across 10,945 tumors, identifying 1,875 rearrangements including 268 kinase fusions [PMID:28481359](../papers/28481359.md)
 - Applied in the PCAWG pan-cancer WGS study (n=2,658 tumors) as one of the SV callers achieving ~90% sensitivity and ~97.5% precision in consensus mode across 38 tumor types [PMID:32025007](../papers/32025007.md).
 - Delly structural variant caller applied as part of the multi-omic profiling pipeline for 46 [SCLC](../cancer_types/SCLC.md) PDX/CDX models at MSK [PMID:35440124](../papers/35440124.md).
-- Used within the MSK-IMPACT structural-variant pipeline (mapping quality >=20, length >500bp, >=5 supporting reads) to detect chromoplexy in 277 EWSR1-rearranged Ewing sarcoma and DSRCT tumors, and re-run for an external WES validation cohort [PMID:38335254](../papers/38335254.md)
+- Used within the MSK-IMPACT structural-variant pipeline (mapping quality >=20, length >500bp, >=5 supporting reads) to detect chromoplexy in 277 EWSR1-rearranged Ewing sarcoma and [DSRCT](../cancer_types/DSRCT.md) tumors, and re-run for an external WES validation cohort [PMID:38335254](../papers/38335254.md)
 
 ## Notes
 
@@ -38,4 +38,4 @@ DELLY is a structural variant detection tool that discovers deletions, tandem du
 - [PMID:35440124](../papers/35440124.md)
 - [PMID:38335254](../papers/38335254.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

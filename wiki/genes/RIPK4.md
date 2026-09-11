@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - cSCC
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # RIPK4
@@ -18,7 +18,7 @@ RIPK4 (Receptor Interacting Serine/Threonine Kinase 4) is a kinase known to cont
 
 - RIPK4 mutated in 28% of UV-signature aggressive cSCC tumors; mutations clustered in kinase and ankyrin repeat domains; 35% truncating; nominated as a novel candidate driver; known to control keratinocyte differentiation [PMID:25303977](../papers/25303977.md)
 - Squamous-differentiation regulator mutated in 7/29 (24%) metastatic cSCC samples including two truncating mutations; previously reported in head-and-neck SCC [PMID:25589618](../papers/25589618.md)
-- Overexpressed in ATRX-altered pheochromocytoma/paraganglioma (PCPG) tumors, alongside repression of the G2/M checkpoint genes RPRM and DRG2. [PMID:40097403](../papers/40097403.md)
+- Overexpressed in ATRX-altered pheochromocytoma/paraganglioma ([PCPG](../cancer_types/PCPG.md)) tumors, alongside repression of the G2/M checkpoint genes [RPRM](../genes/RPRM.md) and [DRG2](../genes/DRG2.md). [PMID:40097403](../papers/40097403.md)
 
 ## Cancer types (linked)
 
@@ -39,4 +39,4 @@ RIPK4 (Receptor Interacting Serine/Threonine Kinase 4) is a kinase known to cont
 - [PMID:25589618](../papers/25589618.md)
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

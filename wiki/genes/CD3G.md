@@ -3,8 +3,8 @@ symbol: CD3G
 aliases: []
 cancer_types: [SKCM]
 tags: [TCR-complex, T-cell, immune-checkpoint, co-stimulation]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CD3G
@@ -16,7 +16,7 @@ CD3G encodes the CD3 gamma chain, a component of the T-cell receptor (TCR)-assoc
 ## Alterations observed in the corpus
 
 - CD3G was identified as a component of the TCR/co-stimulatory immunological synapse upregulated on-therapy (cycle 1 day 29) in melanoma patients receiving [nivolumab](../drugs/nivolumab.md) (anti-PD-1), as part of a 695-gene DEG set enriched in the genomic-contraction phenotype (q < 0.10) and a broader 475-DEG pharmacologic on-therapy response set (q < 0.20), encompassing PD-1 signaling, [CD28](../genes/CD28.md) co-stimulation, downstream TCR signaling, IFN-gamma, and IL-2 signaling. [PMID:29033130](../papers/29033130.md)
-- CD3G (CD3-gamma) transcripts fell transiently in whole blood after nivolumab, interpreted by the authors as T cells leaving the periphery for tumor tissue [PMID:27169994](../papers/27169994.md).
+- CD3G (CD3-gamma) transcripts fell transiently in whole blood after [nivolumab](../drugs/nivolumab.md), interpreted by the authors as T cells leaving the periphery for tumor tissue [PMID:27169994](../papers/27169994.md).
 
 ## Cancer types (linked)
 
@@ -39,4 +39,4 @@ CD3G encodes the CD3 gamma chain, a component of the T-cell receptor (TCR)-assoc
 - [PMID:29033130](../papers/29033130.md)
 - [PMID:27169994](../papers/27169994.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

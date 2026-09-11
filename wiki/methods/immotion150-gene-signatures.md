@@ -5,15 +5,15 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [gene-expression-signature, angiogenesis, t-effector-signature, myeloid-inflammation, tumor-immune-microenvironment, renal-cell-carcinoma]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # IMmotion150 Gene-Expression Signatures (Angio, Teff, Myeloid Inflammation)
 
 ## Overview
 
-A set of three median-dichotomized, RNA-seq-derived gene-expression signatures defined in the IMmotion150 phase 2 trial of atezolizumab +/- bevacizumab versus sunitinib in treatment-naive metastatic renal cell carcinoma: **Angio** (VEGFA, KDR, ESM1, PECAM1, ANGPTL4, CD34), **Teff/T-effector** (CD8A, EOMES, PRF1, IFNG, CD274) and **myeloid inflammation** (IL6, CXCL1, CXCL2, CXCL3, CXCL8, PTGS2).
+A set of three median-dichotomized, RNA-seq-derived gene-expression signatures defined in the IMmotion150 phase 2 trial of [atezolizumab](../drugs/atezolizumab.md) +/- [bevacizumab](../drugs/bevacizumab.md) versus [sunitinib](../drugs/sunitinib.md) in treatment-naive metastatic renal cell carcinoma: **Angio** ([VEGFA](../genes/VEGFA.md), [KDR](../genes/KDR.md), [ESM1](../genes/ESM1.md), [PECAM1](../genes/PECAM1.md), [ANGPTL4](../genes/ANGPTL4.md), [CD34](../genes/CD34.md)), **Teff/T-effector** ([CD8A](../genes/CD8A.md), [EOMES](../genes/EOMES.md), [PRF1](../genes/PRF1.md), [IFNG](../genes/IFNG.md), [CD274](../genes/CD274.md)) and **myeloid inflammation** ([IL6](../genes/IL6.md), [CXCL1](../genes/CXCL1.md), [CXCL2](../genes/CXCL2.md), [CXCL3](../genes/CXCL3.md), [CXCL8](../genes/CXCL8.md), [PTGS2](../genes/PTGS2.md)).
 
 ## Used by
 
@@ -28,4 +28,4 @@ A set of three median-dichotomized, RNA-seq-derived gene-expression signatures d
 
 - [PMID:29867230](../papers/29867230.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

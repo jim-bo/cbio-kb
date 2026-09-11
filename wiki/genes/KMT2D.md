@@ -3,8 +3,8 @@ symbol: KMT2D
 aliases: []
 cancer_types: [CLLSLL, ANGS, MFH, CESC, PRAD, CSCC, HNSC, DLBCLNOS, BLCA]
 tags: [epigenetic-regulator, m-cll, cervical-cancer, prostate, BRAF-fusion-co-alteration]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # KMT2D
@@ -16,7 +16,7 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 ## Alterations observed in the corpus
 
 - Epigenetic regulator enriched in M-CLL via SNV, showing pathway convergence with [KMT2C](../genes/KMT2C.md) loss [PMID:35927489](../papers/35927489.md).
-- Truncating and missense KMT2D mutations in 11% of RT-[ANGS](../cancer_types/ANGS.md) (vs 1% sporadic AS) and 21% of RT-[MFH](../cancer_types/MFH.md) ([UPS](../cancer_types/UPS.md); vs 4% sporadic UPS), making it significantly enriched in both RT-sarcoma histotypes in the MSK 82-patient RT-sarcoma cohort [PMID:37350195](../papers/37350195.md).
+- Truncating and missense KMT2D mutations in 11% of RT-[ANGS](../cancer_types/ANGS.md) (vs 1% sporadic AS) and 21% of RT-[MFH](../cancer_types/MFH.md) ([UPS](../cancer_types/UPS.md); vs 4% sporadic [UPS](../cancer_types/UPS.md)), making it significantly enriched in both RT-sarcoma histotypes in the MSK 82-patient RT-sarcoma cohort [PMID:37350195](../papers/37350195.md).
 - KMT2D altered in 9% of cervical cancers (n=177 MSK patients); enriched in squamous (14%) vs gastric-type adenocarcinoma (0%) [PMID:37643132](../papers/37643132.md).
 - KMT2D mutation detected in one prostate cancer PDX model (PDX 316-1) in the MDA PCa PDX series (44 PDXs from 38 patients) [PMID:38488813](../papers/38488813.md).
 - KMT2D is a frequent co-mutation in [BRAF](../genes/BRAF.md) fusion-positive colorectal cancers alongside [RNF43](../genes/RNF43.md), [INPPL1](../genes/INPPL1.md), [MSH3](../genes/MSH3.md), and [ARID1A](../genes/ARID1A.md) in a tumor-agnostic analysis of 212 patients with [BRAF](../genes/BRAF.md) fusions [PMID:38922339](../papers/38922339.md).
@@ -52,7 +52,7 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - Among canonical urothelial carcinoma (UC) drivers (alongside [PIK3CA](../genes/PIK3CA.md) and [ATM](../genes/ATM.md)) shown to be heterogeneously shared between matched pre/post-chemotherapy samples in a 32-patient cohort — mean ~28% mutation sharing — highlighting tumor evolutionary instability under platinum-based chemotherapy. [PMID:27749842](../papers/27749842.md)
 - Among the most frequently mutated epigenetic modifiers in DUX4/ERG B-ALL (epigenetic-modifier mutations in 56.3% of cases overall, with KMT2D, [SETD2](../genes/SETD2.md), [ARID2](../genes/ARID2.md) and [NCOR1](../genes/NCOR1.md) as top hits) in a 1,913-patient B-ALL cohort. [PMID:27776115](../papers/27776115.md)
 - KMT2D (MLL2) homozygous frameshift M3881Cfs*9 established Kabuki syndrome in a 2-month-old hospitalized for fulminant hemophagocytic syndrome; familial HLH was ruled out and stem-cell transplant was averted [PMID:28007021](../papers/28007021.md).
-- KMT2D (MLL2) histone-modifier alterations frequent in [ESCC](../cancer_types/ESCC.md), especially in the ESCC2 subtype; mutated in 3/4 ESCC3 tumors; co-altered with KMT2C and [KDM6A](../genes/KDM6A.md) [PMID:28052061](../papers/28052061.md).
+- KMT2D (MLL2) histone-modifier alterations frequent in [ESCC](../cancer_types/ESCC.md), especially in the ESCC2 subtype; mutated in 3/4 ESCC3 tumors; co-altered with [KMT2C](../genes/KMT2C.md) and [KDM6A](../genes/KDM6A.md) [PMID:28052061](../papers/28052061.md).
 - Chromatin modifier enriched in UMD (unmatched molecular driver) subset, especially never/former-light smokers, in prospective [LUAD](../cancer_types/LUAD.md) cohort (860 patients, MSK-IMPACT) [PMID:28336552](../papers/28336552.md)
 - Recurrent histone-methylation-modifier mutations across medulloblastoma subgroups [PMID:28726821](../papers/28726821.md)
 - Identified as an epigenetic regulator with truncal/subclonal events in matched-tumor phylogenetic analysis of prostate cancer [PMID:28825054](../papers/28825054.md)
@@ -72,10 +72,10 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - KMT2D is an H3K4 methyltransferase downregulated in MSI cancer cell lines (CCLE); H3K4me1 and H3K4me2 marks are correspondingly reduced [PMID:31978347](../papers/31978347.md)
 - KMT2D is among genes downstream of TP53/CTNNB1/ARID1A mutations in trans in endometrial cancer proteogenomics [PMID:32059776](../papers/32059776.md)
 - KMT2D mutation observed as an IDC-NST-private alteration restricted to the invasive component of synchronous breast tumors, consistent with KMT2D loss being an invasive-stage-acquired event rather than a pre-invasive driver in this cohort [PMID:32220886](../papers/32220886.md)
-- KMT2D mutated in 26% of 119 [UTUC](../cancer_types/UTUC.md) patients by MSK-IMPACT; co-occurs with KDM6A, [ARID1A](../genes/ARID1A.md), [CREBBP](../genes/CREBBP.md), and [STAG2](../genes/STAG2.md) chromatin-remodeling alterations in the [UTUC](../cancer_types/UTUC.md) genomic landscape [PMID:32332851](../papers/32332851.md)
+- KMT2D mutated in 26% of 119 [UTUC](../cancer_types/UTUC.md) patients by MSK-IMPACT; co-occurs with [KDM6A](../genes/KDM6A.md), [ARID1A](../genes/ARID1A.md), [CREBBP](../genes/CREBBP.md), and [STAG2](../genes/STAG2.md) chromatin-remodeling alterations in the [UTUC](../cancer_types/UTUC.md) genomic landscape [PMID:32332851](../papers/32332851.md)
 - Mutated in 9% of refractory metastatic triple-negative breast cancer (TNBC) patients in the FUSCC cohort (n=69); profiled by 484-gene targeted NGS panel. [PMID:32719455](../papers/32719455.md)
 - KMT2D — classified as a CH-myeloid putative driver gene; truncating variants classed as drivers per CH-myeloid-PD annotation rules in a large cancer-patient CH cohort (n=24,146) [PMID:33106634](../papers/33106634.md)
-- Recurrently mutated (P=0.037) in UTUC; associated with higher mutational load (P=0.04); enriched in iCluster-low (FGFR3-rich) subtype (P=0.028); iClusterBayes posterior probability 0.63. [PMID:33397444](../papers/33397444.md)
+- Recurrently mutated (P=0.037) in [UTUC](../cancer_types/UTUC.md); associated with higher mutational load (P=0.04); enriched in iCluster-low (FGFR3-rich) subtype (P=0.028); iClusterBayes posterior probability 0.63. [PMID:33397444](../papers/33397444.md)
 - Detected at varying frequencies across both TERT-altered and TERT-WT metaplastic breast cancers in a 60-case multi-institutional cohort [PMID:33863915](../papers/33863915.md)
 - Nominated as a candidate [CSCC](../cancer_types/CSCC.md) driver in prior studies but not supported by this meta-analysis (88 QC-passed tumors); authors flag it as a gene that may yet prove to be under selection but present data did not support nomination [PMID:34272401](../papers/34272401.md)
 - Significantly mutated gene (SMG) altered in ≥5% of treatment-naive PDACs in the CPTAC proteogenomic cohort (n=140). [PMID:34534465](../papers/34534465.md)
@@ -84,8 +84,8 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - Listed among recurrently altered genes in a pan-cancer cohort of 10,194 Asian solid-tumor patients; associated with breast cancer ([BRCA](../cancer_types/BRCA.md)) in the pan-OrigiMed frequency landscape (OrigiMed CSYS 450-gene panel) [PMID:35871175](../papers/35871175.md)
 - KMT2D hotspot mutations, uncharacteristic of Burkitt lymphoma, drove DLBCL-like calls in a comparator Burkitt lymphoma cohort [PMID:36201743](../papers/36201743.md).
 - KMT2D was altered in 16% of solitary fibrous tumors profiled with a 1021-gene panel (SYSUCC discovery cohort) [PMID:37980418](../papers/37980418.md).
-- KMT2D was altered in at least 10% of bladder cancer specimens (S1314 cohort), among the most frequently altered genes after TERT promoter and TP53 [PMID:39499893](../papers/39499893.md).
-- KMT2D was the third most frequently altered gene (30.3%) in upper tract urothelial carcinoma (MSK100 cohort), after FGFR3 and TERT [PMID:39550333](../papers/39550333.md).
+- KMT2D was altered in at least 10% of bladder cancer specimens (S1314 cohort), among the most frequently altered genes after [TERT](../genes/TERT.md) promoter and [TP53](../genes/TP53.md) [PMID:39499893](../papers/39499893.md).
+- KMT2D was the third most frequently altered gene (30.3%) in upper tract urothelial carcinoma (MSK100 cohort), after [FGFR3](../genes/FGFR3.md) and TERT [PMID:39550333](../papers/39550333.md).
 
 ## Cancer types (linked)
 
@@ -245,4 +245,4 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - [PMID:39499893](../papers/39499893.md)
 - [PMID:39550333](../papers/39550333.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

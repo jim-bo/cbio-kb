@@ -9,8 +9,8 @@ tags:
   - tumor-purity
   - clonality
   - somatic-copy-number
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ABSOLUTE
@@ -29,7 +29,7 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - Used as copy-number absolute quantification method in whole-exome sequencing analysis of adrenocortical carcinoma [PMID:26095796](../papers/26095796.md)
 - Applied in the TCGA breast cancer ILC/IDC multi-platform study (n=817) to [estimate](../methods/estimate.md) tumor purity and ploidy, supporting clonality-corrected genomic comparisons between invasive lobular and ductal carcinoma [PMID:26451490](../papers/26451490.md)
 - Used in whole-exome sequencing of 538 CLL samples (CLL8 trial cohort) to [estimate](../methods/estimate.md) tumor purity and clonal fractions, enabling CCF-based temporal ordering of driver acquisition and tracking of clonal shifts at relapse [PMID:26466571](../papers/26466571.md)
-- Used in the TCGA prostate cancer study to estimate tumor purity in 333 primary prostate adenocarcinomas, alongside other DNA/RNA-based methods, as part of integrated multi-platform molecular characterization [PMID:26544944](../papers/26544944.md).
+- Used in the TCGA prostate cancer study to [estimate](../methods/estimate.md) tumor purity in 333 primary prostate adenocarcinomas, alongside other DNA/RNA-based methods, as part of integrated multi-platform molecular characterization [PMID:26544944](../papers/26544944.md).
 - Used for tumor purity and ploidy estimation in 1,144 [NSCLC](../cancer_types/NSCLC.md) exome pairs to enable accurate somatic copy-number and mutation calling [PMID:27158780](../papers/27158780.md)
 - ABSOLUTE-style cancer cell fraction (CCF) framework applied after Sequenza tumor purity estimation to 216 metastatic breast cancer exomes; revealed [ESR1](../genes/ESR1.md) mutations were subclonal in 14/21 (67%) of cases [PMID:28027327](../papers/28027327.md).
 - ABSOLUTE used for allelic copy number, tumor purity, and ploidy estimation in 164 oesophageal carcinomas and 359 gastric adenocarcinomas as part of the TCGA esophageal/stomach study [PMID:28052061](../papers/28052061.md).
@@ -51,7 +51,7 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - Used in [prostate_pcbm_swiss_2019](../datasets/prostate_pcbm_swiss_2019.md): whole-exome sequencing of 168 prostate cancer brain metastasis samples processed with ABSOLUTE for tumor purity and ploidy estimation [PMID:35504881](../papers/35504881.md)
 - ABSOLUTE estimated tumor purity and ploidy from whole-exome sequencing in 1,015 Chinese colorectal cancer patients. [PMID:35487942](../papers/35487942.md)
 - ABSOLUTE estimated cancer cell fraction from WGS in 3 invasive lobular carcinoma cases to infer clonality of somatic alterations. [PMID:38347189](../papers/38347189.md)
-- ABSOLUTE v1.0.6 estimated cancer cell fraction to call clonal ERBB2 mutations in endometrial carcinoma; a mutation was called clonal if P(clonal) > 50% or the CCF 95% CI lower bound exceeded 90%. [PMID:39031567](../papers/39031567.md)
+- ABSOLUTE v1.0.6 estimated cancer cell fraction to call clonal [ERBB2](../genes/ERBB2.md) mutations in endometrial carcinoma; a mutation was called clonal if P(clonal) > 50% or the CCF 95% CI lower bound exceeded 90%. [PMID:39031567](../papers/39031567.md)
 
 ## Notes
 
@@ -92,4 +92,4 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - [PMID:38347189](../papers/38347189.md)
 - [PMID:39031567](../papers/39031567.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

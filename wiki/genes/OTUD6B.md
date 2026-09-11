@@ -3,8 +3,8 @@ symbol: OTUD6B
 aliases: []
 cancer_types: [BRCA]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # OTUD6B
@@ -17,13 +17,13 @@ expression tracks chemotherapy resistance in triple-negative breast cancer.
 
 ## Alterations observed in the corpus
 
-- OTUD6B, located in the amplified 8q21.3 region (with RMDN1, CPNE3, DECR1), had
+- OTUD6B, located in the amplified 8q21.3 region (with [RMDN1](../genes/RMDN1.md), [CPNE3](../genes/CPNE3.md), [DECR1](../genes/DECR1.md)), had
   higher mRNA and protein levels in TNBC tumors with non-pathologic complete
   response to neoadjuvant chemotherapy [PMID:36001024](../papers/36001024.md).
 
 ## Cancer types (linked)
 
-- **BRCA** (TNBC): 8q21.3 co-amplification with RMDN1, CPNE3 and DECR1 is
+- **[BRCA](../cancer_types/BRCA.md)** (TNBC): 8q21.3 co-amplification with RMDN1, CPNE3 and DECR1 is
   associated with non-pCR after neoadjuvant chemotherapy
   [PMID:36001024](../papers/36001024.md).
 
@@ -44,4 +44,4 @@ expression tracks chemotherapy resistance in triple-negative breast cancer.
 
 - [PMID:36001024](../papers/36001024.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -3,8 +3,8 @@ symbol: PHF6
 aliases: [BFLS]
 cancer_types: [AML]
 tags: [epigenetic-regulator, tumor-suppressor]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # PHF6
@@ -15,7 +15,7 @@ PHF6 (Plant Homeodomain Finger 6) encodes a PHD-domain chromatin-associated prot
 
 ## Alterations observed in the corpus
 
-- Identified as a recurrent driver in AML with allelic expression bias; part of the nine functional mutation categories defined across 200 AML cases [PMID:23634996](../papers/23634996.md)
+- Identified as a recurrent driver in [AML](../cancer_types/AML.md) with allelic expression bias; part of the nine functional mutation categories defined across 200 AML cases [PMID:23634996](../papers/23634996.md)
 - Single nonsense mutation p.Arg347Ter (suspected germline) identified in the sinonasal adenoid cystic carcinoma cohort [PMID:39760648](../papers/39760648.md)
 - PHF6 identified as a chromatin regulator within the chromatin-spliceosome subgroup of AML in a genomic landscape study of 1540 patients from AML treatment trials [PMID:27276561](../papers/27276561.md).
 - PHF6 was more often mutated in EBV-negative than EBV-positive Burkitt lymphoma [PMID:36201743](../papers/36201743.md).
@@ -47,4 +47,4 @@ PHF6 (Plant Homeodomain Finger 6) encodes a PHD-domain chromatin-associated prot
 - [PMID:36201743](../papers/36201743.md)
 - [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

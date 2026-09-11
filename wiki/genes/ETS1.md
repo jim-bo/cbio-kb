@@ -3,19 +3,19 @@ symbol: ETS1
 aliases: []
 cancer_types: [ES, DSRCT]
 tags: [ets-family, ewsr1-fusion-partner]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ETS1
 
 ## Overview
 
-ETS1 is an ETS-family transcription factor gene occasionally found as a non-canonical fusion partner of EWSR1 in round cell sarcomas.
+ETS1 is an ETS-family transcription factor gene occasionally found as a non-canonical fusion partner of [EWSR1](../genes/EWSR1.md) in round cell sarcomas.
 
 ## Alterations observed in the corpus
 
-- ETS1 is among the cancer-related genes identified as non-canonical EWSR1 fusion partners in chromoplectic structural variants in Ewing sarcoma/DSRCT, alongside ATR, EGFL7, EP300, EZR, FOSB, NAB2 and ZNF331; none of these rearrangements were expressed by RNA sequencing. [PMID:38335254](../papers/38335254.md)
+- ETS1 is among the cancer-related genes identified as non-canonical EWSR1 fusion partners in chromoplectic structural variants in Ewing sarcoma/DSRCT, alongside [ATR](../genes/ATR.md), [EGFL7](../genes/EGFL7.md), [EP300](../genes/EP300.md), [EZR](../genes/EZR.md), [FOSB](../genes/FOSB.md), [NAB2](../genes/NAB2.md) and [ZNF331](../genes/ZNF331.md); none of these rearrangements were expressed by RNA sequencing. [PMID:38335254](../papers/38335254.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ ETS1 is an ETS-family transcription factor gene occasionally found as a non-cano
 
 - [PMID:38335254](../papers/38335254.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

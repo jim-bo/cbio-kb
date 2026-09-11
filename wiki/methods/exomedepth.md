@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [copy-number, mitochondrial-dna, read-depth, whole-exome-seq]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ExomeDepth
@@ -17,7 +17,7 @@ ExomeDepth is a read-depth-based copy-number estimation tool for exome/targeted 
 
 ## Used by
 
-- Used to estimate mitochondrial DNA copy number (corrected for tumor purity/ploidy) in 1,015 whole-exome-sequenced colorectal cancers, validated by D-loop/B2M qPCR [PMID:35487942](../papers/35487942.md).
+- Used to [estimate](../methods/estimate.md) mitochondrial DNA copy number (corrected for tumor purity/ploidy) in 1,015 whole-exome-sequenced colorectal cancers, validated by D-loop/B2M qPCR [PMID:35487942](../papers/35487942.md).
 
 ## Notes
 
@@ -27,4 +27,4 @@ ExomeDepth is a read-depth-based copy-number estimation tool for exome/targeted 
 
 - [PMID:35487942](../papers/35487942.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

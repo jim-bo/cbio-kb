@@ -8,8 +8,8 @@ tags:
   - super-enhancer
   - hox
   - epigenetics
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # HOTAIR
@@ -20,12 +20,12 @@ HOTAIR is a long non-coding RNA encoded within the HOXC cluster on chromosome 12
 
 ## Alterations observed in the corpus
 
-- HOTAIR is covered by an MRT-specific super-enhancer in the HOXC cluster and is over-expressed in extra-cranial MRT compared to normal tissues, paralleling observations in AT/RT; this super-enhancer gain occurs in the context of [SMARCB1](../genes/SMARCB1.md) biallelic inactivation and global loss of H3K27me3. [PMID:26977886](../papers/26977886.md)
-- Along with CARTPT and the HOX cluster, HOTAIR expression is low in non-chromaffin pheochromocytoma/paraganglioma tumors, marking cell-of-origin. [PMID:40097403](../papers/40097403.md)
+- HOTAIR is covered by an MRT-specific super-enhancer in the HOXC cluster and is over-expressed in extra-cranial [MRT](../cancer_types/MRT.md) compared to normal tissues, paralleling observations in AT/RT; this super-enhancer gain occurs in the context of [SMARCB1](../genes/SMARCB1.md) biallelic inactivation and global loss of H3K27me3. [PMID:26977886](../papers/26977886.md)
+- Along with [CARTPT](../genes/CARTPT.md) and the HOX cluster, HOTAIR expression is low in non-chromaffin pheochromocytoma/paraganglioma tumors, marking cell-of-origin. [PMID:40097403](../papers/40097403.md)
 
 ## Cancer types (linked)
 
-- **MRT (Malignant Rhabdoid Tumor):** HOTAIR over-expression is a feature of the MRT epigenomic landscape driven by HOX-cluster super-enhancer acquisition following SMARCB1 loss. [PMID:26977886](../papers/26977886.md)
+- **MRT (Malignant Rhabdoid Tumor):** HOTAIR over-expression is a feature of the MRT epigenomic landscape driven by HOX-cluster super-enhancer acquisition following [SMARCB1](../genes/SMARCB1.md) loss. [PMID:26977886](../papers/26977886.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -44,4 +44,4 @@ HOTAIR is a long non-coding RNA encoded within the HOXC cluster on chromosome 12
 - [PMID:26977886](../papers/26977886.md)
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -5,8 +5,8 @@ kind: sequencing
 canonical_source: 
 unverified: true
 tags: [dna-seq, targeted]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Targeted DNA sequencing
@@ -39,16 +39,16 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - Targeted DNA sequencing via MSK-IMPACT panel applied to pancreatic ductal adenocarcinoma [PMID:26278805](../papers/26278805.md)
 - Targeted DNA sequencing used alongside WES and WGS in colorectal cancer genomic profiling [PMID:26343386](../papers/26343386.md)
 - Hybrid-capture targeted sequencing across the TERT/CLPTM1L locus used alongside FISH to validate [TERT](../genes/TERT.md) 5p15.33 rearrangements in 161-sample neuroblastoma cohort; orthogonal confirmation by both methods required to call a rearrangement [PMID:26466568](../papers/26466568.md)
-- A 300-gene exon-capture panel was applied to 19 additional plasmacytoid-variant bladder tumors as a validation cohort, identifying CDH1 truncating mutations in 14/19 (74%) cases. [PMID:26901067](../papers/26901067.md)
-- Targeted 111-gene DNA sequencing panel applied to 1540 AML patients in three AMLSG trials to identify 5234 driver mutations across 76 genes and define 11 genomic subgroups [PMID:27276561](../papers/27276561.md)
+- A 300-gene exon-capture panel was applied to 19 additional plasmacytoid-variant bladder tumors as a validation cohort, identifying [CDH1](../genes/CDH1.md) truncating mutations in 14/19 (74%) cases. [PMID:26901067](../papers/26901067.md)
+- Targeted 111-gene DNA sequencing panel applied to 1540 [AML](../cancer_types/AML.md) patients in three AMLSG trials to identify 5234 driver mutations across 76 genes and define 11 genomic subgroups [PMID:27276561](../papers/27276561.md)
 - Targeted NGS studies in young-onset lung cancer (YLC) employed targeted DNA sequencing alongside WES and WGS to profile germline susceptibility variants and somatic drivers [PMID:40958859](../papers/40958859.md)
 - The Columbia Comprehensive Cancer Panel (CCCP) targeted-sequencing backup (467 cancer-associated genes on a 5.59 Mb Custom Agilent SureSelectXT library, optimized for FFPE material) was applied to 13 of 120 pediatric oncology samples in the PIPseq program achieving >500-fold average coverage [PMID:28007021](../papers/28007021.md).
 - Targeted exon-capture sequencing using MSK-IMPACT 341- or 410-gene panels on 105 NMIBC pretreatment index tumors with matched germline DNA; the largest NGS effort focused on NMIBC at time of publication [PMID:28583311](../papers/28583311.md)
 - SureSelect XT2 capture panel targeting 404 cancer-related genes applied to 188 CCA cases (HiSeq 4000, 99.6% coding coverage) as one of three DNA-sequencing tiers in the ICGC cholangiocarcinoma study [PMID:28667006](../papers/28667006.md)
-- MSK-IMPACT targeted NGS (341/410/468-gene panels) applied prospectively to 295 metastatic EGC patients; demonstrated that targeted capture at 744X mean depth enables reliable detection of mutations, CNAs, MSI status, and ERBB2 amplification levels relevant to treatment selection [PMID:29122777](../papers/29122777.md)
+- MSK-IMPACT targeted NGS (341/410/468-gene panels) applied prospectively to 295 metastatic [EGC](../cancer_types/EGC.md) patients; demonstrated that targeted capture at 744X mean depth enables reliable detection of mutations, CNAs, MSI status, and [ERBB2](../genes/ERBB2.md) amplification levels relevant to treatment selection [PMID:29122777](../papers/29122777.md)
 - Used for retrospective discovery genomic analysis of 569 MSKCC MIBC tumors via WES or targeted exon capture, enabling comparison of primary vs secondary MIBC mutation profiles [PMID:30290956](../papers/30290956.md)
 - FUSCC 484-gene targeted NGS panel applied to tumor biopsies of 69 refractory metastatic TNBC patients for somatic and germline calling in the FUTURE umbrella trial [PMID:32719455](../papers/32719455.md)
-- Custom literature-derived targeted DNA sequencing panel at 500x coverage applied to 281 colorectal polyps in the Tennessee Colorectal Polyp Study; confirmed APC, KRAS, and BRAF mutation frequencies across adenoma and serrated polyp subtypes [PMID:34910928](../papers/34910928.md)
+- Custom literature-derived targeted DNA sequencing panel at 500x coverage applied to 281 colorectal polyps in the Tennessee Colorectal Polyp Study; confirmed [APC](../genes/APC.md), [KRAS](../genes/KRAS.md), and [BRAF](../genes/BRAF.md) mutation frequencies across adenoma and serrated polyp subtypes [PMID:34910928](../papers/34910928.md)
 - Used with an RNA-bait capture panel of 111 myeloid genes to profile 738 MDS/MDS-MPN patients, yielding 2,260 high-confidence variants [PMID:24030381](../papers/24030381.md).
 - Used for a 42-gene panel (C2, n=352) and a 12-gene RCC-focused panel (C3, n=474) in a 943-patient clear cell renal cell carcinoma cohort [PMID:36815791](../papers/36815791.md).
 - Used for Twist custom-capture deep sequencing (5,000-7,000x) to validate a pediatric solid tumor PDX pair [PMID:37990009](../papers/37990009.md).
@@ -96,4 +96,4 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - [PMID:36815791](../papers/36815791.md)
 - [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

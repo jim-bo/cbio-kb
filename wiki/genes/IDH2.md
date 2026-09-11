@@ -3,8 +3,8 @@ symbol: IDH2
 aliases: []
 cancer_types: [PTCL, AITL, DIFG, AST, ODG, GB]
 tags: [metabolic-driver, glioma]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # IDH2
@@ -28,31 +28,31 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - IDH2 hotspot mutations in 13–29% intrahepatic CCA alongside [IDH1](../genes/IDH1.md); rare in extrahepatic CCA; IDH inhibitor resistance can involve isoform switching from [IDH1](../genes/IDH1.md) to IDH2 [PMID:41008893](../papers/41008893.md)
 - IDH1/IDH2 mutations in iCCA drive 2-HG accumulation, epigenetically suppressing bile acid biosynthesis genes (e.g., [CYP7A1](../genes/CYP7A1.md)) via DNA hypermethylation; [ivosidenib](../drugs/ivosidenib.md) (IDH1-specific) is the approved therapy highlighted as first targeted option for IDH1-mutant CCA. [PMID:41018102](../papers/41018102.md)
 - Defining hotspot mutation (alongside [IDH1](../genes/IDH1.md)) across LGm1–3 / LGr1–3 IDH-mutant glioma subtypes in pan-glioma TCGA analysis (n=1122); IDH1/2 status forms the primary axis of methylome and transcriptome separation across diffuse glioma subtypes [PMID:26824661](../papers/26824661.md)
-- IDH2 R140 co-occurs strongly with [NPM1](../genes/NPM1.md) (OR 3.6, P=5e-10) while IDH2 R172 is mutually exclusive with NPM1 (OR 0.06, P=4e-5) and forms a provisional [AML](../cancer_types/AML.md) subgroup (1%, n=18) in a cohort of 1540 adults; [DNMT3A](../genes/DNMT3A.md) × IDH2 R140 co-occurrence (n=19) was adverse (q=0.05) [PMID:27276561](../papers/27276561.md)
-- Covered by both the 264-gene and 8-gene amplicon panels in a 116-patient AML/MDS [decitabine](../drugs/decitabine.md) trial; previously hypothesized to predict hypomethylating-agent response but not validated as predictive of 10-day decitabine response. [PMID:27959731](../papers/27959731.md)
+- IDH2 R140 co-occurs strongly with [NPM1](../genes/NPM1.md) (OR 3.6, P=5e-10) while IDH2 R172 is mutually exclusive with [NPM1](../genes/NPM1.md) (OR 0.06, P=4e-5) and forms a provisional [AML](../cancer_types/AML.md) subgroup (1%, n=18) in a cohort of 1540 adults; [DNMT3A](../genes/DNMT3A.md) × IDH2 R140 co-occurrence (n=19) was adverse (q=0.05) [PMID:27276561](../papers/27276561.md)
+- Covered by both the 264-gene and 8-gene amplicon panels in a 116-patient AML/MDS [decitabine](../drugs/decitabine.md) trial; previously hypothesized to predict hypomethylating-agent response but not validated as predictive of 10-day [decitabine](../drugs/decitabine.md) response. [PMID:27959731](../papers/27959731.md)
 - R172K mutation in 1/19 sequenced 1p/19q-codeleted oligodendroglioma cases; wild-type in 1p/19q-intact glioblastoma-like cases; OncoKB Level 3B [PMID:28472509](../papers/28472509.md)
-- Enriched in cholangiocarcinoma Cluster 4 alongside IDH1 (31.6% vs 1.0% in other clusters, q < 0.001); proposed driver of CpG-shore DNA hypermethylation via 2-hydroxyglutarate oncometabolite production [PMID:28667006](../papers/28667006.md)
+- Enriched in cholangiocarcinoma Cluster 4 alongside [IDH1](../genes/IDH1.md) (31.6% vs 1.0% in other clusters, q < 0.001); proposed driver of CpG-shore DNA hypermethylation via 2-hydroxyglutarate oncometabolite production [PMID:28667006](../papers/28667006.md)
 - IDH2 mutations are part of the pan-cancer somatic alteration landscape across 33 TCGA tumor types; IDH2-mutant tumors share immune-microenvironment characteristics with IDH1-mutant gliomas (reduced immune infiltrate) [PMID:29625049](../papers/29625049.md)
-- IDH2 mutations in [LGG](../cancer_types/LGG.md) are actionable: IDH + PI3K inhibitor combination indicated in 14% of IDH-mutant LGG; IDH1/2 alterations included in the 57% pan-cancer actionability figure alongside BRCA1/2 in analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
+- IDH2 mutations in [LGG](../cancer_types/LGG.md) are actionable: IDH + PI3K inhibitor combination indicated in 14% of IDH-mutant [LGG](../cancer_types/LGG.md); IDH1/2 alterations included in the 57% pan-cancer actionability figure alongside BRCA1/2 in analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
 - IDH2 mutations in LGG are highlighted alongside IDH1 as the canonical example of TCGA survival-genomic integration: IDH-mutant LGG (including IDH2-mutant) have substantially longer [OS](../cancer_types/OS.md) than IDH-wildtype LGG, contributing evidence to the WHO 2016 glioma diagnostic update [PMID:29625055](../papers/29625055.md)
 - IDH2 alterations profiled in cholangiocarcinoma cohort (n=195) via MSK-IMPACT; context of IDH-targeted therapy evaluation including [ivosidenib](../drugs/ivosidenib.md) for IDH1-mutant IHC. [PMID:29848569](../papers/29848569.md)
-- IDH2 mutations showed broad ex vivo drug sensitivity in the Beat AML cohort, opposing the resistance pattern seen with IDH1 mutations [PMID:30333627](../papers/30333627.md)
+- IDH2 mutations showed broad ex vivo drug sensitivity in the Beat [AML](../cancer_types/AML.md) cohort, opposing the resistance pattern seen with IDH1 mutations [PMID:30333627](../papers/30333627.md)
 - IDH2 catalytic-domain hotspot mutations are truncal LGG-defining events; persisted through tumour evolution and were detected in glioma CSF ctDNA with 100% concordance to tumour in non-hypermutated cases (85-patient MSK cohort) [PMID:30675060](../papers/30675060.md)
 - IDH2 R140/R172 defines the IDH-mutant glioma subgroup together with IDH1 R132; IDH2-mutant gliomas are encompassed within the broader IDH-mutant subtype analysis in a 923-patient prospective cohort [PMID:31263031](../papers/31263031.md).
 - IDH2 mutation serves as an alternative IDH-mutant marker for glioma subtype classification in the GLASS cohort; IDH2-mutant cases are analyzed within the broader IDH-mutant group [PMID:31748746](../papers/31748746.md)
 - IDH2 is one of 15 canonical clonal hematopoiesis (CH) genes used to classify WBC-matched cfDNA variants; IDH2 mutations in cfDNA can originate from CH and must be interpreted with matched WBC sequencing [PMID:31768066](../papers/31768066.md)
-- IDH2-mutant status checked in all 83 WES-profiled Mayo [GBM](../cancer_types/GBM.md) PDX; only 2 lines were IDH-mutant (GBM164, GBM196), both classified as GBM IDH-mutant, consistent with the rarity of IDH2 mutation in glioblastoma vs lower-grade glioma [PMID:31852831](../papers/31852831.md)
+- IDH2-mutant status checked in all 83 WES-profiled Mayo [GBM](../cancer_types/GBM.md) PDX; only 2 lines were IDH-mutant (GBM164, GBM196), both classified as [GBM](../cancer_types/GBM.md) IDH-mutant, consistent with the rarity of IDH2 mutation in glioblastoma vs lower-grade glioma [PMID:31852831](../papers/31852831.md)
 - IDC-NST-private focal amplification at the 15q11.1–q26.1 locus (containing IDH2 and [NUTM1](../genes/NUTM1.md)) was observed in individual synchronous invasive breast cancer cases, suggesting IDH2 amplification is an invasive-stage-acquired event in a subset of breast cancers [PMID:32220886](../papers/32220886.md)
 - IDH2 — classified as a CH-myeloid putative driver gene; hotspot or in-frame variants classed as drivers per CH-myeloid-PD annotation rules in a large cancer-patient CH cohort (n=24,146) [PMID:33106634](../papers/33106634.md)
 - IDH2 mutations infrequent in pediatric HGG; wild-type IDH2 protein abundance positively associates with OS in H3-WT HGG; combined IDH1/IDH2 protein score gives HR 23.58 (95% CI 1.42–384.6) per 50% reduction in H3-WT pediatric HGG [PMID:33242424](../papers/33242424.md)
-- Analyzed jointly with IDH1 (IDH1/2mut) in an iCCA cohort (n=412); IDH2 not independently prognostic when analyzed separately; IDH1/2 mutations predictive for targeted therapies (e.g., ivosidenib) but not prognostic for untreated natural history [PMID:33765338](../papers/33765338.md)
+- Analyzed jointly with IDH1 (IDH1/2mut) in an iCCA cohort (n=412); IDH2 not independently prognostic when analyzed separately; IDH1/2 mutations predictive for targeted therapies (e.g., [ivosidenib](../drugs/ivosidenib.md)) but not prognostic for untreated natural history [PMID:33765338](../papers/33765338.md)
 - IDH2 mutations present in intrahepatic cholangiocarcinoma profiled cohort; in N1-node patients IDH1/2 mutation had no significant survival effect (HR 0.73, 95% CI 0.3–1.6, P=0.429; median OS 27.7 vs 18.1 months, P=0.427) [PMID:33963001](../papers/33963001.md)
 - Transient R140Q clone detected 1 year before transformation in patient 118729 (in context of pre-leukemic [KMT2A](../genes/KMT2A.md) rearrangement), illustrating transient clonal dynamics preceding therapy-related AML/MDS in pediatric neuroblastoma [PMID:35078859](../papers/35078859.md)
 - IDH2 mutation defines the IDHmut glioma subgroup used as the primary stratification axis in the GLASS longitudinal glioma progression cohort (n=304 patients with paired samples) [PMID:35649412](../papers/35649412.md)
 - IDH1/IDH2 together are actionable in 27% of chondrosarcomas ([CHS](../cancer_types/CHS.md)) in the MSK sarcoma clinical sequencing cohort ([sarcoma_mskcc_2022](../datasets/sarcoma_mskcc_2022.md), n=1,148; MSK-IMPACT) [PMID:35705560](../papers/35705560.md)
-- Discussed as target of enasidenib in the AML therapeutic landscape (background context); IDH2 mutation is part of the Beat AML cohort genomic characterization across 942 specimens from 805 [AML](../cancer_types/AML.md) patients [PMID:35868306](../papers/35868306.md)
-- Co-mutated with SRSF2 (OR 6.7), mutually exclusive with TET2 and SF3B1, and correlated with higher marrow blast percentage in myelodysplastic syndrome. [PMID:24030381](../papers/24030381.md)
-- IDH mutation status (isoform not specified; 5/32 patients IDH-mutant) was one of four variables an elastic-net model selected as associated with increased overall survival in glioblastoma treated with neoadjuvant vs adjuvant PD-1 blockade. [PMID:30742122](../papers/30742122.md)
+- Discussed as target of [enasidenib](../drugs/enasidenib.md) in the AML therapeutic landscape (background context); IDH2 mutation is part of the Beat AML cohort genomic characterization across 942 specimens from 805 [AML](../cancer_types/AML.md) patients [PMID:35868306](../papers/35868306.md)
+- Co-mutated with [SRSF2](../genes/SRSF2.md) (OR 6.7), mutually exclusive with [TET2](../genes/TET2.md) and [SF3B1](../genes/SF3B1.md), and correlated with higher marrow blast percentage in myelodysplastic syndrome. [PMID:24030381](../papers/24030381.md)
+- IDH mutation status (isoform not specified; 5/32 patients IDH-mutant) was one of four variables an [elastic-net](../methods/elastic-net.md) model selected as associated with increased overall survival in glioblastoma treated with neoadjuvant vs adjuvant PD-1 blockade. [PMID:30742122](../papers/30742122.md)
 - IDH2 mutations differentially enriched between HOXA and HOXB expression groups among epigenetic-modifier genes in pediatric AML. [PMID:38212634](../papers/38212634.md)
 - IDH2 counted as a level 3B actionable alteration in biliary tract cancer, within the broader IDH1/2-altered subgroup enriched in intrahepatic cholangiocarcinoma. [PMID:42360806](../papers/42360806.md)
 
@@ -148,4 +148,4 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - [PMID:38212634](../papers/38212634.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

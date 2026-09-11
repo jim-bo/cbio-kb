@@ -3,8 +3,8 @@ symbol: WRN
 aliases: [Werner syndrome RecQ like helicase]
 cancer_types: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # WRN
@@ -16,7 +16,7 @@ WRN (Werner Syndrome RecQ Like Helicase) is a RecQ-family DNA helicase/exonuclea
 ## Alterations observed in the corpus
 
 - Synthetic lethal vulnerability in MSI cancer cell lines (CCLE); sensitivity predicted by mismatch-repair protein levels ([MLH1](../genes/MLH1.md), [PMS2](../genes/PMS2.md), [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md)), SKI-complex components ([SKIC2](../genes/SKIC2.md), [SKIC3](../genes/SKIC3.md)), and SUMO E1 heterodimer (SAE1/UBA2) abundance [PMID:31978347](../papers/31978347.md)
-- WRN was one of nine DNA-repair/PARP-pathway genes (with FANCF, RAD54L, FANCA, FANCC, ATM, RECQL4, NBN, CHEK2) altered in 6.9% (9/131) of solitary fibrous tumors, proposed as candidate PARP-inhibitor targets [PMID:37980418](../papers/37980418.md).
+- WRN was one of nine DNA-repair/PARP-pathway genes (with [FANCF](../genes/FANCF.md), [RAD54L](../genes/RAD54L.md), [FANCA](../genes/FANCA.md), [FANCC](../genes/FANCC.md), [ATM](../genes/ATM.md), [RECQL4](../genes/RECQL4.md), [NBN](../genes/NBN.md), [CHEK2](../genes/CHEK2.md)) altered in 6.9% (9/131) of solitary fibrous tumors, proposed as candidate PARP-inhibitor targets [PMID:37980418](../papers/37980418.md).
 
 ## Cancer types (linked)
 
@@ -39,4 +39,4 @@ WRN (Werner Syndrome RecQ Like Helicase) is a RecQ-family DNA helicase/exonuclea
 - [PMID:31978347](../papers/31978347.md)
 - [PMID:37980418](../papers/37980418.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

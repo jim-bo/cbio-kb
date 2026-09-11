@@ -9,8 +9,8 @@ tags:
   - hypoxia
   - ubiquitin-ligase
   - pancreatic-cystic-neoplasm
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 canonical_source: cbioportal
 unverified: false
 ---
@@ -19,14 +19,14 @@ unverified: false
 
 ## Overview
 
-VHL (Von Hippel-Lindau Tumor Suppressor) encodes an E3 ubiquitin ligase subunit that targets HIF-1alpha for proteasomal degradation under normoxic conditions. Inactivation of VHL leads to constitutive HIF activation and downstream angiogenic signaling. While VHL is the canonical driver of clear cell renal cell carcinoma (RCC), WES of pancreatic cystic neoplasms revealed that serous cystadenomas (SCAs) also carry VHL-inactivating mutations and chromosome 3p loss of heterozygosity, consistent with shared pathogenesis.
+VHL (Von Hippel-Lindau Tumor Suppressor) encodes an E3 ubiquitin ligase subunit that targets HIF-1alpha for proteasomal degradation under normoxic conditions. Inactivation of VHL leads to constitutive HIF activation and downstream angiogenic signaling. While VHL is the canonical driver of clear cell renal cell carcinoma ([RCC](../cancer_types/RCC.md)), WES of pancreatic cystic neoplasms revealed that serous cystadenomas (SCAs) also carry VHL-inactivating mutations and chromosome 3p loss of heterozygosity, consistent with shared pathogenesis.
 
 ## Alterations observed in the corpus
 
 - WES of 32 pancreatic cystic neoplasms identified VHL inactivating point mutations in 4/8 serous cystadenomas (SCAs), with LOH at chr3p in 8/8 SCAs; all detected mutations were previously described in renal cell carcinoma, supporting VHL as the defining driver of SCAs [PMID:22158988](../papers/22158988.md)
 - 9/18 SCA cyst fluid samples were also VHL-mutant, demonstrating feasibility of non-invasive molecular diagnosis from cyst fluid [PMID:22158988](../papers/22158988.md)
 - Top significantly mutated gene in TCGA [CCRCC](../cancer_types/CCRCC.md) comprehensive molecular characterization; mutations mutually exclusive with promoter methylation (~7% epigenetically silenced); central role in HIF stabilization [PMID:23792563](../papers/23792563.md)
-- Biallelic conditional inactivation (Vhl-null mouse model) is the central perturbation mimicking the truncal event in human ccRCC; VHL loss stabilizes both [HIF1A](../genes/HIF1A.md) and HIF2A, with HIF1A driving anti-survival effects in renal papilla and HIF2A driving dedifferentiation/proliferation in cortical proximal tubule cells [PMID:41102155](../papers/41102155.md)
+- Biallelic conditional inactivation (Vhl-null mouse model) is the central perturbation mimicking the truncal event in human ccRCC; VHL loss stabilizes both [HIF1A](../genes/HIF1A.md) and HIF2A, with [HIF1A](../genes/HIF1A.md) driving anti-survival effects in renal papilla and HIF2A driving dedifferentiation/proliferation in cortical proximal tubule cells [PMID:41102155](../papers/41102155.md)
 - VHL somatic mutation was present in 9/10 ccRCC tumors; the remaining case was silenced by promoter methylation. VHL loss is truncal in all 10 tumors and confirmed as the founding driver event together with chromosome 3p loss [PMID:24487277](../papers/24487277.md)
 - VHL referenced as a known germline kidney-cancer predisposition gene; contrasted against somatic nccRCC mutation profiles in the UTSW comprehensive study [PMID:25401301](../papers/25401301.md)
 - Only 1/62 uRCC cases (T08) carried a VHL mutation; the near-absence of VHL alteration despite frequent 3p loss distinguishes unclassified high-grade RCC from clear-cell RCC (where VHL is altered in ~75%). [PMID:27713405](../papers/27713405.md)
@@ -34,8 +34,8 @@ VHL (Von Hippel-Lindau Tumor Suppressor) encodes an E3 ubiquitin ligase subunit 
 - Germline (4%) and somatic mutations specific to the pseudohypoxia subtype of PCC/PGL; germline VHL co-occurs with 3p chromosomal deletion; FDA-approved targeted therapies are available for VHL-mutant tumors [PMID:28162975](../papers/28162975.md)
 - Identified as a lineage-restricted driver gene in renal clear-cell carcinoma in a pan-cancer MSK-IMPACT analysis of 10,336 patients across 62 tumor types [PMID:28481359](../papers/28481359.md)
 - Most commonly mutated gene in ccRCC; VHL LOF status did NOT correlate with immune-related gene expression, indicating the PBRM1-associated immune-transcriptional signal is PBRM1-specific and not a general consequence of VHL loss. [PMID:29301960](../papers/29301960.md)
-- Confirmed as a KIRC SMG called by both MutSig2CV and MuSiC2 on the TCGA MC3 open-access MAF; VHL is one of the canonical KIRC drivers consistently recovered across callers [PMID:29596782](../papers/29596782.md)
-- Germline pathogenic variant in 1/88 metastatic panNET patients (high-penetrance germline carrier); argues for universal germline testing in panNET (panet_msk_2018) [PMID:30687805](../papers/30687805.md)
+- Confirmed as a [KIRC](../cancer_types/KIRC.md) SMG called by both MutSig2CV and MuSiC2 on the TCGA MC3 open-access MAF; VHL is one of the canonical KIRC drivers consistently recovered across callers [PMID:29596782](../papers/29596782.md)
+- Germline pathogenic variant in 1/88 metastatic panNET patients (high-penetrance germline carrier); argues for universal germline testing in panNET ([panet_msk_2018](../datasets/panet_msk_2018.md)) [PMID:30687805](../papers/30687805.md)
 - Biallelic inactivation in renal clear cell carcinoma cell lines can include one deleted plus one methylated allele; 3 cell lines with this compound inactivation mechanism identified in the CCLE dataset (1,070+ lines) [PMID:31068700](../papers/31068700.md)
 - In metastatic RCC, VHL was somatically mutated in 62% of 201 tumors; mutation status was not associated with PFS in any treatment arm, though VHL mutants had higher Angio signature expression [PMID:29867230](../papers/29867230.md).
 - In a ccRCC outcome classifier, VHL was mutated in 76% of tumors and anchored the risk model; VHL-only-mutant tumors (VHL+0) had the best outcomes (~90% 5-year DFS overall, 96% in stage I), while VHL-wild-type tumors (23%) were excluded from classification [PMID:36815791](../papers/36815791.md).
@@ -86,4 +86,4 @@ VHL (Von Hippel-Lindau Tumor Suppressor) encodes an E3 ubiquitin ligase subunit 
 - [PMID:29867230](../papers/29867230.md)
 - [PMID:36815791](../papers/36815791.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

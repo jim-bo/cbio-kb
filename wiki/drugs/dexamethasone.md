@@ -8,8 +8,8 @@ unverified: true
 tags:
   - corticosteroid
   - supportive-care
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # dexamethasone
@@ -20,7 +20,7 @@ Dexamethasone is a synthetic corticosteroid that activates the glucocorticoid re
 
 ## Evidence in the corpus
 
-- Trial eligibility for a neoadjuvant pembrolizumab glioblastoma trial excluded patients on high-dose corticosteroids (>4 mg/day dexamethasone or equivalent for >=3 consecutive days within 2 weeks of registration); dexamethasone dose at registration did not correlate with interferon, T-cell or cell-cycle signature scores, or with overall survival. [PMID:30742122](../papers/30742122.md)
+- Trial eligibility for a neoadjuvant [pembrolizumab](../drugs/pembrolizumab.md) glioblastoma trial excluded patients on high-dose corticosteroids (>4 mg/day dexamethasone or equivalent for >=3 consecutive days within 2 weeks of registration); dexamethasone dose at registration did not correlate with interferon, T-cell or cell-cycle signature scores, or with overall survival. [PMID:30742122](../papers/30742122.md)
 
 ## Resistance mechanisms
 
@@ -32,4 +32,4 @@ Dexamethasone is a synthetic corticosteroid that activates the glucocorticoid re
 
 - [PMID:30742122](../papers/30742122.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

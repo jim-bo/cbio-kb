@@ -3,8 +3,8 @@ symbol: NF2
 aliases: []
 cancer_types: [MNG, PLMESO, CSCC, LGSOC]
 tags: [tumor-suppressor, 22q-loss, merlin, meningioma]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # NF2
@@ -28,8 +28,8 @@ NF2 encodes merlin, a FERM-domain tumor suppressor that regulates Hippo signalin
 - Sole recurrent driver SNV across all schwannomatosis-spectrum schwannomas (SWNs); SWNTS-SWNs harbor NF2 mutation/loss in 83% vs. 58% in NS-SWNs (p < 0.0001); NF2-mutant tumors show RAS/MAPK upregulation and M2 macrophage enrichment [PMID:33025139](../papers/33025139.md)
 - NF2 singleton MAPK pathway alteration (n=1/119) in [LGSOC](../cancer_types/LGSOC.md) on MSK-IMPACT panel; included in the 60% MAPK pathway-altered group independently associated with improved [OS](../cancer_types/OS.md) in [LGSOC](../cancer_types/LGSOC.md) [PMID:35443055](../papers/35443055.md)
 - Observed as a recurrent alteration in clinical genomic profiling of 7,494 soft tissue and bone sarcoma patients [PMID:35705558](../papers/35705558.md)
-- In solitary fibrous tumor, NF2 was among mTOR-pathway genes (with PIK3CA, NF1) altered in a combined 3.1% (4/131) of cases, proposed as mTOR-inhibitor targets [PMID:37980418](../papers/37980418.md).
-- In a MYOD1-driven tumor cohort, NF2 was among genes upstream of PI3K/AKT/mTOR signaling recurrently altered (5-15%) alongside NF1, NRAS, BCOR, FGFR4 [PMID:41758938](../papers/41758938.md).
+- In solitary fibrous tumor, NF2 was among mTOR-pathway genes (with [PIK3CA](../genes/PIK3CA.md), [NF1](../genes/NF1.md)) altered in a combined 3.1% (4/131) of cases, proposed as mTOR-inhibitor targets [PMID:37980418](../papers/37980418.md).
+- In a MYOD1-driven tumor cohort, NF2 was among genes upstream of PI3K/AKT/mTOR signaling recurrently altered (5-15%) alongside NF1, [NRAS](../genes/NRAS.md), [BCOR](../genes/BCOR.md), [FGFR4](../genes/FGFR4.md) [PMID:41758938](../papers/41758938.md).
 
 ## Cancer types (linked)
 
@@ -69,4 +69,4 @@ NF2 encodes merlin, a FERM-domain tumor suppressor that regulates Hippo signalin
 - [PMID:37980418](../papers/37980418.md)
 - [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -3,8 +3,8 @@ symbol: NOTCH2
 aliases: []
 cancer_types: [CSCC]
 tags: [tumor-suppressor, skin-cancer, Notch-pathway, loss-of-function]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # NOTCH2
@@ -38,7 +38,7 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 - Loss-of-function mutations in 36.1% of cutaneous squamous cell carcinomas in a meta-analysis of 88 QC-passed tumors; NOTCH-pathway inactivation identified as near-obligate in [CSCC](../cancer_types/CSCC.md) [PMID:34272401](../papers/34272401.md)
 - NOTCH2 downstream YAP/TAZ pathway is upregulated in POU2F3-positive SCLC-P PDX models; NOTCH1/2/3 signaling implicated in the non-NE subtype biology across 42 [SCLC](../cancer_types/SCLC.md) PDX/CDX models [PMID:35440124](../papers/35440124.md)
 - Absent from significant or recurrent SNVs in metastatic [CSCC](../cancer_types/CSCC.md) (n=25), contrasting with NOTCH pathway prominence in primary [CSCC](../cancer_types/CSCC.md) genomic studies [PMID:35982973](../papers/35982973.md)
-- In solitary fibrous tumor, NOTCH2 (with NOTCH1, NOTCH3, CREBBP) NOTCH-pathway alterations were related to progression-free survival [PMID:37980418](../papers/37980418.md).
+- In solitary fibrous tumor, NOTCH2 (with [NOTCH1](../genes/NOTCH1.md), [NOTCH3](../genes/NOTCH3.md), [CREBBP](../genes/CREBBP.md)) NOTCH-pathway alterations were related to progression-free survival [PMID:37980418](../papers/37980418.md).
 
 ## Cancer types (linked)
 
@@ -105,4 +105,4 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 - [PMID:35982973](../papers/35982973.md)
 - [PMID:37980418](../papers/37980418.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

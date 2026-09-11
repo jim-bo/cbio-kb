@@ -8,8 +8,8 @@ cancer_types:
 tags:
   - histone_demethylase
   - epigenetic_regulator
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # KDM5C
@@ -20,13 +20,13 @@ KDM5C (Lysine Demethylase 5C, also known as JARID1C) is an X-linked histone H3K4
 
 ## Alterations observed in the corpus
 
-- Recurrently mutated in clear cell renal cell carcinoma (ccRCC); mutational frequency varied across ICI and TKI score groups in a TCGA KIRC molecular subtyping study [PMID:40834854](../papers/40834854.md)
+- Recurrently mutated in clear cell renal cell carcinoma (ccRCC); mutational frequency varied across ICI and TKI score groups in a TCGA [KIRC](../cancer_types/KIRC.md) molecular subtyping study [PMID:40834854](../papers/40834854.md)
 - Among the top eight most significantly mutated genes (q<0.00001) in ccRCC; identified by TCGA comprehensive molecular characterization [PMID:23792563](../papers/23792563.md)
 - Parallel evolution of KDM5C inactivation previously demonstrated across spatially separated tumor regions in ccRCC (EV001/EV002), illustrating intratumor heterogeneity of this X-linked histone demethylase [PMID:24487277](../papers/24487277.md)
-- Frameshift in 1 UMD (unmatched molecular driver) patient in a prospective LUAD cohort (860 patients, MSK-IMPACT); patient achieved 6-month stable disease on off-label azacitidine [PMID:28336552](../papers/28336552.md)
+- Frameshift in 1 UMD (unmatched molecular driver) patient in a prospective [LUAD](../cancer_types/LUAD.md) cohort (860 patients, MSK-IMPACT); patient achieved 6-month stable disease on off-label [azacitidine](../drugs/azacitidine.md) [PMID:28336552](../papers/28336552.md)
 - KDM5C identified as a significantly mutated gene (SMG) in KIRC (kidney renal clear cell carcinoma) by MuSiC2 after long-gene filtering, but not by MutSig2CV, in the MC3 pan-cancer open-access MAF analysis (10,295 tumor samples). [PMID:29596782](../papers/29596782.md)
-- KDM5C E185Q mutation observed in a DCIS subclone (2DCISA) that became clonally dominant in a subsequent multifocal DCIS lesion (2DCISB) in a BRCA1-mutant patient, illustrating intra-DCIS clonal selection and epigenetic regulator involvement in pre-invasive breast cancer evolution [PMID:32220886](../papers/32220886.md)
-- KDM5C was mutated in 8% of clear cell RCC tumors and included in a prognostic classifier gene set for its known role in ccRCC [PMID:36815791](../papers/36815791.md).
+- KDM5C E185Q mutation observed in a [DCIS](../cancer_types/DCIS.md) subclone (2DCISA) that became clonally dominant in a subsequent multifocal DCIS lesion (2DCISB) in a BRCA1-mutant patient, illustrating intra-DCIS clonal selection and epigenetic regulator involvement in pre-invasive breast cancer evolution [PMID:32220886](../papers/32220886.md)
+- KDM5C was mutated in 8% of clear cell [RCC](../cancer_types/RCC.md) tumors and included in a prognostic classifier gene set for its known role in ccRCC [PMID:36815791](../papers/36815791.md).
 
 ## Cancer types (linked)
 
@@ -60,4 +60,4 @@ KDM5C (Lysine Demethylase 5C, also known as JARID1C) is an X-linked histone H3K4
 - [PMID:32220886](../papers/32220886.md)
 - [PMID:36815791](../papers/36815791.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

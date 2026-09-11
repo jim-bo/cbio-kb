@@ -3,8 +3,8 @@ symbol: NF1
 aliases: []
 cancer_types: [LUAD, NSCLC, MPNST, ATC, RMS, UCEC, SKCM, HCC, GBM, CSCC, HNSC, LGSOC]
 tags: [tumor-suppressor, ras-pathway, metastasis, loss-of-function, CNA-loss]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # NF1
@@ -102,12 +102,12 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - Co-occurs with UV mutational signature in ultra-high-TMB sarcoma cases (5/11); may flag desmoplastic melanoma or radiation-associated [MPNST](../cancer_types/MPNST.md) [PMID:35705558](../papers/35705558.md)
 - Level 4 deletions in 32% of [MPNST](../cancer_types/MPNST.md), 14% of [UPS](../cancer_types/UPS.md), 14% of [ERMS](../cancer_types/ERMS.md), and 14% of [PLLS](../cancer_types/PLLS.md) in 2,138-sample sarcoma sequencing cohort [PMID:35705560](../papers/35705560.md)
 - Acquired NF1 mutation at recurrence (n=3) co-occurs with mesenchymal subtype transition and significant granulocyte infiltrate increase (P=0.03) in recurrent diffuse glioma [PMID:35649412](../papers/35649412.md)
-- In solitary fibrous tumor, NF1 was among mTOR-pathway genes (with PIK3CA, NF2) altered in a combined 3.1% (4/131) of cases, proposed as mTOR-inhibitor targets [PMID:37980418](../papers/37980418.md).
-- In a pediatric AML transcriptomic classification study, NF1 was among cooperating RAS-pathway mutations alongside FLT3, NRAS/KRAS, and PTPN11 across molecular subtypes [PMID:38212634](../papers/38212634.md).
-- In HR+/HER2- metastatic breast cancer, NF1 oncogenic mutations (with KMT2C, CDH1) were enriched by permutation testing in APOBEC3-dominant, treatment-resistant tumors [PMID:40379787](../papers/40379787.md).
-- In a MYOD1-driven tumor cohort, NF1 was among genes upstream of PI3K/AKT/mTOR signaling recurrently altered (5-15%) alongside NF2, NRAS, BCOR, FGFR4 [PMID:41758938](../papers/41758938.md).
-- In a pan-cancer hotspot survey, NF1 alterations (with HRAS) were enriched as cooperating events in BRAF Class III tumors [PMID:41895280](../papers/41895280.md).
-- In biliary tract cancer, NF1 alterations (with ERBB3) were enriched in gallbladder cancer samples carrying subclonal ERBB2 mutations [PMID:42360806](../papers/42360806.md).
+- In solitary fibrous tumor, NF1 was among mTOR-pathway genes (with [PIK3CA](../genes/PIK3CA.md), [NF2](../genes/NF2.md)) altered in a combined 3.1% (4/131) of cases, proposed as mTOR-inhibitor targets [PMID:37980418](../papers/37980418.md).
+- In a pediatric [AML](../cancer_types/AML.md) transcriptomic classification study, NF1 was among cooperating RAS-pathway mutations alongside [FLT3](../genes/FLT3.md), NRAS/KRAS, and [PTPN11](../genes/PTPN11.md) across molecular subtypes [PMID:38212634](../papers/38212634.md).
+- In HR+/HER2- metastatic breast cancer, NF1 oncogenic mutations (with [KMT2C](../genes/KMT2C.md), [CDH1](../genes/CDH1.md)) were enriched by permutation testing in APOBEC3-dominant, treatment-resistant tumors [PMID:40379787](../papers/40379787.md).
+- In a MYOD1-driven tumor cohort, NF1 was among genes upstream of PI3K/AKT/mTOR signaling recurrently altered (5-15%) alongside NF2, [NRAS](../genes/NRAS.md), [BCOR](../genes/BCOR.md), [FGFR4](../genes/FGFR4.md) [PMID:41758938](../papers/41758938.md).
+- In a pan-cancer hotspot survey, NF1 alterations (with [HRAS](../genes/HRAS.md)) were enriched as cooperating events in [BRAF](../genes/BRAF.md) Class III tumors [PMID:41895280](../papers/41895280.md).
+- In biliary tract cancer, NF1 alterations (with [ERBB3](../genes/ERBB3.md)) were enriched in gallbladder cancer samples carrying subclonal [ERBB2](../genes/ERBB2.md) mutations [PMID:42360806](../papers/42360806.md).
 
 ## Cancer types (linked)
 
@@ -245,4 +245,4 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - [PMID:41895280](../papers/41895280.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

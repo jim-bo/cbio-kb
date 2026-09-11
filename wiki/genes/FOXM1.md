@@ -3,8 +3,8 @@ symbol: FOXM1
 aliases: []
 cancer_types: [MNG]
 tags: [transcription-factor, proliferation, oncogene]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # FOXM1
@@ -19,7 +19,7 @@ FOXM1 (Forkhead Box M1) is a proliferation-associated transcription factor that 
 - FOXM1 was identified as a recurrently amplified and overexpressed gene in [HGSOC](../cancer_types/HGSOC.md), driving cell cycle progression in ovarian carcinoma [PMID:21720365](../papers/21720365.md)
 - Upregulated in the basal-like IntClust 10 subgroup (METABRIC, 2,000 tumors) as part of a chromosome 5q deletion-associated trans-acting mitotic network [PMID:22522925](../papers/22522925.md)
 - FOXM1 identified as a low-frequency (1-1.4%) mitotic-checkpoint and cell-cycle hit in rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) comprehensive genomic characterization [PMID:24436047](../papers/24436047.md)
-- Overexpressed in metastatic pheochromocytoma/paraganglioma as part of a proliferation gene programme (with MKI67, TOP2A, EZH2) [PMID:40097403](../papers/40097403.md).
+- Overexpressed in metastatic pheochromocytoma/paraganglioma as part of a proliferation gene programme (with [MKI67](../genes/MKI67.md), [TOP2A](../genes/TOP2A.md), [EZH2](../genes/EZH2.md)) [PMID:40097403](../papers/40097403.md).
 
 ## Cancer types (linked)
 
@@ -48,4 +48,4 @@ FOXM1 (Forkhead Box M1) is a proliferation-associated transcription factor that 
 - [PMID:24436047](../papers/24436047.md)
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

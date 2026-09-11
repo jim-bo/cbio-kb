@@ -8,8 +8,8 @@ tags:
   - mds-driver
   - megakaryocyte-dysplasia
   - morphologic-biomarker
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 canonical_source: cbioportal
 unverified: false
 ---
@@ -40,16 +40,16 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 - Recurrently mutated in upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md), n=37 high-grade tumors) at frequencies not significantly different from TCGA urothelial bladder carcinoma [PMID:31278255](../papers/31278255.md)
 - STAG2 mutations in 20% of Ewing sarcoma PDX models, mutually exclusive with homozygous CDKN2A/B loss (60%), in the PPTC 261-model pediatric cancer genomic study [PMID:31693904](../papers/31693904.md).
 - Chromatin/cohesin alteration frequent in [UTUC](../cancer_types/UTUC.md); STAG2 mutation positively (and [ERBB2](../genes/ERBB2.md) negatively) associated with PDX engraftment in [UTUC](../cancer_types/UTUC.md) cohort (n=17 PDX), though not statistically significant [PMID:32299819](../papers/32299819.md)
-- Chromatin/cohesin alteration frequent in UTUC; STAG2 mutation positively associated with PDX engraftment in upper-tract urothelial carcinoma (n=17 PDX, not statistically significant); identified in MSK-IMPACT profiling of UTUC cohort [PMID:32332851](../papers/32332851.md)
+- Chromatin/cohesin alteration frequent in [UTUC](../cancer_types/UTUC.md); STAG2 mutation positively associated with PDX engraftment in upper-tract urothelial carcinoma (n=17 PDX, not statistically significant); identified in MSK-IMPACT profiling of UTUC cohort [PMID:32332851](../papers/32332851.md)
 - CH-myeloid-PD gene in therapy-associated clonal hematopoiesis landscape study; truncating, hotspot, or in-frame variants classed as putative drivers per annotation rules [PMID:33106634](../papers/33106634.md)
 - Truncating mutation private to [DCIS](../cancer_types/DCIS.md) component of patient JuP3 (juvenile papillomatosis with coexisting [DCIS](../cancer_types/DCIS.md) and IDC-NST); identified in whole-exome sequencing of this rare JP case [PMID:33263939](../papers/33263939.md)
 - Recurrent mutations (MutSigCV P=8.3×10⁻⁷) in UTUC (n=40, IGBMC cohort); co-occurs with [ZFP36L1](../genes/ZFP36L1.md) (LOR=3.29, P=0.04); part of the significantly mutated gene set [PMID:33397444](../papers/33397444.md)
 - Myeloid-malignancy driver mutation observed at transformation in pediatric therapy-related [AML](../cancer_types/AML.md) arising from neuroblastoma [PMID:35078859](../papers/35078859.md)
 - Noted as a prognostic marker in pediatric Ewing sarcoma in a pan-sarcoma genomic profiling study of 7,494 cases (FoundationOne CDx); [TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), and STAG2 alterations carry prognostic weight in Ewing sarcoma [PMID:35705558](../papers/35705558.md)
 - Mutated in ~10% of Ewing sarcoma ([ES](../cancer_types/ES.md); n=99), co-occurring with [TP53](../genes/TP53.md) alterations, in a 2,138-sample MSK-IMPACT sarcoma cohort [PMID:35705560](../papers/35705560.md)
-- In [AML](../cancer_types/AML.md) cell-state analysis (n=68), STAG2 mutations confer greater ex vivo sensitivity to PIK-family inhibitors — a potentially actionable finding in typically chemotherapy-refractory AML [PMID:35868306](../papers/35868306.md)
-- STAG2 mutations correlated strongly with marrow blast percentage in this MDS cohort, alongside WT1 and NRAS [PMID:24030381](../papers/24030381.md)
-- STAG2 mutations were mutually exclusive with chromoplexy in EWSR1::ERG Ewing sarcoma and were not associated with metastatic presentation [PMID:38335254](../papers/38335254.md)
+- In [AML](../cancer_types/AML.md) cell-state analysis (n=68), STAG2 mutations confer greater ex vivo sensitivity to PIK-family inhibitors — a potentially actionable finding in typically chemotherapy-refractory [AML](../cancer_types/AML.md) [PMID:35868306](../papers/35868306.md)
+- STAG2 mutations correlated strongly with marrow blast percentage in this [MDS](../cancer_types/MDS.md) cohort, alongside [WT1](../genes/WT1.md) and [NRAS](../genes/NRAS.md) [PMID:24030381](../papers/24030381.md)
+- STAG2 mutations were mutually exclusive with chromoplexy in [EWSR1](../genes/EWSR1.md)::[ERG](../genes/ERG.md) Ewing sarcoma and were not associated with metastatic presentation [PMID:38335254](../papers/38335254.md)
 
 ## Cancer types (linked)
 
@@ -123,4 +123,4 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 - [PMID:24030381](../papers/24030381.md)
 - [PMID:38335254](../papers/38335254.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

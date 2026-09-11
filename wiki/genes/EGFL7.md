@@ -3,15 +3,15 @@ symbol: EGFL7
 aliases: []
 cancer_types: [ES]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # EGFL7
 
 ## Overview
 
-EGFL7 (EGF-like domain multiple 7) is a secreted angiogenesis-associated gene. In the corpus it appears as a non-canonical structural rearrangement partner of EWSR1 identified in Ewing sarcoma chromoplexy analysis, rather than as a recurrently mutated cancer gene.
+EGFL7 (EGF-like domain multiple 7) is a secreted angiogenesis-associated gene. In the corpus it appears as a non-canonical structural rearrangement partner of [EWSR1](../genes/EWSR1.md) identified in Ewing sarcoma chromoplexy analysis, rather than as a recurrently mutated cancer gene.
 
 ## Alterations observed in the corpus
 
@@ -23,7 +23,7 @@ EGFL7 (EGF-like domain multiple 7) is a secreted angiogenesis-associated gene. I
 
 ## Co-occurrence and mutual exclusivity
 
-- Identified alongside other non-canonical EWSR1 chromoplexy partners including ATR, ETS1, EP300, EZR, FOSB, NAB2 and ZNF331 [PMID:38335254](../papers/38335254.md).
+- Identified alongside other non-canonical EWSR1 chromoplexy partners including [ATR](../genes/ATR.md), [ETS1](../genes/ETS1.md), [EP300](../genes/EP300.md), [EZR](../genes/EZR.md), [FOSB](../genes/FOSB.md), [NAB2](../genes/NAB2.md) and [ZNF331](../genes/ZNF331.md) [PMID:38335254](../papers/38335254.md).
 
 ## Therapeutic relevance
 
@@ -37,4 +37,4 @@ EGFL7 (EGF-like domain multiple 7) is a secreted angiogenesis-associated gene. I
 
 - [PMID:38335254](../papers/38335254.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

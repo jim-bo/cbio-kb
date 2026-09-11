@@ -3,22 +3,22 @@ symbol: KAT6A
 aliases: [MYST3, MOZ, ZC2HC6A]
 cancer_types: [EAC]
 tags: [acetyltransferase, chromatin-remodeling, esophageal-adenocarcinoma, candidate-driver]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # KAT6A
 
 ## Overview
 
-KAT6A (lysine acetyltransferase 6A, formerly MYST3 or MOZ) encodes a MYST-family histone acetyltransferase involved in chromatin regulation and transcriptional control. In esophageal adenocarcinoma (EAC), KAT6A is recurrently mutated and has been nominated as a statistically significant candidate driver gene in a large WGS/WES study, though functional validation in EAC is pending.
+KAT6A (lysine acetyltransferase 6A, formerly MYST3 or MOZ) encodes a MYST-family histone acetyltransferase involved in chromatin regulation and transcriptional control. In esophageal adenocarcinoma ([EAC](../cancer_types/EAC.md)), KAT6A is recurrently mutated and has been nominated as a statistically significant candidate driver gene in a large WGS/WES study, though functional validation in EAC is pending.
 
 ## Alterations observed in the corpus
 
 - Mutated in 7/145 (5%) of esophageal adenocarcinomas (EAC) in a WGS/WES cohort; lysine acetyltransferase (formerly MYST3) nominated as significant driver candidate, not experimentally validated in this study [PMID:23525077](../papers/23525077.md)
 - Novel amplification target gene in lung ADC identified in the TCGA pan-lung cancer cohort [PMID:27158780](../papers/27158780.md)
-- KAT6A (also known as MYST3/MOZ) was not directly identified as a recurrently mutated gene in this DCIS/IDC-NST cohort; however, the study's WES landscape (52% TP53, 41% PIK3CA, 26% GATA3) provides the genomic context for rare chromatin-regulator alterations observed in synchronous breast cancer [PMID:32220886](../papers/32220886.md)
-- KAT6A rearrangements defined a distinct AML molecular category (7 of 887 cases), clustering with KMT2A-rearranged cases in the HOXA superfamily by expression [PMID:38212634](../papers/38212634.md).
+- KAT6A (also known as MYST3/MOZ) was not directly identified as a recurrently mutated gene in this DCIS/IDC-NST cohort; however, the study's WES landscape (52% [TP53](../genes/TP53.md), 41% [PIK3CA](../genes/PIK3CA.md), 26% [GATA3](../genes/GATA3.md)) provides the genomic context for rare chromatin-regulator alterations observed in synchronous breast cancer [PMID:32220886](../papers/32220886.md)
+- KAT6A rearrangements defined a distinct [AML](../cancer_types/AML.md) molecular category (7 of 887 cases), clustering with KMT2A-rearranged cases in the HOXA superfamily by expression [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
@@ -45,4 +45,4 @@ KAT6A (lysine acetyltransferase 6A, formerly MYST3 or MOZ) encodes a MYST-family
 - [PMID:32220886](../papers/32220886.md)
 - [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

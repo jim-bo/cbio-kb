@@ -3,19 +3,19 @@ symbol: ZFP36L2
 aliases: ["TIS11D", "ERF2", "BRF2"]
 cancer_types: [UTUC, BLCA]
 tags: [RNA-binding, tumor-suppressor, ZFP36-family]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ZFP36L2
 
 ## Overview
 
-ZFP36L2 ([ZFP36](../genes/ZFP36.md) Ring Finger Protein Like 2) is an RNA-binding protein of the CCCH tandem zinc finger family, closely related to ZFP36 (TTP) and [ZFP36L1](../genes/ZFP36L1.md). It promotes mRNA decay of AU-rich element-containing transcripts. In cancer, mutations in ZFP36L2 have been observed in urothelial tumors and identified as co-occurring with ZFP36L1 mutations across TCGA cancer types.
+ZFP36L2 ([ZFP36](../genes/ZFP36.md) Ring Finger Protein Like 2) is an RNA-binding protein of the CCCH tandem zinc finger family, closely related to [ZFP36](../genes/ZFP36.md) (TTP) and [ZFP36L1](../genes/ZFP36L1.md). It promotes mRNA decay of AU-rich element-containing transcripts. In cancer, mutations in ZFP36L2 have been observed in urothelial tumors and identified as co-occurring with [ZFP36L1](../genes/ZFP36L1.md) mutations across TCGA cancer types.
 
 ## Alterations observed in the corpus
 
-- Recurrent E249X stop-gain identified as a TCGA-BLCA hotspot; detected in 1 [UTUC](../cancer_types/UTUC.md) case (IGBMC cohort, n=40); contributes to the 26.7% overall ZFP36-family mutation rate in UTUC [PMID:33397444](../papers/33397444.md).
+- Recurrent E249X stop-gain identified as a TCGA-BLCA hotspot; detected in 1 [UTUC](../cancer_types/UTUC.md) case (IGBMC cohort, n=40); contributes to the 26.7% overall ZFP36-family mutation rate in [UTUC](../cancer_types/UTUC.md) [PMID:33397444](../papers/33397444.md).
 - ZFP36L1 and ZFP36L2 mutations are mutually co-occurring across TCGA cancer types (P<0.001, FDR=0.002) [PMID:33397444](../papers/33397444.md).
 - ZFP36L2 was a significantly mutated gene (HC-SMG) in 7% of a colorectal cancer cohort [PMID:35487942](../papers/35487942.md).
 
@@ -41,4 +41,4 @@ ZFP36L2 ([ZFP36](../genes/ZFP36.md) Ring Finger Protein Like 2) is an RNA-bindin
 - [PMID:33397444](../papers/33397444.md)
 - [PMID:35487942](../papers/35487942.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

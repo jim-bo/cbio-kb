@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [statistics, regularization, feature-selection]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # LASSO Regression
@@ -17,7 +17,7 @@ LASSO (Least Absolute Shrinkage and Selection Operator) regression is a regulari
 
 ## Used by
 
-- Used to select and weight driver-mutation, cytogenetic, and clinical variables for a revised prognostic model in myelodysplastic syndromes [PMID:24030381](../papers/24030381.md).
+- Used to [select](../methods/select.md) and weight driver-mutation, cytogenetic, and clinical variables for a revised prognostic model in myelodysplastic syndromes [PMID:24030381](../papers/24030381.md).
 
 ## Notes
 
@@ -28,4 +28,4 @@ LASSO (Least Absolute Shrinkage and Selection Operator) regression is a regulari
 
 - [PMID:24030381](../papers/24030381.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -8,8 +8,8 @@ tags:
   - apoptosis
   - somatic-mutation
   - whole-exome-sequencing
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # DDX3X
@@ -27,7 +27,7 @@ DDX3X encodes an X-linked DEAD-box RNA helicase involved in RNA metabolism, tran
 - Identified as significantly mutated in CLL (160 tumors, Broad cohort), with somatic mutations enriched in the RNA helicase domain [PMID:23415222](../papers/23415222.md)
 - Novel candidate SMG (RNA helicase) in cutaneous melanoma; previously unreported in melanoma [PMID:26091043](../papers/26091043.md)
 - Enriched in CLL samples receiving prior therapy; identified as a driver in CLL whole-exome sequencing study of 538 patients (n=278 CLL8 trial) [PMID:26466571](../papers/26466571.md)
-- Subclonal DDX3X variants observed alongside subclonal CTNNB1 hotspot mutations in WNT-subgroup medulloblastomas in the ICGC/CBTTC cohort (n=491), suggesting intratumoral heterogeneity in WNT MB [PMID:28726821](../papers/28726821.md).
+- Subclonal DDX3X variants observed alongside subclonal [CTNNB1](../genes/CTNNB1.md) hotspot mutations in WNT-subgroup medulloblastomas in the ICGC/CBTTC cohort (n=491), suggesting intratumoral heterogeneity in WNT MB [PMID:28726821](../papers/28726821.md).
 - DDX3X p.P167L (RNA processing gene) somatic mutation detected in normal perilesional melanocytes from donor 13 (back, peri-melanoma) in a study of UV-induced mutation landscape of normal skin [PMID:33029006](../papers/33029006.md)
 - DDX3X is a defining gene of the DGG-BL Burkitt lymphoma subgroup, mutated in 53.8% of male vs 25% of female patients, mainly truncating in males and almost exclusively missense in females. [PMID:36201743](../papers/36201743.md)
 
@@ -69,4 +69,4 @@ DDX3X encodes an X-linked DEAD-box RNA helicase involved in RNA metabolism, tran
 - [PMID:33029006](../papers/33029006.md)
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

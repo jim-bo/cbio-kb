@@ -3,8 +3,8 @@ symbol: PTPN11
 aliases: [SHP2]
 cancer_types: [LCH, ECD]
 tags: [ras-pathway]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # PTPN11
@@ -24,15 +24,15 @@ PTPN11 (SHP2) is a tyrosine phosphatase that acts upstream of RAS/MAPK signaling
 - Non-passenger mutation in breast adenoid cystic carcinoma (AdCC); rarely mutated in basal-like breast cancers. [PMID:26095796](../papers/26095796.md)
 - E76A/K hotspot in 2 desmoplastic melanoma tumors. [PMID:26343386](../papers/26343386.md)
 - Recurrent missense mutations in CLL (n=7, 1.3%); identified as a novel CLL driver modulating [MYC](../genes/MYC.md) activity in a 538-patient WES study [PMID:26466571](../papers/26466571.md)
-- PTPN11 co-occurs with NPM1 and modifies outcome in NPM1-mutated AML; part of the RTK-RAS pathway group identified in a 1540-patient AML genomic study [PMID:27276561](../papers/27276561.md).
-- G503V mutation in AML (MEK-inhibitor target); D61Y co-mutation with SETBP1 D868N reclassified a 4-year-old's diagnosis from de novo AML to JMML (which evolved into AML) in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
-- PTPN11 mutations enriched in anti-PD-1 responders in recurrent GBM (4 MAPK-pathway mutations among 13 responders vs 1 in 32 non-responders; within-cohort OR=12.8, p=0.019; vs TCGA background OR=5.1, p=0.018); authors highlight a PTEN/PTPN11 axis governing immunosuppression described in prostate cancer [PMID:30742119](../papers/30742119.md)
-- PTPN11 (SHP2) pY542 phosphoprotein level is a dependency biomarker; phospho-level explains ponatinib sensitivity in AML and CML lines harboring FLT3, PDGFRA, FGFR1, KIT, or BCR-ABL1 alterations [PMID:31068700](../papers/31068700.md)
-- PTPN11 is preferentially altered in recurrent lower-grade IDH-WT gliomas that started as grade II/III (P<0.05), alongside NF1 [PMID:31263031](../papers/31263031.md)
+- PTPN11 co-occurs with [NPM1](../genes/NPM1.md) and modifies outcome in NPM1-mutated [AML](../cancer_types/AML.md); part of the RTK-RAS pathway group identified in a 1540-patient AML genomic study [PMID:27276561](../papers/27276561.md).
+- G503V mutation in AML (MEK-inhibitor target); D61Y co-mutation with [SETBP1](../genes/SETBP1.md) D868N reclassified a 4-year-old's diagnosis from de novo AML to [JMML](../cancer_types/JMML.md) (which evolved into AML) in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
+- PTPN11 mutations enriched in anti-PD-1 responders in recurrent [GBM](../cancer_types/GBM.md) (4 MAPK-pathway mutations among 13 responders vs 1 in 32 non-responders; within-cohort OR=12.8, p=0.019; vs TCGA background OR=5.1, p=0.018); authors highlight a PTEN/PTPN11 axis governing immunosuppression described in prostate cancer [PMID:30742119](../papers/30742119.md)
+- PTPN11 (SHP2) pY542 phosphoprotein level is a dependency biomarker; phospho-level explains [ponatinib](../drugs/ponatinib.md) sensitivity in AML and [CML](../cancer_types/CML.md) lines harboring [FLT3](../genes/FLT3.md), [PDGFRA](../genes/PDGFRA.md), [FGFR1](../genes/FGFR1.md), [KIT](../genes/KIT.md), or BCR-ABL1 alterations [PMID:31068700](../papers/31068700.md)
+- PTPN11 is preferentially altered in recurrent lower-grade IDH-WT gliomas that started as grade II/III (P<0.05), alongside [NF1](../genes/NF1.md) [PMID:31263031](../papers/31263031.md)
 - Altered in 9% of neuroblastoma PDX models (nonsense/frameshift mutations) in the PPTC genomic characterization study of 261 pediatric cancer PDX models [PMID:31693904](../papers/31693904.md).
-- Y62 phosphorylation (in EGFR-mutant [LUAD](../cancer_types/LUAD.md)) and Y546/Y584 phosphorylation (in ALK-fusion LUAD) identified by phosphoproteomics without changes in RNA or protein abundance; nominated as therapeutic target for EGFR-mutant and EML4-ALK-fusion LUAD [PMID:32649874](../papers/32649874.md)
+- Y62 phosphorylation (in EGFR-mutant [LUAD](../cancer_types/LUAD.md)) and Y546/Y584 phosphorylation (in ALK-fusion [LUAD](../cancer_types/LUAD.md)) identified by phosphoproteomics without changes in RNA or protein abundance; nominated as therapeutic target for EGFR-mutant and EML4-ALK-fusion LUAD [PMID:32649874](../papers/32649874.md)
 - Secondary RTK-RAS regulator contributing to NF1/BRAF Class 3 co-alteration patterns in melanoma; listed among backseat co-alterations in driver-stratified immunotherapy outcomes study [PMID:33509808](../papers/33509808.md)
-- Y62 phosphorylation activated by EGFR; Y546/Y584 by PDGFRA; forms complex with GAB1/GRB2 to activate RAS; identified as a convergent RTK signaling hub in GBM multi-omic profiling [PMID:33577785](../papers/33577785.md)
+- Y62 phosphorylation activated by [EGFR](../genes/EGFR.md); Y546/Y584 by PDGFRA; forms complex with GAB1/GRB2 to activate RAS; identified as a convergent RTK signaling hub in GBM multi-omic profiling [PMID:33577785](../papers/33577785.md)
 - RAS-pathway mutation identified among transformation drivers in pediatric therapy-related myeloid neoplasms arising from neuroblastoma; patient 118728 had multiple RAS-pathway hits including PTPN11 [PMID:35078859](../papers/35078859.md)
 - PTPN11 was among RAS-pathway cooperating mutations in a pediatric AML cohort [PMID:38212634](../papers/38212634.md)
 
@@ -93,4 +93,4 @@ PTPN11 (SHP2) is a tyrosine phosphatase that acts upstream of RAS/MAPK signaling
 - [PMID:35078859](../papers/35078859.md)
 - [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

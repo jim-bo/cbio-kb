@@ -4,8 +4,8 @@ oncotree_code: MFH
 main_type: Soft Tissue Sarcoma
 parent: SOFT_TISSUE
 tags: [radiation-associated-sarcoma, soft-tissue-sarcoma]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 canonical_source: oncotree
 unverified: false
 ---
@@ -25,7 +25,7 @@ Undifferentiated pleomorphic sarcoma ([UPS](../cancer_types/UPS.md)), historical
 
 - [TP53](../genes/TP53.md) LOF mutations/deletions in 43% of RT-UPS vs 57% sporadic [UPS](../cancer_types/UPS.md) [PMID:37350195](../papers/37350195.md).
 - [CDKN2A](../genes/CDKN2A.md)/[CDKN2B](../genes/CDKN2B.md) deletions in 29% of RT-UPS vs 20% sporadic [UPS](../cancer_types/UPS.md) [PMID:37350195](../papers/37350195.md).
-- [KMT2D](../genes/KMT2D.md) truncating/missense mutations in 21% of RT-UPS vs 4% sporadic UPS [PMID:37350195](../papers/37350195.md).
+- [KMT2D](../genes/KMT2D.md) truncating/missense mutations in 21% of RT-UPS vs 4% sporadic [UPS](../cancer_types/UPS.md) [PMID:37350195](../papers/37350195.md).
 - [RB1](../genes/RB1.md) truncating mutations/deletions in 14% of RT-UPS vs 19% sporadic UPS [PMID:37350195](../papers/37350195.md).
 - [NOTCH3](../genes/NOTCH3.md) missense mutations in 14% of RT-UPS vs 4% sporadic UPS [PMID:37350195](../papers/37350195.md).
 - RT-UPS had the highest insertion:SNV and deletion:SNV ratios among RT-sarcomas (adjusted P < 0.05) [PMID:37350195](../papers/37350195.md).
@@ -49,4 +49,4 @@ Undifferentiated pleomorphic sarcoma ([UPS](../cancer_types/UPS.md)), historical
 - [PMID:35705558](../papers/35705558.md)
 - [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -3,8 +3,8 @@ symbol: PPP2R1A
 aliases: []
 cancer_types: [UCEC]
 tags: [pi3k-pathway, phosphatase, tumor-suppressor, endometrial]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 canonical_source: cbioportal
 unverified: false
 ---
@@ -23,7 +23,7 @@ PPP2R1A encodes the scaffold A subunit of Protein Phosphatase 2A (PP2A), a serin
 - Recurrent low-VAF oncogenic mutations in endometrial polyps (WGS, 23 polyps); part of the canonical [UCEC](../cancer_types/UCEC.md) driver gene landscape co-occurring with [PIK3CA](../genes/PIK3CA.md), [PIK3R1](../genes/PIK3R1.md), [PTEN](../genes/PTEN.md), [ERBB2](../genes/ERBB2.md), and [FBXW7](../genes/FBXW7.md) mutations [PMID:41137179](../papers/41137179.md)
 - Mutated in 15.9% of clear-cell endometrial carcinoma (CCEC; n=63); co-enriched with [TP53](../genes/TP53.md) in serous-like profiles, suggesting a role in high-grade CCEC [PMID:28485815](../papers/28485815.md)
 - Referenced from prior targeted-panel literature as recurrent in HPV(−) vulvar SCC; not identified as a new finding in this 15-tumor WES cohort [PMID:29422544](../papers/29422544.md)
-- PPP2R1A co-occurs with [TP53](../genes/TP53.md) (and with [IDH1](../genes/IDH1.md), [ATRX](../genes/ATRX.md), [RB1](../genes/RB1.md), [CDKN2A](../genes/CDKN2A.md)) and drives one of two mutually-exclusive somatic driver networks in [UCEC](../cancer_types/UCEC.md), the TP53–PPP2R1A network, which is mutually exclusive from the [CTNNB1](../genes/CTNNB1.md)–[PTEN](../genes/PTEN.md)–[CTCF](../genes/CTCF.md) network [PMID:29625049](../papers/29625049.md)
+- PPP2R1A co-occurs with [TP53](../genes/TP53.md) (and with [IDH1](../genes/IDH1.md), [ATRX](../genes/ATRX.md), [RB1](../genes/RB1.md), [CDKN2A](../genes/CDKN2A.md)) and drives one of two mutually-exclusive somatic driver networks in [UCEC](../cancer_types/UCEC.md), the [TP53](../genes/TP53.md)–PPP2R1A network, which is mutually exclusive from the [CTNNB1](../genes/CTNNB1.md)–[PTEN](../genes/PTEN.md)–[CTCF](../genes/CTCF.md) network [PMID:29625049](../papers/29625049.md)
 - Shared mutation across primary tumor, mesenteric implant, three lymph nodes, and cfDNA in EC patient CD22; demonstrates multi-site clonal concordance in ctDNA monitoring ([ucec_ccr_cfdna_msk_2022](../datasets/ucec_ccr_cfdna_msk_2022.md)) [PMID:36007103](../papers/36007103.md)
 - PPP2R1A was mutated in 17% of ERBB2-mutated endometrial cancers, a high-grade EC-associated co-mutation [PMID:39031567](../papers/39031567.md)
 
@@ -62,4 +62,4 @@ PPP2R1A encodes the scaffold A subunit of Protein Phosphatase 2A (PP2A), a serin
 - [PMID:36007103](../papers/36007103.md)
 - [PMID:39031567](../papers/39031567.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

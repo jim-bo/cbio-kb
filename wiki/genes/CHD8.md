@@ -3,8 +3,8 @@ symbol: CHD8
 aliases: []
 cancer_types: [DLBCLNOS]
 tags: [chromatin-remodeling, SWI-SNF, driver, transcription]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CHD8
@@ -16,7 +16,7 @@ CHD8 (Chromodomain Helicase DNA Binding Protein 8) is an ATP-dependent chromatin
 ## Alterations observed in the corpus
 
 - CHD8 was identified as a driver-gene cluster member in DLBCL within the signaling, cell growth, B-cell development, and transcription/translation functional groups, based on whole-exome sequencing of 1001 de novo DLBCL patients (150 recurrent driver genes). [PMID:28985567](../papers/28985567.md)
-- CHD8 is among the Burkitt lymphoma significantly mutated genes whose role this study further supports, alongside SIN3A, USP7, H1-4 and RFX7 [PMID:36201743](../papers/36201743.md).
+- CHD8 is among the Burkitt lymphoma significantly mutated genes whose role this study further supports, alongside [SIN3A](../genes/SIN3A.md), [USP7](../genes/USP7.md), [H1-4](../genes/H1-4.md) and [RFX7](../genes/RFX7.md) [PMID:36201743](../papers/36201743.md).
 
 ## Cancer types (linked)
 
@@ -39,4 +39,4 @@ CHD8 (Chromodomain Helicase DNA Binding Protein 8) is an ATP-dependent chromatin
 - [PMID:28985567](../papers/28985567.md)
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

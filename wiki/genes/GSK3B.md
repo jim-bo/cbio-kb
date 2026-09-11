@@ -3,8 +3,8 @@ symbol: GSK3B
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # GSK3B
@@ -24,7 +24,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - GSK3B upregulated in ganglioglioma and Ganglio-rich [LGG](../cancer_types/LGG.md) in pediatric brain tumors; substrate networks include ADD2 (Ser604/Ser693), SYN1 (Ser553), STMN1 (Ser38) [PMID:33242424](../papers/33242424.md)
 - Phosphorylation of GSK3B positively associated with mTOR substrates ([RPTOR](../genes/RPTOR.md), [TSC1](../genes/TSC1.md)) and Wnt substrates ([CTNNB1](../genes/CTNNB1.md), [APC](../genes/APC.md)) in a proteogenomic [GBM](../cancer_types/GBM.md) study (n=99 tumors, CPTAC) [PMID:33577785](../papers/33577785.md)
 - GSK3B kinase activity decreased in [HCC](../cancer_types/HCC.md) vs normal liver by KSEA (kinase-substrate enrichment analysis) in an integrated (phospho)proteogenomic characterization of 122 [HCC](../cancer_types/HCC.md) biopsies [PMID:35508466](../papers/35508466.md)
-- Nominated as a top oncogenic master regulator (PI3K/AKT/mTOR pathway component) by OncoTarget analysis in MYOD1 L122R-driven rhabdomyosarcoma [PMID:41758938](../papers/41758938.md).
+- Nominated as a top oncogenic master regulator (PI3K/AKT/mTOR pathway component) by OncoTarget analysis in [MYOD1](../genes/MYOD1.md) L122R-driven rhabdomyosarcoma [PMID:41758938](../papers/41758938.md).
 
 ## Cancer types (linked)
 
@@ -60,4 +60,4 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - [PMID:35508466](../papers/35508466.md)
 - [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

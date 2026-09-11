@@ -3,8 +3,8 @@ symbol: SMARCA4
 aliases: [BRG1]
 cancer_types: [MRTL, ESCA, ESCC, EAC]
 tags: [tumor-suppressor, somatic, swi-snf, chromatin-remodeling, ezh2-target]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # SMARCA4
@@ -43,7 +43,7 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 ## Co-occurrence and mutual exclusivity
 
 - Co-occurs with [KMT2D](../genes/KMT2D.md) mutation in ESCC3; all ESCC3 tumors also had PI3K-pathway activating alterations. [PMID:28052061](../papers/28052061.md)
-- Part of the SWI/SNF complex alongside [SMARCB1](../genes/SMARCB1.md), [SMARCC2](../genes/SMARCC2.md), [ARID1A](../genes/ARID1A.md), and [PBRM1](../genes/PBRM1.md); alterations in these genes are enriched in EAC collectively. [PMID:28007021](../papers/28007021.md) [PMID:28052061](../papers/28052061.md)
+- Part of the SWI/SNF complex alongside [SMARCB1](../genes/SMARCB1.md), [SMARCC2](../genes/SMARCC2.md), [ARID1A](../genes/ARID1A.md), and [PBRM1](../genes/PBRM1.md); alterations in these genes are enriched in [EAC](../cancer_types/EAC.md) collectively. [PMID:28007021](../papers/28007021.md) [PMID:28052061](../papers/28052061.md)
 
 ## Therapeutic relevance
 
@@ -89,4 +89,4 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 - [PMID:36007103](../papers/36007103.md)
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

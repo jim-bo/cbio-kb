@@ -3,8 +3,8 @@ symbol: MSH6
 aliases: []
 cancer_types: [BRAIN, PRAD, PITU, GYNEC, UCEC, GB]
 tags: [mismatch-repair, MMR, MSI, hypermutation, immunotherapy, alkylator-resistance]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MSH6
@@ -47,7 +47,7 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - Somatic deleterious mutations enriched in MSI-H tumors of [ACC](../cancer_types/ACC.md), [CESC](../cancer_types/CESC.md), and [MESO](../cancer_types/MESO.md) in a pan-TCGA analysis; MSH6 was one of five MMR genes explicitly screened for DANN-pathogenic somatic variants [PMID:29850653](../papers/29850653.md)
 - MSH6, a mismatch-repair gene, was implicated as a mechanism of alkylator-induced hypermutation in 5/42 (12%) ctDNA-positive glioma CSF samples, all of which had received [temozolomide](../drugs/temozolomide.md) [PMID:30675060](../papers/30675060.md).
 - MSH6 mutations found in 2 of 80 metastatic panNET patients (OncoKB Level 4); acquired MMR-gene mutations including MSH6 were observed in post-alkylator hypermutated tumors, a previously unreported pattern in panNET [PMID:30687805](../papers/30687805.md)
-- Concordant MSH6 protein loss follows truncating MSH2 mutations in cancer cell lines (CCLE); MSH6 co-loss is a marker of MMR-deficiency in this context. [PMID:31068700](../papers/31068700.md)
+- Concordant MSH6 protein loss follows truncating [MSH2](../genes/MSH2.md) mutations in cancer cell lines (CCLE); MSH6 co-loss is a marker of MMR-deficiency in this context. [PMID:31068700](../papers/31068700.md)
 - Germline MMR alleles (MSH2, MSH6) detected in glioma patients; somatic MSH6 mutations found in 31/38 (82%) hypermutated recurrences; biallelic loss in two cases with Lynch-pattern MSI hypermutation. [PMID:31263031](../papers/31263031.md)
 - Significantly reduced transcript and protein expression (by IHC) in [UTUC](../cancer_types/UTUC.md) vs UCB in the absence of germline or somatic mutations; insufficient to cause MSI or elevate TMB. [PMID:31278255](../papers/31278255.md)
 - Germline MMR variants in [MLH1](../genes/MLH1.md) and MSH6 found in 15/90 (16.7%) of R/M [ACC](../cancer_types/ACC.md) cases; all tumors were microsatellite-stable despite the variants [PMID:31483290](../papers/31483290.md).
@@ -61,7 +61,7 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - MSH6 (DNA mismatch repair gene) showed no significant alteration-prevalence difference by race in an MSK-IMPACT prostate cancer cohort (n=2,069); MSI prevalence and TMB also did not differ by race, contradicting a prior Project GENIE-based report. [PMID:34667026](../papers/34667026.md)
 - MSH6 protein assayed by IHC as part of the MMR panel in 94 Nigerian CRC tumors; MSH6 loss contributes to the markedly elevated MSI-H rate (28.1%) observed in the Nigerian ARGO cohort vs. TCGA (14.2%) and MSKCC (8.5%, P<0.001) [PMID:34819518](../papers/34819518.md)
 - In the MAPPYACTS trial, MSH6 germline mutations contributed to CMMRD in 3 hypermutated pediatric patients; MSH6 was among 49 germline SNVs in DNA repair genes detected across the cohort, with TMB >10 mut/Mb and microsatellite instability identified in affected tumors [PMID:35292802](../papers/35292802.md).
-- MMR gene altered in 2.1% of sarcomas (n=7,494) alongside MLH1, MSH2, and [PMS2](../genes/PMS2.md), tightly correlated with MSI-H status [PMID:35705558](../papers/35705558.md)
+- MMR gene altered in 2.1% of sarcomas (n=7,494) alongside [MLH1](../genes/MLH1.md), MSH2, and [PMS2](../genes/PMS2.md), tightly correlated with MSI-H status [PMID:35705558](../papers/35705558.md)
 - MMR gene altered in sarcoma clinical sequencing cohort (n=2,138); collectively MLH1, MSH2, MSH6, [PMS2](../genes/PMS2.md) altered in sarcomas [PMID:35705560](../papers/35705560.md)
 - Accounts for 12 (48%) germline and 7 (18%) somatic MMR-mutant endometrial cancers; 83% of MSH6-germline ECs are MSS or MSI-indeterminate by MSIsensor, suggesting reduced sensitivity of molecular MSI assays for MSH6-driven Lynch syndrome [PMID:35849120](../papers/35849120.md)
 - Mechanism of mismatch repair deficiency in ERBB2-mutated endometrial cancer: Lynch germline mutations (n=4 of 21); one case had isolated MSH6 loss by IHC [PMID:39031567](../papers/39031567.md).
@@ -151,4 +151,4 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - [PMID:39031567](../papers/39031567.md)
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

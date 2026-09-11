@@ -9,8 +9,8 @@ cancer_types:
   - GBM
   - IHCH
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CDKN2A
@@ -45,11 +45,11 @@ CDKN2A encodes two distinct tumor suppressors via alternative reading frames: p1
 - Recurrently mutated (LOF impacting p16INK4a and ARF) and structurally deleted (DEL) in 25 metastatic [CSCC](../cancer_types/CSCC.md) WGS samples; driver confirmed by all three tools; deep deletion in 1/25 samples; proposed rationale for CDK4/6 inhibition with [palbociclib](../drugs/palbociclib.md) in metastatic [CSCC](../cancer_types/CSCC.md) [PMID:35982973](../papers/35982973.md)
 - E61Pfs*54 frameshift clonal in one endometrial carcinoma primary ([CD28](../genes/CD28.md)); not detected in baseline cfDNA but detected at 6-month follow-up by MSK-ACCESS panel [PMID:36007103](../papers/36007103.md)
 - Paradoxically p16-high (overexpression by IHC and RNA-seq) in all chromosome 12 chromothripsis atypical [SCLC](../cancer_types/SCLC.md) cases (A07, A08, A09) despite wild-type pRb, reflecting posttranslational pRb inhibition by ecDNA-amplified [CDK4](../genes/CDK4.md) creating a pRb-null-like state [PMID:39185963](../papers/39185963.md)
-- CDKN2A was more often mutated in EBV-negative Burkitt lymphoma, along with MIR17HG, PTEN, SMARCA4, FBXO11, STAT6 and PHF6 [PMID:36201743](../papers/36201743.md).
+- CDKN2A was more often mutated in EBV-negative Burkitt lymphoma, along with [MIR17HG](../genes/MIR17HG.md), [PTEN](../genes/PTEN.md), [SMARCA4](../genes/SMARCA4.md), [FBXO11](../genes/FBXO11.md), [STAT6](../genes/STAT6.md) and [PHF6](../genes/PHF6.md) [PMID:36201743](../papers/36201743.md).
 - CDKN2A alterations showed no association with chromoplexy or metastatic presentation in Ewing sarcoma [PMID:38335254](../papers/38335254.md).
 - CDKN2A was detected in ctDNA in 12% of ctDNA-positive pancreatic cancer patients, with tissue-ctDNA concordance of 89.5% in untreated stage IV vs 33.3% in untreated stage I-III [PMID:40511613](../papers/40511613.md).
-- CDKN2A recurrent (5-15%) inactivating mutations or copy-number deletions were found in MYOD1-mutant rhabdomyosarcoma, alongside MGA, CHEK2, SMARCB1, ARID1A and NOTCH4 [PMID:41758938](../papers/41758938.md).
-- CDKN2A carried all 12 new pan-cancer-independent hotspots alongside TP53 and was rescued as a canonical driver in 15 cancer types [PMID:41895280](../papers/41895280.md).
+- CDKN2A recurrent (5-15%) inactivating mutations or copy-number deletions were found in MYOD1-mutant rhabdomyosarcoma, alongside [MGA](../genes/MGA.md), [CHEK2](../genes/CHEK2.md), [SMARCB1](../genes/SMARCB1.md), [ARID1A](../genes/ARID1A.md) and [NOTCH4](../genes/NOTCH4.md) [PMID:41758938](../papers/41758938.md).
+- CDKN2A carried all 12 new pan-cancer-independent hotspots alongside [TP53](../genes/TP53.md) and was rescued as a canonical driver in 15 cancer types [PMID:41895280](../papers/41895280.md).
 - CDKN2A was altered in 21% of microsatellite-stable biliary tract cancers and was among alterations associated with acquired resistance to targeted therapy [PMID:42360806](../papers/42360806.md).
 
 ## Cancer types (linked)
@@ -123,4 +123,4 @@ CDKN2A encodes two distinct tumor suppressors via alternative reading frames: p1
 - [PMID:41895280](../papers/41895280.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

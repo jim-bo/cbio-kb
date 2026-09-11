@@ -3,19 +3,19 @@ symbol: RARB
 aliases: []
 cancer_types: [AML]
 tags: [fusion-gene, acute-promyelocytic-leukemia]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # RARB
 
 ## Overview
 
-RARB (retinoic acid receptor beta) is a nuclear hormone receptor gene occasionally involved in fusion events resembling the canonical PML::RARA fusion of acute promyelocytic leukemia (APL).
+RARB (retinoic acid receptor beta) is a nuclear hormone receptor gene occasionally involved in fusion events resembling the canonical [PML](../genes/PML.md)::[RARA](../genes/RARA.md) fusion of acute promyelocytic leukemia (APL).
 
 ## Alterations observed in the corpus
 
-- A TBL1XR1::RARB fusion was identified in one of four APL cases in a pediatric AML cohort and was assigned by expression similarity to the canonical PML::RARA category [PMID:38212634](../papers/38212634.md).
+- A [TBL1XR1](../genes/TBL1XR1.md)::RARB fusion was identified in one of four APL cases in a pediatric [AML](../cancer_types/AML.md) cohort and was assigned by expression similarity to the canonical PML::RARA category [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ RARB (retinoic acid receptor beta) is a nuclear hormone receptor gene occasional
 
 - [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

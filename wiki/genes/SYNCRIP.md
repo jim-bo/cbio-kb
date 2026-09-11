@@ -3,19 +3,19 @@ symbol: SYNCRIP
 aliases: []
 cancer_types: [BL, DLBCLNOS]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # SYNCRIP
 
 ## Overview
 
-SYNCRIP is an RNA-binding protein identified as a significantly mutated gene (SMG) in Burkitt lymphoma (BL) that is also recurrently altered in diffuse large B-cell lymphoma (DLBCL).
+SYNCRIP is an RNA-binding protein identified as a significantly mutated gene (SMG) in Burkitt lymphoma ([BL](../cancer_types/BL.md)) that is also recurrently altered in diffuse large B-cell lymphoma (DLBCL).
 
 ## Alterations observed in the corpus
 
-- SYNCRIP is a BL significantly mutated gene (SMG), mutated at similar or higher rates in DLBCL as in BL, and more often mutated in EBV-negative BL than EBV-positive BL — alongside BRAF and EZH2 in the same SMG category [PMID:36201743](../papers/36201743.md).
+- SYNCRIP is a BL significantly mutated gene (SMG), mutated at similar or higher rates in DLBCL as in BL, and more often mutated in EBV-negative BL than EBV-positive BL — alongside [BRAF](../genes/BRAF.md) and [EZH2](../genes/EZH2.md) in the same SMG category [PMID:36201743](../papers/36201743.md).
 
 ## Cancer types (linked)
 
@@ -38,4 +38,4 @@ SYNCRIP is an RNA-binding protein identified as a significantly mutated gene (SM
 
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -4,15 +4,15 @@ oncotree_code: PRCC
 main_type: Renal Cell Carcinoma
 parent: NCCRCC
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Papillary Renal Cell Carcinoma (PRCC)
 
 ## Overview
 
-Papillary Renal Cell Carcinoma (PRCC) is a subtype of non-clear cell renal cell carcinoma (nccRCC) originating in the kidney tubular epithelium, characterised by papillary or tubular architecture. It sits under NCCRCC in OncoTree (tissue: Kidney) and is the most common non-clear cell RCC subtype.
+Papillary Renal Cell Carcinoma (PRCC) is a subtype of non-clear cell renal cell carcinoma (nccRCC) originating in the kidney tubular epithelium, characterised by papillary or tubular architecture. It sits under [NCCRCC](../cancer_types/NCCRCC.md) in OncoTree (tissue: Kidney) and is the most common non-clear cell [RCC](../cancer_types/RCC.md) subtype.
 
 ## Cohorts in the corpus
 
@@ -20,15 +20,15 @@ Papillary Renal Cell Carcinoma (PRCC) is a subtype of non-clear cell renal cell 
 
 ## Recurrent alterations
 
-- Integrated exome/RNA-seq/CNV profiling of 67 pRCCs identified ten significantly mutated genes: MET (15%, including novel activating kinase-domain mutations), NF2, SLC5A3, PNKD, CPQ, LRP2, CHD3, NHERF1, SETD2, and CRTC1; ~70% of pRCCs harbour chr7 amplification encompassing MET; mutational burden in pRCC exceeded ccRCC (mean 61 vs 45 protein-coding alterations, P=3.6×10⁻⁷) [PMID:25401301](../papers/25401301.md).
-- A novel transforming ACTG1-MITF gene fusion was identified in one pRCC sample, activating HIF1A, MET, and APEX1 targets [PMID:25401301](../papers/25401301.md).
-- URCC (n=62, MSKCC) harbors MET H1094Y (T62) and BAP1/SETD2 chromatin alterations overlapping [PRCC](../cancer_types/PRCC.md) biology; NF2/SETD2-mutant cases are noted to be histologically near the type 2 pRCC boundary [PMID:27713405](../papers/27713405.md).
-- In the TCGA pan-cancer LIG1 analysis, papillary renal cell carcinoma (TCGA KIRP) showed the strongest association between LIG1 heterozygous loss and worse progression-free survival of any cancer type tested (HR 4, P=0.0001). [PMID:36001024](../papers/36001024.md)
+- Integrated exome/RNA-seq/CNV profiling of 67 pRCCs identified ten significantly mutated genes: [MET](../genes/MET.md) (15%, including novel activating kinase-domain mutations), [NF2](../genes/NF2.md), [SLC5A3](../genes/SLC5A3.md), [PNKD](../genes/PNKD.md), [CPQ](../genes/CPQ.md), [LRP2](../genes/LRP2.md), [CHD3](../genes/CHD3.md), [NHERF1](../genes/NHERF1.md), [SETD2](../genes/SETD2.md), and [CRTC1](../genes/CRTC1.md); ~70% of pRCCs harbour chr7 amplification encompassing MET; mutational burden in pRCC exceeded ccRCC (mean 61 vs 45 protein-coding alterations, P=3.6×10⁻⁷) [PMID:25401301](../papers/25401301.md).
+- A novel transforming ACTG1-MITF gene fusion was identified in one pRCC sample, activating [HIF1A](../genes/HIF1A.md), MET, and [APEX1](../genes/APEX1.md) targets [PMID:25401301](../papers/25401301.md).
+- [URCC](../cancer_types/URCC.md) (n=62, MSKCC) harbors MET H1094Y (T62) and BAP1/SETD2 chromatin alterations overlapping [PRCC](../cancer_types/PRCC.md) biology; NF2/SETD2-mutant cases are noted to be histologically near the type 2 pRCC boundary [PMID:27713405](../papers/27713405.md).
+- In the TCGA pan-cancer [LIG1](../genes/LIG1.md) analysis, papillary renal cell carcinoma (TCGA [KIRP](../cancer_types/KIRP.md)) showed the strongest association between LIG1 heterozygous loss and worse progression-free survival of any cancer type tested (HR 4, P=0.0001). [PMID:36001024](../papers/36001024.md)
 - Among 66,285 MSK-IMPACT-sequenced tumors, papillary renal cell carcinoma had the highest rate of MET amplification of any cancer type screened, at 8.4%. [PMID:36044468](../papers/36044468.md)
 
 ## Subtypes
 
-- MiTF-high pRCC — characterised by MITF/TFE3/TFEB fusions, amplifications, or overexpression; BIRC7 is overexpressed and proposed as a therapeutic target [PMID:25401301](../papers/25401301.md).
+- MiTF-high pRCC — characterised by MITF/TFE3/TFEB fusions, amplifications, or overexpression; [BIRC7](../genes/BIRC7.md) is overexpressed and proposed as a therapeutic target [PMID:25401301](../papers/25401301.md).
 - A five-gene RNA-seq classifier (ASB1, GLYAT, PDZK1IP1, PLCG2, SDCBP2) separates pRCC from chRCC and renal oncocytoma at 95.3% accuracy [PMID:25401301](../papers/25401301.md).
 
 ## Therapeutic landscape
@@ -42,4 +42,4 @@ Papillary Renal Cell Carcinoma (PRCC) is a subtype of non-clear cell renal cell 
 - [PMID:36001024](../papers/36001024.md)
 - [PMID:36044468](../papers/36044468.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -3,8 +3,8 @@ symbol: SMC1A
 aliases: []
 cancer_types: [AML]
 tags: [cohesin, chromatin, AML]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # SMC1A
@@ -17,15 +17,15 @@ SMC1A encodes structural maintenance of chromosomes protein 1A, a core ATPase su
 
 - SMC1A is a recurrent cohesin-complex gene mutated in [AML](../cancer_types/AML.md) (13% combined cohesin prevalence alongside [SMC3](../genes/SMC3.md), [RAD21](../genes/RAD21.md), and [STAG2](../genes/STAG2.md)) [PMID:23634996](../papers/23634996.md)
 - Cohesin subunit altered in 3% of transitional cell carcinoma; part of the 32% SCCS-pathway alteration burden defining bladder cancer as the first solid tumor with predominant cohesin lesions [PMID:24121792](../papers/24121792.md)
-- SMC1A was not on the 111-gene bait set used in this MDS cohort (described after panel design) and may help explain part of the 22% of driver-negative patients, alongside SETBP1 and SMC3 [PMID:24030381](../papers/24030381.md)
+- SMC1A was not on the 111-gene bait set used in this [MDS](../cancer_types/MDS.md) cohort (described after panel design) and may help explain part of the 22% of driver-negative patients, alongside [SETBP1](../genes/SETBP1.md) and [SMC3](../genes/SMC3.md) [PMID:24030381](../papers/24030381.md)
 
 ## Cancer types (linked)
 
-- [AML](../cancer_types/AML.md): cohesin mutations including SMC1A are present in ~13% of AML cases; associated with a distinct mutual-exclusivity pattern relative to [ASXL1](../genes/ASXL1.md) and other epigenetic modifiers [PMID:23634996](../papers/23634996.md)
+- [AML](../cancer_types/AML.md): cohesin mutations including SMC1A are present in ~13% of [AML](../cancer_types/AML.md) cases; associated with a distinct mutual-exclusivity pattern relative to [ASXL1](../genes/ASXL1.md) and other epigenetic modifiers [PMID:23634996](../papers/23634996.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- SMC1A co-mutated with other cohesin subunits (SMC3, RAD21, STAG2) in AML; cohesin gene mutations are part of a mutual-exclusivity group vs. [ASXL1](../genes/ASXL1.md) [PMID:23634996](../papers/23634996.md)
+- SMC1A co-mutated with other cohesin subunits (SMC3, [RAD21](../genes/RAD21.md), [STAG2](../genes/STAG2.md)) in AML; cohesin gene mutations are part of a mutual-exclusivity group vs. [ASXL1](../genes/ASXL1.md) [PMID:23634996](../papers/23634996.md)
 
 ## Therapeutic relevance
 
@@ -42,4 +42,4 @@ SMC1A encodes structural maintenance of chromosomes protein 1A, a core ATPase su
 - [PMID:24121792](../papers/24121792.md)
 - [PMID:24030381](../papers/24030381.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

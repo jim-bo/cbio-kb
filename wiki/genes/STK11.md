@@ -3,8 +3,8 @@ symbol: STK11
 aliases: [LKB1]
 cancer_types: [STAD]
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # STK11
@@ -34,7 +34,7 @@ STK11 (LKB1) encodes a serine/threonine kinase that acts as a tumor suppressor r
 - Enriched in pN+ [LUAD](../cancer_types/LUAD.md) tumors (22% vs 12%, p=0.024); entered multivariable selection for lymph node metastasis association but did not retain independence in the final model [PMID:34290393](../papers/34290393.md)
 - Among long-latency driver groups in LCINS (MRCA > a decade pre-diagnosis), representing an early genomic event in lung cancer development in never smokers [PMID:34493867](../papers/34493867.md)
 - NSCLC-typical STK11 mutations observed in [SCLC](../cancer_types/SCLC.md) PDX subsets MSK1053, MSK511c, and MSK773D/E/G/I, co-occurring with [SMARCA4](../genes/SMARCA4.md), [KEAP1](../genes/KEAP1.md), and [PTPRS](../genes/PTPRS.md) alterations in the MSK [SCLC](../cancer_types/SCLC.md) PDX/CDX cohort [PMID:35440124](../papers/35440124.md).
-- STK11 has new mutational hotspots found mainly in lung cancer that co-occur with new KEAP1 hotspots and vice versa [PMID:41895280](../papers/41895280.md)
+- STK11 has new mutational hotspots found mainly in lung cancer that co-occur with new [KEAP1](../genes/KEAP1.md) hotspots and vice versa [PMID:41895280](../papers/41895280.md)
 
 ## Cancer types (linked)
 
@@ -93,4 +93,4 @@ STK11 (LKB1) encodes a serine/threonine kinase that acts as a tumor suppressor r
 - [PMID:35440124](../papers/35440124.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

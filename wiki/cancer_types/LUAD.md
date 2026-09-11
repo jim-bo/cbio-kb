@@ -4,8 +4,8 @@ oncotree_code: LUAD
 main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Lung Adenocarcinoma (LUAD)
@@ -70,15 +70,15 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - CPTAC proteogenomic profiling of 110 treatment-naive LUAD tumors identified four multi-omics NMF subgroups; EGFR-mutant and ALK-fusion tumors showed outlier PTPN11/Shp2 phosphorylation nominating Shp2 inhibitors, and KRAS-mutant tumors showed outlier [SOS1](../genes/SOS1.md) S1161 phosphorylation; [STK11](../genes/STK11.md) mutation strongly associated with immune-cold phenotype and neutrophil-degranulation protein signature [PMID:32649874](../papers/32649874.md)
 - In 604 stage I–III [LUAD](../cancer_types/LUAD.md) patients with complete resection profiled by MSK-IMPACT, MIP/SOL-predominant tumors had the highest TMB (7.9 vs 4.9 vs 3.9 mut/Mb) and WGD rate (18% vs 10% vs 4.5%); APOBEC mutational signatures SBS2 (SHR 2.07, p=0.021) and SBS13 (SHR 2.27, p=0.005) were independently associated with postresection recurrence risk [PMID:32791233](../papers/32791233.md).
 - MSK-ACCESS cfDNA panel (129 genes, n=617 patients) found LUAD among the most common tumor types profiled; [KRAS](../genes/KRAS.md) p.G12S in a lung adenocarcinoma case was reclassified from somatic to clonal hematopoiesis using matched WBC + cfDNA fragment-length evidence; [EGFR](../genes/EGFR.md) mutations were enriched in LUAD cfDNA relative to MSK-IMPACT tissue; [MET](../genes/MET.md), [ERBB2](../genes/ERBB2.md), [BRAF](../genes/BRAF.md) amplifications and [EML4](../genes/EML4.md)-[ALK](../genes/ALK.md) / [KIF5B](../genes/KIF5B.md)-[RET](../genes/RET.md) fusions detected de novo and by genotyping; [STK11](../genes/STK11.md) and [KEAP1](../genes/KEAP1.md) enriched in tumors lacking known mitogenic drivers [PMID:34145282](../papers/34145282.md).
-- Sherlock-Lung WGS (n=189 never-smoker LUAD) identified three SCNA subtypes: piano (49.6%, EGFR-low, carcinoid-enriched), mezzo-forte (30.2%, 51.4% EGFR-mutant, 1q/5p/7p gains), and forte (20.2%, 95.7% WGD); median TMB 1.1 Mut/Mb (>7-fold lower than smoker LUAD); five independent alterations ([TP53](../genes/TP53.md) mut, [MDM2](../genes/MDM2.md) amp, EGFR mut, [CHEK2](../genes/CHEK2.md) LOH, 22q/15q loss) each approximately doubled mortality risk [PMID:34493867](../papers/34493867.md)
+- Sherlock-Lung WGS (n=189 never-smoker LUAD) identified three SCNA subtypes: piano (49.6%, EGFR-low, carcinoid-enriched), mezzo-forte (30.2%, 51.4% EGFR-mutant, 1q/5p/7p gains), and forte (20.2%, 95.7% WGD); median TMB 1.1 Mut/Mb (>7-fold lower than smoker LUAD); five independent alterations ([TP53](../genes/TP53.md) mut, [MDM2](../genes/MDM2.md) amp, [EGFR](../genes/EGFR.md) mut, [CHEK2](../genes/CHEK2.md) LOH, 22q/15q loss) each approximately doubled mortality risk [PMID:34493867](../papers/34493867.md)
 - In 426 clinical N2-negative stage I/II LUAD patients (MSK-IMPACT), [SMARCA4](../genes/SMARCA4.md) (OR 3.67) and [SMAD4](../genes/SMAD4.md) (OR 5.01) alterations were independently associated with pathologic lymph node metastasis; fraction of genome altered and WGD were also enriched in pN-positive tumors; preoperative clinical staging had a 15% false-negative rate for occult LN metastasis [PMID:34290393](../papers/34290393.md)
 - MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; LUAD is among tumor types analyzed for [FGA](../genes/FGA.md), TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 - LUAD was the predominant histology in the LIBRETTO-001 [selpercatinib](../drugs/selpercatinib.md) trial (81% of [RET](../genes/RET.md) fusion-positive cases among 72 patients); [TP53](../genes/TP53.md) co-mutations (n=8) correlated with shorter PFS (HR=3.5, 95% CI 1.3–9.7, p=0.016); 4 never-smoker samples carried oncogenic EGFR mutations consistent with histologic transformation from LUAD [PMID:35304457](../papers/35304457.md)
 - [SCLC](../cancer_types/SCLC.md) PDX resource from 33 patients included 4 never-smoker samples with oncogenic EGFR mutations consistent with histologic LUAD-to-SCLC transformation as a resistance mechanism [PMID:35440124](../papers/35440124.md)
 - Wu et al. pan-cancer Asian cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md), n=10,194): EGFR elevated in LUAD vs MSK-IMPACT and TCGA (L858R 20%, exon 19 del 19%, G719 3% within [NSCLC](../cancer_types/NSCLC.md)); [KEAP1](../genes/KEAP1.md) significantly lower in LUAD vs MSK and TCGA; EGFR/KRAS co-occurrence noted (atypical for Western cohorts); 6.7% [ALK](../genes/ALK.md) fusion rate in [NSCLC](../cancer_types/NSCLC.md); TMB-H negatively associated with fusions in [NSCLC](../cancer_types/NSCLC.md) (3% vs 13%, P=1.31×10⁻¹¹) [PMID:35871175](../papers/35871175.md)
 - Rekhtman et al. define adenocarcinoma-to-SCLC histologic transformation in never-smoker [SCLC](../cancer_types/SCLC.md) (nsSCLC-RB1−/TP53−, n=18) as a distinct plasticity pathway driven by EGFR mutations (39%) or [KRAS](../genes/KRAS.md) mutations (6%) plus APOBEC mutagenesis, contrasting with the carcinoid-origin atypical [SCLC](../cancer_types/SCLC.md) pathway that lacks EGFR/KRAS and operates in an [RB1](../genes/RB1.md)+/TP53+ background [PMID:39185963](../papers/39185963.md)
-- A pan-cancer MET copy-number survey of 66,285 MSK-IMPACT tumor samples broke NSCLC MET amplification data down by histologic subtype, including lung adenocarcinoma (LUAD), lung squamous cell carcinoma (LUSC) and large cell neuroendocrine carcinoma (LUNE) [PMID:36044468](../papers/36044468.md).
-- In the MSK-50K cohort, RRAS was a rare (about 0.05% overall) but canonical driver in lung adenocarcinoma (0.2% of LUAD), and all 43 LUAD tumors with a novel EGFR hotspot also carried an initiating EGFR mutation (L858R or an exon 19/20 indel) [PMID:41895280](../papers/41895280.md).
+- A pan-cancer [MET](../genes/MET.md) copy-number survey of 66,285 MSK-IMPACT tumor samples broke [NSCLC](../cancer_types/NSCLC.md) MET amplification data down by histologic subtype, including lung adenocarcinoma (LUAD), lung squamous cell carcinoma ([LUSC](../cancer_types/LUSC.md)) and large cell neuroendocrine carcinoma ([LUNE](../cancer_types/LUNE.md)) [PMID:36044468](../papers/36044468.md).
+- In the MSK-50K cohort, [RRAS](../genes/RRAS.md) was a rare (about 0.05% overall) but canonical driver in lung adenocarcinoma (0.2% of LUAD), and all 43 LUAD tumors with a novel EGFR hotspot also carried an initiating EGFR mutation (L858R or an exon 19/20 indel) [PMID:41895280](../papers/41895280.md).
 
 ## Subtypes
 
@@ -178,4 +178,4 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - [PMID:36044468](../papers/36044468.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

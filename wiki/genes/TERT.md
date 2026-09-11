@@ -3,8 +3,8 @@ symbol: TERT
 aliases: []
 cancer_types: [ESCC, GBM, RBL, IHCH]
 tags: [oncogene, somatic, amplification, telomerase]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # TERT
@@ -51,19 +51,19 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - Included in the 30-gene [CSCC](../cancer_types/CSCC.md) driver-discovery set on the basis of prior literature reporting frequent promoter mutations; not directly interrogated in this exome-based meta-analysis [PMID:34272401](../papers/34272401.md)
 - Present at >=2% frequency in [LUAD](../cancer_types/LUAD.md) but without significant association to pN (lymph node) metastasis status in clinical stage I/II [LUAD](../cancer_types/LUAD.md) [PMID:34290393](../papers/34290393.md)
 - Amplified in 11.6% and promoter-mutated in only 0.9% of LCINS; rare in piano subtype; SV breakpoint hotspot alongside [MDM2](../genes/MDM2.md), [CDKN2A](../genes/CDKN2A.md), [NKX2-1](../genes/NKX2-1.md); insufficient to explain telomere length elongation in piano [PMID:34493867](../papers/34493867.md)
-- Promoter mutations more frequent in papillary thyroid metastases (46% vs 69%, q=0.001) and [SKCM](../cancer_types/SKCM.md) metastases (70% vs 81%, q=0.02), but more frequent in primary [HNSC](../cancer_types/HNSC.md) (41% vs 25%, q=0.02); TERT amplification associated with LUAD CNS/brain metastasis [PMID:35120664](../papers/35120664.md)
+- Promoter mutations more frequent in papillary thyroid metastases (46% vs 69%, q=0.001) and [SKCM](../cancer_types/SKCM.md) metastases (70% vs 81%, q=0.02), but more frequent in primary [HNSC](../cancer_types/HNSC.md) (41% vs 25%, q=0.02); TERT amplification associated with [LUAD](../cancer_types/LUAD.md) CNS/brain metastasis [PMID:35120664](../papers/35120664.md)
 - TERT promoter mutations are established as the most frequent driver in [HCC](../cancer_types/HCC.md); referenced as a known driver but explicitly excluded from SMG analysis in a Chinese [HCC](../cancer_types/HCC.md) proteogenomic cohort (n=159) because the TERT promoter is not captured by WES [PMID:35508466](../papers/35508466.md)
 - TERT SVs detected in 8/29 (28%) neuroblastoma patients by cWGTS, identifiable only by this method (not by MSK-IMPACT); TERT SV status is a therapy-defining risk-stratification biomarker for neuroblastoma [PMID:35585047](../papers/35585047.md)
 - TERT amplifications found in 44% (8/18) of intimal sarcoma ([INTS](../cancer_types/INTS.md)) and 16% (27/167) of [DDLS](../cancer_types/DDLS.md); TERT promoter mutations in 79% (38/48) of myxoid/round cell liposarcoma ([MRLS](../cancer_types/MRLS.md)), 46% (24/52) of solitary fibrous tumor ([SFT](../cancer_types/SFT.md)), and 35% (5/14) of dedifferentiated chondrosarcoma ([DDCHS](../cancer_types/DDCHS.md)), in 2,138-sample MSK-IMPACT sarcoma cohort; TERT-driven genomic cluster spans [MRLS](../cancer_types/MRLS.md) and [SFT](../cancer_types/SFT.md), supporting genotype-based trial design [PMID:35705560](../papers/35705560.md)
 - Promoter mutations captured by the aOM pan-cancer panel in an Asian solid-tumor cohort; 14% pan-cohort frequency across multiple cancer types [PMID:35871175](../papers/35871175.md)
 - C228T promoter mutation detected clonally in endometrial carcinoma patient [CD28](../genes/CD28.md) primary tumor; not detected at baseline cfDNA but emerged at 6-month follow-up, demonstrating serial ctDNA monitoring utility [PMID:36007103](../papers/36007103.md)
-- Listed among the few dominant HCC genomic drivers (TERT, [TP53](../genes/TP53.md), [CTNNB1](../genes/CTNNB1.md)) based on large-scale HCC genomic studies; no TERT overexpression detected in the atypical [SCLC](../cancer_types/SCLC.md) (aSCLC) cohort and alternative lengthening of telomeres [footprints](../methods/footprints.md) also absent [PMID:41118283](../papers/41118283.md)
-- No TERT overexpression detected in atypical SCLC (aSCLC, n=20); alternative lengthening of telomeres footprints also absent; chromothripsis trigger therefore not attributable to telomere dysfunction via TERT [PMID:39185963](../papers/39185963.md)
+- Listed among the few dominant [HCC](../cancer_types/HCC.md) genomic drivers (TERT, [TP53](../genes/TP53.md), [CTNNB1](../genes/CTNNB1.md)) based on large-scale HCC genomic studies; no TERT overexpression detected in the atypical [SCLC](../cancer_types/SCLC.md) (aSCLC) cohort and alternative lengthening of telomeres [footprints](../methods/footprints.md) also absent [PMID:41118283](../papers/41118283.md)
+- No TERT overexpression detected in atypical [SCLC](../cancer_types/SCLC.md) (aSCLC, n=20); alternative lengthening of telomeres [footprints](../methods/footprints.md) also absent; chromothripsis trigger therefore not attributable to telomere dysfunction via TERT [PMID:39185963](../papers/39185963.md)
 - TERT promoter mutations occurred in 19.1% (25/131) of solitary fibrous tumors and were associated with malignant histology, necrosis, larger tumor size and older age, but not with PFS [PMID:37980418](../papers/37980418.md).
-- TERT promoter mutations were the most frequent alteration in a bladder cancer DDR-gene cohort, ahead of TP53, KMT2D, KDM6A and ARID1A (each altered in at least 10% of specimens) [PMID:39499893](../papers/39499893.md).
-- TERT was altered in 37.4% of upper tract urothelial carcinomas in the MSK100 cohort, the second most frequently altered gene after FGFR3 [PMID:39550333](../papers/39550333.md).
+- TERT promoter mutations were the most frequent alteration in a bladder cancer DDR-gene cohort, ahead of [TP53](../genes/TP53.md), [KMT2D](../genes/KMT2D.md), [KDM6A](../genes/KDM6A.md) and [ARID1A](../genes/ARID1A.md) (each altered in at least 10% of specimens) [PMID:39499893](../papers/39499893.md).
+- TERT was altered in 37.4% of upper tract urothelial carcinomas in the MSK100 cohort, the second most frequently altered gene after [FGFR3](../genes/FGFR3.md) [PMID:39550333](../papers/39550333.md).
 - TERT promoter hotspot mutations occurred in 17.7% (14/79) of metastatic pheochromocytoma/paraganglioma cases, alongside an AFF4-TERT fusion, and were a significant driver by OncodriveFML [PMID:40097403](../papers/40097403.md).
-- In thyroid carcinoma, TERT alterations were linked to later age of onset, while RET alterations were linked to early onset only in TERT-wild-type tumors, in a pan-cancer hotspot discovery study [PMID:41895280](../papers/41895280.md).
+- In thyroid carcinoma, TERT alterations were linked to later age of onset, while [RET](../genes/RET.md) alterations were linked to early onset only in TERT-wild-type tumors, in a pan-cancer hotspot discovery study [PMID:41895280](../papers/41895280.md).
 
 ## Cancer types (linked)
 
@@ -80,7 +80,7 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 
 ## Therapeutic relevance
 
-- No direct targeted therapy for TERT amplification in ESCC is described in the corpus; telomerase inhibitors remain investigational.
+- No direct targeted therapy for TERT amplification in [ESCC](../cancer_types/ESCC.md) is described in the corpus; telomerase inhibitors remain investigational.
 
 ## Open questions
 
@@ -179,4 +179,4 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - [PMID:40097403](../papers/40097403.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

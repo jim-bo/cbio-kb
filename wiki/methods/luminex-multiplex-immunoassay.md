@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [immunoassay, biomarker, cytokines]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Luminex Multiplex Immunoassay
@@ -17,7 +17,7 @@ The Luminex multiplex immunoassay is a bead-based platform for simultaneous quan
 
 ## Used by
 
-- Used to profile circulating cytokines as part of an immunomodulatory activity assessment of nivolumab in metastatic renal cell carcinoma [PMID:27169994](../papers/27169994.md).
+- Used to profile circulating cytokines as part of an immunomodulatory activity assessment of [nivolumab](../drugs/nivolumab.md) in metastatic renal cell carcinoma [PMID:27169994](../papers/27169994.md).
 
 ## Notes
 
@@ -28,4 +28,4 @@ The Luminex multiplex immunoassay is a bead-based platform for simultaneous quan
 
 - [PMID:27169994](../papers/27169994.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

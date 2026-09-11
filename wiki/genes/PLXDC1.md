@@ -3,8 +3,8 @@ symbol: PLXDC1
 aliases: []
 cancer_types: [ILC]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # PLXDC1
@@ -12,18 +12,18 @@ processed_at: 2026-09-10
 ## Overview
 
 PLXDC1 is a plexin-domain-containing transmembrane gene observed in the corpus
-as the 5' fusion partner in a PLXDC1-AXIN2 fusion found in CDH1 genetically
+as the 5' fusion partner in a PLXDC1-AXIN2 fusion found in [CDH1](../genes/CDH1.md) genetically
 wild-type invasive lobular breast carcinoma.
 
 ## Alterations observed in the corpus
 
-- PLXDC1 is the 5' partner in a PLXDC1-AXIN2 fusion (deleting AXIN2 exons
+- PLXDC1 is the 5' partner in a PLXDC1-AXIN2 fusion (deleting [AXIN2](../genes/AXIN2.md) exons
   3-13) found in a CDH1 genetically wild-type invasive lobular breast
   carcinoma [PMID:38347189](../papers/38347189.md).
 
 ## Cancer types (linked)
 
-- **ILC**: PLXDC1-AXIN2 fusion in a CDH1 genetically wild-type case
+- **[ILC](../cancer_types/ILC.md)**: PLXDC1-AXIN2 fusion in a CDH1 genetically wild-type case
   [PMID:38347189](../papers/38347189.md).
 
 ## Co-occurrence and mutual exclusivity
@@ -43,4 +43,4 @@ wild-type invasive lobular breast carcinoma.
 
 - [PMID:38347189](../papers/38347189.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

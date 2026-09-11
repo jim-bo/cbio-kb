@@ -7,8 +7,8 @@ tags:
   - dna-repair
   - homologous-recombination
   - synthetic-lethality
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 canonical_source: cbioportal
 unverified: false
 ---
@@ -24,7 +24,7 @@ RAD51 is a central mediator of homologous recombination (HR) DNA repair. In the 
 - RAD51 expression is induced upon [ARID1A](../genes/ARID1A.md) depletion as part of the DNA damage response in small cell lung cancer ([SCLC](../cancer_types/SCLC.md)) cells; overexpression of [ARID1A](../genes/ARID1A.md) suppresses RAD51; JQ1 (BET inhibitor) treatment dose-dependently reduces RAD51 expression [PMID:41049615](../papers/41049615.md)
 - Recruitment to DSBs requires [TRMT10A](../genes/TRMT10A.md) pSer28-dependent [BRCA1](../genes/BRCA1.md) loading; RAD51 foci reduced by [TRMT10A](../genes/TRMT10A.md) or [USP10](../genes/USP10.md) loss and by the [USP10](../genes/USP10.md) inhibitor [spautin-1](../drugs/spautin-1.md) in mCRPC models [PMID:41071892](../papers/41071892.md)
 - RAD51 part of DDR pathway ([BRCA2](../genes/BRCA2.md), [RAD51B](../genes/RAD51B.md), [CHEK2](../genes/CHEK2.md), [ATM](../genes/ATM.md), [FANCA](../genes/FANCA.md), RAD51) altered in 9.6% of all sarcomas; highest in [ULMS](../cancer_types/ULMS.md) (24%), [MPNST](../cancer_types/MPNST.md) (16%), [PLLS](../cancer_types/PLLS.md) (13%), [PECOMA](../cancer_types/PECOMA.md) (13%), [ANGS](../cancer_types/ANGS.md) (13%) [PMID:35705560](../papers/35705560.md)
-- RAD51 fell within a DNA-repair gene GISTIC2 deletion peak (with FANCA, ATM, CHEK1, POLD1) in hepatoblastoma PDX models [PMID:37990009](../papers/37990009.md)
+- RAD51 fell within a DNA-repair gene GISTIC2 deletion peak (with [FANCA](../genes/FANCA.md), [ATM](../genes/ATM.md), [CHEK1](../genes/CHEK1.md), [POLD1](../genes/POLD1.md)) in hepatoblastoma PDX models [PMID:37990009](../papers/37990009.md)
 
 ## Cancer types (linked)
 
@@ -51,4 +51,4 @@ RAD51 is a central mediator of homologous recombination (HR) DNA repair. In the 
 - [PMID:35705560](../papers/35705560.md)
 - [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

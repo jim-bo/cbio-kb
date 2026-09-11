@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - EAC
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CCND3
@@ -18,7 +18,7 @@ CCND3 (Cyclin D3) is a D-type cyclin that promotes cell cycle progression by act
 
 - CCND3 amplification is a recurrent driver at ≥5% frequency in the [egc_mskcc_2020](../datasets/egc_mskcc_2020.md) cohort (n=487 esophageal/GEJ adenocarcinomas); grouped among amplification-driven recurrent drivers without independently demonstrated [OS](../cancer_types/OS.md) association in this analysis [PMID:33795256](../papers/33795256.md).
 - CCND3 amplified in 1.8% of 7,494 sarcomas; CNV frequency is higher in P-AYA osteosarcoma compared to adults (alongside [AURKB](../genes/AURKB.md), [CCNE1](../genes/CCNE1.md), GID4, and [MYC](../genes/MYC.md)); co-occurs with CDK4/6 and CDKN2A/B in the Rb pathway [PMID:35705558](../papers/35705558.md)
-- CCND3 mutations were most prevalent in the ID3-mutant IC-BL subtype of Burkitt lymphoma and were more often mutated in EBV-negative BL [PMID:36201743](../papers/36201743.md).
+- CCND3 mutations were most prevalent in the ID3-mutant IC-BL subtype of Burkitt lymphoma and were more often mutated in EBV-negative [BL](../cancer_types/BL.md) [PMID:36201743](../papers/36201743.md).
 - CCND3 was among the GISTIC2 amplification peaks identified in this pediatric solid tumor PDX cohort [PMID:37990009](../papers/37990009.md).
 
 ## Cancer types (linked)
@@ -44,4 +44,4 @@ CCND3 (Cyclin D3) is a D-type cyclin that promotes cell cycle progression by act
 - [PMID:36201743](../papers/36201743.md)
 - [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

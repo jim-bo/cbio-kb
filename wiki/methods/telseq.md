@@ -5,8 +5,8 @@ kind: MUTATION_EXTENDED
 canonical_source: corpus
 unverified: true
 tags: [telomere-length, wgs, computational]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # TelSeq
@@ -18,7 +18,7 @@ TelSeq is a computational tool for estimating telomere length from whole-genome 
 ## Used by
 
 - Applied alongside TelomereHunter in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS); LCINS [LUAD](../cancer_types/LUAD.md) telomeres were significantly longer than LUAD-smoker telomeres (6.4 Kb, 95% CI 5.3–7.6, P=7.1e-11); passive-smoker tumours had shorter telomeres (P=0.005) [PMID:34493867](../papers/34493867.md)
-- Used TelSeq alongside MSIsensor2 and MANTA to estimate telomere length from WGS in a pediatric solid-tumor patient-derived xenograft (PDX) cohort [PMID:37990009](../papers/37990009.md)
+- Used TelSeq alongside MSIsensor2 and MANTA to [estimate](../methods/estimate.md) telomere length from WGS in a pediatric solid-tumor patient-derived xenograft (PDX) cohort [PMID:37990009](../papers/37990009.md)
 
 ## Notes
 
@@ -29,4 +29,4 @@ TelSeq is a computational tool for estimating telomere length from whole-genome 
 ## Sources
 - [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

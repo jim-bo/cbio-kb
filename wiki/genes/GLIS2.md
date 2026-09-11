@@ -3,8 +3,8 @@ symbol: GLIS2
 aliases: []
 cancer_types: [AMKL]
 tags: [fusion, pediatric, poor-prognosis, leukemia]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # GLIS2
@@ -15,12 +15,12 @@ GLIS2 (GLIS family zinc finger 2) encodes a Kruppel-like zinc-finger transcripti
 
 ## Alterations observed in the corpus
 
-- CBFA2T3–GLIS2 fusion detected in a pediatric patient with acute megakaryoblastic leukemia ([AMKL](../cancer_types/AMKL.md)) in the PIPseq cohort; confirmed by RNA-seq; served as a diagnostic marker and poor-prognosis indicator that supported recommendation for bone-marrow transplant [PMID:28007021](../papers/28007021.md).
-- Primary partner in CBFA2T3::GLIS2, the dominant GLIS-family rearrangement subgroup (28 of 887 AML cases) associated with poor outcome [PMID:38212634](../papers/38212634.md).
+- [CBFA2T3](../genes/CBFA2T3.md)–GLIS2 fusion detected in a pediatric patient with acute megakaryoblastic leukemia ([AMKL](../cancer_types/AMKL.md)) in the PIPseq cohort; confirmed by RNA-seq; served as a diagnostic marker and poor-prognosis indicator that supported recommendation for bone-marrow transplant [PMID:28007021](../papers/28007021.md).
+- Primary partner in CBFA2T3::GLIS2, the dominant GLIS-family rearrangement subgroup (28 of 887 [AML](../cancer_types/AML.md) cases) associated with poor outcome [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
-- [AMKL](../cancer_types/AMKL.md) — CBFA2T3–GLIS2 fusion is a diagnostic and poor-prognosis marker; detection by RNA-seq is essential as the cryptic inv(16) is often missed by standard karyotyping [PMID:28007021](../papers/28007021.md).
+- [AMKL](../cancer_types/AMKL.md) — CBFA2T3–GLIS2 fusion is a diagnostic and poor-prognosis marker; detection by RNA-seq is essential as the cryptic inv(16) is often missed by standard [karyotyping](../methods/karyotyping.md) [PMID:28007021](../papers/28007021.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -28,7 +28,7 @@ GLIS2 (GLIS family zinc finger 2) encodes a Kruppel-like zinc-finger transcripti
 
 ## Therapeutic relevance
 
-- CBFA2T3–GLIS2 fusion-positive AMKL is associated with poor prognosis; the PIPseq cohort used the finding to support bone-marrow transplant recommendation; no direct targeted therapy against the fusion is described in the corpus [PMID:28007021](../papers/28007021.md).
+- CBFA2T3–GLIS2 fusion-positive [AMKL](../cancer_types/AMKL.md) is associated with poor prognosis; the PIPseq cohort used the finding to support bone-marrow transplant recommendation; no direct targeted therapy against the fusion is described in the corpus [PMID:28007021](../papers/28007021.md).
 
 ## Open questions
 
@@ -39,4 +39,4 @@ GLIS2 (GLIS family zinc finger 2) encodes a Kruppel-like zinc-finger transcripti
 - [PMID:28007021](../papers/28007021.md)
 - [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

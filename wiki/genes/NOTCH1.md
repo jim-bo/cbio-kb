@@ -3,8 +3,8 @@ symbol: NOTCH1
 aliases: []
 cancer_types: [CLLSLL, ATC, CSCC, HNSC]
 tags: [cll-driver, tumor-suppressor, skin-cancer, loss-of-function]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # NOTCH1
@@ -41,7 +41,7 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - Inactivating mutations (often in the extracellular domain) observed as part of pan-NOTCH inactivation in 25% of human [SCLC](../cancer_types/SCLC.md); mouse models confirm Notch activation suppresses [SCLC](../cancer_types/SCLC.md) initiation and prolongs survival. [PMID:26168399](../papers/26168399.md)
 - Somatic mutations enriched in adenoid cystic carcinoma ([ACC](../cancer_types/ACC.md)) tumors lacking both [MYB](../genes/MYB.md) and [MYBL1](../genes/MYBL1.md) fusions (~33% of 102-tumor cohort); raises possibility of NOTCH-targeted therapy substratification in fusion-negative [ACC](../cancer_types/ACC.md) [PMID:26631609](../papers/26631609.md)
 - Activated by point mutations or structural alterations (tandem duplication of 3′ enhancers; 5′ partial deletion) in grade-3 [ACC](../cancer_types/ACC.md); intracellular NOTCH1 (ICN1) marks luminal epithelial cells [PMID:26829750](../papers/26829750.md)
-- Most-frequently mutated gene in ACC cohort: 4 mutations in 3/25 tumors (nonsense, missense, frameshift, in-frame deletion) — 12% frequency [PMID:26862087](../papers/26862087.md)
+- Most-frequently mutated gene in [ACC](../cancer_types/ACC.md) cohort: 4 mutations in 3/25 tumors (nonsense, missense, frameshift, in-frame deletion) — 12% frequency [PMID:26862087](../papers/26862087.md)
 - NOTCH1 was mutated in anaplastic thyroid carcinoma (ATC) as part of a finding that all four NOTCH family members (NOTCH1–[NOTCH4](../genes/NOTCH4.md)) were mutated in ATC; part of low-frequency hits in a 341-gene panel sequencing study [PMID:26878173](../papers/26878173.md)
 - NOTCH1 significantly mutated in lung squamous cell carcinoma but not other cancer types (excluding [HNSC](../cancer_types/HNSC.md), [BLCA](../cancer_types/BLCA.md)) in pan-lung cancer TCGA analysis (n=1144) [PMID:27158780](../papers/27158780.md)
 - Altered in 33% of adenoid cystic carcinoma ([ACYC](../cancer_types/ACYC.md)) with activating mutations/amplifications in 22.2% (8.3-fold enriched versus primary [ACYC](../cancer_types/ACYC.md)); recurrent S2467 truncating events; nominates gamma-secretase inhibitors as a therapeutic strategy [PMID:27442865](../papers/27442865.md)
@@ -57,7 +57,7 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - NOTCH1 downstream YAP/TAZ pathway is upregulated in POU2F3-positive SCLC-P PDX models; NOTCH1/2/3 signaling implicated in the non-NE subtype biology across 42 [SCLC](../cancer_types/SCLC.md) PDX/CDX models [PMID:35440124](../papers/35440124.md)
 - Notably absent from significant or recurrent SNVs in metastatic [CSCC](../cancer_types/CSCC.md) (n=25), in contrast to the NOTCH-prominent landscape reported in primary [CSCC](../cancer_types/CSCC.md) by Inman et al.; suggests NOTCH1 alterations are not a dominant driver in the metastatic setting [PMID:35982973](../papers/35982973.md)
 - NOTCH1 enriched in older gastric cancer ([STAD](../cancer_types/STAD.md)) patients (vs [CDH1](../genes/CDH1.md) in younger) in the aOM Chinese pan-cancer cohort; age-differential gene alteration pattern observed across 9 tumor types [PMID:35871175](../papers/35871175.md)
-- In solitary fibrous tumor, NOTCH1 (with NOTCH2, NOTCH3, CREBBP) NOTCH-pathway alterations were related to progression-free survival, and NOTCH1 was among the most frequently altered genes (9%) [PMID:37980418](../papers/37980418.md).
+- In solitary fibrous tumor, NOTCH1 (with [NOTCH2](../genes/NOTCH2.md), [NOTCH3](../genes/NOTCH3.md), [CREBBP](../genes/CREBBP.md)) NOTCH-pathway alterations were related to progression-free survival, and NOTCH1 was among the most frequently altered genes (9%) [PMID:37980418](../papers/37980418.md).
 
 ## Cancer types (linked)
 
@@ -158,4 +158,4 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - [PMID:35871175](../papers/35871175.md)
 - [PMID:37980418](../papers/37980418.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

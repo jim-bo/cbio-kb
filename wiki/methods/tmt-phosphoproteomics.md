@@ -11,8 +11,8 @@ tags:
   - tandem-mass-tag
   - kinase-activity
   - multi-omics
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # TMT phosphoproteomics
@@ -27,7 +27,7 @@ TMT phosphoproteomics combines isobaric tandem mass tag (TMT) labeling with phos
 - Performed with IMAC enrichment alongside global proteomics in the CPTAC endometrial carcinoma study (n=95 tumors); identified PLK1-T210 phosphorylation elevated in TP53-truncating mutant tumors and CHEK2-S163/TP53BP1-S1763 phosphorylation elevated in serous tumors [PMID:32059776](../papers/32059776.md).
 - TMT-11-plex IMAC-enriched phosphoproteome on Orbitrap Fusion Lumos applied to 99 treatment-naive GBMs; identified 95 cis-trans phosphorylation events and nominated PTPN11/PLCG1 as convergent RTK signaling hubs; validated in 39-tumor CBTTC pediatric cohort [PMID:33577785](../papers/33577785.md)
 - Label-free phosphoproteomics workflow from [hcc_meric_2021](../datasets/hcc_meric_2021.md) (Fe(III)-IMAC enrichment, Q-Exactive HF, 12,205 phosphosites in 4,230 proteins) was processed analogously to TMT-phosphoproteomics pipelines, enabling cross-study comparison of [HCC](../cancer_types/HCC.md) phosphoproteomic landscapes [PMID:35508466](../papers/35508466.md)
-- Applied Fe3+-IMAC TMT phosphoproteomics (eight 11-plexes) to pretreatment core-needle biopsies from 59 stage II/III TNBC patients treated with neoadjuvant carboplatin+docetaxel, quantifying ~27,000 phosphosites on ~5,000 phosphoproteins [PMID:36001024](../papers/36001024.md)
+- Applied Fe3+-IMAC TMT phosphoproteomics (eight 11-plexes) to pretreatment core-needle biopsies from 59 stage II/III TNBC patients treated with neoadjuvant [carboplatin](../drugs/carboplatin.md)+[docetaxel](../drugs/docetaxel.md), quantifying ~27,000 phosphosites on ~5,000 phosphoproteins [PMID:36001024](../papers/36001024.md)
 
 ## Notes
 
@@ -41,4 +41,4 @@ TMT phosphoproteomics combines isobaric tandem mass tag (TMT) labeling with phos
 - [PMID:35508466](../papers/35508466.md)
 - [PMID:36001024](../papers/36001024.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

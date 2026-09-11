@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [immunoprofiling, single-cell, cytof]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Mass Cytometry (CyTOF)
@@ -18,8 +18,8 @@ Mass cytometry (CyTOF) is a single-cell profiling technique that uses metal-isot
 ## Used by
 
 - Used to profile intratumoral and systemic immune responses to neoadjuvant anti-PD-1 therapy in recurrent glioblastoma [PMID:30742122](../papers/30742122.md).
-- Used to characterize immune cell populations following cyclophosphamide-primed pembrolizumab in metastatic triple-negative breast cancer [PMID:35121644](../papers/35121644.md).
-- Used for immunologic analyses of sotigalimab and/or nivolumab combined with chemotherapy in the first-line metastatic pancreatic cancer PRINCE trial [PMID:35662283](../papers/35662283.md).
+- Used to characterize immune cell populations following cyclophosphamide-primed [pembrolizumab](../drugs/pembrolizumab.md) in metastatic triple-negative breast cancer [PMID:35121644](../papers/35121644.md).
+- Used for immunologic analyses of [sotigalimab](../drugs/sotigalimab.md) and/or [nivolumab](../drugs/nivolumab.md) combined with chemotherapy in the first-line metastatic pancreatic cancer PRINCE trial [PMID:35662283](../papers/35662283.md).
 
 ## Notes
 
@@ -32,4 +32,4 @@ Mass cytometry (CyTOF) is a single-cell profiling technique that uses metal-isot
 - [PMID:35121644](../papers/35121644.md)
 - [PMID:35662283](../papers/35662283.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

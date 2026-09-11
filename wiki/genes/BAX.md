@@ -4,15 +4,15 @@ aliases: []
 cancer_types:
   - LIHB
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # BAX
 
 ## Overview
 
-BAX (BCL2-Associated X protein) is a pro-apoptotic member of the BCL2 family. In the corpus it appears as a gene located within a recurrent GISTIC2 copy-number deletion peak, alongside its antagonist BCL2, in a pediatric solid tumor genomics cohort.
+BAX (BCL2-Associated X protein) is a pro-apoptotic member of the [BCL2](../genes/BCL2.md) family. In the corpus it appears as a gene located within a recurrent GISTIC2 copy-number deletion peak, alongside its antagonist BCL2, in a pediatric solid tumor genomics cohort.
 
 ## Alterations observed in the corpus
 
@@ -38,4 +38,4 @@ BAX (BCL2-Associated X protein) is a pro-apoptotic member of the BCL2 family. In
 
 - [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [copy-number, clonality, computational]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # FACETS
@@ -63,9 +63,9 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - FACETS used for allelic copy-number estimation and clonality calls in 2,735 MSK-IMPACT prostate cancer samples; 1,417 passed QC (samples with low purity were excluded as 'copy-number quiet') [PMID:35670774](../papers/35670774.md)
 - FACETS used for allele-specific copy number and whole-genome-doubling calls across 2,138 MSK-IMPACT sarcomas; WGD frequency ranged from ~50% in osteosarcoma/UPS to lower rates in translocation-driven subtypes [PMID:35705560](../papers/35705560.md)
 - FACETS used for copy-number and loss-of-heterozygosity analysis in 184 MSI-H/MMR-D endometrial cancers sequenced by MSK-IMPACT [PMID:35849120](../papers/35849120.md)
-- Used for copy-number analysis of 166 CAC tumors; demonstrated clonal [TP53](../genes/TP53.md) alterations in majority of CAC, subclonal TP53 in 14%, and identified WGD accumulation in carcinoma vs paired dysplasia; FACETS CN profiles allowed detection of oscillating copy-number patterns consistent with chromothripsis [PMID:36611031](../papers/36611031.md)
+- Used for copy-number analysis of 166 CAC tumors; demonstrated clonal [TP53](../genes/TP53.md) alterations in majority of CAC, subclonal [TP53](../genes/TP53.md) in 14%, and identified WGD accumulation in carcinoma vs paired dysplasia; FACETS CN profiles allowed detection of oscillating copy-number patterns consistent with chromothripsis [PMID:36611031](../papers/36611031.md)
 - Used for copy-number calling in aSCLC WGS (100× tumor / 80× normal); FACETS hisens plots enabled manual detection of oscillating CNA patterns diagnostic of chromothripsis, achieving 100% specificity and 77% sensitivity vs WGS gold standard [PMID:39185963](../papers/39185963.md)
-- Re-analyzed 408 MSK-IMPACT cases with elevated MET copy-number-gain calls, using allele-specific integer copy number (gain 3-5, amplification >=6) and 7q segment length to judge focality, validated against MET FISH [PMID:36044468](../papers/36044468.md).
+- Re-analyzed 408 MSK-IMPACT cases with elevated [MET](../genes/MET.md) copy-number-gain calls, using allele-specific integer copy number (gain 3-5, amplification >=6) and 7q segment length to judge focality, validated against MET FISH [PMID:36044468](../papers/36044468.md).
 - Used for allele-specific copy number and LOH calling in whole-genome sequencing of 3 CDH1-wild-type invasive lobular breast carcinomas [PMID:38347189](../papers/38347189.md).
 - Used for copy-number/LOH calling and cancer-cell-fraction clonality analysis from MSK-IMPACT sequencing of ERBB2-mutant and wild-type endometrial carcinomas [PMID:39031567](../papers/39031567.md).
 - Used for allele-specific copy-number estimation from MSK-IMPACT targeted sequencing of a colorectal cancer primary-metastasis trio cohort, cross-validated against single-cell InferCNV calls [PMID:39478232](../papers/39478232.md).
@@ -137,4 +137,4 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - [PMID:41895280](../papers/41895280.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

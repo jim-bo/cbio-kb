@@ -3,8 +3,8 @@ symbol: HNRNPU
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # HNRNPU
@@ -15,7 +15,7 @@ HNRNPU (heterogeneous nuclear ribonucleoprotein U) is an RNA-binding protein inv
 
 ## Alterations observed in the corpus
 
-- Novel Burkitt lymphoma significantly mutated gene, mostly truncating mutations and enriched in EBV-positive BL, with lower mRNA expression observed in mutant tumors. Mutated in 11% of the DGG-BL molecular subgroup (the highest of any subgroup) and also mutated in DLBCL. [PMID:36201743](../papers/36201743.md)
+- Novel Burkitt lymphoma significantly mutated gene, mostly truncating mutations and enriched in EBV-positive [BL](../cancer_types/BL.md), with lower mRNA expression observed in mutant tumors. Mutated in 11% of the DGG-BL molecular subgroup (the highest of any subgroup) and also mutated in DLBCL. [PMID:36201743](../papers/36201743.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ HNRNPU (heterogeneous nuclear ribonucleoprotein U) is an RNA-binding protein inv
 
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

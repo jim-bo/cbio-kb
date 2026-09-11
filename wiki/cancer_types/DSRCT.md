@@ -8,8 +8,8 @@ tags:
   - soft-tissue
   - pediatric
   - EWSR1-WT1
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Desmoplastic Small-Round-Cell Tumor (DSRCT)
@@ -30,7 +30,7 @@ Desmoplastic small-round-cell tumor is a rare, highly aggressive soft-tissue sar
 - Included in the MSK cWGTS pediatric/rare solid tumor cohort (n=114 patients, [mixed_kunga_msk_2022](../datasets/mixed_kunga_msk_2022.md)); whole-genome + transcriptome sequencing added oncogenic findings beyond MSK-IMPACT in 54% of patients [PMID:35585047](../papers/35585047.md)
 - In a 7,494-sarcoma cohort, desmoplastic small-round-cell tumor was among the translocation-associated histologies; [EWSR1](../genes/EWSR1.md) fusions with [WT1](../genes/WT1.md) and other partners were characteristic [PMID:35705558](../papers/35705558.md).
 - In the 2,138-sarcoma MSK-IMPACT cohort, DSRCT had the lowest intra-subtype entropy (most genomically homogeneous), driven by the defining [EWSR1](../genes/EWSR1.md)–[WT1](../genes/WT1.md) translocation [PMID:35705560](../papers/35705560.md).
-- In 104 EWSR1::WT1-fused desmoplastic small round cell tumors profiled by MSK-IMPACT, EWSR1-centered chromoplexy was found in 19% of cases, was mutually exclusive with ARID1A alterations, and was significantly enriched among tumors metastatic at presentation (15% vs 2.7%, P=0.03), though it was not independently prognostic for OS or PFS [PMID:38335254](../papers/38335254.md).
+- In 104 [EWSR1](../genes/EWSR1.md)::WT1-fused desmoplastic small round cell tumors profiled by MSK-IMPACT, EWSR1-centered chromoplexy was found in 19% of cases, was mutually exclusive with [ARID1A](../genes/ARID1A.md) alterations, and was significantly enriched among tumors metastatic at presentation (15% vs 2.7%, P=0.03), though it was not independently prognostic for OS or PFS [PMID:38335254](../papers/38335254.md).
 
 ## Subtypes
 
@@ -50,4 +50,4 @@ Desmoplastic small-round-cell tumor is a rare, highly aggressive soft-tissue sar
 - [PMID:35705560](../papers/35705560.md)
 - [PMID:38335254](../papers/38335254.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

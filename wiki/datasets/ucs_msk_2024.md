@@ -9,8 +9,8 @@ unverified: false
 assays: [targeted-panel, whole-exome-seq]
 panels: [IMPACT341, IMPACT410, IMPACT468, IMPACT505]
 tags: [endometrial-cancer, erbb2-mutation, her2, msi-h, tumor-mutational-burden, msk-impact]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Endometrial Carcinoma (MSK, Molecular Oncology 2024)
@@ -21,9 +21,9 @@ Single-center cohort of 69 ERBB2-mutant endometrial carcinomas (ECs) with matche
 
 ## Composition
 
-- 69 pathogenic-[ERBB2](../genes/ERBB2.md)-mutant ECs and their matched normals (2.6% of the 2,638-patient screening cohort); 11 (16%) also ERBB2-amplified, 8 (12%) with more than one pathogenic ERBB2 mutation. [PMID:39031567](../papers/39031567.md)
+- 69 pathogenic-[ERBB2](../genes/ERBB2.md)-mutant ECs and their matched normals (2.6% of the 2,638-patient screening cohort); 11 (16%) also ERBB2-amplified, 8 (12%) with more than one pathogenic [ERBB2](../genes/ERBB2.md) mutation. [PMID:39031567](../papers/39031567.md)
 - Histology (ERBB2-mut/non-amp, n = 58): endometrioid [UEC](../cancer_types/UEC.md) 66%, serous [USC](../cancer_types/USC.md) 6.9%, clear cell [UCCC](../cancer_types/UCCC.md) 6.9%, carcinosarcoma [UCS](../cancer_types/UCS.md) 6.9%, mixed/high-grade EC-NOS 10%, undifferentiated/dedifferentiated 3.4%. [PMID:39031567](../papers/39031567.md)
-- Molecular subtypes assigned by an integrated molecular–IHC classifier (POLE > MSI-H > CN-H/TP53abn > CN-L/NSMP). [PMID:39031567](../papers/39031567.md)
+- Molecular subtypes assigned by an integrated molecular–IHC classifier ([POLE](../genes/POLE.md) > MSI-H > CN-H/TP53abn > CN-L/NSMP). [PMID:39031567](../papers/39031567.md)
 - HER2 [immunohistochemistry](../methods/immunohistochemistry.md) performed on 41 of the 69 cases. [PMID:39031567](../papers/39031567.md)
 
 ## Assays / panels (linked)
@@ -49,4 +49,4 @@ Single-center cohort of 69 ERBB2-mutant endometrial carcinomas (ECs) with matche
 - cBioPortal study: `ucs_msk_2024` (schema/ontology/studies.json)
 - [PMID:39031567](../papers/39031567.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

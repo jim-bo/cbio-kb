@@ -3,8 +3,8 @@ symbol: MDM2
 aliases: []
 cancer_types: [LUAD, RMS]
 tags: [p53-pathway, metastasis, amplification, ctDNA]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MDM2
@@ -52,7 +52,7 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - MDM2 amplification (copy number >4) was found in 6% and MDM2 overexpression (>2-fold above median) in 19% of muscle-invasive bladder cancer (MIBC) tumors; the TP53/Cell Cycle pathway (including MDM2) was inactivated in 89% of tumors; MDM2 and [TP53](../genes/TP53.md) alterations were mutually exclusive (q < 0.2) [PMID:28988769](../papers/28988769.md)
 - MDM2 amplification was present in 100% of dedifferentiated liposarcoma (DDLPS) by definition; MDM2, [CDK4](../genes/CDK4.md), and [HMGA2](../genes/HMGA2.md) co-amplification at 12q13~15 is the defining hallmark of DDLPS; MDM2 amplification, [CDK4](../genes/CDK4.md) amplification, [JUN](../genes/JUN.md) amplification, and [TERT](../genes/TERT.md) amplification distinguished DDLPS from other sarcoma subtypes [PMID:29100075](../papers/29100075.md)
 - Amplification identified in 8 [NSCLC](../cancer_types/NSCLC.md) patients; PFS not significantly different from overall cohort (HR 1.4, P=.44); hyperprogression signal on anti-PD-(L)1 therapy previously reported elsewhere was not reproduced [PMID:29337640](../papers/29337640.md)
-- MDM2 is mutually exclusive with [RB1](../genes/RB1.md) and [CDKN2A](../genes/CDKN2A.md) loss but is co-amplified with [CDK4](../genes/CDK4.md) due to genomic proximity; 78% of dedifferentiated liposarcomas carry [CDK4](../genes/CDK4.md)+MDM2 co-amplification, nominating CDK4+MDM2 inhibitor combination therapy [PMID:29625050](../papers/29625050.md)
+- MDM2 is mutually exclusive with [RB1](../genes/RB1.md) and [CDKN2A](../genes/CDKN2A.md) loss but is co-amplified with [CDK4](../genes/CDK4.md) due to genomic proximity; 78% of dedifferentiated liposarcomas carry [CDK4](../genes/CDK4.md)+MDM2 co-amplification, nominating [CDK4](../genes/CDK4.md)+MDM2 inhibitor combination therapy [PMID:29625050](../papers/29625050.md)
 - MDM2 amplification in 4% of cholangiocarcinoma (n=195 MSK-IMPACT cohort); associated with shorter PFS on first-line chemotherapy (n=7, p=0.026) [PMID:29848569](../papers/29848569.md)
 - 12q focal amplification (co-amplified with CDK4) enriched in PD patients in a pooled ICB cohort (193 patients); 12q amplification is a candidate genomic marker of immune checkpoint blockade resistance [PMID:30150660](../papers/30150660.md)
 - MDM2 mutated in 6% of gallbladder carcinoma tumors in a three-region cohort; located in the same TP53/ATM pathway; detected by MSK-IMPACT sequencing [PMID:30427539](../papers/30427539.md)
@@ -62,7 +62,7 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - Knockdown sensitivity of MDM2 is uniquely associated with MCM-complex protein levels across CCLE cell lines, hinting at a p53-independent function; MDM2 co-varies with TP53/CDKN1A knockdown sensitivities in cell-division-related complexes [PMID:31978347](../papers/31978347.md)
 - MDM2 is universally amplified in liposarcoma chromothripsis events across the PCAWG pan-cancer cohort of 2,658 whole genomes [PMID:32025007](../papers/32025007.md)
 - Recurrently amplified oncogene across 604 stage I-III resected [LUAD](../cancer_types/LUAD.md) patients profiled by MSK-IMPACT; consistent with prior [LUAD](../cancer_types/LUAD.md) genomic characterizations. [PMID:32791233](../papers/32791233.md)
-- MDM2 — amplification (n=4) and mutation (n=1) observed in 25% of BRAFi-monotherapy melanoma patients combined with TP53 events; not associated with response grade or survival; higher MDM2 expression correlated with elevated mutation burden in normal melanocytes [PMID:32913971](../papers/32913971.md)
+- MDM2 — amplification (n=4) and mutation (n=1) observed in 25% of BRAFi-monotherapy melanoma patients combined with [TP53](../genes/TP53.md) events; not associated with response grade or survival; higher MDM2 expression correlated with elevated mutation burden in normal melanocytes [PMID:32913971](../papers/32913971.md)
 - MDM2 — higher expression correlated with elevated mutation burden in normal skin melanocytes; not pathogenically mutated but transcriptionally upregulated in high-mutation-burden donors with adjacent skin cancer [PMID:33029006](../papers/33029006.md)
 - Recurrent focal SCNA gain at 12q15 identified in upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)); gain enriched in muscle-invasive and iCluster-high subtype. [PMID:33397444](../papers/33397444.md)
 - Amplification specific to mesenchymal [GBM](../cancer_types/GBM.md) subtype in [gbm_cptac_2021](../datasets/gbm_cptac_2021.md) (n=99); MDM2 RNA and protein decreased in TP53-mutant tumors, consistent with loss of the TP53-MDM2 negative-feedback loop [PMID:33577785](../papers/33577785.md)
@@ -227,4 +227,4 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - [PMID:41758938](../papers/41758938.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

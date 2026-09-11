@@ -3,8 +3,8 @@ symbol: ROS1
 aliases: []
 cancer_types: [NSCLC, PAAD]
 tags: [fusion, kinase, actionable]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ROS1
@@ -39,7 +39,7 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 - ROS1 referenced as an analogous oncogene-addicted system where compound on-target mutations and bypass signaling drive resistance to selective inhibitors, informing the resistance framework observed with [selpercatinib](../drugs/selpercatinib.md) in RET-altered cancers [PMID:35304457](../papers/35304457.md).
 - ROS1 kinase fusions detected as part of the 2.6% kinase-fusion gene panel across 7,494 sarcomas ([ALK](../genes/ALK.md), ROS1, [RET](../genes/RET.md), [FGFR1](../genes/FGFR1.md), NTRK1/2/3, [BRAF](../genes/BRAF.md)); actionable via ROS1 inhibitors [PMID:35705558](../papers/35705558.md)
 - Pan-cancer fusion driver catalogued in an Asian solid-tumor cohort (aOM); novel fusion partner genes identified alongside [FGFR2](../genes/FGFR2.md), [FGFR3](../genes/FGFR3.md), [NTRK1](../genes/NTRK1.md), [NTRK3](../genes/NTRK3.md), [RET](../genes/RET.md), and [MET](../genes/MET.md) [PMID:35871175](../papers/35871175.md)
-- Fusions (along with ALK, NTRK1/2/3, FGFR2) linked to strikingly early age at diagnosis pan-cancer. [PMID:41895280](../papers/41895280.md)
+- Fusions (along with [ALK](../genes/ALK.md), NTRK1/2/3, [FGFR2](../genes/FGFR2.md)) linked to strikingly early age at diagnosis pan-cancer. [PMID:41895280](../papers/41895280.md)
 
 ## Cancer types (linked)
 
@@ -108,4 +108,4 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 - [PMID:35871175](../papers/35871175.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

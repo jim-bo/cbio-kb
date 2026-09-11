@@ -3,8 +3,8 @@ symbol: MYOG
 aliases: []
 cancer_types: [SCSRMS]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MYOG
@@ -15,7 +15,7 @@ MYOG (myogenin) is a late-stage myogenic transcription factor and terminal diffe
 
 ## Alterations observed in the corpus
 
-- Late-stage myogenic effector (myogenin) with increased protein activity marking the differentiated cell state in MYOD1 L122R-mutant spindle cell/sclerosing rhabdomyosarcoma; diffusely positive MYOD1 with rare-to-negative myogenin was the immunohistochemical signature across six tumors [PMID:41758938](../papers/41758938.md).
+- Late-stage myogenic effector (myogenin) with increased protein activity marking the differentiated cell state in [MYOD1](../genes/MYOD1.md) L122R-mutant spindle cell/sclerosing rhabdomyosarcoma; diffusely positive MYOD1 with rare-to-negative myogenin was the immunohistochemical signature across six tumors [PMID:41758938](../papers/41758938.md).
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ MYOG (myogenin) is a late-stage myogenic transcription factor and terminal diffe
 
 - [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

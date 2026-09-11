@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [transcriptomics, sequencing]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # RNA sequencing
@@ -88,7 +88,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Applied to 40 [MRT](../cancer_types/MRT.md) cases plus 3 hESC lines (with 4 fetal cerebellum normals); NMF on top-25% most-variable protein-coding genes identified 2 mRNA sub-groups recapitulating the AT/RT vs RTK distinction, with organ site associated with sub-group 1 (all 6 extra-renal cases; Fisher p=0.04). [PMID:26977886](../papers/26977886.md)
 - Performed on 28-tumor subset of anti-PD-1-treated metastatic melanomas to identify the IPRES transcriptional resistance program via GSVA/GSEA enrichment analysis [PMID:26997480](../papers/26997480.md)
 - Performed on 495 lung ADC and 476 lung SqCC samples; used for fusion calling via PRADA and for mutational-signature transcriptional cross-validation in the [NSCLC](../cancer_types/NSCLC.md) landscape study [PMID:27158780](../papers/27158780.md)
-- Applied on 7 uRCC tumours (4 NF2-loss, 3 NF2-WT) using Illumina HiSeq 2500, with STAR alignment, to evaluate YAP/TAZ transcriptional signatures via GSEA. [PMID:27713405](../papers/27713405.md)
+- Applied on 7 uRCC tumours (4 NF2-loss, 3 NF2-WT) using Illumina HiSeq 2500, with [STAR](../genes/STAR.md) alignment, to evaluate YAP/TAZ transcriptional signatures via GSEA. [PMID:27713405](../papers/27713405.md)
 - Transcriptome sequencing (RNA-seq) on N=54 cases used to characterize the DUX4/ERG B-ALL subtype; identified ERGalt from a novel non-canonical first exon and distinguished this subtype from other B-ALL classes. [PMID:27776115](../papers/27776115.md)
 - Used as tumor transcriptome profiling (TruSeq Stranded Total RNA LT) in the PIPseq program; RNA-seq independently contributed ~40% of clinically impactful findings including fusion detection, BCR-ABL1-like signature identification, and expression-based subtyping across 65 pediatric patients [PMID:28007021](../papers/28007021.md).
 - Used for mRNA profiling of 164 oesophageal carcinomas and 359 gastric adenocarcinomas in the TCGA esophageal/stomach study; mRNA-seq confirmed no HPV transcripts in [ESCC](../cancer_types/ESCC.md) and provided expression data for iCluster integrative subtyping [PMID:28052061](../papers/28052061.md).
@@ -140,14 +140,14 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Applied to CAC samples to assess Wnt-pathway ssGSEA scores (lower in CAC than sporadic CRC, P=0.13 in 11 patients), confirm Wnt-independence in pathway-wild-type CAC, and characterize dominant SBS1 mutational signature in the WES subset [PMID:36611031](../papers/36611031.md)
 - Reviewed as a core transcriptomics modality in multi-omics integration; CPTAC cited as incorporating RNA-seq data across 32+ cancer types alongside proteomics, CNV, and methylation for comprehensive molecular cancer characterization [PMID:37119971](../papers/37119971.md)
 - Applied to 7 of 49 aSCLC specimens; confirmed ASCL1-dominant subtype, absent [YAP1](../genes/YAP1.md), uniformly high [DLL3](../genes/DLL3.md) and [SEZ6](../genes/SEZ6.md) expression (mean H scores 278 and 240 by IHC); identified SH3RF3-CCND1 enhancer-hijacking mechanism in case A17 with [CCND1](../genes/CCND1.md) overexpression without amplification [PMID:39185963](../papers/39185963.md)
-- Ran whole-transcriptome RNA-seq (Illumina TruSeq RNA Access, GSNAP-aligned, edgeR/voom-normalized) on 263 pretreatment tumors in a phase 2 atezolizumab ± bevacizumab vs. sunitinib renal cell carcinoma trial [PMID:29867230](../papers/29867230.md).
+- Ran whole-transcriptome RNA-seq (Illumina TruSeq RNA Access, GSNAP-aligned, edgeR/voom-normalized) on 263 pretreatment tumors in a phase 2 [atezolizumab](../drugs/atezolizumab.md) ± [bevacizumab](../drugs/bevacizumab.md) vs. [sunitinib](../drugs/sunitinib.md) renal cell carcinoma trial [PMID:29867230](../papers/29867230.md).
 - Used paired-end RNA-seq (HISAT2-aligned) alongside NanoString immune profiling to study cell-cycle signature suppression in a neoadjuvant anti-PD-1 recurrent glioblastoma trial [PMID:30742122](../papers/30742122.md).
-- Ran RNA-seq (Illumina TruSeq RNA Access, STAR-aligned, Salmon-quantified, DESeq2 differential expression) alongside WES to characterize a priming-cyclophosphamide + pembrolizumab trial in metastatic triple-negative breast cancer [PMID:35121644](../papers/35121644.md).
+- Ran RNA-seq (Illumina TruSeq RNA Access, STAR-aligned, Salmon-quantified, DESeq2 differential expression) alongside WES to characterize a priming-cyclophosphamide + [pembrolizumab](../drugs/pembrolizumab.md) trial in metastatic triple-negative breast cancer [PMID:35121644](../papers/35121644.md).
 - Ran bulk tumor RNA-seq (liver-metastasis biopsies only, to avoid tissue-of-origin confounding) as part of multi-omic profiling in the PRINCE phase 2 sotigalimab/nivolumab + chemotherapy pancreatic cancer trial [PMID:35662283](../papers/35662283.md).
 - Used RNA-seq alongside proteomics/phosphoproteomics for proliferation scoring and immune deconvolution (ESTIMATE, CIBERSORT, xCell) in a proteogenomic chemoresistance study of triple-negative breast cancer [PMID:36001024](../papers/36001024.md).
 - Used RNA-seq alongside whole-genome sequencing (EBV status from EBER1/EBER2 reads) to define genetic subgroups in Burkitt lymphoma vs. DLBCL [PMID:36201743](../papers/36201743.md).
 - Ran RNA-seq (TruSeq stranded mRNA, ~80M reads) on 68 pediatric solid-tumor PDXs and matched patient tumors for fusion calling and expression-conservation analysis; 92% of WES point mutations were validated in RNA-seq or low-pass WGS [PMID:37990009](../papers/37990009.md).
-- Used RNA-seq as the primary discovery assay (fusion, ITD/PTD, CNV, SNV/indel calling) across 887 pediatric AML cases, validating 97.3% of RNA-seq-derived calls against orthogonal WGS/WES [PMID:38212634](../papers/38212634.md).
+- Used RNA-seq as the primary discovery assay (fusion, ITD/PTD, CNV, SNV/indel calling) across 887 pediatric [AML](../cancer_types/AML.md) cases, validating 97.3% of RNA-seq-derived calls against orthogonal WGS/WES [PMID:38212634](../papers/38212634.md).
 - Ran whole-transcriptome RNA-seq on 100 nephroureterectomy tumors (MSK100 cohort) to define five transcriptional clusters with distinct outcomes and immune-checkpoint-blockade response in upper tract urothelial carcinoma [PMID:39550333](../papers/39550333.md).
 - Ran whole-transcriptome RNA-seq on 91 of 94 tumors as part of a seven-assay multi-omic profiling of SDHB-deficient pheochromocytoma/paraganglioma [PMID:40097403](../papers/40097403.md).
 
@@ -293,4 +293,4 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:39550333](../papers/39550333.md)
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

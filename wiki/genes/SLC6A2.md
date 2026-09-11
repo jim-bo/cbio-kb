@@ -3,19 +3,19 @@ symbol: SLC6A2
 aliases: []
 cancer_types: [PHC, PGNG]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # SLC6A2
 
 ## Overview
 
-SLC6A2 (the noradrenaline transporter, NET) is a catecholamine-transport gene used as a cell-of-origin and biochemical-phenotype marker in pheochromocytoma and paraganglioma (PCPG).
+SLC6A2 (the noradrenaline transporter, NET) is a catecholamine-transport gene used as a cell-of-origin and biochemical-phenotype marker in pheochromocytoma and paraganglioma ([PCPG](../cancer_types/PCPG.md)).
 
 ## Alterations observed in the corpus
 
-- SLC6A2 expression (alongside TH and DBH) is silenced by promoter methylation in biochemically silent, dopaminergic, or noradrenaline-transporter-low SDHB-deficient pheochromocytoma/paraganglioma tumors [PMID:40097403](../papers/40097403.md).
+- SLC6A2 expression (alongside [TH](../genes/TH.md) and [DBH](../genes/DBH.md)) is silenced by promoter methylation in biochemically silent, dopaminergic, or noradrenaline-transporter-low SDHB-deficient pheochromocytoma/paraganglioma tumors [PMID:40097403](../papers/40097403.md).
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ SLC6A2 (the noradrenaline transporter, NET) is a catecholamine-transport gene us
 
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

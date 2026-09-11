@@ -3,8 +3,8 @@ symbol: GZMB
 aliases: []
 cancer_types: [COAD]
 tags: [cytotoxic, icr, immune-signature]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # GZMB
@@ -16,7 +16,7 @@ GZMB encodes granzyme B, the principal pro-apoptotic serine protease of cytotoxi
 ## Alterations observed in the corpus
 
 - Effector cytotoxic component of the 20-gene ICR signature in colon cancer [PMID:37202560](../papers/37202560.md).
-- Component of the T-effector gene expression signature (with CD8A, GZMA, PRF1, IFNG, TBX21) evaluated in atezolizumab-treated urothelial carcinoma; the signature did not differ significantly by tumor primary site [PMID:27939400](../papers/27939400.md).
+- Component of the T-effector gene expression signature (with [CD8A](../genes/CD8A.md), [GZMA](../genes/GZMA.md), [PRF1](../genes/PRF1.md), [IFNG](../genes/IFNG.md), [TBX21](../genes/TBX21.md)) evaluated in atezolizumab-treated urothelial carcinoma; the signature did not differ significantly by tumor primary site [PMID:27939400](../papers/27939400.md).
 
 ## Cancer types (linked)
 
@@ -39,4 +39,4 @@ GZMB encodes granzyme B, the principal pro-apoptotic serine protease of cytotoxi
 - [PMID:37202560](../papers/37202560.md)
 - [PMID:27939400](../papers/27939400.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

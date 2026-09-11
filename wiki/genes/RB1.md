@@ -3,8 +3,8 @@ symbol: RB1
 aliases: []
 cancer_types: [HCC, THPA]
 tags: [tumor-suppressor, thyroid-cancer]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # RB1
@@ -55,7 +55,7 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - RB1 mostly inactivating mutations (17%) in MIBC with associated reduced mRNA; hallmark co-event with [TP53](../genes/TP53.md) loss in the neuronal subtype [PMID:28988769](../papers/28988769.md)
 - RB1 is a pan-sarcoma SMG with deep deletions in 14% [LMS](../cancer_types/LMS.md), 16% [UPS](../cancer_types/UPS.md), 24% [MFS](../cancer_types/MFS.md); enriched mutations in STLMS iCluster C1 (p=0.04) [PMID:29100075](../papers/29100075.md)
 - Confirmed established prostate-cancer driver with enrichment in metastatic vs. primary disease in a WES meta-analysis of 1,013 prostate tumors ([prad_p1000](../datasets/prad_p1000.md)); included in the metastasis-enrichment genomic signature proposed for prospective risk stratification [PMID:29610475](../papers/29610475.md).
-- RB1 co-occurs with TP53 in the pan-cancer somatic driver co-occurrence network; tumor suppressor with reduced expression in RB1 mutants (consistent with NMD/loss-of-function) [PMID:29625049](../papers/29625049.md)
+- RB1 co-occurs with [TP53](../genes/TP53.md) in the pan-cancer somatic driver co-occurrence network; tumor suppressor with reduced expression in RB1 mutants (consistent with NMD/loss-of-function) [PMID:29625049](../papers/29625049.md)
 - RB1 loss co-occurs with TP53 mutation and is mutually exclusive with [MDM2](../genes/MDM2.md) amplification pan-cancer; the cell-cycle pathway ([CDKN2A](../genes/CDKN2A.md), RB1, [CCNE1](../genes/CCNE1.md), [CDK4](../genes/CDK4.md), [CDK6](../genes/CDK6.md), [E2F3](../genes/E2F3.md)) is broadly co-altered with TP53 across cancer types [PMID:29625050](../papers/29625050.md)
 - RB1 oncogenic mutation detected in only one of 15 bladder cancer organoid lines, lower than the frequency reported in established bladder cancer cell lines, suggesting possible selection bias in organoid culture [PMID:29625057](../papers/29625057.md)
 - 13q14.2/RB1 focal copy loss is a defining feature of C2 DLBCL alongside [CDKN2A](../genes/CDKN2A.md) loss; co-occurring with biallelic TP53 inactivation and elevated genomic instability/whole-genome doubling in 304 primary DLBCLs [PMID:29713087](../papers/29713087.md)
@@ -83,7 +83,7 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - Altered in 12% of [GBM](../cancer_types/GBM.md); RB1 protein downregulated with concordant upregulation of MCM2/MCM4/MCM6 (replication licensing factors) [PMID:33577785](../papers/33577785.md)
 - Mutations identified only in TERT-WT metaplastic breast carcinomas ([MBC](../cancer_types/MBC.md)); not reaching statistical significance after multiple-testing correction [PMID:33863915](../papers/33863915.md)
 - Germline RB1 deletions recovered in two retinoblastoma patients via matched WBC sequencing during MSK-ACCESS cfDNA profiling; would have been reported as somatic without paired-normal data [PMID:34145282](../papers/34145282.md)
-- Mutations associated with upregulated cell-cycle proteins in LSCC; Rb protein loss observed in CDKN2A-WT samples with preserved p16; mutually exclusive with [CDKN2A](../genes/CDKN2A.md) inactivation; loss of RB1 or CDKN2A described as universal in LSCC [PMID:34358469](../papers/34358469.md)
+- Mutations associated with upregulated cell-cycle proteins in LSCC; Rb protein loss observed in CDKN2A-WT samples with preserved p16; mutually exclusive with [CDKN2A](../genes/CDKN2A.md) inactivation; loss of RB1 or [CDKN2A](../genes/CDKN2A.md) described as universal in LSCC [PMID:34358469](../papers/34358469.md)
 - Assessed at ≥2% alteration frequency in [LUAD](../cancer_types/LUAD.md); no statistically significant association with pathologic lymph-node (pN) metastasis status in multivariable analysis [PMID:34290393](../papers/34290393.md)
 - Loss (4% of HR+/HER2− breast cancer cohort) is the canonical CDK4/6i-resistance lesion (downstream of CDK4/6) and was a top hit in the PRISM screen for [palbociclib](../drugs/palbociclib.md) insensitivity. [PMID:34544752](../papers/34544752.md)
 - High-positive Δκ<sub>risk</sub> gene flagged as a putative network driver of ICI-modulated robustness in [HGSOC](../cancer_types/HGSOC.md), based on CNA-derived network curvature analysis of 45 ICI-treated patients. [PMID:34819508](../papers/34819508.md)
@@ -98,14 +98,14 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - RB1 located on 13q, which shows higher deletion frequency in prostate cancer metastases; co-deleted with [BRCA2](../genes/BRCA2.md) on 13q [PMID:35670774](../papers/35670774.md)
 - RB1 altered in 17.2% of sarcomas (21.5% complex vs 2.8% translocation-associated); also rearranged in 1.5% of cases; RB1 deletion confers resistance to [palbociclib](../drugs/palbociclib.md) (CDK4/6 inhibition) [PMID:35705558](../papers/35705558.md)
 - RB1 significantly altered across multiple sarcoma subtypes; pathway-level events in WDLS/DDLS (99%) in combination with CDK4/MDM2 co-amplification [PMID:35705560](../papers/35705560.md)
-- RB1 pathway impairment is referenced in context of CDK4 amplification (10.9% of [STS](../cancer_types/STS.md)) as a target for abemaciclib/palbociclib (Level 4) in Chinese solid-tumor cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md)) [PMID:35871175](../papers/35871175.md)
-- Proficient (wild-type) RB1 + proficient TP53 defines atypical [SCLC](../cancer_types/SCLC.md) (aSCLC; 20/600 SCLC, 3%); acquired subclonal RB1 mutations seen in metastatic samples of 3 cases (A12, A16, A20) without overt proliferation escalation, suggesting a noncanonical role outside E2F-mediated cell cycle control [PMID:39185963](../papers/39185963.md)
-- RB1 alterations were mutually exclusive with CCND1 and CCNE1 in colorectal cancer; oncogenic cell-cycle alteration carried a multivariable OS HR of 2.26 [PMID:35487942](../papers/35487942.md)
-- High RB1 protein and Rb phosphorylation went with lower carboplatin response and higher CDK4/6-inhibitor response in triple-negative breast cancer DepMap lines [PMID:36001024](../papers/36001024.md)
+- RB1 pathway impairment is referenced in context of [CDK4](../genes/CDK4.md) amplification (10.9% of [STS](../cancer_types/STS.md)) as a target for abemaciclib/palbociclib (Level 4) in Chinese solid-tumor cohort ([pan_origimed_2020](../datasets/pan_origimed_2020.md)) [PMID:35871175](../papers/35871175.md)
+- Proficient (wild-type) RB1 + proficient TP53 defines atypical [SCLC](../cancer_types/SCLC.md) (aSCLC; 20/600 [SCLC](../cancer_types/SCLC.md), 3%); acquired subclonal RB1 mutations seen in metastatic samples of 3 cases (A12, A16, A20) without overt proliferation escalation, suggesting a noncanonical role outside E2F-mediated cell cycle control [PMID:39185963](../papers/39185963.md)
+- RB1 alterations were mutually exclusive with [CCND1](../genes/CCND1.md) and [CCNE1](../genes/CCNE1.md) in colorectal cancer; oncogenic cell-cycle alteration carried a multivariable OS HR of 2.26 [PMID:35487942](../papers/35487942.md)
+- High RB1 protein and Rb phosphorylation went with lower [carboplatin](../drugs/carboplatin.md) response and higher CDK4/6-inhibitor response in triple-negative breast cancer DepMap lines [PMID:36001024](../papers/36001024.md)
 - RB1 p.S318Nfs*13 was a single case (0.8%) flagged as a CDK4/6-inhibitor target in solitary fibrous tumor [PMID:37980418](../papers/37980418.md)
-- RB1 focal deletions (13q14, 2.9%) were identified by GISTIC in a pediatric AML cohort [PMID:38212634](../papers/38212634.md)
+- RB1 focal deletions (13q14, 2.9%) were identified by GISTIC in a pediatric [AML](../cancer_types/AML.md) cohort [PMID:38212634](../papers/38212634.md)
 - RB1 was altered more often in the S1314 bladder cancer cohort than in TCGA (26% vs 18%); the RETAIN trial used a composite DDR/RB1 mutation biomarker [PMID:39499893](../papers/39499893.md)
-- RB1 Q217* is the most frequent RB1 SNV and is enriched in APOBEC3-dominant breast tumors; an engineered APOBEC3-context RB1 truncating mutation caused ~31-fold reduced abemaciclib sensitivity [PMID:40379787](../papers/40379787.md)
+- RB1 Q217* is the most frequent RB1 SNV and is enriched in APOBEC3-dominant breast tumors; an engineered APOBEC3-context RB1 truncating mutation caused ~31-fold reduced [abemaciclib](../drugs/abemaciclib.md) sensitivity [PMID:40379787](../papers/40379787.md)
 
 ## Cancer types (linked)
 
@@ -229,4 +229,4 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - [PMID:39499893](../papers/39499893.md)
 - [PMID:40379787](../papers/40379787.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

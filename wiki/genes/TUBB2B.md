@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - BRCA
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # TUBB2B
@@ -16,11 +16,11 @@ TUBB2B encodes a beta-tubulin isotype involved in microtubule structure and is b
 
 ## Alterations observed in the corpus
 
-- TUBB2B expression was higher in pretreatment tumors of responders (CR+PR) in a triple-negative breast cancer pembrolizumab trial [PMID:35121644](../papers/35121644.md).
+- TUBB2B expression was higher in pretreatment tumors of responders (CR+PR) in a triple-negative breast cancer [pembrolizumab](../drugs/pembrolizumab.md) trial [PMID:35121644](../papers/35121644.md).
 
 ## Cancer types (linked)
 
-- [BRCA](../cancer_types/BRCA.md) — In a phase 2 metastatic triple-negative breast cancer trial of cyclophosphamide priming plus pembrolizumab, higher pretreatment TUBB2B (with ANKRD30A, SYCE1) expression distinguished responders from non-responders [PMID:35121644](../papers/35121644.md).
+- [BRCA](../cancer_types/BRCA.md) — In a phase 2 metastatic triple-negative breast cancer trial of [cyclophosphamide](../drugs/cyclophosphamide.md) priming plus pembrolizumab, higher pretreatment TUBB2B (with [ANKRD30A](../genes/ANKRD30A.md), [SYCE1](../genes/SYCE1.md)) expression distinguished responders from non-responders [PMID:35121644](../papers/35121644.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -38,4 +38,4 @@ TUBB2B encodes a beta-tubulin isotype involved in microtubule structure and is b
 
 - [PMID:35121644](../papers/35121644.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

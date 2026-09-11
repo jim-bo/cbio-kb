@@ -3,8 +3,8 @@ symbol: KDR
 aliases: [VEGFR2]
 cancer_types: [ANGS]
 tags: [amplification, gain-of-function, VEGF-signaling, sarcoma, radiation-associated]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # KDR
@@ -31,7 +31,7 @@ KDR (also known as VEGFR2) encodes vascular endothelial growth factor receptor 2
 - In the MAPPYACTS pediatric precision oncology cohort, KDR was listed among the recurrently altered genes in the CNS oncomap subset, classified at the investigational actionability tier [PMID:35292802](../papers/35292802.md).
 - KDR is co-amplified with [KIT](../genes/KIT.md) and [FGFR4](../genes/FGFR4.md) at the 4q12 kinase amplicon in osteosarcoma (10.7%), liposarcoma NOS (8.0%), and UPS/MFH (7.3%) in the MSK sarcoma genomic profiling cohort (n=7,494, FoundationOne CDx) [PMID:35705558](../papers/35705558.md)
 - KDR is recurrently altered in angiosarcoma ([ANGS](../cancer_types/ANGS.md)) at 19% frequency in the MSK sarcoma clinical sequencing cohort ([sarcoma_mskcc_2022](../datasets/sarcoma_mskcc_2022.md), n=1,148); co-occurs with [FLT4](../genes/FLT4.md) (9%) and [EPHA5](../genes/EPHA5.md) (9%) as a receptor tyrosine kinase cluster in [ANGS](../cancer_types/ANGS.md) [PMID:35705560](../papers/35705560.md)
-- KDR (VEGFR2) is part of the 6-gene Angio expression signature (with VEGFA, ESM1, PECAM1, ANGPTL4, CD34); an AngioHigh score predicted sunitinib benefit in metastatic RCC and tracked CD31 IHC vascular density [PMID:29867230](../papers/29867230.md).
+- KDR (VEGFR2) is part of the 6-gene Angio expression signature (with [VEGFA](../genes/VEGFA.md), [ESM1](../genes/ESM1.md), [PECAM1](../genes/PECAM1.md), [ANGPTL4](../genes/ANGPTL4.md), [CD34](../genes/CD34.md)); an AngioHigh score predicted [sunitinib](../drugs/sunitinib.md) benefit in metastatic [RCC](../cancer_types/RCC.md) and tracked CD31 IHC vascular density [PMID:29867230](../papers/29867230.md).
 
 ## Cancer types (linked)
 
@@ -84,4 +84,4 @@ KDR (also known as VEGFR2) encodes vascular endothelial growth factor receptor 2
 - [PMID:35705560](../papers/35705560.md)
 - [PMID:29867230](../papers/29867230.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

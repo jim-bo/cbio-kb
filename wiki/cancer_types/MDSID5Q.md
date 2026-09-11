@@ -8,15 +8,15 @@ tags:
   - dysplasia
   - bone-marrow
   - del5q
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MDS with Isolated Del(5q) (MDSID5Q)
 
 ## Overview
 
-MDS with isolated del(5q) is an MDS subtype defined by an isolated interstitial deletion of the long arm of chromosome 5 as the sole cytogenetic abnormality, typically presenting with macrocytic anemia and a relatively favorable prognosis compared with other MDS subtypes. It sits at OncoTree level 4 under [MDS](../cancer_types/MDS.md).
+[MDS](../cancer_types/MDS.md) with isolated del(5q) is an MDS subtype defined by an isolated interstitial deletion of the long arm of chromosome 5 as the sole cytogenetic abnormality, typically presenting with macrocytic anemia and a relatively favorable prognosis compared with other MDS subtypes. It sits at OncoTree level 4 under [MDS](../cancer_types/MDS.md).
 
 ## Cohorts in the corpus
 
@@ -38,4 +38,4 @@ MDS with isolated del(5q) is an MDS subtype defined by an isolated interstitial 
 
 - [PMID:24030381](../papers/24030381.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

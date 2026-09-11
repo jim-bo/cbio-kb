@@ -3,8 +3,8 @@ symbol: HAVCR2
 aliases: [TIM3]
 cancer_types: [HGSOC, SKCM]
 tags: [checkpoint, exhaustion, immune-evasion, cd8-t-cell, nk-cell]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # HAVCR2
@@ -17,8 +17,8 @@ HAVCR2 (hepatitis A virus cellular receptor 2, also known as TIM-3) is an immune
 
 - HAVCR2 (TIM3) is progressively upregulated on CD8+ T cells across [HGSOC](../cancer_types/HGSOC.md) fallopian tube precursor stages (p53 signature → STIC.I → STIC.C → invasive cancer); also detected on a subset of HLA-DR+/CD40+ APCs in the 44-specimen CyCIF/GeoMx spatial atlas [PMID:39386723](../papers/39386723.md).
 - Co-upregulated with [PDCD1](../genes/PDCD1.md) (PD-1), [LAG3](../genes/LAG3.md), and [CTLA4](../genes/CTLA4.md) as exhaustion markers on CD8+ T cells during [HGSOC](../cancer_types/HGSOC.md) precursor evolution [PMID:39386723](../papers/39386723.md).
-- HAVCR2 (TIM-3) is a compensatory immune checkpoint in NPC; the anti-TIM-3 antibody TQB2618 combined with penpulimab showed 0% ORR in N=17 NPC patients. [PMID:41002550](../papers/41002550.md)
-- Selectively upregulated on-therapy at week 4 in responders (CR/PR) to nivolumab in advanced melanoma (CA209-038 trial, n=68); nominated alongside OX40, TIGIT, and VISTA as candidate combination immunotherapy targets. [PMID:29033130](../papers/29033130.md)
+- HAVCR2 (TIM-3) is a compensatory immune checkpoint in [NPC](../cancer_types/NPC.md); the anti-TIM-3 antibody TQB2618 combined with [penpulimab](../drugs/penpulimab.md) showed 0% ORR in N=17 NPC patients. [PMID:41002550](../papers/41002550.md)
+- Selectively upregulated on-therapy at week 4 in responders (CR/PR) to [nivolumab](../drugs/nivolumab.md) in advanced melanoma (CA209-038 trial, n=68); nominated alongside OX40, [TIGIT](../genes/TIGIT.md), and VISTA as candidate combination immunotherapy targets. [PMID:29033130](../papers/29033130.md)
 - HAVCR2 (TIM3) overexpressed in IG3 immune-hot (and to a lesser extent IG4) rectal tumors in a cohort of 692 pMMR/MSS rectal cancer patients, nominating these patients for ICI trials alongside [PDCD1](PDCD1.md) (PD-1), [CD274](CD274.md) (PD-L1), [CTLA4](CTLA4.md), and [LAG3](LAG3.md) [PMID:35970919](../papers/35970919.md)
 - HAVCR2 (TIM-3) expression was higher on peripheral CD8+ T cells of responders during cycles 1-2 of a TNBC immunotherapy trial, alongside IL2RA/CD25 [PMID:35121644](../papers/35121644.md).
 
@@ -28,7 +28,7 @@ HAVCR2 (hepatitis A virus cellular receptor 2, also known as TIM-3) is an immune
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with [PDCD1](../genes/PDCD1.md), [LAG3](../genes/LAG3.md), and [CTLA4](../genes/CTLA4.md) in the T-cell exhaustion program that accumulates through HGSOC precursor stages [PMID:39386723](../papers/39386723.md).
+- Co-expressed with [PDCD1](../genes/PDCD1.md), [LAG3](../genes/LAG3.md), and [CTLA4](../genes/CTLA4.md) in the T-cell exhaustion program that accumulates through [HGSOC](../cancer_types/HGSOC.md) precursor stages [PMID:39386723](../papers/39386723.md).
 
 ## Therapeutic relevance
 
@@ -49,4 +49,4 @@ HAVCR2 (hepatitis A virus cellular receptor 2, also known as TIM-3) is an immune
 - [PMID:35970919](../papers/35970919.md)
 - [PMID:35121644](../papers/35121644.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -5,8 +5,8 @@ drug_class: taxane microtubule stabilizer
 canonical_source: corpus
 unverified: true
 tags: [chemotherapy, anti-tubulin, radiosensitizer]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # paclitaxel
@@ -30,8 +30,8 @@ Paclitaxel (Taxol) is a taxane that stabilizes microtubule polymers, preventing 
 - Component of the TICE high-dose chemotherapy regimen (paclitaxel + [carboplatin](../drugs/carboplatin.md) + [etoposide](../drugs/etoposide.md) + [ifosfamide](../drugs/ifosfamide.md) + autologous SCT) used in 15 patients with primary mediastinal [NSGCT](../cancer_types/NSGCT.md) ([NSGCT](../cancer_types/NSGCT.md)) and concomitant hematologic malignancy (median [OS](../cancer_types/OS.md) 6.3 months) [PMID:32897884](../papers/32897884.md).
 - Paclitaxel + [carboplatin](../drugs/carboplatin.md) (Carbo-Taxol) was the neoadjuvant regimen in 49% of 237 esophageal/GEJ adenocarcinoma patients at MSK; FOLFOX was significantly associated with better pathologic response than Carbo-Taxol (OR 2.38, p=0.013) [PMID:35377946](../papers/35377946.md)
 - Taxane chemotherapy; serial ctDNA (MSK-ACCESS) tracked response to paclitaxel/carboplatin in metastatic endometrial cancer; ctDNA rises preceded imaging-confirmed progression by up to 6 months (n=44) [PMID:36007103](../papers/36007103.md)
-- Component of the BrighTNess trial paclitaxel/carboplatin plus/minus veliparib arms (n=359) and the paclitaxel-alone arm, used to test LIG1/POLD1/XRCC1 as predictors of pathologic response in TNBC. [PMID:36001024](../papers/36001024.md)
-- Component of a paclitaxel plus trastuzumab plus everolimus regimen that produced partial responses in ERBB2 S310Y-mutant endometrial and cervical cancer patients. [PMID:39031567](../papers/39031567.md)
+- Component of the BrighTNess trial paclitaxel/carboplatin plus/minus [veliparib](../drugs/veliparib.md) arms (n=359) and the paclitaxel-alone arm, used to test LIG1/POLD1/XRCC1 as predictors of pathologic response in TNBC. [PMID:36001024](../papers/36001024.md)
+- Component of a paclitaxel plus [trastuzumab](../drugs/trastuzumab.md) plus [everolimus](../drugs/everolimus.md) regimen that produced partial responses in [ERBB2](../genes/ERBB2.md) S310Y-mutant endometrial and cervical cancer patients. [PMID:39031567](../papers/39031567.md)
 
 ## Resistance mechanisms
 
@@ -59,4 +59,4 @@ Paclitaxel (Taxol) is a taxane that stabilizes microtubule polymers, preventing 
 - [PMID:36001024](../papers/36001024.md)
 - [PMID:39031567](../papers/39031567.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

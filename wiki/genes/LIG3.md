@@ -3,15 +3,15 @@ symbol: LIG3
 aliases: []
 cancer_types: [BRCA]
 tags: [dna-repair, chemotherapy-resistance]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # LIG3
 
 ## Overview
 
-LIG3 encodes a DNA ligase that, together with XRCC1, provides a backup
+LIG3 encodes a DNA ligase that, together with [XRCC1](../genes/XRCC1.md), provides a backup
 pathway for LIG1-mediated ligation during lagging-strand DNA synthesis.
 
 ## Alterations observed in the corpus
@@ -32,10 +32,10 @@ pathway for LIG1-mediated ligation during lagging-strand DNA synthesis.
 
 ## Open questions
 
-- Whether LIG3/XRCC1 backup-pathway activity modulates the severity of carboplatin resistance seen in LIG1-loss tumors was not directly tested [PMID:36001024](../papers/36001024.md).
+- Whether LIG3/XRCC1 backup-pathway activity modulates the severity of [carboplatin](../drugs/carboplatin.md) resistance seen in LIG1-loss tumors was not directly tested [PMID:36001024](../papers/36001024.md).
 
 ## Sources
 
 - [PMID:36001024](../papers/36001024.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

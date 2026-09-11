@@ -3,8 +3,8 @@ symbol: DECR1
 aliases: []
 cancer_types: [BRCA]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # DECR1
@@ -15,7 +15,7 @@ DECR1 (2,4-dienoyl-CoA reductase 1) is a fatty-acid beta-oxidation enzyme gene l
 
 ## Alterations observed in the corpus
 
-- DECR1 lies in the amplified 8q21.3 locus (with RMDN1, CPNE3, OTUD6B) showing higher mRNA and protein in non-pCR triple-negative breast tumors after neoadjuvant chemotherapy [PMID:36001024](../papers/36001024.md).
+- DECR1 lies in the amplified 8q21.3 locus (with [RMDN1](../genes/RMDN1.md), [CPNE3](../genes/CPNE3.md), [OTUD6B](../genes/OTUD6B.md)) showing higher mRNA and protein in non-pCR triple-negative breast tumors after neoadjuvant chemotherapy [PMID:36001024](../papers/36001024.md).
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ DECR1 (2,4-dienoyl-CoA reductase 1) is a fatty-acid beta-oxidation enzyme gene l
 
 - [PMID:36001024](../papers/36001024.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

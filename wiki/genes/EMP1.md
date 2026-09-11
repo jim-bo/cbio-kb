@@ -3,8 +3,8 @@ symbol: EMP1
 aliases: []
 cancer_types: [COADREAD]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # EMP1
@@ -15,7 +15,7 @@ EMP1 (epithelial membrane protein 1) is a tetraspan membrane protein gene. In th
 
 ## Alterations observed in the corpus
 
-- EMP1 (with L1CAM) is a co-expressed marker of an LGR5-low injury-repair/tumor-regenerative gene-expression module at the colorectal cancer invasion front, associated with metastasis-initiating cells [PMID:39478232](../papers/39478232.md).
+- EMP1 (with [L1CAM](../genes/L1CAM.md)) is a co-expressed marker of an LGR5-low injury-repair/tumor-regenerative gene-expression module at the colorectal cancer invasion front, associated with metastasis-initiating cells [PMID:39478232](../papers/39478232.md).
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ EMP1 (epithelial membrane protein 1) is a tetraspan membrane protein gene. In th
 
 - [PMID:39478232](../papers/39478232.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

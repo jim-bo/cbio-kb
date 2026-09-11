@@ -3,8 +3,8 @@ symbol: ATRX
 aliases: []
 cancer_types: [AST, DIFG, ANGS, LMS]
 tags: [chromatin-remodeler, alt, astrocytoma]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ATRX
@@ -44,12 +44,12 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 - 128 PCAWG tumors carry ATRX or [DAXX](../genes/DAXX.md) alterations (71 truncating); ATRX SVs cluster in telomere phenotype group C1 (ALT pathway) while ATRX/DAXX point mutations cluster in C2; loss is enriched in ALT-pathway tumors independent of [RB1](../genes/RB1.md) status [PMID:32025007](../papers/32025007.md)
 - Altered in 31% of uterine leiomyosarcoma (uLMS, n=80), significantly more frequent than in high-grade non-LMS (5%, p<0.01); loss-of-function alterations dominated alongside [TP53](../genes/TP53.md) (56%) and [RB1](../genes/RB1.md) (51%) as core uLMS drivers [PMID:32299819](../papers/32299819.md)
 - Included in the panel of commonly mutated genes used to evaluate fidelity of derived models (cell lines and PDX) from [NF1](../genes/NF1.md) nerve sheath tumors; mutational profiles preserved across tumor, cell line, and xenograft [PMID:32561749](../papers/32561749.md)
-- In a proteogenomic study of 99 GBMs, 9 ATRX-mutant tumors showed significantly diminished ATRX RNA and protein (IHC-validated); ATRX mutations were mutually exclusive with [TERT](../genes/TERT.md) promoter hotspot mutations (C228T/C250T) and co-occurred with TP53 mutation and [IDH1](../genes/IDH1.md) R132H. [PMID:33577785](../papers/33577785.md)
+- In a proteogenomic study of 99 GBMs, 9 ATRX-mutant tumors showed significantly diminished ATRX RNA and protein (IHC-validated); ATRX mutations were mutually exclusive with [TERT](../genes/TERT.md) promoter hotspot mutations (C228T/C250T) and co-occurred with [TP53](../genes/TP53.md) mutation and [IDH1](../genes/IDH1.md) R132H. [PMID:33577785](../papers/33577785.md)
 - ATRX listed among other recurrent CNS oncomap alterations in the MAPPYACTS pediatric precision-oncology trial across sarcomas, CNS tumors, and leukemia (n=624 patients with successful tumor sequencing) [PMID:35292802](../papers/35292802.md)
 - ATRX structural variants detected in 5/29 (17%) neuroblastoma patients by cWGTS; only ¼ of ATRX deletions were reported by MSK-IMPACT panel; also observed in 8 osteosarcomas with association to telomere length; therapy-defining risk-stratification biomarker [PMID:35585047](../papers/35585047.md)
 - ATRX loss-of-function (mutations, deletions, intra/intergenic fusions) occurs in >=10% of [ULMS](../cancer_types/ULMS.md), [PLLS](../cancer_types/PLLS.md), [UPS](../cancer_types/UPS.md), [MFS](../cancer_types/MFS.md), [PECOMA](../cancer_types/PECOMA.md), [LMS](../cancer_types/LMS.md), and [ANGS](../cancer_types/ANGS.md); [ULMS](../cancer_types/ULMS.md) rate ~33%; ATRX alterations are cluster-defining and nominate ATRX-deficient sarcomas for ATR-inhibitor basket trials [PMID:35705560](../papers/35705560.md)
 - Recurrently altered by truncating/splice variants and a large deletion in SDHB-mutant pheochromocytoma/paraganglioma; a significant driver by dN/dS, with altered tumors showing an ALT phenotype (C-circles, longer telomeres) and RPRM/DRG2 repression [PMID:40097403](../papers/40097403.md).
-- Co-alteration with H3-3A (H3F3A) is linked to early-onset brain tumors (median age 28 years vs 32/39 years for each gene alone) in a pan-cancer hotspot analysis [PMID:41895280](../papers/41895280.md).
+- Co-alteration with [H3-3A](../genes/H3-3A.md) (H3F3A) is linked to early-onset brain tumors (median age 28 years vs 32/39 years for each gene alone) in a pan-cancer hotspot analysis [PMID:41895280](../papers/41895280.md).
 
 ## Cancer types (linked)
 
@@ -110,4 +110,4 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 - [PMID:40097403](../papers/40097403.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

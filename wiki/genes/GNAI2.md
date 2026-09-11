@@ -3,8 +3,8 @@ symbol: GNAI2
 aliases: []
 cancer_types: [BL]
 tags: [g-protein, lymphoma-driver]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # GNAI2
@@ -15,7 +15,7 @@ GNAI2 encodes an inhibitory Gαi2 heterotrimeric G-protein subunit implicated in
 
 ## Alterations observed in the corpus
 
-- Defining gene of the DGG-BL molecular subgroup of Burkitt lymphoma; more often mutated in EBV-negative BL than EBV-positive BL [PMID:36201743](../papers/36201743.md).
+- Defining gene of the DGG-BL molecular subgroup of Burkitt lymphoma; more often mutated in EBV-negative [BL](../cancer_types/BL.md) than EBV-positive BL [PMID:36201743](../papers/36201743.md).
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ GNAI2 encodes an inhibitory Gαi2 heterotrimeric G-protein subunit implicated in
 
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

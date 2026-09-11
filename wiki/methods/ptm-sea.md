@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [phosphoproteomics, pathway-enrichment, proteomics, bioinformatics]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # PTM-SEA
@@ -17,7 +17,7 @@ Post-Translational Modification Signature Enrichment Analysis (PTM-SEA) tests ph
 
 ## Used by
 
-- Used alongside GSEA and ssGSEA to score phosphosignatures in a proteogenomic chemoresistance study of triple-negative breast cancer; pathologic-complete-response tumors were enriched for DNA-damaging-agent and CDK1/CDK2/CDK7/CDC7 target-site phosphosignatures, while non-responding tumors were enriched for MARK2 target sites [PMID:36001024](../papers/36001024.md).
+- Used alongside GSEA and ssGSEA to score phosphosignatures in a proteogenomic chemoresistance study of triple-negative breast cancer; pathologic-complete-response tumors were enriched for DNA-damaging-agent and CDK1/CDK2/CDK7/CDC7 target-site phosphosignatures, while non-responding tumors were enriched for [MARK2](../genes/MARK2.md) target sites [PMID:36001024](../papers/36001024.md).
 
 ## Notes
 
@@ -25,4 +25,4 @@ Post-Translational Modification Signature Enrichment Analysis (PTM-SEA) tests ph
 
 ## Sources
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

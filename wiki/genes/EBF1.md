@@ -3,8 +3,8 @@ symbol: EBF1
 aliases: [OLF1, COE1]
 cancer_types: [DLBCLNOS]
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # EBF1
@@ -24,7 +24,7 @@ EBF1 (Early B-Cell Factor 1) is a transcription factor essential for B-cell deve
 
 ## Co-occurrence and mutual exclusivity
 
-- EBF1 ABC-selective essentiality co-clusters with IKBKB, CARD11, MYD88, and [IRF4](../genes/IRF4.md) as ABC-selective CRISPR dependencies in DLBCL [PMID:28985567](../papers/28985567.md).
+- EBF1 ABC-selective essentiality co-clusters with [IKBKB](../genes/IKBKB.md), [CARD11](../genes/CARD11.md), [MYD88](../genes/MYD88.md), and [IRF4](../genes/IRF4.md) as ABC-selective CRISPR dependencies in DLBCL [PMID:28985567](../papers/28985567.md).
 
 ## Therapeutic relevance
 
@@ -39,4 +39,4 @@ EBF1 (Early B-Cell Factor 1) is a transcription factor essential for B-cell deve
 - [PMID:28985567](../papers/28985567.md)
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

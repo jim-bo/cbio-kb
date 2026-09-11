@@ -4,15 +4,15 @@ oncotree_code: GB
 main_type: Glioma
 parent: ADIFG
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Glioblastoma, IDH-Wildtype (GB)
 
 ## Overview
 
-Glioblastoma, IDH-wildtype (GB) is the most common and aggressive primary brain tumor in adults, characterized by IDH-wildtype status and WHO grade 4 designation. On OncoTree it is a child of Adult Diffuse Glioma (ADIFG). It is distinguished from IDH-mutant astrocytoma by its wild-type IDH status, distinct epigenetic profile, and uniformly aggressive clinical course.
+Glioblastoma, IDH-wildtype (GB) is the most common and aggressive primary brain tumor in adults, characterized by IDH-wildtype status and WHO grade 4 designation. On OncoTree it is a child of Adult Diffuse Glioma ([ADIFG](../cancer_types/ADIFG.md)). It is distinguished from IDH-mutant astrocytoma by its wild-type IDH status, distinct epigenetic profile, and uniformly aggressive clinical course.
 
 ## Cohorts in the corpus
 
@@ -25,22 +25,22 @@ Glioblastoma, IDH-wildtype (GB) is the most common and aggressive primary brain 
 
 - Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways: **RTK/RAS/PI3K** (88% of cases; [EGFR](../genes/EGFR.md), [NF1](../genes/NF1.md), [PTEN](../genes/PTEN.md), [PIK3R1](../genes/PIK3R1.md)), **p53** (78% of cases; [TP53](../genes/TP53.md), [MDM2](../genes/MDM2.md), [CDKN2A](../genes/CDKN2A.md)), and **RB** (88% of cases; [RB1](../genes/RB1.md), [CDKN2A/B](../genes/CDKN2A.md), [CDK4](../genes/CDK4.md)). [PMID:18772890](../papers/18772890.md)
 - [PIK3R1](../genes/PIK3R1.md) — frequent mutations (10%) identified in [GBM](../cancer_types/GBM.md), often in the iSH2 domain, which disrupt p110α interaction and activate the PI3K pathway. [PMID:18772890](../papers/18772890.md)
-- [NF1](../genes/NF1.md) — somatic mutations and deletions occur in 18% of cases, identifying it as a major tumor suppressor in GBM. [PMID:18772890](../papers/18772890.md)
+- [NF1](../genes/NF1.md) — somatic mutations and deletions occur in 18% of cases, identifying it as a major tumor suppressor in [GBM](../cancer_types/GBM.md). [PMID:18772890](../papers/18772890.md)
 - Extracellular domain mutations in [EGFR](../genes/EGFR.md) (novel missense) and [ERBB2](../genes/ERBB2.md) (8% of cases) contribute to RTK pathway activation. [PMID:18772890](../papers/18772890.md)
 - IDH-wildtype status defines GB: these tumors maintain stable epigenomes over time, with low global methylation at both initial diagnosis and recurrence (zero CpG probes showing differential methylation >15% between initial and recurrent tumors). [PMID:38117484](../papers/38117484.md)
 - [TERT](../genes/TERT.md) — mutations co-occur with [BRAF](../genes/BRAF.md) fusions in gliomas (11% co-occurrence); [TERT](../genes/TERT.md) mutations found in glioma subset. [PMID:38922339](../papers/38922339.md)
 - [EGFR](../genes/EGFR.md) — amplification is a hallmark of IDH-wildtype glioblastoma (not specifically quantified in these corpus studies).
 - [EGFR](../genes/EGFR.md) low/absent expression in LN229 GB cells prevents C-MMAE binding, accumulation, and radiosensitization — confirms that [EGFR](../genes/EGFR.md) expression level, not mere tumor histology, gates ADC activity. [PMID:27698471](../papers/27698471.md)
 - Re-analysis of 48 pediatric GB exomes identified 3/48 (6%) cases with the triple-mutation constellation [FGFR1](../genes/FGFR1.md) activation + [H3-3A](../genes/H3-3A.md) K27M + [NF1](../genes/NF1.md) alteration (all TP53-wildtype), extending FGFR-targeted therapy rationale to a subset of pediatric glioblastoma [PMID:23817572](../papers/23817572.md)
-- Glioblastoma was included in the MSK-IMPACT pan-cancer cohort; TP53 was significantly enriched in glioblastoma vs TCGA primary tumors; EGFRvIII (exon 2-7 deletion) was detected in 65 cases and EGFR mutations localized to the extracellular N-terminal domain in glioma vs kinase domain in lung cancer. [PMID:28481359](../papers/28481359.md)
-- GB (glioblastoma) was a major 3D model test bed; U87/U87MG cells in chitosan-hyaluronic porous scaffolds upregulated CD44, ABCG2, and MGMT in a pore-size-dependent manner and showed greater temozolomide resistance than monolayers; gelatin-foam tumoroids resisted irinotecan and fluorouracil while upregulating HIF-1α. [PMID:41103502](../papers/41103502.md)
+- Glioblastoma was included in the MSK-IMPACT pan-cancer cohort; [TP53](../genes/TP53.md) was significantly enriched in glioblastoma vs TCGA primary tumors; EGFRvIII (exon 2-7 deletion) was detected in 65 cases and [EGFR](../genes/EGFR.md) mutations localized to the extracellular N-terminal domain in glioma vs kinase domain in lung cancer. [PMID:28481359](../papers/28481359.md)
+- GB (glioblastoma) was a major 3D model test bed; U87/U87MG cells in chitosan-hyaluronic porous scaffolds upregulated [CD44](../genes/CD44.md), ABCG2, and [MGMT](../genes/MGMT.md) in a pore-size-dependent manner and showed greater [temozolomide](../drugs/temozolomide.md) resistance than monolayers; gelatin-foam tumoroids resisted [irinotecan](../drugs/irinotecan.md) and [fluorouracil](../drugs/fluorouracil.md) while upregulating HIF-1α. [PMID:41103502](../papers/41103502.md)
 - GB was the clearest outlier histology in the pan-cancer TMB–ICI analysis: TMB was not associated with improved OS in glioma patients treated with ICI, distinguishing it from nearly all other represented cancer types. [PMID:30643254](../papers/30643254.md)
 - IDH wild-type glioma (IDHwt, n=134) had the highest rate of subclonal selection at recurrence (64%, Fisher's P=0.01); subclonal selection in IDHwt associated with shorter overall survival (log-rank P=0.027); alkylating-agent-induced hypermutation rate 16% [PMID:31748746](../papers/31748746.md)
 - Glioblastoma (n=4, 5.3%) was among the TRK fusion-positive tumor types in the MSK prospective cohort; one case showed TPM3-NTRK1 fusion lost at progression on a brain-penetrant TRK inhibitor with concurrent acquisition of focal EGFR amplification (19.6-fold), representing a distinct off-target resistance mechanism [PMID:31871300](../papers/31871300.md)
 - In PCAWG, glioblastoma showed frequent chromothripsis with focal [EGFR](../genes/EGFR.md) amplification and co-deletion of [CDKN2A](../genes/CDKN2A.md); chromothripsis among the most frequent in sarcoma, glioblastoma, lung squamous, melanoma, and breast cancer [PMID:32025007](../papers/32025007.md).
-- In a pan-cancer MSK-IMPACT MET amplification landscape study, high-grade glioma had the second-highest MET amplification rate among cancer types (5.3%) [PMID:36044468](../papers/36044468.md).
-- In a pediatric patient-derived xenograft resource, a glioblastoma PDX and a germ cell tumor PDX both carried an LRPAP1::PDGFRA fusion that retained the PDGFRA kinase domain and drove high PDGFRA expression, confirmed by RT-PCR [PMID:37990009](../papers/37990009.md).
-- In the MSK-50K cohort, PIK3CA mutations in glioblastoma (11% altered) were non-canonical and more subclonal and later-arising than in canonical PIK3CA-driven cancers, and median age at diagnosis was 32 years with H3-3A alterations versus 39 years with ATRX alterations (28 years when both co-occurred) [PMID:41895280](../papers/41895280.md).
+- In a pan-cancer MSK-IMPACT [MET](../genes/MET.md) amplification landscape study, high-grade glioma had the second-highest MET amplification rate among cancer types (5.3%) [PMID:36044468](../papers/36044468.md).
+- In a pediatric patient-derived xenograft resource, a glioblastoma PDX and a germ cell tumor PDX both carried an [LRPAP1](../genes/LRPAP1.md)::[PDGFRA](../genes/PDGFRA.md) fusion that retained the PDGFRA kinase domain and drove high PDGFRA expression, confirmed by RT-PCR [PMID:37990009](../papers/37990009.md).
+- In the MSK-50K cohort, [PIK3CA](../genes/PIK3CA.md) mutations in glioblastoma (11% altered) were non-canonical and more subclonal and later-arising than in canonical PIK3CA-driven cancers, and median age at diagnosis was 32 years with [H3-3A](../genes/H3-3A.md) alterations versus 39 years with [ATRX](../genes/ATRX.md) alterations (28 years when both co-occurred) [PMID:41895280](../papers/41895280.md).
 
 ## Subtypes
 
@@ -54,13 +54,13 @@ Glioblastoma, IDH-wildtype (GB) is the most common and aggressive primary brain 
 - Effective GBM treatment likely requires combination therapies targeting multiple core pathways (RTK, p53, RB). [PMID:18772890](../papers/18772890.md)
 - Unlike IDH-mutant gliomas, IDH-wildtype GB does not show treatment-induced epigenetic evolution at recurrence; epigenomic stability means the tumor biology at recurrence resembles the primary tumor. [PMID:38117484](../papers/38117484.md)
 - EGFR-directed ADC radiosensitization (C-MMAE) requires sufficient receptor surface expression; LN229 (EGFR-low GB) xenografts showed no C-MMAE accumulation by Cy5 fluorescence imaging and no radiosensitization, highlighting that not all GB tumors will be susceptible to EGFR-directed ADC approaches. [PMID:27698471](../papers/27698471.md)
-- A randomized phase 2 trial of neoadjuvant pembrolizumab in resectable recurrent glioblastoma (n=32 evaluable) found neoadjuvant PD-1 blockade extended overall survival (13.7 vs 7.5 months; HR 0.39, P=0.04) and PFS versus adjuvant-only dosing, with an interferon-gamma transcriptional signature and lower tumor cell-cycle activity in neoadjuvant-treated tumors [PMID:30742122](../papers/30742122.md).
+- A randomized phase 2 trial of neoadjuvant [pembrolizumab](../drugs/pembrolizumab.md) in resectable recurrent glioblastoma (n=32 evaluable) found neoadjuvant PD-1 blockade extended overall survival (13.7 vs 7.5 months; HR 0.39, P=0.04) and PFS versus adjuvant-only dosing, with an interferon-gamma transcriptional signature and lower tumor cell-cycle activity in neoadjuvant-treated tumors [PMID:30742122](../papers/30742122.md).
 
 ## Sources
 
 - [PMID:18772890](../papers/18772890.md) — Comprehensive genomic characterization defines human glioblastoma genes and core pathways (Nature, 2008)
 - [PMID:38117484](../papers/38117484.md) — The Epigenetic Evolution of Glioma Is Determined by the [IDH1](../genes/IDH1.md) Mutation Status and Treatment Regimen (Cancer Research, 2024)
-- [PMID:38922339](../papers/38922339.md) — Tumor-agnostic genomic and clinical analysis of BRAF fusions identify actionable targets (Clinical Cancer Research, 2024)
+- [PMID:38922339](../papers/38922339.md) — Tumor-agnostic genomic and clinical analysis of [BRAF](../genes/BRAF.md) fusions identify actionable targets (Clinical Cancer Research, 2024)
 - [PMID:27698471](../papers/27698471.md)
 - [PMID:28872634](../papers/28872634.md)
 - [PMID:23817572](../papers/23817572.md)
@@ -76,4 +76,4 @@ Glioblastoma, IDH-wildtype (GB) is the most common and aggressive primary brain 
 - [PMID:37990009](../papers/37990009.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

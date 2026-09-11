@@ -3,8 +3,8 @@ symbol: SMAD4
 aliases: []
 cancer_types: [ESCA, ESCC, EAC]
 tags: [tumor-suppressor, somatic, tgfb-pathway, deletion]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # SMAD4
@@ -28,15 +28,15 @@ SMAD4 (SMAD Family Member 4) is a central mediator of TGF-beta signaling, acting
 - Alterations independently associated with pathologic LN metastasis in [LUAD](../cancer_types/LUAD.md) (multivariable OR 5.01, p=0.02); 7% in pN+ vs 1.5% in pN- (p=0.011); reduced SMAD4 expression linked to increased DNA damage, reduced DNA repair, and topoisomerase inhibitor sensitivity [PMID:34290393](../papers/34290393.md)
 - Altered in ~15-19% across MSS CRC age cohorts; SMAD4 alteration independently associated with worse survival (HR=1.46, 95% CI 1.08-1.94; P=0.01) [PMID:34405229](../papers/34405229.md)
 - Altered in 29% of PDAC (more frequent in C1 classical subtype); downregulates [SERPINE1](../genes/SERPINE1.md) mRNA/protein; deletions raise phospho-HDAC1 (S406/S410/S421), phospho-SMARCA4 S613, and phospho-CREBBP S274 [PMID:34534465](../papers/34534465.md)
-- SMAD4 altered in 10% of MSI-stable esophageal adenocarcinoma (EAC) patients in the MSK neoadjuvant CRT cohort (n=237); not significantly associated with pathologic treatment response [PMID:35377946](../papers/35377946.md).
+- SMAD4 altered in 10% of MSI-stable esophageal adenocarcinoma ([EAC](../cancer_types/EAC.md)) patients in the MSK neoadjuvant CRT cohort (n=237); not significantly associated with pathologic treatment response [PMID:35377946](../papers/35377946.md).
 - Structural deletion (DEL) identified by LINX/PURPLE in metastatic cutaneous SCC; catalogued as a structural variant in the Asian pan-cancer cohort (aOM) [PMID:35871175](../papers/35871175.md)
 - Structural deletion (DEL) detected by LINX/PURPLE SV analysis in metastatic cutaneous squamous cell carcinoma WGS (n=25); present in multiple samples [PMID:35982973](../papers/35982973.md)
 - Altered in 13% of colitis-associated colorectal cancer (CAC); recurrent driver alongside [TP53](../genes/TP53.md), [KRAS](../genes/KRAS.md), and [APC](../genes/APC.md) in a targeted-panel sequencing cohort of 145 CAC patients (MSK-IMPACT) [PMID:36611031](../papers/36611031.md)
-- SMAD4 (20%) is enriched in nonhypermutated colorectal cancer, with deletion enriched in descending colon and rectal tumors, and co-deletion with SMAD2 (3%) in 18.2% of patients [PMID:35487942](../papers/35487942.md)
+- SMAD4 (20%) is enriched in nonhypermutated colorectal cancer, with deletion enriched in descending colon and rectal tumors, and co-deletion with [SMAD2](../genes/SMAD2.md) (3%) in 18.2% of patients [PMID:35487942](../papers/35487942.md)
 - SMAD4 somatic mutation frequency was balanced across treatment arms by WES in a rectal cancer immunotherapy trial, with no alteration-specific survival association reported [PMID:35662283](../papers/35662283.md)
 - SMAD4 inactivation was enriched in secondary rectal cancer arising after prior pelvic radiotherapy (25.8% vs 10.0% in all primary rectal cancer, P=.01), consistent with a marker of more aggressive tumors [PMID:40100215](../papers/40100215.md)
 - SMAD4 was detected in ctDNA from 10% of ctDNA-positive pancreatic cancer patients, with tissue-ctDNA concordance of 63.6% in untreated stage IV vs 12.5% in untreated stage I-III, the lowest of four genes tested [PMID:40511613](../papers/40511613.md)
-- SMAD4 carries new TGF-beta-pathway hotspot mutations (with SMAD2/SMAD3/TCF7L2, 87% in GI cancers) and is enriched in BRAF Class I tumors along with TGFBR2 [PMID:41895280](../papers/41895280.md)
+- SMAD4 carries new TGF-beta-pathway hotspot mutations (with SMAD2/SMAD3/TCF7L2, 87% in GI cancers) and is enriched in [BRAF](../genes/BRAF.md) Class I tumors along with [TGFBR2](../genes/TGFBR2.md) [PMID:41895280](../papers/41895280.md)
 - SMAD4 alterations were less frequent in intrahepatic cholangiocarcinoma than in extrahepatic cholangiocarcinoma or gallbladder cancer, and were associated with worse overall survival in ERBB2-amplified biliary tract tumors [PMID:42360806](../papers/42360806.md)
 
 ## Cancer types (linked)
@@ -95,4 +95,4 @@ SMAD4 (SMAD Family Member 4) is a central mediator of TGF-beta signaling, acting
 - [PMID:41895280](../papers/41895280.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

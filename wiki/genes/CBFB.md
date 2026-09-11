@@ -3,8 +3,8 @@ symbol: CBFB
 aliases: [PEBP2B, CBF-beta]
 cancer_types: [BRCA]
 tags: [transcription-factor, differentiation, ER-positive, tumor-suppressor]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CBFB
@@ -19,13 +19,13 @@ CBFB encodes the beta subunit of the core binding factor (CBF) transcription fac
 - Mutated in breast cancer (TCGA, 510 tumors); CBFB mutations identified as significantly mutated, particularly in luminal A subtype where it acts as a transcription factor complex partner [PMID:23000897](../papers/23000897.md)
 - MYH11-CBFB fusion defines a favorable-risk transcription-factor fusion subgroup in [AML](../cancer_types/AML.md); mutually exclusive with [NPM1](../genes/NPM1.md) and [DNMT3A](../genes/DNMT3A.md) mutations [PMID:23634996](../papers/23634996.md)
 - CBFB was identified as a Mut-driver transcription factor in breast cancer (ER+ enriched); inactivating mutations associated with lower tumor grade (OR=0.56), younger age at diagnosis (OR=0.48), and enrichment in IntClust3 (7.8%) and IntClust8 (9.7%); CBFB mutations co-associate with the t(1q;16p) copy-number pattern (OR=5) [PMID:27161491](../papers/27161491.md).
-- CBFB-MYH11 inv(16)/t(16;16) defines favorable AML subgroup (5%, n=81); HR 0.3 (0.2-0.4) in multivariate survival analysis [PMID:27276561](../papers/27276561.md)
+- CBFB-MYH11 inv(16)/t(16;16) defines favorable [AML](../cancer_types/AML.md) subgroup (5%, n=81); HR 0.3 (0.2-0.4) in multivariate survival analysis [PMID:27276561](../papers/27276561.md)
 - CBFB-MYH11 fusion in AML identified as a prognostic marker of low-risk stratification in the PIPseq pediatric precision-oncology cohort (Table 3) [PMID:28007021](../papers/28007021.md)
 - CBFB is a significantly mutated driver in metastatic breast cancer (mBC), also recurrent in early breast cancer (eBC), identified by MutSig analysis of 216 mBC whole-exome sequences vs TCGA primary tumors [PMID:28027327](../papers/28027327.md)
-- Identified in the TCGA pan-cancer fusion landscape as part of the recurrent **CBFB-MYH11** fusion in [LAML](../cancer_types/LAML.md); strongly associated with decreased CBFB (TSG/transcriptional regulator) expression — CBFB is fused but rarely mutated in LAML, representing an alternative inactivation mechanism [PMID:29617662](../papers/29617662.md).
-- Significantly mutated in Korean breast cancer cohort brca_smc_2018 (2.7%, q=0); previously reported in TCGA [PMID:29713003](../papers/29713003.md)
+- Identified in the TCGA pan-cancer fusion landscape as part of the recurrent **CBFB-MYH11** fusion in [LAML](../cancer_types/LAML.md); strongly associated with decreased CBFB (TSG/transcriptional regulator) expression — CBFB is fused but rarely mutated in [LAML](../cancer_types/LAML.md), representing an alternative inactivation mechanism [PMID:29617662](../papers/29617662.md).
+- Significantly mutated in Korean breast cancer cohort [brca_smc_2018](../datasets/brca_smc_2018.md) (2.7%, q=0); previously reported in TCGA [PMID:29713003](../papers/29713003.md)
 - Mutations negatively correlated with metastatic burden in HR+/HER2- ductal breast cancer; less frequent in bone metastases (5% vs 1%, q=0.009) in the MSK-MET pan-cancer cohort [PMID:35120664](../papers/35120664.md)
-- CBFB::MYH11 fusion (96 cases) defined a favorable-outcome CBF-AML category in pediatric AML; a distinct CBFB-GDXY insertion (4 cases) defined a separate, also favorable-outcome category [PMID:38212634](../papers/38212634.md).
+- CBFB::[MYH11](../genes/MYH11.md) fusion (96 cases) defined a favorable-outcome CBF-AML category in pediatric AML; a distinct CBFB-GDXY insertion (4 cases) defined a separate, also favorable-outcome category [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
@@ -57,4 +57,4 @@ CBFB encodes the beta subunit of the core binding factor (CBF) transcription fac
 - [PMID:35120664](../papers/35120664.md)
 - [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

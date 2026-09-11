@@ -3,8 +3,8 @@ symbol: MLH1
 aliases: []
 cancer_types: [UCEC, PRAD, PLMESO, PITU, GB]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MLH1
@@ -58,7 +58,7 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - Germline pathogenic MLH1 variants in 2 MSI-H Nigerian CRC patients (Lynch syndrome) plus 1 in MSS; promoter hypermethylation in only 2/7 MSI-H methylation-profiled Nigerian tumors, indicating an alternative non-CIMP MSI mechanism predominates in this West African cohort (MSI-H rate 28.1% vs. 14.2% TCGA/8.5% MSKCC, P<0.001) [PMID:34819518](../papers/34819518.md)
 - In the MAPPYACTS trial, MLH1 germline mutations contributed to constitutional mismatch repair deficiency (CMMRD) identified in 3 hypermutated pediatric patients; 49 germline SNVs in DNA repair genes including MLH1 were detected across the cohort [PMID:35292802](../papers/35292802.md).
 - MMR gene altered in 2.1% of sarcomas (n=7,494), tightly correlated with MSI-H status [PMID:35705558](../papers/35705558.md)
-- MMR gene altered in sarcoma clinical sequencing cohort (n=2,138); collectively MLH1, MSH2, [MSH6](../genes/MSH6.md), [PMS2](../genes/PMS2.md) altered in sarcomas [PMID:35705560](../papers/35705560.md)
+- MMR gene altered in sarcoma clinical sequencing cohort (n=2,138); collectively MLH1, [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md), [PMS2](../genes/PMS2.md) altered in sarcomas [PMID:35705560](../papers/35705560.md)
 - Promoter hypermethylation (MLH1ph) defines a distinct MSI-H endometrial cancer subgroup (n=120/161 MMR-D ECs) with older age, obesity, lower TMB, lower TILs, worse stage-I/II PFS vs. germline or somatic MMR-mutant ECs [PMID:35849120](../papers/35849120.md)
 - Somatic MLH1 homozygous deletion with dual IHC loss was found in the single MSI-H aSCLC case (A20), representing an alternative genomic context to chromothripsis in aSCLC (RB1-proficient, TP53-proficient [SCLC](../cancer_types/SCLC.md)) [PMID:39185963](../papers/39185963.md)
 - Mechanism of mismatch repair deficiency in ERBB2-mutated endometrial cancer: promoter hypermethylation in 28% of MSI-H cases, plus rare Lynch germline mutations [PMID:39031567](../papers/39031567.md).
@@ -176,4 +176,4 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - [PMID:39031567](../papers/39031567.md)
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

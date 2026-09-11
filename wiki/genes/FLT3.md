@@ -3,8 +3,8 @@ symbol: FLT3
 aliases: []
 cancer_types: [BLLKMT2A, THAP]
 tags: [kinase, signaling, sub-clonal]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # FLT3
@@ -21,13 +21,13 @@ FLT3 is a receptor tyrosine kinase whose activating mutations drive proliferatio
 - Activating mutations (ITD and kinase domain) detected in pediatric ALL (St. Jude WGS/WES, 44 tumors); FLT3 alterations enriched in hyperdiploid B-ALL [PMID:23334668](../papers/23334668.md)
 - Mutated in 56/200 (28%) of [AML](../cancer_types/AML.md) cases; part of the activated-signaling category; mutually exclusive with other tyrosine kinases/RAS-family genes; co-occurs with [NPM1](../genes/NPM1.md) and [DNMT3A](../genes/DNMT3A.md) [PMID:23634996](../papers/23634996.md)
 - FLT3 internal tandem duplications (ITDs) in [AML](../cancer_types/AML.md) serve as the conceptual parallel for the [FGFR1](../genes/FGFR1.md) kinase-domain ITD identified in pilocytic astrocytoma [PMID:23817572](../papers/23817572.md)
-- FLT3 is listed among the genomic context genes in nasopharyngeal carcinoma (NPC) therapeutic development. [PMID:41002550](../papers/41002550.md)
-- FLT3-ITD present in 22% (341/1,540) of AML; deleterious effect strongest in NPM1+/DNMT3A+ context; FLT3-TKD is mutationally and prognostically distinct from FLT3-ITD (different co-mutation patterns, different interaction with KMT2A-PTD); FLT3 and RAS-pathway inhibitors expected to alter outcome predictions for respective subgroups [PMID:27276561](../papers/27276561.md)
-- FLT3 variant co-occurring with [TET2](../genes/TET2.md) and [KIT](../genes/KIT.md) in an AML patient in the PIPseq pediatric cohort; KIT D816H as the primary targetable event [PMID:28007021](../papers/28007021.md).
-- FLT3-ITD detected by Pindel and an internal PCR/capillary-electrophoresis assay in the Beat AML cohort; FLT3-ITD (alone or combined with NPM1) predicted ex vivo ibrutinib and entospletinib sensitivity [PMID:30333627](../papers/30333627.md)
-- In 7/9 ponatinib-sensitive AML lines, alterations in FLT3 (alongside PDGFRA, FGFR1, or KIT) co-occur with high phospho-SHP2 (Y542); FLT3-ITD AML primagrafts with high pSHP2 showed extended survival on ponatinib in vivo [PMID:31068700](../papers/31068700.md).
+- FLT3 is listed among the genomic context genes in nasopharyngeal carcinoma ([NPC](../cancer_types/NPC.md)) therapeutic development. [PMID:41002550](../papers/41002550.md)
+- FLT3-ITD present in 22% (341/1,540) of [AML](../cancer_types/AML.md); deleterious effect strongest in [NPM1](../genes/NPM1.md)+/DNMT3A+ context; FLT3-TKD is mutationally and prognostically distinct from FLT3-ITD (different co-mutation patterns, different interaction with KMT2A-PTD); FLT3 and RAS-pathway inhibitors expected to alter outcome predictions for respective subgroups [PMID:27276561](../papers/27276561.md)
+- FLT3 variant co-occurring with [TET2](../genes/TET2.md) and [KIT](../genes/KIT.md) in an AML patient in the PIPseq pediatric cohort; [KIT](../genes/KIT.md) D816H as the primary targetable event [PMID:28007021](../papers/28007021.md).
+- FLT3-ITD detected by Pindel and an internal PCR/capillary-electrophoresis assay in the Beat AML cohort; FLT3-ITD (alone or combined with NPM1) predicted ex vivo [ibrutinib](../drugs/ibrutinib.md) and [entospletinib](../drugs/entospletinib.md) sensitivity [PMID:30333627](../papers/30333627.md)
+- In 7/9 ponatinib-sensitive AML lines, alterations in FLT3 (alongside [PDGFRA](../genes/PDGFRA.md), [FGFR1](../genes/FGFR1.md), or KIT) co-occur with high phospho-SHP2 (Y542); FLT3-ITD AML primagrafts with high pSHP2 showed extended survival on [ponatinib](../drugs/ponatinib.md) in vivo [PMID:31068700](../papers/31068700.md).
 - FLT3 — identified as a late-progression driver acquired between clonal hematopoiesis and therapy-related myeloid neoplasm (tMN) diagnosis in cancer patients with CH [PMID:33106634](../papers/33106634.md)
-- FLT3-ITD detected via PCR amplicon sizing in the Beat AML cohort (n=942); confers sensitivity to sorafenib, but sensitivity is conditional — high Progenitor-like cell-state score predicts strongest sensitivity while high Monocyte-like score confers resistance in FLT3-ITD-positive [AML](../cancer_types/AML.md) [PMID:35868306](../papers/35868306.md)
+- FLT3-ITD detected via PCR amplicon sizing in the Beat AML cohort (n=942); confers sensitivity to [sorafenib](../drugs/sorafenib.md), but sensitivity is conditional — high Progenitor-like cell-state score predicts strongest sensitivity while high Monocyte-like score confers resistance in FLT3-ITD-positive [AML](../cancer_types/AML.md) [PMID:35868306](../papers/35868306.md)
 - FLT3 cooperating mutations (FLT3-ITD in 151 cases, FLT3-TKD in 53, FLT3-non-TKD in 29) were identified in a pediatric AML molecular classification cohort. [PMID:38212634](../papers/38212634.md)
 
 ## Cancer types (linked)
@@ -73,4 +73,4 @@ FLT3 is a receptor tyrosine kinase whose activating mutations drive proliferatio
 - [PMID:35868306](../papers/35868306.md)
 - [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

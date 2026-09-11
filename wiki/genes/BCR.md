@@ -6,26 +6,26 @@ cancer_types:
 tags:
   - gene-fusion
   - tyrosine-kinase
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # BCR
 
 ## Overview
 
-BCR (breakpoint cluster region) encodes a multi-domain signaling protein most notable as the translocation partner of [ABL1](../genes/ABL1.md) in the BCR–ABL1 fusion (Philadelphia chromosome). In [AML](../cancer_types/AML.md), BCR–ABL1 is a rare but recurrent RNA-seq-detectable in-frame fusion associated with activated-signaling driver categories.
+BCR (breakpoint cluster region) encodes a multi-domain signaling protein most notable as the translocation partner of [ABL1](../genes/ABL1.md) in the BCR–[ABL1](../genes/ABL1.md) fusion (Philadelphia chromosome). In [AML](../cancer_types/AML.md), BCR–ABL1 is a rare but recurrent RNA-seq-detectable in-frame fusion associated with activated-signaling driver categories.
 
 ## Alterations observed in the corpus
 
-- BCR–ABL1 — recurrent in-frame fusion detected by RNA-seq in 200 adult de novo AML cases (TCGA [laml_tcga_pub](../datasets/laml_tcga_pub.md)); listed among additional recurrent fusions alongside [NUP98](../genes/NUP98.md)–[NSD1](../genes/NSD1.md) and [PICALM](../genes/PICALM.md)–[MLLT10](../genes/MLLT10.md). [PMID:23634996](../papers/23634996.md)
-- Referenced in HCC targeted therapy resistance analogy context (BCR-ABL/imatinib model informs combination regimen design for HCC) [PMID:25369299](../papers/25369299.md)
-- BCR-ABL1 fusion detected as a BCR-ABL1-like RNA-seq signature in a 9-year-old girl with relapsed/refractory B-cell BLL; addition of dasatinib to third-line induction produced deep remission enabling curative bone-marrow transplant [PMID:28007021](../papers/28007021.md)
+- BCR–ABL1 — recurrent in-frame fusion detected by RNA-seq in 200 adult de novo [AML](../cancer_types/AML.md) cases (TCGA [laml_tcga_pub](../datasets/laml_tcga_pub.md)); listed among additional recurrent fusions alongside [NUP98](../genes/NUP98.md)–[NSD1](../genes/NSD1.md) and [PICALM](../genes/PICALM.md)–[MLLT10](../genes/MLLT10.md). [PMID:23634996](../papers/23634996.md)
+- Referenced in [HCC](../cancer_types/HCC.md) targeted therapy resistance analogy context (BCR-ABL/imatinib model informs combination regimen design for HCC) [PMID:25369299](../papers/25369299.md)
+- BCR-ABL1 fusion detected as a BCR-ABL1-like RNA-seq signature in a 9-year-old girl with relapsed/refractory B-cell [BLL](../cancer_types/BLL.md); addition of [dasatinib](../drugs/dasatinib.md) to third-line induction produced deep remission enabling curative bone-marrow transplant [PMID:28007021](../papers/28007021.md)
 - The [BCR](../genes/BCR.md)–[ABL1](../genes/ABL1.md) fusion is a classic leukemic fusion recovered in [LAML](../cancer_types/LAML.md) 'fusion-only' tumors in a pan-cancer RNA-seq fusion analysis across TCGA. [PMID:29617662](../papers/29617662.md)
-- BCR-ABL1 fusion detected across cancer cell lines in CCLE; ponatinib sensitivity in AML/CML lines correlates with phospho-SHP2 (pY542) and encompasses lines with BCR-ABL1 alterations [PMID:31068700](../papers/31068700.md)
+- BCR-ABL1 fusion detected across cancer cell lines in CCLE; [ponatinib](../drugs/ponatinib.md) sensitivity in AML/CML lines correlates with phospho-SHP2 (pY542) and encompasses lines with BCR-ABL1 alterations [PMID:31068700](../papers/31068700.md)
 - BCR-ABL1 fusion detected in all three Ph+ ALL patient-derived xenograft models in the PPTC PDX cohort (261 models across 37 pediatric cancer subtypes) [PMID:31693904](../papers/31693904.md)
-- BCR is located on 22q11.21-q11.23 and is co-deleted in 77% of schwannomatosis SWNTS-SWN cases as part of coordinated arm-level deletion with NF2, SMARCB1, EWSR1, PATZ1, ZNRF3, and MYH9; proposed as a contributor to schwannomatosis pathogenesis [PMID:33025139](../papers/33025139.md)
-- Differentially mutated by EBV status in Burkitt lymphoma, one of two genes (with FOXO1) that is an exception to the general excess of mutations in EBV-negative BL [PMID:36201743](../papers/36201743.md).
+- BCR is located on 22q11.21-q11.23 and is co-deleted in 77% of schwannomatosis SWNTS-SWN cases as part of coordinated arm-level deletion with [NF2](../genes/NF2.md), [SMARCB1](../genes/SMARCB1.md), [EWSR1](../genes/EWSR1.md), [PATZ1](../genes/PATZ1.md), [ZNRF3](../genes/ZNRF3.md), and MYH9; proposed as a contributor to schwannomatosis pathogenesis [PMID:33025139](../papers/33025139.md)
+- Differentially mutated by EBV status in Burkitt lymphoma, one of two genes (with [FOXO1](../genes/FOXO1.md)) that is an exception to the general excess of mutations in EBV-negative [BL](../cancer_types/BL.md) [PMID:36201743](../papers/36201743.md).
 - BCR::ABL1 fusion identified in 1 case within a pediatric AML molecular classification cohort of 887 cases [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
@@ -38,11 +38,11 @@ BCR (breakpoint cluster region) encodes a multi-domain signaling protein most no
 
 ## Therapeutic relevance
 
-- The BCR–ABL1 fusion is the canonical target for ABL1 kinase inhibitors ([imatinib](../drugs/imatinib.md), [dasatinib](../drugs/dasatinib.md), nilotinib); clinical utility of TKI therapy in de novo BCR–ABL1+ AML versus blast-crisis CML is not separately addressed in this study. [PMID:23634996](../papers/23634996.md)
+- The BCR–ABL1 fusion is the canonical target for ABL1 kinase inhibitors ([imatinib](../drugs/imatinib.md), [dasatinib](../drugs/dasatinib.md), nilotinib); clinical utility of TKI therapy in de novo BCR–ABL1+ AML versus blast-crisis [CML](../cancer_types/CML.md) is not separately addressed in this study. [PMID:23634996](../papers/23634996.md)
 
 ## Open questions
 
-- The precise frequency and prognostic significance of BCR–ABL1 within de novo AML (laml_tcga_pub cohort) requires larger-cohort validation. [PMID:23634996](../papers/23634996.md)
+- The precise frequency and prognostic significance of BCR–ABL1 within de novo AML ([laml_tcga_pub](../datasets/laml_tcga_pub.md) cohort) requires larger-cohort validation. [PMID:23634996](../papers/23634996.md)
 
 ## Sources
 
@@ -56,4 +56,4 @@ BCR (breakpoint cluster region) encodes a multi-domain signaling protein most no
 - [PMID:36201743](../papers/36201743.md)
 - [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

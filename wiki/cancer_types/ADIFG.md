@@ -7,15 +7,15 @@ tags:
   - glioma
   - brain
   - adult
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Adult-Type Diffuse Glioma (ADIFG)
 
 ## Overview
 
-Adult-type diffuse glioma is the OncoTree category for diffuse gliomas arising in adults, encompassing IDH-mutant astrocytoma, IDH-mutant 1p/19q-codeleted oligodendroglioma, and IDH-wildtype glioblastoma. It is classified under Gliomas, Glioneuronal Tumors, and Neuronal Tumors in OncoTree (parent: DIFG). Its child glioblastoma, IDH-wildtype ([GB](GB.md)) is represented in the corpus.
+Adult-type diffuse glioma is the OncoTree category for diffuse gliomas arising in adults, encompassing IDH-mutant astrocytoma, IDH-mutant 1p/19q-codeleted oligodendroglioma, and IDH-wildtype glioblastoma. It is classified under Gliomas, Glioneuronal Tumors, and Neuronal Tumors in OncoTree (parent: [DIFG](../cancer_types/DIFG.md)). Its child glioblastoma, IDH-wildtype ([GB](GB.md)) is represented in the corpus.
 
 ## Cohorts in the corpus
 
@@ -23,8 +23,8 @@ Adult-type diffuse glioma is the OncoTree category for diffuse gliomas arising i
 
 ## Recurrent alterations
 
-- IDH1/IDH2 mutation status: 5 of 32 patients (16%) in a randomized recurrent-glioblastoma trial were IDH-mutant (3 neoadjuvant, 2 adjuvant-only), balanced between arms, and IDH mutation status was one of four variables an elastic-net Cox model selected as associated with increased overall survival [PMID:30742122](../papers/30742122.md).
-- MGMT promoter methylation was seen in 6/16 (38%) of neoadjuvant-arm and 11/16 (69%) of adjuvant-only-arm tumors, a non-significant difference between arms [PMID:30742122](../papers/30742122.md).
+- IDH1/IDH2 mutation status: 5 of 32 patients (16%) in a randomized recurrent-glioblastoma trial were IDH-mutant (3 neoadjuvant, 2 adjuvant-only), balanced between arms, and IDH mutation status was one of four variables an [elastic-net](../methods/elastic-net.md) Cox model selected as associated with increased overall survival [PMID:30742122](../papers/30742122.md).
+- [MGMT](../genes/MGMT.md) promoter methylation was seen in 6/16 (38%) of neoadjuvant-arm and 11/16 (69%) of adjuvant-only-arm tumors, a non-significant difference between arms [PMID:30742122](../papers/30742122.md).
 
 ## Subtypes
 
@@ -32,10 +32,10 @@ Adult-type diffuse glioma is the OncoTree category for diffuse gliomas arising i
 
 ## Therapeutic landscape
 
-- A randomized phase 2 trial of neoadjuvant pembrolizumab in resectable recurrent glioblastoma (n=32 evaluable) found neoadjuvant PD-1 blockade extended overall survival (13.7 vs 7.5 months; HR 0.39, P=0.04) and PFS versus adjuvant-only dosing, with an interferon-gamma transcriptional signature and lower tumor cell-cycle activity in neoadjuvant-treated tumors [PMID:30742122](../papers/30742122.md).
+- A randomized phase 2 trial of neoadjuvant [pembrolizumab](../drugs/pembrolizumab.md) in resectable recurrent glioblastoma (n=32 evaluable) found neoadjuvant PD-1 blockade extended overall survival (13.7 vs 7.5 months; HR 0.39, P=0.04) and PFS versus adjuvant-only dosing, with an interferon-gamma transcriptional signature and lower tumor cell-cycle activity in neoadjuvant-treated tumors [PMID:30742122](../papers/30742122.md).
 
 ## Sources
 
 - [PMID:30742122](../papers/30742122.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

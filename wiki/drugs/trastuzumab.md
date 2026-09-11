@@ -5,8 +5,8 @@ drug_class: anti-HER2 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [targeted-therapy]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # trastuzumab
@@ -34,7 +34,7 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - Standard targeted therapy for ERBB2-amplified/mutated gastric adenocarcinoma ([STAD](../cancer_types/STAD.md)); defines a candidate biomarker-selected population; [NRG1](../genes/NRG1.md) and [ERBB4](../genes/ERBB4.md) mutations (11.6% of GC) define a potentially targetable subset beyond the <15% ERBB2-positive GC patients eligible for trastuzumab [PMID:25583476](../papers/25583476.md)
 - Comprehensive TCGA molecular profiling of 164 oesophageal carcinomas shows [ERBB2](../genes/ERBB2.md) alteration in 32% of oesophageal adenocarcinomas ([EAC](../cancer_types/EAC.md)); the authors note ERBB2-positive EACs are routinely treated off-label with trastuzumab and that ERBB2-mutant (non-amplified) [EAC](../cancer_types/EAC.md) patients may also benefit; functional consequence of the EAC-specific ERBB2-JUP fusion transcript (lacking transmembrane/kinase domains) on trastuzumab response remains unresolved [PMID:28052061](../papers/28052061.md)
 - RPPA HER2-high clusters 1 and 2 (elevated [ERBB2](../genes/ERBB2.md) protein) in MIBC are candidates for trastuzumab or [ado-trastuzumab-emtansine](../drugs/ado-trastuzumab-emtansine.md); [ERBB2](../genes/ERBB2.md) is mutated in 12% and recurrently amplified in the TCGA 412-tumor MIBC cohort [PMID:28988769](../papers/28988769.md)
-- In a 295-patient metastatic [EGC](../cancer_types/EGC.md) cohort (MSK-IMPACT), [ERBB2](../genes/ERBB2.md) amplification level by NGS predicted trastuzumab PFS (top-quartile patients: median PFS 24.3 months); 16% of post-trastuzumab samples showed ERBB2 amplification loss; RTK-RAS-PI3K co-alterations independently shortened trastuzumab PFS in multivariate analysis [PMID:29122777](../papers/29122777.md)
+- In a 295-patient metastatic [EGC](../cancer_types/EGC.md) cohort (MSK-IMPACT), [ERBB2](../genes/ERBB2.md) amplification level by NGS predicted trastuzumab PFS (top-quartile patients: median PFS 24.3 months); 16% of post-trastuzumab samples showed [ERBB2](../genes/ERBB2.md) amplification loss; RTK-RAS-PI3K co-alterations independently shortened trastuzumab PFS in multivariate analysis [PMID:29122777](../papers/29122777.md)
 - Cited as context for HER2-targeted therapy in SUMMIT; ERBB2-amplified breast cancer (trastuzumab-indicated) differs from ERBB2-mutant (non-amplified) disease targeted by [neratinib](../drugs/neratinib.md) — 95% of HER2 mutations in SUMMIT were clonal and 17% co-occurred with amplification, but amplification did not correlate with additional clinical benefit from [neratinib](../drugs/neratinib.md) [PMID:29420467](../papers/29420467.md)
 - In the TCGA pan-cancer fusion atlas (n=9,624), four [ERBB2](../genes/ERBB2.md) fusions were identified (partners [PPP1R1B](../genes/PPP1R1B.md) and [IKZF3](../genes/IKZF3.md), genomic neighbors at 17q; 3 of 4 had HPV integration within 1 Mb of ERBB2), representing a fusion-driven mechanism of HER2 dysregulation distinct from — but potentially complementary to — the trastuzumab-targetable amplification in [BRCA](../cancer_types/BRCA.md) [PMID:29617662](../papers/29617662.md)
 - HER2-targeted monoclonal antibody combined with [pembrolizumab](../drugs/pembrolizumab.md) + fluoropyrimidine/platinum as first-line therapy in 37 HER2-positive metastatic esophagogastric cancer patients (NCT02954536); combination achieved 91% ORR and 27.2-month median [OS](../cancer_types/OS.md) versus ~47% ORR and ~16-month [OS](../cancer_types/OS.md) historically for trastuzumab + chemotherapy alone; RTK-RAS co-alterations predicted shorter PFS (5.9 vs. 14.6 months, p=0.011) [PMID:32437664](../papers/32437664.md).
@@ -43,7 +43,7 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - In a HER2+/NF1-null patient-derived xenograft, trastuzumab monotherapy had no significant effect on tumor growth while [trametinib](../drugs/trametinib.md) (MEK inhibitor) produced 70% growth inhibition (p<0.001); in 145 patients on first-line THP, MAPK-altered tumors had median PFS 9.9 vs 21 months (HR 2.03, p=0.011 multivariate). [PMID:34795269](../papers/34795269.md)
 - OncoMark hallmark-survival analysis (TCGA logistic regression) associated trastuzumab with the Resisting Cell Death (RCD) hallmark for both disease-free and overall survival [PMID:41057477](../papers/41057477.md)
 - Trastuzumab was administered neoadjuvantly to 10 HER2+ esophageal/GEJ adenocarcinoma patients (of 237 total); ERBB2 amplification was present in 16% of the cohort but was not significantly associated with pathologic response in this analysis [PMID:35377946](../papers/35377946.md)
-- Anti-HER2 antibody; trastuzumab+[pertuzumab](../drugs/pertuzumab.md) dual HER2 blockade for ERBB2-amplified [BRCA](../cancer_types/BRCA.md) (24% of BRCA in Chinese pan-cancer cohort n=10,194) [PMID:35871175](../papers/35871175.md)
+- Anti-HER2 antibody; trastuzumab+[pertuzumab](../drugs/pertuzumab.md) dual HER2 blockade for ERBB2-amplified [BRCA](../cancer_types/BRCA.md) (24% of [BRCA](../cancer_types/BRCA.md) in Chinese pan-cancer cohort n=10,194) [PMID:35871175](../papers/35871175.md)
 - Current NCCN guidance restricts trastuzumab to advanced/recurrent serous endometrial cancer with HER2 overexpression/ERBB2 amplification; the ERBB2 V842I mutation conferred in vitro trastuzumab resistance, while R678Q and S310Y were associated with trastuzumab sensitivity. [PMID:39031567](../papers/39031567.md)
 
 ## Resistance mechanisms
@@ -75,7 +75,7 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - [PMID:25369299](../papers/25369299.md)
 - [PMID:41008893](../papers/41008893.md)
 - [PMID:25583476](../papers/25583476.md)
-- [PMID:28052061](../papers/28052061.md) — TCGA oesophageal carcinoma comprehensive molecular characterization; ERBB2 altered in 32% of EAC; trastuzumab used off-label in ERBB2+ EAC; ERBB2-JUP fusion in 6 amplified EACs with unknown functional significance for trastuzumab response.
+- [PMID:28052061](../papers/28052061.md) — TCGA oesophageal carcinoma comprehensive molecular characterization; ERBB2 altered in 32% of [EAC](../cancer_types/EAC.md); trastuzumab used off-label in ERBB2+ EAC; ERBB2-JUP fusion in 6 amplified EACs with unknown functional significance for trastuzumab response.
 - [PMID:28988769](../papers/28988769.md)
 - [PMID:29122777](../papers/29122777.md)
 - [PMID:29420467](../papers/29420467.md)
@@ -90,4 +90,4 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - [PMID:35871175](../papers/35871175.md)
 - [PMID:39031567](../papers/39031567.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

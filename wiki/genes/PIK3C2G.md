@@ -5,8 +5,8 @@ cancer_types:
   - CHOL
 tags:
   - pi3k-pathway
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # PIK3C2G
@@ -21,12 +21,12 @@ PIK3C2G encodes phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type
 - Private PI3K-pathway event of unknown significance in paired primary/metastasis CRC cohort; detected in spatially separate tumor regions indicating subclonality [PMID:25164765](../papers/25164765.md)
 - PIK3C2G mutated as part of the PI3K/AKT/mTOR pathway, which is disrupted in 39% ATC vs 11% PDTC (P=1×10⁻³) in a targeted-sequencing study of advanced thyroid cancers. [PMID:26878173](../papers/26878173.md)
 - PIK3C2G S48R mutation observed as a truncal alteration shared between plasmacytoid-variant and adjacent urothelial NOS components in a mixed bladder tumor. [PMID:26901067](../papers/26901067.md)
-- PIK3C2G profiled as part of the PI3K/mTOR pathway in metastatic panNET (80 patients, MSK-IMPACT panet_msk_2018); mTOR-pathway alterations in 34/80 (43%) patients [PMID:30687805](../papers/30687805.md)
-- PIK3C2G had recurrent PI3K-pathway alterations in 5% of genomically profiled MYOD1 L122R-mutant rhabdomyosarcomas, mutually exclusive with other PI3K/AKT/mTOR pathway alterations [PMID:41758938](../papers/41758938.md).
+- PIK3C2G profiled as part of the PI3K/mTOR pathway in metastatic panNET (80 patients, MSK-IMPACT [panet_msk_2018](../datasets/panet_msk_2018.md)); mTOR-pathway alterations in 34/80 (43%) patients [PMID:30687805](../papers/30687805.md)
+- PIK3C2G had recurrent PI3K-pathway alterations in 5% of genomically profiled [MYOD1](../genes/MYOD1.md) L122R-mutant rhabdomyosarcomas, mutually exclusive with other PI3K/AKT/mTOR pathway alterations [PMID:41758938](../papers/41758938.md).
 
 ## Cancer types (linked)
 
-- **[CHOL](../cancer_types/CHOL.md)** — component of the 22% aggregate PI3K pathway alteration rate in IHCH discovery-screen tumors; exact individual frequency not reported separately [PMID:24185509](../papers/24185509.md)
+- **[CHOL](../cancer_types/CHOL.md)** — component of the 22% aggregate PI3K pathway alteration rate in [IHCH](../cancer_types/IHCH.md) discovery-screen tumors; exact individual frequency not reported separately [PMID:24185509](../papers/24185509.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -53,4 +53,4 @@ PIK3C2G encodes phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type
 - [PMID:30687805](../papers/30687805.md)
 - [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

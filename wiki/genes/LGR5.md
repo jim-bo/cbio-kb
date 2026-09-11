@@ -3,8 +3,8 @@ symbol: LGR5
 aliases: []
 cancer_types: [NBL]
 tags: [stem-cell-marker, wnt-signaling, neuroblastoma, progenitor]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # LGR5
@@ -16,7 +16,7 @@ LGR5 (leucine-rich repeat containing G protein-coupled receptor 5) is an establi
 ## Alterations observed in the corpus
 
 - LGR5 is over-expressed in the undifferentiated high-risk nC3 neuroblastoma cluster (FDR <0.01, Welch's t-test), alongside [MYCN](../genes/MYCN.md), [ALK](../genes/ALK.md), [BRCA1](../genes/BRCA1.md), [NTRK2](../genes/NTRK2.md), [LGR5](../genes/LGR5.md), [USH2A](../genes/USH2A.md), and migratory markers; low-risk NOR clusters do not express LGR5 at significant levels [PMID:34493726](../papers/34493726.md).
-- LGR5+ crypt-base stem cells are the cell of origin for conventional adenomas (TAs/TVAs) driven by APC-truncation-mediated WNT-pathway expansion; LGR5, OLFM4, MYC, and ASCL2 define the WNT/stem-cell transcriptional program over-expressed in adenoma stem cells (ASCs) [PMID:34910928](../papers/34910928.md)
+- LGR5+ crypt-base stem cells are the cell of origin for conventional adenomas (TAs/TVAs) driven by APC-truncation-mediated WNT-pathway expansion; LGR5, [OLFM4](../genes/OLFM4.md), [MYC](../genes/MYC.md), and [ASCL2](../genes/ASCL2.md) define the WNT/stem-cell transcriptional program over-expressed in adenoma stem cells (ASCs) [PMID:34910928](../papers/34910928.md)
 - Canonical intestinal stem cell marker defining the dominant cell state of primary colorectal tumors but depleted in metastases, particularly after chemotherapy [PMID:39478232](../papers/39478232.md).
 
 ## Cancer types (linked)
@@ -42,4 +42,4 @@ LGR5 (leucine-rich repeat containing G protein-coupled receptor 5) is an establi
 - [PMID:34910928](../papers/34910928.md)
 - [PMID:39478232](../papers/39478232.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

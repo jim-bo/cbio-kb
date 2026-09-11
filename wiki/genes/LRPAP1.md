@@ -3,8 +3,8 @@ symbol: LRPAP1
 aliases: []
 cancer_types: [GB, GCT]
 tags: [fusion, actionable]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # LRPAP1
@@ -17,7 +17,7 @@ patient-derived xenografts.
 
 ## Alterations observed in the corpus
 
-- LRPAP1–PDGFRA fusion (kinase domain retained, high PDGFRA expression, RT-PCR validated) identified as a clinically actionable kinase fusion in glioblastoma and germ cell tumor patient-derived xenograft samples [PMID:37990009](../papers/37990009.md).
+- LRPAP1–[PDGFRA](../genes/PDGFRA.md) fusion (kinase domain retained, high PDGFRA expression, RT-PCR validated) identified as a clinically actionable kinase fusion in glioblastoma and germ cell tumor patient-derived xenograft samples [PMID:37990009](../papers/37990009.md).
 
 ## Cancer types (linked)
 
@@ -40,4 +40,4 @@ patient-derived xenografts.
 
 - [PMID:37990009](../papers/37990009.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

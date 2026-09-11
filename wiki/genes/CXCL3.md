@@ -3,8 +3,8 @@ symbol: CXCL3
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CXCL3
@@ -15,7 +15,7 @@ CXCL3 is a myeloid-associated chemokine included in composite immune gene signat
 
 ## Alterations observed in the corpus
 
-- CXCL3 is part of a myeloid inflammation gene signature (with IL6, CXCL1, CXCL2, CXCL8, PTGS2); MyeloidHigh renal cell carcinoma tumors had worse PFS on atezolizumab monotherapy, proposed as innate resistance overcome by bevacizumab. [PMID:29867230](../papers/29867230.md)
+- CXCL3 is part of a myeloid inflammation gene signature (with [IL6](../genes/IL6.md), [CXCL1](../genes/CXCL1.md), [CXCL2](../genes/CXCL2.md), [CXCL8](../genes/CXCL8.md), [PTGS2](../genes/PTGS2.md)); MyeloidHigh renal cell carcinoma tumors had worse PFS on [atezolizumab](../drugs/atezolizumab.md) monotherapy, proposed as innate resistance overcome by [bevacizumab](../drugs/bevacizumab.md). [PMID:29867230](../papers/29867230.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ CXCL3 is a myeloid-associated chemokine included in composite immune gene signat
 
 - [PMID:29867230](../papers/29867230.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

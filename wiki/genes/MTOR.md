@@ -9,8 +9,8 @@ tags:
   - kinase
   - PI3K_pathway
   - drug_target
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MTOR
@@ -52,7 +52,7 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - Component of the PI3K-pathway targetable hits in myxoid liposarcoma ([MRLS](../cancer_types/MRLS.md)); collectively 31% of [MRLS](../cancer_types/MRLS.md) carry actionable PI3K-pathway alterations ([PIK3CA](../genes/PIK3CA.md), [AKT1](../genes/AKT1.md), MTOR, [TSC1](../genes/TSC1.md)) [PMID:35705560](../papers/35705560.md)
 - AKT/mTOR signaling integrates lipid metabolism with proliferation in [HCC](../cancer_types/HCC.md); mTOR is part of the RTK/PI3K/AKT/mTOR axis where cholesterol-remodeled lipid rafts activate upstream signaling; PI3K/AKT/mTOR regulates SREBP1 ([SREBF1](../genes/SREBF1.md)) and de novo lipogenesis [PMID:41118283](../papers/41118283.md)
 - Mutated in 3.05–8.70% of solitary fibrous tumors across four cohorts; associated with shorter PFS (p=3.00E-05) and the sole molecular variable in the integrated risk model [PMID:37980418](../papers/37980418.md).
-- Enriched alongside SETD2 in 47% of BRAF V600-mutant lung adenocarcinoma and with AKT1 in BRAF Class I-altered tumors pan-cancer [PMID:41895280](../papers/41895280.md).
+- Enriched alongside [SETD2](../genes/SETD2.md) in 47% of [BRAF](../genes/BRAF.md) V600-mutant lung adenocarcinoma and with [AKT1](../genes/AKT1.md) in BRAF Class I-altered tumors pan-cancer [PMID:41895280](../papers/41895280.md).
 
 ## Cancer types (linked)
 
@@ -110,4 +110,4 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - [PMID:37980418](../papers/37980418.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

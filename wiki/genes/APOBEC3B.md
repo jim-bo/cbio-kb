@@ -3,8 +3,8 @@ symbol: APOBEC3B
 aliases: []
 cancer_types: [BLCA]
 tags: [mutational-signature, cytidine-deaminase]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # APOBEC3B
@@ -16,22 +16,22 @@ APOBEC3B (Apolipoprotein B mRNA Editing Enzyme Catalytic Subunit 3B) encodes a c
 ## Alterations observed in the corpus
 
 - Highly expressed across all muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md), n=131); the dominant source of the TpC mutational signature representing 51% of all mutations in the TCGA bladder cohort; APOBEC3B expression correlates with mutational burden in urothelial carcinoma [PMID:24476821](../papers/24476821.md)
-- Up-regulated in ESCC tumors; implicated as the cytidine deaminase responsible for the trinucleotide mutational signature observed across 139 paired ESCC samples [PMID:24686850](../papers/24686850.md)
-- Elevated mRNA in chromophobe RCC vs normal kidney; APOBEC mutational signature enriched in kataegis-bearing ChRCC cases [PMID:25155756](../papers/25155756.md)
+- Up-regulated in [ESCC](../cancer_types/ESCC.md) tumors; implicated as the cytidine deaminase responsible for the trinucleotide mutational signature observed across 139 paired ESCC samples [PMID:24686850](../papers/24686850.md)
+- Elevated mRNA in chromophobe [RCC](../cancer_types/RCC.md) vs normal kidney; APOBEC mutational signature enriched in kataegis-bearing ChRCC cases [PMID:25155756](../papers/25155756.md)
 - APOBEC3B RTCA mutagenesis significantly enriched (P=0.0395) in post-chemotherapy urothelial carcinoma tumors, implicated in chemotherapy-driven mutational editing via increased ssDNA availability during repair [PMID:27749842](../papers/27749842.md)
 - APOBEC3B mutational activity (signatures 2 and 13) nearly doubled in HR+/HER2- metastatic breast cancer vs primary TCGA samples — linked to subclonal mutation acquisition under therapy, suggesting a generalized resistance mechanism [PMID:28027327](../papers/28027327.md)
-- APOBEC3B mutational signature modestly enriched at the NOL10 locus in CPGEA and TCGA PRAD vs. genome-wide background, suggesting ectopic APOBEC mutagenesis as a complementary somatic contributor to NOL10 deregulation in prostate cancer [PMID:41062477](../papers/41062477.md)
+- APOBEC3B mutational signature modestly enriched at the [NOL10](../genes/NOL10.md) locus in CPGEA and TCGA [PRAD](../cancer_types/PRAD.md) vs. genome-wide background, suggesting ectopic APOBEC mutagenesis as a complementary somatic contributor to NOL10 deregulation in prostate cancer [PMID:41062477](../papers/41062477.md)
 - Expression correlates with APOBEC-signature mutation load in MIBC; APOBEC3A/3B together account for 67% of all SNVs in the TCGA MIBC cohort (n=412), with their expression as the dominant mutagenic source [PMID:28988769](../papers/28988769.md)
 - APOBEC3B-driven clock-like mutagenesis (signatures 2 and 13) correlates with patient age (p=5.2×10⁻³, ρ=0.17) in 292 prostate cancer WGS samples; kataegis events co-localize with SV breakpoints including TMPRSS2-ERG fusions and PTEN/FOXP1/BRCA2 disruptions; germline APOBEC3B deletion significantly reduces signature 2/13 burden [PMID:30537516](../papers/30537516.md)
-- Germline ~30-kb APOBEC3A–APOBEC3B fusion deletion (rs12628403) and independent rs2142833 cis-eQTL modulate APOBEC mutagenesis pan-cancer across 2,658 whole-genome-sequenced PCAWG tumors [PMID:32025007](../papers/32025007.md)
+- Germline ~30-kb [APOBEC3A](../genes/APOBEC3A.md)–APOBEC3B fusion deletion (rs12628403) and independent rs2142833 cis-eQTL modulate APOBEC mutagenesis pan-cancer across 2,658 whole-genome-sequenced PCAWG tumors [PMID:32025007](../papers/32025007.md)
 - APOBEC3B is implicated alongside APOBEC3A as an enzymatic source of SBS2 and SBS13 mutational signatures in resected lung adenocarcinoma; these signatures were independently associated with postresection recurrence (~2-fold elevated risk), particularly in acinar/papillary tumors. [PMID:32791233](../papers/32791233.md)
-- APOBEC3B protein levels track APOBEC mutagenesis signatures (COSMIC SBS2/SBS13) in luminal breast cancer (CPTAC proteogenomics, n=122); 6 APOBEC-enriched BRCA cases had higher mutation loads (Wilcoxon p=0.008) and elevated APOBEC3B protein [PMID:33212010](../papers/33212010.md)
-- Kataegis events in LCINS WGS cohort show APOBEC3B-like mutational signatures; APOBEC3B-associated kataegis identified alongside APOBEC3A-like events in the MDM2 locus and elsewhere. [PMID:34493867](../papers/34493867.md)
-- Catalytically active (not catalytically dead) overexpression, together with APOBEC3A, reproduces the APOBEC3 mutational signature, kataegis and structural instability in ER+/HER2+ breast cancer cell lines and accelerates resistance to fulvestrant, CDK4/6 inhibitors and HER2-targeted therapy [PMID:40379787](../papers/40379787.md)
+- APOBEC3B protein levels track APOBEC mutagenesis signatures (COSMIC SBS2/SBS13) in luminal breast cancer (CPTAC proteogenomics, n=122); 6 APOBEC-enriched [BRCA](../cancer_types/BRCA.md) cases had higher mutation loads (Wilcoxon p=0.008) and elevated APOBEC3B protein [PMID:33212010](../papers/33212010.md)
+- Kataegis events in LCINS WGS cohort show APOBEC3B-like mutational signatures; APOBEC3B-associated kataegis identified alongside APOBEC3A-like events in the [MDM2](../genes/MDM2.md) locus and elsewhere. [PMID:34493867](../papers/34493867.md)
+- Catalytically active (not catalytically dead) overexpression, together with APOBEC3A, reproduces the APOBEC3 mutational signature, kataegis and structural instability in ER+/HER2+ breast cancer cell lines and accelerates resistance to [fulvestrant](../drugs/fulvestrant.md), CDK4/6 inhibitors and HER2-targeted therapy [PMID:40379787](../papers/40379787.md)
 
 ## Cancer types (linked)
 
-- Bladder urothelial carcinoma (BLCA): APOBEC3B identified as likely driver of TpC→(T/G) mutational signature comprising 51% of all somatic mutations in 131 chemotherapy-naive muscle-invasive tumors; high APOBEC3B expression observed in all tumours of the TCGA cohort [PMID:24476821](../papers/24476821.md)
+- Bladder urothelial carcinoma ([BLCA](../cancer_types/BLCA.md)): APOBEC3B identified as likely driver of TpC→(T/G) mutational signature comprising 51% of all somatic mutations in 131 chemotherapy-naive muscle-invasive tumors; high APOBEC3B expression observed in all tumours of the TCGA cohort [PMID:24476821](../papers/24476821.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -63,4 +63,4 @@ APOBEC3B (Apolipoprotein B mRNA Editing Enzyme Catalytic Subunit 3B) encodes a c
 - [PMID:34493867](../papers/34493867.md)
 - [PMID:40379787](../papers/40379787.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

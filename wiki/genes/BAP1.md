@@ -8,8 +8,8 @@ tags:
   - tumor-suppressor
   - chromatin-remodeling
   - deubiquitinase
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # BAP1
@@ -49,8 +49,8 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - Altered in 13.2% of MSK-IMPACT-profiled intrahepatic cholangiocarcinoma (IHC) patients; fifth most prevalent driver gene in IHC in a 219-patient MSKCC cohort [PMID:33963001](../papers/33963001.md)
 - BAP1 — present in [SCLC](../cancer_types/SCLC.md) PDX/CDX genomic profiling context; the [SCLC](../cancer_types/SCLC.md) cohort (n=46 models, 33 MSK patients) identified the canonical [SCLC](../cancer_types/SCLC.md) genomic landscape dominated by [TP53](../genes/TP53.md) and [RB1](../genes/RB1.md) loss [PMID:35440124](../papers/35440124.md)
 - Germline pathogenic variant identified in 1 patient among 119 LGSC cases profiled by MSK-IMPACT; contributes to the ~15% of LGSC patients carrying germline alterations in cancer predisposition genes ([lgsoc_mapk_msk_2022](../datasets/lgsoc_mapk_msk_2022.md)) [PMID:35443055](../papers/35443055.md)
-- One of several genes (with ARID1A, PIK3CA) carrying uncommon pretreatment mutations in a triple-negative breast cancer immunotherapy trial cohort; not associated with response to pembrolizumab plus low-dose cyclophosphamide [PMID:35121644](../papers/35121644.md).
-- Mutated in 14% of clear cell RCC tumors; the only gene significantly associated with disease-free survival in the Discovery cohort (q=0.02), though this did not replicate in Validation. Among VHL-mutant tumors, BAP1 mutation carried HR 2.59 for DFS, and BAP1/PBRM1 co-mutation marked the worst-outcome subset (HR 7.29) [PMID:36815791](../papers/36815791.md).
+- One of several genes (with [ARID1A](../genes/ARID1A.md), [PIK3CA](../genes/PIK3CA.md)) carrying uncommon pretreatment mutations in a triple-negative breast cancer immunotherapy trial cohort; not associated with response to [pembrolizumab](../drugs/pembrolizumab.md) plus low-dose [cyclophosphamide](../drugs/cyclophosphamide.md) [PMID:35121644](../papers/35121644.md).
+- Mutated in 14% of clear cell [RCC](../cancer_types/RCC.md) tumors; the only gene significantly associated with disease-free survival in the Discovery cohort (q=0.02), though this did not replicate in Validation. Among VHL-mutant tumors, BAP1 mutation carried HR 2.59 for DFS, and BAP1/PBRM1 co-mutation marked the worst-outcome subset (HR 7.29) [PMID:36815791](../papers/36815791.md).
 - Enriched in intrahepatic cholangiocarcinoma relative to other biliary tract cancer subtypes profiled by targeted NGS [PMID:42360806](../papers/42360806.md).
 
 ## Cancer types (linked)
@@ -107,4 +107,4 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - [PMID:36815791](../papers/36815791.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -3,8 +3,8 @@ symbol: ESR1
 aliases: [ER]
 cancer_types: [BRCA]
 tags: [endocrine-resistance, post-treatment-enrichment, breast-cancer, hormone-receptor]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ESR1
@@ -25,7 +25,7 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 - Recurrent hotspot mutations in [BRCA](../cancer_types/BRCA.md) and [UCEC](../cancer_types/UCEC.md), almost exclusively in post-hormone-therapy metastases; enriched in the MSK-IMPACT metastatic cohort vs TCGA, clinically relevant for hormone-therapy management [PMID:28481359](../papers/28481359.md)
 - ESR1 target genes are hypomethylated in uterine leiomyosarcoma ([ULMS](../cancer_types/ULMS.md)) compared to somatic-tissue [LMS](../cancer_types/LMS.md) (STLMS), supporting hormonal-axis differences between uterine and soft-tissue [LMS](../cancer_types/LMS.md) subtypes in sarcoma [PMID:29100075](../papers/29100075.md)
 - ESR1 fusions detected in 16 samples across 5 cancer types (9 in [BRCA](../cancer_types/BRCA.md), 8 of which luminal A/B) in the TCGA pan-cancer fusion landscape; strict mutual exclusivity with ESR1 point mutations; when ESR1 is the 5' partner the AF1 transactivation domain is preserved, when 3' the AF2 domain is preserved; ESR1 expression is elevated in fusion-positive samples [PMID:29617662](../papers/29617662.md).
-- ESR1 (ER-alpha) is highly expressed in RPPA groups P3/P4 containing luminal [BRCA](../cancer_types/BRCA.md), [UCEC](../cancer_types/UCEC.md), [OV](../cancer_types/OV.md), and some [LIHC](../cancer_types/LIHC.md); estrogen-signaling gene program (GP7) is high in iCluster C2 ([BRCA](../cancer_types/BRCA.md) HER2 amp) and C19 (BRCA luminal) in pan-cancer integrative clustering [PMID:29625048](../papers/29625048.md)
+- ESR1 (ER-alpha) is highly expressed in RPPA groups P3/P4 containing luminal [BRCA](../cancer_types/BRCA.md), [UCEC](../cancer_types/UCEC.md), [OV](../cancer_types/OV.md), and some [LIHC](../cancer_types/LIHC.md); estrogen-signaling gene program (GP7) is high in iCluster C2 ([BRCA](../cancer_types/BRCA.md) HER2 amp) and C19 ([BRCA](../cancer_types/BRCA.md) luminal) in pan-cancer integrative clustering [PMID:29625048](../papers/29625048.md)
 - ESR1 expression is significantly lower in younger Korean (SMC) ER+ breast tumors vs. TCGA (p=1.49e-04); positively correlated with patient age and menopausal status; lower ESR1 combined with co-occurring TP53/HER2 alterations is proposed as a partial explanation for worse outcomes in younger ER+ patients on [tamoxifen](../drugs/tamoxifen.md) [PMID:29713003](../papers/29713003.md)
 - Ligand-binding-domain hotspot mutations in 5 endometrioid patients; 3/5 arose de novo (no prior endocrine therapy); one de novo case progressed on [letrozole](../drugs/letrozole.md) then had ongoing 18-month response on [bevacizumab](../drugs/bevacizumab.md) + [fulvestrant](../drugs/fulvestrant.md) [PMID:30068706](../papers/30068706.md)
 - Ligand-binding-domain hotspot mutations (e.g., Y537) in 18% of post-endocrine-therapy HR+HER2- breast tumors; mutually exclusive with MAPK and transcription-factor lesions; associated with shorter PFS on AI but not on SERD [PMID:30205045](../papers/30205045.md)
@@ -117,4 +117,4 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 - [PMID:35705558](../papers/35705558.md)
 - [PMID:40379787](../papers/40379787.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

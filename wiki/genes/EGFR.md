@@ -8,8 +8,8 @@ cancer_types:
   - IHCH
   - EAC
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # EGFR
@@ -38,11 +38,11 @@ EGFR (Epidermal Growth Factor Receptor, ERBB1) is a receptor tyrosine kinase and
 - Loss of EGFR amplification at recurrence (n=11) associates with increased non-neoplastic cell content and mesenchymal subtype switching in IDHwt glioma [PMID:35649412](../papers/35649412.md)
 - 13% pan-cohort frequency in pan-Asian solid tumor cohort; elevated in [LUAD](../cancer_types/LUAD.md) vs MSK and TCGA; L858R 20% and exon 19 deletion 19% within [NSCLC](../cancer_types/NSCLC.md); G719 mutations in 3% of [NSCLC](../cancer_types/NSCLC.md); atypical pairwise co-occurrence with [KRAS](../genes/KRAS.md) noted [PMID:35871175](../papers/35871175.md)
 - Amplified in a single metastatic [CSCC](../cancer_types/CSCC.md) sample (CSCC_0012); structural GAIN detected by LINX/PURPLE SV analysis in 25-sample WGS cohort [PMID:35982973](../papers/35982973.md)
-- EGFR participates in a PD-L1/EGFR/ITGB4 complex that drives SREBP1c-dependent lipid accumulation in [HCC](../cancer_types/HCC.md); cholesterol-remodeled lipid rafts further activate EGFR signaling in TKI-resistant HCC. [PMID:41118283](../papers/41118283.md)
-- EGFR canonical driver mutations found in 39% of never-smoker [RB1](../genes/RB1.md)−/TP53− [SCLC](../cancer_types/SCLC.md) (nsSCLC) — anchoring the adenocarcinoma-to-SCLC plasticity pathway; absent in atypical SCLC (aSCLC, RB1+/TP53+). [PMID:39185963](../papers/39185963.md)
-- An EGFR-inhibitor (gefitinib) perturbation phosphosignature was negatively enriched in LIG1-loss triple-negative breast tumors [PMID:36001024](../papers/36001024.md).
-- EGFR is the dominant driver behind acquired MET amplification in NSCLC (50/56 cases, 89%), and was also a de novo co-driver with MET amplification in 7 NSCLC and 1 non-lung case [PMID:36044468](../papers/36044468.md).
-- New pan-cancer EGFR hotspots in LUAD always co-occur with an initiating L858R or exon 19/20 indel; the V834 hotspot can arise late and without prior treatment [PMID:41895280](../papers/41895280.md).
+- EGFR participates in a PD-L1/EGFR/ITGB4 complex that drives SREBP1c-dependent lipid accumulation in [HCC](../cancer_types/HCC.md); cholesterol-remodeled lipid rafts further activate EGFR signaling in TKI-resistant [HCC](../cancer_types/HCC.md). [PMID:41118283](../papers/41118283.md)
+- EGFR canonical driver mutations found in 39% of never-smoker [RB1](../genes/RB1.md)−/TP53− [SCLC](../cancer_types/SCLC.md) (nsSCLC) — anchoring the adenocarcinoma-to-SCLC plasticity pathway; absent in atypical [SCLC](../cancer_types/SCLC.md) (aSCLC, [RB1](../genes/RB1.md)+/TP53+). [PMID:39185963](../papers/39185963.md)
+- An EGFR-inhibitor ([gefitinib](../drugs/gefitinib.md)) perturbation phosphosignature was negatively enriched in LIG1-loss triple-negative breast tumors [PMID:36001024](../papers/36001024.md).
+- EGFR is the dominant driver behind acquired [MET](../genes/MET.md) amplification in [NSCLC](../cancer_types/NSCLC.md) (50/56 cases, 89%), and was also a de novo co-driver with MET amplification in 7 NSCLC and 1 non-lung case [PMID:36044468](../papers/36044468.md).
+- New pan-cancer EGFR hotspots in [LUAD](../cancer_types/LUAD.md) always co-occur with an initiating L858R or exon 19/20 indel; the V834 hotspot can arise late and without prior treatment [PMID:41895280](../papers/41895280.md).
 
 ## Cancer types (linked)
 
@@ -63,7 +63,7 @@ EGFR (Epidermal Growth Factor Receptor, ERBB1) is a receptor tyrosine kinase and
 ## Open questions
 
 - Kinase-substrate relationships inferred from phospho-outlier analysis (e.g., EGFR → [CTNNB1](../genes/CTNNB1.md) S33) are not directly validated; functional confirmation required [PMID:33577785](../papers/33577785.md).
-- Drug-connectivity predictions in GBM are signature-based with no preclinical or clinical confirmation reported in the corpus [PMID:33577785](../papers/33577785.md).
+- Drug-connectivity predictions in [GBM](../cancer_types/GBM.md) are signature-based with no preclinical or clinical confirmation reported in the corpus [PMID:33577785](../papers/33577785.md).
 
 ## Sources
 
@@ -108,4 +108,4 @@ EGFR (Epidermal Growth Factor Receptor, ERBB1) is a receptor tyrosine kinase and
 - [PMID:36044468](../papers/36044468.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -16,15 +16,15 @@ tags:
   - lobular-carcinoma
   - CDH1
   - AXIN2
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Breast Invasive Lobular Carcinoma (MSK, NPJ Precis Oncol 2024)
 
 ## Overview
 
-25 primary invasive lobular carcinomas ([ILC](../cancer_types/ILC.md)) of the breast lacking bi-allelic *CDH1* (E-cadherin) inactivating genetic alterations, drawn from a screening cohort of 364 primary ILCs with clinical MSK-IMPACT tumor–normal sequencing at Memorial Sloan Kettering. Name, institution, size (25) and reference genome (hg19) are taken from the cBioPortal study record in `schema/ontology/studies.json` [PMID:38347189](../papers/38347189.md).
+25 primary invasive lobular carcinomas ([ILC](../cancer_types/ILC.md)) of the breast lacking bi-allelic *[CDH1](../genes/CDH1.md)* (E-cadherin) inactivating genetic alterations, drawn from a screening cohort of 364 primary ILCs with clinical MSK-IMPACT tumor–normal sequencing at Memorial Sloan Kettering. Name, institution, size (25) and reference genome (hg19) are taken from the cBioPortal study record in `schema/ontology/studies.json` [PMID:38347189](../papers/38347189.md).
 
 ## Composition
 
@@ -39,7 +39,7 @@ processed_at: 2026-09-10
 
 ## Papers using this cohort
 
-- [PMID:38347189](../papers/38347189.md) — Dopeso, Gazzo, Derakhshan et al. (MSK), source publication: identifies non-CDH1 mechanisms (promoter methylation + 16q loss, AXIN2 inactivation) driving the ILC phenotype.
+- [PMID:38347189](../papers/38347189.md) — Dopeso, Gazzo, Derakhshan et al. (MSK), source publication: identifies non-CDH1 mechanisms (promoter methylation + 16q loss, [AXIN2](../genes/AXIN2.md) inactivation) driving the [ILC](../cancer_types/ILC.md) phenotype.
 
 ## Notable findings derived from this cohort
 
@@ -51,4 +51,4 @@ processed_at: 2026-09-10
 - cBioPortal study record: `ilc_msk_2023` (name, institution, size, reference_genome taken from `schema/ontology/studies.json`).
 - [PMID:38347189](../papers/38347189.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -3,8 +3,8 @@ symbol: PTEN
 aliases: []
 cancer_types: [LUAD, NSCLC, OS, MNG, CESC, UCEC, STLMS, ULMS, PRAD, THPA, IHCH]
 tags: [tumor-suppressor, pi3k-pathway, thyroid-cancer, cholangiocarcinoma]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # PTEN
@@ -149,7 +149,7 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - p.QYPFEDH87fs detected in normal melanocytes from sun-damaged skin (Donor 13, ear); PI3K-pathway frameshift alteration in histologically normal tissue, consistent with somatic mosaicism preceding clinical melanoma [PMID:33029006](../papers/33029006.md)
 - Mutations/deletions in proneural, mesenchymal, and classical [GBM](../cancer_types/GBM.md) subtypes with concordant RNA and protein decrease; loss activates downstream AKT1/AKT2 signaling [PMID:33577785](../papers/33577785.md)
 - Mutations identified only in TERT-WT metaplastic breast carcinomas ([MBC](../cancer_types/MBC.md)); not reaching statistical significance after multiple-testing correction [PMID:33863915](../papers/33863915.md)
-- Mutated or focally deleted in 6.0% of [CSCC](../cancer_types/CSCC.md) tumors; PI3K pathway co-alteration with PIK3CA in cutaneous squamous cell carcinoma [PMID:34272401](../papers/34272401.md)
+- Mutated or focally deleted in 6.0% of [CSCC](../cancer_types/CSCC.md) tumors; PI3K pathway co-alteration with [PIK3CA](../genes/PIK3CA.md) in cutaneous squamous cell carcinoma [PMID:34272401](../papers/34272401.md)
 - Assessed at ≥2% alteration frequency in [LUAD](../cancer_types/LUAD.md); no statistically significant association with pathologic lymph-node (pN) metastasis status in multivariable analysis [PMID:34290393](../papers/34290393.md)
 - Loss (8% of HR+/HER2− breast cancer cohort) upregulates [CDK6](../genes/CDK6.md) via AKT activation; AKT inhibitor MK-2206 (2 µmol/L) reverses [CDK6](../genes/CDK6.md) induction in PTEN-knockdown cells, driving [abemaciclib](../drugs/abemaciclib.md) resistance. [PMID:34544752](../papers/34544752.md)
 - Fewer alterations in Black and Asian prostate cancer patients compared to White patients (particularly fewer mutations) in MSK-IMPACT cohort (n=1,123); relevant to PI3K-inhibitor strategies in prostate cancer. [PMID:34667026](../papers/34667026.md)
@@ -166,8 +166,8 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - PTEN loss in 14% of [LMS](../cancer_types/LMS.md), 21% of [ULMS](../cancer_types/ULMS.md), 21% of [MRLS](../cancer_types/MRLS.md), and 8% of [UPS](../cancer_types/UPS.md); most often Level 4 actionable; PTEN loss in [ULMS](../cancer_types/ULMS.md) associated with non-response to anti-PD-1 [PMID:35705560](../papers/35705560.md)
 - PTEN frequency is similar across MMR-D endometrial cancer subgroups (MLH1ph, germline, somatic), representing a background EC alteration not specific to any MMR mechanism [PMID:35849120](../papers/35849120.md)
 - Mutated in 50% of primary endometrial cancers in ctDNA pilot ([ucec_ccr_cfdna_msk_2022](../datasets/ucec_ccr_cfdna_msk_2022.md), n=44); clonal PTEN shared between primary EC and one SLN in CD20 (heterogeneity); pathogenic PTEN detected in CD37 adenosarcoma cfDNA [PMID:36007103](../papers/36007103.md)
-- PTEN-loss combined with cMet overexpression activates AKT/mTOR and de novo lipogenesis in [HCC](../cancer_types/HCC.md) mouse models; [FASN](../genes/FASN.md) ablation only delays (does not prevent) tumor development in PTEN-loss/cMet-overexpression context; loss of both FASN and [SREBF2](../genes/SREBF2.md) abolishes tumor growth [PMID:41118283](../papers/41118283.md)
-- PTEN mutations were rare (<2%) in MDS but showed the nonsense/splice-site/frameshift pattern typical of other cancers, not previously implicated in MDS [PMID:24030381](../papers/24030381.md)
+- PTEN-loss combined with cMet overexpression activates AKT/mTOR and de novo lipogenesis in [HCC](../cancer_types/HCC.md) mouse models; [FASN](../genes/FASN.md) ablation only delays (does not prevent) tumor development in PTEN-loss/cMet-overexpression context; loss of both [FASN](../genes/FASN.md) and [SREBF2](../genes/SREBF2.md) abolishes tumor growth [PMID:41118283](../papers/41118283.md)
+- PTEN mutations were rare (<2%) in [MDS](../cancer_types/MDS.md) but showed the nonsense/splice-site/frameshift pattern typical of other cancers, not previously implicated in MDS [PMID:24030381](../papers/24030381.md)
 - PTEN (7%) deletion frequency rose from ascending colon to rectum in colorectal cancer [PMID:35487942](../papers/35487942.md)
 - PTEN was more often mutated in EBV-negative Burkitt lymphoma [PMID:36201743](../papers/36201743.md)
 - PTEN fell within a TP53/PTEN GISTIC2 deletion peak in hepatoblastoma PDX models [PMID:37990009](../papers/37990009.md)
@@ -374,4 +374,4 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - [PMID:40379787](../papers/40379787.md)
 - [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

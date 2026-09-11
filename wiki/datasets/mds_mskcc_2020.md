@@ -16,8 +16,8 @@ tags:
   - CMML
   - splicing
   - clonal-evolution
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Myelodysplastic (MSK, 2020)
@@ -37,7 +37,7 @@ Per the cBioPortal study record in `schema/ontology/studies.json`, this composit
 
 ## Papers using this cohort
 
-- [PMID:24030381](../papers/24030381.md) — Papaemmanuil et al. (ICGC Chronic Myeloid Disorders Working Group), one of three source publications backing this composite cBioPortal study: proposes a genetic "predestination" model of MDS clonal evolution.
+- [PMID:24030381](../papers/24030381.md) — Papaemmanuil et al. (ICGC Chronic Myeloid Disorders Working Group), one of three source publications backing this composite cBioPortal study: proposes a genetic "predestination" model of [MDS](../cancer_types/MDS.md) clonal evolution.
 
 ## Notable findings derived from this cohort
 
@@ -49,4 +49,4 @@ Per the cBioPortal study record in `schema/ontology/studies.json`, this composit
 - cBioPortal study record: `mds_mskcc_2020` (name, institution, size, reference_genome taken from `schema/ontology/studies.json`; 3 constituent PMIDs per the record's `pmid` field).
 - [PMID:24030381](../papers/24030381.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

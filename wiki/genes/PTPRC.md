@@ -3,8 +3,8 @@ symbol: PTPRC
 aliases: [CD45]
 cancer_types: [GB]
 tags: [immune-marker, leukocyte-marker]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # PTPRC
@@ -15,7 +15,7 @@ PTPRC (CD45) is a pan-leukocyte surface marker used by IHC and multiplex immunof
 
 ## Alterations observed in the corpus
 
-- PTPRC (CD45) and GFAP were used as leukocyte and glial markers, respectively, in a multiplex immunofluorescence panel assessing tumor-infiltrating immune cells in recurrent glioblastoma treated with neoadjuvant pembrolizumab [PMID:30742122](../papers/30742122.md).
+- PTPRC (CD45) and [GFAP](../genes/GFAP.md) were used as leukocyte and glial markers, respectively, in a multiplex immunofluorescence panel assessing tumor-infiltrating immune cells in recurrent glioblastoma treated with neoadjuvant [pembrolizumab](../drugs/pembrolizumab.md) [PMID:30742122](../papers/30742122.md).
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ PTPRC (CD45) is a pan-leukocyte surface marker used by IHC and multiplex immunof
 
 - [PMID:30742122](../papers/30742122.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

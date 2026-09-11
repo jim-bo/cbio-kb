@@ -3,8 +3,8 @@ symbol: ICOS
 aliases: []
 cancer_types: [SKCM]
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ICOS
@@ -16,7 +16,7 @@ ICOS (Inducible T-Cell Co-Stimulator) encodes a co-stimulatory receptor on activ
 ## Alterations observed in the corpus
 
 - **Upregulated on-therapy** following [nivolumab](../drugs/nivolumab.md) treatment in advanced [melanoma](../cancer_types/SKCM.md); upregulation observed in all patients (not restricted to responders). Nominated as a candidate combination immunotherapy target. [PMID:29033130](../papers/29033130.md)
-- T-cell-specific transcript upregulated in tumor on nivolumab (anti-PD-1) treatment in melanoma, alongside CTLA4. [PMID:27169994](../papers/27169994.md)
+- T-cell-specific transcript upregulated in tumor on [nivolumab](../drugs/nivolumab.md) (anti-PD-1) treatment in melanoma, alongside [CTLA4](../genes/CTLA4.md). [PMID:27169994](../papers/27169994.md)
 
 ## Cancer types (linked)
 
@@ -39,4 +39,4 @@ ICOS (Inducible T-Cell Co-Stimulator) encodes a co-stimulatory receptor on activ
 - [PMID:29033130](../papers/29033130.md)
 - [PMID:27169994](../papers/27169994.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

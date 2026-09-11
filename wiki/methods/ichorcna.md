@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [copy-number, liquid-biopsy, tumor-fraction, low-coverage-wgs]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # IchorCNA
@@ -19,7 +19,7 @@ IchorCNA is a tool for estimating tumor fraction and large-scale copy-number alt
 
 - Applied to low-coverage MiSeq WGS data from AALE chr_3p-deleted cell clones alongside HMMCopy to monitor subclonal copy-number evolution during in vitro passaging; detected emergence of chromosome-3 duplication subclones that rescued the chr_3p-deletion proliferation defect [PMID:29622463](../papers/29622463.md)
 - Applied to shallow WGS (~10M reads/sample) of cfDNA from 118 metastatic solid tumor patients at MSKCC for genome-wide z-score based tumor-fraction estimation; sWGS z-scores achieved AUC=0.925 for predicting high (≥10% mVAF) tumor fraction and were used to triage cf-IMPACT-negative samples to MSK-ACCESS (low z-score) or cf-WES (high z-score) [PMID:34059130](../papers/34059130.md)
-- Used to estimate circulating tumor fraction from TruSight Oncology 500 plasma cfDNA sequencing in one SDHB-related paraganglioma/pheochromocytoma patient [PMID:40097403](../papers/40097403.md).
+- Used to [estimate](../methods/estimate.md) circulating tumor fraction from TruSight Oncology 500 plasma cfDNA sequencing in one SDHB-related paraganglioma/pheochromocytoma patient [PMID:40097403](../papers/40097403.md).
 
 ## Notes
 
@@ -33,4 +33,4 @@ IchorCNA is a tool for estimating tumor fraction and large-scale copy-number alt
 - [PMID:34059130](../papers/34059130.md)
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

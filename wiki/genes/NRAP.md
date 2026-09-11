@@ -7,8 +7,8 @@ tags:
   - expression-biomarker
   - immunotherapy-resistance
   - triple-negative-breast-cancer
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # NRAP
@@ -23,11 +23,11 @@ NRAP (nebulin-related anchoring protein) is not a known somatic cancer driver. I
 
 ## Cancer types (linked)
 
-- **[BRCA](../cancer_types/BRCA.md)** (metastatic triple-negative breast cancer): higher pretreatment NRAP expression (with KRT1, KRT2) was seen in tumors of patients who did not respond (stable or progressive disease) to a cyclophosphamide-priming plus pembrolizumab regimen [PMID:35121644](../papers/35121644.md).
+- **[BRCA](../cancer_types/BRCA.md)** (metastatic triple-negative breast cancer): higher pretreatment NRAP expression (with [KRT1](../genes/KRT1.md), [KRT2](../genes/KRT2.md)) was seen in tumors of patients who did not respond (stable or progressive disease) to a cyclophosphamide-priming plus [pembrolizumab](../drugs/pembrolizumab.md) regimen [PMID:35121644](../papers/35121644.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-elevated with KRT1 and KRT2 as a non-responder pretreatment expression signature; contrasts with ANKRD30A, SYCE1, and TUBB2B, which were higher in responders [PMID:35121644](../papers/35121644.md).
+- Co-elevated with KRT1 and KRT2 as a non-responder pretreatment expression signature; contrasts with [ANKRD30A](../genes/ANKRD30A.md), [SYCE1](../genes/SYCE1.md), and [TUBB2B](../genes/TUBB2B.md), which were higher in responders [PMID:35121644](../papers/35121644.md).
 
 ## Therapeutic relevance
 
@@ -41,4 +41,4 @@ NRAP (nebulin-related anchoring protein) is not a known somatic cancer driver. I
 
 - [PMID:35121644](../papers/35121644.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

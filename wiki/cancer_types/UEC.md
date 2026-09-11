@@ -4,8 +4,8 @@ oncotree_code: UEC
 main_type: Endometrial Cancer
 parent: UCEC
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Uterine Endometrioid Carcinoma (UEC)
@@ -36,7 +36,7 @@ Uterine Endometrioid Carcinoma (UEC) is the most common histologic subtype of en
 
 ## Subtypes
 
-- **[POLE](../genes/POLE.md) ultramutated (~7%):** 232 × 10⁻⁶ mut/Mb; hotspot POLE mutations; significantly improved PFS. [PMID:23636398](../papers/23636398.md)
+- **[POLE](../genes/POLE.md) ultramutated (~7%):** 232 × 10⁻⁶ mut/Mb; hotspot [POLE](../genes/POLE.md) mutations; significantly improved PFS. [PMID:23636398](../papers/23636398.md)
 - **MSI hypermutated (~28%):** [MLH1](../genes/MLH1.md) promoter hypermethylation dominant mechanism; 18 × 10⁻⁶ mut/Mb; [RPL22](../genes/RPL22.md) frameshift indels in 36.9%. [PMID:23636398](../papers/23636398.md)
 - **Copy-number low (~38%):** CTNNB1-high (52%); 2.9 × 10⁻⁶ mut/Mb; increased [PGR](../genes/PGR.md) expression suggesting hormonal-therapy responsiveness. [PMID:23636398](../papers/23636398.md)
 - **Copy-number high / serous-like (~25% of high-grade endometrioid):** [TP53](../genes/TP53.md) mutations (~90%); extensive SCNAs; molecular similarities to [HGSOC](../cancer_types/HGSOC.md) and basal-like breast carcinoma; worse PFS (log-rank P=0.003 vs. endometrioid clusters). [PMID:23636398](../papers/23636398.md)
@@ -67,4 +67,4 @@ Uterine Endometrioid Carcinoma (UEC) is the most common histologic subtype of en
 - [PMID:36007103](../papers/36007103.md)
 - [PMID:39031567](../papers/39031567.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

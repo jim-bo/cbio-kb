@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [statistics, survival-analysis, regression]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Cox Proportional Hazards
@@ -47,12 +47,12 @@ Cox proportional hazards regression is a semi-parametric survival analysis model
 - Used in univariable models of PFS against T-cell-repertoire diversity metrics in a triple-negative breast cancer immunotherapy cohort [PMID:35121644](../papers/35121644.md)
 - Multivariable model adjusted for TMB, stage and grade showed oncogenic cell-cycle (HR 2.26) and TGF-beta (HR 1.56) pathway alterations predicted shorter OS in colorectal cancer [PMID:35487942](../papers/35487942.md)
 - Used in multivariable models stratified by TNM stage and adjusted for age to assess DFS, RCC-specific and non-RCC survival endpoints in VHL-mutated ccRCC [PMID:36815791](../papers/36815791.md)
-- Underlies a four-variable integrated risk model (mitotic count, Ki-67+ density, CD163+ density, MTOR mutation) that outperformed WHO classification for predicting PFS in 408 solitary fibrous tumors [PMID:37980418](../papers/37980418.md)
-- Used with left truncation to correct for sequencing-date selection bias, modeling OS/PFS by ERBB2 mutation/amplification status in 1,012 endometrial cancer patients [PMID:39031567](../papers/39031567.md)
+- Underlies a four-variable integrated risk model (mitotic count, Ki-67+ density, CD163+ density, [MTOR](../genes/MTOR.md) mutation) that outperformed WHO classification for predicting PFS in 408 solitary fibrous tumors [PMID:37980418](../papers/37980418.md)
+- Used with left truncation to correct for sequencing-date selection bias, modeling OS/PFS by [ERBB2](../genes/ERBB2.md) mutation/amplification status in 1,012 endometrial cancer patients [PMID:39031567](../papers/39031567.md)
 - Used to test whether deleterious DNA-damage-response alterations predicted PFS in 179 survival-evaluable muscle-invasive bladder cancer patients from SWOG S1314 (HR 0.54, P=0.053, trend only) [PMID:39499893](../papers/39499893.md)
 - Used alongside Kaplan-Meier log-rank, Kruskal-Wallis and Wilcoxon tests to compare survival across molecular clusters in upper tract urothelial carcinoma [PMID:39550333](../papers/39550333.md)
 - Used in models stratified by clinical stage, after propensity-score matching, to compare outcomes in a rectal-cancer radiation cohort [PMID:40100215](../papers/40100215.md)
-- Multivariable models of PFS and OS showed RNF43 status did not change outcomes among 73 MSS colorectal cancer patients treated with anti-EGFR/anti-BRAF therapy [PMID:41895280](../papers/41895280.md)
+- Multivariable models of PFS and OS showed [RNF43](../genes/RNF43.md) status did not change outcomes among 73 MSS colorectal cancer patients treated with anti-EGFR/anti-BRAF therapy [PMID:41895280](../papers/41895280.md)
 - Used for multivariable OS/PFS analysis alongside Kaplan-Meier and log-rank tests in a pan-cancer MSI/TMB cohort [PMID:42360806](../papers/42360806.md)
 
 ## Notes
@@ -101,4 +101,4 @@ Cox proportional hazards regression is a semi-parametric survival analysis model
 - [PMID:41895280](../papers/41895280.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

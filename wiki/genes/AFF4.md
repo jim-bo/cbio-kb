@@ -7,8 +7,8 @@ cancer_types:
 tags:
   - gene-fusion
   - transcription-elongation
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # AFF4
@@ -19,7 +19,7 @@ AFF4 (AF4/FMR2 family member 4) encodes a core scaffold subunit of the super elo
 
 ## Alterations observed in the corpus
 
-- 5' partner in an AFF4 exon 1–TERT exon 3 fusion arising from chr5 chromothripsis in a metastatic SDHB-mutant pheochromocytoma/paraganglioma, producing the cohort's highest TERT expression [PMID:40097403](../papers/40097403.md)
+- 5' partner in an AFF4 exon 1–[TERT](../genes/TERT.md) exon 3 fusion arising from chr5 chromothripsis in a metastatic SDHB-mutant pheochromocytoma/paraganglioma, producing the cohort's highest TERT expression [PMID:40097403](../papers/40097403.md)
 
 ## Cancer types (linked)
 
@@ -27,7 +27,7 @@ AFF4 (AF4/FMR2 family member 4) encodes a core scaffold subunit of the super elo
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurred with germline SDHB mutation and chr5 chromothripsis in the single reported case [PMID:40097403](../papers/40097403.md).
+- Co-occurred with germline [SDHB](../genes/SDHB.md) mutation and chr5 chromothripsis in the single reported case [PMID:40097403](../papers/40097403.md).
 
 ## Therapeutic relevance
 
@@ -35,10 +35,10 @@ AFF4 (AF4/FMR2 family member 4) encodes a core scaffold subunit of the super elo
 
 ## Open questions
 
-- Whether AFF4–TERT fusions represent a recurrent, targetable mechanism of telomerase reactivation in SDHB-mutant PCPG beyond the single reported case [PMID:40097403](../papers/40097403.md).
+- Whether AFF4–TERT fusions represent a recurrent, targetable mechanism of telomerase reactivation in SDHB-mutant [PCPG](../cancer_types/PCPG.md) beyond the single reported case [PMID:40097403](../papers/40097403.md).
 
 ## Sources
 
 - [PMID:40097403](../papers/40097403.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

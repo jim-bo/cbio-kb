@@ -7,8 +7,8 @@ tags:
   - tumor-suppressor
   - wnt-pathway
   - truncating
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # APC
@@ -78,11 +78,11 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - Altered in 81% of pMMR/MSS rectal tumors (LARC cohort, n=652); frequency decreases toward the anal verge (UR 92% / MR 90% / LR 77%, p<0.001); median distance from anal verge 6.85 cm in APC-altered vs 4 cm in wild-type (p<0.001); C-terminal in rectum/DCA, N-terminal in PCA; replicated in MSK-OtherRectal (n=157) [PMID:35970919](../papers/35970919.md)
 - Structural deletion detected by LINX/PURPLE SV analysis in metastatic cSCC WGS cohort (n=25) [PMID:35982973](../papers/35982973.md)
 - Somatic APC mutation detected in cfDNA at baseline by MSK-ACCESS in EC patient CD36 (stage IIIA grade 1 endometrioid); one of 5 primary-tumor mutations, all detected in baseline ctDNA [PMID:36007103](../papers/36007103.md)
-- APC loss is the upstream alteration in some Wnt/beta-catenin-driven [HCC](../cancer_types/HCC.md) models; CTNNB1-mutant/APC-loss HCC (>25% of patients) is addicted to FAO via PPARalpha and CPT1A [PMID:41118283](../papers/41118283.md)
+- APC loss is the upstream alteration in some Wnt/beta-catenin-driven [HCC](../cancer_types/HCC.md) models; CTNNB1-mutant/APC-loss [HCC](../cancer_types/HCC.md) (>25% of patients) is addicted to FAO via PPARalpha and CPT1A [PMID:41118283](../papers/41118283.md)
 - Somatic APC mutation in 20% of colitis-associated cancers (vs ~80% in sporadic CRC); APC-mutant CAC organoids remained Wnt-independent for growth; germline APC I1307K in 3 CAC patients (Ashkenazi Jewish low-penetrance allele) [PMID:36611031](../papers/36611031.md)
 - Mutated/LOH in 47% of colorectal tumors and correlated with hypermutation; 13 hotspots identified (8 novel), including site-specific hotspots by tumor location [PMID:35487942](../papers/35487942.md)
 - Inactivating alterations significantly less frequent in secondary rectal cancer than in primary rectal cancer (48.4% vs 79.9%, P<.001), driving a corresponding drop in Wnt-pathway alteration rates [PMID:40100215](../papers/40100215.md)
-- Depleted, along with AMER1, in BRAF Class I colorectal cancer [PMID:41895280](../papers/41895280.md)
+- Depleted, along with [AMER1](../genes/AMER1.md), in [BRAF](../genes/BRAF.md) Class I colorectal cancer [PMID:41895280](../papers/41895280.md)
 
 ## Cancer types (linked)
 
@@ -167,4 +167,4 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - [PMID:40100215](../papers/40100215.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

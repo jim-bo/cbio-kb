@@ -3,8 +3,8 @@ symbol: KMT2C
 aliases: []
 cancer_types: [CLLSLL, CESC, BLCA, EGC]
 tags: [epigenetic-regulator, m-cll, cervical-cancer]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # KMT2C
@@ -24,7 +24,7 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - Significantly mutated gene in pancreatic ductal adenocarcinoma (ICGC, 142 tumors); involved in chromatin modification and transcription regulation [PMID:23103869](../papers/23103869.md)
 - Chromatin-modifying gene recurrently altered in [AML](../cancer_types/AML.md); part of the epigenetic modifier category alongside [EZH2](../genes/EZH2.md), [KDM6A](../genes/KDM6A.md), and [KMT2A](../genes/KMT2A.md) in the TCGA [AML](../cancer_types/AML.md) cohort [PMID:23634996](../papers/23634996.md)
 - Missense mutation in [ACC](../cancer_types/ACC.md); histone methyltransferase (MLL3); part of the chromatin-remodeling gene cluster recurrently mutated in [ACC](../cancer_types/ACC.md) [PMID:23685749](../papers/23685749.md)
-- Mutated in adenoid cystic carcinoma (ACC); part of a cluster of chromatin-remodeling genes collectively mutated in 12/24 ACC cases [PMID:23778141](../papers/23778141.md)
+- Mutated in adenoid cystic carcinoma ([ACC](../cancer_types/ACC.md)); part of a cluster of chromatin-remodeling genes collectively mutated in 12/24 ACC cases [PMID:23778141](../papers/23778141.md)
 - Somatic mutation as part of the histone lysine methyltransferase KMT2A/KMT2C/KMT2E group, collectively altered in 16% of transitional cell carcinoma ([BLCA](../cancer_types/BLCA.md)) bladder tumors in a 99-sample WES cohort [PMID:24121792](../papers/24121792.md)
 - Mutated in 2/8 (25%) gallbladder cancer ([GBC](../cancer_types/GBC.md)) discovery-screen tumors in a biliary tract cancer WES study; absent in intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)) in this cohort [PMID:24185509](../papers/24185509.md)
 - Somatic mutation in 2/23 (9%) pancreatic carcinomas with acinar differentiation (reported as MLL3) in a WES study of rare pancreatic tumor subtypes [PMID:24293293](../papers/24293293.md)
@@ -41,7 +41,7 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - KMT2C, together with [KMT2A](../genes/KMT2A.md), [KMT2D](../genes/KMT2D.md), and [SETD2](../genes/SETD2.md), are histone methyltransferases mutated collectively in 24% of ATC vs 7% of PDTC (P = 0.02) in a 341-gene panel sequencing study of thyroid cancers [PMID:26878173](../papers/26878173.md)
 - Significantly mutated methyltransferase (MLL3) in lung ADC in the TCGA pan-lung cancer cohort [PMID:27158780](../papers/27158780.md)
 - Mutated in 11.4% of breast cancers (ER+ TSG-driver); often subclonal in IntClust1, more clonal in IntClust8; associated with lower grade in a 2,433-sample targeted sequencing study [PMID:27161491](../papers/27161491.md)
-- Mutated in ~10% of unclassified renal cell carcinoma (uRCC, n=62); one of the most frequent chromatin-modulator alterations alongside KMT2D and [KMT2A](../genes/KMT2A.md); KMT2A/C/D combined represent 16% of the cohort; cases cluster in the chromatin/DNA-damage regulator subgroup. [PMID:27713405](../papers/27713405.md)
+- Mutated in ~10% of unclassified renal cell carcinoma (uRCC, n=62); one of the most frequent chromatin-modulator alterations alongside [KMT2D](../genes/KMT2D.md) and [KMT2A](../genes/KMT2A.md); KMT2A/C/D combined represent 16% of the cohort; cases cluster in the chromatin/DNA-damage regulator subgroup. [PMID:27713405](../papers/27713405.md)
 - KMT2C (MLL3) E704X nonsense mutation identified in pediatric [AML](../cancer_types/AML.md) as a BET-inhibitor target in comprehensive clinical genomic sequencing [PMID:28007021](../papers/28007021.md).
 - KMT2C (MLL3) histone-modifier alterations frequent in esophageal squamous cell carcinoma ([ESCC](../cancer_types/ESCC.md)), co-altered with KMT2D and [KDM6A](../genes/KDM6A.md); 3/4 ESCC3 tumors harbored KMT2D mutations [PMID:28052061](../papers/28052061.md).
 - Chromatin modifier enriched in UMD (unmatched molecular driver) subset, especially never/former-light smokers, in prospective [LUAD](../cancer_types/LUAD.md) cohort (860 patients, MSK-IMPACT) [PMID:28336552](../papers/28336552.md)
@@ -50,7 +50,7 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - Most frequently mutated newly recognized SMG in MIBC (18%, n=412, TCGA [BLCA](../cancer_types/BLCA.md) 2017); less frequently mutated in MSK metastatic gastroesophageal cancer vs TCGA non-MSI-H (q≤0.10). [PMID:28988769](../papers/28988769.md)
 - Significantly less frequently mutated in MSK metastatic gastroesophageal cancer ([EGC](../cancer_types/EGC.md)) cohort vs TCGA non-MSI-H (q≤0.10), suggesting differential selection in metastatic vs localized disease. [PMID:29122777](../papers/29122777.md)
 - Epigenetic-regulator SMG significantly enriched in metastatic vs primary [PRAD](../cancer_types/PRAD.md) tumors in the 1,013-sample WES meta-cohort ([prad_p1000](../datasets/prad_p1000.md)); part of the metastasis-enrichment genomic signature proposed for risk stratification in localized prostate cancer. [PMID:29610475](../papers/29610475.md)
-- KMT2C is among the epigenetic regulators ([ARID1A](../genes/ARID1A.md), KMT2C, KMT2D, KDM6A) mutated collectively in 73% (11/15) of patient-derived bladder cancer organoid lines in the Columbia/MSK biobank [PMID:29625057](../papers/29625057.md)
+- KMT2C is among the epigenetic regulators ([ARID1A](../genes/ARID1A.md), KMT2C, KMT2D, [KDM6A](../genes/KDM6A.md)) mutated collectively in 73% (11/15) of patient-derived bladder cancer organoid lines in the Columbia/MSK biobank [PMID:29625057](../papers/29625057.md)
 - Altered in 7/80 (9%) of metastatic panNET patients sequenced with MSK-IMPACT; one of the top-10 most frequently altered genes in this cohort [PMID:30687805](../papers/30687805.md)
 - KMT2C is recurrently mutated in upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) at frequencies not significantly different from TCGA muscle-invasive bladder cancer [PMID:31278255](../papers/31278255.md).
 - Altered in 14.3% of R/M adenoid cystic carcinoma vs. 4.0% of primaries (OR 4.06) in a multi-institutional cohort; enriched in relapsed/metastatic disease as part of a chromatin-remodeling alteration cluster [PMID:31483290](../papers/31483290.md).
@@ -62,9 +62,9 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - Truncating mutation identified as a truncal alteration in matched primary/metastasis lineage (patient P4/P8) in prostate cancer brain metastases (PCBM; n=51), illustrating early clonal selection during progression to brain-metastatic [PRAD](../cancer_types/PRAD.md) [PMID:35504881](../papers/35504881.md).
 - Listed among recurrently altered genes in a pan-cancer cohort of 10,194 Asian solid-tumor patients; associated with pancreatic adenocarcinoma ([PAAD](../cancer_types/PAAD.md)) in the pan-OrigiMed frequency landscape (OrigiMed CSYS 450-gene panel) [PMID:35871175](../papers/35871175.md)
 - KMT2C was among the most frequently altered genes (21%) in solitary fibrous tumors profiled with a 1021-gene panel (SYSUCC discovery cohort) [PMID:37980418](../papers/37980418.md).
-- KMT2C was altered in 3 of 25 (12%) CDH1 wild-type invasive lobular breast carcinomas [PMID:38347189](../papers/38347189.md).
+- KMT2C was altered in 3 of 25 (12%) [CDH1](../genes/CDH1.md) wild-type invasive lobular breast carcinomas [PMID:38347189](../papers/38347189.md).
 - KMT2C was recurrently mutated (2 cases) in metastatic SDHB-mutant pheochromocytoma/paraganglioma [PMID:40097403](../papers/40097403.md).
-- KMT2C oncogenic mutations, along with NF1 and CDH1, were enriched by permutation testing in metastatic/post-treatment APOBEC3-dominant HR+/HER2- breast tumors [PMID:40379787](../papers/40379787.md).
+- KMT2C oncogenic mutations, along with [NF1](../genes/NF1.md) and CDH1, were enriched by permutation testing in metastatic/post-treatment APOBEC3-dominant HR+/HER2- breast tumors [PMID:40379787](../papers/40379787.md).
 
 ## Cancer types (linked)
 
@@ -181,4 +181,4 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - [PMID:40097403](../papers/40097403.md)
 - [PMID:40379787](../papers/40379787.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

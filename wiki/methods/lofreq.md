@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [variant-calling, computational, somatic-mutations]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # LoFreq
@@ -17,7 +17,7 @@ LoFreq is a sensitive somatic variant caller designed to detect low-frequency si
 
 ## Used by
 
-- Used alongside Strelka for somatic variant calling from whole-exome sequencing data in a study of molecular correlates of response to atezolizumab, with or without bevacizumab, versus sunitinib in renal cell carcinoma [PMID:29867230](../papers/29867230.md).
+- Used alongside Strelka for somatic variant calling from whole-exome sequencing data in a study of molecular correlates of response to [atezolizumab](../drugs/atezolizumab.md), with or without [bevacizumab](../drugs/bevacizumab.md), versus [sunitinib](../drugs/sunitinib.md) in renal cell carcinoma [PMID:29867230](../papers/29867230.md).
 
 ## Notes
 
@@ -28,4 +28,4 @@ LoFreq is a sensitive somatic variant caller designed to detect low-frequency si
 
 - [PMID:29867230](../papers/29867230.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

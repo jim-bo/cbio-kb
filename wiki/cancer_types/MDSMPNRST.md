@@ -8,19 +8,19 @@ tags:
   - mds-mpn-overlap
   - ring-sideroblasts
   - thrombocytosis
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MDS/MPN with Ring Sideroblasts and Thrombocytosis (MDSMPNRST)
 
 ## Overview
 
-MDS/MPN with ring sideroblasts and thrombocytosis (historically refractory anemia with ring sideroblasts and thrombocytosis, RARS-T) is a myelodysplastic/myeloproliferative overlap neoplasm combining dysplastic ring sideroblasts with a sustained thrombocytosis, frequently associated with SF3B1 and JAK2/MPL/CALR mutations. It sits at OncoTree level 4 under the MDS/MPN branch.
+MDS/MPN with ring sideroblasts and thrombocytosis (historically refractory anemia with ring sideroblasts and thrombocytosis, RARS-T) is a myelodysplastic/myeloproliferative overlap neoplasm combining dysplastic ring sideroblasts with a sustained thrombocytosis, frequently associated with [SF3B1](../genes/SF3B1.md) and JAK2/MPL/CALR mutations. It sits at OncoTree level 4 under the MDS/MPN branch.
 
 ## Cohorts in the corpus
 
-- Among 738 patients with MDS and closely related neoplasms sequenced for 111 cancer genes (ICGC Chronic Myeloid Disorders Working Group, WHO 2008 classification), 17 (2%) had RARS-T / MDS/MPN with ring sideroblasts and thrombocytosis [PMID:24030381](../papers/24030381.md).
+- Among 738 patients with [MDS](../cancer_types/MDS.md) and closely related neoplasms sequenced for 111 cancer genes (ICGC Chronic Myeloid Disorders Working Group, WHO 2008 classification), 17 (2%) had RARS-T / MDS/MPN with ring sideroblasts and thrombocytosis [PMID:24030381](../papers/24030381.md).
 
 ## Recurrent alterations
 
@@ -38,4 +38,4 @@ MDS/MPN with ring sideroblasts and thrombocytosis (historically refractory anemi
 
 - [PMID:24030381](../papers/24030381.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

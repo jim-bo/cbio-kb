@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - RMS
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MIR17HG
@@ -21,7 +21,7 @@ MIR17HG (miR-17-92 host gene, also known as C13orf25) encodes the miR-17~92 poly
 
 ## Cancer types (linked)
 
-- **[RMS](../cancer_types/RMS.md) (Rhabdomyosarcoma):** Amplification restricted to fusion-positive PAX-FOXO1 ARMS subset; not observed in fusion-negative RMS [PMID:24436047](../papers/24436047.md)
+- **[RMS](../cancer_types/RMS.md) (Rhabdomyosarcoma):** Amplification restricted to fusion-positive PAX-FOXO1 [ARMS](../cancer_types/ARMS.md) subset; not observed in fusion-negative [RMS](../cancer_types/RMS.md) [PMID:24436047](../papers/24436047.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -40,4 +40,4 @@ MIR17HG (miR-17-92 host gene, also known as C13orf25) encodes the miR-17~92 poly
 - [PMID:24436047](../papers/24436047.md)
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

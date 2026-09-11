@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [immune-deconvolution, digital-cytometry, rna-seq, support-vector-regression]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CIBERSORT
@@ -17,7 +17,7 @@ CIBERSORT is a computational deconvolution algorithm that estimates the relative
 
 ## Used by
 
-- Run in absolute mode alongside ESTIMATE and xCell for immune/stromal deconvolution in a breast cancer proteogenomic cohort [PMID:36001024](../papers/36001024.md)
+- Run in [absolute](../methods/absolute.md) mode alongside ESTIMATE and xCell for immune/stromal deconvolution in a breast cancer proteogenomic cohort [PMID:36001024](../papers/36001024.md)
 
 ## Notes
 
@@ -28,4 +28,4 @@ CIBERSORT is a computational deconvolution algorithm that estimates the relative
 
 - [PMID:36001024](../papers/36001024.md) — breast cancer proteogenomic cohort; CIBERSORT (absolute mode) run alongside ESTIMATE and xCell for immune/stromal deconvolution.
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [msk-impact, targeted-sequencing, panel]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MSK-IMPACT panel (generic)
@@ -91,7 +91,7 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - [IMPACT341](../methods/IMPACT341.md), [IMPACT410](../methods/IMPACT410.md), and [IMPACT468](../methods/IMPACT468.md) used across 26,743 patients in 25 solid tumor types; pan-cancer [CDK12](../genes/CDK12.md) alteration prevalence analysis (1.5% overall) [PMID:32317181](../papers/32317181.md)
 - MSK-IMPACT (300/341/410/468-gene versions) used on 119 [UTUC](../cancer_types/UTUC.md) patients and all PDX/PDC models; [PDCD1](../genes/PDCD1.md) homozygous deletion enrichment in uLMS identified through 15,816-patient MSK-IMPACT pan-cancer reference [PMID:32332851](../papers/32332851.md)
 - Applied for targeted NGS profiling of 430 MSS unresectable mCRC patients at MSKCC (dataset [crc_apc_impact_2020](../datasets/crc_apc_impact_2020.md)); identified [APC](../genes/APC.md) mutation site as a prognostic marker independent of tumor sidedness [PMID:32730818](../papers/32730818.md)
-- Profiled 604 stage I–III [LUAD](../cancer_types/LUAD.md) patients after resection at MSKCC (dataset [luad_mskcc_2020](../datasets/luad_mskcc_2020.md)); 8 patients on [IMPACT341](../methods/IMPACT341.md), 190 on [IMPACT410](../methods/IMPACT410.md), 406 on IMPACT468; linked genomic burden and mutational signatures to histologic subtype [PMID:32791233](../papers/32791233.md)
+- Profiled 604 stage I–III [LUAD](../cancer_types/LUAD.md) patients after resection at MSKCC (dataset [luad_mskcc_2020](../datasets/luad_mskcc_2020.md)); 8 patients on [IMPACT341](../methods/IMPACT341.md), 190 on [IMPACT410](../methods/IMPACT410.md), 406 on [IMPACT468](../methods/IMPACT468.md); linked genomic burden and mutational signatures to histologic subtype [PMID:32791233](../papers/32791233.md)
 - Applied to 39 baseline HR+ [MBC](../cancer_types/MBC.md) tumor biopsies in the [breast_alpelisib_2020](../datasets/breast_alpelisib_2020.md) trial; identified clonal [PIK3CA](../genes/PIK3CA.md) mutations in 70% of evaluable pre-treatment tumors and baseline PTEN/ESR1 alterations as resistance predictors [PMID:32864625](../papers/32864625.md)
 - MSK-IMPACT (IMPACT468 somatic + 88-gene germline) applied to 83 enucleated retinoblastoma specimens at MSKCC; identifies SNVs, indels, focal CNAs, and [select](../methods/select.md) rearrangements from FFPE tissue [PMID:33466343](../papers/33466343.md)
 - MSK-IMPACT (IMPACT341/410/468) capture-based NGS applied to 696 melanoma tumors at MSKCC and Lehigh Valley; median sequencing depth 709×; oncogenic calls restricted to OncoKB-annotated variants [PMID:33509808](../papers/33509808.md)
@@ -114,15 +114,15 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - Applied to 692 pre-treatment rectal adenocarcinoma primary tumors (MSK-IMPACT 341–505 gene panel); defined the mutational landscape ([APC](../genes/APC.md) 81%, [TP53](../genes/TP53.md) 81%, [KRAS](../genes/KRAS.md) 42%) and identified [KRAS](../genes/KRAS.md) as a treatment-specific predictor of DFS in CRT-CNCT-treated LARC (p=0.004) [PMID:35970919](../papers/35970919.md)
 - Primary sequencing platform for 132 of 166 colitis-associated cancer (CAC) tumors (341–505-gene versions); also used for AOM/DSS mouse model with mouse MSK-IMPACT panel for macrodissected lesions; germline panel (76→88 genes) used in 73 consented patients [PMID:36611031](../papers/36611031.md)
 - Primary sequencing platform for 31 of 49 aSCLC pathologic specimens (341/468/505-gene versions); first demonstration that chromothripsis can be detected from panel NGS using oscillating CNA pattern recognition (100% specificity, 77% sensitivity vs WGS) — enabling wider clinical recognition of chromothripsis [PMID:39185963](../papers/39185963.md)
-- Used as the clinical NGS assay for a 66,285-tumor MET copy-number landscape study; FACETS-derived allele-specific copy number raised concordance with FISH to 91% [PMID:36044468](../papers/36044468.md).
+- Used as the clinical NGS assay for a 66,285-tumor [MET](../genes/MET.md) copy-number landscape study; FACETS-derived allele-specific copy number raised concordance with FISH to 91% [PMID:36044468](../papers/36044468.md).
 - MSK-IMPACT's DELLY structural-variant calls were mined across 277 EWSR1-rearranged round cell sarcomas to detect chromoplexy [PMID:38335254](../papers/38335254.md).
 - Reanalyzed tumor-normal MSK-IMPACT sequencing of 364 primary invasive lobular carcinomas to find 25 CDH1-intact cases and characterize alternative lobular-phenotype drivers [PMID:38347189](../papers/38347189.md).
 - Screened 2,638 endometrial carcinomas with tumor-normal MSK-IMPACT sequencing to identify ERBB2-mutant, non-amplified cases and characterize their genomic profile [PMID:39031567](../papers/39031567.md).
 - Clinical MSK-IMPACT targeted exon sequencing of tumor/normal tissue from colorectal cancer patients, with variants OncoKB-annotated and copy number derived via FACETS [PMID:39478232](../papers/39478232.md).
 - Targeted DNA sequencing of 99 upper tract urothelial carcinoma tumors, paired with whole-transcriptome RNA-seq and NMF-based transcriptional clustering [PMID:39550333](../papers/39550333.md).
-- Targeted sequencing of 31 secondary vs 541 primary rectal cancers showed lower TMB, fewer APC/Wnt alterations, and more SMAD4 inactivation in secondary tumors [PMID:40100215](../papers/40100215.md).
+- Targeted sequencing of 31 secondary vs 541 primary rectal cancers showed lower TMB, fewer APC/Wnt alterations, and more [SMAD4](../genes/SMAD4.md) inactivation in secondary tumors [PMID:40100215](../papers/40100215.md).
 - Tumor-normal targeted sequencing of 3,880 breast cancer samples (341-505 gene panel versions) formed the primary clinicogenomic cohort for a mutational-signature analysis [PMID:40379787](../papers/40379787.md).
-- 20 tumors in a MYOD1-mutant rhabdomyosarcoma cohort were MSK-IMPACT sequenced, finding recurrent IGF2 amplification and PI3K/AKT pathway alterations [PMID:41758938](../papers/41758938.md).
+- 20 tumors in a MYOD1-mutant rhabdomyosarcoma cohort were MSK-IMPACT sequenced, finding recurrent [IGF2](../genes/IGF2.md) amplification and PI3K/AKT pathway alterations [PMID:41758938](../papers/41758938.md).
 - Primary clinical sequencing assay for 56,801 solid-tumor biopsies from 49,929 patients across four panel versions (IMPACT341/410/468/505), underpinning a 50k-tumor pan-cancer hotspots resource [PMID:41895280](../papers/41895280.md).
 - Sequenced 1,254 biliary tract cancers to map genomic landscape and OncoKB actionability by anatomic subtype and compare matched vs unmatched targeted therapy outcomes [PMID:42360806](../papers/42360806.md).
 
@@ -242,4 +242,4 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - [PMID:41895280](../papers/41895280.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

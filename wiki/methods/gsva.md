@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [pathway-analysis, gene-sets, single-sample-scoring, transcriptomics]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # GSVA (Gene Set Variation Analysis)
@@ -17,7 +17,7 @@ GSVA is a single-sample gene-set enrichment method that converts a gene-by-sampl
 
 ## Used by
 
-- Used with MSigDB c2.cgp, c6, c7 and hallmark v6.0 gene sets (plus CIBERSORT and single-cell immune signatures) for single-sample pathway scoring of tumor RNA-seq in a neoadjuvant pembrolizumab glioblastoma trial (n=28 tumors) [PMID:30742122](../papers/30742122.md).
+- Used with MSigDB c2.cgp, c6, c7 and hallmark v6.0 gene sets (plus CIBERSORT and single-cell immune signatures) for single-sample pathway scoring of tumor RNA-seq in a neoadjuvant [pembrolizumab](../drugs/pembrolizumab.md) glioblastoma trial (n=28 tumors) [PMID:30742122](../papers/30742122.md).
 - Used for expression- and outcome-linked pathway scoring in whole-genome/RNA-sequenced Burkitt lymphoma and DLBCL tumors, alongside Salmon/DESeq2 quantification and Kaplan-Meier survival analysis [PMID:36201743](../papers/36201743.md).
 
 ## Notes
@@ -29,4 +29,4 @@ GSVA is a single-sample gene-set enrichment method that converts a gene-by-sampl
 - [PMID:30742122](../papers/30742122.md)
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

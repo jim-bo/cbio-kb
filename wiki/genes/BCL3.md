@@ -4,19 +4,19 @@ aliases: []
 cancer_types:
   - BRCA
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # BCL3
 
 ## Overview
 
-BCL3 is an atypical IkB-family transcriptional coregulator located at 19q13.31-33. In the corpus it appears as one of several genes co-located with the DNA-repair gene LIG1 in a locus whose reduced expression tracks with resistance to neoadjuvant chemotherapy in triple-negative breast cancer.
+BCL3 is an atypical IkB-family transcriptional coregulator located at 19q13.31-33. In the corpus it appears as one of several genes co-located with the DNA-repair gene [LIG1](../genes/LIG1.md) in a locus whose reduced expression tracks with resistance to neoadjuvant chemotherapy in triple-negative breast cancer.
 
 ## Alterations observed in the corpus
 
-- Located in the 19q13.31-33 locus (with PPP5C, NOSIP) showing lower mRNA and protein levels in non-pCR triple-negative breast cancer tumors after neoadjuvant chemotherapy [PMID:36001024](../papers/36001024.md).
+- Located in the 19q13.31-33 locus (with [PPP5C](../genes/PPP5C.md), [NOSIP](../genes/NOSIP.md)) showing lower mRNA and protein levels in non-pCR triple-negative breast cancer tumors after neoadjuvant chemotherapy [PMID:36001024](../papers/36001024.md).
 
 ## Cancer types (linked)
 
@@ -24,7 +24,7 @@ BCL3 is an atypical IkB-family transcriptional coregulator located at 19q13.31-3
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-located at 19q13.31-33 with LIG1, POLD1, XRCC1, ERCC2, PPP5C and NOSIP; the authors propose hemizygous deletion of this locus as a compound DNA-repair/lagging-strand-synthesis deficiency [PMID:36001024](../papers/36001024.md).
+- Co-located at 19q13.31-33 with LIG1, [POLD1](../genes/POLD1.md), [XRCC1](../genes/XRCC1.md), [ERCC2](../genes/ERCC2.md), PPP5C and NOSIP; the authors propose hemizygous deletion of this locus as a compound DNA-repair/lagging-strand-synthesis deficiency [PMID:36001024](../papers/36001024.md).
 
 ## Therapeutic relevance
 
@@ -38,4 +38,4 @@ BCL3 is an atypical IkB-family transcriptional coregulator located at 19q13.31-3
 
 - [PMID:36001024](../papers/36001024.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

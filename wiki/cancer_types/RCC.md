@@ -7,15 +7,15 @@ tags:
   - kidney
   - renal
   - umbrella
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Renal Cell Carcinoma (RCC)
 
 ## Overview
 
-Renal Cell Carcinoma (RCC) is the umbrella OncoTree node for primary carcinomas arising from the renal parenchyma. Its major OncoTree children include [Renal Clear Cell Carcinoma (CCRCC)](CCRCC.md), [Renal Non-Clear Cell Carcinoma (NCCRCC)](NCCRCC.md), and [Unclassified Renal Cell Carcinoma (URCC)](URCC.md). [NCCRCC](../cancer_types/NCCRCC.md) itself encompasses [Papillary Renal Cell Carcinoma (PRCC)](PRCC.md), [Chromophobe Renal Cell Carcinoma (CHRCC)](CHRCC.md), and [Translocation-Associated Renal Cell Carcinoma (TRCC)](TRCC.md) as well as [URCC](../cancer_types/URCC.md). URCC comprises approximately 4–5% of all RCC and lacks an established standard of care [PMID:27713405](../papers/27713405.md).
+Renal Cell Carcinoma (RCC) is the umbrella OncoTree node for primary carcinomas arising from the renal parenchyma. Its major OncoTree children include [Renal Clear Cell Carcinoma (CCRCC)](CCRCC.md), [Renal Non-Clear Cell Carcinoma (NCCRCC)](NCCRCC.md), and [Unclassified Renal Cell Carcinoma (URCC)](URCC.md). [NCCRCC](../cancer_types/NCCRCC.md) itself encompasses [Papillary Renal Cell Carcinoma (PRCC)](PRCC.md), [Chromophobe Renal Cell Carcinoma (CHRCC)](CHRCC.md), and [Translocation-Associated Renal Cell Carcinoma (TRCC)](TRCC.md) as well as [URCC](../cancer_types/URCC.md). [URCC](../cancer_types/URCC.md) comprises approximately 4–5% of all RCC and lacks an established standard of care [PMID:27713405](../papers/27713405.md).
 
 ## Cohorts in the corpus
 
@@ -29,13 +29,13 @@ Alterations vary substantially by RCC subtype. Cross-subtype observations from t
 
 - [VHL](../genes/VHL.md) — driver in ~75% of [CCRCC](CCRCC.md) but only 1/62 (1.6%) of [URCC](URCC.md), underscoring molecular divergence across RCC subtypes [PMID:27713405](../papers/27713405.md).
 - [NF2](../genes/NF2.md), [MTOR](../genes/MTOR.md), [TSC1](../genes/TSC1.md), [TSC2](../genes/TSC2.md), [FH](../genes/FH.md) — recurrently altered in URCC; mTOR-pathway mutations also frequent in [CHRCC](../cancer_types/CHRCC.md) (23%) and relevant in [CCRCC](../cancer_types/CCRCC.md) [PMID:27713405](../papers/27713405.md).
-- [SETD2](../genes/SETD2.md), [BAP1](../genes/BAP1.md) — shared chromatin-modifier drivers across CCRCC, [PRCC](../cancer_types/PRCC.md), and URCC [PMID:27713405](../papers/27713405.md).
+- [SETD2](../genes/SETD2.md), [BAP1](../genes/BAP1.md) — shared chromatin-modifier drivers across [CCRCC](../cancer_types/CCRCC.md), [PRCC](../cancer_types/PRCC.md), and URCC [PMID:27713405](../papers/27713405.md).
 
 See individual subtype pages for full alteration catalogs.
-- PIPseq cohort: VHL V166G mutation identified in a renal cell carcinoma patient as diagnostic of Von Hippel-Lindau syndrome [PMID:28007021](../papers/28007021.md)
+- PIPseq cohort: [VHL](../genes/VHL.md) V166G mutation identified in a renal cell carcinoma patient as diagnostic of Von Hippel-Lindau syndrome [PMID:28007021](../papers/28007021.md)
 - RCC (renal cell carcinoma, n=151) was among the ICI-treated histologies in the MSK-IMPACT cohort; TMB-high RCC patients had improved overall survival, and PFS/clinical-benefit associations with TMB were specifically analyzed for renal cell carcinoma. [PMID:30643254](../papers/30643254.md)
-- In the phase 2 IMmotion150 trial (n=305) in treatment-naive advanced/metastatic renal cell carcinoma, atezolizumab plus bevacizumab did not significantly improve PFS over sunitinib in the intent-to-treat population (11.7 vs. 8.4 months, HR 1.00); VHL (62%) and PBRM1 (44%) were the most common drivers, and PBRM1-mutant tumors had better PFS on sunitinib (HR 0.38) but worse PFS on atezolizumab monotherapy (HR 2.49) than on sunitinib. [PMID:29867230](../papers/29867230.md)
-- In the MSK-IMPACT pan-cancer MET landscape, renal cell carcinoma made up 7% of the MET FISH validation cohort and 3 of 45 patients treated with a MET inhibitor. [PMID:36044468](../papers/36044468.md)
+- In the phase 2 IMmotion150 trial (n=305) in treatment-naive advanced/metastatic renal cell carcinoma, [atezolizumab](../drugs/atezolizumab.md) plus [bevacizumab](../drugs/bevacizumab.md) did not significantly improve PFS over [sunitinib](../drugs/sunitinib.md) in the intent-to-treat population (11.7 vs. 8.4 months, HR 1.00); VHL (62%) and [PBRM1](../genes/PBRM1.md) (44%) were the most common drivers, and PBRM1-mutant tumors had better PFS on sunitinib (HR 0.38) but worse PFS on atezolizumab monotherapy (HR 2.49) than on sunitinib. [PMID:29867230](../papers/29867230.md)
+- In the MSK-IMPACT pan-cancer [MET](../genes/MET.md) landscape, renal cell carcinoma made up 7% of the MET FISH validation cohort and 3 of 45 patients treated with a MET inhibitor. [PMID:36044468](../papers/36044468.md)
 
 ## Subtypes
 
@@ -50,7 +50,7 @@ See individual subtype pages for full alteration catalogs.
 
 See individual subtype pages. Notable pan-RCC observations from the corpus:
 
-- mTOR-pathway alterations ([MTOR](../genes/MTOR.md), TSC1/2, [PTEN](../genes/PTEN.md)) occur across CCRCC, CHRCC, and URCC, providing a shared rationale for mTOR-inhibitor evaluation in subsets of each subtype [PMID:27713405](../papers/27713405.md).
+- mTOR-pathway alterations ([MTOR](../genes/MTOR.md), TSC1/2, [PTEN](../genes/PTEN.md)) occur across CCRCC, [CHRCC](../cancer_types/CHRCC.md), and URCC, providing a shared rationale for mTOR-inhibitor evaluation in subsets of each subtype [PMID:27713405](../papers/27713405.md).
 - Molecularly defined subsets of URCC (NF2-loss, mTORC1-hyperactive, FH-deficient, ALK-fusion) support subset-specific therapy approaches rather than a pan-URCC standard [PMID:27713405](../papers/27713405.md).
 
 ## Sources
@@ -61,4 +61,4 @@ See individual subtype pages. Notable pan-RCC observations from the corpus:
 - [PMID:29867230](../papers/29867230.md)
 - [PMID:36044468](../papers/36044468.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

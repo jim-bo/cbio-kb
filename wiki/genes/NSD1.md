@@ -3,8 +3,8 @@ symbol: NSD1
 aliases: []
 cancer_types: [AML, HNSC]
 tags: [fusion, NUP98-partner, histone-methyltransferase, leukemia, pediatric-AML]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # NSD1
@@ -17,10 +17,10 @@ NSD1 (Nuclear Receptor Binding SET Domain Protein 1) is a histone H3K36 methyltr
 
 - [NUP98](../genes/NUP98.md)–NSD1 recurrent in-frame fusion detected by RNA-seq in adult de novo [AML](../cancer_types/AML.md) cases (TCGA [AML](../cancer_types/AML.md) cohort, 200 cases); identified as one of the additional recurrent in-frame fusions beyond the major known fusions [PMID:23634996](../papers/23634996.md)
 - NSD1 significantly mutated in 10% of [HNSC](../cancer_types/HNSC.md) (29 inactivating mutations + 4 focal homozygous deletions, MutSigCV q<0.1, TCGA n=279); H3K36 methyltransferase; loss associated with DNA hypomethylation; germline NSD1 inactivation causes Sotos syndrome with squamous-carcinoma predisposition; defines atypical and classical mRNA subtype enrichment. [PMID:25631445](../papers/25631445.md)
-- DUX4 binding at the NSD1 locus induces transcription from a non-canonical first exon in the DUX4/ERG ALL subtype, expanding the transcriptional landscape driven by the IGH–DUX4 rearrangement [PMID:27776115](../papers/27776115.md)
-- NUP98–NSD1 fusion in pediatric AML; DOT1L-inhibitor target identified in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
-- Partner gene in the NUP98-NSD1 fusion, a classic leukemic fusion recovered in LAML fusion-only tumors in pan-cancer RNA-seq fusion analysis across 9,624 TCGA samples. [PMID:29617662](../papers/29617662.md)
-- In a pediatric AML transcriptomic classification, NSD1 is the fusion partner in frequently cryptic NUP98::NSD1 rearrangements, part of the HOXB expression superfamily with strong FLT3-ITD and WT1 co-occurrence [PMID:38212634](../papers/38212634.md).
+- [DUX4](../genes/DUX4.md) binding at the NSD1 locus induces transcription from a non-canonical first exon in the DUX4/ERG ALL subtype, expanding the transcriptional landscape driven by the [IGH](../genes/IGH.md)–DUX4 rearrangement [PMID:27776115](../papers/27776115.md)
+- [NUP98](../genes/NUP98.md)–NSD1 fusion in pediatric [AML](../cancer_types/AML.md); DOT1L-inhibitor target identified in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
+- Partner gene in the NUP98-NSD1 fusion, a classic leukemic fusion recovered in [LAML](../cancer_types/LAML.md) fusion-only tumors in pan-cancer RNA-seq fusion analysis across 9,624 TCGA samples. [PMID:29617662](../papers/29617662.md)
+- In a pediatric AML transcriptomic classification, NSD1 is the fusion partner in frequently cryptic NUP98::NSD1 rearrangements, part of the HOXB expression superfamily with strong FLT3-ITD and [WT1](../genes/WT1.md) co-occurrence [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
@@ -47,4 +47,4 @@ NSD1 (Nuclear Receptor Binding SET Domain Protein 1) is a histone H3K36 methyltr
 - [PMID:29617662](../papers/29617662.md)
 - [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -3,8 +3,8 @@ symbol: FOXP1
 aliases: []
 cancer_types: [PAAD]
 tags: [transcription-factor, forkhead, molecular-subtype]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # FOXP1
@@ -25,12 +25,12 @@ FOXP1 is a forkhead box transcription factor with roles in B-cell development an
 - Recurrent fusion partner in melanoma: MITF-FOXP1 fusion identified in BRAF-subtype cutaneous melanoma [PMID:26091043](../papers/26091043.md)
 - Part of a complex 3p13 deletion locus (with [RYBP](../genes/RYBP.md) and [SHQ1](../genes/SHQ1.md)) in primary prostate cancer [PMID:26544944](../papers/26544944.md)
 - HD-defined TSG newly nominated as a breast-cancer Mut-driver; well-known driver in other cancer types suggesting potential for cross-cancer drug repurposing [PMID:27161491](../papers/27161491.md)
-- Mutation present in the untreated primary (TURBT) of patient WCM117 but absent from post-chemotherapy metastases (private to the eradicated clone); implicated in cellular cisplatin response alongside [POLD2](../genes/POLD2.md) [PMID:27749842](../papers/27749842.md)
-- FOXP1–ABL1 fusion detected in B-lymphoblastic leukemia ([BLL](../cancer_types/BLL.md)) in the PIPseq pediatric cohort; classified as a TKI target and treated accordingly [PMID:28007021](../papers/28007021.md).
+- Mutation present in the untreated primary (TURBT) of patient WCM117 but absent from post-chemotherapy metastases (private to the eradicated clone); implicated in cellular [cisplatin](../drugs/cisplatin.md) response alongside [POLD2](../genes/POLD2.md) [PMID:27749842](../papers/27749842.md)
+- FOXP1–[ABL1](../genes/ABL1.md) fusion detected in B-lymphoblastic leukemia ([BLL](../cancer_types/BLL.md)) in the PIPseq pediatric cohort; classified as a TKI target and treated accordingly [PMID:28007021](../papers/28007021.md).
 - Identified as a novel recurrently mutated gene (1–4% frequency) in microsatellite-stable metastatic colorectal cancer by MSK-IMPACT sequencing of 1,134 colorectal adenocarcinomas [PMID:29316426](../papers/29316426.md)
 - A cluster of events in the 5-prime end of FOXP1 was excluded by the Broad capture-BED (bitgt) filter in the MC3 pan-cancer mutation calling pipeline, illustrating how capture-kit masking discards biologically meaningful variants outside target regions. [PMID:29596782](../papers/29596782.md)
 - FOXP1 profiled in 304-patient DLBCL WES cohort (Chapuy et al.); context of DLBCL genetic subtype classification (C1–C5) and driver gene identification. [PMID:29713087](../papers/29713087.md)
-- Recurrent 3p14 SV involving FOXP1 in 30% of EOPC; rarely biallelically inactivated, consistent with a haploinsufficient tumor-suppressor role; among the most likely second events after ERG in the PRESCIENT model; APOBEC kataegis co-localizes with FOXP1 SV breakpoints [PMID:30537516](../papers/30537516.md)
+- Recurrent 3p14 SV involving FOXP1 in 30% of EOPC; rarely biallelically inactivated, consistent with a haploinsufficient tumor-suppressor role; among the most likely second events after [ERG](../genes/ERG.md) in the PRESCIENT model; APOBEC kataegis co-localizes with FOXP1 SV breakpoints [PMID:30537516](../papers/30537516.md)
 - One of a small set of aberrant somatic hypermutation (aSHM) target genes mutated in Burkitt lymphomas that clustered with the DLBCL-A expression subgroup [PMID:36201743](../papers/36201743.md).
 
 ## Cancer types (linked)
@@ -84,4 +84,4 @@ FOXP1 is a forkhead box transcription factor with roles in B-cell development an
 - [PMID:30537516](../papers/30537516.md)
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -8,8 +8,8 @@ tags:
   - cytidine-deaminase
   - apobec
   - chemotherapy-resistance
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # APOBEC3A
@@ -22,13 +22,13 @@ APOBEC3A (Apolipoprotein B mRNA Editing Catalytic Polypeptide-Like 3A) is a memb
 
 - APOBEC3A YTCA mutagenesis significantly enriched in post-chemotherapy urothelial carcinoma tumors (P=1×10⁻⁵, Fisher's exact test); APOBEC3A identified as the dominant cytidine deaminase shaping the post-chemotherapy UC mutational landscape, with clonal APOBEC-induced mutations rising after treatment [PMID:27749842](../papers/27749842.md).
 - APOBEC-induced mutations enriched in ABC-transporter (OR=2.7, P=0.038) and homologous-recombination DNA-repair (OR=3.8, P=0.033) pathways in post-chemotherapy tumors [PMID:27749842](../papers/27749842.md).
-- APOBEC3A mutational signature modestly enriched at the NOL10 locus in CPGEA and TCGA PRAD vs. genome-wide background, suggesting ectopic APOBEC mutagenesis as a complementary somatic contributor to NOL10 deregulation in prostate cancer [PMID:41062477](../papers/41062477.md)
+- APOBEC3A mutational signature modestly enriched at the [NOL10](../genes/NOL10.md) locus in CPGEA and TCGA [PRAD](../cancer_types/PRAD.md) vs. genome-wide background, suggesting ectopic APOBEC mutagenesis as a complementary somatic contributor to NOL10 deregulation in prostate cancer [PMID:41062477](../papers/41062477.md)
 - Expression correlates with APOBEC-signature mutation load in MIBC; APOBEC3A/3B together account for 67% of all SNVs in the TCGA MIBC cohort (n=412), with their expression as the dominant mutagenic source [PMID:28988769](../papers/28988769.md)
-- Germline *APOBEC3B* deletion (complete loss of coding sequence) shifts prostate cancer mutagenesis toward APOBEC3A-like patterns, with a reduction in signature 2/13 mutations and lower APOBEC3B expression in 292-case WGS cohort (EOPC/LOPC) [PMID:30537516](../papers/30537516.md)
+- Germline *[APOBEC3B](../genes/APOBEC3B.md)* deletion (complete loss of coding sequence) shifts prostate cancer mutagenesis toward APOBEC3A-like patterns, with a reduction in signature 2/13 mutations and lower APOBEC3B expression in 292-case WGS cohort (EOPC/LOPC) [PMID:30537516](../papers/30537516.md)
 - Germline ~30-kb APOBEC3A–APOBEC3B fusion deletion (rs12628403) and independent rs2142833 cis-eQTL modulate APOBEC mutagenesis pan-cancer across 2,658 whole-genome-sequenced PCAWG tumors [PMID:32025007](../papers/32025007.md)
 - APOBEC3A is implicated as an enzymatic source of SBS2 and SBS13 mutational signatures in resected lung adenocarcinoma; these signatures were independently associated with postresection recurrence (~2-fold elevated risk), particularly in acinar/papillary tumors. [PMID:32791233](../papers/32791233.md)
-- Kataegis events in LCINS WGS cohort show APOBEC3A-like mutational signatures; enriched in tumors co-occurring with MDM2 amplification (kataegis hotspot P=1.3e-15). [PMID:34493867](../papers/34493867.md)
-- Catalytically active (not catalytically dead) overexpression, together with APOBEC3B, reproduces the APOBEC3 mutational signature, kataegis and structural instability in ER+/HER2+ breast cancer cell lines and accelerates resistance to fulvestrant, CDK4/6 inhibitors and HER2-targeted therapy [PMID:40379787](../papers/40379787.md)
+- Kataegis events in LCINS WGS cohort show APOBEC3A-like mutational signatures; enriched in tumors co-occurring with [MDM2](../genes/MDM2.md) amplification (kataegis hotspot P=1.3e-15). [PMID:34493867](../papers/34493867.md)
+- Catalytically active (not catalytically dead) overexpression, together with APOBEC3B, reproduces the APOBEC3 mutational signature, kataegis and structural instability in ER+/HER2+ breast cancer cell lines and accelerates resistance to [fulvestrant](../drugs/fulvestrant.md), CDK4/6 inhibitors and HER2-targeted therapy [PMID:40379787](../papers/40379787.md)
 
 ## Cancer types (linked)
 
@@ -36,7 +36,7 @@ APOBEC3A (Apolipoprotein B mRNA Editing Catalytic Polypeptide-Like 3A) is a memb
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with [APOBEC3B](../genes/APOBEC3B.md) activity in post-chemotherapy UC; both YTCA (APOBEC3A) and RTCA ([APOBEC3B](../genes/APOBEC3B.md)) context mutagenesis enriched after platinum treatment, while APOBEC3G CCC-motif mutagenesis decreased [PMID:27749842](../papers/27749842.md).
+- Co-occurs with [APOBEC3B](../genes/APOBEC3B.md) activity in post-chemotherapy UC; both YTCA (APOBEC3A) and RTCA ([APOBEC3B](../genes/APOBEC3B.md)) context mutagenesis enriched after platinum treatment, while [APOBEC3G](../genes/APOBEC3G.md) CCC-motif mutagenesis decreased [PMID:27749842](../papers/27749842.md).
 
 ## Therapeutic relevance
 
@@ -60,4 +60,4 @@ APOBEC3A (Apolipoprotein B mRNA Editing Catalytic Polypeptide-Like 3A) is a memb
 - [PMID:34493867](../papers/34493867.md)
 - [PMID:40379787](../papers/40379787.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -7,8 +7,8 @@ tags:
   - melanoma
   - skin-cancer
   - UV-mutagenesis
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Cutaneous Melanoma (SKCM)
@@ -44,15 +44,15 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 - Largest cancer type (N=151) in pooled WES ICB cohort of 249 MSS tumors; dominant UV mutational signature (S7) is a stronger correlate of response to immune checkpoint blockade than TMB alone; TMB ceases to predict response after adjusting for dominant signature [PMID:30150660](../papers/30150660.md)
 - SKCM (cutaneous melanoma, combined with [MEL](../cancer_types/MEL.md) n=321) was the second-largest histology in the ICI-treated MSK-IMPACT cohort; TMB-high SKCM patients had improved overall survival with ICI and PFS/clinical-benefit associations with TMB were specifically reported. [PMID:30643254](../papers/30643254.md)
 - CCLE multi-omic profiling demonstrated that [SOX10](../genes/SOX10.md) promoter hypomethylation and expression are restricted to melanoma (SKCM) cell lines and selectively predict [SOX10](../genes/SOX10.md) knockdown sensitivity, establishing a lineage-specific synthetic lethality mechanism [PMID:31068700](../papers/31068700.md).
-- Cutaneous melanoma (SKCM, n=105, 72.9% of cohort) was the dominant subtype in a 144-patient anti-PD1 ICB study; TMB was higher in cutaneous/occult (median 297.5 nonsynonymous mutations) versus acral/mucosal (58; P=1.1e-6); MHC-II HLA expression, [TAP2](../genes/TAP2.md) and MHC-I HLA amplification identified as response predictors; BRAF 39%, [NRAS](../genes/NRAS.md) 30%, [NF1](../genes/NF1.md) 17% mutation frequencies [PMID:31792460](../papers/31792460.md)
+- Cutaneous melanoma (SKCM, n=105, 72.9% of cohort) was the dominant subtype in a 144-patient anti-PD1 ICB study; TMB was higher in cutaneous/occult (median 297.5 nonsynonymous mutations) versus acral/mucosal (58; P=1.1e-6); MHC-II HLA expression, [TAP2](../genes/TAP2.md) and MHC-I HLA amplification identified as response predictors; [BRAF](../genes/BRAF.md) 39%, [NRAS](../genes/NRAS.md) 30%, [NF1](../genes/NF1.md) 17% mutation frequencies [PMID:31792460](../papers/31792460.md)
 - Cutaneous/skin melanoma was among TRK fusion-positive tumor types in the MSK prospective cohort (n=5, 6.6%); one melanoma with GON4L-NTRK1 + [NRAS](../genes/NRAS.md) Q61R co-mutation was the only TRK fusion-positive case with a co-occurring canonical MAPK driver and showed progressive disease on [larotrectinib](../drugs/larotrectinib.md) [PMID:31871300](../papers/31871300.md)
 - In PCAWG, cutaneous melanoma had high chromothripsis frequency; APOBEC C>N mutagenesis dominated kataegis (81.7% of foci), correlating with [APOBEC3B](../genes/APOBEC3B.md) expression; chromothripsis in melanoma frequent across all histotypes [PMID:32025007](../papers/32025007.md).
 - Single-melanocyte sequencing of 133 clonally expanded cells from 6 elderly donors showed mean somatic burden 7.9 mut/Mb (range 0.82–32.3); melanocytes adjacent to BCC/MEL lesions had the highest burdens; BRAF V600E was absent, supporting a distinct UV-driven high-CSD melanoma origin. [PMID:33029006](../papers/33029006.md)
 - 66 pretreatment BRAF V600E/K-mutant metastatic SKCM tumors; [PTEN](../genes/PTEN.md) loss-of-function alterations (11/19 poor-responder patients) associated with shorter PFS (HR 3.46, P<.001) and [OS](../cancer_types/OS.md) (HR 3.10, P<.001) on BRAFi monotherapy; elevated BRAF mutant-allele fraction tracked with excellent response. [PMID:32913971](../papers/32913971.md)
-- MSK-IMPACT profiling of 696 cutaneous melanoma tumors identified MAPK-pathway oncogenic drivers in 96%, with BRAF V600E/K/R (31%), NRAS (29%), [NF1](../genes/NF1.md) loss-of-function (23%), and MAP2K1/2 (7%) as the leading classes; NF1-altered tumors had the highest median TMB (43 mut/Mb) and longest TTF on PD-1 monotherapy (22 mo), while TMB was an independent predictor of TTF and OS across both PD-1 monotherapy and [nivolumab](../drugs/nivolumab.md)+[ipilimumab](../drugs/ipilimumab.md) cohorts [PMID:33509808](../papers/33509808.md)
+- MSK-IMPACT profiling of 696 cutaneous melanoma tumors identified MAPK-pathway oncogenic drivers in 96%, with BRAF V600E/K/R (31%), [NRAS](../genes/NRAS.md) (29%), [NF1](../genes/NF1.md) loss-of-function (23%), and MAP2K1/2 (7%) as the leading classes; NF1-altered tumors had the highest median TMB (43 mut/Mb) and longest TTF on PD-1 monotherapy (22 mo), while TMB was an independent predictor of TTF and OS across both PD-1 monotherapy and [nivolumab](../drugs/nivolumab.md)+[ipilimumab](../drugs/ipilimumab.md) cohorts [PMID:33509808](../papers/33509808.md)
 - MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; SKCM is among tumor types analyzed for [FGA](../genes/FGA.md), TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 - A multi-omics review (Babu & Snyder 2023) cites integrated analysis of TCGA cutaneous melanoma data (Jiang et al. 2016) combining CNVs, DNA methylation, gene expression, and clinical variables to yield prognostic models with mean C-statistic 0.724, as an example of multi-omics improving cancer prognostication [PMID:37119971](../papers/37119971.md)
-- In the MSK-IMPACT pan-cancer cohort (n=881 cutaneous melanomas), no MSI-high tumors were observed despite melanoma having one of the highest TMB-H rates (≥20%); BRAF fusions in melanoma presented at a younger age than other BRAF alteration types, and ARAF was a rare (0.5%) but canonical driver specific to melanoma. [PMID:41895280](../papers/41895280.md)
+- In the MSK-IMPACT pan-cancer cohort (n=881 cutaneous melanomas), no MSI-high tumors were observed despite melanoma having one of the highest TMB-H rates (≥20%); BRAF fusions in melanoma presented at a younger age than other BRAF alteration types, and [ARAF](../genes/ARAF.md) was a rare (0.5%) but canonical driver specific to melanoma. [PMID:41895280](../papers/41895280.md)
 
 ## Subtypes
 
@@ -88,7 +88,7 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 
 - [PMID:26997480](../papers/26997480.md)
 
-- [PMID:28373299](../papers/28373299.md) — Liang et al. 2017; ACRM integrated genomics; SKCM used as comparator for UV-mutation-burden and BRAF/NRAS/NF1 driver landscape.
+- [PMID:28373299](../papers/28373299.md) — Liang et al. 2017; [ACRM](../cancer_types/ACRM.md) integrated genomics; SKCM used as comparator for UV-mutation-burden and BRAF/NRAS/NF1 driver landscape.
 
 - [PMID:29033130](../papers/29033130.md)
 
@@ -127,4 +127,4 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 - [PMID:37119971](../papers/37119971.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

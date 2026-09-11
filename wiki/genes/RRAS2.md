@@ -5,30 +5,30 @@ aliases:
 cancer_types:
   - PRAD
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # RRAS2
 
 ## Overview
 
-RRAS2 (also known as TC21) encodes a member of the RAS superfamily of small GTPases. The RRAS2 Q72 residue is paralogous to the well-characterized Q61 hotspot of canonical RAS genes (HRAS, KRAS, NRAS). Activating mutations at this position lock the protein in a GTP-bound active state, and RRAS2 has been found mutated in primary prostate cancer as part of a broader landscape of RAS-family pathway alterations.
+RRAS2 (also known as TC21) encodes a member of the RAS superfamily of small GTPases. The RRAS2 Q72 residue is paralogous to the well-characterized Q61 hotspot of canonical RAS genes ([HRAS](../genes/HRAS.md), [KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md)). Activating mutations at this position lock the protein in a GTP-bound active state, and RRAS2 has been found mutated in primary prostate cancer as part of a broader landscape of RAS-family pathway alterations.
 
 ## Alterations observed in the corpus
 
 - RRAS2 Q72L mutation in one primary prostate tumor; paralogous to RAS Q61 activating hotspot [PMID:26544944](../papers/26544944.md)
-- Activating mutation with CNLOH identified as a shared truncal alteration in a patient whose germ cell tumor, MDS, and post-transplant histiocytic sarcoma were all clonally related, supporting a common shared precursor origin [PMID:32897884](../papers/32897884.md)
-- Mutated in 1.2% of CSCC tumors; hotspot mutation observed in cutaneous squamous cell carcinoma meta-analysis [PMID:34272401](../papers/34272401.md)
+- Activating mutation with CNLOH identified as a shared truncal alteration in a patient whose germ cell tumor, [MDS](../cancer_types/MDS.md), and post-transplant histiocytic sarcoma were all clonally related, supporting a common shared precursor origin [PMID:32897884](../papers/32897884.md)
+- Mutated in 1.2% of [CSCC](../cancer_types/CSCC.md) tumors; hotspot mutation observed in cutaneous squamous cell carcinoma meta-analysis [PMID:34272401](../papers/34272401.md)
 - New oncogenic hotspots G23 (n=65) and G24 (n=33), paralogous to RAS G12/G13, identified alongside the known Q72 (n=49); concentrated in endometrial and germ cell tumors and mutually exclusive with K/H/NRAS drivers. [PMID:41895280](../papers/41895280.md)
 
 ## Cancer types (linked)
 
-- **PRAD (Prostate Adenocarcinoma)**: Q72L activating mutation observed in the TCGA prostate adenocarcinoma cohort (n=333), part of a broader ~25% PI3K/MAPK pathway alteration landscape [PMID:26544944](../papers/26544944.md)
+- **[PRAD](../cancer_types/PRAD.md) (Prostate Adenocarcinoma)**: Q72L activating mutation observed in the TCGA prostate adenocarcinoma cohort (n=333), part of a broader ~25% PI3K/MAPK pathway alteration landscape [PMID:26544944](../papers/26544944.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Identified alongside HRAS Q61R (3/4 mutant cases) and RAC1 Q61R mutations in prostate cancer; these represent paralogous activating hotspots suggesting convergent RAS-like signaling activation [PMID:26544944](../papers/26544944.md)
+- Identified alongside HRAS Q61R (3/4 mutant cases) and [RAC1](../genes/RAC1.md) Q61R mutations in prostate cancer; these represent paralogous activating hotspots suggesting convergent RAS-like signaling activation [PMID:26544944](../papers/26544944.md)
 
 ## Therapeutic relevance
 
@@ -47,4 +47,4 @@ RRAS2 (also known as TC21) encodes a member of the RAS superfamily of small GTPa
 - [PMID:34272401](../papers/34272401.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

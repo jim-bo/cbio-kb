@@ -15,8 +15,8 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # BRCA2
@@ -90,7 +90,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Exploratory sensitivity analysis in 424 mCSPC patients: adjusted HR for castration resistance 1.60 (95% CI 0.98–2.63), [OS](../cancer_types/OS.md) HR 1.08 (95% CI 0.50–2.33); compatible with but did not establish poor prognosis; no significant prognostic signal at pathway level [PMID:32220891](../papers/32220891.md)
 - Homozygous deletions in 5% of uterine leiomyosarcoma (uLMS, 4/80) and somatic mutations in 3/80, totaling 7 somatic BRCA2 alterations (exclusively in uLMS, not in high-grade non-LMS); validation in five additional uLMS patients with BRCA2 alterations treated with [PARP inhibitors](../drugs/olaparib.md) showed radiographic regression in all, including one complete response; authors recommend [BRCA](../cancer_types/BRCA.md) testing in all uLMS patients [PMID:32299819](../papers/32299819.md)
 - Germline BRCA2 mutation status stratified BLIS-subtype metastatic TNBC patients between PARP-inhibitor arm ([fuzuloparib](../drugs/fuzuloparib.md)) and anti-VEGFR arm ([apatinib](../drugs/apatinib.md)) in a biomarker-guided umbrella trial; PARP inhibitor monotherapy showed no responses in 3 platinum-refractory BRCA1/2-mutant patients. [PMID:32719455](../papers/32719455.md)
-- BRCA2 was referenced alongside BRCA1 as a DDR alteration in MSS metastatic colorectal cancer; LST analysis showed no enrichment for homologous recombination deficiency signatures, and the authors argue against PARP-inhibitor strategies in this disease. [PMID:32730818](../papers/32730818.md)
+- BRCA2 was referenced alongside [BRCA1](../genes/BRCA1.md) as a DDR alteration in MSS metastatic colorectal cancer; LST analysis showed no enrichment for homologous recombination deficiency signatures, and the authors argue against PARP-inhibitor strategies in this disease. [PMID:32730818](../papers/32730818.md)
 - BRCA2 transcriptionally upregulated in SWNTS-SWN schwannomatosis tumors alongside MMR/DNA-repair genes (BRCA1, [MSH3](../genes/MSH3.md), [MSH6](../genes/MSH6.md), [PMS2](../genes/PMS2.md), [MLH3](../genes/MLH3.md)), with promoter hypomethylation of MMR genes; COSMIC signatures 6/15 present but no microsatellite instability detected [PMID:33025139](../papers/33025139.md)
 - OncoKB level 1 alterations identified in plasma of prostate cancer patients by cf-IMPACT, supporting [olaparib](../drugs/olaparib.md) (PARP inhibitor) eligibility [PMID:34059130](../papers/34059130.md)
 - Copy-number deletion recovered via matched WBC sequencing and reclassified as germline (not somatic) in the MSK-ACCESS clinical cohort — illustrating matched-normal requirement for cfDNA germline/somatic disambiguation [PMID:34145282](../papers/34145282.md)
@@ -106,10 +106,10 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - BRCA2 and [RB1](../genes/RB1.md) are co-located on 13q, which shows higher deletion frequency in metastatic versus primary prostate cancer in the MSK-IMPACT cohort (n=1,417) [PMID:35670774](../papers/35670774.md)
 - BRCA2 rearrangements observed in 0.3% of 7,494 sarcomas; BRCA2 is among the HR-pathway genes with pathogenic alterations in 2.5% of sarcomas; biallelic losses most frequent in uterine [LMS](../cancer_types/LMS.md) (4.8%) and chordoma (5.3%) [PMID:35705558](../papers/35705558.md)
 - BRCA2 mutated in 7% of [ULMS](../cancer_types/ULMS.md); nearly half (41%) of corpus-wide BRCA2 alterations occurred in uterine sarcomas in the MSK sarcoma cohort (n=2,138) [PMID:35705560](../papers/35705560.md)
-- All three patients with BRCA2 mutations had progressive disease as best response to pembrolizumab plus low-dose cyclophosphamide in this TNBC trial [PMID:35121644](../papers/35121644.md).
+- All three patients with BRCA2 mutations had progressive disease as best response to [pembrolizumab](../drugs/pembrolizumab.md) plus low-dose [cyclophosphamide](../drugs/cyclophosphamide.md) in this TNBC trial [PMID:35121644](../papers/35121644.md).
 - One pathogenic somatic BRCA2 indel (c.5946delT) was identified in a patient on sotigalimab/nivolumab/chemotherapy who had a partial response but withdrew consent [PMID:35662283](../papers/35662283.md).
 - Pathogenic germline BRCA2 mutations were not associated with pathologic complete response; a somatic BRCA2 frameshift present in the pretreatment PDX was lost in post-treatment PDXs [PMID:36001024](../papers/36001024.md).
-- Somatic BRCA2 Q2506Sfs*21 with LOH gave biallelic inactivation and an HRDetect score of 0.99 in a CDH1 genetically wild-type invasive lobular carcinoma case [PMID:38347189](../papers/38347189.md).
+- Somatic BRCA2 Q2506Sfs*21 with LOH gave biallelic inactivation and an HRDetect score of 0.99 in a [CDH1](../genes/CDH1.md) genetically wild-type invasive lobular carcinoma case [PMID:38347189](../papers/38347189.md).
 - BRCA2 was one of nine DDR panel genes profiled; only truncating alterations counted as deleterious, with results reported for the pooled DDR category rather than per gene [PMID:39499893](../papers/39499893.md).
 - BRCA2 was counted among selected level 3B actionable genes in this pan-biliary-tract cancer cohort [PMID:42360806](../papers/42360806.md).
 
@@ -227,4 +227,4 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:39499893](../papers/39499893.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

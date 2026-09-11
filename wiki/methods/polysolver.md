@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [hla-typing, somatic-mutation-calling, immune-escape]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # POLYSOLVER
@@ -18,12 +18,12 @@ POLYSOLVER (POLYmorphic loci SOLVER) is a computational tool for HLA class I typ
 ## Used by
 
 - [Giannakis et al. 2016 — CRC neoantigen-survival study](../papers/27149842.md): Applied to 619 CRC tumor/normal WES pairs (Illumina HiSeq 2000, SureSelect v.2; mean 90× coverage) to type HLA class I alleles and call somatic HLA mutations; 66/619 (11%) samples carried HLA mutations (96 total); mutated alleles were enriched for neoantigen-binding residues and for somatic hits in TIL-high tumors (chi-squared p = 1.2e-22), consistent with immune-escape selection [PMID:27149842](../papers/27149842.md).
-- Used to detect HLA mutations from exome data in 412 BLCA tumors; HLA mutations detected in 4.6% (19/412), enriched in the high-APOBEC/high-burden MSig1 cluster (p=0.039) [PMID:28988769](../papers/28988769.md)
+- Used to detect HLA mutations from exome data in 412 [BLCA](../cancer_types/BLCA.md) tumors; HLA mutations detected in 4.6% (19/412), enriched in the high-APOBEC/high-burden MSig1 cluster (p=0.039) [PMID:28988769](../papers/28988769.md)
 - Used for HLA typing in the MSK IMPACT neoantigen study to identify patient-specific HLA alleles for neoantigen prediction [PMID:29657128](../papers/29657128.md)
 - POLYSOLVER used for HLA typing from germline WES data across 249 MSS ICB-treated tumors, enabling HLA-restricted neoantigen prediction with NetMHCpan [PMID:30150660](../papers/30150660.md)
-- Used for HLA typing from WES data in the GBM anti-PD-1 immunotherapy cohort; HLA zygosity was not significantly associated with response or survival (n=17 typed patients) [PMID:30742119](../papers/30742119.md)
-- Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the lung_nci_2022 cohort [PMID:34493867](../papers/34493867.md)
-- Typed HLA class I with Polysolver on PBMC exomes to feed NetMHCcons neoantigen prediction in a phase 2 atezolizumab ± bevacizumab vs. sunitinib renal cell carcinoma trial [PMID:29867230](../papers/29867230.md).
+- Used for HLA typing from WES data in the [GBM](../cancer_types/GBM.md) anti-PD-1 immunotherapy cohort; HLA zygosity was not significantly associated with response or survival (n=17 typed patients) [PMID:30742119](../papers/30742119.md)
+- Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the [lung_nci_2022](../datasets/lung_nci_2022.md) cohort [PMID:34493867](../papers/34493867.md)
+- Typed HLA class I with Polysolver on PBMC exomes to feed NetMHCcons neoantigen prediction in a phase 2 [atezolizumab](../drugs/atezolizumab.md) ± [bevacizumab](../drugs/bevacizumab.md) vs. [sunitinib](../drugs/sunitinib.md) renal cell carcinoma trial [PMID:29867230](../papers/29867230.md).
 - Typed HLA class I with POLYSOLVER on normal WES to feed NeoPredPipe neoantigen prediction and LOHHLA HLA-LOH calling in a 1015-exome colorectal cancer cohort [PMID:35487942](../papers/35487942.md).
 - Used polysolver for HLA class I genotyping (>95% accuracy) across a pan-cancer driver-alteration study of ~50,000 tumors [PMID:41895280](../papers/41895280.md).
 
@@ -47,4 +47,4 @@ POLYSOLVER (POLYmorphic loci SOLVER) is a computational tool for HLA class I typ
 - [PMID:35487942](../papers/35487942.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

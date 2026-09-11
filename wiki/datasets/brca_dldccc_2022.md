@@ -16,15 +16,15 @@ tags:
   - neoadjuvant-chemotherapy
   - proteogenomics
   - chemoresistance
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Triple Negative Breast Cancer (DLDCCC, Cancer Discov 2022)
 
 ## Overview
 
-A micro-scaled proteogenomic cohort of clinical-stage II/III, ER-negative/HER2-negative (triple-negative) [breast cancer](../cancer_types/BRCA.md) patients treated on non-randomized trials (NCT02547987, NCT02124902) with docetaxel + carboplatin, built to identify markers of chemotherapy resistance and response by integrating DNA, RNA and protein data from the same small core-needle biopsies. cBioPortal study record: 75 samples, hg19. [PMID:36001024](../papers/36001024.md)
+A micro-scaled proteogenomic cohort of clinical-stage II/III, ER-negative/HER2-negative (triple-negative) [breast cancer](../cancer_types/BRCA.md) patients treated on non-randomized trials (NCT02547987, NCT02124902) with [docetaxel](../drugs/docetaxel.md) + [carboplatin](../drugs/carboplatin.md), built to identify markers of chemotherapy resistance and response by integrating DNA, RNA and protein data from the same small core-needle biopsies. cBioPortal study record: 75 samples, hg19. [PMID:36001024](../papers/36001024.md)
 
 ## Composition
 
@@ -48,4 +48,4 @@ A micro-scaled proteogenomic cohort of clinical-stage II/III, ER-negative/HER2-n
 
 - cBioPortal study ID: brca_dldccc_2022 (name, institution, size, reference_genome from `schema/ontology/studies.json`).
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -3,8 +3,8 @@ symbol: MNX1
 aliases: []
 cancer_types: [AML]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # MNX1
@@ -15,7 +15,7 @@ MNX1 (motor neuron and pancreas homeobox 1) is a homeobox transcription factor w
 
 ## Alterations observed in the corpus
 
-- MNX1 structural variants with outlier expression define a distinct pediatric AML molecular category (5 of 887 cases, t(7;12)-type), clustering with other immature-expression categories such as BCL11B, MECOM and ETS-family cases [PMID:38212634](../papers/38212634.md).
+- MNX1 structural variants with outlier expression define a distinct pediatric [AML](../cancer_types/AML.md) molecular category (5 of 887 cases, t(7;12)-type), clustering with other immature-expression categories such as [BCL11B](../genes/BCL11B.md), [MECOM](../genes/MECOM.md) and ETS-family cases [PMID:38212634](../papers/38212634.md).
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ MNX1 (motor neuron and pancreas homeobox 1) is a homeobox transcription factor w
 
 - [PMID:38212634](../papers/38212634.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

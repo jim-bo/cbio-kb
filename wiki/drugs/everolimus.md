@@ -5,8 +5,8 @@ drug_class: mTOR inhibitor (rapalogue)
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, mtor-inhibitor]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # everolimus
@@ -33,16 +33,16 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 - Proposed as potentially actionable agent for [PTEN](../genes/PTEN.md) loss (10q deletion) identified in [EWSR1](../genes/EWSR1.md)::[BEND2](../genes/BEND2.md) bladder sarcoma via PI3K/AKT/mTOR pathway rationale; not administered to the patient [PMID:41102727](../papers/41102727.md).
 - Authors note prior efficacy of everolimus in leiomyosarcoma but flag the limitation of compensatory AKT activation; recommend evaluating dual PI3K/MTOR inhibitors given pervasive PTEN/AKT3/MTOR/IGF1R/RICTOR pathway alterations in 84% of [ULMS](../cancer_types/ULMS.md)+STLMS C1 [PMID:29100075](../papers/29100075.md)
 - Cited as prior VEGF-targeted therapy in the ccRCC cohorts; PBRM1-LOF benefit from anti-PD-(L)1 was more pronounced in previously VEGF-inhibitor-treated patients, suggesting a treatment-sequencing interaction relevant to mTOR-pathway agents [PMID:29301960](../papers/29301960.md)
-- In MSKCC prospective NGS of 127 advanced [HCC](../cancer_types/HCC.md) patients, 4/10 patients with [TSC1](../genes/TSC1.md)/[TSC2](../genes/TSC2.md) inactivating alterations received everolimus off-label or on-trial after progressing on [sorafenib](../drugs/sorafenib.md); all 4 achieved at least stable disease at first scan and 3/4 had ≥5 months clinical benefit, supporting mTOR inhibitor activity in this genomically-selected HCC subset [PMID:30373752](../papers/30373752.md).
+- In MSKCC prospective NGS of 127 advanced [HCC](../cancer_types/HCC.md) patients, 4/10 patients with [TSC1](../genes/TSC1.md)/[TSC2](../genes/TSC2.md) inactivating alterations received everolimus off-label or on-trial after progressing on [sorafenib](../drugs/sorafenib.md); all 4 achieved at least stable disease at first scan and 3/4 had ≥5 months clinical benefit, supporting mTOR inhibitor activity in this genomically-selected [HCC](../cancer_types/HCC.md) subset [PMID:30373752](../papers/30373752.md).
 - In 80 metastatic panNET patients, mTOR-pathway mutation status (43% of patients with [TSC2](../genes/TSC2.md), [PTEN](../genes/PTEN.md), or [RHEB](../genes/RHEB.md) alterations) did not predict everolimus benefit — response rates were 17% vs 29% in mTOR-altered vs wild-type patients; serial biopsies identified acquired resistance mutations including [PTEN](../genes/PTEN.md) Q298*, [RHEB](../genes/RHEB.md) Y35S, [TSC2](../genes/TSC2.md) splice, and [AKT2](../genes/AKT2.md) G16D [PMID:30687805](../papers/30687805.md)
 - In the FUTURE umbrella trial, everolimus combined with [nab-paclitaxel](../drugs/nab-paclitaxel.md) in arm G (MES-subtype TNBC with PI3K-AKT pathway mutation) achieved ORR 50% (1/2 evaluable); very small arm, results preliminary [PMID:32719455](../papers/32719455.md).
 - [PIK3CA](../genes/PIK3CA.md) hotspot mutation enrichment in non-chondroid [metaplastic breast cancers (MBC)](../cancer_types/MBC.md) supports prior phase 1 data showing higher response rates to mTOR inhibition (everolimus or [temsirolimus](../drugs/temsirolimus.md)) combined with liposomal [doxorubicin](../drugs/doxorubicin.md) and [bevacizumab](../drugs/bevacizumab.md) in PI3K-pathway-altered advanced triple-negative [MBC](../cancer_types/MBC.md) [PMID:33863915](../papers/33863915.md).
 - Everolimus (mTOR inhibitor) was used in AcSé-ESMART platform arms E/F in MAPPYACTS to target PIK3CA/PIK3R1 alterations (n=23) and [PTEN](../genes/PTEN.md) losses (n=25) in pediatric recurrent malignancies; mTOR inhibitors received 123 recommendations across the cohort [PMID:35292802](../papers/35292802.md)
 - mTOR inhibitor; [TSC2](../genes/TSC2.md) loss-of-function in 4.9% of [LIHC](../cancer_types/LIHC.md) in Chinese pan-cancer cohort (n=10,194) provides Level 4 rationale for everolimus [PMID:35871175](../papers/35871175.md)
-- OS with nivolumab (16.4-25.2 months) in previously treated RCC patients is compared to the phase III nivolumab-vs-everolimus trial result (25.0 vs 19.6 months, HR 0.73, P=0.002) [PMID:27169994](../papers/27169994.md).
-- Nominated (with sirolimus/temsirolimus) as a matched mTOR inhibitor for the 3.1% (4/131) of solitary fibrous tumors carrying mTOR-pathway alterations (PIK3CA, NF2, NF1) [PMID:37980418](../papers/37980418.md).
-- One endometrial cancer patient and one cervical cancer patient with ERBB2 S310Y had partial responses to paclitaxel + trastuzumab + everolimus [PMID:39031567](../papers/39031567.md).
-- In ex vivo drug-sensitivity screening of MYOD1L122R-mutant SCSRMS PDX-derived cells, everolimus (mTOR inhibitor) showed IC50 4.4-9.6 uM across two PDX lines, weaker than AZD8055 or the dual PI3K/mTOR inhibitor samotolisib [PMID:41758938](../papers/41758938.md).
+- OS with [nivolumab](../drugs/nivolumab.md) (16.4-25.2 months) in previously treated [RCC](../cancer_types/RCC.md) patients is compared to the phase III nivolumab-vs-everolimus trial result (25.0 vs 19.6 months, HR 0.73, P=0.002) [PMID:27169994](../papers/27169994.md).
+- Nominated (with sirolimus/temsirolimus) as a matched mTOR inhibitor for the 3.1% (4/131) of solitary fibrous tumors carrying mTOR-pathway alterations ([PIK3CA](../genes/PIK3CA.md), [NF2](../genes/NF2.md), [NF1](../genes/NF1.md)) [PMID:37980418](../papers/37980418.md).
+- One endometrial cancer patient and one cervical cancer patient with [ERBB2](../genes/ERBB2.md) S310Y had partial responses to [paclitaxel](../drugs/paclitaxel.md) + [trastuzumab](../drugs/trastuzumab.md) + everolimus [PMID:39031567](../papers/39031567.md).
+- In ex vivo drug-sensitivity screening of MYOD1L122R-mutant [SCSRMS](../cancer_types/SCSRMS.md) PDX-derived cells, everolimus (mTOR inhibitor) showed IC50 4.4-9.6 uM across two PDX lines, weaker than AZD8055 or the dual PI3K/mTOR inhibitor [samotolisib](../drugs/samotolisib.md) [PMID:41758938](../papers/41758938.md).
 
 ## Resistance mechanisms
 
@@ -82,4 +82,4 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 - [PMID:39031567](../papers/39031567.md)
 - [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

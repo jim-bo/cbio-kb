@@ -3,8 +3,8 @@ symbol: CTLA4
 aliases: []
 cancer_types: [COAD]
 tags: [immune-checkpoint, icr-signature, counter-regulation]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CTLA4
@@ -29,8 +29,8 @@ CTLA4 is an immune checkpoint receptor on T cells whose engagement dampens T-cel
 - Higher CTLA4 expression in ipilimumab-treated melanoma responders to subsequent anti-PD1 ICB (P=0.008); CTLA4 expression is one component of the immune infiltrate signature predictive of response in the ipilimumab-pretreated subgroup [PMID:31792460](../papers/31792460.md)
 - Expressed on dysfunctional [CD4](../genes/CD4.md)+ T cells in Apc-driven stem-cell mouse tumors, paralleling the immunosuppressive microenvironment of conventional adenomas in the COLON MAP / HTAN pre-cancer atlas [PMID:34910928](../papers/34910928.md)
 - Overexpressed in immune-hot IG3 pMMR/MSS rectal tumors alongside PD-1/PD-L1/TIM3/LAG3, nominating this subset for ICI trials; checkpoint expression co-occurs with favorable immune geography in locally advanced rectal cancer (LARC) [PMID:35970919](../papers/35970919.md)
-- CTLA4 transcript expression was upregulated on nivolumab (anti-PD-1) treatment, cited as rationale for combining with anti-CTLA-4 therapy. [PMID:27169994](../papers/27169994.md)
-- CTLA4 (CD152) expression on peripheral CD4+ T cells increased after neoadjuvant pembrolizumab (BH P=0.0015) in glioblastoma, cited as rationale for combining with CTLA-4 blockade. [PMID:30742122](../papers/30742122.md)
+- CTLA4 transcript expression was upregulated on [nivolumab](../drugs/nivolumab.md) (anti-PD-1) treatment, cited as rationale for combining with anti-CTLA-4 therapy. [PMID:27169994](../papers/27169994.md)
+- CTLA4 (CD152) expression on peripheral [CD4](../genes/CD4.md)+ T cells increased after neoadjuvant [pembrolizumab](../drugs/pembrolizumab.md) (BH P=0.0015) in glioblastoma, cited as rationale for combining with CTLA-4 blockade. [PMID:30742122](../papers/30742122.md)
 
 ## Cancer types (linked)
 
@@ -80,4 +80,4 @@ CTLA4 is an immune checkpoint receptor on T cells whose engagement dampens T-cel
 - [PMID:27169994](../papers/27169994.md)
 - [PMID:30742122](../papers/30742122.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

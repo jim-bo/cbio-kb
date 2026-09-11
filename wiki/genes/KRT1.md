@@ -3,8 +3,8 @@ symbol: KRT1
 aliases: []
 cancer_types: [BRCA]
 tags: [keratin, expression-biomarker, immunotherapy-resistance]
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # KRT1
@@ -15,11 +15,11 @@ KRT1 encodes keratin 1, a structural cytokeratin. In the corpus it appears as pa
 
 ## Alterations observed in the corpus
 
-- KRT1 (with NRAP and KRT2) showed higher pretreatment expression in tumors of non-responders (SD+PD) to pembrolizumab-based therapy in triple-negative breast cancer [PMID:35121644](../papers/35121644.md).
+- KRT1 (with [NRAP](../genes/NRAP.md) and [KRT2](../genes/KRT2.md)) showed higher pretreatment expression in tumors of non-responders (SD+PD) to pembrolizumab-based therapy in triple-negative breast cancer [PMID:35121644](../papers/35121644.md).
 
 ## Cancer types (linked)
 
-- Breast cancer (BRCA), specifically triple-negative breast cancer: elevated pretreatment KRT1 expression tracked with non-response in a phase 2 cyclophosphamide-priming plus pembrolizumab trial [PMID:35121644](../papers/35121644.md).
+- Breast cancer ([BRCA](../cancer_types/BRCA.md)), specifically triple-negative breast cancer: elevated pretreatment KRT1 expression tracked with non-response in a phase 2 cyclophosphamide-priming plus [pembrolizumab](../drugs/pembrolizumab.md) trial [PMID:35121644](../papers/35121644.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -37,4 +37,4 @@ KRT1 encodes keratin 1, a structural cytokeratin. In the corpus it appears as pa
 
 - [PMID:35121644](../papers/35121644.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

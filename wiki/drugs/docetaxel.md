@@ -5,8 +5,8 @@ drug_class: taxane (microtubule stabilizer)
 canonical_source: corpus
 unverified: true
 tags: [chemotherapy, taxane, sarcoma]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # docetaxel
@@ -28,7 +28,7 @@ Docetaxel is a semi-synthetic taxane that stabilizes microtubules, preventing de
 - In PDAC proteogenomic subtyping (n=140, [paad_cptac_2021](../datasets/paad_cptac_2021.md)), DSigDB GSEA associated docetaxel drug signatures with the C1 (classical/proteogenomic-classical) subtype, nominating taxane chemotherapy as a subtype-directed strategy for C1 PDAC [PMID:34534465](../papers/34534465.md)
 - Component of the first-line THP regimen (docetaxel + [trastuzumab](../drugs/trastuzumab.md) + [pertuzumab](../drugs/pertuzumab.md)) given to 145 HER2+ metastatic breast cancer patients; MAPK-altered tumors had markedly shorter median PFS on this regimen (9.9 vs 21 months, HR 2.03, p=0.011 multivariate), establishing MAPK alterations as a predictive biomarker of THP failure. [PMID:34795269](../papers/34795269.md)
 - Docetaxel is part of the FLOT regimen (5-FU/leucovorin/oxaliplatin + docetaxel) used in 32% of 237 neoadjuvant-treated esophageal/GEJ adenocarcinoma patients at MSK; FOLFOX/FLOT was associated with better pathologic response than carboplatin/paclitaxel (OR 2.38, p=0.013) [PMID:35377946](../papers/35377946.md)
-- In a neoadjuvant trial for stage II/III triple-negative breast cancer, docetaxel 75 mg/m² was combined with carboplatin for 6 cycles; a resistance-associated 19q13.31-33 (LIG1/POLD1/XRCC1) deletion tracked with carboplatin resistance in PDX models but not clearly with docetaxel resistance [PMID:36001024](../papers/36001024.md).
+- In a neoadjuvant trial for stage II/III triple-negative breast cancer, docetaxel 75 mg/m² was combined with [carboplatin](../drugs/carboplatin.md) for 6 cycles; a resistance-associated 19q13.31-33 (LIG1/POLD1/XRCC1) deletion tracked with carboplatin resistance in PDX models but not clearly with docetaxel resistance [PMID:36001024](../papers/36001024.md).
 
 ## Resistance mechanisms
 
@@ -53,4 +53,4 @@ Docetaxel is a semi-synthetic taxane that stabilizes microtubules, preventing de
 - [PMID:35377946](../papers/35377946.md)
 - [PMID:36001024](../papers/36001024.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

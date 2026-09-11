@@ -3,8 +3,8 @@ symbol: ALK
 aliases: []
 cancer_types: [LCH, ECD, NSCLC, NBL]
 tags: [fusion, kinase, histiocytosis, neuroblastoma]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ALK
@@ -53,8 +53,8 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - ALK referenced as an analogous oncogene-addicted system where compound on-target mutations and bypass signaling drive resistance to selective [RET](../genes/RET.md) inhibitor [selpercatinib](../drugs/selpercatinib.md) (LIBRETTO-001 trial) [PMID:35304457](../papers/35304457.md)
 - Kinase fusions of ALK detected in 2.6% of 7,494 sarcomas; novel TNS1-ALK rearrangements identified in 16 leiomyosarcoma cases (primarily uterine and non-uterine [LMS](../cancer_types/LMS.md)), representing a potentially ALK-inhibitor-targetable subgroup [PMID:35705558](../papers/35705558.md)
 - Fusions in 6.7% of [NSCLC](../cancer_types/NSCLC.md) in the OncoMark Chinese solid-tumor cohort (n=2,396); actionable with [crizotinib](../drugs/crizotinib.md), [ceritinib](../drugs/ceritinib.md), and [alectinib](../drugs/alectinib.md) (OncoKB Level 1); multiple novel fusion partner genes catalogued [PMID:35871175](../papers/35871175.md)
-- Co-driver alongside RET in de novo (1/84) and acquired (3/56) MET-amplified NSCLC [PMID:36044468](../papers/36044468.md)
-- Nominated with PTK2, SYK and LYN as a progenitor-state-specific actionable master regulator for combination targeting in MYOD1 L122R-mutant tumors [PMID:41758938](../papers/41758938.md)
+- Co-driver alongside [RET](../genes/RET.md) in de novo (1/84) and acquired (3/56) MET-amplified [NSCLC](../cancer_types/NSCLC.md) [PMID:36044468](../papers/36044468.md)
+- Nominated with [PTK2](../genes/PTK2.md), [SYK](../genes/SYK.md) and [LYN](../genes/LYN.md) as a progenitor-state-specific actionable master regulator for combination targeting in [MYOD1](../genes/MYOD1.md) L122R-mutant tumors [PMID:41758938](../papers/41758938.md)
 - ALK fusions, along with ROS1/NTRK1-3/FGFR2 fusions, linked to strikingly early age at diagnosis across a pan-cancer hotspot cohort [PMID:41895280](../papers/41895280.md)
 
 ## Cancer types (linked)
@@ -122,4 +122,4 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - [PMID:41758938](../papers/41758938.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

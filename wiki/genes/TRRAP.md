@@ -3,8 +3,8 @@ symbol: TRRAP
 aliases: []
 cancer_types: [MBL]
 tags: [histone-acetyltransferase, WNT-pathway, chromatin-remodeling, medulloblastoma]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # TRRAP
@@ -26,7 +26,7 @@ TRRAP (Transformation/Transcription domain-Associated Protein) is a non-catalyti
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with [CTNNB1](../genes/CTNNB1.md) stabilizing mutations in the WNT subgroup of medulloblastoma; CTNNB1 recruits TRRAP to WNT-responsive promoters [PMID:22722829](../papers/22722829.md)
+- Co-occurs with [CTNNB1](../genes/CTNNB1.md) stabilizing mutations in the WNT subgroup of medulloblastoma; [CTNNB1](../genes/CTNNB1.md) recruits TRRAP to WNT-responsive promoters [PMID:22722829](../papers/22722829.md)
 - Co-mutated with [SMARCA4](../genes/SMARCA4.md) (another chromatin remodeler) in WNT medulloblastoma [PMID:22722829](../papers/22722829.md)
 
 ## Therapeutic relevance
@@ -46,4 +46,4 @@ TRRAP (Transformation/Transcription domain-Associated Protein) is a non-catalyti
 - [PMID:27749842](../papers/27749842.md)
 - [PMID:36815791](../papers/36815791.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -9,8 +9,8 @@ tags:
   - gene-expression
   - intrinsic-subtype
   - classifier
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # PAM50
@@ -23,7 +23,7 @@ PAM50 is a 50-gene RT-PCR-based expression assay that classifies breast tumors i
 
 - Applied to 1,980 METABRIC patients with copy-number and gene-expression data (Molecular Dataset subset of n=3,240 total) to assign intrinsic subtypes used alongside IntClust integrative subtypes in a multistate Markov model of breast cancer recurrence trajectories ([brca_metabric](../datasets/brca_metabric.md)) [PMID:30867590](../papers/30867590.md)
 - Custom NanoString PAM50 codeset on FFPE tissue from 14 buparlisib- and 12 alpelisib-trial tumors; luminal A classification showed a trend toward enrichment in clinical-benefit patients (p=0.07); luminal A predicted response to both PI3K inhibitors in 170/121 PDX models [PMID:31552290](../papers/31552290.md).
-- Used PAM50 intrinsic subtyping (re-centered against microarray centroids) on WES/RNA-seq of a priming-cyclophosphamide + pembrolizumab trial in metastatic triple-negative breast cancer; PAM50 subtype (mostly basal-like) did not predict response or clinical benefit [PMID:35121644](../papers/35121644.md).
+- Used PAM50 intrinsic subtyping (re-centered against microarray centroids) on WES/RNA-seq of a priming-cyclophosphamide + [pembrolizumab](../drugs/pembrolizumab.md) trial in metastatic triple-negative breast cancer; PAM50 subtype (mostly basal-like) did not predict response or clinical benefit [PMID:35121644](../papers/35121644.md).
 - Used PAM50 intrinsic subtype alongside CD3/PD-L1 IHC to characterize a proteogenomic chemoresistance cohort in triple-negative breast cancer; PAM50 subtype was not associated with pathologic complete response [PMID:36001024](../papers/36001024.md).
 
 ## Notes
@@ -37,4 +37,4 @@ PAM50 is a 50-gene RT-PCR-based expression assay that classifies breast tumors i
 - [PMID:35121644](../papers/35121644.md)
 - [PMID:36001024](../papers/36001024.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

@@ -3,8 +3,8 @@ symbol: LYN
 aliases: [JTK8, p53Lyn, p56Lyn]
 cancer_types: [OSCC]
 tags: [SRC-family-kinase, HNSCC, copy-gain, kinase]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # LYN
@@ -17,7 +17,7 @@ LYN encodes a SRC-family non-receptor tyrosine kinase involved in signal transdu
 
 - SRC-family kinase (SFK) collectively altered in 29% (10/35) of OSCC tumors alongside [SRC](../genes/SRC.md) and [YES1](../genes/YES1.md); LYN copy gain with high expression identified as a candidate therapeutic target in HNSCC [PMID:23619168](../papers/23619168.md)
 - Identified as a candidate cancer gene in DLBCL; RAS/JAK/STAT pathway context in C4 GCB-DLBCL subtype in a 304-sample WES study [PMID:29713087](../papers/29713087.md)
-- Nominated as a progenitor-state-specific actionable master regulator (with PTK2, SYK, ALK) implicated in immune signaling and stemness in MYOD1-mutant rhabdomyosarcoma [PMID:41758938](../papers/41758938.md).
+- Nominated as a progenitor-state-specific actionable master regulator (with [PTK2](../genes/PTK2.md), [SYK](../genes/SYK.md), [ALK](../genes/ALK.md)) implicated in immune signaling and stemness in MYOD1-mutant rhabdomyosarcoma [PMID:41758938](../papers/41758938.md).
 
 ## Cancer types (linked)
 
@@ -25,7 +25,7 @@ LYN encodes a SRC-family non-receptor tyrosine kinase involved in signal transdu
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-altered with SRC and YES1 in the SRC-family kinase category in HNSCC; part of broader mitogenic signaling landscape including [EGFR](../genes/EGFR.md), [PIK3CA](../genes/PIK3CA.md), [AKT1](../genes/AKT1.md), [HRAS](../genes/HRAS.md), and [BRAF](../genes/BRAF.md) alterations [PMID:23619168](../papers/23619168.md)
+- Co-altered with [SRC](../genes/SRC.md) and [YES1](../genes/YES1.md) in the SRC-family kinase category in HNSCC; part of broader mitogenic signaling landscape including [EGFR](../genes/EGFR.md), [PIK3CA](../genes/PIK3CA.md), [AKT1](../genes/AKT1.md), [HRAS](../genes/HRAS.md), and [BRAF](../genes/BRAF.md) alterations [PMID:23619168](../papers/23619168.md)
 
 ## Therapeutic relevance
 
@@ -42,4 +42,4 @@ LYN encodes a SRC-family non-receptor tyrosine kinase involved in signal transdu
 - [PMID:29713087](../papers/29713087.md)
 - [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

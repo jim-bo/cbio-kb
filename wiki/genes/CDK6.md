@@ -5,8 +5,8 @@ cancer_types:
   - EAC
   - GBM
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # CDK6
@@ -23,7 +23,7 @@ CDK6 (Cyclin-Dependent Kinase 6) partners with Cyclin D proteins to phosphorylat
 - CDK6 upregulation (amplification 0.4%; or transcriptional induction downstream of FAT1/PTEN/ARID1A loss) drives CDK4/6i resistance in HR+/HER2− breast cancer; INK4 binding deforms the CDK6 ATP pocket reducing [abemaciclib](../drugs/abemaciclib.md) affinity ~4× (Kd 20.2→86.4 nmol/L); PROTAC degraders BSJ-05-017/BSJ-03-096 overcome this resistance with IC50 7.37 nmol/L in CDK6-high cells vs [palbociclib](../drugs/palbociclib.md) IC50 252.0 nmol/L [PMID:34544752](../papers/34544752.md)
 - CDK6 amplifications recurrent in [RMS](../cancer_types/RMS.md) and other sarcomas in MAPPYACTS pediatric trial; 105 CDK4/6 inhibitor recommendations generated; CDKN2A/CDKN2B loss (157 inactivating events) identified as the matched predictive biomarker [PMID:35292802](../papers/35292802.md)
 - Amplified in 0.7% of sarcomas (10.6% for [CDK4](../genes/CDK4.md)); acts as a target for CDK4/6 inhibitors; co-occurs with CCND1/CCND2/CCND3 and CDKN2A/B in an unusual within-pathway co-occurrence pattern in mesenchymal tumors [PMID:35705558](../papers/35705558.md)
-- A chromothripsis event at the YAP1 locus drove elevated YAP1 and downstream CDK6 expression in abemaciclib-resistant MDA-MB-453 breast cancer cells, a known CDK4/6-inhibitor resistance mechanism [PMID:40379787](../papers/40379787.md).
+- A chromothripsis event at the [YAP1](../genes/YAP1.md) locus drove elevated YAP1 and downstream CDK6 expression in abemaciclib-resistant MDA-MB-453 breast cancer cells, a known CDK4/6-inhibitor resistance mechanism [PMID:40379787](../papers/40379787.md).
 
 ## Cancer types (linked)
 
@@ -57,4 +57,4 @@ CDK6 (Cyclin-Dependent Kinase 6) partners with Cyclin D proteins to phosphorylat
 - [PMID:35705558](../papers/35705558.md)
 - [PMID:40379787](../papers/40379787.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

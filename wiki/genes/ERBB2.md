@@ -8,8 +8,8 @@ cancer_types:
   - MEL
   - IHCH
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ERBB2
@@ -32,11 +32,11 @@ ERBB2 (HER2/NEU) is a receptor tyrosine kinase of the ERBB family that lacks a k
 - ERBB2 was altered in 16% of MSI-stable esophageal adenocarcinoma ([EAC](../cancer_types/EAC.md)) patients (predominantly amplification) in a neoadjuvant chemoradiotherapy cohort (n=237); alteration was not significantly associated with pathologic treatment response. Ten patients received neoadjuvant [trastuzumab](../drugs/trastuzumab.md) based on clinical HER2 status. [PMID:35377946](../papers/35377946.md)
 - Altered in 5 LGSC cases including 2 amplifications and 1 Y772_A775dup hotspot; included in the MAPK pathway-altered group in a study of 119 MSK-IMPACT-sequenced LGSC patients [PMID:35443055](../papers/35443055.md)
 - ERBB2 hotspot mutations enriched in germline (Lynch) MMR-D endometrial carcinomas (29% vs 3% MLH1ph); proposed as a potentially targetable alteration via irreversible HER2 tyrosine-kinase inhibition in Lynch-associated EC [PMID:35849120](../papers/35849120.md)
-- Amplification in 24% of [BRCA](../cancer_types/BRCA.md) (vs 2% in other types) in pan-Asian solid-tumor cohort; actionable with [lapatinib](../drugs/lapatinib.md), [trastuzumab](../drugs/trastuzumab.md)+[pertuzumab](../drugs/pertuzumab.md), [neratinib](../drugs/neratinib.md), margetuximab, and trastuzumab+[tucatinib](../drugs/tucatinib.md) (OncoKB Level 1); GoF mutations in 3% of [NSCLC](../cancer_types/NSCLC.md) actionable with T-DM1 and [trastuzumab-deruxtecan](../drugs/trastuzumab-deruxtecan.md) [PMID:35871175](../papers/35871175.md)
+- Amplification in 24% of [BRCA](../cancer_types/BRCA.md) (vs 2% in other types) in pan-Asian solid-tumor cohort; actionable with [lapatinib](../drugs/lapatinib.md), [trastuzumab](../drugs/trastuzumab.md)+[pertuzumab](../drugs/pertuzumab.md), [neratinib](../drugs/neratinib.md), margetuximab, and [trastuzumab](../drugs/trastuzumab.md)+[tucatinib](../drugs/tucatinib.md) (OncoKB Level 1); GoF mutations in 3% of [NSCLC](../cancer_types/NSCLC.md) actionable with T-DM1 and [trastuzumab-deruxtecan](../drugs/trastuzumab-deruxtecan.md) [PMID:35871175](../papers/35871175.md)
 - Amplification in 3% of pMMR/MSS rectal tumors (Level 2 actionable); one of only two Level 1-2 actionable findings in LARC genomic landscape study [PMID:35970919](../papers/35970919.md)
 - Recurrent ERBB2 alterations observed among multi-primary metachronous CAC (colitis-associated cancer) samples in an IBD-associated colorectal cancer cohort (n=174 patients). [PMID:36611031](../papers/36611031.md)
 - ERBB2 alterations (7%) correlated with hypermutation in colorectal cancer [PMID:35487942](../papers/35487942.md).
-- ERBB2 amplification co-occurred with MET amplification as a co-driver in 2 NSCLC and in 10 de novo/3 acquired-resistance non-lung MET-amplified tumors [PMID:36044468](../papers/36044468.md).
+- ERBB2 amplification co-occurred with [MET](../genes/MET.md) amplification as a co-driver in 2 [NSCLC](../cancer_types/NSCLC.md) and in 10 de novo/3 acquired-resistance non-lung MET-amplified tumors [PMID:36044468](../papers/36044468.md).
 - ERBB2 was altered in 4/25 (16%) of CDH1-wild-type invasive lobular breast carcinomas, with 3/25 clinically ER+/HER2+ [PMID:38347189](../papers/38347189.md).
 - ERBB2 pathogenic mutations occur in 2.6% of endometrial cancers (hotspots V842I, R678Q, S310F/Y), are clonal in 87% of cases, and co-occur with ERBB2 amplification in 16% of mutated cases; mutation and amplification define distinct molecular EC subgroups [PMID:39031567](../papers/39031567.md).
 - ERBB2 (HER2) amplification defines the HER2+ receptor subtypes studied for APOBEC3-driven endocrine-therapy/CDK4-6-inhibitor resistance in breast cancer [PMID:40379787](../papers/40379787.md).
@@ -57,7 +57,7 @@ ERBB2 (HER2/NEU) is a receptor tyrosine kinase of the ERBB family that lacks a k
 ## Therapeutic relevance
 
 - trastuzumab (anti-HER2) administered to 86/108 ERBB2-amplified [EAC](../cancer_types/EAC.md) patients (64 first-line, 22 second-line); survival benefit of ERBB2 amplification in [EAC](../cancer_types/EAC.md) cannot be cleanly separated from trastuzumab effect vs. intrinsic biology [PMID:33795256](../papers/33795256.md).
-- Authors of EAC study note that mutual exclusivity with MDM2/RTK-RAS-PIK3 alterations may contribute to superior trastuzumab outcomes in ERBB2-amplified tumors, as these co-alterations are known mediators of resistance [PMID:33795256](../papers/33795256.md).
+- Authors of [EAC](../cancer_types/EAC.md) study note that mutual exclusivity with MDM2/RTK-RAS-PIK3 alterations may contribute to superior trastuzumab outcomes in ERBB2-amplified tumors, as these co-alterations are known mediators of resistance [PMID:33795256](../papers/33795256.md).
 
 ## Open questions
 
@@ -101,4 +101,4 @@ ERBB2 (HER2/NEU) is a receptor tyrosine kinase of the ERBB family that lacks a k
 - [PMID:41895280](../papers/41895280.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

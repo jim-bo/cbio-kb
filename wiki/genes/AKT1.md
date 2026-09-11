@@ -3,8 +3,8 @@ symbol: AKT1
 aliases: []
 cancer_types: [BLCA, UTUC, BRCA, LGG]
 tags: [pi3k-pathway, oncogene, resistance]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # AKT1
@@ -48,7 +48,7 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - AKT1 is a core PI3K-pathway driver; PI3K pathway activation ([PIK3CA](../genes/PIK3CA.md) activation + [PTEN](../genes/PTEN.md) inactivation) dominates in head-and-neck, breast, GI, and gynecologic tumors; luminal-A breast cancer leads in OncoKB Level 3A frequency, driven in part by AKT1 mutations [PMID:29625050](../papers/29625050.md)
 - Pathway target (AKT-inhibitor trials, n=4 enrolled) in a 189-patient MSK advanced endometrial cancer sequencing cohort; contributes to the 67% actionable-alteration tally [PMID:30068706](../papers/30068706.md)
 - AKT1 altered in 0.9% of mCRPC tumors as part of the broader PI3K-pathway alteration set; PI3K-pathway alterations overall were not associated with survival or time on ARSI in this 429-patient mCRPC cohort [PMID:31061129](../papers/31061129.md)
-- Listed among the somatic genes identified in WES of synchronous [DCIS](../cancer_types/DCIS.md) and invasive IDC-NST pairs (n=25 patients); AKT1/PI3K pathway context in this cohort was dominated by PIK3CA mutations (41% of [DCIS](../cancer_types/DCIS.md), 42% IDC-NST) [PMID:32220886](../papers/32220886.md)
+- Listed among the somatic genes identified in WES of synchronous [DCIS](../cancer_types/DCIS.md) and invasive IDC-NST pairs (n=25 patients); AKT1/PI3K pathway context in this cohort was dominated by [PIK3CA](../genes/PIK3CA.md) mutations (41% of [DCIS](../cancer_types/DCIS.md), 42% IDC-NST) [PMID:32220886](../papers/32220886.md)
 - Activating mutations (e.g., W80R) and amplifications in 5/41 (12.2%) CDK4/6i-resistant HR+/HER2- breast cancer biopsies vs 1/18 (5.6%) sensitive; lentiviral overexpression confers CDK4/6i and [fulvestrant](../drugs/fulvestrant.md) resistance in T47D cells; first patient-level demonstration of AKT1 as CDK4/6i resistance driver [PMID:32404308](../papers/32404308.md)
 - Pathogenic AKT1 alterations (downstream of PI3K) showed disproportionate VAF expansion under [alpelisib](../drugs/alpelisib.md) + AI therapy in HR+ metastatic breast cancer, consistent with a bypass resistance mechanism. [PMID:32864625](../papers/32864625.md)
 - No hotspot mutations observed in AKT1 across 51 BRAF-mutant melanoma patients treated with BRAFi monotherapy; AKT1 was surveyed but did not emerge as a resistance driver in this pretreatment sequencing study [PMID:32913971](../papers/32913971.md)
@@ -64,7 +64,7 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - AKT1 E17K enriched in myxoid liposarcoma (3.7%) alongside PIK3CA and [PTEN](../genes/PTEN.md) alterations in the FoundationOne Heme sarcoma cohort (n=7,494) [PMID:35705558](../papers/35705558.md)
 - AKT1 targetable in myxoid retroperitoneal liposarcoma ([MRLS](../cancer_types/MRLS.md)) with collective 31% PI3K-pathway hits including PIK3CA, AKT1, [MTOR](../genes/MTOR.md), and [TSC1](../genes/TSC1.md) at Level 3B; [MRLS](../cancer_types/MRLS.md) PI3K-pathway rate is 41% across the MSK sarcoma cohort [PMID:35705560](../papers/35705560.md)
 - PI3K/AKT/mTOR signaling integrates lipid metabolism with proliferation in [HCC](../cancer_types/HCC.md); cholesterol-remodeled lipid rafts activate EGFR-AKT axis driving TKI resistance [PMID:41118283](../papers/41118283.md)
-- Enriched alongside MTOR in BRAF Class I-mutant tumors across a pan-cancer hotspot cohort [PMID:41895280](../papers/41895280.md)
+- Enriched alongside [MTOR](../genes/MTOR.md) in [BRAF](../genes/BRAF.md) Class I-mutant tumors across a pan-cancer hotspot cohort [PMID:41895280](../papers/41895280.md)
 
 ## Cancer types (linked)
 
@@ -136,4 +136,4 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - [PMID:41118283](../papers/41118283.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

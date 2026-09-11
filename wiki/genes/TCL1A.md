@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - BL
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # TCL1A
@@ -20,7 +20,7 @@ TCL1A (T-Cell Leukemia/Lymphoma 1A) is a coactivator of AKT signaling and a know
 
 ## Cancer types (linked)
 
-- [BL](../cancer_types/BL.md) — TCL1A aSHM burden is higher in Burkitt lymphoma than in DLBCL, consistent with its role as an aSHM target gene in a whole-genome-sequenced adult/pediatric BL cohort [PMID:36201743](../papers/36201743.md).
+- [BL](../cancer_types/BL.md) — TCL1A aSHM burden is higher in Burkitt lymphoma than in DLBCL, consistent with its role as an aSHM target gene in a whole-genome-sequenced adult/pediatric [BL](../cancer_types/BL.md) cohort [PMID:36201743](../papers/36201743.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -38,4 +38,4 @@ TCL1A (T-Cell Leukemia/Lymphoma 1A) is a coactivator of AKT signaling and a know
 
 - [PMID:36201743](../papers/36201743.md)
 
-*This page was processed by **entity-page-writer** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

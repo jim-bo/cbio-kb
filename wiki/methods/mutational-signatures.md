@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [mutational-signatures, cosmic, somatic-mutation, snv, indel]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # Mutational Signatures Analysis (COSMIC)
@@ -57,7 +57,7 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - COSMIC v3 mutational signature extraction applied to MSK-IMPACT sarcoma samples with ≥15 SNVs from 2,138 tumors spanning 45 histological entities [PMID:35705560](../papers/35705560.md)
 - COSMIC v2 signatures were fit with a LASSO-based approach as part of the copy-number/signature/subtyping pipeline in a colorectal cancer cohort [PMID:35487942](../papers/35487942.md).
 - COSMIC signature 3 (HRD) and signature 6 (mismatch-repair defect) scores were tested against pathologic complete response in a neoadjuvant TNBC cohort [PMID:36001024](../papers/36001024.md).
-- SBS1, SBS5 and SBS9 were the dominant signatures in Burkitt lymphoma; SBS9 exposure tracked with EBV positivity and AICDA activity [PMID:36201743](../papers/36201743.md).
+- SBS1, SBS5 and SBS9 were the dominant signatures in Burkitt lymphoma; SBS9 exposure tracked with EBV positivity and [AICDA](../genes/AICDA.md) activity [PMID:36201743](../papers/36201743.md).
 - COSMIC v3.2 signatures were called with deconstructSigs as part of the somatic variant and driver-analysis pipeline in a PDX/patient-tumor comparison [PMID:37990009](../papers/37990009.md).
 - SigMA-inferred signatures and HRDetect flagged an AXIN2-mutant, BRCA2-biallelic-inactivated lobular carcinoma case with an HRDetect score of 0.99 [PMID:38347189](../papers/38347189.md).
 - COSMIC v3 signatures (via MutationalPatterns) were mostly clock-like (SBS1/SBS5) in treatment-naive pheochromocytoma/paraganglioma, with chemotherapy-related SBS11 in pretreated tumors [PMID:40097403](../papers/40097403.md).
@@ -118,4 +118,4 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - [PMID:40100215](../papers/40100215.md)
 - [PMID:41895280](../papers/41895280.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

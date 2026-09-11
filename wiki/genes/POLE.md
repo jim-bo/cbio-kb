@@ -3,8 +3,8 @@ symbol: POLE
 aliases: []
 cancer_types: [UCEC, PRAD, COAD]
 tags: [dna-polymerase, ultramutator, immunotherapy-biomarker, tmb]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 canonical_source: cbioportal
 unverified: false
 ---
@@ -56,7 +56,7 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - Hypermutant in 4/692 (0.6%) pMMR/MSS rectal tumors ([rectal_msk_2022](../datasets/rectal_msk_2022.md)); represents a rare ultra-hypermutated subset [PMID:35970919](../papers/35970919.md)
 - POLE nonsynonymous mutations were found in 25/72 (37.5%) hypermutated colorectal tumors, and POLE signature 10 was present in 5.9% of patients [PMID:35487942](../papers/35487942.md)
 - A POLE exonuclease-domain hotspot mutation defines the POLE molecular subtype, over-represented in ERBB2-mutant/non-amplified endometrial cancers (11% vs 5.6%) [PMID:39031567](../papers/39031567.md)
-- POLE and RPL5 mutations were acquired after CVD chemotherapy in a metastatic pheochromocytoma/paraganglioma case, though SBS14 (POLE deficiency signature) was absent [PMID:40097403](../papers/40097403.md)
+- POLE and [RPL5](../genes/RPL5.md) mutations were acquired after CVD chemotherapy in a metastatic pheochromocytoma/paraganglioma case, though SBS14 (POLE deficiency signature) was absent [PMID:40097403](../papers/40097403.md)
 - No POLE-hypermutant (or MSI) tumors were reported in this secondary rectal cancer cohort [PMID:40100215](../papers/40100215.md)
 
 ## Cancer types (linked)
@@ -130,4 +130,4 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - [PMID:40097403](../papers/40097403.md)
 - [PMID:40100215](../papers/40100215.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

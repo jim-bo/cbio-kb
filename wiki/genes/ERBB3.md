@@ -3,8 +3,8 @@ symbol: ERBB3
 aliases: [HER3]
 cancer_types: [CESC, NBL]
 tags: [receptor-tyrosine-kinase, targeted-therapy, neuroblastoma, progenitor]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # ERBB3
@@ -43,7 +43,7 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 - Mutation detected among the 5 primary-tumor mutations in a stage IIIA grade 1 endometrioid EC patient (CD36), all detected in baseline cfDNA by MSK-ACCESS panel at diagnosis [PMID:36007103](../papers/36007103.md)
 - ERBB3 amplification co-localized to chromothriptic chromosome 12q13 in a subset of atypical [SCLC](../cancer_types/SCLC.md) (aSCLC); part of recurrent oncogene amplifications driven by chromothripsis-generated ecDNA. [PMID:39185963](../papers/39185963.md)
 - ERBB3 is a high-confidence significantly mutated gene in colorectal cancer, mutated in 4% of the cohort [PMID:35487942](../papers/35487942.md).
-- ERBB3 alterations are enriched in gallbladder cancer samples carrying subclonal ERBB2 mutations [PMID:42360806](../papers/42360806.md).
+- ERBB3 alterations are enriched in gallbladder cancer samples carrying subclonal [ERBB2](../genes/ERBB2.md) mutations [PMID:42360806](../papers/42360806.md).
 
 ## Cancer types (linked)
 
@@ -117,4 +117,4 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 - [PMID:35487942](../papers/35487942.md)
 - [PMID:42360806](../papers/42360806.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

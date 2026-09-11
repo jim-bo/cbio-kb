@@ -3,8 +3,8 @@ symbol: SMARCB1
 aliases: [SNF5, INI1]
 cancer_types: [MRTL, ATRT]
 tags: [tumor-suppressor, somatic, swi-snf, chromatin-remodeling, biallelic-loss, ezh2-target]
-processed_by: wiki-cli
-processed_at: 2026-09-10
+processed_by: crosslinker
+processed_at: 2026-09-11
 ---
 
 # SMARCB1
@@ -25,7 +25,7 @@ SMARCB1 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 - SMARCB1 inactivating events (combined with [SMARCA4](../genes/SMARCA4.md), n=27) recurrent in rhabdoid tumor (MRT/ATRT) and other CNS tumors in the AcSé-MAPPYACTS pediatric cohort; matched to [EZH2](../genes/EZH2.md) inhibitors as investigational therapy [PMID:35292802](../papers/35292802.md).
 - SMARCB1 inactivated in 56% of epithelioid sarcomas and 60% of malignant rhabdoid tumors; tazemetostat-responsive; [EZH2](../genes/EZH2.md) inhibition yields durable partial response in sarcoma NOS [PMID:35705558](../papers/35705558.md)
 - SMARCB1 loss-of-function deletions/truncations/intragenic fusions in 75% of epithelioid sarcoma ([EPIS](../cancer_types/EPIS.md)); Level 1 deletion in 66% (tazemetostat-actionable); SWI/SNF-EZH2 synthetic lethality also motivates [tazemetostat](../drugs/tazemetostat.md) in uterine adenosarcoma (43% SWI/SNF alteration rate) [PMID:35705560](../papers/35705560.md)
-- SMARCB1 carries recurrent (5-15%) inactivating mutations or copy-number deletions in MYOD1-mutant rhabdomyosarcoma, alongside MGA, CDKN2A, CHEK2, ARID1A, NOTCH4 [PMID:41758938](../papers/41758938.md)
+- SMARCB1 carries recurrent (5-15%) inactivating mutations or copy-number deletions in MYOD1-mutant rhabdomyosarcoma, alongside [MGA](../genes/MGA.md), [CDKN2A](../genes/CDKN2A.md), [CHEK2](../genes/CHEK2.md), [ARID1A](../genes/ARID1A.md), [NOTCH4](../genes/NOTCH4.md) [PMID:41758938](../papers/41758938.md)
 
 ## Cancer types (linked)
 
@@ -38,11 +38,11 @@ SMARCB1 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 
 ## Therapeutic relevance
 
-- EZH2 inhibitors are the designated targeted therapy for SMARCB1-deficient rhabdoid tumors (synthetic lethality); this was an actionable finding in the PIPseq pediatric cohort. [PMID:28007021](../papers/28007021.md)
+- [EZH2](../genes/EZH2.md) inhibitors are the designated targeted therapy for SMARCB1-deficient rhabdoid tumors (synthetic lethality); this was an actionable finding in the PIPseq pediatric cohort. [PMID:28007021](../papers/28007021.md)
 
 ## Open questions
 
-- The prognostic distinction between SMARCB1-deleted hepatic rhabdoid tumor ([MRTL](../cancer_types/MRTL.md)) and ATRT in terms of EZH2-inhibitor response requires clinical trial evidence. [PMID:28007021](../papers/28007021.md)
+- The prognostic distinction between SMARCB1-deleted hepatic rhabdoid tumor ([MRTL](../cancer_types/MRTL.md)) and [ATRT](../cancer_types/ATRT.md) in terms of EZH2-inhibitor response requires clinical trial evidence. [PMID:28007021](../papers/28007021.md)
 
 ## Sources
 
@@ -65,4 +65,4 @@ SMARCB1 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 - [PMID:35705560](../papers/35705560.md)
 - [PMID:41758938](../papers/41758938.md)
 
-*This page was processed by **wiki-cli** on **2026-09-10**.*
+*This page was processed by **crosslinker** on **2026-09-11**.*

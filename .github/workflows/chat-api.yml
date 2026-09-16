@@ -92,7 +92,8 @@ jobs:
           fi
 
       - name: Free runner disk space
-        # On amd64 torch pulls in the CUDA wheels, so the image is several GB.
+        # Precaution: the builder stage holds the dependencies and model
+        # weights before the slim runtime stage copies them out.
         run: sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /opt/hostedtoolcache/CodeQL
 
       - uses: docker/setup-buildx-action@v3

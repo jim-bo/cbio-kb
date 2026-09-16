@@ -56,19 +56,19 @@ RUN uv sync --frozen --no-dev --extra chat --extra cloud --no-install-project
 # HuggingFace at request time — that download would otherwise hit on the
 # first query after a cold start (added latency + a network-failure mode in
 # prod). HF_HOME points the cache at a copyable path; the runtime stage sets
-# HF_HUB_OFFLINE so it's used as-is.
-#   - the cross-encoder reranker (hybrid mode);
-#   - the sentence-transformers model that embeds queries (rag/hybrid dense
-#     leg). It must match `embed_model` in the passage index's
-#     index_config.json (override with --build-arg EMBED_MODEL=...; pass an
-#     empty value to skip it).
-ENV HF_HOME=/app/hf-cache \
-    CBIO_RERANKER_MODEL=cross-encoder/ms-marco-MiniLM-L-6-v2
-RUN .venv/bin/python -c "import os; from sentence_transformers import CrossEncoder; CrossEncoder(os.environ['CBIO_RERANKER_MODEL'])"
+# HF_HUB_OFFLINE so it's used as-is. Both models run on ONNX Runtime, so the
+# image has no PyTorch (src/cbio_kb/index/onnx_models.py):
+#   - RERANK_MODEL, the cross-encoder reranker (hybrid mode);
+#   - EMBED_MODEL, which embeds queries (rag/hybrid dense leg). It must match
+#     `embed_model` in the passage index's index_config.json (pass an empty
+#     value to skip it).
+# onnx_models.py is copied on its own so edits elsewhere in src/ reuse the
+# cached model layer.
 ARG EMBED_MODEL=Snowflake/snowflake-arctic-embed-m-v1.5
-RUN if [ -n "$EMBED_MODEL" ]; then \
-      .venv/bin/python -c "import sys; from sentence_transformers import SentenceTransformer; SentenceTransformer(sys.argv[1])" "$EMBED_MODEL"; \
-    fi
+ARG RERANK_MODEL=cross-encoder/ms-marco-MiniLM-L-6-v2
+ENV HF_HOME=/app/hf-cache
+COPY src/cbio_kb/index/onnx_models.py /tmp/onnx_models.py
+RUN .venv/bin/python /tmp/onnx_models.py --embed "$EMBED_MODEL" --rerank "$RERANK_MODEL"
 
 COPY src/ src/
 RUN uv sync --frozen --no-dev --extra chat --extra cloud --no-editable
@@ -93,7 +93,7 @@ WORKDIR /app
 # Copy the installed venv and the package tree from the builder.
 COPY --from=builder --chown=app:app /app/.venv /app/.venv
 COPY --from=builder --chown=app:app /app/src /app/src
-# Pre-baked HuggingFace cache (reranker + query-embedding weights).
+# Pre-baked HuggingFace cache (reranker + query-embedding ONNX weights).
 COPY --from=builder --chown=app:app /app/hf-cache /app/hf-cache
 # Passage index: empty unless baked in above; a volume mount replaces it.
 COPY --from=paper-index --chown=app:app /out/paper_index /app/data/paper_index
@@ -108,13 +108,14 @@ COPY --chown=app:app wiki/ /app/wiki/
 # SESSION_STORE=memory keeps chat history in the process, which is right for
 # one replica. The Cloud Run deploy sets SESSION_STORE=firestore itself
 # (Firestore via Application Default Credentials; see ai_search/sessions.py).
+ARG RERANK_MODEL=cross-encoder/ms-marco-MiniLM-L-6-v2
 ENV PYTHONPATH=/app \
     PATH="/app/.venv/bin:$PATH" \
     PYTHONUNBUFFERED=1 \
     SESSION_STORE=memory \
     HF_HOME=/app/hf-cache \
     HF_HUB_OFFLINE=1 \
-    CBIO_RERANKER_MODEL=cross-encoder/ms-marco-MiniLM-L-6-v2
+    CBIO_RERANKER_MODEL=$RERANK_MODEL
 
 USER app
 

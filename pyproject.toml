@@ -14,31 +14,59 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-server = [
+# Passage search at query time: FAISS + BM25, and the embedding and reranker
+# models on ONNX Runtime. No PyTorch (see cbio_kb/index/onnx_models.py).
+retrieval = [
   "faiss-cpu",
   "numpy",
+  "rank-bm25",
+  "onnxruntime",
+  "tokenizers",
+  "huggingface-hub",
+]
+# MCP server (docker/mcp.Dockerfile). pydantic-ai is only for the optional
+# search_agentic tool.
+mcp = [
+  "cbio-kb[retrieval]",
   "fastmcp",
+  "pydantic-ai-slim[anthropic]",
+]
+# Chat API behind the website's /ask page (docker/chat.Dockerfile).
+chat = [
+  "cbio-kb[retrieval]",
+  "fastapi",
+  "uvicorn[standard]",
+  "pydantic-ai-slim[anthropic]",
+  "jinja2",
+  "python-multipart",
+  "sse-starlette",
+  "python-dotenv",
+]
+# Building the passage index and running evals: sentence-transformers on
+# PyTorch (much faster than ONNX on a GPU or Apple silicon), spaCy sentence
+# splitting, and Vertex AI for Gemini-built indexes.
+index = [
+  "cbio-kb[retrieval]",
+  "sentence-transformers",
+  # Declared explicitly (not just transitively via sentence-transformers) so
+  # the [tool.uv.sources] CPU-index override below binds to it.
+  "torch",
   "spacy",
+  # spaCy's sentence splitter model (source URL in [tool.uv.sources]), so
+  # `uv sync` installs it instead of removing a `spacy download` copy.
+  "en-core-web-sm",
   "tqdm",
   "google-genai>=1.0",
+]
+# Local development: the MCP server plus index tooling (what
+# `uv sync --extra chat --extra server` has always installed).
+server = [
+  "cbio-kb[mcp,index]",
 ]
 ocr = [
   "pdf2image",
   "pytesseract",
   "pillow",
-]
-chat = [
-  "fastapi",
-  "uvicorn[standard]",
-  "pydantic-ai[anthropic]",
-  "jinja2",
-  "python-multipart",
-  "sse-starlette",
-  "python-dotenv",
-  "numpy",
-  "faiss-cpu",
-  "rank-bm25",
-  "sentence-transformers",
 ]
 cloud = [
   "google-cloud-firestore>=2.19",
@@ -49,6 +77,24 @@ cbio-kb = "cbio_kb.cli:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/cbio_kb"]
+
+# The default PyPI `torch` wheel bundles ~3.5GB of CUDA libraries (nvidia-*,
+# triton) that are dead weight on CPU-only Linux machines (CI, index builds
+# on a server). Pull torch from the PyTorch CPU index instead: no NVIDIA
+# deps, ~200MB vs ~900MB. The server images don't install torch at all (they
+# use the `retrieval` extra). `explicit` keeps every other package on PyPI.
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+# Linux-only: the CPU index ships `torch==X+cpu` (no nvidia deps); macOS
+# torch on PyPI is already CPU-only, so leave it on the default index to
+# avoid a cross-platform version conflict (`2.12.0` vs `2.12.0+cpu`).
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux'" }]
+# Not on PyPI; spaCy publishes its models as GitHub release wheels.
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl" }
 
 [tool.pytest.ini_options]
 # Claim-verification tests hit the live cBioPortal API and are slow; they

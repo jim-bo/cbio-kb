@@ -49,7 +49,7 @@ index built with `gemini-embedding-001` also needs `GCP_PROJECT`; without it,
 ## Run it
 
 ```bash
-uv sync --extra chat --extra server
+uv sync --extra mcp                                   # server only (no PyTorch)
 uv run cbio-kb serve                                  # stdio
 uv run cbio-kb serve --transport http --port 8124     # http://127.0.0.1:8124/mcp
 curl -s http://127.0.0.1:8124/health
@@ -147,6 +147,8 @@ questions.
 | `CBIO_KB_MCP_WARM` | `1` | Pre-load BM25, the wiki graph, and the reranker at startup (~30 s otherwise paid by the first search). |
 | `CBIO_KB_MCP_ENABLE_AGENTIC` | auto | Force `search_agentic` on/off; default follows `ANTHROPIC_API_KEY`. |
 | `CBIO_EMBED_MODEL` | built-in local model | Embedding model for new index builds and the router (a Hugging Face id, run locally). Queries always use the model recorded in the index. |
+| `CBIO_EMBED_BACKEND` | `auto` | `onnx` or `torch` for the embedding model and reranker; `auto` uses PyTorch when sentence-transformers is installed, else ONNX Runtime. Same results either way. |
+| `CBIO_ONNX_THREADS` | all cores | ONNX Runtime threads per inference; set to the container's CPU limit. |
 | `GCP_PROJECT` | unset | Only for an index built with `gemini-embedding-001` (Vertex AI, needs ADC). |
 | `CBIO_WIKI_DIR`, `CBIO_KB_SEED_CSV`, `CBIO_KB_ONTOLOGY_DIR`, `RAG_INDEX_DIR` | repo paths | Data locations. |
 | `CBIOPORTAL_BASE_URL` | `https://www.cbioportal.org` | Base for returned study URLs (same variable as the navigator). |

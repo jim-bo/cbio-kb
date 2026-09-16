@@ -12,7 +12,7 @@
 # and run with `docker run -i` for stdio clients; set
 # CBIO_KB_MCP_HTTP_PATH=/lit/mcp behind a path-prefixed ingress).
 #
-# The passage index (data/paper_index, FAISS + BM25, ~0.5 GB) is not in git.
+# The passage index (data/paper_index, FAISS + BM25, ~0.25 GB) is not in git.
 # It powers search_hybrid / search_dense; without it the study, paper, entity
 # and list tools still work and the search tools say the index is missing.
 # Either mount it at runtime:
@@ -40,25 +40,25 @@ WORKDIR /app
 # Dependencies first, then model weights, then the project itself, so a
 # source edit reuses the cached dependency and model layers.
 COPY pyproject.toml uv.lock README.md ./
-RUN uv sync --frozen --no-dev --extra chat --extra server --no-install-project
+RUN uv sync --frozen --no-dev --extra mcp --no-install-project
 
-# Bake model weights into HF_HOME so the server never reaches Hugging Face at
-# request time (the runtime stage sets HF_HUB_OFFLINE=1):
-#   - the cross-encoder reranker used by search_hybrid;
-#   - the sentence-transformers model that embeds queries for the dense leg.
-#     It must match `embed_model` in the passage index's index_config.json
-#     (override per deployment with --build-arg EMBED_MODEL=...; pass an
-#     empty value to skip it).
-ENV HF_HOME=/app/hf-cache \
-    CBIO_RERANKER_MODEL=cross-encoder/ms-marco-MiniLM-L-6-v2
-RUN .venv/bin/python -c "import os; from sentence_transformers import CrossEncoder; CrossEncoder(os.environ['CBIO_RERANKER_MODEL'])"
+# Bake the search models into HF_HOME so the server never reaches Hugging Face
+# at request time (the runtime stage sets HF_HUB_OFFLINE=1). They run on ONNX
+# Runtime, so the image has no PyTorch (src/cbio_kb/index/onnx_models.py):
+#   - RERANK_MODEL, the cross-encoder that reranks search_hybrid results;
+#   - EMBED_MODEL, which embeds queries for the dense leg. It must match
+#     `embed_model` in the passage index's index_config.json (pass an empty
+#     value to skip it).
+# onnx_models.py is copied on its own so edits elsewhere in src/ reuse the
+# cached model layer.
 ARG EMBED_MODEL=Snowflake/snowflake-arctic-embed-m-v1.5
-RUN if [ -n "$EMBED_MODEL" ]; then \
-      .venv/bin/python -c "import sys; from sentence_transformers import SentenceTransformer; SentenceTransformer(sys.argv[1])" "$EMBED_MODEL"; \
-    fi
+ARG RERANK_MODEL=cross-encoder/ms-marco-MiniLM-L-6-v2
+ENV HF_HOME=/app/hf-cache
+COPY src/cbio_kb/index/onnx_models.py /tmp/onnx_models.py
+RUN .venv/bin/python /tmp/onnx_models.py --embed "$EMBED_MODEL" --rerank "$RERANK_MODEL"
 
 COPY src/ src/
-RUN uv sync --frozen --no-dev --extra chat --extra server --no-editable
+RUN uv sync --frozen --no-dev --extra mcp --no-editable
 
 # ---------- Passage index (optional) ----------
 # Empty unless PAPER_INDEX_URL is set, in which case the tarball is
@@ -86,16 +86,22 @@ COPY --chown=app:app ai_search/ /app/ai_search/
 COPY --chown=app:app wiki/ /app/wiki/
 COPY --chown=app:app data/seed/ /app/data/seed/
 COPY --chown=app:app schema/ontology/studies.json schema/ontology/oncotree.json schema/ontology/sync_log.json /app/schema/ontology/
+# The labeled eval questions: search_auto / route_query classify a question
+# by its nearest neighbours here (without the file they fall back to keyword
+# cues).
+COPY --chown=app:app eval/questions/v1.yaml /app/eval/questions/v1.yaml
 # Also shipped in the image so a Kubernetes initContainer can fetch the index
 # at pod start instead of baking it in (see deploy/k8s/mcp.yaml).
 COPY --chown=app:app docker/fetch_paper_index.py /app/docker/fetch_paper_index.py
 
+ARG RERANK_MODEL=cross-encoder/ms-marco-MiniLM-L-6-v2
 ENV PYTHONPATH=/app \
     PATH="/app/.venv/bin:$PATH" \
     PYTHONUNBUFFERED=1 \
     HF_HOME=/app/hf-cache \
     HF_HUB_OFFLINE=1 \
-    CBIO_RERANKER_MODEL=cross-encoder/ms-marco-MiniLM-L-6-v2 \
+    CBIO_RERANKER_MODEL=$RERANK_MODEL \
+    CBIO_ROUTER_CACHE=/tmp/router_qbank.npz \
     CBIO_KB_MCP_SERVER_TRANSPORT=http \
     CBIO_KB_MCP_BIND_HOST=0.0.0.0 \
     CBIO_KB_MCP_BIND_PORT=8124

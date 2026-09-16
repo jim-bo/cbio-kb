@@ -89,8 +89,8 @@ Actions.
 ## Passage index
 
 `data/paper_index/` holds `faiss.index`, `meta.jsonl` and `index_config.json`
-(from `cbio-kb index build-papers`), plus `bm25.pkl` (from `cbio-kb index
-build-bm25`). It is about 0.5 GB and gitignored. Two things use it:
+plus `bm25.pkl`, all written by `cbio-kb index build-papers`. It is about
+0.25 GB and gitignored. Two things use it:
 
 - the MCP server's `search_hybrid`, `search_dense` and `search_auto` tools;
 - the chat API's RAG and Hybrid modes.
@@ -106,9 +106,13 @@ default for new builds and for the router is
 `Snowflake/snowflake-arctic-embed-m-v1.5` (`DEFAULT_MODEL` in
 `src/cbio_kb/index/embed.py`; chosen by the bake-off in
 `eval/results/embed_bakeoff/`). It takes about 15 ms per query on CPU, so no
-GPU is needed. Both images download the `EMBED_MODEL` build arg (same
-default) into their Hugging Face cache and run with `HF_HUB_OFFLINE=1`, so it
-must match the index's `embed_model`. If you rebuild the index with another
+GPU is needed. The images run it, and the reranker, on ONNX Runtime
+rather than PyTorch (`src/cbio_kb/index/onnx_models.py`), which gives the
+same vectors and scores (`eval/onnx_parity.py` checks this), so neither image
+ships PyTorch. Both download the `EMBED_MODEL` and `RERANK_MODEL` build args
+(same defaults) into their Hugging Face cache as ONNX files and run with
+`HF_HUB_OFFLINE=1`, so `EMBED_MODEL` must match the index's `embed_model`.
+The model must publish an `onnx/model.onnx` on Hugging Face. If you rebuild the index with another
 model, change `EMBED_MODEL` in both Dockerfiles and `DEFAULT_MODEL` in the
 same commit. `CBIO_EMBED_MODEL` changes the model for new builds and the
 router; in a container it must name a model already in the image's cache.
@@ -285,12 +289,6 @@ it stays. Change them after the handover.
 
 ## Known gaps
 
-- **Image size.** On both amd64 and arm64, `torch` from PyPI pulls in the
-  CUDA libraries (`nvidia-*` ~3 GB, `triton` ~0.7 GB), so each image is
-  about 6.4 GB. Nothing here uses a GPU. Pointing `torch` at the CPU wheel
-  index (`[tool.uv.sources]` in `pyproject.toml`) would cut roughly 4 GB.
-  The image workflows free runner disk space before building because of
-  this.
 - **Chat sessions** can only be shared across replicas through Firestore.
   A Redis or Postgres `SessionStore` (see `ai_search/sessions.py`) would
   remove that last GCP-shaped dependency.

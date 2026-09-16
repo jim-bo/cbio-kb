@@ -885,6 +885,11 @@ def _warm_retrieval() -> None:
         hybrid.GraphIndex.get()
         if hybrid._RERANK_ENABLED_DEFAULT:
             hybrid._Reranker.get()
+        if _dense_available():  # embeds the router's labeled questions once
+            from . import router
+
+            if router._QUESTIONS_PATH.exists():
+                router.QuestionBank.get()
         print("[cbio-kb] retrieval indexes warm", file=sys.stderr)
     except Exception as e:  # never take the server down over a warm-up
         print(f"[cbio-kb] warm-up skipped: {type(e).__name__}: {e}", file=sys.stderr)

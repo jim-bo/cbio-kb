@@ -19,9 +19,10 @@ jobs:
       - uses: astral-sh/setup-uv@v5
         with:
           python-version: "3.11"
-      # `--extra chat` pulls rank-bm25 + sentence-transformers so the hybrid
-      # retrieval tests actually run, and `--extra server` pulls fastmcp for
-      # the MCP server tests. Without them those tests self-skip via
+      # `--extra chat` pulls the retrieval stack (rank-bm25, FAISS, ONNX
+      # Runtime) so the hybrid retrieval tests actually run, and `--extra
+      # server` pulls fastmcp plus the index-building deps (PyTorch
+      # sentence-transformers, spaCy) for the MCP server and index tests. Without them those tests self-skip via
       # importorskip and CI reports a false green.
       - run: uv sync --group dev --extra chat --extra server
       - run: uv run pytest -v

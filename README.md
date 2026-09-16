@@ -18,7 +18,8 @@ Two things live in this repo:
 ```bash
 uv sync                 # runtime deps only
 uv sync --group dev     # + pytest
-uv sync --extra chat --extra server  # + retrieval stack and fastmcp for the MCP server
+uv sync --extra mcp     # MCP server + passage search (ONNX Runtime, no PyTorch)
+uv sync --extra chat --extra server  # everything: chat API, MCP server, index building (PyTorch, spaCy)
 ```
 
 The `cbio-kb` entry point is installed into the venv:

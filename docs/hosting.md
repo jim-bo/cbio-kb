@@ -23,9 +23,9 @@ that job and nothing else changes.
 | **Needs at runtime** | Nothing but a web server. `/ask` needs a reachable chat API that allows the site's origin (CORS). | `ANTHROPIC_API_KEY`. The wiki is baked into the image. RAG and Hybrid also need the passage index. Sessions live in memory (one replica) or in Firestore. | Nothing required: wiki, study table and ontology are baked in. The search tools need the passage index. `ANTHROPIC_API_KEY` is optional and turns on `search_agentic`. |
 | **Artifact** | `wiki/_site/`, uploaded as the `site` workflow artifact | `ghcr.io/<owner>/cbio-kb-chat` from [`docker/chat.Dockerfile`](../docker/chat.Dockerfile) | `ghcr.io/<owner>/cbio-kb-mcp` from [`docker/mcp.Dockerfile`](../docker/mcp.Dockerfile); also `<DOCKER_USERNAME>/cbio-kb` on Docker Hub for tags, if configured |
 | **Built by** | [`website.yml`](../.github/workflows/website.yml) (`quarto render wiki`) | [`chat-api.yml`](../.github/workflows/chat-api.yml), `image` job | [`mcp-server.yml`](../.github/workflows/mcp-server.yml) |
-| **Deployed today** | GitHub Pages (`gh-pages` branch) on every relevant push to `main` | Google Cloud Run: the `cloud-run` job in `chat-api.yml`, which uses Cloud Build, Artifact Registry, Secret Manager and Firestore | Not hosted by this repo; images only |
+| **Deployed today** | GitHub Pages (`gh-pages` branch) on every relevant push to `main` | Google Cloud Run: the `cloud-run` job in `chat-api.yml`, which uses Cloud Build, Artifact Registry, Secret Manager and Firestore | Not hosted yet. Drafted for chat.cbioportal.org and `mcp.cbioportal.org/lit/mcp` in [`deploy/cbioagent/`](../deploy/cbioagent/README.md) |
 | **Config / secrets** | Variables `CHAT_API_URL`, `PUBLISH_GH_PAGES` | Runtime: `ANTHROPIC_API_KEY`, `CHAT_CORS_ORIGINS`, `SESSION_STORE`. CI (Cloud Run only): `GCP_*` variables and `GCP_SA_KEY` | Runtime: `CBIO_KB_MCP_*` ([mcp.md](mcp.md#configuration)). CI: optional `PAPER_INDEX_*`, `DOCKER_*` |
-| **To self-host** | Keep Pages, or serve `wiki/_site/` from any static host. Set `CHAT_API_URL`. | Run the GHCR image ([`deploy/k8s/chat.yaml`](../deploy/k8s/chat.yaml), [`deploy/compose.yml`](../deploy/compose.yml)). Keep one replica. Delete the `cloud-run` job and `deploy/cloudrun/`. | Run the GHCR image ([`deploy/k8s/mcp.yaml`](../deploy/k8s/mcp.yaml), [`deploy/compose.yml`](../deploy/compose.yml)). Set `CBIO_KB_MCP_HTTP_PATH=/lit/mcp` behind a path-prefixed ingress. |
+| **To self-host** | Keep Pages, or serve `wiki/_site/` from any static host. Set `CHAT_API_URL`. | Run the GHCR image ([`deploy/k8s/chat.yaml`](../deploy/k8s/chat.yaml), [`deploy/compose.yml`](../deploy/compose.yml)). Keep one replica. Delete the `cloud-run` job and `deploy/cloudrun/`. | Run the GHCR image ([`deploy/k8s/mcp.yaml`](../deploy/k8s/mcp.yaml), written for cBioPortal's cluster; [`deploy/compose.yml`](../deploy/compose.yml)). Behind a path-prefixed ingress, set `CBIO_KB_MCP_HTTP_PATH=/lit/mcp`. |
 
 ## Where things live
 
@@ -35,8 +35,9 @@ docker/chat.Dockerfile       chat API image
 docker/fetch_paper_index.py  downloads + unpacks a packaged index (image build, k8s initContainer)
 scripts/package_index.sh     data/paper_index/ -> dist/paper-index-YYYYMMDD.tar.gz (+ .sha256)
 deploy/compose.yml           one host: MCP server, and the chat API with --profile chat
-deploy/k8s/mcp.yaml          Deployment + Service + Ingress, MCP at /lit/mcp
+deploy/k8s/mcp.yaml          Deployment + Service, MCP at /lit/mcp (drop-in for cBioPortal's cluster)
 deploy/k8s/chat.yaml         Deployment + Service + Ingress, chat at /api/chat
+deploy/cbioagent/            patches adding the MCP server to chat.cbioportal.org (LibreChat, /lit ingress)
 deploy/cloudrun/             Cloud Run only: Cloud Build config + manual deploy script
 wiki/ask-config.js           the website's only deployment-specific value (chat API URL)
 .github/workflows/           test.yml, website.yml, chat-api.yml, mcp-server.yml
@@ -202,27 +203,44 @@ docker run --rm -p 8124:8124 \
 curl -s localhost:8124/health
 ```
 
-Configuration and client setup are in [mcp.md](mcp.md). For Kubernetes,
-[`deploy/k8s/mcp.yaml`](../deploy/k8s/mcp.yaml) serves it at
-`https://<host>/lit/mcp` and does three things:
+Configuration and client setup are in [mcp.md](mcp.md).
+
+**Kubernetes.** [`deploy/k8s/mcp.yaml`](../deploy/k8s/mcp.yaml) is a
+Deployment and ClusterIP Service written as a drop-in for cBioPortal's
+cluster (`apps/cbioagent/` in knowledgesystems-k8s-deployment). It follows
+that repo's conventions: `run:` labels, the `cbioagent` node pool, and Keel
+rolling the pod whenever `:main` gets a new digest. Comments mark the
+`cluster-specific` values another cluster changes. It has no Ingress,
+because ingress lives with the cluster's other routes. The manifest:
 
 - sets `CBIO_KB_MCP_HTTP_PATH=/lit/mcp`, so the server answers on the
-  prefixed path itself and the Ingress needs no rewrite. This is the same
-  shape as `https://mcp.cbioportal.org/db/mcp`;
-- sets `CBIO_KB_MCP_FORWARDED_ALLOW_IPS=*`, so redirects keep `https`
+  prefixed path itself and the ingress needs no rewrite, the same shape as
+  `https://mcp.cbioportal.org/db/mcp`. Clients must use `/lit/mcp` with no
+  trailing slash; `/lit/mcp/` gets a 307;
+- sets `CBIO_KB_MCP_FORWARDED_ALLOW_IPS=*`, so that redirect keeps `https`
   behind the TLS-terminating ingress;
-- sets `FASTMCP_STATELESS_HTTP=true`, so any replica can answer any
-  request. Without it, FastMCP ties each client session to one pod.
+- sets `FASTMCP_STATELESS_HTTP=true`, so any replica, or a freshly rolled
+  pod, can answer any request;
+- expects the passage index baked into the image, with the initContainer
+  fetch as a commented alternative, and probes `/health` at the pod root.
 
-`/health` stays at the pod root; the probes use it directly. Clients then
-connect with, e.g.,
-`claude mcp add --transport http cbio-kb https://<host>/lit/mcp`.
+Elsewhere, route the `/lit` prefix unchanged to the Service's port 80 and
+connect with `claude mcp add --transport http cbio-kb https://<host>/lit/mcp`.
+
+**cBioPortal's chat.** [`deploy/cbioagent/`](../deploy/cbioagent/README.md)
+has patches for knowledgesystems-k8s-deployment: the manifest above, a
+`cbioportal-literature` server in the beta and prod LibreChat configs, and a
+rate-limited `/lit` Ingress on mcp.cbioportal.org. Its README covers the
+beta-first rollout (including the manual step that gives the cBioPortalChat
+agent the tools), how Keel ships updates, resource estimates, and the
+decisions left to the cBioPortal team. Patch 1 is a copy of
+`deploy/k8s/mcp.yaml`, so regenerate it when that file changes.
 
 Neither service authenticates callers. The MCP tools are read-only, but
 `search_agentic` (on when `ANTHROPIC_API_KEY` is set) and every chat turn
 spend Anthropic tokens. If the endpoints are public, put authentication or
-rate limiting at the ingress. cBioPortal's hosted MCP server uses Google
-OAuth.
+rate limiting at the ingress. cBioPortal gates `/db` with Google OAuth; the
+`/lit` draft uses a per-IP rate limit.
 
 ## Handover checklist (e.g. MSK, no Google Cloud)
 
@@ -235,7 +253,8 @@ OAuth.
      push to `main` that touches image paths, or Actions > Run workflow).
 2. **Images.** After the first build, check the two GHCR packages
    (`cbio-kb-mcp`, `cbio-kb-chat`). Make them public, or create an image
-   pull secret for the cluster. Pin deployments to `:sha-<short>` or a
+   pull secret for the cluster. Either track `:main` with an image poller
+   such as Keel, as `deploy/k8s/mcp.yaml` does, or pin `:sha-<short>` or a
    release tag (`git tag v1.0.0 && git push --tags` produces `:1.0.0`).
 3. **Passage index.**
    1. Build it with `cbio-kb index build-papers` (it builds the BM25 sidecar
@@ -247,9 +266,11 @@ OAuth.
       [Passage index](#passage-index)).
    4. Make sure `EMBED_MODEL` in the Dockerfiles matches the index's
       `embed_model`.
-4. **MCP server on Kubernetes.** Adapt `deploy/k8s/mcp.yaml` to your layout
-   (e.g. knowledgesystems-k8s-deployment): the image, the host, the ingress
-   class and TLS secret, and the `/lit/mcp` path next to `/db/mcp`. Leave
+4. **MCP server on Kubernetes.** For cBioPortal's cluster, follow
+   [`deploy/cbioagent/README.md`](../deploy/cbioagent/README.md): apply the
+   patches beta first, then give the cBioPortalChat agent the tools. On any
+   other cluster, change the `cluster-specific` values in
+   `deploy/k8s/mcp.yaml` and add an ingress route for `/lit`. Leave
    `ANTHROPIC_API_KEY` unset unless you want `search_agentic`.
 5. **Chat API** (only if you want the `/ask` page):
    1. Create a Secret holding the Anthropic key.
@@ -280,6 +301,7 @@ it stays. Change them after the handover.
 | `deploy/cloudrun/deploy-chat.sh` | `PROJECT_ID` and CORS defaults | Manual script only | Pass `PROJECT_ID=` / `CHAT_CORS_ORIGINS=` |
 | `ai_search/app.py` | default `CHAT_CORS_ORIGINS` includes `https://jim-bo.github.io` | Only when the env var is unset | Set `CHAT_CORS_ORIGINS`, or edit the default |
 | `ai_search/mcp.py` | `website_url="https://jim-bo.github.io/cbio-kb/"` | Link advertised to MCP clients | Edit |
+| `deploy/k8s/mcp.yaml` and its copy in `deploy/cbioagent/1-cbio-kb-mcp.patch` | image `ghcr.io/jim-bo/cbio-kb-mcp:main`; release URL in the commented initContainer | Where the cluster pulls from. After a move the old image stops getting builds | Edit the manifest and regenerate the patch |
 | `wiki/_quarto.yml` | `repo-url: https://github.com/jim-bo/cbio-kb` | "Edit"/"source" links on every page | Edit |
 | `schema/templates/index.md` (regenerates `wiki/index.md`), `wiki/experiments/rag-vs-agentic.qmd`, `eval/*.md`, `README.md` | links to `github.com/jim-bo/cbio-kb` and `jim-bo.github.io/cbio-kb` | Links | Search and replace; run `cbio-kb wiki build-index` |
 

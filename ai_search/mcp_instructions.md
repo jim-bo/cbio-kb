@@ -48,3 +48,7 @@ value; the paper describes the cohort at publication time.
 - A study with no corpus paper usually means its publication is not open access;
   say so rather than implying the study has no publication.
 - Prefer section reads (`get_paper(pmid, sections=[…])`) over whole pages.
+- Relative links inside page content (e.g. `../genes/EGFR.md`) point within this
+  knowledge base: follow them with `read_wiki_page`, but never copy them into an
+  answer, where they are broken links. Refer to genes, cancer types and methods
+  by name, and link papers to PubMed.

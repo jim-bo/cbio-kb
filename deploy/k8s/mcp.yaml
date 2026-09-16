@@ -78,6 +78,13 @@ spec:
             # for sessions it has never seen.
             - name: FASTMCP_STATELESS_HTTP
               value: "true"
+            # The pod has no CPU limit, so ONNX Runtime would start one thread
+            # per node core for every search and fight its neighbours for them.
+            # Two threads: ~1.3 s per search_hybrid, ~3.2 s worst case with 8
+            # concurrent. (Under a CPU limit the server sizes the pool to the
+            # limit by itself; set this only when there is none.)
+            - name: CBIO_ONNX_THREADS
+              value: "2"
             # cluster-specific: base of the study links the tools return.
             # Same variable and value as cbioportal-navigator.
             - name: CBIOPORTAL_BASE_URL
@@ -105,20 +112,18 @@ spec:
             periodSeconds: 20
             timeoutSeconds: 5
             failureThreshold: 5
-          # Estimates, measured locally on the PyTorch image with 407 papers:
-          # ~0.7 GiB after start-up, ~1.8 GiB once the first dense search
-          # loads the embedding model and FAISS index, ~3.4 GiB peak with 8
-          # concurrent search_hybrid calls. The ONNX Runtime image should
-          # need less; re-measure then. No CPU limit: the reranker is
-          # CPU-bound, and capped at 1 CPU a search_hybrid call took 6-16 s
-          # instead of ~1-2 s with free cores (LibreChat's MCP timeout is
+          # Measured locally on the ONNX Runtime image with 407 papers: ~1.3 GiB
+          # once warm (indexes, both models, the router's question bank
+          # loaded), ~2.0-2.2 GiB after 8 concurrent search_hybrid calls. No
+          # CPU limit: the reranker is CPU-bound; capped at 1 CPU one search
+          # takes ~2 s but 4 concurrent take ~14 s (LibreChat's MCP timeout is
           # 30 s).
           resources:
             requests:
               cpu: 500m
-              memory: 2Gi
+              memory: 1536Mi
             limits:
-              memory: 4Gi
+              memory: 3Gi
           # Alternative: fetch the index at pod start instead of baking it
           # in, e.g. to change the index without rebuilding the image.
           # Uncomment this and the initContainers and volumes blocks below.

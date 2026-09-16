@@ -200,22 +200,26 @@ All three are covered by the current corpus (407 papers).
 
 ## Resources
 
-The requests and limits in `cbio-kb-mcp.yaml` are estimates from a local run
-of the PyTorch image with 407 papers:
+The requests and limits in `cbio-kb-mcp.yaml` come from a local run of the
+ONNX Runtime image (no PyTorch) with 407 papers:
 
-| | Memory (RSS) |
+| | Memory |
 |---|---|
-| after start-up (BM25, wiki graph, reranker loaded) | ~0.7 GiB |
-| after the first dense search (embedding model, FAISS) | ~1.8 GiB |
-| peak, 8 concurrent `search_hybrid` calls | ~3.4 GiB |
+| warm: BM25, wiki graph, FAISS index, both models, router question bank | ~1.3 GiB |
+| after 8 concurrent `search_hybrid` calls | ~2.0-2.2 GiB |
 
-`search_hybrid` took about 1-2 s with free cores, 6-7 s capped at one CPU,
-and 12-16 s capped at one CPU when the thread pool is sized to the host's
-cores, as it is in a pod. LibreChat's default MCP timeout is 30 s, so the
-manifest sets no CPU limit. The 2 Gi memory request is more than beta
-LibreChat's current 512 Mi, so check it fits the `cbioagent` node. cbio-kb
-is moving to ONNX Runtime, which should lower these numbers; re-measure after
-that lands.
+| `search_hybrid` latency | 1 call | concurrent |
+|---|---|---|
+| no CPU limit, `CBIO_ONNX_THREADS=2` (as in the manifest) | ~1.3 s | 8 calls: ~3.2 s each at worst |
+| capped at 1 CPU | ~2 s | 4 calls: ~14 s each at worst |
+
+A container sees every core on the node, and ONNX Runtime starts a thread
+per core. Under a CPU limit the server sizes its thread pool to the limit
+itself (it reads cgroup `cpu.max`; without that, 1 CPU took ~32 s per
+search). The manifest sets no CPU limit, so it pins `CBIO_ONNX_THREADS=2`
+instead to stay polite to neighbouring pods. LibreChat's default MCP
+timeout is 30 s. The 1.5 Gi request is still more than beta LibreChat's
+512 Mi, so check it fits the `cbioagent` node.
 
 ## Open decisions for the cBioPortal team
 

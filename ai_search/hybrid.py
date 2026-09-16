@@ -158,11 +158,23 @@ class GraphIndex:
 
 
 class _Reranker:
+    """Cross-encoder reranker on PyTorch or ONNX Runtime (same scores; see
+    ``cbio_kb.index.embed.use_onnx`` for how the backend is chosen)."""
+
     _instance: "_Reranker | None" = None
 
     def __init__(self, model_name: str) -> None:
-        from sentence_transformers import CrossEncoder  # local import
-        self.model = CrossEncoder(model_name)
+        from cbio_kb.index.embed import use_onnx
+
+        self.model_name = model_name
+        self.model = None
+        if use_onnx():
+            from cbio_kb.index import onnx_models
+
+            onnx_models.rerank(model_name, "warm-up", ["load the session"])
+        else:
+            from sentence_transformers import CrossEncoder  # local import
+            self.model = CrossEncoder(model_name)
 
     @classmethod
     def get(cls) -> "_Reranker":
@@ -173,8 +185,12 @@ class _Reranker:
     def score(self, query: str, passages: list[dict]) -> list[dict]:
         if not passages:
             return []
-        pairs = [(query, p["text"]) for p in passages]
-        scores = self.model.predict(pairs)
+        if self.model is None:
+            from cbio_kb.index import onnx_models
+
+            scores = onnx_models.rerank(self.model_name, query, [p["text"] for p in passages])
+        else:
+            scores = self.model.predict([(query, p["text"]) for p in passages])
         for p, s in zip(passages, scores):
             p["rerank_score"] = float(s)
         passages.sort(key=lambda p: p["rerank_score"], reverse=True)

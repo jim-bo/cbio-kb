@@ -4,15 +4,21 @@ An index records the model that built it (``embed_model`` in
 ``index_config.json``), and queries must be embedded with that same model;
 ``index_model()`` reads it back. ``gemini-embedding-001`` runs on Vertex AI
 (needs GCP_PROJECT + Application Default Credentials, and is billed); any
-other name is a Hugging Face model run locally with sentence-transformers,
-so it needs no cloud account at all.
+other name is a Hugging Face model run locally, so it needs no cloud account.
 
-Local models are loaded once per process and use the query/document
-prompts from their model cards (``_LOCAL``). A model not listed there is
-run with no prompts.
+Local models run on one of two backends (``use_onnx()``): sentence-transformers
+on PyTorch, fast for building an index on a GPU or Apple silicon, or ONNX
+Runtime (``cbio_kb.index.onnx_models``), which the server images use so they
+don't ship PyTorch. Both give the same vectors. ``CBIO_EMBED_BACKEND`` picks
+one (``torch`` / ``onnx``); by default it's PyTorch when sentence-transformers
+is installed, else ONNX.
+
+Models use the query/document prompts from their model cards (``_LOCAL``);
+a model not listed there is run with no prompts.
 """
 from __future__ import annotations
 
+import importlib.util
 import json
 import os
 import sys
@@ -63,6 +69,16 @@ def index_model(index_dir: Path, default: str = "gemini-embedding-001") -> str:
     return default
 
 
+def use_onnx() -> bool:
+    """Whether local models run on ONNX Runtime rather than PyTorch."""
+    backend = os.environ.get("CBIO_EMBED_BACKEND", "auto").strip().lower()
+    if backend in ("onnx", "torch"):
+        return backend == "onnx"
+    if backend != "auto":
+        raise ValueError(f"CBIO_EMBED_BACKEND must be auto, onnx or torch, not {backend!r}")
+    return importlib.util.find_spec("sentence_transformers") is None
+
+
 def _device() -> str:
     import torch
 
@@ -87,7 +103,23 @@ def _st_model(name: str, max_len: int | None = None, pooling: str | None = None)
     return model
 
 
+def _embed_onnx(texts: list[str], kind: str, model: str, batch_size: int) -> np.ndarray:
+    from cbio_kb.index import onnx_models
+
+    cfg = _LOCAL.get(model, {})
+    if f"{kind}_model" in cfg or cfg.get("pooling"):
+        raise RuntimeError(f"{model} isn't supported on ONNX Runtime here; "
+                           "install the `index` extra and set CBIO_EMBED_BACKEND=torch")
+    prefix = cfg.get(kind, "")
+    if kind == "query" and cfg.get("query_prompt_name"):
+        prefix = onnx_models.prompt(model, cfg["query_prompt_name"])
+    return onnx_models.embed(model, texts, prefix=prefix,
+                             normalize=cfg.get("normalize", True), batch_size=batch_size)
+
+
 def _embed_local(texts: list[str], kind: str, model: str, batch_size: int) -> np.ndarray:
+    if use_onnx():
+        return _embed_onnx(texts, kind, model, batch_size)
     cfg = _LOCAL.get(model, {})
     st = _st_model(cfg.get(f"{kind}_model", model), cfg.get(f"{kind}_max_len"), cfg.get("pooling"))
     kwargs: dict = {}

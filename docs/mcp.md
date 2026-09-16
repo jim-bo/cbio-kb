@@ -148,7 +148,7 @@ questions.
 | `CBIO_KB_MCP_ENABLE_AGENTIC` | auto | Force `search_agentic` on/off; default follows `ANTHROPIC_API_KEY`. |
 | `CBIO_EMBED_MODEL` | built-in local model | Embedding model for new index builds and the router (a Hugging Face id, run locally). Queries always use the model recorded in the index. |
 | `CBIO_EMBED_BACKEND` | `auto` | `onnx` or `torch` for the embedding model and reranker; `auto` uses PyTorch when sentence-transformers is installed, else ONNX Runtime. Same results either way. |
-| `CBIO_ONNX_THREADS` | all cores | ONNX Runtime threads per inference; set to the container's CPU limit. |
+| `CBIO_ONNX_THREADS` | the container's CPU limit, else all cores | ONNX Runtime threads per inference. Set it when the pod has no CPU limit but shares a node (every core would otherwise be claimed per search). |
 | `GCP_PROJECT` | unset | Only for an index built with `gemini-embedding-001` (Vertex AI, needs ADC). |
 | `CBIO_WIKI_DIR`, `CBIO_KB_SEED_CSV`, `CBIO_KB_ONTOLOGY_DIR`, `RAG_INDEX_DIR` | repo paths | Data locations. |
 | `CBIOPORTAL_BASE_URL` | `https://www.cbioportal.org` | Base for returned study URLs (same variable as the navigator). |

@@ -131,3 +131,29 @@ def test_hybrid_reranker_uses_onnx_backend(monkeypatch):
     ranked = reranker.score("q", [{"text": "a"}, {"text": "ccc"}, {"text": "bb"}])
     assert [p["text"] for p in ranked] == ["ccc", "bb", "a"]
     assert ranked[0]["rerank_score"] == 3.0
+
+
+def test_threads_follow_env_then_cgroup_cpu_limit(monkeypatch, tmp_path):
+    import builtins
+
+    monkeypatch.delenv("CBIO_ONNX_THREADS", raising=False)
+    real_open = builtins.open
+    cpu_max = tmp_path / "cpu.max"
+
+    def fake_open(path, *a, **kw):
+        if path == "/sys/fs/cgroup/cpu.max":
+            return real_open(cpu_max, *a, **kw)
+        return real_open(path, *a, **kw)
+
+    monkeypatch.setattr(builtins, "open", fake_open)
+    cpu_max.write_text("150000 100000\n")   # --cpus 1.5
+    assert onnx_models._threads() == 2
+    cpu_max.write_text("50000 100000\n")    # --cpus 0.5
+    assert onnx_models._threads() == 1
+    cpu_max.write_text("max 100000\n")      # no limit: every core
+    assert onnx_models._threads() is None
+    monkeypatch.setenv("CBIO_ONNX_THREADS", "3")
+    assert onnx_models._threads() == 3
+    cpu_max.unlink()
+    monkeypatch.delenv("CBIO_ONNX_THREADS")
+    assert onnx_models._threads() is None  # not on cgroup v2 (e.g. macOS)

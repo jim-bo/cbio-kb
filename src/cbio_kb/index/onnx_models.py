@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import os
 from functools import lru_cache
 
@@ -60,6 +61,26 @@ def prefetch(model: str) -> None:
         _download(model, name, required=False)
 
 
+def _threads() -> int | None:
+    """ONNX Runtime threads per inference: CBIO_ONNX_THREADS, else the
+    container's CPU limit (cgroup v2 ``cpu.max``), else None for every core.
+
+    A container sees all of the host's cores, and ONNX Runtime starts one
+    thread per core. Under a 1-CPU limit on a 14-core host that made a hybrid
+    search take ~32 s instead of ~2 s with one thread.
+    """
+    if os.environ.get("CBIO_ONNX_THREADS"):
+        return max(1, int(os.environ["CBIO_ONNX_THREADS"]))
+    try:
+        with open("/sys/fs/cgroup/cpu.max", encoding="ascii") as fh:
+            quota, period = fh.read().split()[:2]
+        if quota != "max":
+            return max(1, math.ceil(int(quota) / int(period)))
+    except (OSError, ValueError):
+        pass
+    return None
+
+
 @lru_cache(maxsize=4)
 def _session(model: str):
     import onnxruntime as ort
@@ -72,8 +93,8 @@ def _session(model: str):
             "PyTorch; install the `index` extra (sentence-transformers) to use it"
         ) from e
     opts = ort.SessionOptions()
-    if os.environ.get("CBIO_ONNX_THREADS"):  # match a container's CPU limit
-        opts.intra_op_num_threads = int(os.environ["CBIO_ONNX_THREADS"])
+    if threads := _threads():
+        opts.intra_op_num_threads = threads
     return ort.InferenceSession(path, opts, providers=["CPUExecutionProvider"])
 
 

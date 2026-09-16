@@ -1,0 +1,37 @@
+diff --git a/argocd/aws/203403084713/clusters/cbioportal-prod/apps/cbioagent-beta/librechat-config.yaml b/argocd/aws/203403084713/clusters/cbioportal-prod/apps/cbioagent-beta/librechat-config.yaml
+index d8ce487..388a1be 100644
+--- a/argocd/aws/203403084713/clusters/cbioportal-prod/apps/cbioagent-beta/librechat-config.yaml
++++ b/argocd/aws/203403084713/clusters/cbioportal-prod/apps/cbioagent-beta/librechat-config.yaml
+@@ -17,6 +17,7 @@ data:
+         - 'cbioagent-clickhouse-mcp'
+         - 'cbioportal-navigator'
+         - 'cbioportal-navigator-beta'
++        - 'cbio-kb-mcp'
+ 
+     # Custom interface configuration
+     interface:
+@@ -121,6 +122,24 @@ data:
+         headers:
+           x-user-id: "{{LIBRECHAT_USER_ID}}"
+           x-user-email: "{{LIBRECHAT_USER_EMAIL}}"
++      # Literature MCP (cbio-kb; apps/cbioagent/cbio-kb-mcp.yaml, one
++      # Deployment shared with prod): what the papers behind cBioPortal
++      # studies found, keyed by the same study IDs, HUGO symbols and OncoTree
++      # codes as the database and navigator tools. Keep this server name
++      # identical on prod: agent tools are stored as
++      # <tool>_mcp_cbioportal-literature, so the prod agent can copy beta's
++      # tool list as-is.
++      cbioportal-literature:
++        type: streamable-http
++        # No trailing slash: the server's canonical path is /lit/mcp and
++        # /lit/mcp/ gets a 307, the redirect LibreChat fails to follow.
++        url: http://cbio-kb-mcp:80/lit/mcp
++        # Agent-only, like the navigator: users reach these tools through
++        # cBioPortalChat, whose prompt says when to use them.
++        chatMenu: false
++        headers:
++          x-user-id: "{{LIBRECHAT_USER_ID}}"
++          x-user-email: "{{LIBRECHAT_USER_EMAIL}}"
+ 
+     endpoints:
+       agents:

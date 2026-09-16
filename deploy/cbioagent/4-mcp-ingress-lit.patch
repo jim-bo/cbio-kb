@@ -1,0 +1,68 @@
+diff --git a/argocd/aws/203403084713/clusters/cbioportal-prod/apps/cbioagent/mcp-ingress.yaml b/argocd/aws/203403084713/clusters/cbioportal-prod/apps/cbioagent/mcp-ingress.yaml
+index 91007ce..954b640 100644
+--- a/argocd/aws/203403084713/clusters/cbioportal-prod/apps/cbioagent/mcp-ingress.yaml
++++ b/argocd/aws/203403084713/clusters/cbioportal-prod/apps/cbioagent/mcp-ingress.yaml
+@@ -27,6 +27,26 @@ spec:
+       ipStrategy:
+         depth: 1
+ ---
++# Rate-limit the public literature MCP path. /lit has no database behind it
++# and spends no LLM tokens, but every search_hybrid call runs a CPU-bound
++# reranker in the same cbio-kb-mcp pod LibreChat uses, so cap per-IP
++# throughput to keep one client from starving it. Same numbers as
++# ratelimit-db to start; its own Middleware so /lit can be tuned without
++# touching /db.
++apiVersion: traefik.io/v1alpha1
++kind: Middleware
++metadata:
++  name: ratelimit-lit
++  namespace: default
++spec:
++  rateLimit:
++    average: 2
++    period: 1s
++    burst: 20
++    sourceCriterion:
++      ipStrategy:
++        depth: 1
++---
+ # /navigator — unchanged from the original single-path setup, kept as its
+ # own Ingress so its middleware annotation only applies to itself.
+ apiVersion: networking.k8s.io/v1
+@@ -188,3 +208,36 @@ spec:
+     - hosts:
+         - mcp.cbioportal.org
+       secretName: mcp-cbio-cert
++---
++# /lit — the public literature MCP (cbio-kb-mcp), at
++# https://mcp.cbioportal.org/lit/mcp. Separate Ingress so only
++# ratelimit-lit applies here. The path is NOT stripped: the server mounts
++# itself at /lit/mcp (CBIO_KB_MCP_HTTP_PATH on cbio-kb-mcp), the same
++# approach as /db. Not OAuth-gated, unlike /db: the tools are read-only
++# over published papers. LibreChat dials the cbio-kb-mcp Service directly
++# and never touches this Ingress.
++apiVersion: networking.k8s.io/v1
++kind: Ingress
++metadata:
++  name: mcp-cbioportal-lit-ingress
++  annotations:
++    kubernetes.io/ingress.class: traefik
++    traefik.ingress.kubernetes.io/router.middlewares: default-ratelimit-lit@kubernetescrd
++  labels:
++    app.kubernetes.io/instance: cbioagent
++spec:
++  rules:
++    - host: mcp.cbioportal.org
++      http:
++        paths:
++          - path: /lit
++            pathType: Prefix
++            backend:
++              service:
++                name: cbio-kb-mcp
++                port:
++                  number: 80
++  tls:
++    - hosts:
++        - mcp.cbioportal.org
++      secretName: mcp-cbio-cert

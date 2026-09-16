@@ -1,0 +1,35 @@
+diff --git a/argocd/aws/203403084713/clusters/cbioportal-prod/apps/cbioagent/librechat-config.yaml b/argocd/aws/203403084713/clusters/cbioportal-prod/apps/cbioagent/librechat-config.yaml
+index c8617ae..460c0ec 100644
+--- a/argocd/aws/203403084713/clusters/cbioportal-prod/apps/cbioagent/librechat-config.yaml
++++ b/argocd/aws/203403084713/clusters/cbioportal-prod/apps/cbioagent/librechat-config.yaml
+@@ -16,6 +16,7 @@ data:
+       allowedDomains:
+         - 'cbioagent-clickhouse-mcp'
+         - 'cbioportal-navigator'
++        - 'cbio-kb-mcp'
+ 
+     # Custom interface configuration
+     interface:
+@@ -128,6 +129,22 @@ data:
+         headers:
+           x-user-id: "{{LIBRECHAT_USER_ID}}"
+           x-user-email: "{{LIBRECHAT_USER_EMAIL}}"
++      # Literature MCP (cbio-kb; cbio-kb-mcp.yaml in this directory, shared
++      # with beta): what the papers behind cBioPortal studies found, keyed by
++      # the same study IDs, HUGO symbols and OncoTree codes as the database
++      # and navigator tools. Same server name as beta, so the prod agent's
++      # tool list (<tool>_mcp_cbioportal-literature) matches beta's.
++      cbioportal-literature:
++        type: streamable-http
++        # No trailing slash, for the same reason as cbioportal-database:
++        # /lit/mcp is canonical and /lit/mcp/ gets a 307.
++        url: http://cbio-kb-mcp:80/lit/mcp
++        # Agent-only, like the navigator: users reach these tools through
++        # cBioPortalChat, whose prompt says when to use them.
++        chatMenu: false
++        headers:
++          x-user-id: "{{LIBRECHAT_USER_ID}}"
++          x-user-email: "{{LIBRECHAT_USER_EMAIL}}"
+ 
+     endpoints:
+       agents:

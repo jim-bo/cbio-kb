@@ -1,0 +1,177 @@
+diff --git a/argocd/aws/203403084713/clusters/cbioportal-prod/apps/cbioagent/cbio-kb-mcp.yaml b/argocd/aws/203403084713/clusters/cbioportal-prod/apps/cbioagent/cbio-kb-mcp.yaml
+new file mode 100644
+index 0000000..54eeb19
+--- /dev/null
++++ b/argocd/aws/203403084713/clusters/cbioportal-prod/apps/cbioagent/cbio-kb-mcp.yaml
+@@ -0,0 +1,171 @@
++# cbio-kb literature MCP server (github.com/jim-bo/cbio-kb): Deployment +
++# ClusterIP Service.
++#
++# Written as a drop-in for cBioPortal's cluster, where it goes at
++# apps/cbioagent/cbio-kb-mcp.yaml in knowledgesystems-k8s-deployment next to
++# cbioportal-navigator.yaml, and follows that directory's conventions. The
++# source copy is deploy/k8s/mcp.yaml in cbio-kb; the LibreChat and Traefik
++# changes that go with it are in cbio-kb's deploy/cbioagent/.
++#
++# Serves streamable-HTTP MCP at /lit/mcp (no trailing slash):
++#   in-cluster (LibreChat):             http://cbio-kb-mcp:80/lit/mcp
++#   public, once an Ingress routes /lit: https://mcp.cbioportal.org/lit/mcp
++# The tools are read-only over published papers, so the pod needs no Secret
++# and no cloud credentials.
++#
++# Values marked `cluster-specific` are what another cluster changes: the
++# image, CBIOPORTAL_BASE_URL, the cbioagent node pool, and the Keel
++# annotations (without Keel, drop them and pin :sha-<short> or :<version>).
++# Anywhere else:
++#   kubectl apply -n <namespace> -f deploy/k8s/mcp.yaml
++#   kubectl port-forward svc/cbio-kb-mcp 8124:80   # then GET localhost:8124/health
++apiVersion: apps/v1
++kind: Deployment
++metadata:
++  name: cbio-kb-mcp
++  labels:
++    run: cbio-kb-mcp
++  annotations:
++    # cluster-specific (Keel): Keel polls ghcr for `:main` and rolls this
++    # Deployment when the digest changes. cbio-kb's CI pushes `:main` on
++    # every main commit that touches the image (server code, wiki content,
++    # the baked-in passage index), so this is how new papers reach chat.
++    # Without it, `imagePullPolicy: Always` only pulls on pod restart.
++    keel.sh/policy: force
++    keel.sh/trigger: poll
++    keel.sh/match-tag: "true"
++spec:
++  # FASTMCP_STATELESS_HTTP below means any pod can answer any request, so
++  # more replicas need no session affinity.
++  replicas: 1
++  selector:
++    matchLabels:
++      run: cbio-kb-mcp
++  template:
++    metadata:
++      labels:
++        run: cbio-kb-mcp
++    spec:
++      containers:
++        - name: cbio-kb-mcp
++          # cluster-specific: image owner. The passage index (FAISS + BM25,
++          # ~225 MB) is baked into this image when cbio-kb's CI has the
++          # PAPER_INDEX_URL / PAPER_INDEX_SHA256 variables set, so code, wiki
++          # and index ship as one digest and a Keel roll refreshes all three.
++          # Built without them, the wiki tools still work, the search tools
++          # report the missing index, and /health says "passage_index": false.
++          image: ghcr.io/jim-bo/cbio-kb-mcp:main
++          imagePullPolicy: Always
++          ports:
++            - containerPort: 8124
++          env:
++            # Mount FastMCP under the public sub-path so it builds correct
++            # URLs itself and the Ingress needs no stripPrefix (same approach
++            # as CLICKHOUSE_MCP_HTTP_PATH=/db/mcp). /lit/mcp is canonical;
++            # /lit/mcp/ gets a 307 back to it, so clients, LibreChat
++            # included, must use the URL without a trailing slash.
++            - name: CBIO_KB_MCP_HTTP_PATH
++              value: "/lit/mcp"
++            # Trust X-Forwarded-* from any in-cluster source so that 307
++            # honors Traefik's X-Forwarded-Proto: https. Without it the
++            # Location downgrades to http:// and strict clients refuse to
++            # follow. Only in-cluster Services reach the listener, so "*" is
++            # fine.
++            - name: CBIO_KB_MCP_FORWARDED_ALLOW_IPS
++              value: "*"
++            # FastMCP otherwise ties each MCP session to the pod that created
++            # it, so a Keel roll or a second replica would answer requests
++            # for sessions it has never seen.
++            - name: FASTMCP_STATELESS_HTTP
++              value: "true"
++            # cluster-specific: base of the study links the tools return.
++            # Same variable and value as cbioportal-navigator.
++            - name: CBIOPORTAL_BASE_URL
++              value: https://www.cbioportal.org
++            # ANTHROPIC_API_KEY is deliberately unset. It would register
++            # search_agentic, which runs its own LLM loop on the server's
++            # account; the chat agent already does that reasoning.
++          # /health sits at the pod root, outside /lit/mcp. It answers about
++          # a second after start: loading the search indexes happens on a
++          # background thread and doesn't block it. The 5 s timeout leaves
++          # room for CPU-bound searches holding the GIL, so a busy pod isn't
++          # restarted mid-search.
++          readinessProbe:
++            httpGet:
++              path: /health
++              port: 8124
++            initialDelaySeconds: 5
++            periodSeconds: 10
++            timeoutSeconds: 5
++          livenessProbe:
++            httpGet:
++              path: /health
++              port: 8124
++            initialDelaySeconds: 30
++            periodSeconds: 20
++            timeoutSeconds: 5
++            failureThreshold: 5
++          # Estimates, measured locally on the PyTorch image with 407 papers:
++          # ~0.7 GiB after start-up, ~1.8 GiB once the first dense search
++          # loads the embedding model and FAISS index, ~3.4 GiB peak with 8
++          # concurrent search_hybrid calls. The ONNX Runtime image should
++          # need less; re-measure then. No CPU limit: the reranker is
++          # CPU-bound, and capped at 1 CPU a search_hybrid call took 6-16 s
++          # instead of ~1-2 s with free cores (LibreChat's MCP timeout is
++          # 30 s).
++          resources:
++            requests:
++              cpu: 500m
++              memory: 2Gi
++            limits:
++              memory: 4Gi
++          # Alternative: fetch the index at pod start instead of baking it
++          # in, e.g. to change the index without rebuilding the image.
++          # Uncomment this and the initContainers and volumes blocks below.
++          # The mount hides any index baked into the image, and each new
++          # index means editing the URL and sha256 in this file.
++          # volumeMounts:
++          #   - name: paper-index
++          #     mountPath: /app/data/paper_index
++          #     subPath: paper_index
++          #     readOnly: true
++      # initContainers:
++      #   - name: fetch-paper-index
++      #     # Same image: it ships docker/fetch_paper_index.py.
++      #     image: ghcr.io/jim-bo/cbio-kb-mcp:main
++      #     imagePullPolicy: Always
++      #     command:
++      #       - python
++      #       - /app/docker/fetch_paper_index.py
++      #       - /work
++      #       # A scripts/package_index.sh tarball and its .sha256.
++      #       - https://github.com/jim-bo/cbio-kb/releases/download/index-YYYYMMDD/paper-index-YYYYMMDD.tar.gz
++      #       - "<sha256>"
++      #     volumeMounts:
++      #       - name: paper-index
++      #         mountPath: /work
++      # volumes:
++      #   - name: paper-index
++      #     emptyDir:
++      #       sizeLimit: 1Gi
++      # cluster-specific: the node pool the other MCP servers run on.
++      nodeSelector:
++        workload: "cbioagent"
++      tolerations:
++        - key: "workload"
++          operator: "Equal"
++          value: "cbioagent"
++          effect: "NoSchedule"
++---
++apiVersion: v1
++kind: Service
++metadata:
++  name: cbio-kb-mcp
++spec:
++  selector:
++    run: cbio-kb-mcp
++  ports:
++    - port: 80
++      name: http
++      targetPort: 8124
++  type: ClusterIP

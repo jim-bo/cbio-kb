@@ -45,8 +45,8 @@ model from building a range no paper states.
 
 | # | Change | Status |
 |---|---|---|
-| 1 | Citation contract in the server instructions | In progress |
-| 2 | `get_passage` and `verify_quote` tools | In progress |
+| 1 | Citation contract in the server instructions | Done 2026-09-18 |
+| 2 | `get_passage` and `verify_quote` tools | Done 2026-09-18 |
 | 3 | Re-chunk the passage index with anchors | To do |
 | 4 | Links that land on the quoted sentence | To do |
 | 5 | Grounding score in the eval | To do |
@@ -106,3 +106,30 @@ worth doing once 1–5 have shown the anchors hold up.
 The audit above, repeated on the same question after each step: 5 claims with
 numbers; 3 supported and cited, 1 correct but uncited, 1 misleading composite
 using a number from outside the retrieved text; 0 marked as quotes.
+
+## Results after steps 1 and 2
+
+Same question, same model (Claude Sonnet 4.6), through LibreChat
+(`deploy/librechat-local/`):
+
+| Run | Tool calls | Quotes | Quotes that verify | Sentence links | Number lines without a citation |
+|---|---|---|---|---|---|
+| Baseline | 9 (no paper-text reads) | 0 | n/a | 0 | several; one invented range |
+| Tools added; instructions not delivered (see below) | 8 | 0 | n/a | 0 | 4 |
+| Instructions delivered, quotes allowed | 8 | 0 | n/a | 0 | 0; one population error (MSK-CHORD's 24,950 patients called LUAD) |
+| Instructions ask for quotes | 16 (6 `verify_quote`) | 6 | 6/6 | 5 | 2 |
+
+Claude links the quoted words themselves to PMC (`"[quote](pmc_link)"`), and
+the linked sentences appear verbatim on PMC's pages. What's left is background
+from memory: the therapy section still gave an uncited, misstated G12C figure.
+Step 5's grounding score should count these.
+
+**LibreChat drops server instructions for servers with per-user headers.** Its
+startup inspection skips any server whose config has `{{LIBRECHAT_USER_*}}`
+placeholders, so it never fetches the instructions and injects the literal
+`true`. The local stack now gives cbio-kb no such headers (it doesn't use
+them). The `deploy/cbioagent/` patches keep the headers and don't set
+`serverInstructions`, so cBioPortal's agent never sees these instructions; it
+gets only the tool descriptions, which now carry the short form of the rules.
+Dropping the headers and setting `serverInstructions: true` there is a decision
+for cBioPortal, since it adds ~4.6k characters to their agent's prompt.

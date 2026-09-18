@@ -51,7 +51,7 @@ model from building a range no paper states.
 | 4 | Links that land on the quoted sentence | To do |
 | 5 | Grounding score in the eval | To do |
 | 6 | Sentence-level provenance in the wiki | Later |
-| 7 | Answer-first shape in the instructions | Tested 2026-09-18: faster, shorter; adopt |
+| 7 | Answer-first shape in the instructions | Done 2026-09-18 (tested below) |
 | 8 | Quote-ready sentences in search results | To do (with 3); needed, see experiment |
 | 9 | Native `search_result` citations and post-stream checks in `/ask` | To do |
 | 10 | Evidence panel as an MCP App, with cBioPortal | Later |
@@ -222,8 +222,17 @@ the failures:
   answers; four rejected quotes in one B run), or quoted without checking.
   Instructions don't enforce this reliably; quotes need to come from the tools
   (item 8) or be checked after writing where the UI allows it (item 9).
-  Meanwhile `verify_quote` should say when a paper's text is garbled and
-  tolerate glued reference numbers.
+
+**Follow-up fix (same day).** Search results, `get_passage` and
+`verify_quote` now mark the 109 garbled papers with `text_quality: garbled`
+(10+ run-together words per 1,000) and say to paraphrase them; `verify_quote`
+ignores reference numbers glued to lowercase words ("hotspot24") while gene
+symbols keep their digits. Rescoring the 16 answers, verified quotes went from
+29/34 to 31/34 (A) and 20/27 to 21/27 (B), with no previously verified quote
+lost. One rerun of the STK11 question paraphrased the garbled paper with its
+PMID instead of quoting it; both of its quotes verified (answer at 55 s, 12
+tool calls; n = 1). The remaining failures are real misquotes, which item 8
+addresses.
 
 ## Baseline to beat
 

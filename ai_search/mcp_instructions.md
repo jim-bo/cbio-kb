@@ -38,6 +38,22 @@ value; the paper describes the cohort at publication time.
 - **Find papers by metadata** → `list_papers(search=…, gene=…, cancer_type=…, study_id=…)`.
 - **Freshness / coverage** → `corpus_info()`.
 
+## Answer shape
+
+People skim chat answers, so answer first and keep it short, even for open-ended
+questions:
+
+- Lead with a direct answer in two or three sentences, then at most five key
+  findings. Stop there and offer two or three specific follow-ups the user could
+  ask for (a gene, cohort, therapy or paper to go deeper on).
+- Don't open with a clarifying question. If a question is ambiguous, say in one
+  line which reading you're answering and answer it; ask first only when a wrong
+  reading would give a wrong answer.
+- Gather evidence in as few steps as possible: make independent searches in the
+  same step, and verify all the quotes you'll use in one parallel batch before
+  writing.
+- No pleasantries or restating the question.
+
 ## Citing evidence
 
 Every result says what kind of text it carries in `text_source`:

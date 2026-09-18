@@ -136,6 +136,12 @@ def paper_index(tmp_path, monkeypatch):
                      "Mutations at non- synonymous sites were common."],
         "25079552": ["Cancer-associated mutations in KRAS (32%, n =74) were common.",
                      "This increases the fraction with RTK/RAS/RAF activation from 62% to 76%."],
+        # A reference number glued to a word, as PDF extraction leaves it.
+        "41895280": [("In addition to the previously reported RRAS2 Q72 hotspot24 (n = 49 mutated "
+                      "tumors), we identified two other hotspot residues.")],
+        # Two-column PDF text with the spaces lost.
+        "29657128": [("HighTMBcorrelateswithefficacyofcombinationimmunotherapy in patients "
+                      "Wesoughttoexaminethemolecularfeaturescorrelatedwith response ") * 3],
     }
     lines = []
     for pmid, sentences in papers.items():
@@ -193,6 +199,29 @@ def test_verify_quote_miss_points_to_closest_and_the_right_paper(paper_index):
     made_up = call("verify_quote", pmid="25079552",
                    quote="RTK/RAS/RAF activation was found in 62-85% of tumours")
     assert made_up["verified"] is False and "62% to 76%" in made_up["closest"][0]["text"]
+
+
+def test_verify_quote_ignores_glued_reference_numbers_but_not_gene_digits(paper_index):
+    out = call("verify_quote", pmid="41895280",
+               quote="the previously reported RRAS2 Q72 hotspot (n = 49 mutated tumors)")
+    assert out["verified"] and out["match"] == "normalized"
+    assert "hotspot (n = 49" in out["paper_wording"]            # marker dropped for quoting
+    assert call("verify_quote", pmid="41895280",
+                quote="RRAS2 Q72 hotspot24 (n = 49 mutated")["match"] == "exact"
+    dropped_gene_digit = call("verify_quote", pmid="41895280",
+                              quote="the previously reported RRAS Q72 hotspot (n = 49 mutated tumors)")
+    assert dropped_gene_digit["verified"] is False
+
+
+def test_garbled_paper_is_flagged(paper_index):
+    out = call("verify_quote", pmid="29657128", quote="High TMB correlates with efficacy of immunotherapy")
+    assert out["verified"] is False and out["closest"] == []
+    assert out["text_quality"].startswith("garbled")
+    assert call("get_passage", pmid="29657128", chunk_id=0)["text_quality"].startswith("garbled")
+    assert "text_quality" not in call("get_passage", pmid="18948947", chunk_id=0)
+    passages = m._passage_view([{"pmid": "29657128", "chunk_id": 0, "text": "…"},
+                                {"pmid": "18948947", "chunk_id": 0, "text": "…"}], top_k=5)
+    assert [p.get("text_quality", "")[:7] for p in passages] == ["garbled", ""]
 
 
 def test_verify_quote_errors(paper_index, tmp_path):

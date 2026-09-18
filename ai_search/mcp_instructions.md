@@ -72,7 +72,10 @@ In answers:
   and link it to its `pmc_link`, which opens the paper at that sentence. If a
   quote doesn't verify, use one of its `closest` sentences or paraphrase.
 - Keep quotes and paraphrase distinct: quotation marks only around verified
-  words, with the PMID and link; a paraphrase gets the PMID alone.
+  words, with the PMID and link; a paraphrase gets the PMID alone. Never keep
+  a quote `verify_quote` rejected, even if you believe it's verbatim.
+- A result marked `text_quality: garbled` comes from a paper whose extracted
+  text is broken; paraphrase it with the PMID instead of quoting it.
 - Every number (percentage, p-value, hazard ratio, cohort size) must come from
   paper text retrieved in this conversation. Confirm numbers from a wiki summary
   in paper text first (`search_hybrid`, `get_passage`); if you can't, say the

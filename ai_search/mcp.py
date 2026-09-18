@@ -71,7 +71,7 @@ import sys
 import unicodedata
 from collections import defaultdict
 from dataclasses import dataclass, field
-from functools import lru_cache
+from functools import cached_property, lru_cache
 from pathlib import Path
 from typing import Annotated, Any, Literal
 from urllib.parse import quote as _urlquote
@@ -299,6 +299,10 @@ def _passage_view(chunks: list[dict], top_k: int, max_per_paper: int = 0) -> lis
     long paper can't fill every slot.
     """
     papers = catalog().papers
+    try:
+        texts = _paper_texts()
+    except FileNotFoundError:
+        texts = {}
     out: list[dict] = []
     per_paper: dict[str, int] = defaultdict(int)
     for c in chunks:
@@ -310,12 +314,14 @@ def _passage_view(chunks: list[dict], top_k: int, max_per_paper: int = 0) -> lis
         per_paper[pmid] += 1
         score = c.get("rerank_score", c.get("fused_score", c.get("score")))
         paper = papers.get(pmid)
+        text = texts.get(pmid)
         out.append({
             "pmid": pmid,
             "title": paper.title if paper else None,
             "year": paper.year if paper else None,
             "study_ids": paper.study_ids if paper else [],
             **({"retracted": True} if paper and paper.retracted else {}),
+            **({"text_quality": "garbled: paraphrase, don't quote"} if text and text.garbled else {}),
             "chunk_id": c.get("chunk_id"),
             "score": round(float(score), 4) if score is not None else None,
             "path": f"papers/{pmid}.md",
@@ -892,6 +898,16 @@ _TRANSLATE = {
     **dict.fromkeys(map(ord, "‘’‚‛′"), "'"),
     **dict.fromkeys(map(ord, "“”„‟″"), '"'),
 }
+# A reference number glued to the end of a lowercase word ("hotspot24"), left by
+# PDF extraction. Uppercase stems are left alone, so gene symbols (STK11, RRAS2)
+# keep their digits.
+_REF_MARKER_RE = re.compile(r"(?<=[a-z]{3})\d{1,3}(?=[\s,.;:)\]]|$)")
+# Text with this many run-together words (25+ letters) per 1,000 is garbled:
+# PDF columns lost their spaces and may be interleaved (83 papers in 2026-09).
+_GARBLED_PER_1K = 10
+_GARBLED_NOTE = ("garbled: this paper's extracted text has words run together and may "
+                 "interleave page columns, so quotes from it can't be checked. Paraphrase it "
+                 "with the PMID instead of quoting it.")
 
 
 @dataclass
@@ -901,6 +917,12 @@ class PaperText:
     text: str
     chunk_ids: list[int]
     starts: list[int]
+
+    @cached_property
+    def garbled(self) -> bool:
+        words = re.findall(r"[A-Za-z]+", self.text)
+        run_together = sum(len(w) >= 25 for w in words)
+        return bool(words) and run_together * 1000 >= _GARBLED_PER_1K * len(words)
 
     def chunk_at(self, offset: int) -> int:
         return self.chunk_ids[max(0, bisect.bisect_right(self.starts, offset) - 1)]
@@ -945,17 +967,20 @@ def _paper_texts() -> dict[str, PaperText]:
     return out
 
 
-def _normalize(text: str, loose: bool = False) -> tuple[str, list[int]]:
+def _normalize(text: str, loose: bool = False, drop: set[int] | None = None) -> tuple[str, list[int]]:
     """``text`` normalized for quote matching, plus the offset in ``text`` of
     each normalized character.
 
     Applies NFKC (so ``10⁻⁷`` reads ``10-7``), one style of dash and quote
     mark, case folding, collapsed whitespace, and rejoined line-break
     hyphenation (``non- synonymous``). ``loose`` keeps only letters and digits.
+    Characters at the offsets in ``drop`` are skipped.
     """
     out: list[str] = []
     pos: list[int] = []
     for i, ch in enumerate(text):
+        if drop and i in drop:
+            continue
         norm = ch.lower() if ch.isascii() else (
             unicodedata.normalize("NFKC", ch).translate(_TRANSLATE).casefold())
         for c in norm:
@@ -1003,13 +1028,15 @@ def _find_in_order(hay: str, segments: list[str], max_gap: int = 1500) -> tuple[
 
 def _match_quote(pt: PaperText, segments: list[str]) -> tuple[str, int, int] | None:
     """(match level, start, end) of the quotation in the paper's text: exact up to
-    whitespace, then ``normalized``, then ``loose``."""
+    whitespace, then ``normalized``, then ``loose``. The last two ignore
+    reference numbers glued to words in the paper, which quotes usually drop."""
     pattern = r".{0,1500}?".join(r"\s+".join(map(re.escape, s.split())) for s in segments)
     if m := re.search(pattern, pt.text, flags=re.DOTALL):
         return "exact", m.start(), m.end()
+    markers = {i for mk in _REF_MARKER_RE.finditer(pt.text) for i in range(mk.start(), mk.end())}
     for level, loose in (("normalized", False), ("loose", True)):
         segs = [_normalize(s, loose)[0].strip() for s in segments]
-        hay, pos = _normalize(pt.text, loose)
+        hay, pos = _normalize(pt.text, loose, drop=markers)
         if all(segs) and (span := _find_in_order(hay, segs)):
             return level, pos[span[0]], pos[span[1] - 1] + 1
     return None
@@ -1135,6 +1162,7 @@ def get_passage(
     return {
         **_paper_brief(pid),
         "text_source": _PAPER_TEXT,
+        **({"text_quality": _GARBLED_NOTE} if pt.garbled else {}),
         "passages": [{"chunk_id": c, "text": pt.chunk_text(c)} for c in ids],
         "n_passages": len(pt.chunk_ids),
     }
@@ -1149,11 +1177,12 @@ def verify_quote(
     """Check that a quotation appears in a paper's full text before presenting it as a quote.
 
     Tries an exact match (ignoring whitespace), then `normalized` (also
-    ignoring case, dash and quote-mark styles, superscripts and line-break
-    hyphenation), then `loose` (letters and digits only). A match returns the
-    paper's own wording to quote, the passage it's in, and `pmc_link`, which
-    opens the paper at that sentence. No match returns the paper's closest
-    sentences and any other corpus papers that contain the text.
+    ignoring case, dash and quote-mark styles, superscripts, line-break
+    hyphenation and reference numbers glued to words), then `loose` (letters
+    and digits only). A match returns the paper's own wording to quote, the
+    passage it's in, and `pmc_link`, which opens the paper at that sentence. No
+    match returns the paper's closest sentences and any other corpus papers
+    that contain the text; never put rejected text in quotation marks.
     """
     pid = _norm_pmid(pmid)
     segments = _quote_segments(quote)
@@ -1166,16 +1195,22 @@ def verify_quote(
     brief = _paper_brief(pid)
     hit = _match_quote(pt, segments)
     if hit is None:
-        return {
+        out = {
             **brief, "verified": False, "text_source": _PAPER_TEXT,
-            "closest": _closest(pt, " ".join(segments)),
+            "closest": [] if pt.garbled else _closest(pt, " ".join(segments)),
             "found_in_other_papers": _found_elsewhere(segments, pid),
-            "note": ("Not in this paper's text, so don't present it as a quote. Paraphrase it "
-                     "with the PMID, quote one of `closest` if it says the same thing, or cite "
-                     "the paper in `found_in_other_papers` that contains it."),
+            "note": ("Not in this paper's text. Don't put it in quotation marks, even if you "
+                     "believe it's verbatim: paraphrase it with the PMID, quote one of "
+                     "`closest` if it says the same thing, or cite the paper in "
+                     "`found_in_other_papers` that contains it."),
         }
+        if pt.garbled:
+            out["text_quality"] = _GARBLED_NOTE
+        return out
     level, a, b = hit
     wording = " ".join(pt.text[a:b].split())
+    if level != "exact":
+        wording = _REF_MARKER_RE.sub("", wording)
     lo, hi = max(0, a - 200), min(len(pt.text), b + 200)
     context = " ".join(pt.text[lo:hi].split())
     out: dict[str, Any] = {
@@ -1243,6 +1278,9 @@ def _warm_retrieval() -> None:
         hybrid.BM25Index.get()
         hybrid.GraphIndex.get()
         _loose_corpus()  # also builds _paper_texts() for get_passage / verify_quote
+        garbled = sum(pt.garbled for pt in _paper_texts().values())
+        print(f"[cbio-kb] {garbled} indexed papers have garbled text (quotes unverifiable)",
+              file=sys.stderr)
         if hybrid._RERANK_ENABLED_DEFAULT:
             hybrid._Reranker.get()
         if _dense_available():  # embeds the router's labeled questions once

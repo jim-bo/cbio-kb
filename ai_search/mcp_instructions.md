@@ -30,12 +30,44 @@ value; the paper describes the cohort at publication time.
   `get_paper(pmid)` for the detail you need.
 - **Factual question about findings** → `search_auto(query)` (routes to the cheapest
   strategy that works for the question), or `search_hybrid` directly; then
-  `get_paper` on the cited PMIDs to confirm context.
+  `get_passage(pmid, chunk_id)` for the exact wording and surrounding sentences,
+  and `verify_quote` on each sentence you'll quote.
 - **Cross-paper question about a gene / drug / cancer type / method** →
   `get_entity(kind, id)`, which lists the papers citing it; open the relevant ones
   with `get_paper`.
 - **Find papers by metadata** → `list_papers(search=…, gene=…, cancer_type=…, study_id=…)`.
 - **Freshness / coverage** → `corpus_info()`.
+
+## Citing evidence
+
+Every result says what kind of text it carries in `text_source`:
+
+- **Paper text**: verbatim from the paper's full text. Comes from `search_hybrid`,
+  `search_dense`, `search_auto`, `get_passage` and `verify_quote`.
+- **Wiki summary**: written by an LLM from the papers. Comes from `get_paper`,
+  `get_entity` and `read_wiki_page`. Use it to find papers and get oriented, not
+  as evidence to quote.
+
+In answers:
+
+- Back each key finding, and every number, with a short verbatim quote from the
+  paper. Find the sentence in paper text, confirm it with `verify_quote` (several
+  calls can run in parallel), then quote its `paper_wording` in quotation marks
+  and link it to its `pmc_link`, which opens the paper at that sentence. If a
+  quote doesn't verify, use one of its `closest` sentences or paraphrase.
+- Keep quotes and paraphrase distinct: quotation marks only around verified
+  words, with the PMID and link; a paraphrase gets the PMID alone.
+- Every number (percentage, p-value, hazard ratio, cohort size) must come from
+  paper text retrieved in this conversation. Confirm numbers from a wiki summary
+  in paper text first (`search_hybrid`, `get_passage`); if you can't, say the
+  figure comes from the knowledge base's summary. Never give numbers from memory.
+- Report each paper's figure separately, summary tables included. Don't combine
+  figures from different papers into a range, and don't present a subgroup or
+  intermediate figure as a paper's headline result.
+- State each figure's population as the paper does (a whole cohort is not one
+  cancer type within it).
+- Name papers by the title, first author and year the tools return, not by a
+  label you recall.
 
 ## Rules
 

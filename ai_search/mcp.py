@@ -33,6 +33,15 @@ Retrieval (need the ``data/paper_index`` FAISS + BM25 index):
   ``ANTHROPIC_API_KEY`` is set (or ``CBIO_KB_MCP_ENABLE_AGENTIC=1``), since it
   spends LLM tokens on the server's account.
 
+Paper text (need only the index's ``meta.jsonl``):
+
+- ``get_passage``   a passage of a paper's full text, verbatim, with neighbours.
+- ``verify_quote``  checks a quotation against the paper before it's presented
+  as one; returns the paper's wording and a PMC link to the sentence.
+
+Results carry ``text_source``: verbatim paper text, or a wiki summary written
+by an LLM from the papers.
+
 Configuration (CLI flags override env)::
 
     CBIO_KB_MCP_SERVER_TRANSPORT  stdio | http | sse   (default stdio)
@@ -52,17 +61,20 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import bisect
 import csv
 import difflib
 import json
 import os
 import re
 import sys
+import unicodedata
 from collections import defaultdict
 from dataclasses import dataclass, field
 from functools import lru_cache
 from pathlib import Path
 from typing import Annotated, Any, Literal
+from urllib.parse import quote as _urlquote
 
 from fastmcp import FastMCP
 from pydantic import Field
@@ -115,6 +127,7 @@ class Paper:
     tldr: str
     tags: list[str] = field(default_factory=list)
     entity_links: set[str] = field(default_factory=set)  # "genes/EGFR", ...
+    pmcid: str = ""
 
     @property
     def retracted(self) -> bool:
@@ -196,6 +209,7 @@ def catalog() -> Catalog:
         _, sections = _split_sections(text)
         tldr = next((s for h, s in sections if h.lower().startswith("tl;dr")), "")
         links = {f"{d}/{s}" for d, s in _ENTITY_LINK_RE.findall(text)}
+        pmcid = str(fm.get("pmcid") or "").strip()
         paper = Paper(
             pmid=f.stem,
             title=str(fm.get("title") or ""),
@@ -212,6 +226,7 @@ def catalog() -> Catalog:
             tldr=_plain(tldr)[:600],
             tags=_as_list(fm.get("tags")),
             entity_links=links,
+            pmcid=pmcid if re.fullmatch(r"PMC\d+", pmcid) else "",
         )
         papers[paper.pmid] = paper
         for key in links | {f"datasets/{d}" for d in paper.datasets}:
@@ -251,6 +266,10 @@ def _pubmed(pmid: str) -> str:
     return f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
 
 
+def _pmc_url(pmcid: str) -> str | None:
+    return f"https://pmc.ncbi.nlm.nih.gov/articles/{pmcid}/" if pmcid else None
+
+
 def _study_url(study_id: str) -> str:
     return f"{CBIOPORTAL_URL}/study/summary?id={study_id}"
 
@@ -268,6 +287,7 @@ def _paper_meta(p: Paper) -> dict[str, Any]:
         "cancer_types": p.cancer_types, "genes": p.genes[:40],
         "drugs": p.drugs, "methods": p.methods,
         "path": f"papers/{p.pmid}.md", "pubmed_url": _pubmed(p.pmid),
+        "pmc_url": _pmc_url(p.pmcid),
         "retracted": p.retracted,
     }
 
@@ -419,6 +439,13 @@ mcp = FastMCP(
 
 _RO = {"readOnlyHint": True, "idempotentHint": True, "openWorldHint": False}
 
+# Every text-bearing result says which kind of text it carries (`text_source`),
+# so clients can tell quotable paper text from the LLM-written wiki.
+_PAPER_TEXT = ("paper_text: verbatim from the paper's full text. Quote it only after "
+               "verify_quote confirms the wording.")
+_WIKI_TEXT = ("wiki_summary: written by an LLM from the papers. Don't quote it, and confirm "
+              "any number it gives in paper text (search_hybrid, get_passage) before reporting it.")
+
 StudyId = Annotated[str, Field(description="cBioPortal study identifier (cancer_study_identifier), e.g. 'msk_chord_2024'.")]
 Pmid = Annotated[str, Field(description="PubMed ID, e.g. '39506116'.")]
 Query = Annotated[str, Field(description="Natural-language question about the cBioPortal paper corpus.")]
@@ -489,7 +516,13 @@ def get_paper(
     ] = None,
     max_chars: Annotated[int, Field(description="Cap on returned section text.", ge=500, le=60000)] = 12000,
 ) -> dict:
-    """A corpus paper's metadata, the cBioPortal studies it backs, and chosen sections."""
+    """A corpus paper's metadata, the cBioPortal studies it backs, and chosen sections
+    of its wiki summary.
+
+    The summary is written by an LLM, not the paper's words: use it to orient,
+    confirm any number in the paper's own text (search_hybrid, get_passage)
+    before reporting it, and quote only what verify_quote confirms.
+    """
     cat = catalog()
     pid = _norm_pmid(pmid)
     paper = cat.papers.get(pid)
@@ -519,6 +552,7 @@ def get_paper(
             chosen = {h: _truncate(s, budget)[0] for h, s in chosen.items()}
     return {
         **_paper_meta(paper),
+        "text_source": _WIKI_TEXT,
         "sections": chosen,
         "available_sections": [h for h, _ in secs],
         "truncated": truncated,
@@ -598,7 +632,12 @@ def get_entity(
     max_chars: Annotated[int, Field(description="Cap on returned page text.", ge=500, le=60000)] = 12000,
 ) -> dict:
     """What the corpus says about a gene, cancer type, dataset, drug, method, or theme,
-    plus the papers that cite it (the entry point for cross-paper questions)."""
+    plus the papers that cite it (the entry point for cross-paper questions).
+
+    The page is an LLM-written summary across papers: use it to find papers,
+    confirm any number in paper text (search_hybrid, get_passage) before
+    reporting it, and quote only what verify_quote confirms.
+    """
     cat = catalog()
     folder = _ENTITY_DIRS[kind]
     stem = _resolve_entity(kind, id)
@@ -625,6 +664,7 @@ def get_entity(
     out: dict[str, Any] = {
         "kind": kind, "id": stem, "path": f"{folder}/{stem}.md",
         "properties": {k: v for k, v in fm.items() if k not in ("processed_by", "processed_at")},
+        "text_source": _WIKI_TEXT,
         "content": content, "truncated": truncated,
         "available_sections": [h for h, _ in secs],
         "cited_by": [p.brief() for p in citing[:50]],
@@ -659,7 +699,8 @@ def read_wiki_page(
     content, truncated = _truncate(text, max_chars)
     links = sorted({f"{d}/{s}.md" for d, s in _ENTITY_LINK_RE.findall(text)}
                    | {f"papers/{p}.md" for p in re.findall(r"papers/(\d+)\.(?:md|html)", text)})
-    return {"path": rel, "content": content, "truncated": truncated, "links": links}
+    return {"path": rel, "text_source": _WIKI_TEXT, "content": content, "truncated": truncated,
+            "links": links}
 
 
 @mcp.tool(annotations=_RO)
@@ -713,6 +754,7 @@ def _hybrid_sync(query: str, top_k: int, max_per_paper: int) -> dict[str, Any]:
             "graph": len(legs["graph"][0]), "fused": len(legs["fused"]),
         },
         "anchors": legs.get("anchors", []),
+        "text_source": _PAPER_TEXT,
         "passages": _passage_view(legs["final"], top_k, max_per_paper),
     }
     if legs.get("dense_error"):
@@ -724,7 +766,7 @@ def _hybrid_sync(query: str, top_k: int, max_per_paper: int) -> dict[str, Any]:
 def _dense_sync(query: str, top_k: int) -> dict[str, Any]:
     from . import rag
 
-    return {"mode": "dense", "query": query,
+    return {"mode": "dense", "query": query, "text_source": _PAPER_TEXT,
             "passages": _passage_view(rag.retrieve(query, top_k=max(top_k, 8)), top_k)}
 
 
@@ -778,9 +820,10 @@ async def search_hybrid(
     """Passage search: dense + BM25 + wiki-graph 1-hop, RRF-fused and cross-encoder reranked.
 
     Best first call for factual and definitional questions. Each passage carries
-    its PMID, title, and the cBioPortal study_ids that paper backs. Runs as
-    BM25 + graph (flagged under `degraded`) when the server has no Vertex
-    credentials.
+    its PMID, title, and the cBioPortal study_ids that paper backs. Passages are
+    the paper's own words: read around one with get_passage, and confirm a quote
+    with verify_quote, which also returns a link to the sentence. Runs as BM25 +
+    graph (flagged under `degraded`) when the server has no Vertex credentials.
     """
     return await _do_hybrid(query, top_k, max_per_paper)
 
@@ -836,6 +879,322 @@ if _agentic_enabled():
             return _err(f"search_agentic failed: {type(e).__name__}: {e}")
 
 
+# ---- paper text: get_passage / verify_quote ---------------------------------
+#
+# Both read the passage index's copy of each paper's full text, which ships
+# with the server (the raw papers in data/raw/ don't).
+
+_MIN_SEGMENT_CHARS = 8  # letters and digits per quoted segment; shorter matches anywhere
+_ELLIPSIS_RE = re.compile(r"\s*(?:\[\s*(?:\.\.\.|…)\s*\]|\.\.\.|…)\s*")
+_SENTENCE_END_RE = re.compile(r"(?<=[.!?])\s+(?=[A-Z0-9(\[])")
+_TRANSLATE = {
+    **dict.fromkeys(map(ord, "‐‑‒–—―−﹣－"), "-"),
+    **dict.fromkeys(map(ord, "‘’‚‛′"), "'"),
+    **dict.fromkeys(map(ord, "“”„‟″"), '"'),
+}
+
+
+@dataclass
+class PaperText:
+    """A paper's full text rebuilt from the passage index, and where each chunk starts."""
+
+    text: str
+    chunk_ids: list[int]
+    starts: list[int]
+
+    def chunk_at(self, offset: int) -> int:
+        return self.chunk_ids[max(0, bisect.bisect_right(self.starts, offset) - 1)]
+
+    def chunk_text(self, chunk_id: int) -> str:
+        i = self.chunk_ids.index(chunk_id)
+        end = self.starts[i + 1] if i + 1 < len(self.starts) else len(self.text)
+        return self.text[self.starts[i]:end].strip()
+
+
+@lru_cache(maxsize=1)
+def _paper_texts() -> dict[str, PaperText]:
+    """Every indexed paper's continuous text, rebuilt from ``meta.jsonl``.
+
+    Each chunk repeats the last ``overlap`` characters of the one before it
+    (``cbio_kb.index.papers._chunk_sentences``). Dropping that prefix restores
+    the text exactly, so a quote that crosses a chunk boundary still matches.
+    """
+    overlap = int((_read_json(INDEX_DIR / "index_config.json") or {}).get("overlap") or 0)
+    chunks: dict[str, list[tuple[int, str]]] = defaultdict(list)
+    with (INDEX_DIR / "meta.jsonl").open(encoding="utf-8") as fh:
+        for line in fh:
+            rec = json.loads(line)
+            chunks[str(rec["pmid"])].append((int(rec["chunk_id"]), rec["text"]))
+    out: dict[str, PaperText] = {}
+    for pmid, recs in chunks.items():
+        recs.sort()
+        parts: list[str] = []
+        ids: list[int] = []
+        starts: list[int] = []
+        pos, prev = 0, ""
+        for cid, raw in recs:
+            tail = prev[-overlap:] if overlap else ""
+            body = raw[len(tail):].lstrip() if tail and raw.startswith(tail) else raw
+            sep = " " if parts else ""
+            ids.append(cid)
+            starts.append(pos + len(sep))
+            parts.append(sep + body)
+            pos += len(sep) + len(body)
+            prev = raw
+        out[pmid] = PaperText("".join(parts), ids, starts)
+    return out
+
+
+def _normalize(text: str, loose: bool = False) -> tuple[str, list[int]]:
+    """``text`` normalized for quote matching, plus the offset in ``text`` of
+    each normalized character.
+
+    Applies NFKC (so ``10⁻⁷`` reads ``10-7``), one style of dash and quote
+    mark, case folding, collapsed whitespace, and rejoined line-break
+    hyphenation (``non- synonymous``). ``loose`` keeps only letters and digits.
+    """
+    out: list[str] = []
+    pos: list[int] = []
+    for i, ch in enumerate(text):
+        norm = ch.lower() if ch.isascii() else (
+            unicodedata.normalize("NFKC", ch).translate(_TRANSLATE).casefold())
+        for c in norm:
+            if loose:
+                if c.isalnum():
+                    out.append(c)
+                    pos.append(i)
+            elif c.isspace():
+                if out and out[-1] != " " and not (
+                        out[-1] == "-" and len(out) > 1 and out[-2].isalpha()):
+                    out.append(" ")
+                    pos.append(i)
+            else:
+                out.append(c)
+                pos.append(i)
+    return "".join(out), pos
+
+
+def _loose(text: str) -> str:
+    """Letters and digits only, case-folded: the fast form of ``_normalize(loose=True)``."""
+    return re.sub(r"[\W_]+", "", unicodedata.normalize("NFKC", text).casefold())
+
+
+def _quote_segments(quote: str) -> list[str]:
+    """Split a quotation at its ellipses; strip surrounding quotation marks."""
+    q = quote.strip().strip("\"'“”‘’«»").strip()
+    return [s for s in _ELLIPSIS_RE.split(q) if s.strip()]
+
+
+def _find_in_order(hay: str, segments: list[str], max_gap: int = 1500) -> tuple[int, int] | None:
+    """Span of ``segments`` found in order in ``hay``, each within ``max_gap`` of the last."""
+    start = 0
+    while (first := hay.find(segments[0], start)) >= 0:
+        end = first + len(segments[0])
+        for seg in segments[1:]:
+            nxt = hay.find(seg, end)
+            if nxt < 0 or nxt - end > max_gap:
+                break
+            end = nxt + len(seg)
+        else:
+            return first, end
+        start = first + 1
+    return None
+
+
+def _match_quote(pt: PaperText, segments: list[str]) -> tuple[str, int, int] | None:
+    """(match level, start, end) of the quotation in the paper's text: exact up to
+    whitespace, then ``normalized``, then ``loose``."""
+    pattern = r".{0,1500}?".join(r"\s+".join(map(re.escape, s.split())) for s in segments)
+    if m := re.search(pattern, pt.text, flags=re.DOTALL):
+        return "exact", m.start(), m.end()
+    for level, loose in (("normalized", False), ("loose", True)):
+        segs = [_normalize(s, loose)[0].strip() for s in segments]
+        hay, pos = _normalize(pt.text, loose)
+        if all(segs) and (span := _find_in_order(hay, segs)):
+            return level, pos[span[0]], pos[span[1] - 1] + 1
+    return None
+
+
+def _closest(pt: PaperText, quote: str, n: int = 3) -> list[dict]:
+    """The paper's sentences (and adjacent pairs) most like ``quote``."""
+    bounds = [0, *(m.end() for m in _SENTENCE_END_RE.finditer(pt.text)), len(pt.text)]
+    spans = [(bounds[i], bounds[i + 1]) for i in range(len(bounds) - 1)]
+    spans += [(bounds[i], bounds[i + 2]) for i in range(len(bounds) - 2)]
+    words = set(re.findall(r"\w+", quote.lower()))
+    if not words:
+        return []
+    overlap = sorted(spans, key=lambda s: -len(words & set(re.findall(r"\w+", pt.text[s[0]:s[1]].lower()))))
+    target = _loose(quote)
+    scored = []
+    for a, b in overlap[:25]:
+        ratio = difflib.SequenceMatcher(None, target, _loose(pt.text[a:b]), autojunk=False).ratio()
+        scored.append((ratio, a, b))
+    scored.sort(reverse=True)
+    picked: list[tuple[float, int, int]] = []
+    for r, a, b in scored:  # a sentence and a pair containing it are one candidate
+        if r >= 0.3 and len(picked) < n and all(b <= pa or a >= pb for _, pa, pb in picked):
+            picked.append((r, a, b))
+    return [{"chunk_id": pt.chunk_at(a), "text": " ".join(pt.text[a:b].split())[:700],
+             "similarity": round(r, 2)} for r, a, b in picked]
+
+
+@lru_cache(maxsize=1)
+def _loose_corpus() -> tuple[str, list[int], list[str]]:
+    """Every indexed paper's text in ``_loose`` form, joined with ``|``, with each
+    paper's start offset: finds the paper a misattributed quote comes from."""
+    parts, starts, pmids, pos = [], [], [], 0
+    for pmid, pt in _paper_texts().items():
+        s = _loose(pt.text)
+        parts.append(s)
+        starts.append(pos)
+        pmids.append(pmid)
+        pos += len(s) + 1
+    return "|".join(parts), starts, pmids
+
+
+def _found_elsewhere(segments: list[str], exclude: str, limit: int = 5) -> list[dict]:
+    corpus, starts, pmids = _loose_corpus()
+    needle = max((_loose(s) for s in segments), key=len)
+    papers = catalog().papers
+    found: list[dict] = []
+    at = corpus.find(needle)
+    while at >= 0 and len(found) < limit:
+        pmid = pmids[bisect.bisect_right(starts, at) - 1]
+        if pmid != exclude and all(f["pmid"] != pmid for f in found):
+            found.append(papers[pmid].brief() if pmid in papers else {"pmid": pmid})
+        at = corpus.find(needle, at + 1)
+    return found
+
+
+def _pmc_link(pmcid: str, passage: str) -> str | None:
+    """PMC link that scrolls to ``passage`` (a text fragment, ``#:~:text=``).
+
+    Uses the passage's longest run of plain words: numbers, symbols and
+    hyphenation often read differently on PMC than in the extracted text. If
+    PMC words the run differently, or the browser lacks text fragments, the
+    link still opens the paper.
+    """
+    base = _pmc_url(pmcid)
+    if base is None:
+        return None
+    best: list[str] = []
+    run: list[str] = []
+    for tok in passage.split():
+        word = tok.rstrip(",;:.")
+        if not re.fullmatch(r"[A-Za-z]+", word):
+            run = []
+            continue
+        run.append(word)
+        if len(run) > len(best):
+            best = list(run)
+        if word != tok:  # trailing punctuation ends the run
+            run = []
+    if len(best) < 3:
+        return base
+    return base + "#:~:text=" + _urlquote(" ".join(best[:10]), safe="").replace("-", "%2D")
+
+
+def _text_for(pid: str) -> PaperText | dict[str, Any]:
+    if not (INDEX_DIR / "meta.jsonl").exists():
+        return _err(f"Passage index not found at {INDEX_DIR}, so paper text is unavailable. "
+                    "get_paper returns the wiki summary.")
+    pt = _paper_texts().get(pid)
+    if pt is not None:
+        return pt
+    if pid in catalog().papers:
+        return _err(f"PMID {pid} has a wiki page but isn't in the passage index yet.")
+    return _err(f"PMID {pid} is not in the corpus.")
+
+
+def _paper_brief(pid: str) -> dict[str, Any]:
+    p = catalog().papers.get(pid)
+    return {"pmid": pid, **({"title": p.title, "year": p.year} if p else {}),
+            "pubmed_url": _pubmed(pid), "pmc_url": _pmc_url(p.pmcid) if p else None}
+
+
+@mcp.tool(annotations=_RO)
+def get_passage(
+    pmid: Pmid,
+    chunk_id: Annotated[int, Field(description="Passage number, from a search result's chunk_id "
+                                               "or verify_quote's.", ge=0)],
+    context: Annotated[int, Field(description="Neighbouring passages to include on each side.",
+                                  ge=0, le=3)] = 1,
+) -> dict:
+    """Read a passage of a paper's full text verbatim, with its neighbours.
+
+    Use it to check the exact wording, the surrounding sentences, and what a
+    statistic refers to before quoting or reporting a number from a search result.
+    """
+    pid = _norm_pmid(pmid)
+    pt = _text_for(pid)
+    if isinstance(pt, dict):
+        return pt
+    if chunk_id not in pt.chunk_ids:
+        return _err(f"PMID {pid} has passages {pt.chunk_ids[0]}-{pt.chunk_ids[-1]}.")
+    ids = [c for c in pt.chunk_ids if abs(c - chunk_id) <= context]
+    return {
+        **_paper_brief(pid),
+        "text_source": _PAPER_TEXT,
+        "passages": [{"chunk_id": c, "text": pt.chunk_text(c)} for c in ids],
+        "n_passages": len(pt.chunk_ids),
+    }
+
+
+@mcp.tool(annotations=_RO)
+def verify_quote(
+    pmid: Pmid,
+    quote: Annotated[str, Field(description="The exact words you intend to put in quotation marks. "
+                                            "Mark omissions with '...'.")],
+) -> dict:
+    """Check that a quotation appears in a paper's full text before presenting it as a quote.
+
+    Tries an exact match (ignoring whitespace), then `normalized` (also
+    ignoring case, dash and quote-mark styles, superscripts and line-break
+    hyphenation), then `loose` (letters and digits only). A match returns the
+    paper's own wording to quote, the passage it's in, and `pmc_link`, which
+    opens the paper at that sentence. No match returns the paper's closest
+    sentences and any other corpus papers that contain the text.
+    """
+    pid = _norm_pmid(pmid)
+    segments = _quote_segments(quote)
+    if not segments or any(len(_loose(s)) < _MIN_SEGMENT_CHARS for s in segments):
+        return _err(f"Quote too short to verify: each part needs at least {_MIN_SEGMENT_CHARS} "
+                    "letters or digits.")
+    pt = _text_for(pid)
+    if isinstance(pt, dict):
+        return pt
+    brief = _paper_brief(pid)
+    hit = _match_quote(pt, segments)
+    if hit is None:
+        return {
+            **brief, "verified": False, "text_source": _PAPER_TEXT,
+            "closest": _closest(pt, " ".join(segments)),
+            "found_in_other_papers": _found_elsewhere(segments, pid),
+            "note": ("Not in this paper's text, so don't present it as a quote. Paraphrase it "
+                     "with the PMID, quote one of `closest` if it says the same thing, or cite "
+                     "the paper in `found_in_other_papers` that contains it."),
+        }
+    level, a, b = hit
+    wording = " ".join(pt.text[a:b].split())
+    lo, hi = max(0, a - 200), min(len(pt.text), b + 200)
+    context = " ".join(pt.text[lo:hi].split())
+    out: dict[str, Any] = {
+        **brief, "verified": True, "match": level, "text_source": _PAPER_TEXT,
+        "paper_wording": wording,
+        "chunk_id": pt.chunk_at(a),
+        "context": ("…" if lo else "") + context + ("…" if hi < len(pt.text) else ""),
+        "pmc_link": _pmc_link(catalog().papers[pid].pmcid, wording) if pid in catalog().papers else None,
+    }
+    notes = []
+    if level != "exact":
+        notes.append("Matched only after normalizing formatting: quote `paper_wording`, not your version.")
+    if len(segments) > 1:
+        notes.append("`paper_wording` includes the text your ellipses omit.")
+    if notes:
+        out["note"] = " ".join(notes)
+    return out
+
+
 # ---- resources + health ----------------------------------------------------
 
 
@@ -883,6 +1242,7 @@ def _warm_retrieval() -> None:
 
         hybrid.BM25Index.get()
         hybrid.GraphIndex.get()
+        _loose_corpus()  # also builds _paper_texts() for get_passage / verify_quote
         if hybrid._RERANK_ENABLED_DEFAULT:
             hybrid._Reranker.get()
         if _dense_available():  # embeds the router's labeled questions once

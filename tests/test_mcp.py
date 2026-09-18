@@ -27,7 +27,8 @@ def test_tools_and_instructions_are_exposed():
             return names, c.initialize_result.instructions
     names, instructions = asyncio.run(_go())
     assert {"get_study_papers", "get_paper", "list_papers", "get_entity", "read_wiki_page",
-            "corpus_info", "search_hybrid", "search_dense", "search_auto", "route_query"} <= names
+            "corpus_info", "search_hybrid", "search_dense", "search_auto", "route_query",
+            "get_passage", "verify_quote"} <= names
     # Must not collide with cbioportal-mcp / cbioportal-navigator tool names.
     assert not names & {"list_studies", "get_study_guide", "list_guides", "read_guide",
                         "search_oncotree", "resolve_and_route", "clickhouse_run_select_query"}
@@ -121,6 +122,95 @@ def test_health_route():
     with TestClient(m.mcp.http_app()) as client:
         r = client.get("/health")
     assert r.status_code == 200 and r.json()["service"] == "cbio-kb"
+
+
+@pytest.fixture
+def paper_index(tmp_path, monkeypatch):
+    """A two-paper passage index chunked like build-papers: each chunk repeats
+    the last `overlap` characters of the one before it."""
+    overlap = 20
+    papers = {
+        "18948947": ["KRAS mutations correlate with smoker status (P=0.021).",
+                     ("The negative correlation of mutations in EGFR and KRAS was confirmed "
+                      "(P < 1 × 10-07), with no sample having both."),
+                     "Mutations at non- synonymous sites were common."],
+        "25079552": ["Cancer-associated mutations in KRAS (32%, n =74) were common.",
+                     "This increases the fraction with RTK/RAS/RAF activation from 62% to 76%."],
+    }
+    lines = []
+    for pmid, sentences in papers.items():
+        prev = ""
+        for i, s in enumerate(sentences):
+            text = f"{prev[-overlap:]} {s}" if prev else s
+            lines.append(json.dumps({"pmid": pmid, "chunk_id": i, "text": text}))
+            prev = text
+    (tmp_path / "meta.jsonl").write_text("\n".join(lines) + "\n")
+    (tmp_path / "index_config.json").write_text(json.dumps({"overlap": overlap}))
+    monkeypatch.setattr(m, "INDEX_DIR", tmp_path)
+    m._paper_texts.cache_clear()
+    m._loose_corpus.cache_clear()
+    yield
+    m._paper_texts.cache_clear()
+    m._loose_corpus.cache_clear()
+
+
+def test_get_passage_returns_text_without_chunk_overlap(paper_index):
+    out = call("get_passage", pmid="18948947", chunk_id=1, context=1)
+    assert [p["chunk_id"] for p in out["passages"]] == [0, 1, 2]
+    assert out["passages"][1]["text"].startswith("The negative correlation")
+    assert out["text_source"].startswith("paper_text")
+    assert out["pmc_url"] == "https://pmc.ncbi.nlm.nih.gov/articles/PMC2694412/"
+    assert "passages 0-2" in call("get_passage", pmid="18948947", chunk_id=9)["error_message"]
+
+
+def test_verify_quote_exact_across_a_chunk_boundary(paper_index):
+    out = call("verify_quote", pmid="PMID:18948947",
+               quote="“with no sample having both. Mutations at non- synonymous sites”")
+    assert out["verified"] and out["match"] == "exact" and out["chunk_id"] == 1
+    link = call("verify_quote", pmid="18948947",
+                quote="KRAS mutations correlate with smoker status (P=0.021)")["pmc_link"]
+    assert link == ("https://pmc.ncbi.nlm.nih.gov/articles/PMC2694412/"
+                    "#:~:text=KRAS%20mutations%20correlate%20with%20smoker%20status")
+
+
+@pytest.mark.parametrize("quote, level", [
+    ("mutations in EGFR and KRAS was confirmed (P < 1 × 10–07)", "normalized"),  # en dash
+    ("Mutations at non-synonymous sites were common", "normalized"),             # hyphenation
+    ("Mutations at nonsynonymous sites were common", "loose"),
+    ("KRAS mutations correlate with smoker status ... negative correlation of mutations", "exact"),
+])
+def test_verify_quote_match_levels(paper_index, quote, level):
+    out = call("verify_quote", pmid="18948947", quote=quote)
+    assert out["verified"] and out["match"] == level
+    if level != "exact":
+        assert "paper_wording" in out["note"]
+
+
+def test_verify_quote_miss_points_to_closest_and_the_right_paper(paper_index):
+    out = call("verify_quote", pmid="18948947", quote="Cancer-associated mutations in KRAS (32%, n =74)")
+    assert out["verified"] is False
+    assert [p["pmid"] for p in out["found_in_other_papers"]] == ["25079552"]
+    made_up = call("verify_quote", pmid="25079552",
+                   quote="RTK/RAS/RAF activation was found in 62-85% of tumours")
+    assert made_up["verified"] is False and "62% to 76%" in made_up["closest"][0]["text"]
+
+
+def test_verify_quote_errors(paper_index, tmp_path):
+    assert "too short" in call("verify_quote", pmid="18948947", quote="KRAS")["error_message"]
+    assert "not in the corpus" in call("verify_quote", pmid="1", quote="some long enough quote")["error_message"]
+    (tmp_path / "meta.jsonl").unlink()
+    assert "Passage index not found" in call("get_passage", pmid="18948947", chunk_id=0)["error_message"]
+
+
+def test_wiki_results_are_labeled_as_summaries():
+    assert call("get_paper", pmid="39506116")["text_source"].startswith("wiki_summary")
+    assert call("get_entity", kind="gene", id="EGFR", max_chars=500)["text_source"].startswith("wiki_summary")
+
+
+@pytest.mark.skipif(not (m.INDEX_DIR / "meta.jsonl").exists(), reason="needs the built passage index")
+def test_verify_quote_on_the_real_index():
+    out = call("verify_quote", pmid="18948947", quote="KRAS mutations correlate with smoker status (P=0.021)")
+    assert out["verified"] and out["match"] == "exact"
 
 
 def test_retracted_paper_is_flagged():

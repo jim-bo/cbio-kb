@@ -35,9 +35,17 @@ with either server's.
 | `search_hybrid(query, top_k, max_per_paper)` | Dense + BM25 + wiki-graph passages, RRF-fused and reranked. | passage index |
 | `search_dense(query, top_k)` | Dense-only passages. | passage index |
 | `route_query(query)` / `search_auto(query)` | The eval-trained router: lookup/definition → hybrid, list/synthesis → agentic (or hybrid plus a walk hint when agentic is off). | passage index |
+| `get_passage(pmid, chunk_id, context)` | A passage of the paper's full text, verbatim, with its neighbours: the exact wording behind a search result. | passage index (`meta.jsonl`) |
+| `verify_quote(pmid, quote)` | Checks a quotation against the paper's full text before it's presented as one. A match returns the paper's own wording and a PMC link that opens at that sentence; no match returns the closest sentences and any other papers containing the text. | passage index (`meta.jsonl`) |
 | `search_agentic(query)` | Server-side graph-walking agent that returns a cited answer. Only registered when `ANTHROPIC_API_KEY` is set (or `CBIO_KB_MCP_ENABLE_AGENTIC=1`), because it spends tokens on the server's account. | `ANTHROPIC_API_KEY` |
 
 Resources: `cbio-kb://guide`, `cbio-kb://paper/{pmid}`, `cbio-kb://study/{study_id}`.
+
+Every result with text says which kind in `text_source`: verbatim paper text
+(search tools, `get_passage`, `verify_quote`), or a wiki summary written by an
+LLM from the papers (`get_paper`, `get_entity`, `read_wiki_page`). The server
+instructions tell clients to quote only verified paper text and to take numbers
+from paper text; see `notes/GROUNDING.md` for why.
 
 Queries are embedded locally with the model that built the passage index
 (recorded in `data/paper_index/index_config.json`), so search needs no cloud

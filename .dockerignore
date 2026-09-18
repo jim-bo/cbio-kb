@@ -8,9 +8,9 @@ __pycache__/
 *.pyo
 .venv/
 
-# Local env + secrets (never ship into an image)
-.env
-.env.*
+# Local env + secrets (never ship into an image), at any depth
+**/.env
+**/.env.*
 .claude/
 .claude.json
 credentials.json

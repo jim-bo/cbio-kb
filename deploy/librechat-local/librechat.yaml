@@ -1,0 +1,117 @@
+# LibreChat config for trying cbio-kb locally (deploy/librechat-local/).
+#
+# Based on cBioPortal's cbioagent-beta config with the patches in
+# deploy/cbioagent/, trimmed to what runs on a laptop: no pre-built agents
+# (those live in cBioPortal's MongoDB), no Bedrock, no balance limits, and
+# no ClickHouse database MCP (it needs cBioPortal's private database).
+version: 1.2.1
+cache: true
+
+mcpSettings:
+  allowedDomains:
+    - 'cbio-kb-mcp'
+    - 'cbioportal-navigator'
+
+interface:
+  customWelcome: "cbio-kb local: ask what the papers behind cBioPortal studies found."
+  customFooter: ""
+  mcpServers:
+    placeholder: 'MCP Servers'
+  agents: true
+  modelSelect: true
+  parameters: true
+  sidePanel: true
+  presets: false
+  prompts: false
+  bookmarks: false
+  multiConvo: false
+  runCode: false
+  webSearch: false
+
+registration:
+  socialLogins: []
+
+mcpServers:
+  cbioportal-literature:
+    type: streamable-http
+    url: http://cbio-kb-mcp:8124/lit/mcp
+    # Adds the server's own usage instructions (how to route between the
+    # cBioPortal servers, how to cite and quote) to the prompt.
+    serverInstructions: true
+    timeout: 60000
+    # No per-user headers (cbio-kb doesn't use them): LibreChat skips its
+    # startup connection to servers with {{LIBRECHAT_USER_*}} placeholders,
+    # so it never fetches their instructions and injects the literal `true`.
+  cbioportal-navigator:
+    type: streamable-http
+    url: http://cbioportal-navigator:8002/mcp
+    headers:
+      x-user-id: "{{LIBRECHAT_USER_ID}}"
+      x-user-email: "{{LIBRECHAT_USER_EMAIL}}"
+
+# Production opens on a pre-built agent (an agent_id in cBioPortal's MongoDB).
+# A fresh local MongoDB has no agents, and a chat sent to the Agents endpoint
+# without one fails with "agent_id is required in request body". These specs
+# use Claude directly with MCP servers enabled instead.
+#
+# maxContextTokens is required: this LibreChat build predates the Claude 5
+# models, so it would otherwise assume a ~34k window and prune every message.
+# Tool definitions differ a lot in size: cbio-kb's 12 tools are ~9k characters,
+# cbioportal-navigator's 6 are ~101k (LibreChat counted ~88k tokens for both in
+# 2026-09), so the navigator is only in the second spec.
+modelSpecs:
+  enforce: false
+  prioritize: true
+  addedEndpoints:
+    - agents
+    - anthropic
+  list:
+    - name: "cbio-kb-local"
+      label: "cBioPortal Literature (local)"
+      default: true
+      description: "Claude with the cbio-kb literature server."
+      placeholder: "Ask what the papers behind cBioPortal studies found"
+      mcpServers:
+        - cbioportal-literature
+      conversation_starters:
+        - "What did the paper behind msk_impact_50k_2026 find about RRAS2?"
+        - "Which papers in the corpus report MET amplification in NSCLC?"
+        - "What does the literature say about APOBEC mutagenesis and endocrine resistance in breast cancer?"
+      preset:
+        endpoint: "anthropic"
+        model: "claude-sonnet-4-6"
+        modelLabel: "cBioPortal Literature"
+        maxContextTokens: 200000
+        promptCache: true
+        # Sonnet 4.6, not 5: this build asks for no thinking display, and Sonnet 5
+        # then omits the thinking text. LibreChat replays that empty thinking
+        # block and the API rejects the turn ("thinking.thinking: Field
+        # required"). Its thinkingDisplay setting is dropped by the client for
+        # models it believes don't need it, so config can't work around it.
+    - name: "cbio-kb-local-navigator"
+      label: "Literature + Navigator (local)"
+      description: "Adds cbioportal-navigator for cBioPortal links, as in production. Its tool definitions add ~85k tokens per model call."
+      placeholder: "Ask about the literature and get cBioPortal links"
+      mcpServers:
+        - cbioportal-literature
+        - cbioportal-navigator
+      conversation_starters:
+        - "Which papers report MET amplification in NSCLC? Link me to those studies in cBioPortal."
+        - "Summarize what the paper behind msk_impact_50k_2026 found about RRAS2 and give me an OncoPrint link."
+      preset:
+        endpoint: "anthropic"
+        model: "claude-sonnet-4-6"
+        modelLabel: "Literature + Navigator"
+        maxContextTokens: 200000
+        promptCache: true
+        # Sonnet 4.6, not 5: this build asks for no thinking display, and Sonnet 5
+        # then omits the thinking text. LibreChat replays that empty thinking
+        # block and the API rejects the turn ("thinking.thinking: Field
+        # required"). Its thinkingDisplay setting is dropped by the client for
+        # models it believes don't need it, so config can't work around it.
+
+endpoints:
+  agents:
+    recursionLimit: 50
+    maxRecursionLimit: 100
+    disableBuilder: false

@@ -1,0 +1,79 @@
+# Try cbio-kb in LibreChat on a laptop, the way cBioPortalChat would use it.
+#
+#   (once) create deploy/librechat-local/.env with the command in .env.example
+#   docker compose -f deploy/librechat-local/compose.yml up -d --build
+#   open http://localhost:3080   # register a local account, then chat
+#   docker compose -f deploy/librechat-local/compose.yml down      # stop
+#   docker compose -f deploy/librechat-local/compose.yml down -v   # also drop chats/accounts
+#
+# Needs data/paper_index/ (built with `cbio-kb index build-papers`) and an
+# ANTHROPIC_API_KEY in the repo's .env; Claude calls are billed to that key.
+# Accounts, chats and agents live only in this stack's MongoDB volume.
+# eval/chat_experiment/ times and scores answers against this stack.
+name: cbio-kb-librechat
+
+services:
+  cbio-kb-mcp:
+    build:
+      context: ../..
+      dockerfile: docker/mcp.Dockerfile
+    image: cbio-kb-mcp:local
+    environment:
+      CBIO_KB_MCP_HTTP_PATH: /lit/mcp
+      FASTMCP_STATELESS_HTTP: "true"
+      CBIO_ONNX_THREADS: "2"
+    volumes:
+      - ../../data/paper_index:/app/data/paper_index:ro
+
+  cbioportal-navigator:
+    image: ghcr.io/cbioportal/cbioportal-navigator:latest
+    environment:
+      MCP_TRANSPORT: http
+      PORT: "8002"
+      CBIOPORTAL_BASE_URL: https://www.cbioportal.org
+
+  mongodb:
+    # 8.0 refuses to start on Linux 6.19+ kernels (e.g. current OrbStack).
+    image: mongo:8.2
+    volumes:
+      - mongo-data:/data/db
+
+  librechat:
+    # cBioPortal's LibreChat build, as deployed at chat.cbioportal.org.
+    image: cbioportal/librechat:v0.8.7-custom-v1
+    ports:
+      - "127.0.0.1:3080:3080"
+    env_file:
+      - ../../.env          # ANTHROPIC_API_KEY
+    environment:
+      HOST: 0.0.0.0
+      PORT: "3080"
+      MONGO_URI: mongodb://mongodb:27017/LibreChat
+      CONFIG_PATH: /app/librechat.yaml
+      DOMAIN_CLIENT: http://localhost:3080
+      DOMAIN_SERVER: http://localhost:3080
+      ALLOW_REGISTRATION: "true"
+      ALLOW_EMAIL_LOGIN: "true"
+      ALLOW_SOCIAL_LOGIN: "false"
+      ALLOW_UNVERIFIED_EMAIL_LOGIN: "true"
+      SEARCH: "false"
+      ENDPOINTS: agents,anthropic
+      # No claude-sonnet-5: this LibreChat build gets empty thinking blocks
+      # from it and fails on the next tool turn (see librechat.yaml).
+      ANTHROPIC_MODELS: claude-sonnet-4-6,claude-opus-5,claude-opus-4-8,claude-haiku-4-5
+      ANTHROPIC_TITLE_MODEL: claude-haiku-4-5
+      # From ./.env (gitignored), which Compose reads for interpolation; create
+      # it with the command in .env.example.
+      CREDS_KEY: ${CREDS_KEY:?create deploy/librechat-local/.env, see .env.example}
+      CREDS_IV: ${CREDS_IV:?create deploy/librechat-local/.env, see .env.example}
+      JWT_SECRET: ${JWT_SECRET:?create deploy/librechat-local/.env, see .env.example}
+      JWT_REFRESH_SECRET: ${JWT_REFRESH_SECRET:?create deploy/librechat-local/.env, see .env.example}
+    volumes:
+      - ./librechat.yaml:/app/librechat.yaml:ro
+    depends_on:
+      - mongodb
+      - cbio-kb-mcp
+      - cbioportal-navigator
+
+volumes:
+  mongo-data:

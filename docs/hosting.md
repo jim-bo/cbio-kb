@@ -38,6 +38,7 @@ deploy/compose.yml           one host: MCP server, and the chat API with --profi
 deploy/k8s/mcp.yaml          Deployment + Service, MCP at /lit/mcp (drop-in for cBioPortal's cluster)
 deploy/k8s/chat.yaml         Deployment + Service + Ingress, chat at /api/chat
 deploy/cbioagent/            patches adding the MCP server to chat.cbioportal.org (LibreChat, /lit ingress)
+deploy/librechat-local/      try the MCP server in cBioPortal's LibreChat build on a laptop
 deploy/cloudrun/             Cloud Run only: Cloud Build config + manual deploy script
 wiki/ask-config.js           the website's only deployment-specific value (chat API URL)
 .github/workflows/           test.yml, website.yml, chat-api.yml, mcp-server.yml

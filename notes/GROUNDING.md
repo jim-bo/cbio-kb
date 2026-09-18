@@ -51,6 +51,12 @@ model from building a range no paper states.
 | 4 | Links that land on the quoted sentence | To do |
 | 5 | Grounding score in the eval | To do |
 | 6 | Sentence-level provenance in the wiki | Later |
+| 7 | Answer-first shape in the instructions | Tested 2026-09-18: faster, shorter; adopt |
+| 8 | Quote-ready sentences in search results | To do (with 3); needed, see experiment |
+| 9 | Native `search_result` citations and post-stream checks in `/ask` | To do |
+| 10 | Evidence panel as an MCP App, with cBioPortal | Later |
+
+Items 7–10 come from the research on responsive grounded chat below.
 
 **1. Citation contract** (`ai_search/mcp_instructions.md`). These
 instructions reach every client, cBioPortal's agent included.
@@ -74,7 +80,8 @@ pattern `dsbook-kb` uses.
   there is no exact match.
 
 **3. Re-chunk with anchors** (`src/cbio_kb/index/papers.py`, then a full
-`index build-papers`).
+`index build-papers`). Now the most urgent item: see "Source text quality"
+under the experiment below.
 - Split on paragraphs within sections and overlap by whole sentences.
 - Record `section`, `paragraph`, and `char_start`/`char_end` into the raw file.
 - Drop reference lists and PMC manuscript boilerplate.
@@ -100,6 +107,123 @@ claims extractor and `scripts/verify_paper.py` are a head start.
 page writer attach a passage anchor to each bullet, so even summary claims
 point at a sentence. That's a tier-3 reprocess of every paper, so it's only
 worth doing once 1–5 have shown the anchors hold up.
+
+## Research: responsive grounded chat
+
+Collected 2026-09-18, after verified quotes made the RAS answer take 111 s (6
+model rounds, 16 tool calls, 9.7k characters). Our tools took a few seconds of
+that; the model's sequential rounds and the length of the answer took the rest.
+
+**What others converge on**
+
+- *Answer first, short, then offer follow-ups.* Users treat AI chat like a
+  search bar, skim, and want the essential answer first with follow-ups for the
+  rest; ask clarifying questions only when ambiguity would give a wrong answer
+  ([NN/g][nng]). OpenAI's Model Spec says to make a reasonable assumption, state
+  it and answer ([Model Spec][spec]); unsatisfying conversations have more
+  clarifying back-and-forth ([arXiv 2407.13166][clarify]).
+- *Retrieve once, then write.* Perplexity assembles sources and citation markers
+  into the prompt before generating, then streams ([ZipTie][pplx]). Multi-step
+  agentic retrieval costs 16–22× the inference time of single-step retrieval,
+  about 90% of it in the model's own thought and query generation
+  ([LatentRAG][latent]).
+- *Cite fewer things, better.* In deep-research agents, citation accuracy fell
+  ~42% as tool calls grew from 2 to 150 while link validity stayed above 92%;
+  selective citation beat exhaustive citation ([arXiv 2605.06635][cited]).
+- *Stream now, verify after.* Gemini's double-check highlights sentences green
+  or orange after the answer ([Gemini help][gemini]). For high-stakes domains, a
+  NeurIPS 2025 comparison recommends retrieval-centric, post-hoc citation
+  ([arXiv 2509.21557][gcite]). Anthropic's guide suggests drafting, then finding
+  a supporting quote per claim and retracting claims without one
+  ([Anthropic][halluc]).
+- *Don't bury readers in provenance.* A full claim-by-claim evidence view
+  lowered researchers' trust but didn't change what they did; checking every
+  claim was too costly ([PaperTrail, CHI 2026][papertrail]).
+
+**Tooling**
+
+- *Anthropic `search_result` blocks* ([docs][searchres]). A tool returns sources
+  as `search_result` blocks and Claude's citations carry `cited_text`, copied
+  from the cited block by the API rather than written by the model, and not
+  counted as output tokens. The citable unit is one text block, so passages
+  would be split into sentences. Available on the Claude API, Bedrock and
+  Google Cloud. MCP has no such content type, and clients drop these blocks
+  (Anthropic's Agent SDK did until [#574][sdk574]), so today it fits `/ask`,
+  where we make the API call, not LibreChat.
+- *MCP Apps / mcp-ui* ([MCP Apps][apps], [mcp-ui][mcpui]). A server can render
+  an evidence panel (quotes, verification badges, PMC links) in the chat while
+  the prose stays short. Upstream LibreChat supports MCP Apps behind
+  `mcpSettings.apps: true` ([#13831][lc13831]); cBioPortal's
+  `v0.8.7-custom-v1` has only the legacy mcp-ui renderer, though their
+  `v0.8.7-mcp-ui-meta` tag suggests they're exploring it.
+- *Paraphrase support checks* (SemanticCite, groundedness evaluators;
+  [overview][attr]) judge whether a paraphrase is backed by its source. They
+  belong in item 5's eval rather than the live chat; `verify_quote` already
+  covers verbatim quotes deterministically.
+
+[nng]: https://www.nngroup.com/articles/less-chat-more-answer/
+[spec]: https://model-spec.openai.com/2026-08-18.html
+[clarify]: https://arxiv.org/html/2407.13166v1
+[pplx]: https://ziptie.dev/blog/how-perplexity-ai-answers-work/
+[latent]: https://arxiv.org/html/2605.06285v1
+[cited]: https://arxiv.org/html/2605.06635v1
+[gemini]: https://support.google.com/gemini/answer/14143489
+[gcite]: https://arxiv.org/abs/2509.21557
+[halluc]: https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations
+[papertrail]: https://arxiv.org/abs/2602.21045
+[searchres]: https://platform.claude.com/docs/en/build-with-claude/search-results
+[sdk574]: https://github.com/anthropics/claude-agent-sdk-python/issues/574
+[apps]: https://blog.modelcontextprotocol.io/posts/2026-01-26-mcp-apps/
+[mcpui]: https://github.com/MCP-UI-Org/mcp-ui
+[lc13831]: https://github.com/danny-avila/LibreChat/pull/13831
+[attr]: https://futureagi.com/blog/evaluating-llm-citation-attribution-2026/
+
+## Experiment: answer-first instructions (item 7)
+
+2026-09-18, local LibreChat, Claude Sonnet 4.6. Condition A is the committed
+instructions; B adds an "Answer shape" section: lead with a 2–3 sentence
+answer and at most five key findings, then offer follow-ups; don't open with a
+clarifying question; gather evidence in parallel and verify quotes in one
+batch. Four questions, two runs each, one at a time, timed from LibreChat's
+event stream. Harness: `eval/chat_experiment/`. "Answer starts" is the first
+answer text after the last tool call; n = 2 per cell, so treat small gaps as
+noise.
+
+| Question | Cond | Answer starts, s | Total, s | Tool calls | Model calls | Words | Quotes (verify) | Follow-up offer |
+|---|---|---|---|---|---|---|---|---|
+| Casual ("oi what papers you have") | A | 4 | 10 | 1 | 2 | 186 | 0 | 1/2 |
+| | B | 4 | 9 | 1 | 2 | 134 | 0 | 2/2 |
+| Lookup (RRAS2 in msk_impact_50k_2026) | A | 29 | 47 | 10 | 4 | 487 | 9 (7) | 0/2 |
+| | B | 28 | 41 | 8 | 4 | 318 | 6 (5) | 2/2 |
+| Open: RAS in late-stage lung cancer | A | 90 | 145 | 22 | 9 | 1,118 | 15 (13) | 0/2 |
+| | B | 38 | 64 | 11 | 5 | 556 | 9 (9) | 2/2 |
+| Open: STK11 and immunotherapy | A | 98 | 133 | 24 | 10 | 1,099 | 10 (9) | 0/2 |
+| | B | 81 | 102 | 20 | 9 | 596 | 12 (6) | 2/2 |
+
+Across all runs, B halved median time to the answer (52 → 28 s) and median
+total time (88 → 49 s), halved answer length (791 → 404 words), used 37% fewer
+input and output tokens, and offered follow-ups every time (1/8 → 8/8). The
+casual and lookup questions barely changed; the open-ended ones gained most.
+STK11 stayed slow in B (81 s to the answer, 9 model calls) because the question
+spans many papers: evidence gathering, not writing, is its bottleneck.
+
+Quotes verified at a similar rate (A 29/34, B 20/27; B's drop is one run). Of
+the failures:
+
+- **Source text quality.** 83 of 407 papers have badly garbled text in the
+  passage index (over 50 run-together words per 1,000, e.g.
+  `HighTMBcorrelateswithefficacyofPD`; 26 more moderately), from PDF
+  extraction of multi-column layouts. No quote from them can verify, and BM25
+  can't match run-together words either. 157 papers have reference numbers
+  glued to words (`hotspot24`), which breaks exact quotes that drop them.
+  Re-extracting these (PMC BioC XML: `cbio-kb ingest bioc`) belongs in item 3.
+- **Unverified quotes kept anyway.** Claude sometimes kept a quotation after
+  `verify_quote` rejected it (the STK11 sentence from PMID 29657128 in three
+  answers; four rejected quotes in one B run), or quoted without checking.
+  Instructions don't enforce this reliably; quotes need to come from the tools
+  (item 8) or be checked after writing where the UI allows it (item 9).
+  Meanwhile `verify_quote` should say when a paper's text is garbled and
+  tolerate glued reference numbers.
 
 ## Baseline to beat
 

@@ -1,7 +1,8 @@
 """Markdown-paper indexer for the RAG-vs-agentic comparison.
 
-Walks ``data/raw/papers/{pmid}.md`` for a restricted PMID set, strips YAML
-frontmatter, chunks by sentence windows, embeds the chunks (a local
+Walks ``data/raw/papers/{pmid}.md`` for a restricted PMID set, splits each
+paper into anchored passages (sections, paragraphs and character offsets; see
+``cbio_kb.index.passages``), embeds the passages (a local
 sentence-transformers model by default, see ``cbio_kb.index.embed``), and
 writes ``faiss.index`` + ``meta.jsonl`` + ``index_config.json`` so the RAG
 runner can query over the same corpus the agentic runner walks. The config
@@ -25,7 +26,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
 import sys
 from pathlib import Path
 from typing import Iterable
@@ -33,44 +33,15 @@ from typing import Iterable
 import numpy as np
 
 from cbio_kb.index import embed as _embed
-
-_FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
+from cbio_kb.index import passages as _passages
 
 # Model for new builds (override with --embed-model or CBIO_EMBED_MODEL).
 EMBED_MODEL = _embed.DEFAULT_MODEL
 _BATCH_SIZE = 25  # also stays under Vertex's per-minute quota for Gemini builds
 
 
-def _strip_frontmatter(text: str) -> str:
-    m = _FRONTMATTER_RE.match(text)
-    return text[m.end():] if m else text
-
-
 def _read_pmid_list(path: Path) -> list[str]:
     return [ln.strip() for ln in path.read_text().splitlines() if ln.strip()]
-
-
-def _chunk_sentences(nlp, text: str, target_chars: int, overlap: int) -> list[str]:
-    doc = nlp(text)
-    sents = [s.text.strip() for s in doc.sents if s.text.strip()]
-    chunks: list[str] = []
-    cur: list[str] = []
-    cur_len = 0
-    for s in sents:
-        if cur and cur_len + len(s) > target_chars:
-            chunk = " ".join(cur)
-            chunks.append(chunk)
-            tail = chunk[-overlap:] if overlap > 0 else ""
-            cur = [tail, s] if tail else [s]
-            cur_len = len(" ".join(cur))
-        else:
-            cur.append(s)
-            cur_len += len(s)
-    if cur:
-        chunks.append(" ".join(cur))
-    if not chunks and text.strip():
-        chunks = [text[:target_chars]]
-    return chunks
 
 
 def embed_texts(
@@ -96,20 +67,24 @@ def iter_chunks(
     chunk_chars: int,
     overlap: int,
 ) -> list[dict]:
+    """Anchored passages for each paper (see ``cbio_kb.index.passages``)."""
     records: list[dict] = []
     for pmid in pmids:
         fpath = papers_dir / f"{pmid}.md"
         if not fpath.exists():
             print(f"[!] missing raw paper: {fpath}", file=sys.stderr)
             continue
-        body = _strip_frontmatter(fpath.read_text())
-        for idx, chunk in enumerate(
-            _chunk_sentences(nlp, body, target_chars=chunk_chars, overlap=overlap)
-        ):
+        _, found = _passages.passages(nlp, fpath.read_text(), target_chars=chunk_chars, overlap=overlap)
+        for idx, p in enumerate(found):
             records.append({
                 "pmid": pmid,
                 "chunk_id": idx,
-                "text": chunk,
+                "text": p.text,
+                "section": p.section,
+                "subsection": p.subsection,
+                "paragraph": p.paragraph,
+                "char_start": p.char_start,
+                "char_end": p.char_end,
             })
     return records
 
@@ -125,7 +100,8 @@ def _load_existing(out_dir: Path, args: argparse.Namespace):
     if not (meta_path.exists() and index_path.exists()):
         print(f"[!] --incremental: no index in {out_dir}; run a full build", file=sys.stderr)
         return None
-    expected = {"embed_model": args.embed_model, "chunk_chars": args.chunk_chars, "overlap": args.overlap}
+    expected = {"embed_model": args.embed_model, "chunker": _passages.CHUNKER_VERSION,
+                "chunk_chars": args.chunk_chars, "overlap": args.overlap}
     mismatched = {k: config.get(k) for k, v in expected.items() if config.get(k) != v}
     if mismatched:
         print(f"[!] --incremental: existing index differs {mismatched} from {expected}; "
@@ -155,7 +131,8 @@ def cmd_build(args: argparse.Namespace) -> int:
     print(f"[*] corpus: {len(pmid_list)} PMIDs from {args.pmid_list}")
     print("[*] loading spaCy (en_core_web_sm) for sentence splitting")
     try:
-        nlp = spacy.load("en_core_web_sm")
+        # Only sentence boundaries (from the parser) are needed.
+        nlp = spacy.load("en_core_web_sm", disable=["ner", "lemmatizer"])
     except OSError:
         print(
             "[!] spaCy model en_core_web_sm not installed. Run:\n"
@@ -227,6 +204,7 @@ def cmd_build(args: argparse.Namespace) -> int:
         config_path.write_text(json.dumps({
             "embed_model": args.embed_model,
             "embed_dim": int(embeddings.shape[1]),
+            "chunker": _passages.CHUNKER_VERSION,
             "chunk_chars": args.chunk_chars,
             "overlap": args.overlap,
             "n_papers": len(pmid_list),
@@ -263,7 +241,8 @@ def main(argv: list[str] | None = None) -> int:
     pb.add_argument("--pmid-list", default="eval/corpus_pmids.txt")
     pb.add_argument("--index-dir", default="data/paper_index")
     pb.add_argument("--chunk-chars", type=int, default=900)
-    pb.add_argument("--overlap", type=int, default=120)
+    pb.add_argument("--overlap", type=int, default=250,
+                    help="Max characters of whole trailing sentences each passage repeats")
     pb.add_argument("--batch-size", type=int, default=_BATCH_SIZE)
     pb.add_argument("--embed-model", default=EMBED_MODEL,
                     help="Hugging Face model id (runs locally) or gemini-embedding-001 (Vertex AI)")

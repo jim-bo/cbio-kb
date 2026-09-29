@@ -380,7 +380,7 @@ def build_parser() -> argparse.ArgumentParser:
     idx_bp.add_argument("--pmid-list", default="eval/corpus_pmids.txt")
     idx_bp.add_argument("--index-dir", default="data/paper_index")
     idx_bp.add_argument("--chunk-chars", type=int, default=900)
-    idx_bp.add_argument("--overlap", type=int, default=120)
+    idx_bp.add_argument("--overlap", type=int, default=250)
     # Default mirrors cbio_kb.index.papers._VERTEX_BATCH_SIZE; inlined to keep
     # parser construction free of the numpy/faiss import chain (CI runs `lint`
     # without the [server] extras installed).

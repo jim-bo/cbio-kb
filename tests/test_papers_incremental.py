@@ -8,6 +8,7 @@ faiss = pytest.importorskip("faiss")
 spacy = pytest.importorskip("spacy")
 
 from cbio_kb.index import papers  # noqa: E402
+from cbio_kb.index.passages import CHUNKER_VERSION  # noqa: E402
 
 DIM = 4
 
@@ -29,12 +30,13 @@ def test_incremental_build(tmp_path, monkeypatch):
     idx.add(old_vecs)
     faiss.write_index(idx, str(index_dir / "faiss.index"))
     (index_dir / "index_config.json").write_text(json.dumps(
-        {"embed_model": papers.EMBED_MODEL, "chunk_chars": 900, "overlap": 120}))
+        {"embed_model": papers.EMBED_MODEL, "chunker": CHUNKER_VERSION,
+         "chunk_chars": 900, "overlap": 250}))
     (raw / "333.md").write_text("---\npmid: 333\n---\nA new paper. It has two sentences.\n")
     pmid_list = tmp_path / "pmids.txt"
     pmid_list.write_text("222\n333\n")
 
-    def fake_load(_name):
+    def fake_load(_name, **_):
         nlp = spacy.blank("en")
         nlp.add_pipe("sentencizer")
         return nlp
@@ -54,6 +56,9 @@ def test_incremental_build(tmp_path, monkeypatch):
     assert rc == 0
     meta = [json.loads(line) for line in (index_dir / "meta.jsonl").read_text().splitlines()]
     assert [r["pmid"] for r in meta] == ["222", "333"]
+    assert meta[1] | {"text": None} == {"pmid": "333", "chunk_id": 0, "text": None, "section": "Text",
+                                        "subsection": "", "paragraph": 1,
+                                        "char_start": 0, "char_end": 34}
     assert embedded == ["A new paper. It has two sentences."]  # only the new paper
     out = faiss.read_index(str(index_dir / "faiss.index"))
     assert out.ntotal == 2
@@ -64,10 +69,25 @@ def test_incremental_refuses_mismatched_chunking(tmp_path, capsys):
     (tmp_path / "meta.jsonl").write_text("")
     faiss.write_index(faiss.IndexFlatIP(DIM), str(tmp_path / "faiss.index"))
     (tmp_path / "index_config.json").write_text(json.dumps(
-        {"embed_model": papers.EMBED_MODEL, "chunk_chars": 500, "overlap": 120}))
+        {"embed_model": papers.EMBED_MODEL, "chunker": CHUNKER_VERSION,
+         "chunk_chars": 500, "overlap": 250}))
 
     class Args:
-        chunk_chars, overlap, embed_model = 900, 120, papers.EMBED_MODEL
+        chunk_chars, overlap, embed_model = 900, 250, papers.EMBED_MODEL
+
+    assert papers._load_existing(tmp_path, Args) is None
+    assert "run a full build" in capsys.readouterr().err
+
+
+def test_incremental_refuses_index_from_older_chunker(tmp_path, capsys):
+    # Passages from the character-overlap chunker have no anchors or offsets.
+    (tmp_path / "meta.jsonl").write_text("")
+    faiss.write_index(faiss.IndexFlatIP(DIM), str(tmp_path / "faiss.index"))
+    (tmp_path / "index_config.json").write_text(json.dumps(
+        {"embed_model": papers.EMBED_MODEL, "chunk_chars": 900, "overlap": 250}))
+
+    class Args:
+        chunk_chars, overlap, embed_model = 900, 250, papers.EMBED_MODEL
 
     assert papers._load_existing(tmp_path, Args) is None
     assert "run a full build" in capsys.readouterr().err
@@ -79,10 +99,11 @@ def test_incremental_refuses_other_embed_model(tmp_path, capsys):
     (tmp_path / "meta.jsonl").write_text("")
     faiss.write_index(faiss.IndexFlatIP(DIM), str(tmp_path / "faiss.index"))
     (tmp_path / "index_config.json").write_text(json.dumps(
-        {"embed_model": "gemini-embedding-001", "chunk_chars": 900, "overlap": 120}))
+        {"embed_model": "gemini-embedding-001", "chunker": CHUNKER_VERSION,
+         "chunk_chars": 900, "overlap": 250}))
 
     class Args:
-        chunk_chars, overlap, embed_model = 900, 120, "BAAI/bge-base-en-v1.5"
+        chunk_chars, overlap, embed_model = 900, 250, "BAAI/bge-base-en-v1.5"
 
     assert papers._load_existing(tmp_path, Args) is None
     assert "embed_model" in capsys.readouterr().err

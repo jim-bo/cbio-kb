@@ -28,6 +28,8 @@ def _cmd_ingest_bioc(args: argparse.Namespace) -> int:
         mapping_csv=Path(args.mapping),
         out_dir=Path(args.out_dir),
         pdf_dir=Path(args.pdf_dir),
+        replace=args.replace,
+        backup_dir=Path(args.backup_dir) if args.backup_dir else None,
     )
 
 
@@ -351,6 +353,11 @@ def build_parser() -> argparse.ArgumentParser:
     bc.add_argument("--mapping", default="data/pmid_to_pmcid.csv")
     bc.add_argument("--out-dir", default="data/raw/papers")
     bc.add_argument("--pdf-dir", default="data/raw/pdfs")
+    bc.add_argument("--replace", action="store_true",
+                    help="Also re-fetch existing raw papers not from BioC (PDF/web text), "
+                         "which has sections and paragraphs; old files are backed up")
+    bc.add_argument("--backup-dir", default=None,
+                    help="Where --replace keeps the old files (default: data/raw/papers_pre_bioc)")
     bc.set_defaults(func=_cmd_ingest_bioc)
 
     idx = sub.add_parser("index", help="FAISS passage index")

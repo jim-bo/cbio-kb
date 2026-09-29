@@ -132,7 +132,16 @@ def model_vectors(model: str, texts: list[str], qtexts: list[str], index_dir: Pa
     slug = model.replace("/", "__")
     doc_path = cache / f"{slug}.docs.npy"
     timing: dict = {}
-    if doc_path.exists():
+    config_path = index_dir / "index_config.json"
+    built_with = json.loads(config_path.read_text()).get("embed_model") if config_path.exists() else None
+    if model == built_with:
+        # The index already holds this model's vectors for exactly these chunks;
+        # the per-model cache doesn't know which chunks it was built from.
+        import faiss
+
+        idx = faiss.read_index(str(index_dir / "faiss.index"))
+        docs = idx.reconstruct_n(0, idx.ntotal)
+    elif doc_path.exists():
         docs = np.load(doc_path)
     else:
         t0 = time.perf_counter()
@@ -164,6 +173,7 @@ def main(argv: list[str] | None = None) -> int:
 
     import ai_search.hybrid as hybrid
 
+    hybrid._INDEX_DIR = index_dir  # BM25 must come from the index being scored
     results: dict[str, dict] = {}
     variants = list(args.models) + ([] if args.no_hybrid else [NO_DENSE])
     for model in variants:

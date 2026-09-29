@@ -249,3 +249,65 @@ def test_retracted_paper_is_flagged():
     assert out["retracted"] is True
     study = call("get_study_papers", study_id="brca_tcga_pan_can_atlas_2018")
     assert any(p.get("retracted") for p in study["papers"] if p["pmid"] == "32214244")
+
+
+@pytest.fixture
+def anchored_index(tmp_path, monkeypatch):
+    """A passage index from the anchored chunker (cbio_kb.index.passages)."""
+    import re
+    from types import SimpleNamespace
+
+    from cbio_kb.index.passages import passages
+
+    class SentenceSplitter:
+        def pipe(self, texts, batch_size=64):
+            for t in texts:
+                yield SimpleNamespace(sents=[SimpleNamespace(text=mm.group(), start_char=mm.start())
+                                             for mm in re.finditer(r"[^.!?]+[.!?]*\s*", t)])
+
+    raw = ("## Full Text\n\n# Somatic mutations in lung adenocarcinoma\n\n"
+           "## Results\n\nKRAS mutations correlate with smoker status (P=0.021). "
+           "EGFR and KRAS mutations were mutually exclusive.\n\n"
+           "The mutations were validated in all of these samples.\n\n"
+           "## Discussion\n\nThese pathways are candidates for therapy.\n\n"
+           "## References\n\n1. Weir BA. Nature 2007.\n")
+    clean, found = passages(SentenceSplitter(), raw, target_chars=60, overlap=0)
+    lines = [json.dumps({"pmid": "18948947", "chunk_id": i, "text": p.text, "section": p.section,
+                         "subsection": p.subsection, "paragraph": p.paragraph,
+                         "char_start": p.char_start, "char_end": p.char_end})
+             for i, p in enumerate(found)]
+    (tmp_path / "meta.jsonl").write_text("\n".join(lines) + "\n")
+    (tmp_path / "index_config.json").write_text(json.dumps({"chunker": "sections-1", "overlap": 0}))
+    monkeypatch.setattr(m, "INDEX_DIR", tmp_path)
+    m._paper_texts.cache_clear()
+    m._loose_corpus.cache_clear()
+    yield clean
+    m._paper_texts.cache_clear()
+    m._loose_corpus.cache_clear()
+
+
+def test_anchored_index_rebuilds_the_clean_text(anchored_index):
+    pt = m._paper_texts()["18948947"]
+    assert " ".join(pt.text.split()) == " ".join(anchored_index.split())
+    assert "Weir BA" not in pt.text  # the reference list isn't indexed
+
+
+def test_verify_quote_reports_the_paragraph_anchor(anchored_index):
+    out = call("verify_quote", pmid="18948947",
+               quote="mutually exclusive. The mutations were validated")  # crosses a paragraph
+    assert out["verified"] and out["anchor"] == "§Results ¶1"
+    out = call("verify_quote", pmid="18948947", quote="validated in all of these samples")
+    assert out["anchor"] == "§Results ¶2"
+    assert call("verify_quote", pmid="18948947",
+                quote="candidates for therapy")["anchor"] == "§Discussion ¶1"
+
+
+def test_get_passage_by_anchor(anchored_index):
+    out = call("get_passage", pmid="18948947", anchor="§Results ¶2", context=0)
+    assert out["passages"][0]["text"] == "The mutations were validated in all of these samples."
+    assert out["passages"][0]["anchor"] == "§Results ¶2"
+    assert call("get_passage", pmid="18948947", anchor="results ¶1", context=0)[
+        "passages"][0]["text"].startswith("KRAS mutations")
+    miss = call("get_passage", pmid="18948947", anchor="§Methods ¶1")
+    assert "Title, Results, Discussion" in miss["error_message"]
+    assert "chunk_id or anchor" in call("get_passage", pmid="18948947")["error_message"]

@@ -30,7 +30,8 @@ value; the paper describes the cohort at publication time.
   `get_paper(pmid)` for the detail you need.
 - **Factual question about findings** → `search_auto(query)` (routes to the cheapest
   strategy that works for the question), or `search_hybrid` directly; then
-  `get_passage(pmid, chunk_id)` for the exact wording and surrounding sentences,
+  `get_passage(pmid, chunk_id)` (or its `anchor`, e.g. `§Results ¶4`) for the exact
+  wording and surrounding sentences,
   and `verify_quote` on each sentence you'll quote.
 - **Cross-paper question about a gene / drug / cancer type / method** →
   `get_entity(kind, id)`, which lists the papers citing it; open the relevant ones

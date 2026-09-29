@@ -323,11 +323,19 @@ def _passage_view(chunks: list[dict], top_k: int, max_per_paper: int = 0) -> lis
             **({"retracted": True} if paper and paper.retracted else {}),
             **({"text_quality": "garbled: paraphrase, don't quote"} if text and text.garbled else {}),
             "chunk_id": c.get("chunk_id"),
+            **({"anchor": a} if text and (a := _chunk_anchor(text, c.get("chunk_id"))) else {}),
             "score": round(float(score), 4) if score is not None else None,
             "path": f"papers/{pmid}.md",
             "text": c.get("text", ""),
         })
     return out
+
+
+def _chunk_anchor(pt: "PaperText", chunk_id: Any) -> str | None:
+    try:
+        return pt.anchor_at(pt.starts[pt.chunk_ids.index(int(chunk_id))])
+    except (TypeError, ValueError):
+        return None
 
 
 def _resolve_study(study_id: str) -> str | None:
@@ -912,11 +920,17 @@ _GARBLED_NOTE = ("garbled: this paper's extracted text has words run together an
 
 @dataclass
 class PaperText:
-    """A paper's full text rebuilt from the passage index, and where each chunk starts."""
+    """A paper's full text rebuilt from the passage index, and where each chunk
+    starts. Indexes from the anchored chunker also give each chunk's end,
+    heading (subsection, else section) and first paragraph, so a text offset
+    maps to ``§Heading ¶N``."""
 
     text: str
     chunk_ids: list[int]
     starts: list[int]
+    ends: list[int] = field(default_factory=list)
+    sections: list[str] = field(default_factory=list)
+    paragraphs: list[int] = field(default_factory=list)
 
     @cached_property
     def garbled(self) -> bool:
@@ -929,32 +943,76 @@ class PaperText:
 
     def chunk_text(self, chunk_id: int) -> str:
         i = self.chunk_ids.index(chunk_id)
+        if self.ends:
+            return self.text[self.starts[i]:self.ends[i]]
         end = self.starts[i + 1] if i + 1 < len(self.starts) else len(self.text)
         return self.text[self.starts[i]:end].strip()
+
+    def anchor_at(self, offset: int) -> str | None:
+        """``§Section ¶N`` of the paragraph containing ``offset``."""
+        if not self.sections:
+            return None
+        i = max(0, bisect.bisect_right(self.starts, offset) - 1)
+        # a chunk's text holds its later paragraphs' breaks ("\n\n")
+        extra = self.text.count("\n\n", self.starts[i], max(self.starts[i], offset))
+        return _anchor(self.sections[i], self.paragraphs[i] + extra)
+
+    def chunk_for_anchor(self, section: str, paragraph: int) -> int | None:
+        """The chunk holding paragraph ``paragraph`` of ``section`` (case-insensitive)."""
+        want = section.strip().lower()
+        best = None
+        for i, sec in enumerate(self.sections):
+            if sec.lower() != want:
+                continue
+            last = self.paragraphs[i] + self.text.count("\n\n", self.starts[i], self.ends[i])
+            if self.paragraphs[i] <= paragraph <= last:
+                return self.chunk_ids[i]
+            if self.paragraphs[i] <= paragraph:
+                best = self.chunk_ids[i]
+        return best
+
+
+def _anchor(section: str, paragraph: int) -> str:
+    return f"§{section} ¶{paragraph}"
+
+
+_ANCHOR_RE = re.compile(r"^\s*(?:PMID:?\s*\d+\s*)?§?\s*(.+?)\s*¶\s*(\d+)\s*$")
 
 
 @lru_cache(maxsize=1)
 def _paper_texts() -> dict[str, PaperText]:
     """Every indexed paper's continuous text, rebuilt from ``meta.jsonl``.
 
-    Each chunk repeats the last ``overlap`` characters of the one before it
-    (``cbio_kb.index.papers._chunk_sentences``). Dropping that prefix restores
-    the text exactly, so a quote that crosses a chunk boundary still matches.
+    Anchored indexes (``cbio_kb.index.passages``) give each chunk's offsets in
+    the paper's clean text, so chunks are laid back at their offsets; the gaps
+    between them are whitespace. Older indexes repeat the last ``overlap``
+    characters of the previous chunk, and dropping that prefix restores the
+    text. Either way a quote that crosses a chunk boundary still matches.
     """
     overlap = int((_read_json(INDEX_DIR / "index_config.json") or {}).get("overlap") or 0)
-    chunks: dict[str, list[tuple[int, str]]] = defaultdict(list)
+    chunks: dict[str, list[dict]] = defaultdict(list)
     with (INDEX_DIR / "meta.jsonl").open(encoding="utf-8") as fh:
         for line in fh:
             rec = json.loads(line)
-            chunks[str(rec["pmid"])].append((int(rec["chunk_id"]), rec["text"]))
+            chunks[str(rec["pmid"])].append(rec)
     out: dict[str, PaperText] = {}
     for pmid, recs in chunks.items():
-        recs.sort()
+        recs.sort(key=lambda r: int(r["chunk_id"]))
+        if all("char_start" in r for r in recs):
+            buf = [" "] * max(int(r["char_end"]) for r in recs)
+            for r in recs:
+                buf[int(r["char_start"]):int(r["char_end"])] = r["text"]
+            out[pmid] = PaperText(
+                "".join(buf), [int(r["chunk_id"]) for r in recs],
+                [int(r["char_start"]) for r in recs], [int(r["char_end"]) for r in recs],
+                [r.get("subsection") or r.get("section") or "Text" for r in recs], [int(r.get("paragraph") or 1) for r in recs])
+            continue
         parts: list[str] = []
         ids: list[int] = []
         starts: list[int] = []
         pos, prev = 0, ""
-        for cid, raw in recs:
+        for r in recs:
+            cid, raw = int(r["chunk_id"]), r["text"]
             tail = prev[-overlap:] if overlap else ""
             body = raw[len(tail):].lstrip() if tail and raw.startswith(tail) else raw
             sep = " " if parts else ""
@@ -1061,7 +1119,9 @@ def _closest(pt: PaperText, quote: str, n: int = 3) -> list[dict]:
     for r, a, b in scored:  # a sentence and a pair containing it are one candidate
         if r >= 0.3 and len(picked) < n and all(b <= pa or a >= pb for _, pa, pb in picked):
             picked.append((r, a, b))
-    return [{"chunk_id": pt.chunk_at(a), "text": " ".join(pt.text[a:b].split())[:700],
+    return [{"chunk_id": pt.chunk_at(a),
+             **({"anchor": anc} if (anc := pt.anchor_at(a)) else {}),
+             "text": " ".join(pt.text[a:b].split())[:700],
              "similarity": round(r, 2)} for r, a, b in picked]
 
 
@@ -1142,20 +1202,35 @@ def _paper_brief(pid: str) -> dict[str, Any]:
 @mcp.tool(annotations=_RO)
 def get_passage(
     pmid: Pmid,
-    chunk_id: Annotated[int, Field(description="Passage number, from a search result's chunk_id "
-                                               "or verify_quote's.", ge=0)],
+    chunk_id: Annotated[int | None, Field(description="Passage number, from a search result's "
+                                                      "chunk_id or verify_quote's.", ge=0)] = None,
     context: Annotated[int, Field(description="Neighbouring passages to include on each side.",
                                   ge=0, le=3)] = 1,
+    anchor: Annotated[str | None, Field(description="Instead of chunk_id: a paragraph anchor "
+                                                    "such as '§Results ¶4', from a search result "
+                                                    "or verify_quote.")] = None,
 ) -> dict:
     """Read a passage of a paper's full text verbatim, with its neighbours.
 
     Use it to check the exact wording, the surrounding sentences, and what a
     statistic refers to before quoting or reporting a number from a search result.
+    Give either `chunk_id` or `anchor`.
     """
     pid = _norm_pmid(pmid)
     pt = _text_for(pid)
     if isinstance(pt, dict):
         return pt
+    if anchor is not None and chunk_id is None:
+        m = _ANCHOR_RE.match(anchor)
+        found = pt.chunk_for_anchor(m.group(1), int(m.group(2))) if m and pt.sections else None
+        if found is None:
+            sections = list(dict.fromkeys(pt.sections))
+            return _err(f"No paragraph {anchor!r} in PMID {pid}"
+                        + (f"; its sections are {', '.join(sections)}." if sections
+                           else "; this index has no anchors, so use chunk_id."))
+        chunk_id = found
+    if chunk_id is None:
+        return _err("Give chunk_id or anchor.")
     if chunk_id not in pt.chunk_ids:
         return _err(f"PMID {pid} has passages {pt.chunk_ids[0]}-{pt.chunk_ids[-1]}.")
     ids = [c for c in pt.chunk_ids if abs(c - chunk_id) <= context]
@@ -1163,7 +1238,8 @@ def get_passage(
         **_paper_brief(pid),
         "text_source": _PAPER_TEXT,
         **({"text_quality": _GARBLED_NOTE} if pt.garbled else {}),
-        "passages": [{"chunk_id": c, "text": pt.chunk_text(c)} for c in ids],
+        "passages": [{"chunk_id": c, **({"anchor": anc} if (anc := _chunk_anchor(pt, c)) else {}),
+                      "text": pt.chunk_text(c)} for c in ids],
         "n_passages": len(pt.chunk_ids),
     }
 
@@ -1217,6 +1293,7 @@ def verify_quote(
         **brief, "verified": True, "match": level, "text_source": _PAPER_TEXT,
         "paper_wording": wording,
         "chunk_id": pt.chunk_at(a),
+        **({"anchor": anc} if (anc := pt.anchor_at(a)) else {}),
         "context": ("…" if lo else "") + context + ("…" if hi < len(pt.text) else ""),
         "pmc_link": _pmc_link(catalog().papers[pid].pmcid, wording) if pid in catalog().papers else None,
     }

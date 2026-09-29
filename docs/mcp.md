@@ -35,7 +35,7 @@ with either server's.
 | `search_hybrid(query, top_k, max_per_paper)` | Dense + BM25 + wiki-graph passages, RRF-fused and reranked. | passage index |
 | `search_dense(query, top_k)` | Dense-only passages. | passage index |
 | `route_query(query)` / `search_auto(query)` | The eval-trained router: lookup/definition → hybrid, list/synthesis → agentic (or hybrid plus a walk hint when agentic is off). | passage index |
-| `get_passage(pmid, chunk_id, context)` | A passage of the paper's full text, verbatim, with its neighbours: the exact wording behind a search result. | passage index (`meta.jsonl`) |
+| `get_passage(pmid, chunk_id \| anchor, context)` | A passage of the paper's full text, verbatim, with its neighbours: the exact wording behind a search result. Search results and `verify_quote` give each passage a paragraph anchor such as `§Results ¶4`. | passage index (`meta.jsonl`) |
 | `verify_quote(pmid, quote)` | Checks a quotation against the paper's full text before it's presented as one. A match returns the paper's own wording and a PMC link that opens at that sentence; no match returns the closest sentences and any other papers containing the text. | passage index (`meta.jsonl`) |
 | `search_agentic(query)` | Server-side graph-walking agent that returns a cited answer. Only registered when `ANTHROPIC_API_KEY` is set (or `CBIO_KB_MCP_ENABLE_AGENTIC=1`), because it spends tokens on the server's account. | `ANTHROPIC_API_KEY` |
 

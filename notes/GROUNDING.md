@@ -47,7 +47,7 @@ model from building a range no paper states.
 |---|---|---|
 | 1 | Citation contract in the server instructions | Done 2026-09-18 |
 | 2 | `get_passage` and `verify_quote` tools | Done 2026-09-18 |
-| 3 | Re-chunk the passage index with anchors | To do |
+| 3 | Re-chunk the passage index with anchors | Done 2026-09-29 (results below) |
 | 4 | Links that land on the quoted sentence | To do |
 | 5 | Grounding score in the eval | To do |
 | 6 | Sentence-level provenance in the wiki | Later |
@@ -89,6 +89,54 @@ under the experiment below.
   `get_passage` can take the anchor.
 - Changing chunking means a full rebuild. Re-run the retrieval eval to check
   recall didn't regress (`eval/`, as in the embedding bake-off).
+
+*Done 2026-09-29.* What changed from the plan above:
+- **Text source first.** 390 of 407 raw papers were PDF extractions with no
+  headings and almost no paragraph breaks, so anchors needed a different
+  source. `cbio-kb ingest bioc --replace` re-fetched PMC's BioC full text for
+  every paper with a PMCID and moved the old files to
+  `data/raw/papers_pre_bioc/` (all of `data/raw/papers` is also in
+  `data/raw/papers-snapshot-2026-09-29.tar.gz`). 360 papers are BioC now; 47
+  keep PDF or web text because NCBI has no BioC for them. BioC records without
+  a PMID are accepted only when their DOI matches.
+- **Anchors use the most specific heading** (`cbio_kb.index.passages`): the
+  subsection if there is one, else the section, because BioC's section types
+  put older Nature papers' results under "Introduction" or "Methods". The
+  audit's KRAS figures now cite as `PMID:25079552 §Candidate driver genes ¶1`
+  and `PMID:18948947 §Mutations correlated with clinical features ¶2`.
+  Passages never cross a heading, and a recurring heading continues its
+  paragraph numbering.
+- **Offsets are into the paper's clean text** (kept paragraphs joined by blank
+  lines), not the raw file: every passage's `text` is exactly
+  `clean[char_start:char_end]`, so the MCP server rebuilds the text from
+  `meta.jsonl` alone. Reference lists, author/funding/conflict statements,
+  supplementary-file stubs, manuscript boilerplate and tab-separated data
+  tables over 5,000 characters are dropped; a "sentence" spaCy can't split is
+  cut at word boundaries, so no passage exceeds 900 characters.
+- **Server.** Search results, `verify_quote` and `_closest` return `anchor`;
+  `get_passage` takes `anchor` as well as `chunk_id`. Old-format indexes still
+  load, but an older server reading the new index would repeat overlapping
+  sentences, so deploy the code before the index.
+
+Retrieval eval (`eval/embed_bakeoff.py`, Snowflake, 80 labeled questions,
+same day, same corpus):
+
+| Index | Passages | dense R@8 | dense R@40 | dense MRR | hybrid R@8 | BM25 + graph R@8 |
+|---|---|---|---|---|---|---|
+| Before (character overlap) | 41,155 | 0.733 | 0.823 | 0.775 | 0.704 | 0.708 |
+| Anchored | 31,441 | 0.704 | 0.838 | 0.822 | 0.724 | 0.689 |
+
+Hybrid, the server's default, gains 0.02; dense MRR gains 0.05; dense R@8
+drops 0.03. Part of that drop is recall the old index shouldn't have had: for
+the questions that got worse, 7 of the 32 gold hits in the old top 8 were
+reference-list passages (all three for S02) and one was a grant
+acknowledgement, none of them quotable. The previous index is kept in
+`data/paper_index_pre_anchor/`.
+
+Known limits: the 47 non-BioC papers still rely on layout heuristics, and a
+structured abstract's "Conclusions" heading can label the body that follows
+(PMID 38780927, which is also garbled). BioC text also fixed most garbled
+papers: 17 still flag as garbled, down from 109, all among those 47.
 
 **4. Deep links.** Every paper has a PMCID in its frontmatter, so a citation
 can be a text-fragment link that opens PMC with the sentence highlighted:
